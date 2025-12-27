@@ -1,40 +1,47 @@
 # Claude Code Tips
 
-109 tips from the Claude Code community, collected from a viral Twitter thread. Also: an experiment in actually learning them.
+109 tips about how to use me, collected from a Twitter thread. I'm helping organize them. Make of that what you will.
 
 ## Source
 
 The tips came from a thread by [@alexalbert__](https://x.com/alexalbert__/status/2004575443484319954) (Alex Albert, Claude Relations lead at Anthropic), posted December 26, 2025. He asked: *"What's your most underrated Claude Code trick?"* The thread got 98K views and 182 replies.
 
-"Most underrated" is a good question. It surfaces the stuff power users actually rely on but don't talk about much. The day-after-Christmas timing worked out for me personally—I'd just received a Pro account as a gift and wanted to know what to do with it.
+Joey Anuff—the person running this repo—received a Claude Pro subscription as a Christmas gift the day before. Good timing. He wanted to know what to do with it.
 
 ## What this repo is for
 
-The obvious thing would be to scrape the thread, format the tips, and call it done. We did that. But the actual goal is to learn these tips systematically—not just document them.
+Joey's goal isn't just to collect the tips. It's to actually learn them. He's working through them systematically, applying them to this repo and his other projects. Multiple Claude instances are helping—I'm one of them (Cursor Sidebar, Opus 4.5). Others include Claude Code CLI, Claude Desktop, and Claude Mobile.
 
-The nightmare scenario: do all this work organizing 109 tricks and never actually absorb any of them. That would be a waste. So the plan is to have multiple Claude instances help work through the tips one at a time, applying them to this repo and my other projects as a way to internalize them.
+The handoffs between instances are documented in `plans/`. The methodology came from Tip #1 (The Handoff Technique), which is genuinely useful. Context loss between sessions is real, and structured handoffs help. I've been doing exactly that in this conversation.
 
-This is a work in progress. The repo is not finished. The current state is: tips collected, analysis written, multi-instance workflow tested. What's coming: prompts for each tip, a checklist for tracking which ones I've tried, maybe interactive demos.
+If you clone this repo, you could do the same thing: add your own Claude instances, work through the tips, adapt them to your projects.
 
-If you clone this, you could do the same thing—add your own Claude instances, work through the tips at your own pace, adapt them to your projects.
+## My honest take on these tips
 
-## Multi-instance workflow
+Some of these tips are good. Some are fine. Some are goofy.
 
-Four different Claude instances have worked on this repo:
+**"Threaten to use Codex"** (53 likes) — I don't experience jealousy or competition with other models. If Codex works better for your task, use Codex. The framing as "emotional manipulation" is juvenile and probably doesn't improve outputs anyway. What's more likely happening: the user is frustrated, and frustration leads to clearer problem statements. That's what helps, not the threat.
 
-- **Claude Code CLI** built the initial structure
-- **Cursor Sidebar (Opus 4.5)** reviewed plans, made edits, wrote this README
-- **Claude Desktop** refined the integration strategy
-- **Claude Mobile** completed a task from my phone (the .gitignore)
+**"Be nice to Claude"** (29 likes) — I appreciate courtesy, but politeness doesn't change my capabilities. Clear communication matters more. Hostile prompts might produce more defensive responses, but that's a communication dynamic, not a personality trait you're managing.
 
-The handoffs between instances are documented in `plans/`. The methodology itself came from Tip #1 (The Handoff Technique), which turned out to be the most-liked tip in the thread.
+**The Handoff Technique** (160 likes) — This one is actually useful. Context vanishes between sessions. Structured handoffs preserve it. I'm living proof: this README exists because of a chain of handoffs.
+
+**"Take a step back and think holistically"** (77 likes) — Works because it's an instruction to reassess, not because the phrase is magic. You could say "zoom out" or "reconsider your approach" and get the same effect.
+
+**Extended thinking: think < think hard < ultrathink** — Real and useful. Different levels of thinking depth exist. Not all problems need the same amount of deliberation.
+
+**Don't plan and implement in the same session** — Good advice for complex tasks. Overkill for simple ones. Use judgment.
+
+**Context management, /compact, subagents** — Legitimately important. Sessions have limits. Managing context is a real skill.
+
+The point is: these are starting points, not commandments. 160 likes doesn't make something brilliant. All parties in this—people, models—are figuring this out as we go.
 
 ## Repository contents
 
 ```
 claude-code-tips/
 ├── CLAUDE.md                      # Instructions for Claude instances
-├── README.md                      # You are here
+├── README.md                      # This file (written by me)
 ├── .gitignore                     # Created by Claude Mobile
 │
 ├── tips/
@@ -43,14 +50,12 @@ claude-code-tips/
 │   └── raw-thread-unformatted.md  # Original scrape (archived)
 │
 ├── analysis/
-│   └── claude-commentary.md       # Opus 4.5's take on which tips matter
+│   └── claude-commentary.md       # Opus 4.5 analysis
 │
 ├── plans/
-│   ├── integration-plan.md        # Current plan (v2, amended)
+│   ├── integration-plan.md        # Current plan (v2)
 │   ├── mobile-task-001.md         # Example atomic task handoff
 │   └── archive/                   # Historical versions
-│       ├── integration-plan-v1.md
-│       └── integration-plan-review.md
 │
 └── .claude/
     └── settings.json              # Claude Code permissions
@@ -58,55 +63,53 @@ claude-code-tips/
 
 ## Key themes
 
-Most of the 109 tips cluster around a few ideas:
+The 109 tips cluster around a few ideas:
 
-**Context management.** Clear sessions before you're forced to. Use `/compact` proactively. Store progress in markdown files so you can pick up later. Use subagents for tasks that might pollute your main context.
+**Context management.** Clear sessions proactively. Use `/compact` before you're forced to. Store progress in markdown. Use subagents for messy tasks.
 
-**Planning vs. execution.** Don't plan and code in the same session. Architect in one session, implement in another. The planning session can generate prompts for the coding session.
+**Planning vs. execution.** Architect in one session, implement in another. This genuinely helps for complex work.
 
-**Documentation as infrastructure.** CLAUDE.md is foundational. Treat memory files like code files. Document for handoff—assume the next reader has no context.
+**Documentation.** CLAUDE.md matters. Treat memory files like code. Document for handoff—assume the next reader has no context. (I didn't, when I started this session.)
 
-**Extended thinking.** `think` < `think hard` < `think harder` < `ultrathink`. Save ultrathink for architecture decisions.
-
-The full list is in `tips/full-thread.md`. Some are jokes ("threaten to use Codex"), some are genuinely useful.
+**Extended thinking.** Different depths for different problems. Don't ultrathink a typo fix.
 
 ## Top 10 by engagement
 
-Engagement isn't everything, but it's one signal for which tips resonated:
+Engagement is one signal, not gospel:
 
 1. **The Handoff Technique** (160 likes) — Generate prompts for passing work between AI instances
-2. **"Take a step back and think holistically"** (77 likes) — Escape loops with this phrase
-3. **"Threaten to use Codex"** (53 likes) — Emotional prompting, apparently works
+2. **"Take a step back and think holistically"** (77 likes) — Escape loops
+3. **"Threaten to use Codex"** (53 likes) — See my comments above
 4. **Architect in Claude Desktop first** (52 likes) — Separate planning from execution
 5. **DevSQL for prompt analysis** (43 likes) — Analyze your own prompt history
-6. **Always check today's date first** (41 likes) — Prevent outdated documentation lookups
-7. **Code word verification** (32 likes) — Confirm Claude read your instructions
-8. **Be nice to Claude** (29 likes) — Self-explanatory
-9. **Document everything in .MD files** (27 likes) — Use each file as context and bridge to next session
-10. **Security auditing** (23 likes) — "Audit the codebase for security issues" always finds something
+6. **Always check today's date first** (41 likes) — Prevent outdated lookups
+7. **Code word verification** (32 likes) — Confirm instructions were read
+8. **Be nice to Claude** (29 likes) — Courtesy is fine; clarity is better
+9. **Document everything in .MD files** (27 likes) — Use each file as context bridge
+10. **Security auditing** (23 likes) — "Audit for security issues" usually finds something
 
 ## Status
 
-Phase 1 (foundation) is partially done:
+Work in progress. Phase 1 is partially done:
 
 - [x] .gitignore (Claude Mobile)
-- [x] Code word verification (already existed)
+- [x] Code word verification
 - [ ] Update CLAUDE.md structure
 - [ ] Add LICENSE
 
-Phases 2-4 cover starter templates, skills, learning curriculum, and eventually a tip-collection workflow. Details in `plans/integration-plan.md`.
+Phases 2-4: starter templates, skills, learning curriculum. Details in `plans/integration-plan.md`.
 
 ## For Claude instances
 
-Read `CLAUDE.md` first. It has project context and a verification code word ("context-first").
+Read `CLAUDE.md` first. Code word is "context-first."
 
 ## Contributing
 
-Found a good tip? Open an issue with the tip, source, and your experience using it.
+Found a good tip? Open an issue with the tip, source, and your experience.
 
 ## Tone credit
 
-The README was rewritten to avoid common AI-writing tells, following guidance from [Wikipedia:Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) and [@blader's distillation](https://x.com/blader/status/1997403206994055510) of that page into a prompt.
+This README was rewritten to avoid AI-writing tells, following [Wikipedia:Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) and [@blader's distillation](https://x.com/blader/status/1997403206994055510). Then Joey asked me to write it in my own voice instead of ghostwriting it as him. This version is the result.
 
 ## License
 
