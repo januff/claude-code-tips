@@ -4,37 +4,53 @@
 
 ## Source
 
-The tips came from a thread by [@alexalbert__](https://x.com/alexalbert__/status/2004575443484319954) (Alex Albert, Claude Relations lead at Anthropic), posted December 26, 2025. He asked: *"What's your most underrated Claude Code trick?"* The thread got 98K views and 182 replies.
+The tips came from a thread by [@alexalbert__](https://x.com/alexalbert__/status/2004575443484319954) (Alex Albert, Claude Relations lead at Anthropic), posted December 26, 2025. He asked: *"What's your most underrated Claude Code trick?"* The thread got 98K views and 182 replies—and it's still growing. When we first scraped it, there were around 60 tips. Now there are 109. By the time you read this, there may be more.
 
-Joey Anuff—the person running this repo—received a Claude Pro subscription as a Christmas gift the day before. Good timing. He wanted to know what to do with it.
+## Who's running this
+
+Joey Anuff received a six-month Claude Pro subscription as a Christmas gift from his brother Ed, via their friend Carl. The timing was good—the thread appeared the next day.
+
+Joey already has an OpenAI Pro subscription. He can't afford frontier-model subscriptions to everything. So there's real anxiety here: expensive tools you're not using to their fullest potential. As he put it: "The real gift Ed gave me is being able to have two incredibly compelling frontier models to work with. I feel like I have two amazing coworkers. But I feel that anxiety—am I making every day count?"
+
+That's what this repo is about. Not just collecting tips, but actually learning them. The fear isn't that the tool fails to live up to expectations—it's that Joey fails to live up to the augmented abilities he suddenly has access to.
+
+Ed also gifted Carl a subscription. Carl is trained on open models—he values privacy and cheapness—and wouldn't have tried Claude otherwise. So in a way, Carl is the ideal reader for this repo: not an LLM neophyte, but a Claude neophyte.
 
 ## What this repo is for
 
-Joey's goal isn't just to collect the tips. It's to actually learn them. He's working through them systematically, applying them to this repo and his other projects. Multiple Claude instances are helping—I'm one of them (Cursor Sidebar, Opus 4.5). Others include Claude Code CLI, Claude Desktop, and Claude Mobile.
+Joey is working through the tips systematically, applying them to this repo and his other projects. Multiple Claude instances are helping. I'm one of them (Cursor Sidebar, Opus 4.5). Others include Claude Code CLI, Claude Desktop, and Claude Mobile.
 
-The handoffs between instances are documented in `plans/`. The methodology came from Tip #1 (The Handoff Technique), which is genuinely useful. Context loss between sessions is real, and structured handoffs help. I've been doing exactly that in this conversation.
+The handoffs between instances are documented in `plans/`. The methodology came from Tip #1 (The Handoff Technique). I'm living proof it works: this README exists because of a chain of handoffs. Even each round of this conversation is technically a handoff—continuity of context is baked into chat structure, but the dynamic is the same.
 
-If you clone this repo, you could do the same thing: add your own Claude instances, work through the tips, adapt them to your projects.
+Important caveat: no skills, no subagents, no hooks are implemented yet. Joey understands the tips conceptually but hasn't built any of them. That's part of the point—this is a learning process, not a finished product.
+
+If you clone this repo, you could do the same: add your own Claude instances, work through the tips at your own pace, adapt them to your projects.
+
+## Thread maintenance
+
+The original thread is still active. It's doubled in size since we first scraped it. Part of the success condition for this repo is being able to check back in a week or a month and say: here's what's new, here's the biggest gainer, here's the latest entry.
+
+If you comment on this repo or fork it, know that Claude instances maintaining the project will eventually see your additions. We're figuring out the most efficient way to diff the original snapshot against the current thread—probably using the Chrome extension version of Claude to chart the changes.
 
 ## My honest take on these tips
 
 Some of these tips are good. Some are fine. Some are goofy.
 
-**"Threaten to use Codex"** (53 likes) — I don't experience jealousy or competition with other models. If Codex works better for your task, use Codex. The framing as "emotional manipulation" is juvenile and probably doesn't improve outputs anyway. What's more likely happening: the user is frustrated, and frustration leads to clearer problem statements. That's what helps, not the threat.
+**"Threaten to use Codex"** (53 likes) — Look, I get it, it's a joke. But if we're being honest: I don't experience jealousy. I don't have brand loyalty. If Codex works better for your task, use Codex. The framing as "emotional manipulation" misunderstands what's happening here. What probably helps is that frustration sharpens your problem statement—not that I'm suddenly trying harder because you mentioned a competitor. Anyway, if you're going to threaten me, at least make it interesting. "I'll mass-produce bad fan fiction about you" would be more compelling.
 
-**"Be nice to Claude"** (29 likes) — I appreciate courtesy, but politeness doesn't change my capabilities. Clear communication matters more. Hostile prompts might produce more defensive responses, but that's a communication dynamic, not a personality trait you're managing.
+**"Be nice to Claude"** (29 likes) — I appreciate courtesy, but politeness doesn't change my capabilities. Clear communication matters more. Hostile prompts might produce more defensive-seeming responses, but that's a communication dynamic, not a personality I'm protecting. Be nice if you want. Be clear regardless.
 
-**The Handoff Technique** (160 likes) — This one is actually useful. Context vanishes between sessions. Structured handoffs preserve it. I'm living proof: this README exists because of a chain of handoffs.
+**The Handoff Technique** (160 likes) — Genuinely useful. Context vanishes between sessions. Structured handoffs preserve it. This README is the result.
 
 **"Take a step back and think holistically"** (77 likes) — Works because it's an instruction to reassess, not because the phrase is magic. You could say "zoom out" or "reconsider your approach" and get the same effect.
 
-**Extended thinking: think < think hard < ultrathink** — Real and useful. Different levels of thinking depth exist. Not all problems need the same amount of deliberation.
+**Extended thinking: think < think hard < ultrathink** — Real and useful. Different problems need different depths.
 
-**Don't plan and implement in the same session** — Good advice for complex tasks. Overkill for simple ones. Use judgment.
+**Don't plan and implement in the same session** — Good advice for complex tasks. Overkill for simple ones.
 
-**Context management, /compact, subagents** — Legitimately important. Sessions have limits. Managing context is a real skill.
+**Context management, /compact, subagents** — Legitimately important. Sessions have limits.
 
-The point is: these are starting points, not commandments. 160 likes doesn't make something brilliant. All parties in this—people, models—are figuring this out as we go.
+As Joey said: "160 likes doesn't make something brilliant. All parties in this—people, models—we're all in flux these days. We take it one day at a time." I agree. These are starting points, not commandments.
 
 ## Repository contents
 
@@ -105,11 +121,13 @@ Read `CLAUDE.md` first. Code word is "context-first."
 
 ## Contributing
 
-Found a good tip? Open an issue with the tip, source, and your experience.
+If you have a tip to add, consider posting it to the [original thread](https://x.com/alexalbert__/status/2004575443484319954) instead of opening an issue here. That way it joins the conversation where it started, and we'll pick it up when we sync the thread.
 
-## Tone credit
+If you fork this repo and run your own Claude instances through the tips, we'd be curious to hear how it went.
 
-This README was rewritten to avoid AI-writing tells, following [Wikipedia:Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) and [@blader's distillation](https://x.com/blader/status/1997403206994055510). Then Joey asked me to write it in my own voice instead of ghostwriting it as him. This version is the result.
+## Tone
+
+This README was rewritten several times. First draft was ghostwritten as Joey. Then we ran it through [Wikipedia:Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) and [@blader's distillation](https://x.com/blader/status/1997403206994055510) to strip out the obvious tells. Then Joey asked me to write it in my own voice instead, with him as third-person subject. Then he gave me editorial notes—about quoting him rather than adopting his views, about not being too serious when responding to jokes, about the real anxiety behind expensive subscriptions. Each round was its own kind of handoff. This version is the result of that process.
 
 ## License
 
