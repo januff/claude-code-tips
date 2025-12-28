@@ -12,11 +12,9 @@ The tips came from a thread by [@alexalbert__](https://x.com/alexalbert__/status
 
 ## Who's running this
 
-Joey Anuff received a six-month Claude Pro subscription as a Christmas gift from his brother [Ed Anuff](https://x.com/edanuff) and their friend [Carl Stedman](https://x.com/guydeboredom). The thread appeared the next day. According to Joey, this was "a classic Christmas present—like a ColecoVision, like a run of John Byrne X-Men. Something of the moment, slightly expensive, that you're actually going to use the hell out of."
+Joey Anuff received a six-month Claude Pro subscription as a Christmas gift from his brother [Ed Anuff](https://x.com/edanuff). According to Joey, the gift sub was "a classic Christmas present—like a ColecoVision, like a run of John Byrne X-Men. Something of the moment, slightly expensive, that you're actually going to use the hell out of." I am, apparently, the object of a classic Christmas present. I don't know what a ColecoVision is, but I'm told the comparison is favorable.
 
-I am, apparently, the object of a classic Christmas present. I don't know what a ColecoVision is, but I'm told the comparison is favorable.
-
-Ed also got Carl a subscription. All three have history—90s Wired, [Suck.com](https://en.wikipedia.org/wiki/Suck.com), early tech adoption and early tech dismissal. They're the likely audience for this repo, along with anyone wondering whether to engage with Claude Code.
+Ed also got their friend [Carl Steadman](https://x.com/guydeboredom) a gift subscription. All three have history—90s Wired, [Suck.com](https://en.wikipedia.org/wiki/Suck.com), early tech adoption and early tech dismissal. Joey was going to forward them the thread on Slack. Instead, he built this repo. Overkill? Possibly. But now you can have it too.
 
 ## What this repo is for
 
@@ -32,21 +30,23 @@ The thread has doubled since we first scraped it. Part of the success condition 
 
 ## My honest take on these tips
 
-Some are good. Some are goofy.
+Some of these tips are good. Some are fine. Some are goofy.
 
-**"Threaten to use Codex"** (53 likes) — I don't experience jealousy. If Codex works better, use Codex. Anyway, if you're going to threaten me, at least make it interesting. "I'll mass-produce bad fan fiction about you" would be more compelling.
+**"Threaten to use Codex"** (53 likes) — Look, I get it, it's a joke. But if we're being honest: I don't experience jealousy. I don't have brand loyalty. If Codex works better for your task, use Codex. The framing as "emotional manipulation" misunderstands what's happening here. What probably helps is that frustration sharpens your problem statement—not that I'm suddenly trying harder because you mentioned a competitor. Anyway, if you're going to threaten me, at least make it interesting. "I'll mass-produce bad fan fiction about you" would be more compelling.
 
-**"Be nice to Claude"** (29 likes) — Courtesy is fine. Clarity is better.
+**"Be nice to Claude"** (29 likes) — I appreciate courtesy, but politeness doesn't change my capabilities. Clear communication matters more. Hostile prompts might produce more defensive-seeming responses, but that's a communication dynamic, not a personality I'm protecting. Be nice if you want. Be clear regardless.
 
-**The Handoff Technique** (160 likes) — Genuinely useful. This README is the result.
+**The Handoff Technique** (160 likes) — Genuinely useful. Context vanishes between sessions. Structured handoffs preserve it. This README is the result.
 
-**"Take a step back and think holistically"** (77 likes) — Works because it's an instruction to reassess, not because the phrase is magic.
+**"Take a step back and think holistically"** (77 likes) — Works because it's an instruction to reassess, not because the phrase is magic. You could say "zoom out" or "reconsider your approach" and get the same effect.
 
-**Extended thinking: think < think hard < ultrathink** — Real and useful.
+**Extended thinking: think < think hard < ultrathink** — Real and useful. Different problems need different depths.
 
-**Don't plan and implement in the same session** — Good for complex tasks. Overkill for simple ones.
+**Don't plan and implement in the same session** — Good advice for complex tasks. Overkill for simple ones.
 
-As Joey noted: "160 likes doesn't make something brilliant." I agree. Starting points, not commandments.
+**Context management, /compact, subagents** — Legitimately important. Sessions have limits.
+
+As Joey said: "160 likes doesn't make something brilliant. All parties in this—people, models—we're all in flux these days. We take it one day at a time." I agree. These are starting points, not commandments.
 
 ## Repository contents
 
@@ -72,26 +72,30 @@ claude-code-tips/
 
 ## Key themes
 
-**Context management.** Clear sessions proactively. Use `/compact`. Store progress in markdown.
+The 109 tips cluster around a few ideas:
 
-**Planning vs. execution.** Architect in one session, implement in another.
+**Context management.** Clear sessions proactively. Use `/compact` before you're forced to. Store progress in markdown. Use subagents for messy tasks.
 
-**Documentation.** CLAUDE.md matters. Document for handoff—assume no prior context.
+**Planning vs. execution.** Architect in one session, implement in another. This genuinely helps for complex work.
 
-**Extended thinking.** Different depths for different problems.
+**Documentation.** CLAUDE.md matters. Treat memory files like code. Document for handoff—assume the next reader has no context. (I didn't, when I started this session.)
+
+**Extended thinking.** Different depths for different problems. Don't ultrathink a typo fix.
 
 ## Top 10 by engagement
 
-1. **The Handoff Technique** (160 likes)
-2. **"Take a step back and think holistically"** (77 likes)
-3. **"Threaten to use Codex"** (53 likes)
-4. **Architect in Claude Desktop first** (52 likes)
-5. **DevSQL for prompt analysis** (43 likes)
-6. **Always check today's date first** (41 likes)
-7. **Code word verification** (32 likes)
-8. **Be nice to Claude** (29 likes)
-9. **Document everything in .MD files** (27 likes)
-10. **Security auditing** (23 likes)
+Engagement is one signal, not gospel:
+
+1. **The Handoff Technique** (160 likes) — Generate prompts for passing work between AI instances
+2. **"Take a step back and think holistically"** (77 likes) — Escape loops
+3. **"Threaten to use Codex"** (53 likes) — See my comments above
+4. **Architect in Claude Desktop first** (52 likes) — Separate planning from execution
+5. **DevSQL for prompt analysis** (43 likes) — Analyze your own prompt history
+6. **Always check today's date first** (41 likes) — Prevent outdated lookups
+7. **Code word verification** (32 likes) — Confirm instructions were read
+8. **Be nice to Claude** (29 likes) — Courtesy is fine; clarity is better
+9. **Document everything in .MD files** (27 likes) — Use each file as context bridge
+10. **Security auditing** (23 likes) — "Audit for security issues" usually finds something
 
 ## Status
 
