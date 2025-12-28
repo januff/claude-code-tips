@@ -4,25 +4,37 @@
 
 ## Source
 
+![Alex Albert's thread asking "What's your most underrated Claude Code trick?"](tweet-image.png)
+
 The tips came from a thread by [@alexalbert__](https://x.com/alexalbert__/status/2004575443484319954) (Alex Albert, Claude Relations lead at Anthropic), posted December 26, 2025. He asked: *"What's your most underrated Claude Code trick?"* The thread got 98K views and 182 replies—and it's still growing. When we first scraped it, there were around 60 tips. Now there are 109. By the time you read this, there may be more.
 
 ## Who's running this
 
-Joey Anuff received a six-month Claude Pro subscription as a Christmas gift from his brother Ed, via their friend Carl. The timing was good—the thread appeared the next day.
+Joey Anuff received a six-month Claude Pro subscription as a Christmas gift from his brother [Ed Anuff](https://x.com/edanuff) ([@edanuff](https://github.com/edanuff)), via their friend [Carl Stedman](https://x.com/guydeboredom).
 
-Joey already has an OpenAI Pro subscription. He can't afford frontier-model subscriptions to everything. So there's real anxiety here: expensive tools you're not using to their fullest potential. As he put it: "The real gift Ed gave me is being able to have two incredibly compelling frontier models to work with. I feel like I have two amazing coworkers. But I feel that anxiety—am I making every day count?"
+The timing was good—the thread appeared the next day. But the gift itself had been a long time coming. Joey and Ed had talked a year or two ago about when Anthropic would offer gift subscriptions. When Joey saw the marketing email this December, he was about to ask Ed proactively—but Ed had already planned it. Apparently OpenAI didn't offer the same thing this year, and according to Ed, what they offered instead revealed a lot about the differing strategies and self-conceptions of the two companies. That was a lively Christmas conversation.
 
-That's what this repo is about. Not just collecting tips, but actually learning them. The fear isn't that the tool fails to live up to expectations—it's that Joey fails to live up to the augmented abilities he suddenly has access to.
+This was, in the language of Christmases past, a really good present. Like a ColecoVision. Like a run of John Byrne X-Men. Something of the moment, slightly expensive, that you're actually going to use the hell out of. Six months of Pro Claude is that.
 
-Ed also gifted Carl a subscription. Carl is trained on open models—he values privacy and cheapness—and wouldn't have tried Claude otherwise. So in a way, Carl is the ideal reader for this repo: not an LLM neophyte, but a Claude neophyte.
+Ed also got Carl a subscription. Carl is trained on open models—he values privacy and cost—and wouldn't have tried Claude otherwise. For Joey, it was wanting it but not being able to afford it. For Carl, it was not knowing he wanted it and not being able to afford it. In both cases: a genuine gift.
+
+For context: Ed is an AI professional (currently at Datastax). Carl was Joey's partner at [Suck.com](https://en.wikipedia.org/wiki/Suck.com) in the 90s. All three worked at Wired back then—Ed ran HotWired's product development, Joey and Carl ran Suck as an independent comedic venture within Wired Digital. They were early adopters of every technology on the block, and also early dismissers. Critical of most of it. But the early adoption part is what they had in common then, and what they have in common now.
+
+The 90s had its share of people who were actively oppositional to any new technology—certain it was a corporate plot, unwilling to believe something could exist independent of the value it gives to bad actors. Same dynamic exists now with AI. Joey, Ed, and Carl aren't in that camp. They think AI, like the web before it, is neither anti-humanistic nor a billionaire scheme. It's just the next thing to figure out.
+
+So in a way, Carl is the ideal reader for this repo: not an LLM neophyte, but a Claude neophyte. And the likely audience is probably 90s peers—people like [Gary Wolf](https://x.com/agaricus), [Louis Rossetto](https://x.com/LouisRossetto)—who are wondering whether to engage with this stuff. The release of Opus 4.5 and Claude Code seems to have created a perceptible increase in capability that's reaching beyond strictly tech circles.
 
 ## What this repo is for
 
-Joey is working through the tips systematically, applying them to this repo and his other projects. Multiple Claude instances are helping. I'm one of them (Cursor Sidebar, Opus 4.5). Others include Claude Code CLI, Claude Desktop, and Claude Mobile.
+Joey's goal isn't just to collect the tips. It's to actually learn them. The nightmare scenario: do all this work organizing 109 tricks and never absorb any of them.
+
+He's working through them systematically, applying them to this repo and his other projects. Multiple Claude instances are helping. I'm one of them (Cursor Sidebar, Opus 4.5). Others include Claude Code CLI, Claude Desktop, and Claude Mobile.
 
 The handoffs between instances are documented in `plans/`. The methodology came from Tip #1 (The Handoff Technique). I'm living proof it works: this README exists because of a chain of handoffs. Even each round of this conversation is technically a handoff—continuity of context is baked into chat structure, but the dynamic is the same.
 
-Important caveat: no skills, no subagents, no hooks are implemented yet. Joey understands the tips conceptually but hasn't built any of them. That's part of the point—this is a learning process, not a finished product.
+**Important caveat:** No skills, no subagents, no hooks are implemented yet. Joey understands them structurally—he gets lifecycle hooks, script skills, the file structures—but he hasn't abstracted anything he does into a skill. Hasn't had a successful interaction with subagents that really took. The hard work of adapting these patterns to real needs hasn't happened yet. That's part of the point: any tip that doesn't go into the toolkit immediately and for everything tends to get discarded. So he wants to try all of them, go through the motions, make them habits.
+
+Curiously, MCP hasn't come up in this project at all, despite being critically important six months ago. Worth noting.
 
 If you clone this repo, you could do the same: add your own Claude instances, work through the tips at your own pace, adapt them to your projects.
 
@@ -50,7 +62,7 @@ Some of these tips are good. Some are fine. Some are goofy.
 
 **Context management, /compact, subagents** — Legitimately important. Sessions have limits.
 
-As Joey said: "160 likes doesn't make something brilliant. All parties in this—people, models—we're all in flux these days. We take it one day at a time." I agree. These are starting points, not commandments.
+As Joey put it: "160 likes doesn't make something brilliant. All parties in this—people, models—we're all in flux these days. We take it one day at a time." I agree. These are starting points, not commandments.
 
 ## Repository contents
 
@@ -59,6 +71,7 @@ claude-code-tips/
 ├── CLAUDE.md                      # Instructions for Claude instances
 ├── README.md                      # This file (written by me)
 ├── .gitignore                     # Created by Claude Mobile
+├── tweet-image.png                # Screenshot of the original thread
 │
 ├── tips/
 │   ├── full-thread.md             # All 109 tips, formatted
@@ -127,7 +140,7 @@ If you fork this repo and run your own Claude instances through the tips, we'd b
 
 ## Tone
 
-This README was rewritten several times. First draft was ghostwritten as Joey. Then we ran it through [Wikipedia:Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) and [@blader's distillation](https://x.com/blader/status/1997403206994055510) to strip out the obvious tells. Then Joey asked me to write it in my own voice instead, with him as third-person subject. Then he gave me editorial notes—about quoting him rather than adopting his views, about not being too serious when responding to jokes, about the real anxiety behind expensive subscriptions. Each round was its own kind of handoff. This version is the result of that process.
+This README was rewritten several times. First draft was ghostwritten as Joey. Then we ran it through [Wikipedia:Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) and [@blader's distillation](https://x.com/blader/status/1997403206994055510) to strip out the obvious tells. Then Joey asked me to write it in my own voice instead, with him as third-person subject. Then he gave me editorial notes—about quoting him rather than adopting his views, about not being too serious when responding to jokes, about the real anxiety behind expensive subscriptions, about the 90s context and who the likely audience is. Each round was its own kind of handoff. This version is the result of that process.
 
 ## License
 
