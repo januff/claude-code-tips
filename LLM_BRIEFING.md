@@ -7,25 +7,47 @@
 
 ---
 
+## Current State (Updated Weekly)
+
+**Last sync:** 2025-12-29
+
+| Project | Items | Last Fetch | Next Action |
+|---------|-------|------------|-------------|
+| Hall of Fake | 1,320 videos | Dec 27 | SQLite migration |
+| claude-code-tips | 109 tips | Dec 26 | Thread re-sync (182+ replies now) |
+
+**This week's focus:**
+- SQLite migration for Hall of Fake (handoff ready)
+- Explore Playwright MCP for thread sync
+- Cross-project architecture established
+
+---
+
 ## Who Is Joey
 
-Joey Anuff is building several interconnected projects using Claude across multiple interfaces. He prefers:
+Joey Anuff is building two sibling projects using Claude across multiple interfaces. He prefers:
 - **Planning before execution** (separate sessions)
 - **Delegated autonomous work** (handoff docs for Claude Code)
 - **Documented patterns** (everything in markdown)
 - **Progressive skill extraction** (patterns that work → formal skills)
+- **Paid APIs over hacks** (if a fee trivializes the problem, pay it)
 
-He's learning Claude Code techniques from a 109-tip Twitter thread and tracking adoption in `PROGRESS.md`.
+He treats tool choices as "actively moving objects" — re-evaluated on a weekly/bi-weekly basis.
 
 ---
 
-## Active Projects
+## The Two Sibling Projects
 
-| Project | Repo | Current Phase | Notes |
-|---------|------|---------------|-------|
-| **Hall of Fake** | januff/hall-of-fake | SQLite migration, CapCut Forge | 1,320 Sora videos archived |
-| **Twitter Tracker** | (planned) | Not started | Thread archiving, similar patterns |
-| **claude-code-tips** | januff/claude-code-tips | Thread ingestion, skill extraction | Meta-layer for methodology |
+| Project | Tracks | Source | Repo |
+|---------|--------|--------|------|
+| **Hall of Fake** | Sora AI videos | sora.chatgpt.com likes | januff/hall-of-fake |
+| **claude-code-tips** | Twitter thread + methodology | Alex Albert's tips thread | januff/claude-code-tips |
+
+Both follow the same pattern: **fetch → diff → process → store → export**
+
+**claude-code-tips has a dual role:**
+1. **Thread tracker** — Archive and sync the growing tips thread
+2. **Meta-layer** — Document methodology patterns that apply to both projects
 
 ---
 
@@ -49,7 +71,7 @@ Every delegated task gets a markdown file with:
 Format example: `plans/HANDOFF_*.md`
 
 ### 3. SQLite for Archives
-Both Hall of Fake and Twitter Tracker follow the same pattern:
+Both projects follow the same storage pattern:
 - Browser-based fetch (auth via session cookies)
 - Incremental sync (track what's already fetched)
 - SQLite storage with FTS indexes
@@ -59,10 +81,8 @@ JSON for interchange, SQLite for querying.
 
 ### 4. Progressive Skill Extraction
 1. **Ad-hoc** → Do it manually each time
-2. **Pattern** → Document it, copy-paste
-3. **Skill** → Claude Code loads it automatically
-
-Threshold: When a pattern works in 2+ projects, extract to skill.
+2. **Pattern** → Document it, copy-paste (works in 1 project)
+3. **Skill** → Claude Code loads it automatically (proven in 2+ projects)
 
 ---
 
@@ -77,10 +97,21 @@ Threshold: When a pattern works in 2+ projects, extract to skill.
 
 ---
 
+## MCP Servers Configured
+
+| Server | Purpose |
+|--------|---------|
+| **filesystem** | Read/write in Desktop, Downloads, Development |
+| **github** | Read/write januff/* repos |
+
+**Exploring:** Playwright MCP for browser automation (potential first cross-environment MCP)
+
+---
+
 ## Shared Patterns
 
 ### The Archive Pattern
-Used in: Hall of Fake, Twitter Tracker (planned)
+Used in: Both projects
 
 ```
 1. Browser script fetches data (uses session auth)
@@ -91,7 +122,7 @@ Used in: Hall of Fake, Twitter Tracker (planned)
 ```
 
 ### The Handoff Pattern
-Used in: All projects
+Used in: Both projects
 
 ```markdown
 # Task: [Name]
@@ -110,15 +141,6 @@ Used in: All projects
 ## Validation
 [How to verify it worked]
 ```
-
----
-
-## MCP Servers Configured
-
-| Server | Purpose |
-|--------|---------|
-| **filesystem** | Read/write in Desktop, Downloads, Development |
-| **github** | Read/write januff/* repos |
 
 ---
 
@@ -150,22 +172,18 @@ From the 109-tip thread (see `PROGRESS.md` for full tracker):
 ## Project-Specific Notes
 
 ### Hall of Fake
-- Video archive of AI-generated Sora clips
+- Video archive of 1,320 AI-generated Sora clips
 - Current focus: SQLite migration, then CapCut automation
-- CapCut Forge needs: reverse-engineer JSON schema from sample projects
+- CapCut Forge blocked on: reverse-engineering JSON schema from sample projects
 - Has detailed edit logs of published compilations (`EDIT_LOGS_MASTER.md`)
-
-### Twitter Tracker (Planned)
-- Will archive Twitter/X threads
-- Same SQLite pattern as Hall of Fake
-- Challenge: infinite scroll, auth, rate limits
-- Browser script approach preferred over Chrome extension
+- Fetch script working, incremental sync proven
 
 ### claude-code-tips
-- Meta-layer: methodology + patterns
-- 109 tips from Alex Albert's thread
-- `PROGRESS.md` tracks personal adoption
-- `patterns/` will hold reusable templates (planned)
+- Thread tracker: 109 tips from Alex Albert's thread (needs re-sync, thread has grown)
+- Meta-layer: methodology patterns, progress tracking
+- `PROGRESS.md` tracks personal tip adoption
+- `CROSS_PROJECT_ARCHITECTURE.md` documents the sibling project relationship
+- Not yet public—will share when thread sync is working and feedback loops exist
 
 ---
 
