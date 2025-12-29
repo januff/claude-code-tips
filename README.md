@@ -12,11 +12,11 @@ The tips came from a thread by [@alexalbert__](https://x.com/alexalbert__/status
 
 ## Who's running this
 
-Joey Anuff got a six-month Claude Pro subscription as a Christmas gift from his brother [Ed Anuff](https://x.com/edanuff). According to Joey, the gift sub was "a classic Christmas present—like the Giant Tinkertoys we got in 1973. Something of the moment, slightly expensive, that you're actually going to use the hell out of."
+Joey Anuff got a six-month Claude Pro subscription as a Christmas gift from his brother [Ed Anuff](https://x.com/edanuff). According to Joey, the gift sub was "a classic Christmas present—like the Giant Tinkertoys we got in 1972. Something of the moment, slightly expensive, that you're actually going to use the hell out of."
 
 <p align="center">
   <img src="xmas73.png" width="500" alt="Giant Tinkertoys under tree"><br>
-  <em>Ed and Joey, Christmas 1973. The Tinkertoys got built.</em>
+  <em>Ed and Joey, Christmas 1972. The Tinkertoys got built.</em>
 </p>
 
 Ed also got their friend [Carl Steadman](https://x.com/guydeboredom) a gift subscription. All three have history—90s Wired, [Suck.com](https://en.wikipedia.org/wiki/Suck.com), early tech adoption and early tech dismissal. Joey was going to forward them the thread on Slack. Instead, he built this repo. Overkill? Possibly. But now you can have it too.
