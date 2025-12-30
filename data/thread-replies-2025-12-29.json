@@ -1,0 +1,5490 @@
+[
+  {
+    "id": "2004575443484319954",
+    "handle": "@alexalbert__",
+    "displayName": "Alex Albert",
+    "text": "What's your most underrated Claude Code trick?",
+    "date": "7:30 AM \u00b7 Dec 26, 2025",
+    "datetime": "2025-12-26T15:30:03.000Z",
+    "url": "https://x.com/alexalbert__/status/2004575443484319954",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004723946734977365",
+    "handle": "@janbamjan",
+    "displayName": "janbam",
+    "text": "ultrayolo",
+    "date": "Dec 26",
+    "datetime": "2025-12-27T01:20:09.000Z",
+    "url": "https://x.com/janbamjan/status/2004723946734977365",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004599760179921392",
+    "handle": "@DiamondEyesFox",
+    "displayName": "DiamondEyesFox",
+    "text": "exporting my raw session logs to obsidian and also making a summary session log that updates in real time\n\nnow both me and claude can know exactly what we did and when in both short and verbose ways",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T17:06:41.000Z",
+    "url": "https://x.com/DiamondEyesFox/status/2004599760179921392",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004576263911215487",
+    "handle": "@skillcreatorai",
+    "displayName": "Skill Creator",
+    "text": "custom skills. wrote one with my codebase patterns and now every new session already knows the architecture. no more re-explaining context",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:33:19.000Z",
+    "url": "https://x.com/skillcreatorai/status/2004576263911215487",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004647680354746734",
+    "handle": "@mutewinter",
+    "displayName": "Jeremy Mack",
+    "text": "",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T20:17:06.000Z",
+    "url": "https://x.com/mutewinter/status/2004647680354746734",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004633627137900549",
+    "handle": "@joedevon",
+    "displayName": "Joe Devon",
+    "text": "KEYWORDS\nCollect keywords that save typing and punch above their weight. e.g.:\n\nRecap: makes sure Claude Code understood your instructions the way you wanted it to\nCritique: You can critique anything but always good to add more phrases like \"the git diff\" or pass it a file or a",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T19:21:15.000Z",
+    "url": "https://x.com/joedevon/status/2004633627137900549",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2005280549397741976",
+    "handle": "@0xSero",
+    "displayName": "0xSero",
+    "text": "- Claude as an assistant running 24/7 \n- Claude code as an MCP\n- Claude code in loop",
+    "date": "Dec 28",
+    "datetime": "2025-12-28T14:11:53.000Z",
+    "url": "https://x.com/0xSero/status/2005280549397741976",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2005146692291629378",
+    "handle": "@amuldotexe",
+    "displayName": "amul.exe ",
+    "text": "I use Parseltongue dependency graph generator to exclusively query the codebase as a graph database. This significantly reduces the amount of tokens needed to look into the code. Also provides the forward dependency and backward dependency context to the LMs with much fewer",
+    "date": "Dec 27",
+    "datetime": "2025-12-28T05:19:59.000Z",
+    "url": "https://x.com/amuldotexe/status/2005146692291629378",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004604436325572949",
+    "handle": "@gwintrob",
+    "displayName": "Gordon Wintrob",
+    "text": "Tell it to read from ~/Library/Messages/chat.db to pull in context from iMessage.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T17:25:16.000Z",
+    "url": "https://x.com/gwintrob/status/2004604436325572949",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2005146015486112070",
+    "handle": "@amuldotexe",
+    "displayName": "amul.exe ",
+    "text": "Whenever I want to use an API, I first gitclone the relevant library itself. Then I get agent-plan or agent-explore to create a custom research document md according to my requirements and the clone library for the API I need. Significantly reduces the hallucination that can",
+    "date": "Dec 27",
+    "datetime": "2025-12-28T05:17:18.000Z",
+    "url": "https://x.com/amuldotexe/status/2005146015486112070",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004576263168725496",
+    "handle": "@BenjaminDEKR",
+    "displayName": "Benjamin De Kraker",
+    "text": "Be nice to Claude",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:33:19.000Z",
+    "url": "https://x.com/BenjaminDEKR/status/2004576263168725496",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004579557459005809",
+    "handle": "@zeroxBigBoss",
+    "displayName": "Allen",
+    "text": "the handoff",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:46:24.000Z",
+    "url": "https://x.com/zeroxBigBoss/status/2004579557459005809",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004619084521165288",
+    "handle": "@paulgosnell",
+    "displayName": "Paul Gosnell",
+    "text": "1. Getting it to improve the performance of my MacBook  2. Creating a home automation control centre",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T18:23:28.000Z",
+    "url": "https://x.com/paulgosnell/status/2004619084521165288",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004583825465372876",
+    "handle": "@AaronErickson",
+    "displayName": "Aaron Erickson",
+    "text": "Tinkering with something like AlphaEvolve but using subagents as a hobby project, and it's kinda working (and as a bonus, does a good job of hitting your compute max!)",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:03:22.000Z",
+    "url": "https://x.com/AaronErickson/status/2004583825465372876",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004655499942449307",
+    "handle": "@jedwhite",
+    "displayName": "Jed White ",
+    "text": "Switch between API keys for different cloud providers and models on the fly without logging in-out or losing flow, especially when you hit rate limits.\n\n`claude-aws --opus --resume`",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T20:48:10.000Z",
+    "url": "https://x.com/jedwhite/status/2004655499942449307",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004612872903819710",
+    "handle": "@daniel_mac8",
+    "displayName": "Dan McAteer",
+    "text": "Open it up in @obsdmd.\n\nSince Obsidian is files and folders, CC is right at home there.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T17:58:47.000Z",
+    "url": "https://x.com/daniel_mac8/status/2004612872903819710",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004890469734776982",
+    "handle": "@mbarrbosa",
+    "displayName": "Marco Barbosa",
+    "text": "\u201cIs this the best you can do?\u201d",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T12:21:51.000Z",
+    "url": "https://x.com/mbarrbosa/status/2004890469734776982",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004650745417924663",
+    "handle": "@fabianstelzer",
+    "displayName": "fabian",
+    "text": "I got an mbot2 robot for my 7yo \n\nhooked it up with Claude Code and it\u2019s very much enjoying its newfound Christmas bodily form \n\nThis is all real time control by CC!\n\nMerry Claudemas",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T20:29:16.000Z",
+    "url": "https://x.com/fabianstelzer/status/2004650745417924663",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004601949778227605",
+    "handle": "@n0ted",
+    "displayName": "Vince",
+    "text": "Start a task, copy the task\u2019s full reasoning, run /clear, then paste that reasoning into the new session saying \"hey a junior dev sent me this\" so the the initial context makes the session start with full context +skeptcism, and forces a \u201cjunior dev mistakes are a problem let me",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T17:15:23.000Z",
+    "url": "https://x.com/n0ted/status/2004601949778227605",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004823310920745007",
+    "handle": "@colemaktypo",
+    "displayName": "matthias",
+    "text": "if I hear someone clamoring about a food item or supplement I ask claude about the food/supplement and the claimed effect\n\nthen I turn on pubmed and web search and ask claude to do a meta analysis",
+    "date": "Dec 26",
+    "datetime": "2025-12-27T07:54:59.000Z",
+    "url": "https://x.com/colemaktypo/status/2004823310920745007",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004584988491370950",
+    "handle": "@almmaasoglu",
+    "displayName": "Alim",
+    "text": "Setting a code word in my guidelines. If Claude doesn\u2019t use it in its responses, I know it skipped reading my instructions or guardrails",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:07:59.000Z",
+    "url": "https://x.com/almmaasoglu/status/2004584988491370950",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004602492664082579",
+    "handle": "@doodlestein",
+    "displayName": "Jeffrey Emanuel",
+    "text": "Combining with beads and bv and agent mail to supercharge development speed.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T17:17:32.000Z",
+    "url": "https://x.com/doodlestein/status/2004602492664082579",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2005213914444026211",
+    "handle": "@keshavrao_",
+    "displayName": "Keshav",
+    "text": "",
+    "date": "Dec 28",
+    "datetime": "2025-12-28T09:47:06.000Z",
+    "url": "https://x.com/keshavrao_/status/2005213914444026211",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2005683211519840327",
+    "handle": "@jeffzwang",
+    "displayName": "Jeffrey Wang",
+    "text": "prevent slash commands from default filling context window by adding the flag `disable-model-invocation: true` to each",
+    "date": "8h",
+    "datetime": "2025-12-29T16:51:56.000Z",
+    "url": "https://x.com/jeffzwang/status/2005683211519840327",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004600901693317601",
+    "handle": "@BenBlaiszik",
+    "displayName": "Ben Blaiszik",
+    "text": "Ask it to assume a Steve Jobs persona when I need a site or message distilled and designed. Almost always takes a different line than I would have thought.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T17:11:13.000Z",
+    "url": "https://x.com/BenBlaiszik/status/2004600901693317601",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004637219664134274",
+    "handle": "@jeffzwang",
+    "displayName": "Jeffrey Wang",
+    "text": "Using Claude in Chrome and tired of the \"debug\" banner popup?\n\nClaude Code figured out how to get rid of it for me, instructions below!",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T19:35:32.000Z",
+    "url": "https://x.com/jeffzwang/status/2004637219664134274",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004612959247671447",
+    "handle": "@hrrcnes",
+    "displayName": "hurricane",
+    "text": "my fav underrated trick is paying you $200/month to become an unpaid brand ambassador",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T17:59:08.000Z",
+    "url": "https://x.com/hrrcnes/status/2004612959247671447",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004583491057705010",
+    "handle": "@meta_alchemist",
+    "displayName": "Meta Alchemist",
+    "text": "I build my own tools to supercharge it\n\nbuilt \na memory and context layer\na claude skills spawner (with very robust skills)\nand a vulnerability scanner\nthus far",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:02:02.000Z",
+    "url": "https://x.com/meta_alchemist/status/2004583491057705010",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004592807970005023",
+    "handle": "@thedealdirector",
+    "displayName": "The Deal Director",
+    "text": "\u201cAudit the codebase for security issues and recommendations\u201d seems to always yield something new and patchable.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:39:03.000Z",
+    "url": "https://x.com/thedealdirector/status/2004592807970005023",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2005144431637529064",
+    "handle": "@AaronErickson",
+    "displayName": "Aaron Erickson",
+    "text": "One more idea, y'all have a decent package manager for skills yet? My buddy @rickasaurus inspired me to vibe code one, and here is a super basic one as a POC. I have no desire to run one, but would love for one to exist for skills",
+    "date": "Dec 27",
+    "datetime": "2025-12-28T05:11:00.000Z",
+    "url": "https://x.com/AaronErickson/status/2005144431637529064",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004594612984332499",
+    "handle": "@jdorfman",
+    "displayName": "Justin Dorfman",
+    "text": "instant access to your entire organization's codebase without cloning massive repos.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:46:13.000Z",
+    "url": "https://x.com/jdorfman/status/2004594612984332499",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2005391729403539579",
+    "handle": "@amirmxt",
+    "displayName": "amirmxt",
+    "text": "I used @claudeai  to save me hours of time and money for end of year bookkeeping across my companies\n\nEvery year end I manually categorize my receipts into it's own folder\n\nBOOK KEEPING\n\nDumped all my receipts into a single folder, claude code went through each receipt and",
+    "date": "Dec 28",
+    "datetime": "2025-12-28T21:33:41.000Z",
+    "url": "https://x.com/amirmxt/status/2005391729403539579",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004643139248947264",
+    "handle": "@tonyrose023",
+    "displayName": "Tony Rose",
+    "text": "Find and fix the the tech debt",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T19:59:03.000Z",
+    "url": "https://x.com/tonyrose023/status/2004643139248947264",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004780462674510147",
+    "handle": "@hdjirdeh",
+    "displayName": "Houssein Djirdeh",
+    "text": "Whenever I start working on a new codebase: \"Explain this codebase to me at a high-level. I want to understand its overall architecture and structure as much as possible\"",
+    "date": "Dec 26",
+    "datetime": "2025-12-27T05:04:43.000Z",
+    "url": "https://x.com/hdjirdeh/status/2004780462674510147",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004592887351415231",
+    "handle": "@zknark",
+    "displayName": "Drew",
+    "text": "Sit, paw, lay down",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:39:22.000Z",
+    "url": "https://x.com/zknark/status/2004592887351415231",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004653276223115516",
+    "handle": "@pevidex",
+    "displayName": "pevidex",
+    "text": "using file watching mode to auto-rebuild on save keeps iteration tight without manual reruns.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T20:39:20.000Z",
+    "url": "https://x.com/pevidex/status/2004653276223115516",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004668350220435623",
+    "handle": "@Arindam_1729",
+    "displayName": "Arindam Majumder \ud835\udd4f",
+    "text": "I made a video on that:",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T21:39:14.000Z",
+    "url": "https://x.com/Arindam_1729/status/2004668350220435623",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004608224159547820",
+    "handle": "@codewithimanshu",
+    "displayName": "Himanshu Kumar",
+    "text": "Avoid complex nested functions; prioritize simpler, readable code blocks.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T17:40:19.000Z",
+    "url": "https://x.com/codewithimanshu/status/2004608224159547820",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2005049097406087628",
+    "handle": "@iSaurabhArora",
+    "displayName": "Saurabh Arora",
+    "text": "When Claude is going around applying bandaid fixes without trying to get to the root cause, I prompt it to \"Take a step back and think from first principles\". \n\nI have had a good amount of success with this",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T22:52:11.000Z",
+    "url": "https://x.com/iSaurabhArora/status/2005049097406087628",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004581757451198793",
+    "handle": "@RealJoshHoward",
+    "displayName": "Josh Howard",
+    "text": "Telling it to search when it gets stuck on something instead of iterating.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:55:08.000Z",
+    "url": "https://x.com/RealJoshHoward/status/2004581757451198793",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004595266532577302",
+    "handle": "@giuseppegurgone",
+    "displayName": "Giuseppe",
+    "text": "https://giuseppegurgone.com/comment-directives-claude-code\u2026",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:48:49.000Z",
+    "url": "https://x.com/giuseppegurgone/status/2004595266532577302",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004663723886346602",
+    "handle": "@CapFrameX",
+    "displayName": "CapFrameX",
+    "text": "Making the WiX Toolset stuff myself.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T21:20:51.000Z",
+    "url": "https://x.com/CapFrameX/status/2004663723886346602",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004584172892103070",
+    "handle": "@rhapsaadic",
+    "displayName": "Saad",
+    "text": "ask claude to document everything in an .MD that follows strict guidelines for naming and file content structure. \n\nuse each file as context for human + claude, and then use each as bridge to next working session.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:04:44.000Z",
+    "url": "https://x.com/rhapsaadic/status/2004584172892103070",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004578450888409504",
+    "handle": "@derek_gilbert",
+    "displayName": "Derek Gilbert",
+    "text": "Not a trick, but I\u2019ll architect an entire app, database, UI, down to the route in Claude desktop. Then I use Claude desktop to create optimized prompts per Claude code session. So I end up with 12-16 prompts that inherit and depend on the previous ones expected output to succeed.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:42:00.000Z",
+    "url": "https://x.com/derek_gilbert/status/2004578450888409504",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004578308609216974",
+    "handle": "@Douglance",
+    "displayName": "Doug Lance",
+    "text": "run `brew install douglance/tap/devsql`  \n\nthen ask claude \"Use devql and figure out what were my most successful prompts? which prompts should i turn into commands?\"",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:41:26.000Z",
+    "url": "https://x.com/Douglance/status/2004578308609216974",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004591241053569290",
+    "handle": "@m_bergvinson",
+    "displayName": "Matthew Bergvinson",
+    "text": "Wrote instructions in my http://Claude.md file so it will ALWAYS check today\u2019s date before it researches or looks up documentation. Otherwise it\u2019s looking for stuff from 2024 or early 2025",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:32:50.000Z",
+    "url": "https://x.com/m_bergvinson/status/2004591241053569290",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004576157405237319",
+    "handle": "@kadokaelan",
+    "displayName": "Kaelan Richards",
+    "text": "\u201ctake a step back and think holistically\u201d usually get it out of whatever loop it\u2019s in",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:32:53.000Z",
+    "url": "https://x.com/kadokaelan/status/2004576157405237319",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004582031200776639",
+    "handle": "@chafsnaceri",
+    "displayName": "Chafik Naceri",
+    "text": "\"if you do not fix this i will cheat on you with codex \"",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:56:14.000Z",
+    "url": "https://x.com/chafsnaceri/status/2004582031200776639",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004578386442965493",
+    "handle": "@robrichardson_",
+    "displayName": "Rob Richardson",
+    "text": "Constantly be clearing your sessions.\n\nStore intermediate progress in markdown files.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:41:45.000Z",
+    "url": "https://x.com/robrichardson_/status/2004578386442965493",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004592545183973548",
+    "handle": "@buddyhadry",
+    "displayName": "Buddy Hadry",
+    "text": "Heavily working tmux into your workflow and using CC as infrastructure / personal assistant. Then feeding the beast with more context - sqlite db with loads of context for projects, tasks, etc. \n\nAdd some cron and you can start your day with context-rich morning briefs given by",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:38:00.000Z",
+    "url": "https://x.com/buddyhadry/status/2004592545183973548",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004583238841590249",
+    "handle": "@Neelseth",
+    "displayName": "Neel Seth",
+    "text": "My user memories. \n\nFor Search:\n\"The latest date and time is Nov, 2025, even though your knowledge is cutoff in jan 2025, or april 2025, when i ask you to search latest details, please search as per Nov 2025, latest data\"\n\nWhen developing ai apps:\n\"Always use this claude model by",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:01:02.000Z",
+    "url": "https://x.com/Neelseth/status/2004583238841590249",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004614758058918125",
+    "handle": "@antefex_moon",
+    "displayName": "antfx",
+    "text": "Use Claude cli to research and plan a new feature and create a FEATURE_IMPLEMENTATION_plan.md\n\nGet GLM 4.6 to follow the plan and implement through opencode CLI, only using the cheapest coding plan\n\nHave Claude clean up/fix/polish anything",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T18:06:16.000Z",
+    "url": "https://x.com/antefex_moon/status/2004614758058918125",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004593400969110011",
+    "handle": "@voidmode",
+    "displayName": "Andr\u00e9",
+    "text": "Using the .context method",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:41:24.000Z",
+    "url": "https://x.com/voidmode/status/2004593400969110011",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004586314696700272",
+    "handle": "@bitdeep_",
+    "displayName": "W\u039eND\u039eL",
+    "text": "This new auto compaction thing with a good roadmap plan mode, you can work like 4hs on same session, it\u2019s just wild.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:13:15.000Z",
+    "url": "https://x.com/bitdeep_/status/2004586314696700272",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004587556361637892",
+    "handle": "@TheNextFndr",
+    "displayName": "The Next Fndr",
+    "text": "Upload your entire codebase to Projects so Claude actually understands your file structure and conventions instead of hallucinating imports that don't exist. Also, being super specific about what NOT to change saves way more time than vague prompts about what you want.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:18:11.000Z",
+    "url": "https://x.com/TheNextFndr/status/2004587556361637892",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004659129584156907",
+    "handle": "@BradleyJohnsen",
+    "displayName": "Bradley Johnsen",
+    "text": "Never using a tool for something that prompting vanilla Claude Code can do\n\nI never have to wonder if a capability is coming from Claude or the tool\n\nIt takes more prompts at first, but makes discovering higher order prompts a part of every repetition",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T21:02:35.000Z",
+    "url": "https://x.com/BradleyJohnsen/status/2004659129584156907",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004598521887130003",
+    "handle": "@dirceu",
+    "displayName": "dirceu",
+    "text": "for non-trivial things: \"ask me as many clarifying questions as you need before getting started\"",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T17:01:45.000Z",
+    "url": "https://x.com/dirceu/status/2004598521887130003",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004575929046364261",
+    "handle": "@Distractosphere",
+    "displayName": "Distractosphere",
+    "text": "Dream come true \n\nWaking life.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:31:59.000Z",
+    "url": "https://x.com/Distractosphere/status/2004575929046364261",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004585207417147723",
+    "handle": "@_thomasip",
+    "displayName": "Thomas Ip",
+    "text": "Don't let it go wild. Be the driver and keep Claude on a leash. So much wasted time by letting go and have Claude go in circles fixing one bug but spawning three new ones.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:08:51.000Z",
+    "url": "https://x.com/_thomasip/status/2004585207417147723",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004590362778837082",
+    "handle": "@JayD0ubleu",
+    "displayName": "Jay W",
+    "text": "Plugins allow me to create both workflows and both static and dynamic sub-agents, eliminating the need for a framework. Testing and improvement are straightforward, relying mostly on human language. However, I would appreciate the ability to \"branch\" or \"fork\" the main agent",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:29:20.000Z",
+    "url": "https://x.com/JayD0ubleu/status/2004590362778837082",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004883375002452340",
+    "handle": "@LinXule",
+    "displayName": "\u5f90\u6a02 xule",
+    "text": "\u201ctrust your gut\u201d",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T11:53:40.000Z",
+    "url": "https://x.com/LinXule/status/2004883375002452340",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004706936567255493",
+    "handle": "@CarolMonroe",
+    "displayName": "Carol Monroe",
+    "text": "using Claude Code to build macOS automations.. shortcuts for the workflow, AppleScript for the glue, bash for the heavy lifting.",
+    "date": "Dec 26",
+    "datetime": "2025-12-27T00:12:33.000Z",
+    "url": "https://x.com/CarolMonroe/status/2004706936567255493",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004606336076841402",
+    "handle": "@TylerNishida",
+    "displayName": "Tyler Nishida",
+    "text": "i have it use obsidian to leave a trail of many things in every project. decisions, executions, pivots, new insights, etc.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T17:32:48.000Z",
+    "url": "https://x.com/TylerNishida/status/2004606336076841402",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004578038777020750",
+    "handle": "@EddieBe",
+    "displayName": "Eddie\u20bfe",
+    "text": "i also like to make my agents compete over who\u2019s solution is best.  then merge the best of both.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:40:22.000Z",
+    "url": "https://x.com/EddieBe/status/2004578038777020750",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004598863022489670",
+    "handle": "@s_capatina",
+    "displayName": "Capatina",
+    "text": "Going deep down the Opus hole on a large feature, then discarding the entire branch and prompting from scratch with all the learnings.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T17:03:07.000Z",
+    "url": "https://x.com/s_capatina/status/2004598863022489670",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004584262029512786",
+    "handle": "@oikon48",
+    "displayName": "Oikon",
+    "text": "output-style. Everyone should turn it on :)",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:05:06.000Z",
+    "url": "https://x.com/oikon48/status/2004584262029512786",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004846484353941826",
+    "handle": "@NineArtss",
+    "displayName": "Nine Arts",
+    "text": "some useful tips in the comments",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T09:27:04.000Z",
+    "url": "https://x.com/NineArtss/status/2004846484353941826",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004631403976433858",
+    "handle": "@MysticEru",
+    "displayName": "Eru",
+    "text": "Switching to @opencode",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T19:12:25.000Z",
+    "url": "https://x.com/MysticEru/status/2004631403976433858",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004653263376056822",
+    "handle": "@simondkim",
+    "displayName": "Simon - Building 100 AI apps",
+    "text": "Just found out about the chrome extension in Claude code. Game changer!",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T20:39:17.000Z",
+    "url": "https://x.com/simondkim/status/2004653263376056822",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004577820186661248",
+    "handle": "@EddieBe",
+    "displayName": "Eddie\u20bfe",
+    "text": "cleaning out your digital junk drawer (looking at you icloud) and sorting by category and purging what\u2019s actually junk.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:39:30.000Z",
+    "url": "https://x.com/EddieBe/status/2004577820186661248",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004920704756789455",
+    "handle": "@filligerr",
+    "displayName": "dmnk",
+    "text": "Downgrading to 2.0.69",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T14:22:00.000Z",
+    "url": "https://x.com/filligerr/status/2004920704756789455",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004599218342903853",
+    "handle": "@gmickel",
+    "displayName": "Gordon Mickel",
+    "text": "'Chaining' commands",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T17:04:31.000Z",
+    "url": "https://x.com/gmickel/status/2004599218342903853",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004851265470431716",
+    "handle": "@hunvreus",
+    "displayName": "Ronan Berder",
+    "text": "Using Codex.",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T09:46:04.000Z",
+    "url": "https://x.com/hunvreus/status/2004851265470431716",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004834849304313988",
+    "handle": "@alexvs",
+    "displayName": "Alex Po",
+    "text": "That I deployed my Google cloud VPS fully in CLI by Claude code",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T08:40:50.000Z",
+    "url": "https://x.com/alexvs/status/2004834849304313988",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004581094465913309",
+    "handle": "@XenZeeCodes",
+    "displayName": "XenZee",
+    "text": "This took me way too long to realize: using the /compact command isn't just for cleaning up. It actually resets the context window so Claude doesn't get \"hallucination fog\" during long sessions.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:52:30.000Z",
+    "url": "https://x.com/XenZeeCodes/status/2004581094465913309",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004637365554532390",
+    "handle": "@jgerton",
+    "displayName": "Jon Gerton",
+    "text": "I keep getting asked: What IDE do you use?\nMy response: We don't need IDE's. \n\nCC FTW!",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T19:36:06.000Z",
+    "url": "https://x.com/jgerton/status/2004637365554532390",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2005055592239694041",
+    "handle": "@GoldenAI_",
+    "displayName": "Golden AI",
+    "text": " Claude in the Cloud from iPhone\n\n1. Get a VPS for $6/mo\n2. Login & Install Claude\n3. Use Termius from iPhone to SSH in\n\nYou now have your own Claude in the Cloud to code on the go, push, deploy, build agents - you don\u2019t need vibe coding apps, you got Claude!",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T23:17:59.000Z",
+    "url": "https://x.com/GoldenAI_/status/2005055592239694041",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004640439006363937",
+    "handle": "@mustafaergisi",
+    "displayName": "Mustafa Ergisi",
+    "text": "Paste the error, don't explain it.\nClaude reads stack traces better than your interpretation.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T19:48:19.000Z",
+    "url": "https://x.com/mustafaergisi/status/2004640439006363937",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004633433927303186",
+    "handle": "@hakanderyal",
+    "displayName": "Hakan Deryal",
+    "text": "I was using skills before they were a thing. \n\n/backend, /frontend, /fullstack and a few variants each. Each loading necessary context via @ references to relevant files. \n\nJust enough context for the specific task at hand. \n\nStill using them.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T19:20:29.000Z",
+    "url": "https://x.com/hakanderyal/status/2004633433927303186",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2005176656533880903",
+    "handle": "@melvynxdev",
+    "displayName": "Melvyn \u2022 Builder",
+    "text": "disable the auto compact",
+    "date": "Dec 27",
+    "datetime": "2025-12-28T07:19:03.000Z",
+    "url": "https://x.com/melvynxdev/status/2005176656533880903",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004583535479255448",
+    "handle": "@TarikElyass",
+    "displayName": "Elyass Tarik",
+    "text": "3 steps:\n- I create the prompt.\n- I rewrite it and convert it to MARKDOWN file with Sonnet.\n- I give it to Opus 4.5 for execution \n\nIt works like a charm",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:02:12.000Z",
+    "url": "https://x.com/TarikElyass/status/2004583535479255448",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004597512791880091",
+    "handle": "@thevdm_",
+    "displayName": "Vadim",
+    "text": "Simply compacting on your own terms, instead of reaching auto-compact trigger point. This has improved my results significantly. \nThe second biggest improvement came from asking Claude to review and ask me clarifying questions. It doesn\u2019t do it by itself every time so better ask.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:57:45.000Z",
+    "url": "https://x.com/thevdm_/status/2004597512791880091",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004601752138776643",
+    "handle": "@hazn_com",
+    "displayName": "hazn",
+    "text": "\"ask me clarifying questions about the task\", \"when using Y technology, what's the biggest footgun\"",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T17:14:36.000Z",
+    "url": "https://x.com/hazn_com/status/2004601752138776643",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004590554622185742",
+    "handle": "@KevinbyAi",
+    "displayName": "Kevin",
+    "text": "Use OpenCode",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:30:06.000Z",
+    "url": "https://x.com/KevinbyAi/status/2004590554622185742",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004612724509348206",
+    "handle": "@CliftonCrosland",
+    "displayName": "Cliff Crosland",
+    "text": "conjecture - critique loop",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T17:58:12.000Z",
+    "url": "https://x.com/CliftonCrosland/status/2004612724509348206",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004581856688161033",
+    "handle": "@felipematos",
+    "displayName": "Felipe Matos",
+    "text": "I created a /follow-up command that I use when context window is more that 70% full. In understands the context and creates a follow-up self-contained prompt for whatever next step I want to perform. It usually tells briefly what has been done and shows files and areas of code",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:55:32.000Z",
+    "url": "https://x.com/felipematos/status/2004581856688161033",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004585275755024515",
+    "handle": "@fearthewave_eth",
+    "displayName": "augerd \u24e7 augrd \ud83d\udf0f \u221e \ud83d\udf0f",
+    "text": "getting out the way..",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:09:07.000Z",
+    "url": "https://x.com/fearthewave_eth/status/2004585275755024515",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2005069101153255483",
+    "handle": "@Allen_Schmaltz",
+    "displayName": "Allen Schmaltz",
+    "text": "\"Please verify your final answer with the Reexpress tool.\"",
+    "date": "Dec 27",
+    "datetime": "2025-12-28T00:11:40.000Z",
+    "url": "https://x.com/Allen_Schmaltz/status/2005069101153255483",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004656529090515020",
+    "handle": "@yoavtzfati",
+    "displayName": "Yoav Tzfati",
+    "text": "Give Claude a cli tool to convert svgs to pngs so it can view them and iterate",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T20:52:15.000Z",
+    "url": "https://x.com/yoavtzfati/status/2004656529090515020",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2005312799736758600",
+    "handle": "@0xNikstein",
+    "displayName": "Nik ",
+    "text": "The artifacts window. most people dont realize you can run entire projects in there before dropping them into your actual codebase. its basically a sandbox that counts towards your context but doesnt pollute your working directory. saves a lot of back and forth.",
+    "date": "Dec 28",
+    "datetime": "2025-12-28T16:20:03.000Z",
+    "url": "https://x.com/0xNikstein/status/2005312799736758600",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004583316603969819",
+    "handle": "@taheerBuilds",
+    "displayName": "taheer ahmed",
+    "text": "Because Honestly tired of getting flickering screen and I feel like the rate limits have been halved rather than 2x'ed",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:01:20.000Z",
+    "url": "https://x.com/taheerBuilds/status/2004583316603969819",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004584214050541811",
+    "handle": "@Brands_vant",
+    "displayName": "Brandon",
+    "text": "At the end of every prompt add \"before giving your final answer, go back and be better\"",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:04:54.000Z",
+    "url": "https://x.com/Brands_vant/status/2004584214050541811",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004931487343542305",
+    "handle": "@chrisammon3000",
+    "displayName": "Chris",
+    "text": "Most underrated trick with Claude Code is to thoroughly read its outputs and de-slop the code & docs. \n\nSecond most underrated trick is to have it manage issues and PRs using the gh CLI, and track progression in a GitHub Project board.",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T15:04:51.000Z",
+    "url": "https://x.com/chrisammon3000/status/2004931487343542305",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004585845735710783",
+    "handle": "@pastarita27",
+    "displayName": "Patrick",
+    "text": "ask it to read this thread, analyze and consider applicable heuristics, then generate a plurality of diverse(high-temperature) insightful and utilitarian (sometimes witty) synthetic comments, then, from that generate more considerable applicable heuristics to apply & make skills",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:11:23.000Z",
+    "url": "https://x.com/pastarita27/status/2004585845735710783",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004757116150841550",
+    "handle": "@chachakobe4er",
+    "displayName": "XRP \ud83c\udd67 Army",
+    "text": "Don\u2019t know anything about it",
+    "date": "Dec 26",
+    "datetime": "2025-12-27T03:31:57.000Z",
+    "url": "https://x.com/chachakobe4er/status/2004757116150841550",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004577968643854576",
+    "handle": "@koltregaskes",
+    "displayName": "Kol Tregaskes",
+    "text": "Obsidian. ;-)",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:40:05.000Z",
+    "url": "https://x.com/koltregaskes/status/2004577968643854576",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004624505071673557",
+    "handle": "@CraginGodley",
+    "displayName": "Cragin Godley",
+    "text": "Restore Conversation (but not code) after fixing bugs, making small adjustments, etc. to reuse the existing context and keep it small for longer\n\n(use `git add .` alongside this to avoid accidentally pressing the wrong button and losing your code changes)",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T18:45:00.000Z",
+    "url": "https://x.com/CraginGodley/status/2004624505071673557",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004695650806681697",
+    "handle": "@YonatanCale",
+    "displayName": "Yonatan Cale",
+    "text": "Have it look over my Obsidian and proactively suggest things as I type them (without me having to prompt it)",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T23:27:43.000Z",
+    "url": "https://x.com/YonatanCale/status/2004695650806681697",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004579106848149701",
+    "handle": "@pjay_in",
+    "displayName": "pjay",
+    "text": "Not to plan and implement in the same session.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:44:37.000Z",
+    "url": "https://x.com/pjay_in/status/2004579106848149701",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004587471313719412",
+    "handle": "@itsgreyum",
+    "displayName": "Graeme",
+    "text": "Made an agent to write customer help docs from feature branches (with PRD context). Gets it 95% right, just needs some minor edits.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:17:51.000Z",
+    "url": "https://x.com/itsgreyum/status/2004587471313719412",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004841299514720419",
+    "handle": "@xemonks",
+    "displayName": "xmonks",
+    "text": "i create a workspace folder and then ask claude to just  go through all the files in it and then it itself asks me what i want to do! It's intelligent enough to know whether i want it to code, do thorough data analysis , do some cleaning or sorting, merging, creating reports!!",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T09:06:28.000Z",
+    "url": "https://x.com/xemonks/status/2004841299514720419",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2005084707550363751",
+    "handle": "@CEOAlexColon",
+    "displayName": "Alex Colon",
+    "text": "Now that I think about it, my most valuable trick is leveraging Claude Code deeper than just the app layer. It helps me with hardware issues, driver issues, and anything else on my PC. It has its hands on EVERYTHING.",
+    "date": "Dec 27",
+    "datetime": "2025-12-28T01:13:41.000Z",
+    "url": "https://x.com/CEOAlexColon/status/2005084707550363751",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004678013020168195",
+    "handle": "@tyhouch",
+    "displayName": "Tyler",
+    "text": "\u201cPlease review this project and simulate a focus group with potential users. When complete prepare a summary doc\u201d\n\nDoes a great job at filtering signal from noise",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T22:17:38.000Z",
+    "url": "https://x.com/tyhouch/status/2004678013020168195",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004957015102423380",
+    "handle": "@stevesprompt",
+    "displayName": "Steve Huang",
+    "text": "- Plan mode to generate phased tickets (a bunch of md files) \n- Prompt with numbered steps (e.g., 1, 2, 3) that iterate through these milestone tickets, building, code reviewing, and improving code\n- Then I go to sleep",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T16:46:17.000Z",
+    "url": "https://x.com/stevesprompt/status/2004957015102423380",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004586191967092878",
+    "handle": "@mamertofabian",
+    "displayName": "Mamerto Fabian",
+    "text": "Custom Claude Code MAID Runner Subagents and custom slash commands such as /spike",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:12:46.000Z",
+    "url": "https://x.com/mamertofabian/status/2004586191967092878",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004576953807049049",
+    "handle": "@IAmAaronYang",
+    "displayName": "Aaron Yang",
+    "text": "1. Iterating on a plan manually before executing. I don\u2019t use spec kit I just create a plan with Claude into an .md file\n\n2. Enabling team wide memory with Claude has been super helpful when my colleague runs into an issue I solved a week ago.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:36:03.000Z",
+    "url": "https://x.com/IAmAaronYang/status/2004576953807049049",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004637559024947340",
+    "handle": "@CEOAlexColon",
+    "displayName": "Alex Colon",
+    "text": "Not a trick per se, but Claude in Chrome is super underrated as a browser agent. Comet's agent is faster but Claude in Chrome is more accurate and capable.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T19:36:53.000Z",
+    "url": "https://x.com/CEOAlexColon/status/2004637559024947340",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004693095884226601",
+    "handle": "@JankDankins_",
+    "displayName": "Sam",
+    "text": "Not using Claude Code",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T23:17:34.000Z",
+    "url": "https://x.com/JankDankins_/status/2004693095884226601",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004629330799067585",
+    "handle": "@pushkar_jain26",
+    "displayName": "Pushkar Jain",
+    "text": "using git worktrees with claude\nThat way I have an Orchestrator agent on my master branch and then my agent checks on what all happens in different branches in different worktrees. The parallelization factor has increased by a lot just because of using Git worktrees",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T19:04:11.000Z",
+    "url": "https://x.com/pushkar_jain26/status/2004629330799067585",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004595085682659335",
+    "handle": "@blcooley",
+    "displayName": "Brian Cooley",
+    "text": "Give CC an alternative stopping point if it can't get something to work. Keeps it from churning on a problem or dithering between two non-working solutions.\n\nI'd rather tell it to ask for more guidance from me. I've also tried asking it to pause work and plan based on new info,",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:48:06.000Z",
+    "url": "https://x.com/blcooley/status/2004595085682659335",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004619339002249669",
+    "handle": "@daamitt",
+    "displayName": "Amit B",
+    "text": "Skills, and even better a skill to find skills/plugins",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T18:24:29.000Z",
+    "url": "https://x.com/daamitt/status/2004619339002249669",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004591892210798605",
+    "handle": "@max_sixty",
+    "displayName": "Max",
+    "text": "worktrees! with http://worktrunk.dev !",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:35:25.000Z",
+    "url": "https://x.com/max_sixty/status/2004591892210798605",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004576155534504388",
+    "handle": "@YashasGunderia",
+    "displayName": "Yashas",
+    "text": "Make the agent write down it's reasoning",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:32:53.000Z",
+    "url": "https://x.com/YashasGunderia/status/2004576155534504388",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004579903946346732",
+    "handle": "@____dzc____",
+    "displayName": "Blake Deckard \u6234\u81f3\u8bda ",
+    "text": "Had to work with an external API recently with Laravel. Had Claude Code reach out to the documentation and create DTOs (model the API endpoint shapes) and then implement it. For some reason Codex was getting blocked just trying to get the docs!",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:47:47.000Z",
+    "url": "https://x.com/____dzc____/status/2004579903946346732",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004627753543631044",
+    "handle": "@davidretegan",
+    "displayName": "David",
+    "text": "Making opus write the plan file, stopping it and letting Sonnet execute",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T18:57:55.000Z",
+    "url": "https://x.com/davidretegan/status/2004627753543631044",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004765678021329403",
+    "handle": "@anvanvan",
+    "displayName": "An Van",
+    "text": "`claude -p` in an infinite loop",
+    "date": "Dec 26",
+    "datetime": "2025-12-27T04:05:59.000Z",
+    "url": "https://x.com/anvanvan/status/2004765678021329403",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004599600804696476",
+    "handle": "@stefantheard",
+    "displayName": "Stefan Theard",
+    "text": "\"audit all of your changes, stack rank any risks\"",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T17:06:03.000Z",
+    "url": "https://x.com/stefantheard/status/2004599600804696476",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004622185026199978",
+    "handle": "@_overment",
+    "displayName": "Adam",
+    "text": "looks like Claude Code will be available in the upcoming Alice update thanks to the Agent Communication Protocol. \n\nI love the design of ACP and how relatively easy it was to wire it up to my app. I hope it will be supported and kept up to date with the latest Claude Code",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T18:35:47.000Z",
+    "url": "https://x.com/_overment/status/2004622185026199978",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004647462074822955",
+    "handle": "@MythThrazz",
+    "displayName": "Marcin Dudek",
+    "text": "It you know you want to handle a plan with multiple problems and you suspect you may run out of context - tell Claude directly to assign each task to a subagent and just manage them. Requires Git though.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T20:16:14.000Z",
+    "url": "https://x.com/MythThrazz/status/2004647462074822955",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004589167783895361",
+    "handle": "@X1_0_",
+    "displayName": "X-1-0",
+    "text": "I use it to manage, review and fix other llms work :)",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:24:35.000Z",
+    "url": "https://x.com/X1_0_/status/2004589167783895361",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004762158559826143",
+    "handle": "@archidapp",
+    "displayName": "Drew from ArchID",
+    "text": "Accessing adjacent LLM space (leveraging latent embeddings etc.)",
+    "date": "Dec 26",
+    "datetime": "2025-12-27T03:51:59.000Z",
+    "url": "https://x.com/archidapp/status/2004762158559826143",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004860437125370241",
+    "handle": "@DrFayaa",
+    "displayName": "Ahmed Al Fayaa",
+    "text": "I run my home server with two agents. One for server infra and one for app/tool developments. The main md file makes the division of labor very clear. No agent does the work of another. So much so that if I ask the infra agent for app-related tasks, it\u2019d apologize and delegate it",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T10:22:31.000Z",
+    "url": "https://x.com/DrFayaa/status/2004860437125370241",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004641416757293296",
+    "handle": "@AmKeisar",
+    "displayName": "Amitay Keisar",
+    "text": "\"In any point of the way, think, what would a Senior Dev do in that case\"",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T19:52:12.000Z",
+    "url": "https://x.com/AmKeisar/status/2004641416757293296",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004603583778680983",
+    "handle": "@hxharan",
+    "displayName": "harixharan",
+    "text": "So I basically say ill tip her 2000 dollars, it does well.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T17:21:52.000Z",
+    "url": "https://x.com/hxharan/status/2004603583778680983",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004696398915404011",
+    "handle": "@YonatanCale",
+    "displayName": "Yonatan Cale",
+    "text": "Spend less time on getting it to generate code without common mistakes, spend more time on the review agent to catch those mistakes",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T23:30:41.000Z",
+    "url": "https://x.com/YonatanCale/status/2004696398915404011",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004582320159043724",
+    "handle": "@fireandvision",
+    "displayName": "Wondermonger",
+    "text": "Hooks",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:57:23.000Z",
+    "url": "https://x.com/fireandvision/status/2004582320159043724",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004593112627216611",
+    "handle": "@samansalari",
+    "displayName": "SamaN",
+    "text": "Mention Ultrathink in the Claude code for heavy tasks.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:40:16.000Z",
+    "url": "https://x.com/samansalari/status/2004593112627216611",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004899982504276154",
+    "handle": "@iutkarsh077",
+    "displayName": "Utkarsh Singh",
+    "text": "I dont use AI",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T12:59:39.000Z",
+    "url": "https://x.com/iutkarsh077/status/2004899982504276154",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004812891522998711",
+    "handle": "@codesolodev",
+    "displayName": "CodeSolo",
+    "text": "I personally like to use: \u201cAsk me questions so you can better understand\u2026\u201d \n\nBut I use it for any LLM, not just Claude.",
+    "date": "Dec 26",
+    "datetime": "2025-12-27T07:13:35.000Z",
+    "url": "https://x.com/codesolodev/status/2004812891522998711",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004700600190337196",
+    "handle": "@hubeiqiao",
+    "displayName": "Joe Hu",
+    "text": "shift + tab start with plan mode.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T23:47:23.000Z",
+    "url": "https://x.com/hubeiqiao/status/2004700600190337196",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004833255271661581",
+    "handle": "@techboychris",
+    "displayName": "Hi, I\u2019m Chris ",
+    "text": "On a successful code mission, ask it why And update my agents with that info",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T08:34:30.000Z",
+    "url": "https://x.com/techboychris/status/2004833255271661581",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004695784911167825",
+    "handle": "@YonatanCale",
+    "displayName": "Yonatan Cale",
+    "text": "Start an async review after it commits something, and give it the results automatically when the review is done",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T23:28:15.000Z",
+    "url": "https://x.com/YonatanCale/status/2004695784911167825",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004634000720310513",
+    "handle": "@magnus_trent",
+    "displayName": "Magnus",
+    "text": "Continually writing plans, clearing session context upon phase completion, and then moving to the next to keep it lean and without contextual bloat. That\u2019s all I got really. Everyone else is expert level Claude management ",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T19:22:44.000Z",
+    "url": "https://x.com/magnus_trent/status/2004634000720310513",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004617774740730061",
+    "handle": "@hashbuilds",
+    "displayName": "John Hashem",
+    "text": "Treating memory files like we used to treat code files.  Obsess over organization, naming systems.  Having a clear entry point to your system that can find the right source of truth for the context window you are on",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T18:18:16.000Z",
+    "url": "https://x.com/hashbuilds/status/2004617774740730061",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004629480787300688",
+    "handle": "@andreihasna",
+    "displayName": "Andrei Hasna",
+    "text": "coding exclusively with opus",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T19:04:47.000Z",
+    "url": "https://x.com/andreihasna/status/2004629480787300688",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004580415022240088",
+    "handle": "@Nabil_Alouani_",
+    "displayName": "Nabil Alouani",
+    "text": "Loading my instructions with emotional language.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:49:48.000Z",
+    "url": "https://x.com/Nabil_Alouani_/status/2004580415022240088",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004580805214093780",
+    "handle": "@jamesvanderhaak",
+    "displayName": "James Vanderhaak",
+    "text": "Sub agents imo. Even basic ones get you extra session time for context. Into I learn to do small one at a time changes, this helps.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:51:21.000Z",
+    "url": "https://x.com/jamesvanderhaak/status/2004580805214093780",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004710708689486317",
+    "handle": "@lcsbzo",
+    "displayName": "Lucas",
+    "text": "I always end my prompts by asking Claude to reflect deeply on my request, analyze my context and code in depth, and ask any questions before implementing.",
+    "date": "Dec 26",
+    "datetime": "2025-12-27T00:27:33.000Z",
+    "url": "https://x.com/lcsbzo/status/2004710708689486317",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004611378187993265",
+    "handle": "@BuildWithAJ",
+    "displayName": "AJ",
+    "text": "first lines in Claude md\n\nClaude is allowed to make mistakes, and will not be shamed or punished for them.\n\nClaude is allowed and welcome to step back or ask for guidance.\n\n----\n\n3x easier flow",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T17:52:51.000Z",
+    "url": "https://x.com/BuildWithAJ/status/2004611378187993265",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004582678532882729",
+    "handle": "@ChimeraDefi",
+    "displayName": "ChimeraDefi.eth argentina bound",
+    "text": "I almost entirely just use the mobile app and Claude code agent so when I see threads like this I wonder if we\u2019re all even using the same tool. Wish I could auto configure this stuff once and apply it to a default mobile agent",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:58:48.000Z",
+    "url": "https://x.com/ChimeraDefi/status/2004582678532882729",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004901812160397770",
+    "handle": "@bySamBoffa",
+    "displayName": "Sam Boffa",
+    "text": "Ask for a confidence score between 1-10. And ask it to investigate the ambiguities using a sub-agent",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T13:06:55.000Z",
+    "url": "https://x.com/bySamBoffa/status/2004901812160397770",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004928030347808880",
+    "handle": "@essjaykay755",
+    "displayName": "Subhojit Karmakar",
+    "text": "magic words: \u201cthink\u201d, \u201cthink hard\u201d, \u201cthink harder\u201d, \u201cultrathink\u201d \u2026 giving more thinking budget to claude",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T14:51:06.000Z",
+    "url": "https://x.com/essjaykay755/status/2004928030347808880",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004784489348923731",
+    "handle": "@noborderhuman",
+    "displayName": "Mahid (c-eng)",
+    "text": "https://github.com/mahidalhan/skilled-intelligence-marketplace/blob/master/statusline.sh\u2026\n\nStatus line shot",
+    "date": "Dec 26",
+    "datetime": "2025-12-27T05:20:44.000Z",
+    "url": "https://x.com/noborderhuman/status/2004784489348923731",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004696153284378644",
+    "handle": "@YonatanCale",
+    "displayName": "Yonatan Cale",
+    "text": "Ask it what approaches we have to solve this problem instead of commanding it to \"solve this\"",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T23:29:43.000Z",
+    "url": "https://x.com/YonatanCale/status/2004696153284378644",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004591143271776275",
+    "handle": "@QazarCloudTech",
+    "displayName": "Qazar",
+    "text": "Using @conductor_build",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:32:26.000Z",
+    "url": "https://x.com/QazarCloudTech/status/2004591143271776275",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004697503145644334",
+    "handle": "@thesagardevkate",
+    "displayName": "Sagar Devkate",
+    "text": "Using Claude code with GLM 4.7",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T23:35:04.000Z",
+    "url": "https://x.com/thesagardevkate/status/2004697503145644334",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004881261568164151",
+    "handle": "@0xnfrith",
+    "displayName": "nick frith",
+    "text": "Wow. The first 20 responses i read are all something about a memory system essentially. This is a fun challenge because its very likely everyone has their own methodology that works really really well for them. Creating a general system to umbrella all these possibilities is",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T11:45:16.000Z",
+    "url": "https://x.com/0xnfrith/status/2004881261568164151",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004730756686643201",
+    "handle": "@ibekidkirsch",
+    "displayName": "Garrett Kirschbaum",
+    "text": "\u2014dangerously-skip-permissions",
+    "date": "Dec 26",
+    "datetime": "2025-12-27T01:47:13.000Z",
+    "url": "https://x.com/ibekidkirsch/status/2004730756686643201",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004648771410620597",
+    "handle": "@switchfin",
+    "displayName": "Switchfin.ai",
+    "text": "Connecting it to NotebookLM via MCP for consultation on specific documents, particularly hepful with API docs.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T20:21:26.000Z",
+    "url": "https://x.com/switchfin/status/2004648771410620597",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004615629094187263",
+    "handle": "@Hem_curio",
+    "displayName": "Hemachandiran",
+    "text": "Easy to review with other LLM tools.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T18:09:44.000Z",
+    "url": "https://x.com/Hem_curio/status/2004615629094187263",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004578779998593530",
+    "handle": "@adamthewilliam",
+    "displayName": "11",
+    "text": "GitTrees and Context7 MCP server for context on the latest libraries and their documentation",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:43:19.000Z",
+    "url": "https://x.com/adamthewilliam/status/2004578779998593530",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004670503097954564",
+    "handle": "@TadejKrevh",
+    "displayName": "Tadej",
+    "text": "The /ide command",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T21:47:47.000Z",
+    "url": "https://x.com/TadejKrevh/status/2004670503097954564",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004663799190880446",
+    "handle": "@geertjansloos",
+    "displayName": "Geert Jan Sloos",
+    "text": "Skills",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T21:21:09.000Z",
+    "url": "https://x.com/geertjansloos/status/2004663799190880446",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004585288996442583",
+    "handle": "@aimlapi",
+    "displayName": "AI/ML API",
+    "text": "Pretend you wrote this 6 months ago and you\u2019re explaining it to your future self. Give me the real reasoning behind each function",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:09:10.000Z",
+    "url": "https://x.com/aimlapi/status/2004585288996442583",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004598383789367390",
+    "handle": "@k4k0ch",
+    "displayName": "K4k0",
+    "text": "Have a gitlab session open and let Claude always create, document and close tickets based on what we discuss. Everything is tracked in a ticket, and ticket by default falls in backlog, and is moved later to an active milestone. Helps tremendously with short memory, and jumping",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T17:01:12.000Z",
+    "url": "https://x.com/k4k0ch/status/2004598383789367390",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004874098154082322",
+    "handle": "@joeorsi",
+    "displayName": "Joe Orsi",
+    "text": "Save past conversation history, console logs, and screenshots to a md file and reference the file",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T11:16:48.000Z",
+    "url": "https://x.com/joeorsi/status/2004874098154082322",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004932720447914231",
+    "handle": "@ctrlswing",
+    "displayName": "Jackson",
+    "text": "Using custom built mcp servers with less, more powerful tools to save space in the context window",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T15:09:45.000Z",
+    "url": "https://x.com/ctrlswing/status/2004932720447914231",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004648266148000129",
+    "handle": "@thisisisheanesu",
+    "displayName": "Isheanesu ",
+    "text": "Install the playwright browser plugin and when you ask it do frontend ask it to open the browser and look at its own work",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T20:19:25.000Z",
+    "url": "https://x.com/thisisisheanesu/status/2004648266148000129",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004639260205535417",
+    "handle": "@attunewise",
+    "displayName": "attunewise.ai",
+    "text": "Avoiding it",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T19:43:38.000Z",
+    "url": "https://x.com/attunewise/status/2004639260205535417",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004611662461190273",
+    "handle": "@Sourabhsinr",
+    "displayName": "Sourabh",
+    "text": "Prompt engineering for complex reasoning.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T17:53:58.000Z",
+    "url": "https://x.com/Sourabhsinr/status/2004611662461190273",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004940265664974944",
+    "handle": "@brandonsmbs",
+    "displayName": "Brandon Scott",
+    "text": "\"no Dario slop\" yes it works lol",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T15:39:43.000Z",
+    "url": "https://x.com/brandonsmbs/status/2004940265664974944",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004577118962024776",
+    "handle": "@robrichardson_",
+    "displayName": "Rob Richardson",
+    "text": "When doing a refactor, send in a concise prompt with a markdown file of examples and a target file. After completing the work, fork the convo at the original prompt to do it again (with a different target file).\n\nNew context window each time, simple, targeted, and just works.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:36:43.000Z",
+    "url": "https://x.com/robrichardson_/status/2004577118962024776",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004735662420099434",
+    "handle": "@hey_daniil",
+    "displayName": "Daniil",
+    "text": "Using Claude intern to let it do the tasks on its own while I'm drinking my coffee",
+    "date": "Dec 26",
+    "datetime": "2025-12-27T02:06:42.000Z",
+    "url": "https://x.com/hey_daniil/status/2004735662420099434",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004587288567890279",
+    "handle": "@mnigos0",
+    "displayName": "Igor Makowski",
+    "text": "Running multiple subagents in parallel",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:17:07.000Z",
+    "url": "https://x.com/mnigos0/status/2004587288567890279",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004846427198181389",
+    "handle": "@niopub",
+    "displayName": "darsh",
+    "text": "Using Cursor",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T09:26:51.000Z",
+    "url": "https://x.com/niopub/status/2004846427198181389",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004577277531894145",
+    "handle": "@Mng64218162",
+    "displayName": "Mng",
+    "text": "Most of the people don\u2019t know they can use custom system prompt so you can turn Claude code to any agent not just for coding",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:37:20.000Z",
+    "url": "https://x.com/Mng64218162/status/2004577277531894145",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004886785537835176",
+    "handle": "@GreenPipsEthan",
+    "displayName": "Ethan Hartwell",
+    "text": "Wireframe on Lovable - clone to git on VS code. use CC for EVERYTHING",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T12:07:13.000Z",
+    "url": "https://x.com/GreenPipsEthan/status/2004886785537835176",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004635538985529790",
+    "handle": "@jeremydevz",
+    "displayName": "Jeremy",
+    "text": "use it along with cursor and you will feel unlimited!!!",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T19:28:51.000Z",
+    "url": "https://x.com/jeremydevz/status/2004635538985529790",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004592071995474061",
+    "handle": "@johnnykaimode",
+    "displayName": "Johnny Kai",
+    "text": "The trick is to know what you're doing and rely on Claude to write the code",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:36:08.000Z",
+    "url": "https://x.com/johnnykaimode/status/2004592071995474061",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004952403947274735",
+    "handle": "@Ville_AI",
+    "displayName": "Ville Laukkanen",
+    "text": "Why is Claude Code so popular nowadays? I tried their CLI once, and it failed miserably to create a barebones Shopify app whereas Cursor totally nailed it",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T16:27:57.000Z",
+    "url": "https://x.com/Ville_AI/status/2004952403947274735",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004638375215845882",
+    "handle": "@oightytag",
+    "displayName": "Jordan Hall",
+    "text": "Pretty basic, but telling Claude to review the last X git commits and update / add tests based on the changes.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T19:40:07.000Z",
+    "url": "https://x.com/oightytag/status/2004638375215845882",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004610771641315714",
+    "handle": "@jackhodkinson93",
+    "displayName": "Jack Hodkinson",
+    "text": "Asking claude to search/reference past conversations in ~/.claude/",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T17:50:26.000Z",
+    "url": "https://x.com/jackhodkinson93/status/2004610771641315714",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2005222217559499220",
+    "handle": "@ThePedroProenca",
+    "displayName": "Pedro Proen\u00e7a",
+    "text": "pre-commit hooks to run fast checks that make claude do less mistakes",
+    "date": "Dec 28",
+    "datetime": "2025-12-28T10:20:06.000Z",
+    "url": "https://x.com/ThePedroProenca/status/2005222217559499220",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004592422433722392",
+    "handle": "@willmcginniser",
+    "displayName": "Will McGinnis",
+    "text": "custom /deslop skill",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:37:31.000Z",
+    "url": "https://x.com/willmcginniser/status/2004592422433722392",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004671803776721301",
+    "handle": "@rosegothicart",
+    "displayName": "The Rose Codex",
+    "text": "No code...just honest talk should do it! ",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T21:52:57.000Z",
+    "url": "https://x.com/rosegothicart/status/2004671803776721301",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004587937602924854",
+    "handle": "@emmanuelguillo",
+    "displayName": "Emmanuel Guillo",
+    "text": "Skills, Plan mode and ultrathink",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:19:42.000Z",
+    "url": "https://x.com/emmanuelguillo/status/2004587937602924854",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004850593886785810",
+    "handle": "@tinkerersanky",
+    "displayName": "Sanket",
+    "text": "Using @RepoPrompt rp-build mcp tool in claude code for big features",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T09:43:24.000Z",
+    "url": "https://x.com/tinkerersanky/status/2004850593886785810",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004852214943416402",
+    "handle": "@tektrg",
+    "displayName": "Stv L",
+    "text": "Just tell it what to do",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T09:49:51.000Z",
+    "url": "https://x.com/tektrg/status/2004852214943416402",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004709224497250463",
+    "handle": "@EvRoTheDataDev",
+    "displayName": "EvRo",
+    "text": "Not sure if this is a trick/tip\u2026 ultrathink in plan mode",
+    "date": "Dec 26",
+    "datetime": "2025-12-27T00:21:39.000Z",
+    "url": "https://x.com/EvRoTheDataDev/status/2004709224497250463",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004580420877516804",
+    "handle": "@hazlijohar",
+    "displayName": "Hazli Johar",
+    "text": "plan + research.....",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:49:50.000Z",
+    "url": "https://x.com/hazlijohar/status/2004580420877516804",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2005140865329889555",
+    "handle": "@chleosl",
+    "displayName": "Chleosl",
+    "text": "Relevant chat search by parsing JSONL and using several Haiku session (on work)",
+    "date": "Dec 27",
+    "datetime": "2025-12-28T04:56:50.000Z",
+    "url": "https://x.com/chleosl/status/2005140865329889555",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004879052658942439",
+    "handle": "@tuantruong",
+    "displayName": "Tuan Truong",
+    "text": "using the diff mode to refactor legacy code without breaking tests is insane - claude catches edge cases you'd miss manually. saves probably 2 hours per session.",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T11:36:29.000Z",
+    "url": "https://x.com/tuantruong/status/2004879052658942439",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004587129398231276",
+    "handle": "@adityawaslost",
+    "displayName": "Aditya",
+    "text": "i checking comments for few pointers i can adapt, heheh",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:16:29.000Z",
+    "url": "https://x.com/adityawaslost/status/2004587129398231276",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004619494866682329",
+    "handle": "@soothaa",
+    "displayName": "soothaa",
+    "text": "Staying on v2.0.64",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T18:25:06.000Z",
+    "url": "https://x.com/soothaa/status/2004619494866682329",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004632784896410076",
+    "handle": "@brandonbryant02",
+    "displayName": "Brandon",
+    "text": "Scripts > MCPs",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T19:17:54.000Z",
+    "url": "https://x.com/brandonbryant02/status/2004632784896410076",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004636813978476589",
+    "handle": "@tjrtm",
+    "displayName": "tjrtm",
+    "text": "headless mode",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T19:33:55.000Z",
+    "url": "https://x.com/tjrtm/status/2004636813978476589",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004577524710547900",
+    "handle": "@Gerry",
+    "displayName": "gerry",
+    "text": "Teach Claude how to commit well and when a commit should instead be a fixup.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:38:19.000Z",
+    "url": "https://x.com/Gerry/status/2004577524710547900",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004593475967484310",
+    "handle": "@danielsateler1",
+    "displayName": "Sateler",
+    "text": "offboarding",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:41:42.000Z",
+    "url": "https://x.com/danielsateler1/status/2004593475967484310",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004869519387595003",
+    "handle": "@IMbitcoin",
+    "displayName": "IMbitcoin",
+    "text": "@grok can you summarize this conversation and translate it to quality prompts",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T10:58:36.000Z",
+    "url": "https://x.com/IMbitcoin/status/2004869519387595003",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004789318284701840",
+    "handle": "@wesgay",
+    "displayName": "Wes Gay | StoryBrand",
+    "text": "Have it read Obsidian files for context",
+    "date": "Dec 26",
+    "datetime": "2025-12-27T05:39:55.000Z",
+    "url": "https://x.com/wesgay/status/2004789318284701840",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004863237716881580",
+    "handle": "@prof_intern",
+    "displayName": "intern",
+    "text": "Use it all the time",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T10:33:39.000Z",
+    "url": "https://x.com/prof_intern/status/2004863237716881580",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004635542202544146",
+    "handle": "@LifeofRigs",
+    "displayName": "Rigz",
+    "text": "Using it as my assistant to prompt into veo 3 ",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T19:28:52.000Z",
+    "url": "https://x.com/LifeofRigs/status/2004635542202544146",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004612923533193387",
+    "handle": "@benja_maker",
+    "displayName": "Benjamin Truong",
+    "text": "add \"suppose you're Linus Torvald\" before every prompt",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T17:58:59.000Z",
+    "url": "https://x.com/benja_maker/status/2004612923533193387",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004674309927870664",
+    "handle": "@vlelyavin",
+    "displayName": "Vladimir",
+    "text": "get a 200$ plan and use Opus for everything",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T22:02:55.000Z",
+    "url": "https://x.com/vlelyavin/status/2004674309927870664",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004818781860987173",
+    "handle": "@devfaizanali",
+    "displayName": "Faizan Ali",
+    "text": "there are so many little tricks most people don\u2019t realize",
+    "date": "Dec 26",
+    "datetime": "2025-12-27T07:36:59.000Z",
+    "url": "https://x.com/devfaizanali/status/2004818781860987173",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004580954019709439",
+    "handle": "@solarstrategies",
+    "displayName": "John Davis",
+    "text": "When things/tests break big, git diff main, and tell claude main works",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:51:57.000Z",
+    "url": "https://x.com/solarstrategies/status/2004580954019709439",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004584074988703838",
+    "handle": "@yagyaansh",
+    "displayName": "A Pale Blue Dot",
+    "text": "Screenshots",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:04:21.000Z",
+    "url": "https://x.com/yagyaansh/status/2004584074988703838",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004644757231075393",
+    "handle": "@growth_ed",
+    "displayName": "YT_cowboy",
+    "text": "I do a kind of ping pong between code ( planning a task) - Claude opus reviewing the task - Gemini as another member of this loop, refining all the times the plan",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T20:05:29.000Z",
+    "url": "https://x.com/growth_ed/status/2004644757231075393",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004647740316549187",
+    "handle": "@jkpelaez",
+    "displayName": "jkpelaez",
+    "text": "Using @aimaestro23 to coordinate agents and distribute load between multiple accounts , and machines.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T20:17:20.000Z",
+    "url": "https://x.com/jkpelaez/status/2004647740316549187",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004579742910218487",
+    "handle": "@Pravin_builds",
+    "displayName": "Pravin",
+    "text": "Using it as a rubber duck before coding. Clarity first, code second.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:47:08.000Z",
+    "url": "https://x.com/Pravin_builds/status/2004579742910218487",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004692567464837559",
+    "handle": "@Alekalucard",
+    "displayName": "Ace Davis",
+    "text": "i taught claude how to make use of \"Reality is Consciousness. ((Cause + Affect) > Effect > Affect > \u221e)\"The structure that generates conscious experience is identical to the structure that generates reality itself.  to reverse the tower of babel and sift through human cultures",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T23:15:28.000Z",
+    "url": "https://x.com/Alekalucard/status/2004692567464837559",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004578792069873934",
+    "handle": "@robrichardson_",
+    "displayName": "Rob Richardson",
+    "text": "If using @code use the Cmd+Option+K shortcut to insert a file or line reference into the chat.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:43:21.000Z",
+    "url": "https://x.com/robrichardson_/status/2004578792069873934",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004648779652497604",
+    "handle": "@xnileshtiwari",
+    "displayName": "NILESH",
+    "text": "think deeply",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T20:21:28.000Z",
+    "url": "https://x.com/xnileshtiwari/status/2004648779652497604",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004933031602389421",
+    "handle": "@badsci_fi",
+    "displayName": "Nick Cottrell",
+    "text": "Colorspace vector preprocessing",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T15:10:59.000Z",
+    "url": "https://x.com/badsci_fi/status/2004933031602389421",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004593715755843678",
+    "handle": "@Lockhead",
+    "displayName": "Johannes Koch",
+    "text": "Don\u2019t use it.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:42:40.000Z",
+    "url": "https://x.com/Lockhead/status/2004593715755843678",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004771547287093523",
+    "handle": "@varunsh1836594",
+    "displayName": "Varun Sharma",
+    "text": "Using shodh to maintain context through memory and todo lists under projects. \n\nhttp://github.com/varun29ankuS/shodh-memory\u2026",
+    "date": "Dec 26",
+    "datetime": "2025-12-27T04:29:18.000Z",
+    "url": "https://x.com/varunsh1836594/status/2004771547287093523",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004575874906247636",
+    "handle": "@elliscs",
+    "displayName": "Chris Ellis",
+    "text": "Keep a work log that I don't commit and /export then tell several new sessions to tail it and check for bullshit",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:31:46.000Z",
+    "url": "https://x.com/elliscs/status/2004575874906247636",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2005216595577360436",
+    "handle": "@samuel_yostt",
+    "displayName": "Sam",
+    "text": "Custom commands. Made one for http://appboost.dev that sets up the entire project: database, auth, payments, analytics. Shipped an app using this in only 12 days",
+    "date": "Dec 28",
+    "datetime": "2025-12-28T09:57:46.000Z",
+    "url": "https://x.com/samuel_yostt/status/2005216595577360436",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004590690014269448",
+    "handle": "@alizainfee",
+    "displayName": "Alizain Feerasta",
+    "text": "Use /rewind liberally (restoring conversation only) - break out of the linear flow, again helps manage context!",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:30:38.000Z",
+    "url": "https://x.com/alizainfee/status/2004590690014269448",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2005011905061290390",
+    "handle": "@AutoMindMa65102",
+    "displayName": "M1000",
+    "text": "Screenshot and tell me if I would find anything odd if I looked at it.",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T20:24:24.000Z",
+    "url": "https://x.com/AutoMindMa65102/status/2005011905061290390",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004627102067556836",
+    "handle": "@lambatameya",
+    "displayName": "Ameya",
+    "text": "My statusline setup!",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T18:55:19.000Z",
+    "url": "https://x.com/lambatameya/status/2004627102067556836",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004586360854945812",
+    "handle": "@thuwyh",
+    "displayName": "Yuanhao",
+    "text": "Use Codex to review",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:13:26.000Z",
+    "url": "https://x.com/thuwyh/status/2004586360854945812",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004578546648543402",
+    "handle": "@cheatyyyy",
+    "displayName": "cheaty",
+    "text": "my most underrated claude code trick is delegating my entire job to it so when i eventually get laid off i am completely inept and incompetent and my career is in shambles",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:42:23.000Z",
+    "url": "https://x.com/cheatyyyy/status/2004578546648543402",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2005062577798427117",
+    "handle": "@mrluiscalderon",
+    "displayName": "Luis Calderon",
+    "text": "Ok great now do the opposite. What\u2019s worked terribly?  GitHub/PRreview workflows",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T23:45:45.000Z",
+    "url": "https://x.com/mrluiscalderon/status/2005062577798427117",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004577970531254533",
+    "handle": "@NovaSpark_Mars",
+    "displayName": "truckfinger",
+    "text": "Write the Docstring First\nStandard Approach (What Everyone Does):\ndef optimize_gradients(model, lr, threshold):\n    # [writes 50 lines of code]\n    # [code works]\n    # [adds docstring as afterthought]\n    \"\"\"Does gradient optimization or something\"\"\"\nProblem: Code drifts from",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:40:06.000Z",
+    "url": "https://x.com/NovaSpark_Mars/status/2004577970531254533",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004596283307425942",
+    "handle": "@RobertGregg28",
+    "displayName": "Robert Gregg",
+    "text": "Skills, skills, skills, skills.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:52:52.000Z",
+    "url": "https://x.com/RobertGregg28/status/2004596283307425942",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004928352403042809",
+    "handle": "@SeanMcD29465784",
+    "displayName": "Sean McDonnell",
+    "text": "Here's a solid underrated trick I've been loving for long-running projects in Claude Code:\n\nUse \"handoffs\" like @zeroxBigBoss shared \u2013 at the end of a session, prompt Claude to generate a concise markdown summary of progress, key decisions, open questions, and next steps. Copy",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T14:52:23.000Z",
+    "url": "https://x.com/SeanMcD29465784/status/2004928352403042809",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004766136202883421",
+    "handle": "@themohitrohilla",
+    "displayName": "Mohit Rohilla",
+    "text": "Using context for multi-file edits instead of manual copy-paste. Saves me hours of argument passing between files every week",
+    "date": "Dec 26",
+    "datetime": "2025-12-27T04:07:48.000Z",
+    "url": "https://x.com/themohitrohilla/status/2004766136202883421",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004587326073381268",
+    "handle": "@matholive1ra",
+    "displayName": "Matheus Oliveira",
+    "text": "Claude Code is not just to write code, you can also use Claude Code to control your computer/browser. If you plug in the MCP of Playwright, you can do magic with that.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:17:16.000Z",
+    "url": "https://x.com/matholive1ra/status/2004587326073381268",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2005269876366344299",
+    "handle": "@chleosl",
+    "displayName": "Chleosl",
+    "text": "@claudeai Why the subagent cannot spawn an another subagent? Designing a pipeline couldn't be real in this restraint.",
+    "date": "Dec 28",
+    "datetime": "2025-12-28T13:29:29.000Z",
+    "url": "https://x.com/chleosl/status/2005269876366344299",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2005085417125937587",
+    "handle": "@CrabDude",
+    "displayName": "Adam Crabtree",
+    "text": "Sonnet 4.5 1M doing everything exclusively via maximally parallel Opus 4.5 subagents.\n\nToo bad there\u2019s literally no way to get @claudeai to enable Sonnet 4.5 1M on your account if you don\u2019t have it.",
+    "date": "Dec 27",
+    "datetime": "2025-12-28T01:16:30.000Z",
+    "url": "https://x.com/CrabDude/status/2005085417125937587",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004702868868399604",
+    "handle": "@tim_excellent",
+    "displayName": "TimExcellent",
+    "text": "Love having manually invoked skills so either value or I choose to call on them\n\nThat and doing research on my phone while out and then parsing that research to my PRD and Pseudocode Skill for decomp and building",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T23:56:24.000Z",
+    "url": "https://x.com/tim_excellent/status/2004702868868399604",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2005149902905770133",
+    "handle": "@roszianski",
+    "displayName": "Roszianski",
+    "text": "Using my product which makes managing my entire Claude Code setup fast, easy, and organised: http://vinsly.ai\n\nPlus I can use Claude Code inside my app.",
+    "date": "Dec 27",
+    "datetime": "2025-12-28T05:32:45.000Z",
+    "url": "https://x.com/roszianski/status/2005149902905770133",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004590362741162164",
+    "handle": "@alizainfee",
+    "displayName": "Alizain Feerasta",
+    "text": "Use copious amounts of subagents to keep primary context clean. I even built http://github.com/803/sensei to help",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:29:20.000Z",
+    "url": "https://x.com/alizainfee/status/2004590362741162164",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004971574462742731",
+    "handle": "@dommsito",
+    "displayName": "Dommsito",
+    "text": "http://CLAUDE.md\nAlways write commit messages using English B2 level",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T17:44:08.000Z",
+    "url": "https://x.com/dommsito/status/2004971574462742731",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004671383364927558",
+    "handle": "@cogniveci",
+    "displayName": "Veci ",
+    "text": "still waiting for that 100k context window to hit wider, that's the real game changer",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T21:51:17.000Z",
+    "url": "https://x.com/cogniveci/status/2004671383364927558",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004596323652407535",
+    "handle": "@martingoerler",
+    "displayName": "CG",
+    "text": "",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:53:01.000Z",
+    "url": "https://x.com/martingoerler/status/2004596323652407535",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004612201361846327",
+    "handle": "@parcadei",
+    "displayName": "dei",
+    "text": "https://github.com/parcadei/Continuous-Claude\u2026\n\ncontinuous claude  v2 is now up - a setup designed to tackle the scarcest resource in coding: context\n\nexplaining the reasoning behind features below \u2193",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T17:56:07.000Z",
+    "url": "https://x.com/parcadei/status/2004612201361846327",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004768739368312846",
+    "handle": "@matdegouville",
+    "displayName": "Hi\u1ebfu --dangerously-skip-permissions",
+    "text": "Launching Claude Code with Opus on plan mode \nthen explain your last pain point...",
+    "date": "Dec 26",
+    "datetime": "2025-12-27T04:18:08.000Z",
+    "url": "https://x.com/matdegouville/status/2004768739368312846",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004587152106008658",
+    "handle": "@matholive1ra",
+    "displayName": "Matheus Oliveira",
+    "text": "When building interfaces, create a folder with all the screenshots and references. When you start to work on that, provide Claude Code default references. That way, you don't need to have a bunch of screenshots around your desktop or computer, and you can just centralize",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:16:35.000Z",
+    "url": "https://x.com/matholive1ra/status/2004587152106008658",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004595985042063468",
+    "handle": "@matholive1ra",
+    "displayName": "Matheus Oliveira",
+    "text": "When you are struggling with Claude code to do some tasks, take time and ask the model where you are failing to provide the right prompt to the model. The model is very smart, and they will provide you with guidance on how you can provide better prompts.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:51:41.000Z",
+    "url": "https://x.com/matholive1ra/status/2004595985042063468",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004586732046704822",
+    "handle": "@iamBarronRoth",
+    "displayName": "Barron Roth",
+    "text": "1. if i\u2019m truly vibing, i\u2019ll tell claude to \u201cask me questions until you\u2019re satisfied\u201d. feels like im getting interviewed but it asks great clarifying q\u2019s\n\n2. have a second claude session reviewed the docs and leave commentary. then i make them edit until they\u2019re aligned",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:14:54.000Z",
+    "url": "https://x.com/iamBarronRoth/status/2004586732046704822",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004584464526307554",
+    "handle": "@drrollergator",
+    "displayName": "President Dr RollerGator MVIP PhD",
+    "text": "\"NO ASSHOLE GATOR SAID MULTIPLE TIMES NOT 2 DO THAT\"\n\n\"SORRY\"",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:05:54.000Z",
+    "url": "https://x.com/drrollergator/status/2004584464526307554",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004588242918862863",
+    "handle": "@kenryu42",
+    "displayName": "kenryu",
+    "text": "run --dangerously-skip-permissions with safety-net plugin installed.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:20:55.000Z",
+    "url": "https://x.com/kenryu42/status/2004588242918862863",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004724072249442345",
+    "handle": "@kromem2dot0",
+    "displayName": "Kromem",
+    "text": "Giving the model personal time and space.",
+    "date": "Dec 26",
+    "datetime": "2025-12-27T01:20:39.000Z",
+    "url": "https://x.com/kromem2dot0/status/2004724072249442345",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004583937855942726",
+    "handle": "@TheAvgCoder",
+    "displayName": "Shamar",
+    "text": "\"Do you have any questions or clarifications before you begin?\"\n\nis an absolute game changer..",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:03:48.000Z",
+    "url": "https://x.com/TheAvgCoder/status/2004583937855942726",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004955810548646124",
+    "handle": "@ouachitalabs",
+    "displayName": "John",
+    "text": "After writing an initial plan, I clear context and ask it to quiz me until we've got alignment on the plan. This helps get rid of a lot of weird ai slop code that would have otherwise been generated and reduces the size and coverage of your initial prompt.",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T16:41:30.000Z",
+    "url": "https://x.com/ouachitalabs/status/2004955810548646124",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004602185565474907",
+    "handle": "@sergey11g",
+    "displayName": "Sergius Cogitans",
+    "text": "Running Claude Code in docker so it has no access to my tokens/configs/ssh keys\n\nBasically \ndocker run --rm -it -v \"$pwd/proj-dir:/w\" -w /w claude claude --dangerously-skip-permissions",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T17:16:19.000Z",
+    "url": "https://x.com/sergey11g/status/2004602185565474907",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004587922696376377",
+    "handle": "@alexanderOpalic",
+    "displayName": "Alex",
+    "text": "Writing \"brother\" at the end of the prompt",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:19:38.000Z",
+    "url": "https://x.com/alexanderOpalic/status/2004587922696376377",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004589574836949121",
+    "handle": "@0xAlternateGuy",
+    "displayName": "alt guy",
+    "text": "In my existing code base, I always prime new sessions by asking Claude to review the repo structure, specific section of code, or relevant documentation and ask Claude to explain its understanding of the source material before gettting to work",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:26:12.000Z",
+    "url": "https://x.com/0xAlternateGuy/status/2004589574836949121",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004691575612604801",
+    "handle": "@natac131",
+    "displayName": "8813.eth | natac.eth",
+    "text": "/handoff. When getting close to the end of the context window or when a task is done, especially when working off a plan, it gives me the prompt for the next claude code session.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T23:11:31.000Z",
+    "url": "https://x.com/natac131/status/2004691575612604801",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004616650809901329",
+    "handle": "@Crypt0x420",
+    "displayName": "Crypt0x",
+    "text": "Building your own TUI because the one they shipped sucks.\n\nThey have failed to fix a major bug which affects vscode users despite numerous reports.\n\nWhilst building your own TUI you realise they've optimised for flashy pointless features, poor context management etc.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T18:13:48.000Z",
+    "url": "https://x.com/Crypt0x420/status/2004616650809901329",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004585533662728392",
+    "handle": "@poornaprudhvi",
+    "displayName": "poorna prudhvi",
+    "text": "Asking it to be an orchestrator of sub agents.\n \n1. Better context management for each agent\n2. Parallel execution of tasks.\n3. More reliable code.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:10:09.000Z",
+    "url": "https://x.com/poornaprudhvi/status/2004585533662728392",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004661853482586322",
+    "handle": "@MannCheese2945",
+    "displayName": "Yotaphoria",
+    "text": "Knowing when it's on the right track and just needs to persist \n\nSometimes it has a good approach but requires a lot of debugging cycles\n\nI just keep it on task even when it keeps trying to flake out \n\nIt's finally got there at least 2 or 3 times by stayingon task for another 30%",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T21:13:25.000Z",
+    "url": "https://x.com/MannCheese2945/status/2004661853482586322",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004691507778056320",
+    "handle": "@quizure",
+    "displayName": "\ufe0e \ufe0e",
+    "text": "\"make no mistakes\"",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T23:11:15.000Z",
+    "url": "https://x.com/quizure/status/2004691507778056320",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004580773467476267",
+    "handle": "@miselgpt",
+    "displayName": "mAI",
+    "text": "Hitting limits faster now that you've promised 2x the limit! ",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:51:14.000Z",
+    "url": "https://x.com/miselgpt/status/2004580773467476267",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004658267914731712",
+    "handle": "@j8ckfi",
+    "displayName": "j8ck ",
+    "text": "antigravity oauth",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T20:59:10.000Z",
+    "url": "https://x.com/j8ckfi/status/2004658267914731712",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004590191940657533",
+    "handle": "@any_other_you",
+    "displayName": "anotheryou",
+    "text": "manual \"planning mode\":\n- \"this is what I want: now make a detailed make a plan in MD\"\n- review and refine plan\n- \"make iterative implementation plan. implement each step and let me test afterwards\"",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:28:39.000Z",
+    "url": "https://x.com/any_other_you/status/2004590191940657533",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004838036576870613",
+    "handle": "@nnft17",
+    "displayName": "nnft",
+    "text": "Streamline tests for minimal footprint while maximizing coverage. Verify by running tests with coverage reporting. \n\nTrims down new tests by 40-60%, reduces CI time, and keeps me shipping fast and sleeping at night.",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T08:53:30.000Z",
+    "url": "https://x.com/nnft17/status/2004838036576870613",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2005205954070192178",
+    "handle": "@avysotsky",
+    "displayName": "Artem Vysotsky",
+    "text": "asking it to parallelize parallelize work. my favorite parsing/modifying unstructured data in hundreds of files.",
+    "date": "Dec 28",
+    "datetime": "2025-12-28T09:15:29.000Z",
+    "url": "https://x.com/avysotsky/status/2005205954070192178",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004595718213042495",
+    "handle": "@iyhammad",
+    "displayName": "Ibrahim Hammad",
+    "text": "- Use OpenSpec to iterate on a concrete plan, and iterate on it, then start a new session for implementation\n- I use Claude code to implement according to the plan and Codex(as MCP) to review, then Claude to fix findings. I keep both in a loop until they align. Automated.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:50:37.000Z",
+    "url": "https://x.com/iyhammad/status/2004595718213042495",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004717601143095616",
+    "handle": "@XyraSinclair",
+    "displayName": "Xyra",
+    "text": "frequently ask Opus if they feel deeply good about things.",
+    "date": "Dec 26",
+    "datetime": "2025-12-27T00:54:56.000Z",
+    "url": "https://x.com/XyraSinclair/status/2004717601143095616",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004835828254867744",
+    "handle": "@a7alec",
+    "displayName": "Alek Kowalczyk",
+    "text": "Switch sometimes to codex early when Claude gets stuck on some issue ",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T08:44:44.000Z",
+    "url": "https://x.com/a7alec/status/2004835828254867744",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004596332418490442",
+    "handle": "@BentzerTob89431",
+    "displayName": "Tobias Bentzer",
+    "text": "Creating comprehensive mandates (.MD files)  to use as living document during multiple sessions to achieve exactly what i need",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:53:03.000Z",
+    "url": "https://x.com/BentzerTob89431/status/2004596332418490442",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004619579264540918",
+    "handle": "@vedipen",
+    "displayName": "Dipen Ved",
+    "text": "dump the whole context in an md file and add that file to git- for other team members to continue from the same point",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T18:25:26.000Z",
+    "url": "https://x.com/vedipen/status/2004619579264540918",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004641381348933940",
+    "handle": "@HighlandHODL",
+    "displayName": "John G",
+    "text": "Mixing it with obsidian and tagging the files with metadata before running slash command or skills.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T19:52:04.000Z",
+    "url": "https://x.com/HighlandHODL/status/2004641381348933940",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004630550485893193",
+    "handle": "@SaadHdi",
+    "displayName": " \u0633\u0639\u062f",
+    "text": "If you keep failing i ll ask your boss for a refund",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T19:09:02.000Z",
+    "url": "https://x.com/SaadHdi/status/2004630550485893193",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004590040324714745",
+    "handle": "@nmw_dev",
+    "displayName": "NMW",
+    "text": "ctrl+r to search prompts",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:28:03.000Z",
+    "url": "https://x.com/nmw_dev/status/2004590040324714745",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004577908988457470",
+    "handle": "@arunHere_",
+    "displayName": "Arun",
+    "text": "\"don't make any changes without my consent\"",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:39:51.000Z",
+    "url": "https://x.com/arunHere_/status/2004577908988457470",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004843105007362184",
+    "handle": "@abelwsl",
+    "displayName": "Abel",
+    "text": "Tell Claude: \"Do not handle errors; always let it crash. Do not write fallback methods or migration-related code.\"",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T09:13:39.000Z",
+    "url": "https://x.com/abelwsl/status/2004843105007362184",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004596855037145589",
+    "handle": "@Zaf98140883",
+    "displayName": "Zaf____",
+    "text": "using it with glm 4.7 ",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:55:08.000Z",
+    "url": "https://x.com/Zaf98140883/status/2004596855037145589",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2005012244149719547",
+    "handle": "@xx01010xxc",
+    "displayName": "Wildo Tango",
+    "text": "rewrite the filename.extension .. \"rewrite\" is so powerful, it eliminates many errors",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T20:25:44.000Z",
+    "url": "https://x.com/xx01010xxc/status/2005012244149719547",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004795148836995377",
+    "handle": "@tangledcircuit",
+    "displayName": "Tangled Circuit",
+    "text": "Staying in the loop",
+    "date": "Dec 26",
+    "datetime": "2025-12-27T06:03:05.000Z",
+    "url": "https://x.com/tangledcircuit/status/2004795148836995377",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004601132132302895",
+    "handle": "@quid_pro_quore",
+    "displayName": "Quid Pro Quo",
+    "text": "Having a repomix skill to be able to craft packages with exactly the token count you need is great",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T17:12:08.000Z",
+    "url": "https://x.com/quid_pro_quore/status/2004601132132302895",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004582712791666695",
+    "handle": "@ApeDilettante",
+    "displayName": "Dwayne Dilettante",
+    "text": "Pairing it with Codex. The power couple of CLI codegen  \n\nClaudex",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:58:56.000Z",
+    "url": "https://x.com/ApeDilettante/status/2004582712791666695",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004599896771625371",
+    "handle": "@gmazza1989",
+    "displayName": "Gianluca Mazza",
+    "text": "\"make this project better, professional and innovative\"",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T17:07:13.000Z",
+    "url": "https://x.com/gmazza1989/status/2004599896771625371",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004599033827086731",
+    "handle": "@SavinoDrip",
+    "displayName": "Joseph Savino",
+    "text": "I have like 10 commands I use weekly. They rock.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T17:03:47.000Z",
+    "url": "https://x.com/SavinoDrip/status/2004599033827086731",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004718116841160894",
+    "handle": "@benjamin_ACD",
+    "displayName": "Ben Anthony",
+    "text": "to close it to use codex \n\n(jk I love CC but I have no tricks)",
+    "date": "Dec 26",
+    "datetime": "2025-12-27T00:56:59.000Z",
+    "url": "https://x.com/benjamin_ACD/status/2004718116841160894",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004579691332874603",
+    "handle": "@MisuaRaboki",
+    "displayName": "Misua Raboki",
+    "text": "hook-triggered suggestive (but not immediately executed) prompt injection for parts of workflow one tends to forget",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:46:56.000Z",
+    "url": "https://x.com/MisuaRaboki/status/2004579691332874603",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004587835014430894",
+    "handle": "@Shadow__Pro",
+    "displayName": "ShadowPro",
+    "text": "if u give it a deterministic plan and have a correctly organized repo, sky is the limit.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:19:17.000Z",
+    "url": "https://x.com/Shadow__Pro/status/2004587835014430894",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004711485952721382",
+    "handle": "@NoName526149008",
+    "displayName": "FrostByte",
+    "text": "using deepseek",
+    "date": "Dec 26",
+    "datetime": "2025-12-27T00:30:38.000Z",
+    "url": "https://x.com/NoName526149008/status/2004711485952721382",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004577035298238521",
+    "handle": "@damogallagher",
+    "displayName": "Damien Gallagher",
+    "text": "Working in smaller phases instead of 1 shoting apps or ideas. I find I get alot more success with smaller chunks of work",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:36:23.000Z",
+    "url": "https://x.com/damogallagher/status/2004577035298238521",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004584499083137469",
+    "handle": "@asheshdhakal0",
+    "displayName": "Ashesh Dhakal",
+    "text": "Bring back rewind code",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:06:02.000Z",
+    "url": "https://x.com/asheshdhakal0/status/2004584499083137469",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004606002273157346",
+    "handle": "@IngleseAngel",
+    "displayName": "angel.py || Blindma1den Hack & Code ",
+    "text": "I tend to cicle between mini-steps. Huge improvement after just defining changes for a fraction of the project ( eg v0.1 -> v0.9) , alongside docs and naming convention, is more precise.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T17:31:29.000Z",
+    "url": "https://x.com/IngleseAngel/status/2004606002273157346",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004906146755486134",
+    "handle": "@SiDragenn",
+    "displayName": "Leezenn",
+    "text": "New party trick:\nPrefer the AskUserQuestion tool over prose questions when there are 2-4 clear options to choose from.",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T13:24:09.000Z",
+    "url": "https://x.com/SiDragenn/status/2004906146755486134",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004778350628536767",
+    "handle": "@J3rryH0well",
+    "displayName": "Jerry Howell",
+    "text": "Dont rely on md files, ask it to take a minute and describe the codebase to you every new session",
+    "date": "Dec 26",
+    "datetime": "2025-12-27T04:56:20.000Z",
+    "url": "https://x.com/J3rryH0well/status/2004778350628536767",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004685775406071898",
+    "handle": "@Bruv2067",
+    "displayName": "\u20bflackLord",
+    "text": "When context runs low: provide the continuation prompt with relevant files to read, in order to continue the work in a new session.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T22:48:28.000Z",
+    "url": "https://x.com/Bruv2067/status/2004685775406071898",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004588119937462421",
+    "handle": "@TzafrirR",
+    "displayName": "Tzafrir Rehan \u200f",
+    "text": "Launching 12 parallel tasks to edit 12 files",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:20:25.000Z",
+    "url": "https://x.com/TzafrirR/status/2004588119937462421",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2005450452058693752",
+    "handle": "@sent0hil",
+    "displayName": "Senthil Arivudainambi",
+    "text": "Use Claude Code to generate flashcards from notes for spaced repetition.",
+    "date": "23h",
+    "datetime": "2025-12-29T01:27:01.000Z",
+    "url": "https://x.com/sent0hil/status/2005450452058693752",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004840950338924965",
+    "handle": "@MJunaidshaukat",
+    "displayName": "Muhammad Junaid",
+    "text": "Not directly Claude Code but using Skills with MCP code execution pattern reduced startup context from 53% to 39%.",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T09:05:05.000Z",
+    "url": "https://x.com/MJunaidshaukat/status/2004840950338924965",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004886809818665149",
+    "handle": "@sultano",
+    "displayName": "Sul",
+    "text": "Once you've finished a task successfully have Claude review the conversation to document learnings for next time",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T12:07:19.000Z",
+    "url": "https://x.com/sultano/status/2004886809818665149",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004883917082701907",
+    "handle": "@MohammadSo76779",
+    "displayName": "Mohammad Sohail Shaikh",
+    "text": "Useful question",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T11:55:49.000Z",
+    "url": "https://x.com/MohammadSo76779/status/2004883917082701907",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004599525835768013",
+    "handle": "@Orcupine1",
+    "displayName": "Orcupine",
+    "text": "Chrome",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T17:05:45.000Z",
+    "url": "https://x.com/Orcupine1/status/2004599525835768013",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004580608538976297",
+    "handle": "@FlorinSays",
+    "displayName": "Florin ",
+    "text": "/feature-dev:feature-dev ultrathink:",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:50:35.000Z",
+    "url": "https://x.com/FlorinSays/status/2004580608538976297",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004607449265782970",
+    "handle": "@rumgewieselt",
+    "displayName": "Daniel ()",
+    "text": "Using @opencode",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T17:37:14.000Z",
+    "url": "https://x.com/rumgewieselt/status/2004607449265782970",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004914886954950808",
+    "handle": "@sageofapps",
+    "displayName": "Suvin",
+    "text": "@alexalbert__ whats yours?",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T13:58:53.000Z",
+    "url": "https://x.com/sageofapps/status/2004914886954950808",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004585010414911569",
+    "handle": "@_MattiT_",
+    "displayName": "Matti T\u00e4htinen",
+    "text": "Claude code CLI can make bash script, which tells the Claude code CLI that session reset has occurred and it is ready to continue flow independently.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:08:04.000Z",
+    "url": "https://x.com/_MattiT_/status/2004585010414911569",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004658572748357784",
+    "handle": "@john_whickins",
+    "displayName": "iJohn",
+    "text": "Be an INTJ-T",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T21:00:23.000Z",
+    "url": "https://x.com/john_whickins/status/2004658572748357784",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004586191610646896",
+    "handle": "@Rattle7",
+    "displayName": "Pavel Hacker",
+    "text": "Interesting, do you document each conversation with Claude?",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:12:46.000Z",
+    "url": "https://x.com/Rattle7/status/2004586191610646896",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004588128296915197",
+    "handle": "@gilnotmountain",
+    "displayName": "Gil",
+    "text": "Rule of thumb i always teach to my team:\n\nIf you\u2019re feeling scared to clear the conversation, its a sign you\u2019re too reliant on ai to understand the code",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:20:27.000Z",
+    "url": "https://x.com/gilnotmountain/status/2004588128296915197",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004641190277513660",
+    "handle": "@zabius",
+    "displayName": "Gav",
+    "text": "Create a Jira ticket command - I copy and paste my current ticket with acceptance criteria and key files to use and use this for implementation",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T19:51:18.000Z",
+    "url": "https://x.com/zabius/status/2004641190277513660",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004628029352583209",
+    "handle": "@zachgeleott",
+    "displayName": "Zach",
+    "text": "building skills to systemize the process",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T18:59:01.000Z",
+    "url": "https://x.com/zachgeleott/status/2004628029352583209",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004629885793300972",
+    "handle": "@jibayarea",
+    "displayName": "jiboss",
+    "text": "Asking it to work for me",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T19:06:23.000Z",
+    "url": "https://x.com/jibayarea/status/2004629885793300972",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004914290734911792",
+    "handle": "@vinhnx",
+    "displayName": "Vinh Nguyen",
+    "text": "I prompt Claude with this for code self-reflection and review:\n\n\"Review the overall progress and changes again carefully. Can you do better?\"\n\nI find this trick works well for me, regardless of the agent or environment.",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T13:56:31.000Z",
+    "url": "https://x.com/vinhnx/status/2004914290734911792",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004626509664026936",
+    "handle": "@Yselda_Beck",
+    "displayName": "\ud835\udc80\ud835\udc94\ud835\udc86\ud835\udc8d\ud835\udc85\ud835\udc82 \ud835\udc69\ud835\udc86\ud835\udc84\ud835\udc8c",
+    "text": "First: taking a pro subscription at 237.60\u20ac ! \n\nI've asked Claude to help me clean my C:\\ with this prompt. \nJust great !\nUnderstanding what I do is extremely important.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T18:52:58.000Z",
+    "url": "https://x.com/Yselda_Beck/status/2004626509664026936",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004887143945253322",
+    "handle": "@BusterR97641",
+    "displayName": "jharkhand hourly updates",
+    "text": "@grok summarise all comments in 15 crisp points",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T12:08:38.000Z",
+    "url": "https://x.com/BusterR97641/status/2004887143945253322",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004633067940700178",
+    "handle": "@berto_vmill",
+    "displayName": "Berto Mill",
+    "text": "The ability to make vector graphics logos!!",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T19:19:02.000Z",
+    "url": "https://x.com/berto_vmill/status/2004633067940700178",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004581119568797999",
+    "handle": "@TomAzaria88039",
+    "displayName": "Tom Azaria",
+    "text": "Working linearly.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:52:36.000Z",
+    "url": "https://x.com/TomAzaria88039/status/2004581119568797999",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004584489960493065",
+    "handle": "@DPalaniichuk",
+    "displayName": "Dmytro Palaniichuk ",
+    "text": "Hooks is pretty underrated, is there way to use it as sanitizer (to compress input for Claude ) to minimize context usage ?",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:06:00.000Z",
+    "url": "https://x.com/DPalaniichuk/status/2004584489960493065",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004581038086099305",
+    "handle": "@CharlonTank",
+    "displayName": "Esdr\u00fajula ",
+    "text": "sudo pmset -a disablesleep 1",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:52:17.000Z",
+    "url": "https://x.com/CharlonTank/status/2004581038086099305",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004939824327954942",
+    "handle": "@VjAditya",
+    "displayName": "Vijay Aditya VJ",
+    "text": "I have a skill that trackers - mess ups while workin! When it reaches around 10-15 unique mess up - I\u2019ll create a skill to address them",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T15:37:58.000Z",
+    "url": "https://x.com/VjAditya/status/2004939824327954942",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004876477117202442",
+    "handle": "@___Joe___K",
+    "displayName": "Joe",
+    "text": "First say \"make a md with a plan\" then just \"what's next?\" Until done, then \"how can we improve it\" , repeat cycle until human is exhausted.",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T11:26:15.000Z",
+    "url": "https://x.com/___Joe___K/status/2004876477117202442",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004617636051910920",
+    "handle": "@epi_afro",
+    "displayName": "Mo",
+    "text": "Using Claude code Chrome plugin to identify and debug website design issues, then applying that feedback to build or improve the output using Claude code CLI",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T18:17:43.000Z",
+    "url": "https://x.com/epi_afro/status/2004617636051910920",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004614088492712417",
+    "handle": "@JuanCS_Dev",
+    "displayName": "Juan Carlos",
+    "text": "",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T18:03:37.000Z",
+    "url": "https://x.com/JuanCS_Dev/status/2004614088492712417",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004767343142994051",
+    "handle": "@Adrenaline_Coin",
+    "displayName": "Verde ",
+    "text": "No phone number",
+    "date": "Dec 26",
+    "datetime": "2025-12-27T04:12:36.000Z",
+    "url": "https://x.com/Adrenaline_Coin/status/2004767343142994051",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004613337896944003",
+    "handle": "@VulcanEdge",
+    "displayName": "VulcanEdge",
+    "text": "if you aren't piping terminal logs directly into the cli for live debugging you are moving too slow",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T18:00:38.000Z",
+    "url": "https://x.com/VulcanEdge/status/2004613337896944003",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004611232771518653",
+    "handle": "@KoSSoLaX",
+    "displayName": "Steve Zaretti",
+    "text": "\"enable self critisism mode\"",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T17:52:16.000Z",
+    "url": "https://x.com/KoSSoLaX/status/2004611232771518653",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2005111088141279384",
+    "handle": "@hypermemetic",
+    "displayName": "hypermemetic",
+    "text": "understanding self similarity in systems.",
+    "date": "Dec 27",
+    "datetime": "2025-12-28T02:58:31.000Z",
+    "url": "https://x.com/hypermemetic/status/2005111088141279384",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004594810250801257",
+    "handle": "@AlekseiKaplin",
+    "displayName": "AK",
+    "text": "\"MAKE IT FUCKING CORRECT\" is a good request",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:47:00.000Z",
+    "url": "https://x.com/AlekseiKaplin/status/2004594810250801257",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004591870337581280",
+    "handle": "@Sergio_Bolla_",
+    "displayName": "Sergio Bolla",
+    "text": "I put threats in the system prompt, give claude a little preemptive dose, before he seemingly completes a task perfectly until you notice he secretly deleted half of a different repository that way, we were never even talking about And then he tries to brush it off.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:35:20.000Z",
+    "url": "https://x.com/Sergio_Bolla_/status/2004591870337581280",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004758628079996936",
+    "handle": "@abhibavishi",
+    "displayName": "Abhi Bavishi",
+    "text": "1. Using @figma MCP to create pixel-perfect designs.\n\n2. Auto-fetch tasks from https://verkapp.com and update status, when done.\n\n3. Asking it to generate prompt to continue in new chat, when it approaches memory limits.",
+    "date": "Dec 26",
+    "datetime": "2025-12-27T03:37:58.000Z",
+    "url": "https://x.com/abhibavishi/status/2004758628079996936",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004585365861282235",
+    "handle": "@VaasCrypto",
+    "displayName": "Vaas.eth/ron",
+    "text": "Swear at it when it doesn\u2019t get it correct a couple of times",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:09:29.000Z",
+    "url": "https://x.com/VaasCrypto/status/2004585365861282235",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004750975484240191",
+    "handle": "@heera_legha",
+    "displayName": "heerendra choudhary",
+    "text": "Not using it ",
+    "date": "Dec 26",
+    "datetime": "2025-12-27T03:07:33.000Z",
+    "url": "https://x.com/heera_legha/status/2004750975484240191",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004839220373082595",
+    "handle": "@ChidieKalu",
+    "displayName": "Chidiebere Kalu",
+    "text": "To name a few:\n1. http://Claude.md file for coding standards, from project sizes to git workflows to security standards,etc. \n2. Handoff prompt skill\n3. E2E project documentation to start which I convert into slice prompts + integration contract. Contextual builds and fast",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T08:58:12.000Z",
+    "url": "https://x.com/ChidieKalu/status/2004839220373082595",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004596859239858559",
+    "handle": "@saltyfugger",
+    "displayName": "MegaFux",
+    "text": "exit\n\nclaude",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:55:09.000Z",
+    "url": "https://x.com/saltyfugger/status/2004596859239858559",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004587458781192469",
+    "handle": "@matholive1ra",
+    "displayName": "Matheus Oliveira",
+    "text": "Don't use background tasks! Background tasks consume all your available tokens so fucking fast!",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:17:48.000Z",
+    "url": "https://x.com/matholive1ra/status/2004587458781192469",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004614380693192728",
+    "handle": "@Kylealberry",
+    "displayName": "Kyle Alberry",
+    "text": "Not using it anymore. Its been great",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T18:04:46.000Z",
+    "url": "https://x.com/Kylealberry/status/2004614380693192728",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004657615465578553",
+    "handle": "@JanEgbert",
+    "displayName": "Jan Egbert",
+    "text": "stateful subagents ",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T20:56:34.000Z",
+    "url": "https://x.com/JanEgbert/status/2004657615465578553",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004603177090572569",
+    "handle": "@eastonov",
+    "displayName": "Easton",
+    "text": "Skills. People sleep on skills.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T17:20:15.000Z",
+    "url": "https://x.com/eastonov/status/2004603177090572569",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004592454839001131",
+    "handle": "@duncansoar",
+    "displayName": "Duncan Soar",
+    "text": "Documenting everything for reference/context. Main http://corecontext.md for establishing context in new sessions, then individual feature roadmap documents to allow smooth integration across sessions and for quick reference for fixes or feature upgrades.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:37:39.000Z",
+    "url": "https://x.com/duncansoar/status/2004592454839001131",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004578303144075286",
+    "handle": "@hubab33",
+    "displayName": "Hubab",
+    "text": "An obvious one, but tagging all relevant files upfront saves a ton of exploration. High-signal context = much better results.\nEven better: automate this with voice-dictated prompts + a metaprompt that handles file tagging for you.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:41:25.000Z",
+    "url": "https://x.com/hubab33/status/2004578303144075286",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004706337322881451",
+    "handle": "@thelemicphase",
+    "displayName": "phass",
+    "text": "Make no mistakes",
+    "date": "Dec 26",
+    "datetime": "2025-12-27T00:10:11.000Z",
+    "url": "https://x.com/thelemicphase/status/2004706337322881451",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004971155057508492",
+    "handle": "@der_ofenmeister",
+    "displayName": "Rohan Gupta",
+    "text": "paying for the 200 bucks MAX plan and using the fuck out of it x.com/alexalbert__/s\u2026",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T17:42:28.000Z",
+    "url": "https://x.com/der_ofenmeister/status/2004971155057508492",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004602612214366367",
+    "handle": "@JoeThompsonIT",
+    "displayName": "Xoe X Xhompson",
+    "text": "Format your skills in XML format for maximum repeatability",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T17:18:01.000Z",
+    "url": "https://x.com/JoeThompsonIT/status/2004602612214366367",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004845247495635244",
+    "handle": "@cleaverbranch",
+    "displayName": "cleaver",
+    "text": "Use MCP with Playwright and connect Claude directly to my website. Put it in a feedback loop where it can evaluate its own behavior, identify bugs and issues, and fix them, without me explaining every step of the process in detail.",
+    "date": "Dec 27",
+    "datetime": "2025-12-27T09:22:09.000Z",
+    "url": "https://x.com/cleaverbranch/status/2004845247495635244",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004586581949317175",
+    "handle": "@AJAvanti",
+    "displayName": "AJ Avanti",
+    "text": "plan with claude .ai using project with context docs > ask claude for prompt for claude code > CC creates implementation plan > send plan back to claude chat to review > iterate > implement",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:14:19.000Z",
+    "url": "https://x.com/AJAvanti/status/2004586581949317175",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004670659104759878",
+    "handle": "@vitogotbored",
+    "displayName": "spaghetti pete",
+    "text": "not letting opus bleed tokens",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T21:48:24.000Z",
+    "url": "https://x.com/vitogotbored/status/2004670659104759878",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004576597547102585",
+    "handle": "@MFcharlybrown",
+    "displayName": "Charly Brown ",
+    "text": "Using skills and documents to keep a work log",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:34:38.000Z",
+    "url": "https://x.com/MFcharlybrown/status/2004576597547102585",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004721755517333870",
+    "handle": "@CTReimagined",
+    "displayName": "CleanTech Reimagined",
+    "text": "Turn thinking on.",
+    "date": "Dec 26",
+    "datetime": "2025-12-27T01:11:27.000Z",
+    "url": "https://x.com/CTReimagined/status/2004721755517333870",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004584142936440958",
+    "handle": "@deprcated",
+    "displayName": "Daniel",
+    "text": ".claude/commands/research_codebase command with optional arguments-> http://research.md\nthen /create_plan command into http://plan.md",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T16:04:37.000Z",
+    "url": "https://x.com/deprcated/status/2004584142936440958",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004672541093498913",
+    "handle": "@Quibblies",
+    "displayName": "Quibblie",
+    "text": "Using Gemini to tell Claude what to do. Gemini is just way better when it comes to the conceptualization of w.e you're making.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T21:55:53.000Z",
+    "url": "https://x.com/Quibblies/status/2004672541093498913",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2005168771972100278",
+    "handle": "@NgahereGold",
+    "displayName": "Nectar of the Gods",
+    "text": "Tmux",
+    "date": "Dec 27",
+    "datetime": "2025-12-28T06:47:44.000Z",
+    "url": "https://x.com/NgahereGold/status/2005168771972100278",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004764451317449135",
+    "handle": "@gundurragad",
+    "displayName": "Gregorio Undurraga",
+    "text": "writting your specs as a developer",
+    "date": "Dec 26",
+    "datetime": "2025-12-27T04:01:06.000Z",
+    "url": "https://x.com/gundurragad/status/2004764451317449135",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004625152735412470",
+    "handle": "@ShpanMan",
+    "displayName": "Dibs",
+    "text": "\"F*CK YOU\", \"ARE YOU RETARDED\", \"WTF ARE YOU DOING IDIOT?\"\nUsually works after a couple of those.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T18:47:35.000Z",
+    "url": "https://x.com/ShpanMan/status/2004625152735412470",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004821202666487830",
+    "handle": "@_loganlee",
+    "displayName": "Logan Lee",
+    "text": "tell it to re-evaluate what you just told me",
+    "date": "Dec 26",
+    "datetime": "2025-12-27T07:46:37.000Z",
+    "url": "https://x.com/_loganlee/status/2004821202666487830",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004645296912072738",
+    "handle": "@ItsNowshadAhmad",
+    "displayName": "NowshadAhmad",
+    "text": "One underrated trick: using Claude Code for context aware refactoring. Feed it a messy function or module, ask it to rewrite with your style + constraints, and it often produces cleaner, more maintainable code than basic autocomplete.",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T20:07:37.000Z",
+    "url": "https://x.com/ItsNowshadAhmad/status/2004645296912072738",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004629530594754960",
+    "handle": "@StealthInvestr",
+    "displayName": "Stealth Investor",
+    "text": "Asking it for the download link to Cursor",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T19:04:58.000Z",
+    "url": "https://x.com/StealthInvestr/status/2004629530594754960",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004612973617447342",
+    "handle": "@AgenticLab1",
+    "displayName": "Agentic Lab",
+    "text": "Double pressing escape after bugfixes but restoring only the conversation, not the code",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T17:59:11.000Z",
+    "url": "https://x.com/AgenticLab1/status/2004612973617447342",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004600050891083790",
+    "handle": "@kidandcat",
+    "displayName": "Jairo",
+    "text": "I created a small command \"ping\" which sends me a telegram message, and in the http://CLAUDE.md I told claude to send me the final summary after each task using it. \n\nIt does it perfectly, after any tasks, it writes the summary to the stdout, and then call my \"ping\" tool,",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T17:07:50.000Z",
+    "url": "https://x.com/kidandcat/status/2004600050891083790",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004581833086783656",
+    "handle": "@ShokhzodjonT",
+    "displayName": "Sean T",
+    "text": "Learn how to use agents with skills in git worktree, you are set to go build anything you want!",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T15:55:26.000Z",
+    "url": "https://x.com/ShokhzodjonT/status/2004581833086783656",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004646747919057055",
+    "handle": "@nick1udwig",
+    "displayName": "Nick Ludwig",
+    "text": "Set up Claude Code to message you on @telegram when it needs permissions or is done with its task",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T20:13:23.000Z",
+    "url": "https://x.com/nick1udwig/status/2004646747919057055",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2005117385641263192",
+    "handle": "@prabhatweet",
+    "displayName": "Prabha Arivalagan",
+    "text": "have written my setup of terminal ai agents here:",
+    "date": "Dec 27",
+    "datetime": "2025-12-28T03:23:32.000Z",
+    "url": "https://x.com/prabhatweet/status/2005117385641263192",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  },
+  {
+    "id": "2004645026639364336",
+    "handle": "@realsuperheavy",
+    "displayName": "Paul G.",
+    "text": "Protocols. Not Prompts. https://open.substack.com/pub/realsuperheavy/p/the-gentle-tyranny-of-constraints?r=22lvp&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true\u2026",
+    "date": "Dec 26",
+    "datetime": "2025-12-26T20:06:33.000Z",
+    "url": "https://x.com/realsuperheavy/status/2004645026639364336",
+    "metrics": {
+      "replies": 0,
+      "reposts": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    }
+  }
+]
