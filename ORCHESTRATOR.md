@@ -3,25 +3,26 @@
 > Living document that captures the coordination state across Claude.ai planning sessions.
 > Update at natural breakpoints. Reload to resume orchestration from any fresh context.
 
-**Last Updated:** 2025-12-30 ~2:00 PM PST
+**Last Updated:** 2025-12-30 ~3:45 PM PST
 **Session Environment:** Claude.ai (Opus 4.5) with GitHub MCP + Filesystem MCP
 
 ---
 
 ## 🔴 Active Work (Update Before Closing Session)
 
-**Currently working on:** CapCut Forge schema extraction
-**Reference project:** `Judy-Garland` (5 clips, ~50 seconds)
-**Files ready:** `capcut_reference/judy_garland_timeline_pretty.json` (620KB)
-**Handoff created:** `plans/HANDOFF_CAPCUT_SCHEMA.md` in hall-of-fake repo
-**Next action:** Run schema extraction handoff in Claude Code
-**Blocking issues:** None—ready to proceed
+**Currently working on:** CapCut Forge JAWS demo
+**Demo chain:** JAWS Technicolor (4 clips, 40 seconds)
+**Handoff ready:** `plans/HANDOFF_CAPCUT_FORGE_JAWS.md` in hall-of-fake repo
+**All videos verified:** ✅ 4/4 local files exist
+**Next action:** Run JAWS Forge handoff in Claude Code
+**Blocking issues:** None—ready to execute
 
 ### Session Bookmarks
 
-- **Dec 30 2:00 PM:** Fresh orchestrator session started, caught up via chat log review
-- **Dec 30 1:59 PM:** CapCut reference files copied to `capcut_reference/` folder  
-- **Dec 30 1:30 PM:** Analyzed ORCHESTRATOR.md gap—identified need for "Active Work" section
+- **Dec 30 3:45 PM:** JAWS Technicolor handoff created, remix chain analysis complete
+- **Dec 30 3:00 PM:** Analyzed 206 remix chains, identified demo candidates
+- **Dec 30 2:30 PM:** CapCut schema extraction completed by Claude Code
+- **Dec 30 2:00 PM:** Fresh orchestrator session started
 - **Dec 29 ~11:30 PM:** [PREVIOUS SESSION DIED] Was about to read CapCut JSON when compaction failed
 
 ---
@@ -37,21 +38,11 @@ This document solves a specific problem: Claude.ai conversations that coordinate
 
 By maintaining this document and updating it at breakpoints, any fresh Claude instance can resume orchestration without losing the "why" behind decisions.
 
-### Gap Analysis (Dec 30)
-
-When the previous session died, ORCHESTRATOR.md captured ~70-75% of state. Missing:
-- ❌ Judy-Garland identified as reference project
-- ❌ Movies folder added to filesystem MCP
-- ❌ CapCut JSON structure discovered
-- ❌ Active momentum toward schema extraction
-
-**Solution:** Added "Active Work" section at top for real-time state capture.
-
 ---
 
 ## Current Focus
 
-**Primary:** Hall of Fake Phase 7 (CapCut Forge) — schema extraction in progress
+**Primary:** Hall of Fake Phase 7 (CapCut Forge) — JAWS demo ready to execute
 **Secondary:** claude-code-tips incremental sync when thread grows
 **Background:** Cross-platform bookmark archive vision
 
@@ -79,8 +70,6 @@ When the previous session died, ORCHESTRATOR.md captured ~70-75% of state. Missi
 | tweets | 343 | Full thread extraction |
 | tips | 106 | First-batch entries (misleadingly called "curated") |
 
-**Key insight:** The 109 "curated" tips were not editorial curation — the Chrome extension accidentally captured an incomplete first batch. The `is_curated` flag really means "first_batch" not "higher quality." Quality should be determined by engagement metrics, not batch order.
-
 ### 2. Hall of Fake (Sora Video Tracker)
 
 **Repo:** `januff/hall-of-fake`
@@ -90,60 +79,59 @@ When the previous session died, ORCHESTRATOR.md captured ~70-75% of state. Missi
 |-------|--------|-------|
 | Data collection | ✅ DONE | 1,320 videos |
 | SQLite migration | ✅ DONE | Full schema with FTS |
-| Phase 7: CapCut Forge | 🚧 IN PROGRESS | Schema extraction handoff ready |
+| Phase 7: CapCut Forge | 🚧 IN PROGRESS | JAWS demo handoff ready |
 | Phase 8: Used-In tracking | 📋 PENDING | Waiting on Forge |
-
-**CapCut Reference Project (Judy-Garland):**
-- 9 clips imported, 5 on timeline
-- ~50 seconds duration
-- Uses text templates, transitions, auto-captions
-- JSON exported to `capcut_reference/` folder
-- Handoff: `plans/HANDOFF_CAPCUT_SCHEMA.md`
 
 ---
 
-## Engagement Analysis Findings (Dec 29)
+## CapCut Forge Progress (Dec 30)
 
-### Top Growth (% increase, Dec 26 → Dec 29)
+### Schema Analysis ✅ Complete
 
-| Tip | Growth | Insight |
-|-----|--------|---------|
-| #9 Context Clearing ("Junior Dev") | +2257% | Context management is #1 pain point |
-| #6 Session Logging to Obsidian | +912% | Obsidian integration surging |
-| #12 Use Obsidian as Workspace | +600% | Confirms Obsidian momentum |
-| #2 Code Word Verification | +634% | Trust/verification resonates |
-| #14 Tell Claude to Search | +700% | Simple but overlooked |
+Files created:
+- `capcut_reference/SCHEMA_ANALYSIS.md` — Full schema documentation
+- `capcut_reference/judy_garland_extracted.json` — Simplified timeline data
+- Key resource IDs captured (transitions, text templates, animations)
 
-### Absolute Winners (likes added)
+### Remix Chain Analysis ✅ Complete
 
-| Tip | Added | Total |
-|-----|-------|-------|
-| #1 The Handoff | +340 | 500 |
-| #2 Code Word Verification | +203 | 235 |
-| #9 Junior Dev Trick | +158 | 165 |
-| #6 Session Logging to Obsidian | +155 | 172 |
+**Total remix chains found:** 206
+- 2+ videos: 206 chains
+- 3+ videos: 89 chains  
+- 4+ videos: 46 chains
+- 5+ videos: 36 chains
 
-### Key Takeaways
+### Demo Selection: JAWS Technicolor
 
-1. **Obsidian is heating up** — Two tips in top 5 by % growth. Community converging on Obsidian as Claude Code companion.
+| # | Video ID | Creator | Style | Duration |
+|---|----------|---------|-------|----------|
+| 1 | `693264ac44d881919da504edfc3cef50` | @horrorworkshop | Original | 10s |
+| 2 | `6933b611ed648191a48780baedc709d8` | @christmaspickle | Puppets | 10s |
+| 3 | `6935359e57a481919ab19a42a053ac33` | @jptealog | Claymation | 10s |
+| 4 | `693f9d26aef081919df17c906f275309` | @johnpanic | Action Figures | 10s |
 
-2. **Context management dominates** — The pain is real. Tips about managing context windows are surging.
+**Why JAWS:**
+- Same speech across all 4 clips (easy to verify caption sync)
+- Visual variety within thematic unity
+- 40 seconds—perfect demo length
+- All 4 videos confirmed local
 
-3. **The Handoff remains king** — Still #1 absolute, proven pattern we're actively using.
+**Local files verified:**
+```
+✅ videos/misc_horrorworkshop_693264ac44d881919da504edfc3cef50_10s.mp4
+✅ videos/misc_christmaspickle_6933b611ed648191a48780baedc709d8_10s.mp4
+✅ videos/misc_jptealog_6935359e57a481919ab19a42a053ac33_10s.mp4
+✅ videos/misc_johnpanic_693f9d26aef081919df17c906f275309_10s.mp4
+```
 
-4. **First batch captured most signal** — The 237 "uncurated" tweets are 80%+ noise. Only 5-10 hidden gems worth promoting.
+### Other Demo Candidates (for future)
 
-5. **Hooks are underexplored** — Highest avg likes (8.8) in uncurated, driven by @fabianstelzer's robot demo.
-
-### Hidden Gems from Uncurated
-
-| Author | Likes | Tip |
-|--------|-------|-----|
-| @fabianstelzer | 41 | Robot + Claude Code (physical world) |
-| @buddyhadry | 9 | tmux + SQLite for context |
-| @TheAvgCoder | 9 | "Any questions before you begin?" |
-| @matholive1ra | 7 | Playwright MCP for browser control |
-| @TarikElyass | 14 | Prompt → MD → Opus workflow |
+| Chain | Size | Duration | Likes | Notes |
+|-------|------|----------|-------|-------|
+| 🖼️ Mona Lisa Escaped | 3 | 30s | 9,795 | Viral, paintings escaping |
+| 🎸 Brimley Purple Rain | 4 | 45s | 99 | Fun subject, varied remixes |
+| 📖 Leahy Anarchist Cookbook | 4 | 40s | 141 | Political satire |
+| 🎤 Carlin "What's Pissing Me Off" | 5 | 70s | 155 | Longer chain |
 
 ---
 
@@ -154,11 +142,10 @@ When the previous session died, ORCHESTRATOR.md captured ~70-75% of state. Missi
 | Playwright MCP over paid APIs | Zero cost, user controls auth, proven pattern | 2025-12-29 |
 | SQLite as storage layer | Portable, queryable, works with Obsidian | 2025-12-29 |
 | Handoff docs for delegation | Claude Code instances need full context | 2025-12-28 |
-| LLM_BRIEFING.md pattern | Portable context across any Claude environment | 2025-12-29 |
-| Dewey for bulk exports | Use existing tool where it works, custom fetch for gaps | 2025-12-29 |
 | ORCHESTRATOR.md pattern | Preserve planning context across compactions | 2025-12-29 |
-| `is_curated` ≠ quality | First batch was accidental, not editorial. Use engagement for quality. | 2025-12-29 |
 | Active Work section | Capture real-time state to survive session death | 2025-12-30 |
+| JAWS as first Forge demo | Consistent speech makes caption verification easy | 2025-12-30 |
+| Chronological ordering | Earliest remix first, show chain evolution | 2025-12-30 |
 
 ---
 
@@ -178,9 +165,9 @@ When the previous session died, ORCHESTRATOR.md captured ~70-75% of state. Missi
                   └───────────┬───────────┘
                               │
                     ┌─────────▼─────────┐
-                    │     OBSIDIAN      │
-                    │  (Future: unified │
-                    │   query layer)    │
+                    │   CapCut Forge    │
+                    │  (Auto-generate   │
+                    │   compilations)   │
                     └───────────────────┘
 ```
 
@@ -192,32 +179,13 @@ When the previous session died, ORCHESTRATOR.md captured ~70-75% of state. Missi
 
 ---
 
-## Bigger Picture: Bookmark Archive
-
-Long-term goal: Turn 20+ years of bookmarks across 8 platforms into searchable archive.
-
-| Platform | Dewey Export? | Custom Fetcher |
-|----------|---------------|----------------|
-| Twitter/X | Partial | ✅ Built (Playwright) |
-| Reddit | Partial | TBD |
-| YouTube | ❌ | Needed |
-| Tumblr | ? | TBD |
-| Facebook | ❌ | Needed |
-| Pinterest | ? | TBD |
-| TikTok | ? | TBD |
-| Sora | ❌ | ✅ Built |
-
-Current projects are **pilots** for this larger system.
-
----
-
 ## Pending Delegations
 
 | Task | Target | Handoff Doc | Status |
 |------|--------|-------------|--------|
-| CapCut schema extraction | Hall of Fake | `plans/HANDOFF_CAPCUT_SCHEMA.md` | 🟡 Ready to run |
+| CapCut Forge: JAWS | Hall of Fake | `plans/HANDOFF_CAPCUT_FORGE_JAWS.md` | 🟡 Ready to run |
 | Incremental sync | claude-code-tips | TBD | After thread grows |
-| Promote hidden gems | claude-code-tips | TBD | Optional |
+| More Forge demos | Hall of Fake | TBD | After JAWS validates |
 
 **Completed:**
 - ✅ SQLite ingestion (`plans/HANDOFF_SQLITE_INGESTION.md`)
@@ -225,6 +193,7 @@ Current projects are **pilots** for this larger system.
 - ✅ Tip reconciliation (`plans/HANDOFF_RECONCILE_TIPS.md`)
 - ✅ Metrics re-extraction (`plans/HANDOFF_METRIC_REEXTRACTION.md`)
 - ✅ Uncurated analysis (`plans/HANDOFF_UNCURATED_ANALYSIS.md`)
+- ✅ CapCut schema extraction (`plans/HANDOFF_CAPCUT_SCHEMA.md`)
 
 ---
 
@@ -240,15 +209,19 @@ Current projects are **pilots** for this larger system.
 
 ---
 
-## Schema Consideration
+## Video Naming Convention
 
-The `is_curated` flag in the tips table is misleading. Future options:
+Hall of Fake videos follow this pattern:
+```
+{category}_{creator}_{video_id}_{duration}s.mp4
+```
 
-1. **Rename to `first_batch`** — Honest about what it represents
-2. **Add `quality_tier`** — 'curriculum' | 'reference' | 'noise' based on engagement
-3. **Add `engagement_rank`** — Percentile within dataset
+Example: `misc_horrorworkshop_693264ac44d881919da504edfc3cef50_10s.mp4`
 
-For now, engagement metrics (likes, views) are the quality signal. The first-batch distinction is historical accident, not editorial judgment.
+The `video_id` (32 hex chars) is the key identifier used in:
+- Database `videos.video_id`
+- Sora URLs: `https://sora.chatgpt.com/p/s_{video_id}`
+- Local filenames (embedded)
 
 ---
 
@@ -273,6 +246,7 @@ If you're a fresh Claude instance in this project:
 | 2025-12-29 ~10:10 PM | SQLite ingestion complete, reconciliation next |
 | 2025-12-29 ~11:00 PM | Engagement analysis complete, key findings documented |
 | 2025-12-30 ~2:00 PM | Added Active Work section, CapCut schema handoff ready |
+| 2025-12-30 ~3:45 PM | CapCut schema done, remix chains analyzed, JAWS handoff created |
 
 ---
 
