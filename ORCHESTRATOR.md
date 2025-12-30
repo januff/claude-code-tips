@@ -3,8 +3,26 @@
 > Living document that captures the coordination state across Claude.ai planning sessions.
 > Update at natural breakpoints. Reload to resume orchestration from any fresh context.
 
-**Last Updated:** 2025-12-29 ~11:00 PM PST
+**Last Updated:** 2025-12-30 ~2:00 PM PST
 **Session Environment:** Claude.ai (Opus 4.5) with GitHub MCP + Filesystem MCP
+
+---
+
+## 🔴 Active Work (Update Before Closing Session)
+
+**Currently working on:** CapCut Forge schema extraction
+**Reference project:** `Judy-Garland` (5 clips, ~50 seconds)
+**Files ready:** `capcut_reference/judy_garland_timeline_pretty.json` (620KB)
+**Handoff created:** `plans/HANDOFF_CAPCUT_SCHEMA.md` in hall-of-fake repo
+**Next action:** Run schema extraction handoff in Claude Code
+**Blocking issues:** None—ready to proceed
+
+### Session Bookmarks
+
+- **Dec 30 2:00 PM:** Fresh orchestrator session started, caught up via chat log review
+- **Dec 30 1:59 PM:** CapCut reference files copied to `capcut_reference/` folder  
+- **Dec 30 1:30 PM:** Analyzed ORCHESTRATOR.md gap—identified need for "Active Work" section
+- **Dec 29 ~11:30 PM:** [PREVIOUS SESSION DIED] Was about to read CapCut JSON when compaction failed
 
 ---
 
@@ -19,12 +37,22 @@ This document solves a specific problem: Claude.ai conversations that coordinate
 
 By maintaining this document and updating it at breakpoints, any fresh Claude instance can resume orchestration without losing the "why" behind decisions.
 
+### Gap Analysis (Dec 30)
+
+When the previous session died, ORCHESTRATOR.md captured ~70-75% of state. Missing:
+- ❌ Judy-Garland identified as reference project
+- ❌ Movies folder added to filesystem MCP
+- ❌ CapCut JSON structure discovered
+- ❌ Active momentum toward schema extraction
+
+**Solution:** Added "Active Work" section at top for real-time state capture.
+
 ---
 
 ## Current Focus
 
-**Primary:** claude-code-tips database is operational — engagement analysis complete
-**Secondary:** Hall of Fake Phase 7-8 (CapCut Forge blocked on JSON schema)
+**Primary:** Hall of Fake Phase 7 (CapCut Forge) — schema extraction in progress
+**Secondary:** claude-code-tips incremental sync when thread grows
 **Background:** Cross-platform bookmark archive vision
 
 ---
@@ -62,8 +90,15 @@ By maintaining this document and updating it at breakpoints, any fresh Claude in
 |-------|--------|-------|
 | Data collection | ✅ DONE | 1,320 videos |
 | SQLite migration | ✅ DONE | Full schema with FTS |
-| Phase 7: CapCut Forge | 🚧 BLOCKED | Need JSON schema from CapCut export |
+| Phase 7: CapCut Forge | 🚧 IN PROGRESS | Schema extraction handoff ready |
 | Phase 8: Used-In tracking | 📋 PENDING | Waiting on Forge |
+
+**CapCut Reference Project (Judy-Garland):**
+- 9 clips imported, 5 on timeline
+- ~50 seconds duration
+- Uses text templates, transitions, auto-captions
+- JSON exported to `capcut_reference/` folder
+- Handoff: `plans/HANDOFF_CAPCUT_SCHEMA.md`
 
 ---
 
@@ -123,6 +158,7 @@ By maintaining this document and updating it at breakpoints, any fresh Claude in
 | Dewey for bulk exports | Use existing tool where it works, custom fetch for gaps | 2025-12-29 |
 | ORCHESTRATOR.md pattern | Preserve planning context across compactions | 2025-12-29 |
 | `is_curated` ≠ quality | First batch was accidental, not editorial. Use engagement for quality. | 2025-12-29 |
+| Active Work section | Capture real-time state to survive session death | 2025-12-30 |
 
 ---
 
@@ -179,8 +215,8 @@ Current projects are **pilots** for this larger system.
 
 | Task | Target | Handoff Doc | Status |
 |------|--------|-------------|--------|
-| CapCut JSON schema | Hall of Fake | Needs user to export | 🚧 Blocked |
-| Incremental sync | claude-code-tips | TBD | After schema discussion |
+| CapCut schema extraction | Hall of Fake | `plans/HANDOFF_CAPCUT_SCHEMA.md` | 🟡 Ready to run |
+| Incremental sync | claude-code-tips | TBD | After thread grows |
 | Promote hidden gems | claude-code-tips | TBD | Optional |
 
 **Completed:**
@@ -189,6 +225,18 @@ Current projects are **pilots** for this larger system.
 - ✅ Tip reconciliation (`plans/HANDOFF_RECONCILE_TIPS.md`)
 - ✅ Metrics re-extraction (`plans/HANDOFF_METRIC_REEXTRACTION.md`)
 - ✅ Uncurated analysis (`plans/HANDOFF_UNCURATED_ANALYSIS.md`)
+
+---
+
+## MCP Configuration
+
+**Filesystem MCP allowed directories:**
+- `/Users/joeyanuff-m2/Desktop`
+- `/Users/joeyanuff-m2/Downloads`
+- `/Users/joeyanuff-m2/Development`
+- `/Users/joeyanuff-m2/Movies` ← Added Dec 30 for CapCut access
+
+**GitHub MCP:** Connected to `januff/*` repos
 
 ---
 
@@ -208,11 +256,12 @@ For now, engagement metrics (likes, views) are the quality signal. The first-bat
 
 If you're a fresh Claude instance in this project:
 
-1. Read this document first
-2. Check `LLM_BRIEFING.md` for user context and skill level
-3. Check `PROGRESS.md` for current adoption state
-4. Look at pending delegations above
-5. Ask user what to focus on next
+1. **Check "Active Work" section first** — This is the real-time state
+2. Read rest of this document for context
+3. Check `LLM_BRIEFING.md` for user context and skill level
+4. Check `PROGRESS.md` for current adoption state
+5. Look at pending delegations above
+6. Ask user what to focus on next
 
 ---
 
@@ -223,6 +272,7 @@ If you're a fresh Claude instance in this project:
 | 2025-12-29 ~9:45 PM | Initial creation after context window hit limit |
 | 2025-12-29 ~10:10 PM | SQLite ingestion complete, reconciliation next |
 | 2025-12-29 ~11:00 PM | Engagement analysis complete, key findings documented |
+| 2025-12-30 ~2:00 PM | Added Active Work section, CapCut schema handoff ready |
 
 ---
 
