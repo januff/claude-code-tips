@@ -121,7 +121,7 @@ Techniques I want to extract into formal Claude Code skills:
 |------------|---------------|--------|-------|
 | `fetch_sora_likes` | Hall of Fake | 📋 PLANNED | Browser script → skill |
 | `fetch_twitter_thread` | Twitter Tracker | 📋 PLANNED | Pending project start |
-| `sqlite_archive_pattern` | Hall of Fake | 📋 PLANNED | After migration complete |
+| `sqlite_archive_pattern` | Hall of Fake | 🔄 IN_PROGRESS | Migration complete, extracting pattern |
 | `handoff_generator` | claude-code-tips | 📋 PLANNED | Auto-generate handoff docs |
 
 ---
@@ -133,6 +133,7 @@ Techniques I want to extract into formal Claude Code skills:
 **New adoptions:**
 - GitHub MCP server configured
 - Cross-project architecture proposed
+- ✅ SQLite migration for Hall of Fake (1,320 videos, FTS indexes)
 
 **Currently testing:**
 - Separate planning/execution workflow
@@ -143,8 +144,9 @@ Techniques I want to extract into formal Claude Code skills:
 - Large CapCut JSON files hard to read
 
 **Next to try:**
-- SQLite migration (via delegated Claude Code)
+- CapCut Forge automation (Phase 7)
 - Subagents for parallel tasks
+- Playwright MCP for thread sync
 
 ---
 
