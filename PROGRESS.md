@@ -4,7 +4,7 @@
 > Updated as patterns are tested and integrated into workflows.
 
 **Last Updated:** December 29, 2025  
-**Active Projects:** Hall of Fake, Twitter Tracker (planned), claude-code-tips
+**Active Projects:** Hall of Fake, claude-code-tips
 
 ---
 
@@ -51,7 +51,7 @@
 |-----|--------|---------------|-------|
 | Document everything in .MD | ✅ ADOPTED | All | CLAUDE.md, WORKFLOW.md, HANDOFF.md, etc. |
 | Check today's date first | 📋 PENDING | — | Should add to CLAUDE.md files |
-| Session logging to Obsidian | ⏭️ SKIPPED | — | Using VS Code / Cursor instead |
+| Session logging to Obsidian | 📋 PENDING | — | Want to explore for cross-platform bookmark archive |
 | Treat memory files like code | 🔄 IN_PROGRESS | All | Working on clear entry points |
 | Dump context to MD for team | ✅ ADOPTED | Hall of Fake | HANDOFF.md pattern |
 
@@ -120,9 +120,36 @@ Techniques I want to extract into formal Claude Code skills:
 | Skill Name | Source Project | Status | Notes |
 |------------|---------------|--------|-------|
 | `fetch_sora_likes` | Hall of Fake | 📋 PLANNED | Browser script → skill |
-| `fetch_twitter_thread` | Twitter Tracker | 📋 PLANNED | Pending project start |
+| `fetch_twitter_thread` | claude-code-tips | 🔄 IN_PROGRESS | Playwright MCP implementation |
 | `sqlite_archive_pattern` | Hall of Fake | 🔄 IN_PROGRESS | Migration complete, extracting pattern |
 | `handoff_generator` | claude-code-tips | 📋 PLANNED | Auto-generate handoff docs |
+
+---
+
+## Future Vision: Cross-Platform Bookmark Archive
+
+Long-term goal: Build self-maintaining importers for 20+ years of bookmarks across platforms.
+
+**Platforms with bookmarks:**
+- Twitter/X (partial Dewey export)
+- Reddit (partial Dewey export)
+- YouTube (Dewey can't export)
+- Tumblr
+- Facebook (Dewey can't export)
+- Pinterest
+- TikTok
+- Sora likes (custom fetcher built)
+
+**Current approach:**
+- getdewey.co for bulk export where supported
+- Custom fetchers for gaps (Sora, Twitter replies)
+- SQLite as storage layer
+- Obsidian as potential unified interface
+
+**Pattern emerging:**
+Each platform needs: fetch script → incremental sync → SQLite storage → export utilities
+
+This is the same pattern as Hall of Fake and claude-code-tips. The two current projects are pilots for this larger system.
 
 ---
 
@@ -134,10 +161,12 @@ Techniques I want to extract into formal Claude Code skills:
 - GitHub MCP server configured
 - Cross-project architecture proposed
 - ✅ SQLite migration for Hall of Fake (1,320 videos, FTS indexes)
+- 🔄 Playwright MCP for thread sync (in progress)
 
 **Currently testing:**
 - Separate planning/execution workflow
 - Handoff delegation pattern
+- Playwright browser automation
 
 **Friction points:**
 - Claude.ai Projects don't share context
@@ -146,7 +175,7 @@ Techniques I want to extract into formal Claude Code skills:
 **Next to try:**
 - CapCut Forge automation (Phase 7)
 - Subagents for parallel tasks
-- Playwright MCP for thread sync
+- Obsidian integration for bookmark archive
 
 ---
 
