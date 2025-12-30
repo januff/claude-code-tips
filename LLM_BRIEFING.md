@@ -13,13 +13,41 @@
 
 | Project | Items | Last Fetch | Next Action |
 |---------|-------|------------|-------------|
-| Hall of Fake | 1,320 videos | Dec 27 | SQLite migration |
-| claude-code-tips | 109 tips | Dec 26 | Thread re-sync (182+ replies now) |
+| Hall of Fake | 1,320 videos | Dec 27 | ✅ SQLite migration complete |
+| claude-code-tips | 109 tips | Dec 26 | Thread re-sync via Playwright |
 
 **This week's focus:**
-- SQLite migration for Hall of Fake (handoff ready)
-- Explore Playwright MCP for thread sync
+- ✅ SQLite migration for Hall of Fake (done)
+- Playwright MCP setup for thread sync (handoff ready)
 - Cross-project architecture established
+
+---
+
+## Skill Snapshot (Updated Weekly)
+
+**Comfort Level:** Intermediate Claude Code user, actively learning from 109-tip thread
+
+### Regularly Using
+- Handoff documents for Claude Code delegation
+- Planning/execution separation (Claude.ai → Claude Code)
+- SQLite with FTS for archive storage
+- GitHub MCP, Filesystem MCP
+- Browser fetch scripts with session auth
+- Incremental sync patterns
+
+### Currently Learning
+- Playwright MCP (just configured, first cross-environment MCP)
+- Thread extraction via browser automation
+
+### Next on Radar
+- Claude Code hooks and custom commands
+- Formal skill extraction (when patterns prove out in 2+ projects)
+- Plugin/agent suites exploration
+
+### Approach to New Tools
+Joey treats tool choices as "actively moving objects" — re-evaluated weekly. He prefers paid APIs over hacks if the fee trivializes the problem. He wants to understand what's happening, not just have it work.
+
+**Full adoption tracking:** See `PROGRESS.md` in this repo
 
 ---
 
@@ -31,8 +59,6 @@ Joey Anuff is building two sibling projects using Claude across multiple interfa
 - **Documented patterns** (everything in markdown)
 - **Progressive skill extraction** (patterns that work → formal skills)
 - **Paid APIs over hacks** (if a fee trivializes the problem, pay it)
-
-He treats tool choices as "actively moving objects" — re-evaluated on a weekly/bi-weekly basis.
 
 ---
 
@@ -99,12 +125,11 @@ JSON for interchange, SQLite for querying.
 
 ## MCP Servers Configured
 
-| Server | Purpose |
-|--------|---------|
-| **filesystem** | Read/write in Desktop, Downloads, Development |
-| **github** | Read/write januff/* repos |
-
-**Exploring:** Playwright MCP for browser automation (potential first cross-environment MCP)
+| Server | Purpose | Status |
+|--------|---------|--------|
+| **filesystem** | Read/write in Desktop, Downloads, Development | ✅ Active |
+| **github** | Read/write januff/* repos | ✅ Active |
+| **playwright** | Browser automation | 🔄 Setting up |
 
 ---
 
@@ -173,17 +198,29 @@ From the 109-tip thread (see `PROGRESS.md` for full tracker):
 
 ### Hall of Fake
 - Video archive of 1,320 AI-generated Sora clips
-- Current focus: SQLite migration, then CapCut automation
-- CapCut Forge blocked on: reverse-engineering JSON schema from sample projects
+- ✅ SQLite migration complete (hall_of_fake.db)
+- Next: CapCut Forge automation (blocked on JSON schema)
 - Has detailed edit logs of published compilations (`EDIT_LOGS_MASTER.md`)
-- Fetch script working, incremental sync proven
 
 ### claude-code-tips
-- Thread tracker: 109 tips from Alex Albert's thread (needs re-sync, thread has grown)
+- Thread tracker: 109 tips from Alex Albert's thread (needs re-sync)
 - Meta-layer: methodology patterns, progress tracking
 - `PROGRESS.md` tracks personal tip adoption
-- `CROSS_PROJECT_ARCHITECTURE.md` documents the sibling project relationship
-- Not yet public—will share when thread sync is working and feedback loops exist
+- `CROSS_PROJECT_ARCHITECTURE.md` documents sibling project relationship
+- Handoff ready: `plans/HANDOFF_PLAYWRIGHT_THREAD_SYNC.md`
+
+---
+
+## How to Use This Document
+
+**For Claude.ai Projects:**
+Download this file and add it to the project's knowledge base. Any conversation in that project will have this context.
+
+**For Claude Code:**
+Point the instance to read `PROGRESS.md` for detailed skill tracking, or this file for overview.
+
+**For Cursor:**
+If claude-code-tips is cloned locally, Cursor can read these files directly.
 
 ---
 
