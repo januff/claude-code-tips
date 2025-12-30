@@ -3,8 +3,8 @@
 > Living document that captures the coordination state across Claude.ai planning sessions.
 > Update at natural breakpoints. Reload to resume orchestration from any fresh context.
 
-**Last Updated:** 2025-12-29 ~10:10 PM PST
-**Session Environment:** Claude.ai (Opus 4.5) with GitHub MCP
+**Last Updated:** 2025-12-29 ~11:00 PM PST
+**Session Environment:** Claude.ai (Opus 4.5) with GitHub MCP + Filesystem MCP
 
 ---
 
@@ -23,7 +23,7 @@ By maintaining this document and updating it at breakpoints, any fresh Claude in
 
 ## Current Focus
 
-**Primary:** Reconcile 109 curated tips with 343 raw tweets in SQLite
+**Primary:** claude-code-tips database is operational — engagement analysis complete
 **Secondary:** Hall of Fake Phase 7-8 (CapCut Forge blocked on JSON schema)
 **Background:** Cross-platform bookmark archive vision
 
@@ -34,29 +34,24 @@ By maintaining this document and updating it at breakpoints, any fresh Claude in
 ### 1. claude-code-tips (Twitter Thread Tracker)
 
 **Repo:** `januff/claude-code-tips`
-**Purpose:** Capture and track adoption of tips from Alex Albert's Claude Code thread
+**Purpose:** Capture and track tips from Alex Albert's Claude Code thread
 
 | Phase | Status | Notes |
 |-------|--------|-------|
 | Thread extraction | ✅ DONE | 343 tweets via Playwright MCP |
 | SQLite ingestion | ✅ DONE | `claude_code_tips.db` with FTS |
-| Tip reconciliation | 📋 NEXT | Match 109 curated → 343 raw |
+| Metrics extraction | ✅ DONE | Real engagement data populated |
+| Engagement analysis | ✅ DONE | Growth patterns identified |
 | Incremental sync | 📋 PENDING | Re-run Playwright, diff against DB |
 | Obsidian integration | 📋 FUTURE | Unified interface layer |
 
-**Key files:**
-- `claude_code_tips.db` — SQLite database (343 tweets)
-- `tips/full-thread.md` — Original 109 curated tips
-- `tips/grouped-tips.md` — Category mappings
-- `scripts/migrate_to_sqlite.py` — Migration script
-- `scripts/sqlite_exports.py` — CLI + export utilities
+**Database state:**
+| Table | Records | Notes |
+|-------|---------|-------|
+| tweets | 343 | Full thread extraction |
+| tips | 106 | First-batch entries (misleadingly called "curated") |
 
-**Data inventory:**
-| Source | Count | Date |
-|--------|-------|------|
-| `tips/full-thread.md` | 109 tips | Dec 26 (manual curation) |
-| `tips/snapshot-2025-12-28.md` | 182 tips | Dec 28 (second manual pass) |
-| `data/thread-replies-2025-12-29.json` | 343 tweets | Dec 29 (Playwright extraction) |
+**Key insight:** The 109 "curated" tips were not editorial curation — the Chrome extension accidentally captured an incomplete first batch. The `is_curated` flag really means "first_batch" not "higher quality." Quality should be determined by engagement metrics, not batch order.
 
 ### 2. Hall of Fake (Sora Video Tracker)
 
@@ -70,16 +65,54 @@ By maintaining this document and updating it at breakpoints, any fresh Claude in
 | Phase 7: CapCut Forge | 🚧 BLOCKED | Need JSON schema from CapCut export |
 | Phase 8: Used-In tracking | 📋 PENDING | Waiting on Forge |
 
-**Key files:**
-- `hall_of_fake.db` — SQLite database (1,320 videos)
-- `scripts/migrate_to_sqlite.py` — Migration script (reusable pattern)
-- `scripts/sqlite_exports.py` — Export utilities
+---
+
+## Engagement Analysis Findings (Dec 29)
+
+### Top Growth (% increase, Dec 26 → Dec 29)
+
+| Tip | Growth | Insight |
+|-----|--------|---------|
+| #9 Context Clearing ("Junior Dev") | +2257% | Context management is #1 pain point |
+| #6 Session Logging to Obsidian | +912% | Obsidian integration surging |
+| #12 Use Obsidian as Workspace | +600% | Confirms Obsidian momentum |
+| #2 Code Word Verification | +634% | Trust/verification resonates |
+| #14 Tell Claude to Search | +700% | Simple but overlooked |
+
+### Absolute Winners (likes added)
+
+| Tip | Added | Total |
+|-----|-------|-------|
+| #1 The Handoff | +340 | 500 |
+| #2 Code Word Verification | +203 | 235 |
+| #9 Junior Dev Trick | +158 | 165 |
+| #6 Session Logging to Obsidian | +155 | 172 |
+
+### Key Takeaways
+
+1. **Obsidian is heating up** — Two tips in top 5 by % growth. Community converging on Obsidian as Claude Code companion.
+
+2. **Context management dominates** — The pain is real. Tips about managing context windows are surging.
+
+3. **The Handoff remains king** — Still #1 absolute, proven pattern we're actively using.
+
+4. **First batch captured most signal** — The 237 "uncurated" tweets are 80%+ noise. Only 5-10 hidden gems worth promoting.
+
+5. **Hooks are underexplored** — Highest avg likes (8.8) in uncurated, driven by @fabianstelzer's robot demo.
+
+### Hidden Gems from Uncurated
+
+| Author | Likes | Tip |
+|--------|-------|-----|
+| @fabianstelzer | 41 | Robot + Claude Code (physical world) |
+| @buddyhadry | 9 | tmux + SQLite for context |
+| @TheAvgCoder | 9 | "Any questions before you begin?" |
+| @matholive1ra | 7 | Playwright MCP for browser control |
+| @TarikElyass | 14 | Prompt → MD → Opus workflow |
 
 ---
 
 ## Strategic Decisions Made
-
-Decisions that should survive compaction:
 
 | Decision | Rationale | Date |
 |----------|-----------|------|
@@ -89,7 +122,7 @@ Decisions that should survive compaction:
 | LLM_BRIEFING.md pattern | Portable context across any Claude environment | 2025-12-29 |
 | Dewey for bulk exports | Use existing tool where it works, custom fetch for gaps | 2025-12-29 |
 | ORCHESTRATOR.md pattern | Preserve planning context across compactions | 2025-12-29 |
-| Fuzzy text matching for reconciliation | Curated tips are summaries, not verbatim tweets | 2025-12-29 |
+| `is_curated` ≠ quality | First batch was accidental, not editorial. Use engagement for quality. | 2025-12-29 |
 
 ---
 
@@ -125,7 +158,7 @@ Decisions that should survive compaction:
 
 ## Bigger Picture: Bookmark Archive
 
-Long-term goal revealed in session: Turn 20+ years of bookmarks across 8 platforms into searchable archive.
+Long-term goal: Turn 20+ years of bookmarks across 8 platforms into searchable archive.
 
 | Platform | Dewey Export? | Custom Fetcher |
 |----------|---------------|----------------|
@@ -146,24 +179,28 @@ Current projects are **pilots** for this larger system.
 
 | Task | Target | Handoff Doc | Status |
 |------|--------|-------------|--------|
-| Tip reconciliation | claude-code-tips | `plans/HANDOFF_RECONCILE_TIPS.md` | 📋 Ready |
 | CapCut JSON schema | Hall of Fake | Needs user to export | 🚧 Blocked |
-| Incremental sync | claude-code-tips | TBD | After reconciliation |
+| Incremental sync | claude-code-tips | TBD | After schema discussion |
+| Promote hidden gems | claude-code-tips | TBD | Optional |
 
 **Completed:**
 - ✅ SQLite ingestion (`plans/HANDOFF_SQLITE_INGESTION.md`)
 - ✅ Playwright extraction (`plans/HANDOFF_PLAYWRIGHT_THREAD_SYNC.md`)
+- ✅ Tip reconciliation (`plans/HANDOFF_RECONCILE_TIPS.md`)
+- ✅ Metrics re-extraction (`plans/HANDOFF_METRIC_REEXTRACTION.md`)
+- ✅ Uncurated analysis (`plans/HANDOFF_UNCURATED_ANALYSIS.md`)
 
 ---
 
-## Context Window Management
+## Schema Consideration
 
-This orchestrator conversation is now the coordination layer. To keep it healthy:
+The `is_curated` flag in the tips table is misleading. Future options:
 
-1. **Update this doc** at natural breakpoints (major decisions, phase completions)
-2. **Delegate execution** to Claude Code via handoff docs
-3. **Keep planning here** — architecture decisions, priority changes
-4. **If compaction happens** — reload this doc to restore strategic context
+1. **Rename to `first_batch`** — Honest about what it represents
+2. **Add `quality_tier`** — 'curriculum' | 'reference' | 'noise' based on engagement
+3. **Add `engagement_rank`** — Percentile within dataset
+
+For now, engagement metrics (likes, views) are the quality signal. The first-batch distinction is historical accident, not editorial judgment.
 
 ---
 
@@ -184,7 +221,8 @@ If you're a fresh Claude instance in this project:
 | Date | Update |
 |------|--------|
 | 2025-12-29 ~9:45 PM | Initial creation after context window hit limit |
-| 2025-12-29 ~10:10 PM | SQLite ingestion complete, reconciliation handoff ready |
+| 2025-12-29 ~10:10 PM | SQLite ingestion complete, reconciliation next |
+| 2025-12-29 ~11:00 PM | Engagement analysis complete, key findings documented |
 
 ---
 
