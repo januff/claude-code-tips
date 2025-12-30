@@ -3,7 +3,7 @@
 > Living document that captures the coordination state across Claude.ai planning sessions.
 > Update at natural breakpoints. Reload to resume orchestration from any fresh context.
 
-**Last Updated:** 2025-12-29 ~9:45 PM PST
+**Last Updated:** 2025-12-29 ~10:10 PM PST
 **Session Environment:** Claude.ai (Opus 4.5) with GitHub MCP
 
 ---
@@ -23,7 +23,7 @@ By maintaining this document and updating it at breakpoints, any fresh Claude in
 
 ## Current Focus
 
-**Primary:** claude-code-tips SQLite ingestion (importing 343 extracted tweets)
+**Primary:** Reconcile 109 curated tips with 343 raw tweets in SQLite
 **Secondary:** Hall of Fake Phase 7-8 (CapCut Forge blocked on JSON schema)
 **Background:** Cross-platform bookmark archive vision
 
@@ -39,15 +39,24 @@ By maintaining this document and updating it at breakpoints, any fresh Claude in
 | Phase | Status | Notes |
 |-------|--------|-------|
 | Thread extraction | ✅ DONE | 343 tweets via Playwright MCP |
-| SQLite ingestion | 📋 NEXT | Handoff ready: `plans/HANDOFF_SQLITE_INGESTION.md` |
+| SQLite ingestion | ✅ DONE | `claude_code_tips.db` with FTS |
+| Tip reconciliation | 📋 NEXT | Match 109 curated → 343 raw |
 | Incremental sync | 📋 PENDING | Re-run Playwright, diff against DB |
 | Obsidian integration | 📋 FUTURE | Unified interface layer |
 
 **Key files:**
-- `data/thread-replies-2025-12-29.json` — Raw extraction (343 tweets)
+- `claude_code_tips.db` — SQLite database (343 tweets)
 - `tips/full-thread.md` — Original 109 curated tips
-- `PROGRESS.md` — Personal skill adoption tracker
-- `LLM_BRIEFING.md` — Portable context for any LLM
+- `tips/grouped-tips.md` — Category mappings
+- `scripts/migrate_to_sqlite.py` — Migration script
+- `scripts/sqlite_exports.py` — CLI + export utilities
+
+**Data inventory:**
+| Source | Count | Date |
+|--------|-------|------|
+| `tips/full-thread.md` | 109 tips | Dec 26 (manual curation) |
+| `tips/snapshot-2025-12-28.md` | 182 tips | Dec 28 (second manual pass) |
+| `data/thread-replies-2025-12-29.json` | 343 tweets | Dec 29 (Playwright extraction) |
 
 ### 2. Hall of Fake (Sora Video Tracker)
 
@@ -79,6 +88,8 @@ Decisions that should survive compaction:
 | Handoff docs for delegation | Claude Code instances need full context | 2025-12-28 |
 | LLM_BRIEFING.md pattern | Portable context across any Claude environment | 2025-12-29 |
 | Dewey for bulk exports | Use existing tool where it works, custom fetch for gaps | 2025-12-29 |
+| ORCHESTRATOR.md pattern | Preserve planning context across compactions | 2025-12-29 |
+| Fuzzy text matching for reconciliation | Curated tips are summaries, not verbatim tweets | 2025-12-29 |
 
 ---
 
@@ -135,9 +146,13 @@ Current projects are **pilots** for this larger system.
 
 | Task | Target | Handoff Doc | Status |
 |------|--------|-------------|--------|
-| SQLite ingestion | claude-code-tips | `plans/HANDOFF_SQLITE_INGESTION.md` | Ready |
-| CapCut JSON schema | Hall of Fake | Needs user to export | Blocked |
-| Incremental sync | claude-code-tips | TBD | After ingestion |
+| Tip reconciliation | claude-code-tips | `plans/HANDOFF_RECONCILE_TIPS.md` | 📋 Ready |
+| CapCut JSON schema | Hall of Fake | Needs user to export | 🚧 Blocked |
+| Incremental sync | claude-code-tips | TBD | After reconciliation |
+
+**Completed:**
+- ✅ SQLite ingestion (`plans/HANDOFF_SQLITE_INGESTION.md`)
+- ✅ Playwright extraction (`plans/HANDOFF_PLAYWRIGHT_THREAD_SYNC.md`)
 
 ---
 
@@ -168,7 +183,8 @@ If you're a fresh Claude instance in this project:
 
 | Date | Update |
 |------|--------|
-| 2025-12-29 | Initial creation after context window hit limit |
+| 2025-12-29 ~9:45 PM | Initial creation after context window hit limit |
+| 2025-12-29 ~10:10 PM | SQLite ingestion complete, reconciliation handoff ready |
 
 ---
 
