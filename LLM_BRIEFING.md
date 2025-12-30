@@ -11,21 +11,23 @@
 
 **Last sync:** 2025-12-29
 
-| Project | Items | Last Fetch | Next Action |
-|---------|-------|------------|-------------|
-| Hall of Fake | 1,320 videos | Dec 27 | ✅ SQLite migration complete |
-| claude-code-tips | 109 tips | Dec 26 | Thread re-sync via Playwright |
+| Project | Items | Database | Status |
+|---------|-------|----------|--------|
+| Hall of Fake | 1,320 videos | hall_of_fake.db | ✅ Complete |
+| claude-code-tips | 343 tweets | claude_code_tips.db | ✅ Complete |
 
-**This week's focus:**
-- ✅ SQLite migration for Hall of Fake (done)
-- Playwright MCP setup for thread sync (handoff ready)
-- Cross-project architecture established
+**This week's milestones:**
+- ✅ SQLite migration for Hall of Fake (1,320 videos)
+- ✅ Playwright MCP thread extraction (343 tweets)
+- ✅ Metrics extraction (real engagement data)
+- ✅ Engagement delta analysis (growth patterns identified)
+- ✅ Cross-project architecture established
 
 ---
 
 ## Skill Snapshot (Updated Weekly)
 
-**Comfort Level:** Intermediate Claude Code user, actively learning from 109-tip thread
+**Comfort Level:** Intermediate Claude Code user, actively learning from tips thread
 
 ### Regularly Using
 - Handoff documents for Claude Code delegation
@@ -34,15 +36,16 @@
 - GitHub MCP, Filesystem MCP
 - Browser fetch scripts with session auth
 - Incremental sync patterns
+- ORCHESTRATOR.md for planning continuity
 
 ### Currently Learning
-- Playwright MCP (just configured, first cross-environment MCP)
-- Thread extraction via browser automation
+- Playwright MCP (successfully used for thread extraction)
+- Engagement analysis patterns
 
 ### Next on Radar
+- Obsidian integration (tips #6 and #12 are surging)
 - Claude Code hooks and custom commands
 - Formal skill extraction (when patterns prove out in 2+ projects)
-- Plugin/agent suites exploration
 
 ### Approach to New Tools
 Joey treats tool choices as "actively moving objects" — re-evaluated weekly. He prefers paid APIs over hacks if the fee trivializes the problem. He wants to understand what's happening, not just have it work.
@@ -110,6 +113,15 @@ JSON for interchange, SQLite for querying.
 2. **Pattern** → Document it, copy-paste (works in 1 project)
 3. **Skill** → Claude Code loads it automatically (proven in 2+ projects)
 
+### 5. ORCHESTRATOR.md for Continuity
+Planning sessions in Claude.ai will hit context limits. The ORCHESTRATOR.md file captures:
+- Current focus and project status
+- Strategic decisions with rationale
+- Pending delegations queue
+- Key findings and insights
+
+Update at natural breakpoints. Reload to resume orchestration.
+
 ---
 
 ## Workflow Environments
@@ -129,7 +141,7 @@ JSON for interchange, SQLite for querying.
 |--------|---------|--------|
 | **filesystem** | Read/write in Desktop, Downloads, Development | ✅ Active |
 | **github** | Read/write januff/* repos | ✅ Active |
-| **playwright** | Browser automation | 🔄 Setting up |
+| **playwright** | Browser automation | ✅ Active (used for thread extraction) |
 
 ---
 
@@ -169,28 +181,36 @@ Used in: Both projects
 
 ---
 
-## Tips Already Adopted
+## Tips Adoption Highlights
 
-From the 109-tip thread (see `PROGRESS.md` for full tracker):
+From the 343-tweet thread (see `PROGRESS.md` for full tracker):
 
-| Tip | Status |
-|-----|--------|
-| The Handoff technique | ✅ Using |
-| Separate planning from execution | ✅ Using |
-| Document everything in .MD | ✅ Using |
-| MCP servers | ✅ Using |
-| Code word verification | ✅ Using ("context-first") |
-| Architect in Claude Desktop first | ✅ Using |
+### Currently Using
+| Tip | Notes |
+|-----|-------|
+| The Handoff technique (#1) | Core workflow — 500 likes, dominant |
+| Separate planning from execution (#35) | Two-session pattern |
+| Document everything in .MD (#20) | HANDOFF.md, WORKFLOW.md patterns |
+| Code word verification (#2) | "context-first" — 235 likes, surging |
+| Architect in Claude Desktop first (#24) | Using Claude.ai for planning |
+
+### Surging (high growth, worth adopting)
+| Tip | Growth | Why |
+|-----|--------|-----|
+| Session Logging to Obsidian (#6) | +912% | Obsidian integration hot |
+| Use Obsidian as Workspace (#12) | +600% | Community converging on Obsidian |
+| Context Clearing + "Junior Dev" (#9) | +2257% | Context management is #1 pain |
 
 ---
 
 ## When Working on Joey's Projects
 
 1. **Read CLAUDE.md first** if the project has one
-2. **Check for existing handoffs** in `plans/` or `docs/`
-3. **Don't over-automate**—he wants to understand what's happening
-4. **Produce handoff docs** for any work that should continue in another session
-5. **Commit with clear messages** and 🤖 attribution
+2. **Check ORCHESTRATOR.md** for current focus and decisions
+3. **Check for existing handoffs** in `plans/` or `docs/`
+4. **Don't over-automate**—he wants to understand what's happening
+5. **Produce handoff docs** for any work that should continue in another session
+6. **Commit with clear messages** and 🤖 attribution
 
 ---
 
@@ -203,11 +223,12 @@ From the 109-tip thread (see `PROGRESS.md` for full tracker):
 - Has detailed edit logs of published compilations (`EDIT_LOGS_MASTER.md`)
 
 ### claude-code-tips
-- Thread tracker: 109 tips from Alex Albert's thread (needs re-sync)
-- Meta-layer: methodology patterns, progress tracking
+- Thread tracker: 343 tweets from Alex Albert's thread
+- ✅ SQLite complete (claude_code_tips.db)
+- ✅ Engagement metrics captured
+- ✅ Growth analysis complete
 - `PROGRESS.md` tracks personal tip adoption
-- `CROSS_PROJECT_ARCHITECTURE.md` documents sibling project relationship
-- Handoff ready: `plans/HANDOFF_PLAYWRIGHT_THREAD_SYNC.md`
+- `ORCHESTRATOR.md` captures planning state
 
 ---
 
@@ -217,7 +238,7 @@ From the 109-tip thread (see `PROGRESS.md` for full tracker):
 Download this file and add it to the project's knowledge base. Any conversation in that project will have this context.
 
 **For Claude Code:**
-Point the instance to read `PROGRESS.md` for detailed skill tracking, or this file for overview.
+Point the instance to read `ORCHESTRATOR.md` for current state, or this file for methodology overview.
 
 **For Cursor:**
 If claude-code-tips is cloned locally, Cursor can read these files directly.
