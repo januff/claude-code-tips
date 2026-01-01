@@ -3,7 +3,7 @@
 > Personal adoption tracker for techniques from the 343-tweet tips thread.
 > Updated as patterns are tested and integrated into workflows.
 
-**Last Updated:** December 31, 2025  
+**Last Updated:** December 31, 2025 (evening)  
 **Active Projects:** Hall of Fake, claude-code-tips
 
 ---
@@ -31,21 +31,24 @@
 | #40 /compact before forced | 📋 PENDING | — | Should test in long analysis sessions |
 | #47 Subagents for extra time | 📋 PENDING | — | Want to try for parallel video analysis |
 | #61 /rewind liberally | ❓ UNTESTED | — | |
+| Fresh session per new task | ✅ ADOPTED | All | Start fresh for new experiments, continue for iterations |
 
 ---
 
 ## Research-First Heuristic 🆕
 
-**New pattern discovered Dec 31, 2025:** For automation tasks, the best current solutions are likely beyond the model's training cutoff.
+**Pattern discovered Dec 31, 2025:** For automation tasks, the best current solutions are likely beyond the model's training cutoff.
 
 | Pattern | Status | Applied Where | Notes |
 |---------|--------|---------------|-------|
-| Web search before reverse-engineering | ✅ ADOPTED | Hall of Fake | Discovered VectCutAPI after days of failed CapCut JSON hacking |
-| Cross-model consultation | ✅ ADOPTED | Hall of Fake | GPT-5.2 analyzing CapCut problem in parallel |
+| Web search before reverse-engineering | ✅ ADOPTED | Hall of Fake | Found VectCutAPI after days of failed CapCut JSON hacking |
+| Cross-model consultation | ✅ ADOPTED | Hall of Fake | GPT analyzed CapCut problem in parallel |
 | Search GitHub for "[tool] API automation" | ✅ ADOPTED | — | Filter by stars, recent activity |
-| Check for existing MCP servers | 📋 PENDING | — | VectCutAPI has MCP support! |
+| Check for existing MCP servers | ✅ ADOPTED | Hall of Fake | VectCutAPI has MCP support! |
 
 **Key insight:** Spent 3+ days reverse-engineering CapCut's draft JSON format. One web search found VectCutAPI (1.4k stars) which already solves the problem. **Always search first.**
+
+**Update:** VectCutAPI validated! Successfully generated a 4-clip CapCut project with text overlays.
 
 ---
 
@@ -85,6 +88,7 @@
 | #92 Dump context to MD for team | ✅ ADOPTED | Hall of Fake | HANDOFF.md pattern |
 | ORCHESTRATOR.md pattern | ✅ ADOPTED | claude-code-tips | Self-invented. Preserve planning context across compactions. |
 | PROBLEM_ANALYSIS.md pattern | ✅ ADOPTED | Hall of Fake | Cross-model consultation doc for complex blockers |
+| EVALUATION.md pattern | ✅ ADOPTED | Hall of Fake | Document tool/library evaluation results |
 
 ---
 
@@ -97,7 +101,7 @@
 | #13 Build custom tools | 📋 PENDING | — | |
 | #18 DevSQL for prompt analysis | ❓ UNTESTED | — | Looks interesting. +43 likes. |
 | #46 Skills + Plan Mode + Ultrathink | 📋 PENDING | — | |
-| VectCutAPI MCP | 📋 PENDING | Hall of Fake | Has MCP support for direct CapCut generation |
+| VectCutAPI integration | ✅ VALIDATED | Hall of Fake | Generates valid CapCut projects! |
 
 ---
 
@@ -173,7 +177,7 @@ Techniques I want to extract into formal Claude Code skills:
 | `sqlite_archive_pattern` | Hall of Fake | ✅ DONE | Migration complete |
 | `handoff_generator` | claude-code-tips | 📋 PLANNED | Auto-generate handoff docs |
 | `engagement_delta` | claude-code-tips | ✅ DONE | Track tip growth over time |
-| `capcut_forge` | Hall of Fake | 🔄 IN_PROGRESS | Pivoting to VectCutAPI |
+| `capcut_forge` | Hall of Fake | ✅ VALIDATED | VectCutAPI foundation works, wrapper script next |
 
 ---
 
@@ -206,31 +210,47 @@ This is the same pattern as Hall of Fake and claude-code-tips. The two current p
 
 ## Weekly Check-in Log
 
-### Week of 2025-12-31 (New Year's Eve)
+### Week of 2025-12-31 (New Year's Eve) — UPDATED
+
+**Major milestone: VectCutAPI VALIDATED! 🎉**
+
+Successfully generated a 4-clip CapCut project (JAWS Technicolor chain) with 8 text overlays. After fixing several path bugs, the project opens and plays correctly in CapCut.
+
+**What worked:**
+- VectCutAPI generates valid `draft_info.json` structure
+- Video sequencing works correctly
+- Text overlays with basic styling (stroke, background) work
+- Project appears in CapCut after metadata fixes
+
+**Bugs discovered (all fixable):**
+1. Hardcoded `/Users/sunguannan/` paths
+2. Empty video `path` fields (placeholder strings)
+3. Empty `draft_materials` in `draft_meta_info.json`
+4. Missing `draft_cover.jpg`
+
+**Next steps:**
+- Build wrapper script (`capcut_forge.py`) that fixes bugs automatically
+- Handoff ready: `plans/HANDOFF_CAPCUT_FORGE_WRAPPER.md` (code word: `forge-wrapper`)
+
+**Lesson reinforced:**
+> Research-first heuristic saved this project. VectCutAPI was the answer all along.
+
+---
+
+### Earlier: Dec 31, 2025
 
 **New adoptions:**
 - ✅ Research-first heuristic for automation tasks
-- ✅ Cross-model consultation (GPT-5.2 analyzing CapCut problem)
+- ✅ Cross-model consultation (GPT analyzing CapCut problem)
 - ✅ PROBLEM_ANALYSIS.md pattern for complex blockers
 - ✅ Web search before reverse-engineering
+- ✅ Fresh session per new task (Claude Code best practice)
 
-**Key discovery:**
-VectCutAPI (https://github.com/sun-guannan/VectCutAPI) — 1.4k stars, actively maintained — can generate valid CapCut draft files via API. Has MCP support. This could be the foundation for CapCut Forge instead of our reverse-engineering approach.
-
-**CapCut Forge status:**
+**CapCut Forge journey:**
 - ❌ Direct JSON modification corrupts text template styling
 - ❌ Multiple approaches failed over 3+ days
 - ✅ Discovered VectCutAPI via web search
-- 📋 Next: Test VectCutAPI integration
-
-**Lesson learned:**
-> "For automation, tooling, and agent-related tasks, the best current solutions are likely beyond the model's training cutoff. Web search should be a default first step before attempting to reverse-engineer or build from scratch."
-
-This should be in every CLAUDE.md file.
-
-**Currently testing:**
-- VectCutAPI as CapCut Forge foundation
-- Cross-model problem analysis (Claude + GPT)
+- ✅ VectCutAPI VALIDATED
 
 ---
 
@@ -248,22 +268,6 @@ This should be in every CLAUDE.md file.
 **Key finding:**
 Obsidian tips are surging (+600-912% growth). Community converging on Obsidian as Claude Code companion. Prioritize Obsidian integration for bookmark archive.
 
-**Currently testing:**
-- Separate planning/execution workflow
-- Handoff delegation pattern
-- Engagement tracking for tip adoption decisions
-
-**Friction points:**
-- Claude.ai Projects don't share context
-- Large CapCut JSON files hard to read
-- `is_curated` flag in DB is misleading (first batch, not quality)
-
-**Next to try:**
-- Obsidian session logging (#6)
-- Obsidian as workspace (#12)
-- Context clearing with "junior dev" framing (#9)
-- CapCut Forge automation (Phase 7, blocked → pivoting to VectCutAPI)
-
 ---
 
 ## Workflow Environments
@@ -277,7 +281,9 @@ Current usage pattern:
 | Cursor Sidebar | Focused file questions | Frequent |
 | `--dangerously-skip-permissions` | Trusted autonomous tasks | When delegating |
 | Chrome Extension | Avoiding (too visual/lossy) | Rarely |
-| GPT-5.2 (cross-model) | Fresh perspective on blockers | When stuck |
+| GPT (cross-model) | Fresh perspective on blockers | When stuck |
+
+**Session management rule:** Fresh session for new explorations, continue session for iterations on the same task. Handoff docs make fresh sessions cheap.
 
 ---
 
