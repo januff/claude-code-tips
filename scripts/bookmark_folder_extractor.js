@@ -14,7 +14,7 @@
  * 7. Run: await fetchBookmarkFolder("FOLDER_ID")
  *
  * Created: 2026-01-02
- * Updated: 2026-01-02 - Fixed GraphQL endpoint ID
+ * Updated: 2026-01-02 - Fixed GraphQL endpoint ID and added Grok features
  * For: claude-code-tips project
  */
 
@@ -90,12 +90,21 @@ function setAuthManual(csrfToken, cookie) {
 function parseBookmarkedTweet(entry) {
   try {
     const tweetResult = entry.content?.itemContent?.tweet_results?.result;
-    if (!tweetResult || tweetResult.__typename !== 'Tweet') return null;
+    if (!tweetResult) return null;
+    
+    // Handle both Tweet and TweetWithVisibilityResults wrappers
+    const tweet = tweetResult.__typename === 'TweetWithVisibilityResults' 
+      ? tweetResult.tweet 
+      : tweetResult;
+    
+    if (!tweet || tweet.__typename !== 'Tweet') return null;
 
-    const tweet = tweetResult;
     const legacy = tweet.legacy;
     const core = tweet.core?.user_results?.result;
+    
+    // Author info can be in different places
     const authorLegacy = core?.legacy;
+    const screenName = authorLegacy?.screen_name || core?.legacy?.screen_name || 'unknown';
 
     if (!legacy) return null;
 
@@ -140,7 +149,7 @@ function parseBookmarkedTweet(entry) {
       // Author
       author: {
         id: core?.rest_id,
-        handle: '@' + (authorLegacy?.screen_name || 'unknown'),
+        handle: '@' + screenName,
         name: authorLegacy?.name || '',
         bio: authorLegacy?.description || '',
         followers: authorLegacy?.followers_count || 0,
@@ -175,7 +184,7 @@ function parseBookmarkedTweet(entry) {
       in_reply_to_user: legacy.in_reply_to_screen_name || null,
       
       // URLs and media
-      url: `https://x.com/${authorLegacy?.screen_name}/status/${tweet.rest_id}`,
+      url: `https://x.com/${screenName}/status/${tweet.rest_id}`,
       urls: urls.map(u => ({
         display: u.display_url,
         expanded: u.expanded_url,
@@ -209,6 +218,47 @@ function parseBookmarkedTweet(entry) {
 // Storage
 let allBookmarks = [];
 
+// Complete features object with all required Grok features (as of 2026-01-02)
+const BOOKMARK_FEATURES = {
+  rweb_video_screen_enabled: false,
+  profile_label_improvements_pcf_label_in_post_enabled: true,
+  rweb_tipjar_consumption_enabled: true,
+  responsive_web_graphql_exclude_directive_enabled: true,
+  verified_phone_label_enabled: false,
+  creator_subscriptions_tweet_preview_api_enabled: true,
+  responsive_web_graphql_timeline_navigation_enabled: true,
+  responsive_web_graphql_skip_user_profile_image_extensions_enabled: false,
+  communities_web_enable_tweet_community_results_fetch: true,
+  c9s_tweet_anatomy_moderator_badge_enabled: true,
+  articles_preview_enabled: true,
+  responsive_web_edit_tweet_api_enabled: true,
+  graphql_is_translatable_rweb_tweet_is_translatable_enabled: true,
+  view_counts_everywhere_api_enabled: true,
+  longform_notetweets_consumption_enabled: true,
+  responsive_web_twitter_article_tweet_consumption_enabled: true,
+  tweet_awards_web_tipping_enabled: false,
+  creator_subscriptions_quote_tweet_preview_enabled: false,
+  freedom_of_speech_not_reach_fetch_enabled: true,
+  standardized_nudges_misinfo: true,
+  tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled: true,
+  rweb_video_timestamps_enabled: true,
+  longform_notetweets_rich_text_read_enabled: true,
+  longform_notetweets_inline_media_enabled: true,
+  responsive_web_enhance_cards_enabled: false,
+  // Grok features (required as of 2026-01-02)
+  responsive_web_grok_community_note_auto_translation_is_enabled: false,
+  responsive_web_jetfuel_frame: false,
+  responsive_web_grok_show_grok_translated_post: false,
+  responsive_web_profile_redirect_enabled: false,
+  premium_content_api_read_enabled: false,
+  responsive_web_grok_analyze_post_followups_enabled: false,
+  responsive_web_grok_imagine_annotation_enabled: false,
+  responsive_web_grok_analyze_button_fetch_trends_enabled: false,
+  responsive_web_grok_share_attachment_enabled: false,
+  responsive_web_grok_image_annotation_enabled: false,
+  responsive_web_grok_analysis_button_from_backend: false
+};
+
 /**
  * Fetch all bookmarks from a folder
  * 
@@ -219,7 +269,7 @@ async function fetchBookmarkFolder(folderId, options = {}) {
   const maxPages = options.maxPages || 20;
   const delay = options.delay || 1500;
   const fetchReplies = options.fetchReplies || false;
-  const replyThreshold = options.replyThreshold || 10; // Only fetch replies if reply_count > this
+  const replyThreshold = options.replyThreshold || 10;
 
   if (!capturedAuth) {
     console.error('❌ No auth. Run setAuthFromCurl(`your_curl_command`) first.');
@@ -229,43 +279,13 @@ async function fetchBookmarkFolder(folderId, options = {}) {
   allBookmarks = [];
   const seenIds = new Set();
 
-  // GraphQL endpoint for bookmark folders
-  // FIXED: Correct endpoint ID from network capture (2026-01-02)
+  // GraphQL endpoint for bookmark folders (verified 2026-01-02)
   const baseUrl = 'https://x.com/i/api/graphql/KJIQpsvxrTfRIlbaRIySHQ/BookmarkFolderTimeline';
 
+  // Note: Do NOT include "count" - Twitter's API doesn't accept it for this endpoint
   const baseVariables = {
     bookmark_collection_id: folderId,
-    count: 20,
-    includePromotedContent: true  // Match what Twitter sends
-  };
-
-  // Features from working cURL capture (2026-01-02)
-  const features = {
-    rweb_video_screen_enabled: false,
-    profile_label_improvements_pcf_label_in_post_enabled: true,
-    rweb_tipjar_consumption_enabled: true,
-    responsive_web_graphql_exclude_directive_enabled: true,
-    verified_phone_label_enabled: false,
-    creator_subscriptions_tweet_preview_api_enabled: true,
-    responsive_web_graphql_timeline_navigation_enabled: true,
-    responsive_web_graphql_skip_user_profile_image_extensions_enabled: false,
-    communities_web_enable_tweet_community_results_fetch: true,
-    c9s_tweet_anatomy_moderator_badge_enabled: true,
-    articles_preview_enabled: true,
-    responsive_web_edit_tweet_api_enabled: true,
-    graphql_is_translatable_rweb_tweet_is_translatable_enabled: true,
-    view_counts_everywhere_api_enabled: true,
-    longform_notetweets_consumption_enabled: true,
-    responsive_web_twitter_article_tweet_consumption_enabled: true,
-    tweet_awards_web_tipping_enabled: false,
-    creator_subscriptions_quote_tweet_preview_enabled: false,
-    freedom_of_speech_not_reach_fetch_enabled: true,
-    standardized_nudges_misinfo: true,
-    tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled: true,
-    rweb_video_timestamps_enabled: true,
-    longform_notetweets_rich_text_read_enabled: true,
-    longform_notetweets_inline_media_enabled: true,
-    responsive_web_enhance_cards_enabled: false
+    includePromotedContent: true
   };
 
   let cursor = null;
@@ -282,7 +302,7 @@ async function fetchBookmarkFolder(folderId, options = {}) {
       variables.cursor = cursor;
     }
 
-    const url = `${baseUrl}?variables=${encodeURIComponent(JSON.stringify(variables))}&features=${encodeURIComponent(JSON.stringify(features))}`;
+    const url = `${baseUrl}?variables=${encodeURIComponent(JSON.stringify(variables))}&features=${encodeURIComponent(JSON.stringify(BOOKMARK_FEATURES))}`;
 
     console.log(`📥 Page ${pageNum}${cursor ? ' (cursor)' : ''}...`);
 
@@ -304,6 +324,11 @@ async function fetchBookmarkFolder(folderId, options = {}) {
           console.error('🔐 Auth expired. Re-capture cURL and run setAuthFromCurl() again.');
           break;
         }
+        // Log error details for debugging
+        try {
+          const errorText = await response.text();
+          console.error('Error details:', errorText);
+        } catch (e) {}
         break;
       }
 
@@ -415,33 +440,7 @@ async function fetchTweetReplies(tweetId, options = {}) {
     withVoice: true
   };
 
-  const features = {
-    rweb_tipjar_consumption_enabled: true,
-    responsive_web_graphql_exclude_directive_enabled: true,
-    verified_phone_label_enabled: false,
-    creator_subscriptions_tweet_preview_api_enabled: true,
-    responsive_web_graphql_timeline_navigation_enabled: true,
-    responsive_web_graphql_skip_user_profile_image_extensions_enabled: false,
-    communities_web_enable_tweet_community_results_fetch: true,
-    c9s_tweet_anatomy_moderator_badge_enabled: true,
-    articles_preview_enabled: true,
-    responsive_web_edit_tweet_api_enabled: true,
-    graphql_is_translatable_rweb_tweet_is_translatable_enabled: true,
-    view_counts_everywhere_api_enabled: true,
-    longform_notetweets_consumption_enabled: true,
-    responsive_web_twitter_article_tweet_consumption_enabled: true,
-    tweet_awards_web_tipping_enabled: false,
-    creator_subscriptions_quote_tweet_preview_enabled: false,
-    freedom_of_speech_not_reach_fetch_enabled: true,
-    standardized_nudges_misinfo: true,
-    tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled: true,
-    rweb_video_timestamps_enabled: true,
-    longform_notetweets_rich_text_read_enabled: true,
-    longform_notetweets_inline_media_enabled: true,
-    responsive_web_enhance_cards_enabled: false
-  };
-
-  const url = `${baseUrl}?variables=${encodeURIComponent(JSON.stringify(variables))}&features=${encodeURIComponent(JSON.stringify(features))}`;
+  const url = `${baseUrl}?variables=${encodeURIComponent(JSON.stringify(variables))}&features=${encodeURIComponent(JSON.stringify(BOOKMARK_FEATURES))}`;
 
   const response = await fetch(url, {
     method: 'GET',
@@ -697,29 +696,6 @@ async function fetchNewBookmarks(folderId, options = {}) {
   }
 
   const existingIds = window.existingBookmarkIds || new Set();
-  const originalParse = parseBookmarkedTweet;
-
-  // Track if we've hit existing content
-  let hitExisting = false;
-  const newBookmarks = [];
-
-  // Override to check for existing
-  const checkAndParse = (entry) => {
-    const parsed = originalParse(entry);
-    if (!parsed) return null;
-
-    if (existingIds.has(parsed.id)) {
-      console.log(`🛑 Hit existing bookmark: ${parsed.id}`);
-      hitExisting = true;
-      return null;
-    }
-
-    newBookmarks.push(parsed);
-    return parsed;
-  };
-
-  // Temporarily replace parser
-  // (In a real implementation, we'd modify fetchBookmarkFolder to accept a custom parser)
   
   console.log(`\n🔄 Fetching NEW bookmarks from folder ${folderId}...`);
   console.log(`   Will stop when hitting ${existingIds.size} known IDs\n`);
@@ -736,12 +712,39 @@ async function fetchNewBookmarks(folderId, options = {}) {
 }
 
 // ============================================
+// DEBUG HELPER
+// ============================================
+
+/**
+ * Debug function to inspect raw tweet structure
+ */
+function debugTweetStructure() {
+  if (!window.testData) {
+    console.error('No testData available. Run testBookmarkFetch() first.');
+    return;
+  }
+  
+  const data = window.testData;
+  const instructions = data?.data?.bookmark_collection_timeline?.timeline?.instructions || [];
+  const addEntries = instructions.find(i => i.type === 'TimelineAddEntries');
+  const entries = addEntries?.entries || [];
+  
+  const firstTweet = entries.find(e => e.entryId?.startsWith('tweet-'));
+  if (firstTweet) {
+    console.log('Raw tweet structure:');
+    console.log(JSON.stringify(firstTweet, null, 2));
+    window.debugTweet = firstTweet;
+  }
+}
+
+// ============================================
 // QUICK START GUIDE
 // ============================================
 
 console.log(`
 ╔══════════════════════════════════════════════════════════════════╗
 ║          TWITTER BOOKMARK FOLDER EXTRACTOR                       ║
+║                    Updated: 2026-01-02                           ║
 ╠══════════════════════════════════════════════════════════════════╣
 ║                                                                  ║
 ║  STEP 1: Capture authentication                                  ║
@@ -776,6 +779,9 @@ console.log(`
 ║  INCREMENTAL MODE (only new bookmarks):                          ║
 ║    loadExistingIds(["id1", "id2", ...])                          ║
 ║    await fetchNewBookmarks("FOLDER_ID")                          ║
+║                                                                  ║
+║  DEBUG (if authors show as @unknown):                            ║
+║    debugTweetStructure()  // inspect raw API response            ║
 ║                                                                  ║
 ╚══════════════════════════════════════════════════════════════════╝
 `);
