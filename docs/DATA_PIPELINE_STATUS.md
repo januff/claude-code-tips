@@ -1,17 +1,17 @@
 # Claude Code Tips - Data Pipeline Status
 
-**Updated:** 2026-01-02
+**Updated:** 2026-01-02 (v2 database)
 
 ## Current State
 
 | Metric | Count |
 |--------|-------|
-| Total tweets | 360 |
-| From bookmarks (with engagement) | 19 |
+| Total tweets | 380 |
+| From bookmarks (v2) | 20 |
 | From thread extraction | 341 |
-| Links resolved | 7 |
-| Media items | 0 (pending) |
-| Reply threads | 0 (pending) |
+| From reply extraction | 19 |
+| Links resolved | 10 |
+| Media items analyzed | 12 |
 
 ## Top Content by Engagement
 
@@ -45,40 +45,42 @@
 - [claude-code-settings](https://github.com/feiskyer/claude-code-settings) - Commands, skills, subagents
 - [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) - 75+ repos indexed
 - [claude-code-router](https://github.com/musistudio/claude-code-router) - Multi-model routing
+- [claude-code-system-prompts](https://github.com/Piebald-AI/claude-code-system-prompts) - Extracted system prompts, token counts, changelog
+
+### Documentation
+- [Agent SDK Hosting Guide](https://platform.claude.com/docs/en/agent-sdk/hosting) - Production deployment patterns
+
+### Products
+- [Supercharge Claude Code](https://superchargeclaudecode.com/) - Skills and commands tutorials
+
+## Completed Actions (2026-01-02)
+
+### Image Analysis - DONE
+12 media items analyzed with vision descriptions:
+- **Settings screenshots:** @EXM7777 (humanized content style), @DiamondEyesFox (custom statusline), @aarondfrancis (custom commands)
+- **Code screenshots:** @anshnanda, @jeffzwang (shell aliases), @aarondfrancis (30+ custom commands)
+- **Integration demos:** @DiamondEyesFox (4 Obsidian session log images)
+- **Video thumbnails:** @adocomplete (sandbox), @chongdashu (teleport)
+
+Extracted content stored in `media.vision_description`, `media.extracted_commands`, `media.is_settings_screenshot`, `media.is_code_screenshot`.
+
+### Link Analysis - DONE
+10 high-value links resolved with metadata:
+- 2 blog posts (dejavucoder, giuseppegurgone)
+- 6 GitHub repos (skills, settings, router, awesome lists, system prompts)
+- 1 official docs (Agent SDK hosting)
+- 1 product site (superchargeclaudecode.com)
 
 ## Pending Actions
 
-### 1. Bookmark Re-fetch (BLOCKED)
-Twitter API returning 400 - user's browser had cached old script with `count` parameter.
-
-**Fix:** Clear cache and use updated `scripts/bookmark_folder_extractor.js` (commit 7b25758)
-
-```javascript
-await fetchBookmarkFolder("2004623846088040770", {
-  fetchReplies: true,
-  replyThreshold: 5
-})
-```
-
-### 2. Image Analysis
-11 tweets have t.co links that are likely screenshots:
-- @EXM7777: Claude settings for humanized content
-- @anshnanda: Shortcut configuration
-- @aarondfrancis: CLAUDE.md content
-- @DiamondEyesFox: Obsidian session log setup
-- @chongdashu: Teleport command demo
-
-### 3. Link Following
-17 direct URLs need content extraction:
-- GitHub repos (code, READMEs)
-- Personal blogs (tutorials)
-- Product sites (tool documentation)
-
-### 4. Reply Thread Fetching
+### 1. Reply Thread Fetching
 High-engagement tweets need reply thread extraction:
 - @alexalbert__ (370 replies)
 - @dejavucoder (141 replies)
 - @mckaywrigley (139 replies)
+
+### 2. Additional URL Extraction
+Extract and resolve URLs found in tweet text (not just card_url field).
 
 ## Database Schema v2
 
@@ -93,7 +95,7 @@ See `scripts/schema_v2.sql` for:
 
 | File | Purpose |
 |------|----------|
-| `data/bookmark-folder-2026-01-02.json` | 19 bookmarks with engagement |
+| `data/claude_code_tips_v2.db` | SQLite database with FTS, links, media |
+| `data/bookmark-folder-2026-01-02.json` | 20 bookmarks with engagement |
 | `data/thread-replies-2025-12-29.json` | 343 thread tweets |
 | `scripts/bookmark_folder_extractor.js` | Fixed extractor (no count param) |
-| Local: `/home/claude/claude_code_tips_v2.db` | SQLite with FTS |
