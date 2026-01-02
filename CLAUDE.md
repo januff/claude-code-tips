@@ -12,7 +12,32 @@ The goal is to synthesize community wisdom into actionable configurations.
 
 ## Current Date Awareness
 
-**IMPORTANT**: Before researching, searching documentation, or looking up any information, always verify the current date. The current date context should be late December 2025. Do not default to 2024 dates or assume outdated information is current.
+**IMPORTANT**: Before researching, searching documentation, or looking up any information, always verify the current date. The current date context should be early January 2026. Do not default to 2024 dates or assume outdated information is current.
+
+---
+
+## 🔄 Claude.ai ↔ Claude Code Delegation Pattern
+
+**CRITICAL for complex tasks:** This project uses a delegation pattern between Claude.ai Projects and Claude Code CLI.
+
+| Claude.ai Project | Claude Code CLI |
+|-------------------|-----------------|
+| Planning, decisions | Execution |
+| Strategy discussion | API calls, file I/O |
+| Writing HANDOFF.md | Database operations |
+| Reviewing results | Git commits |
+
+**Why:** Avoids context window bloat from large JSON/API responses. Prevents compaction loss of conversational context in Claude.ai.
+
+**Flow:**
+1. Claude.ai writes tasks to `HANDOFF.md`
+2. User runs `claude` → "Read HANDOFF.md and execute"
+3. Claude Code commits incrementally
+4. Claude.ai reviews via GitHub MCP
+
+**MCP Best Practice:** Only enable MCPs needed for current task (e.g., Playwright adds ~8% token overhead when idle).
+
+**Key file:** `HANDOFF.md` — Check this for current tasks and completed work.
 
 ---
 
@@ -38,7 +63,8 @@ The goal is to synthesize community wisdom into actionable configurations.
 ```
 /
 ├── CLAUDE.md                    # This file
-├── PROGRESS.md                  # Personal adoption tracker (key file!)
+├── HANDOFF.md                   # Current tasks for Claude Code (key file!)
+├── PROGRESS.md                  # Personal adoption tracker
 ├── ORCHESTRATOR.md              # Cross-session planning context
 ├── tips/
 │   ├── full-thread.md          # Complete numbered tips from @alexalbert__ thread
@@ -46,29 +72,34 @@ The goal is to synthesize community wisdom into actionable configurations.
 ├── analysis/
 │   └── claude-commentary.md    # Opus 4.5 analysis and recommendations
 ├── data/
-│   └── (database and exports)
+│   ├── claude_code_tips_v2.db  # SQLite database with FTS
+│   └── (JSON exports)
+├── docs/
+│   └── DATA_PIPELINE_STATUS.md # Current pipeline state
 ├── plans/
 │   └── (handoff documents)
 └── scripts/
-    └── (utility scripts)
+    ├── bookmark_folder_extractor.js  # Twitter bookmark extraction
+    └── schema_v2.sql                 # Database schema
 ```
 
 ## Key Files
 
 | File | Purpose |
 |------|---------|
-| `PROGRESS.md` | **Read this** — Personal tracking of which tips have been adopted |
-| `ORCHESTRATOR.md` | Planning context that persists across compactions |
-| `claude_code_tips.db` | SQLite database with all tips and engagement data |
-| `LLM_BRIEFING.md` | Context briefing for LLMs working on this project |
+| `HANDOFF.md` | **Check first** — Current tasks from Claude.ai Project |
+| `PROGRESS.md` | Personal tracking of which tips have been adopted |
+| `docs/DATA_PIPELINE_STATUS.md` | Pipeline state: tweets, links, media analyzed |
+| `data/claude_code_tips_v2.db` | SQLite database with all tips, links, media |
 
 ## Your Task
 
 You are a Claude Code instance being handed off this project. Your job depends on context:
 
-1. **If continuing analysis:** Check `PROGRESS.md` for current adoption status
-2. **If running experiments:** Check `plans/` for active handoffs
-3. **If adding tips:** Use the SQLite database, not markdown files
+1. **If HANDOFF.md has tasks:** Execute them in order, commit incrementally
+2. **If continuing analysis:** Check `PROGRESS.md` for current adoption status
+3. **If running experiments:** Check `plans/` for active handoffs
+4. **If adding tips:** Use the SQLite database, not markdown files
 
 ## Key Insights from the Thread
 
@@ -83,7 +114,7 @@ You are a Claude Code instance being handed off this project. Your job depends o
 - Create detailed plans in .md files before execution
 - Use Plan Mode (Shift+Tab) for exploration
 
-### Research First (NEW - Dec 2025)
+### Research First
 - Web search before reverse-engineering
 - Check GitHub for existing solutions
 - Look for MCP servers
@@ -144,10 +175,12 @@ This repository is part of a larger ecosystem:
 | `hall-of-fake` | Sora video archive and CapCut automation | Active |
 | (future) | Cross-platform bookmark archive | Planned |
 
+Both projects share the Claude.ai ↔ Claude Code delegation pattern and are coordinated from the same Claude.ai Project.
+
 ## Verification
 
 To confirm you've read these instructions, include the phrase "context-first" somewhere in your first response.
 
 ---
 
-*This CLAUDE.md was last updated December 31, 2025 — Added research-first heuristic, updated structure*
+*This CLAUDE.md was last updated January 2, 2026 — Added delegation pattern, updated structure*
