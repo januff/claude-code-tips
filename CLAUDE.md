@@ -177,10 +177,37 @@ This repository is part of a larger ecosystem:
 
 Both projects share the Claude.ai ↔ Claude Code delegation pattern and are coordinated from the same Claude.ai Project.
 
+---
+
+## 🚀 Cold-Start Prompt Template
+
+Use this template when starting a new Claude.ai Project thread:
+
+```
+I'm continuing work on my two sibling projects: hall-of-fake (Sora video archive) and claude-code-tips (Twitter bookmark knowledge base).
+
+Project files are in Project Knowledge - start by reading CLAUDE.md and PROJECT_DECISIONS.md to understand the delegation pattern we use.
+
+For current tasks, check HANDOFF.md in whichever repo is active:
+- https://github.com/januff/claude-code-tips/blob/main/HANDOFF.md
+- https://github.com/januff/hall-of-fake/blob/main/HANDOFF.md
+
+CURRENT FOCUS: [brief description of what you're working on]
+
+LAST SESSION: [one sentence on where you left off, if relevant]
+```
+
+**Why this works:**
+- Project Knowledge has stable context (CLAUDE.md, PROJECT_DECISIONS.md)
+- HANDOFF.md in repo has current task state (fetched via GitHub MCP)
+- You provide only the thin, volatile "where we are" context
+
+---
+
 ## Verification
 
 To confirm you've read these instructions, include the phrase "context-first" somewhere in your first response.
 
 ---
 
-*This CLAUDE.md was last updated January 2, 2026 — Added delegation pattern, updated structure*
+*This CLAUDE.md was last updated January 2, 2026 — Added cold-start prompt template*
