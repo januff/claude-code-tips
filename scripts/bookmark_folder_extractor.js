@@ -14,6 +14,7 @@
  * 7. Run: await fetchBookmarkFolder("FOLDER_ID")
  *
  * Created: 2026-01-02
+ * Updated: 2026-01-02 - Fixed GraphQL endpoint ID
  * For: claude-code-tips project
  */
 
@@ -229,15 +230,19 @@ async function fetchBookmarkFolder(folderId, options = {}) {
   const seenIds = new Set();
 
   // GraphQL endpoint for bookmark folders
-  const baseUrl = 'https://x.com/i/api/graphql/uLVz2xXsKqD4VVutnznLlA/BookmarkFolderTimeline';
+  // FIXED: Correct endpoint ID from network capture (2026-01-02)
+  const baseUrl = 'https://x.com/i/api/graphql/KJIQpsvxrTfRIlbaRIySHQ/BookmarkFolderTimeline';
 
   const baseVariables = {
     bookmark_collection_id: folderId,
     count: 20,
-    includePromotedContent: false
+    includePromotedContent: true  // Match what Twitter sends
   };
 
+  // Features from working cURL capture (2026-01-02)
   const features = {
+    rweb_video_screen_enabled: false,
+    profile_label_improvements_pcf_label_in_post_enabled: true,
     rweb_tipjar_consumption_enabled: true,
     responsive_web_graphql_exclude_directive_enabled: true,
     verified_phone_label_enabled: false,
