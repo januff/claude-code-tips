@@ -14,7 +14,7 @@
  * 7. Run: await fetchBookmarkFolder("FOLDER_ID")
  *
  * Created: 2026-01-02
- * Updated: 2026-01-02 - Fixed GraphQL endpoint ID and added Grok features
+ * Updated: 2026-01-02 - Fixed author parsing path (screen_name in .core.core)
  * For: claude-code-tips project
  */
 
@@ -100,11 +100,14 @@ function parseBookmarkedTweet(entry) {
     if (!tweet || tweet.__typename !== 'Tweet') return null;
 
     const legacy = tweet.legacy;
-    const core = tweet.core?.user_results?.result;
+    const userResult = tweet.core?.user_results?.result;
     
-    // Author info can be in different places
-    const authorLegacy = core?.legacy;
-    const screenName = authorLegacy?.screen_name || core?.legacy?.screen_name || 'unknown';
+    // FIXED: screen_name is in userResult.core, not userResult.legacy
+    // Path: tweet.core.user_results.result.core.screen_name
+    const screenName = userResult?.core?.screen_name || userResult?.legacy?.screen_name || 'unknown';
+    const authorName = userResult?.core?.name || userResult?.legacy?.name || '';
+    const authorBio = userResult?.legacy?.description || '';
+    const followerCount = userResult?.legacy?.followers_count || 0;
 
     if (!legacy) return null;
 
@@ -148,12 +151,12 @@ function parseBookmarkedTweet(entry) {
       
       // Author
       author: {
-        id: core?.rest_id,
+        id: userResult?.rest_id,
         handle: '@' + screenName,
-        name: authorLegacy?.name || '',
-        bio: authorLegacy?.description || '',
-        followers: authorLegacy?.followers_count || 0,
-        verified: core?.is_blue_verified || false
+        name: authorName,
+        bio: authorBio,
+        followers: followerCount,
+        verified: userResult?.is_blue_verified || false
       },
       
       // Timestamps
@@ -197,7 +200,7 @@ function parseBookmarkedTweet(entry) {
       quoted_tweet: tweet.quoted_status_result?.result ? {
         id: tweet.quoted_status_result.result.rest_id,
         text: tweet.quoted_status_result.result.legacy?.full_text,
-        author: '@' + tweet.quoted_status_result.result.core?.user_results?.result?.legacy?.screen_name
+        author: '@' + (tweet.quoted_status_result.result.core?.user_results?.result?.core?.screen_name || 'unknown')
       } : null,
       
       // Metadata
@@ -464,7 +467,9 @@ async function fetchTweetReplies(tweetId, options = {}) {
     // Look for tweet results
     if (obj.__typename === 'Tweet' && obj.rest_id && !seenIds.has(obj.rest_id)) {
       const legacy = obj.legacy;
-      const core = obj.core?.user_results?.result?.legacy;
+      // FIXED: screen_name path for replies
+      const userCore = obj.core?.user_results?.result?.core;
+      const userLegacy = obj.core?.user_results?.result?.legacy;
       
       // Only include if it's a reply to our thread
       if (legacy?.conversation_id_str === tweetId || legacy?.in_reply_to_status_id_str) {
@@ -482,8 +487,8 @@ async function fetchTweetReplies(tweetId, options = {}) {
           replies.push({
             id: obj.rest_id,
             text: obj.note_tweet?.note_tweet_results?.result?.text || legacy.full_text,
-            author_handle: '@' + (core?.screen_name || 'unknown'),
-            author_name: core?.name || '',
+            author_handle: '@' + (userCore?.screen_name || userLegacy?.screen_name || 'unknown'),
+            author_name: userCore?.name || userLegacy?.name || '',
             created_at: legacy.created_at,
             metrics: {
               likes: legacy.favorite_count || 0,
@@ -720,7 +725,7 @@ async function fetchNewBookmarks(folderId, options = {}) {
  */
 function debugTweetStructure() {
   if (!window.testData) {
-    console.error('No testData available. Run testBookmarkFetch() first.');
+    console.error('No testData available. Run a fetch first.');
     return;
   }
   
@@ -731,8 +736,12 @@ function debugTweetStructure() {
   
   const firstTweet = entries.find(e => e.entryId?.startsWith('tweet-'));
   if (firstTweet) {
-    console.log('Raw tweet structure:');
-    console.log(JSON.stringify(firstTweet, null, 2));
+    const result = firstTweet.content?.itemContent?.tweet_results?.result;
+    console.log('Result type:', result?.__typename);
+    console.log('Core path:', result?.core);
+    console.log('User results:', result?.core?.user_results?.result);
+    console.log('User core (screen_name here):', result?.core?.user_results?.result?.core);
+    console.log('User legacy:', result?.core?.user_results?.result?.legacy);
     window.debugTweet = firstTweet;
   }
 }
