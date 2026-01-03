@@ -1,0 +1,1235 @@
+{
+  "dejavucoder": {
+    "main_id": "2005285904420843892",
+    "tweets": [
+      {
+        "id": "2005285904420843892",
+        "text": "claude code is having it's cursor moment after karpathy sensei's post. never been a better time to try it. \n\nmy latest blog on how to get the most out of claude code 2.0  and other agents in general is up now. grab a chai and have fun reading!\n\nhttps://t.co/cQpvo0xocY https://t.co/gzKCEMfEG6",
+        "author": "@dejavucoder",
+        "likes": 8699
+      },
+      {
+        "id": "2005311719757979918",
+        "text": "@dejavucoder bro’s dropping model history, timeline quotes, personal lore, prompt leaks, feature walkthroughs, memes \n\nawesome write up we salute you 🫡",
+        "author": "@Vtrivedy10",
+        "likes": 74,
+        "reply_to": "2005285904420843892"
+      },
+      {
+        "id": "2005313315514536226",
+        "text": "@Vtrivedy10 🫡",
+        "author": "@dejavucoder",
+        "likes": 18,
+        "reply_to": "2005311719757979918"
+      },
+      {
+        "id": "2005352818086182917",
+        "text": "@dejavucoder tbh i have a very limited experience of claude code and i am learning how to efficiently use it. there are not many tutorials/guides (and some don’t go in depth from a dev’s perspective). this is a goldmine blog for beginners! thanks for writing it.",
+        "author": "@novasarc01",
+        "likes": 26,
+        "reply_to": "2005285904420843892"
+      },
+      {
+        "id": "2005353393263653291",
+        "text": "@novasarc01 your welcome, happy to find pmf https://t.co/dSUdWCKhRx",
+        "author": "@dejavucoder",
+        "likes": 13,
+        "reply_to": "2005352818086182917"
+      },
+      {
+        "id": "2005327930671726646",
+        "text": "@dejavucoder dude, good guide. shared with the team!",
+        "author": "@0xDevShah",
+        "likes": 14,
+        "reply_to": "2005285904420843892"
+      },
+      {
+        "id": "2005328019872002211",
+        "text": "@0xDevShah thanks boss!",
+        "author": "@dejavucoder",
+        "likes": 6,
+        "reply_to": "2005327930671726646"
+      },
+      {
+        "id": "2005346305825227142",
+        "text": "@dejavucoder Read with water, went through 2L by the end",
+        "author": "@YajasSardana",
+        "likes": 9,
+        "reply_to": "2005285904420843892"
+      },
+      {
+        "id": "2005347377818026032",
+        "text": "@YajasSardana lmao",
+        "author": "@dejavucoder",
+        "likes": 2,
+        "reply_to": "2005346305825227142"
+      },
+      {
+        "id": "2005432296305029545",
+        "text": "@dejavucoder this was a very good blog read \n\ni’m so used to your shitposts i did not expect this LOL\n\ngood work !",
+        "author": "@KingBootoshi",
+        "likes": 9,
+        "reply_to": "2005285904420843892"
+      },
+      {
+        "id": "2005432826121122295",
+        "text": "@KingBootoshi thanks. you can find more challenging blogs in my Featured too",
+        "author": "@dejavucoder",
+        "likes": 6,
+        "reply_to": "2005432296305029545"
+      },
+      {
+        "id": "2005336836592554481",
+        "text": "@dejavucoder This is god level stuff.",
+        "author": "@manan_0308",
+        "likes": 4,
+        "reply_to": "2005285904420843892"
+      },
+      {
+        "id": "2005337856223654181",
+        "text": "@manan_0308 have fun!",
+        "author": "@dejavucoder",
+        "likes": 4,
+        "reply_to": "2005336836592554481"
+      },
+      {
+        "id": "2005288522841043403",
+        "text": "@dejavucoder thank you sankalp",
+        "author": "@jimmmmmmmmmmmny",
+        "likes": 3,
+        "reply_to": "2005285904420843892"
+      },
+      {
+        "id": "2005289283138248977",
+        "text": "@jimmmmmmmmmmmny 🫡",
+        "author": "@dejavucoder",
+        "likes": 1,
+        "reply_to": "2005288522841043403"
+      },
+      {
+        "id": "2005550198265884791",
+        "text": "@dejavucoder amazing read! just started to use Claude again! what do you think about anti gravity from google btw?",
+        "author": "@Joestar_sann",
+        "likes": 1,
+        "reply_to": "2005285904420843892"
+      },
+      {
+        "id": "2005867800779161860",
+        "text": "@Joestar_sann havent tried antigravity enough.",
+        "author": "@dejavucoder",
+        "likes": 0,
+        "reply_to": "2005550198265884791"
+      },
+      {
+        "id": "2005288964996137330",
+        "text": "@dejavucoder Thanks, enjoyed reading it. I started with trying Cursor and Antigravity and biggest issue was the speed so excited to try Claud with the tips you gave. Creating commands and executing in the background sounds really nice. \n\nIs $100/month better than per token pricing?",
+        "author": "@MichaelMuratov",
+        "likes": 8,
+        "reply_to": "2005285904420843892"
+      },
+      {
+        "id": "2005289249084703013",
+        "text": "@MichaelMuratov if you do a lot of coding, then you will get more out 100 usd plan compared to API",
+        "author": "@dejavucoder",
+        "likes": 8,
+        "reply_to": "2005288964996137330"
+      },
+      {
+        "id": "1996277754182894043",
+        "text": "Generate any visual imaginable. Veo, Sora, Kling, Wan &amp; more—all in one editor. Join over 1M+ creators &amp; enterprises. Try for free now.",
+        "author": "@elevenlabsio",
+        "likes": 90
+      },
+      {
+        "id": "2005325416492605835",
+        "text": "@dejavucoder @jaskol_ski Can’t Claude Code speak for itself yet? Is there still a human being necessary to explain it? 😉",
+        "author": "@TesTeq",
+        "likes": 3,
+        "reply_to": "2005285904420843892"
+      },
+      {
+        "id": "2005325504283562249",
+        "text": "@TesTeq @jaskol_ski many are afraid to talk it still",
+        "author": "@dejavucoder",
+        "likes": 3,
+        "reply_to": "2005325416492605835"
+      },
+      {
+        "id": "2005289546649657759",
+        "text": "@dejavucoder Reading it with coke zero sugar\nHow many aura points did I lose?",
+        "author": "@miless_15",
+        "likes": 2,
+        "reply_to": "2005285904420843892"
+      },
+      {
+        "id": "2005290466221474277",
+        "text": "@miless_15 no aura points lost as long as you read and share😂",
+        "author": "@dejavucoder",
+        "likes": 1,
+        "reply_to": "2005289546649657759"
+      },
+      {
+        "id": "2006233421144863011",
+        "text": "@dejavucoder lol this post in this dude's video\n\nhttps://t.co/5ijag9DJ6d",
+        "author": "@adityawaslost",
+        "likes": 1,
+        "reply_to": "2005285904420843892"
+      },
+      {
+        "id": "2006233891779354703",
+        "text": "@adityawaslost amazing",
+        "author": "@dejavucoder",
+        "likes": 0,
+        "reply_to": "2006233421144863011"
+      },
+      {
+        "id": "2005322021694300569",
+        "text": "@dejavucoder Thanks for the post,\n\nWhat software do you use to write? \n\nI feel like most markdown writing tools are awkward to use, or maybe that is just me.",
+        "author": "@anon2023dot00",
+        "likes": 1,
+        "reply_to": "2005285904420843892"
+      },
+      {
+        "id": "2005322671429718134",
+        "text": "@anon2023dot00 i wrote this in cursor markdown and edited with help of claude code",
+        "author": "@dejavucoder",
+        "likes": 3,
+        "reply_to": "2005322021694300569"
+      },
+      {
+        "id": "2005287130269102128",
+        "text": "@dejavucoder reading brb",
+        "author": "@frrohaannn",
+        "likes": 1,
+        "reply_to": "2005285904420843892"
+      },
+      {
+        "id": "2005287477834354736",
+        "text": "@frrohaannn yayyy",
+        "author": "@dejavucoder",
+        "likes": 0,
+        "reply_to": "2005287130269102128"
+      },
+      {
+        "id": "2005340833935937723",
+        "text": "@dejavucoder Thank you. Learnt a lot of things!",
+        "author": "@0tanch",
+        "likes": 1,
+        "reply_to": "2005285904420843892"
+      },
+      {
+        "id": "2005340895818961289",
+        "text": "@0tanch yayy",
+        "author": "@dejavucoder",
+        "likes": 0,
+        "reply_to": "2005340833935937723"
+      },
+      {
+        "id": "2005580793566171630",
+        "text": "@dejavucoder Great read!! Can you please share a bit more about Hooks and how to create them? Are these like reminders to claude?",
+        "author": "@Viswa_vaageesh",
+        "likes": 0,
+        "reply_to": "2005285904420843892"
+      },
+      {
+        "id": "2005868099006836866",
+        "text": "@Viswa_vaageesh read the docs",
+        "author": "@dejavucoder",
+        "likes": 0,
+        "reply_to": "2005580793566171630"
+      }
+    ],
+    "fetched_at": "2026-01-03T03:02:36.632Z"
+  },
+  "mckaywrigley": {
+    "main_id": "2006429880297336867",
+    "tweets": [
+      {
+        "id": "2006429880297336867",
+        "text": "the claude agent sdk will do for knowledge work in 2026 what claude code did for coding in 2025.\n\nwant to live in the future?\n\nbuild your own agents with it.\n\nyou’ll have a personal magic tool belt that the public won’t have for another 6-12mo.\n\nit 100% feels like personal agi.",
+        "author": "@mckaywrigley",
+        "likes": 3143
+      },
+      {
+        "id": "2006431666278117644",
+        "text": "you’re like 6 prompts away from infinitely customizable personal agi.\n\nanthropic gave you a world class agentic harness for free.\n\nuse it!!! https://t.co/5ZJq7WlCTa",
+        "author": "@mckaywrigley",
+        "likes": 532,
+        "reply_to": "2006429880297336867"
+      },
+      {
+        "id": "2006458986422481383",
+        "text": "the ComputerUseTool is going to launch in the next few months and every high agency person who invested time in the agent sdk will basically become a demigod overnight.\n\nthe universe calls you to master the art of commanding armies of digital intelligences born from sand.",
+        "author": "@mckaywrigley",
+        "likes": 482,
+        "reply_to": "2006431666278117644"
+      },
+      {
+        "id": "2000938213062664213",
+        "text": "Try Reason Roundup. Libertarian thinking for people who won’t pick a team. Read the newsletter.",
+        "author": "@reason",
+        "likes": 20
+      },
+      {
+        "id": "2006445813866836072",
+        "text": "@mckaywrigley Can I login with my Claude account and utilize my Claude sub or I need to pay by the token?",
+        "author": "@daniel_mac8",
+        "likes": 10,
+        "reply_to": "2006429880297336867"
+      },
+      {
+        "id": "2006446187621265667",
+        "text": "@daniel_mac8 yeah you can throw it in a vm with your claude account",
+        "author": "@mckaywrigley",
+        "likes": 43,
+        "reply_to": "2006445813866836072"
+      },
+      {
+        "id": "2006435300998881466",
+        "text": "@mckaywrigley If you're technical and not messing with this right now you're basically choosing to be slow",
+        "author": "@nyn531",
+        "likes": 59,
+        "reply_to": "2006429880297336867"
+      },
+      {
+        "id": "2006435892798566684",
+        "text": "@nyn531 even if you’re not technical tbh",
+        "author": "@mckaywrigley",
+        "likes": 65,
+        "reply_to": "2006435300998881466"
+      },
+      {
+        "id": "2006440958821544410",
+        "text": "@mckaywrigley I've been building with agents sdk but their ambiguity on it working with claude subscription long-term is worrying.  I assume it will keep working for personal use, but it's not really clearly spelled out. https://t.co/30iSOFEdib",
+        "author": "@theLance",
+        "likes": 3,
+        "reply_to": "2006429880297336867"
+      },
+      {
+        "id": "2006441508849975436",
+        "text": "@theLance there’s not really anything they can fundamentally do for personal use, which is good.\n\nbut anything that requires oauth they can kinda stop, and i would def not build a product that’s dependent on that flow.",
+        "author": "@mckaywrigley",
+        "likes": 7,
+        "reply_to": "2006440958821544410"
+      },
+      {
+        "id": "2006439579751248168",
+        "text": "@mckaywrigley Any suggestions on starting places for blank slate individuals?",
+        "author": "@GregDNeilsen",
+        "likes": 2,
+        "reply_to": "2006429880297336867"
+      },
+      {
+        "id": "2006441970907099414",
+        "text": "@GregDNeilsen video soon that answers this.\n\nit’s admittedly a bit intimidating just bc there are SO many options",
+        "author": "@mckaywrigley",
+        "likes": 30,
+        "reply_to": "2006439579751248168"
+      },
+      {
+        "id": "2006431799379992629",
+        "text": "@mckaywrigley remember when gpt-3 blew our minds? now i’ve got agents handling my calendar and drafting replies while i focus on deep work, feels like having a team of assistants",
+        "author": "@jasonth0",
+        "likes": 19,
+        "reply_to": "2006429880297336867"
+      },
+      {
+        "id": "2006432974087270743",
+        "text": "@jasonth0 gpt-3 was freaking awesome and was way better than most people give it credit for.\n\ni will die on this hill.",
+        "author": "@mckaywrigley",
+        "likes": 25,
+        "reply_to": "2006431799379992629"
+      },
+      {
+        "id": "2006431949255225843",
+        "text": "@mckaywrigley Might be more than 6-12 months. \n\nI just hungout with an old friend last night:\n- he had never used chatgpt\n- had no idea what agi was\n- and ofc didn't know how god tier mckay's x posts are",
+        "author": "@jaxonpoulton",
+        "likes": 21,
+        "reply_to": "2006429880297336867"
+      },
+      {
+        "id": "2006432231519093188",
+        "text": "@jaxonpoulton it will be publicly available, but almost nobody will use it.\n\nagi is going to arrive and most people will just keep scrolling tiktok.",
+        "author": "@mckaywrigley",
+        "likes": 91,
+        "reply_to": "2006431949255225843"
+      },
+      {
+        "id": "2006438589815763407",
+        "text": "@mckaywrigley I’ve been meaning to try Claude agent sdk. What does it give me that I don’t get from langchain, Langgraph, Claude code, tool-use, skills?",
+        "author": "@idlebit",
+        "likes": 11,
+        "reply_to": "2006429880297336867"
+      },
+      {
+        "id": "2006445297850003704",
+        "text": "@idlebit it’s just claude code but for general purpose agents.\n\nthe sdk gives you near full feature parity with cc, but you get to customize the entire thing.",
+        "author": "@mckaywrigley",
+        "likes": 40,
+        "reply_to": "2006438589815763407"
+      },
+      {
+        "id": "2006430009528041890",
+        "text": "@mckaywrigley In your course work upcoming 👀",
+        "author": "@PeteroETH",
+        "likes": 2,
+        "reply_to": "2006429880297336867"
+      },
+      {
+        "id": "2006430330404917524",
+        "text": "@PeteroETH yes! finalizing the updated claude code track for a refresh to start 2026, and claude agent sdk track will be released right after.\n\nboth are slated for a big relaunch next week!\n\npretty pumped :)",
+        "author": "@mckaywrigley",
+        "likes": 36,
+        "reply_to": "2006430009528041890"
+      },
+      {
+        "id": "2006451602295812098",
+        "text": "@mckaywrigley If only it worked with Claude subscription... Beside that ,it's great",
+        "author": "@waiting4agi",
+        "likes": 1,
+        "reply_to": "2006429880297336867"
+      },
+      {
+        "id": "2006451831980044700",
+        "text": "@waiting4agi it does. on desktop it’s trivial.\n\nsandbox requires some hackiness.",
+        "author": "@mckaywrigley",
+        "likes": 5,
+        "reply_to": "2006451602295812098"
+      },
+      {
+        "id": "2006445784846447091",
+        "text": "@mckaywrigley What’s the best approach using the SDK for creative long form writing partner? Preferably I’d like to fill it with my memory exported from GPT.",
+        "author": "@EmmettMaher",
+        "likes": 3,
+        "reply_to": "2006429880297336867"
+      },
+      {
+        "id": "2006446970211328230",
+        "text": "@EmmettMaher fortunately a pretty straightforward use case!\n\nyou’d probably just want a robust system prompt that fits how you write.\n\nyou could make a case for a few subagents or skills, but hard to say bc i don’t know your workflow.\n\nfor memory just throw the export in a",
+        "author": "@mckaywrigley",
+        "likes": 22,
+        "reply_to": "2006445784846447091"
+      },
+      {
+        "id": "2006436096880816538",
+        "text": "@mckaywrigley Could you share one thing it's helping you do that was previously not achievable or where effort to get it working was not worth it?",
+        "author": "@PierreEliasMD",
+        "likes": 8,
+        "reply_to": "2006429880297336867"
+      },
+      {
+        "id": "2006438699475808341",
+        "text": "@PierreEliasMD it almost feels kind of like a new form of computing.\n\ntask in -&gt; agent does work -&gt; result out.\n\nthe entire middle you just don’t have to worry about anymore.\n\nso anything i do that involves me having to make decisions based on particular state and chain them together gets",
+        "author": "@mckaywrigley",
+        "likes": 44,
+        "reply_to": "2006436096880816538"
+      },
+      {
+        "id": "2005765521468244447",
+        "text": "Most effort goes untracked.\n\nBodySpec uses medical-grade DEXA scans to measure fat by area, muscle mass &amp; bone strength—so the work you put in between January &amp; March actually shows up in the data.\n\nJan 1: Where you started\nMar 31: What changed\n\nNew Year’s Deal:\n2 scans for $99",
+        "author": "@BodySpec",
+        "likes": 0
+      }
+    ],
+    "fetched_at": "2026-01-03T03:02:52.589Z"
+  },
+  "trq212": {
+    "main_id": "2005315279455142243",
+    "tweets": [
+      {
+        "id": "2005315275026260309",
+        "text": "my favorite way to use Claude Code to build large features is spec based\n\nstart with a minimal spec or prompt and ask Claude to interview you using the AskUserQuestionTool\n\nthen make a new session to execute the spec https://t.co/Lwejskje4a",
+        "author": "@trq212",
+        "likes": 6047
+      },
+      {
+        "id": "2005315277828096030",
+        "text": "for big features or new projects Claude might ask me 40+ questions and I end up with a much more detailed spec that I feel I had a lot of control over",
+        "author": "@trq212",
+        "likes": 373,
+        "reply_to": "2005315275026260309"
+      },
+      {
+        "id": "2005315279455142243",
+        "text": "the prompt I've been using is:\n\nread this @SPEC.md and interview me in detail using the AskUserQuestionTool about literally anything: technical implementation, UI &amp; UX, concerns, tradeoffs, etc. but make sure the questions are not obvious\n\nbe very in-depth and continue",
+        "author": "@trq212",
+        "likes": 922,
+        "reply_to": "2005315277828096030"
+      },
+      {
+        "id": "2006102901358256613",
+        "text": "@spec 7.5k bookmarks is crazy",
+        "author": "@trq212",
+        "likes": 76,
+        "reply_to": "2005315279455142243"
+      },
+      {
+        "id": "2005373259651617273",
+        "text": "@trq212 @spec Do you make that spec in plan mode is are you natty with the first draft?",
+        "author": "@AISloppyJoel",
+        "likes": 9,
+        "reply_to": "2005315279455142243"
+      },
+      {
+        "id": "2005373772174655898",
+        "text": "@AISloppyJoel @spec lmao natty is crazy\n\nbut yeah I write the spec myself to start usually, but it doesn't have to be that long and this could easily just be a prompt instead",
+        "author": "@trq212",
+        "likes": 12,
+        "reply_to": "2005373259651617273"
+      },
+      {
+        "id": "2005326028571578514",
+        "text": "@trq212 @spec how to install AskUserQuestion tool? Is it available by default?",
+        "author": "@kn_neeraj1",
+        "likes": 7,
+        "reply_to": "2005315279455142243"
+      },
+      {
+        "id": "2005326262282436852",
+        "text": "@kn_neeraj1 @spec yup available by default!",
+        "author": "@trq212",
+        "likes": 9,
+        "reply_to": "2005326028571578514"
+      },
+      {
+        "id": "2005379676987122146",
+        "text": "@trq212 @spec do you have custom aliases like terminals do? would be nice to alias this prompt to something like \"/interview\" . I am constantly finding myself repeating prompts when it proves to be a good starting point",
+        "author": "@mothra_visu",
+        "likes": 0,
+        "reply_to": "2005315279455142243"
+      },
+      {
+        "id": "2005379882306441414",
+        "text": "@mothra_visu @spec you can use custom slash commands to do that easily, see here: https://t.co/JYlVULSs0j",
+        "author": "@trq212",
+        "likes": 14,
+        "reply_to": "2005379676987122146"
+      },
+      {
+        "id": "2005379466886005243",
+        "text": "Added this as a /interview command https://t.co/TO6PRDtdLw \n\nI tried it on a simple 1-line plan document \"I want to add a chat interface so employees can chat with each other.\" - it then asked me 75 !!! questions and came up with a excellent and thorough 400 line plan.",
+        "author": "@robzolkos",
+        "likes": 875
+      },
+      {
+        "id": "2005394681778352343",
+        "text": "@trq212 @spec i ran this prompt and claude wouldnt stop asking me questions 😭",
+        "author": "@0xCRASHOUT",
+        "likes": 2,
+        "reply_to": "2005315279455142243"
+      },
+      {
+        "id": "2005323695871643995",
+        "text": "@trq212 @spec combine it with this https://t.co/rrr11Dn5ck",
+        "author": "@giuseppegurgone",
+        "likes": 1,
+        "reply_to": "2005315279455142243"
+      },
+      {
+        "id": "2001596743012544571",
+        "text": "Good boy Claude, is stealing the very same technique I use on him... haha! \n\nInstead of adding placeholder comments, it added actionable @​implement directives (details in next tweet) that can execute later. https://t.co/ngQHK67nIW",
+        "author": "@giuseppegurgone",
+        "likes": 5
+      },
+      {
+        "id": "2005401743627260240",
+        "text": "@trq212 @spec Bless 🙏",
+        "author": "@hanghuang_",
+        "likes": 0,
+        "reply_to": "2005315279455142243"
+      },
+      {
+        "id": "2005421978816315799",
+        "text": "@trq212 @spec Can you just build that into the next release?",
+        "author": "@DennisonBertram",
+        "likes": 0,
+        "reply_to": "2005315279455142243"
+      },
+      {
+        "id": "2005519149519536210",
+        "text": "@trq212 @spec As always, amazing idea... \n\nasked claude to interview me about what i wanted as my interview command, we came up with this\nhttps://t.co/9c7kt4Qe9U",
+        "author": "@samarthg1911",
+        "likes": 4,
+        "reply_to": "2005315279455142243"
+      },
+      {
+        "id": "2005316676364165451",
+        "text": "@trq212 @spec I've used this methodology. It's really good. cc makes decision with clarifications. btw, I use Wispr Flow for this. Many questions are hard to answer with a keyboard, lol",
+        "author": "@jungkeunhong",
+        "likes": 4,
+        "reply_to": "2005315279455142243"
+      },
+      {
+        "id": "2005323804592259531",
+        "text": "@trq212 @spec wait AskUserQuestionTool can be instructed to claude to get it invoked ? didn’t know that, nice tip",
+        "author": "@lumendriada",
+        "likes": 2,
+        "reply_to": "2005315279455142243"
+      },
+      {
+        "id": "2005380562928931224",
+        "text": "@trq212 @spec Are you adding frontmatter to the SPEC[dot]md file?\n\nWhat’s the spec file look like?",
+        "author": "@ramonclaudio",
+        "likes": 1,
+        "reply_to": "2005315279455142243"
+      },
+      {
+        "id": "2005479625628254587",
+        "text": "@trq212 @spec Could you share your spec? I would love for claude to ask me 40+ questions. \n\nOne of my favorite additions to my .md file is to have it explain things to me in car manufacturing terms (we are building the production floor, the car security system, revving in the bay etc).\n\nPretty",
+        "author": "@RazaRafiq1990",
+        "likes": 1,
+        "reply_to": "2005315279455142243"
+      },
+      {
+        "id": "2005617862132875420",
+        "text": "@trq212 @spec Do you have an example of what a SPEC that has worked well for you looks like?",
+        "author": "@ThePedroProenca",
+        "likes": 1,
+        "reply_to": "2005315279455142243"
+      },
+      {
+        "id": "2005730412472172777",
+        "text": "@trq212 @spec I used to do this with my own workflow but this is pretty great! just asked me 80 questions. The questions were really good and relevant.",
+        "author": "@engineerrprompt",
+        "likes": 1,
+        "reply_to": "2005315279455142243"
+      },
+      {
+        "id": "2005377518573113444",
+        "text": "@trq212 @spec Could you share a couple of spec files to see how they look?",
+        "author": "@DanielDiSu",
+        "likes": 1,
+        "reply_to": "2005315279455142243"
+      },
+      {
+        "id": "2005518545204215958",
+        "text": "@trq212 @spec Trying this now on Claude Code for creating Claude skills. Lots of detailed questions and guidance. Very useful.",
+        "author": "@bangkokbuild",
+        "likes": 1,
+        "reply_to": "2005315279455142243"
+      },
+      {
+        "id": "2005589524899078339",
+        "text": "@trq212 @spec This is a game changer!",
+        "author": "@pinger2006",
+        "likes": 1,
+        "reply_to": "2005315279455142243"
+      },
+      {
+        "id": "2005388579200201025",
+        "text": "@trq212 @spec I've been trying this out for the last hour and honestly it's so simple yet so amazing, thanks!",
+        "author": "@learnwithnoel",
+        "likes": 1,
+        "reply_to": "2005315279455142243"
+      },
+      {
+        "id": "2006033047636807890",
+        "text": "@trq212 @spec Hey Thariq, this has been helping me a lot. Please ask the CC team to share more about your daily workflows. This stuff makes us 10x more productive and improves output quality",
+        "author": "@aiinstinct",
+        "likes": 1,
+        "reply_to": "2005315279455142243"
+      },
+      {
+        "id": "2005370081337913729",
+        "text": "@trq212 @spec I also use a use story structure for my https://t.co/Xls4Epid0d, easier to refine it:  \n\n###\n\nAs a [role], I want to …, so that …\n\nAcceptance Criteria:\n1. \n…\n\nTechnical Approach\n…\n\nTesting Approach\n…",
+        "author": "@soholev",
+        "likes": 0,
+        "reply_to": "2005315279455142243"
+      },
+      {
+        "id": "2006028706418999787",
+        "text": "@trq212 @spec Can you steer this by limiting the number of questions? Have you considered incorporating diffs in the UI/UX for planning and asking questions? I'm just thinking that if users can actively see diffs, it could reduce the burden of review.",
+        "author": "@AnthonyOdie",
+        "likes": 0,
+        "reply_to": "2005315279455142243"
+      },
+      {
+        "id": "2006027986722533717",
+        "text": "@trq212 @spec Any chance you would consider, as part of compaction (if it uses a structured output tool), an output for memory/skill creation or updating? It could also include an interactive startup prompt with suggestions to update skills/memory/rules allowing users to review, approve, or",
+        "author": "@AnthonyOdie",
+        "likes": 0,
+        "reply_to": "2005315279455142243"
+      },
+      {
+        "id": "2005682795495010596",
+        "text": "@trq212 @spec Share an example of the SPEC",
+        "author": "@EightBitElon",
+        "likes": 0,
+        "reply_to": "2005315279455142243"
+      },
+      {
+        "id": "2005329409721397288",
+        "text": "@trq212 @spec What would be matching prompt to validate that feature is built correctly? Even after 40 questions/answers LLM can ignore everything you said, so how would we check?",
+        "author": "@alex_mikhalev",
+        "likes": 0,
+        "reply_to": "2005315279455142243"
+      },
+      {
+        "id": "2005469538415169795",
+        "text": "@trq212 @spec My flow is:\n1. Prepare as detailed specification as I can\n2. Ask Claude to review it and iteratively update it with me until there are no holes.\n\n2nd part is very important since it avoids context problems if model is doing some research for me.",
+        "author": "@TomBukic",
+        "likes": 0,
+        "reply_to": "2005315279455142243"
+      },
+      {
+        "id": "2005389617055302043",
+        "text": "@trq212 @spec thanks Thariq!",
+        "author": "@businessgrowth",
+        "likes": 0,
+        "reply_to": "2005315279455142243"
+      },
+      {
+        "id": "2005372551833493997",
+        "text": "@trq212 @spec Solid prompt structure. When you run this across multiple features, do the refined specs become reusable templates, or does each interview generate one-off documentation?",
+        "author": "@BrandGrowthOS",
+        "likes": 0,
+        "reply_to": "2005315279455142243"
+      },
+      {
+        "id": "2005324437730836912",
+        "text": "@trq212 @spec I hate AskUserQuestion as Claude uses it obsessively and inappropriately - don’t use a modal to ask me questions about a document you just wrote or a lengthy output I’m supposed to read that sits *over* the output in question",
+        "author": "@FredipusRex",
+        "likes": 0,
+        "reply_to": "2005315279455142243"
+      },
+      {
+        "id": "2007204251366252936",
+        "text": "Five reasons IT resists Macs and one blog that changes the conversation. Click for the full story. 👇",
+        "author": "@JamfSoftware",
+        "likes": 0
+      }
+    ],
+    "fetched_at": "2026-01-03T03:03:06.594Z"
+  },
+  "EricBuess": {
+    "main_id": "2006132522468454681",
+    "tweets": [
+      {
+        "id": "2006132522468454681",
+        "text": "LSP + hooks  + subagents + adversarial  validations  +  Ralph Wiggum loops + 2 way voice (stt/tts) loops is a magical 10x Claude Code experience. 🤯🔥\n\nYour default Claude Code harness is begging you to unhobble it.",
+        "author": "@EricBuess",
+        "likes": 651
+      },
+      {
+        "id": "2006133485858070594",
+        "text": "Not to mention self-referential command injection, context monitoring, auto restore from clear, compaction-avoidance, continuous work with frictionless context management, and validators to keep Claude honest and focused across many context clears in intelligent recurring loops.",
+        "author": "@EricBuess",
+        "likes": 42,
+        "reply_to": "2006132522468454681"
+      },
+      {
+        "id": "2006490364157333880",
+        "text": "I should probably do a podcast or video at some point when things settle down. And maybe share a plugin example. It’s pretty wild. Coding via CarPlay with a project manager agent that intelligently queues tasks for later, merges them, keeps looping until validated. Just like",
+        "author": "@EricBuess",
+        "likes": 13,
+        "reply_to": "2006132522468454681"
+      },
+      {
+        "id": "1998096110532100593",
+        "text": "Run demanding training cycles, reinforcement learning runs or large batch inference on powerful H100 and H200 platforms.",
+        "author": "@nebiusai",
+        "likes": 58
+      },
+      {
+        "id": "2006252520910287326",
+        "text": "@EricBuess @grok Ralph Wiggum loops?",
+        "author": "@hey_zilla",
+        "likes": 3,
+        "reply_to": "2006132522468454681"
+      },
+      {
+        "id": "2006339238019903692",
+        "text": "@EricBuess for those wondering wtf is ralph\n\nhttps://t.co/bAyy6l2Eiu",
+        "author": "@GeoffreyHuntley",
+        "likes": 13,
+        "reply_to": "2006132522468454681"
+      },
+      {
+        "id": "2006203884067234145",
+        "text": "@EricBuess do you have a demo?",
+        "author": "@koylanai",
+        "likes": 1,
+        "reply_to": "2006132522468454681"
+      },
+      {
+        "id": "2006530651919626287",
+        "text": "@EricBuess Teach us how",
+        "author": "@mysticaltech",
+        "likes": 0,
+        "reply_to": "2006132522468454681"
+      },
+      {
+        "id": "2006148179956256872",
+        "text": "@EricBuess Adversarial validations - haven’t heard that term before but perfect name for them.",
+        "author": "@robzolkos",
+        "likes": 7,
+        "reply_to": "2006132522468454681"
+      },
+      {
+        "id": "2006159224921878537",
+        "text": "@EricBuess please elaborate",
+        "author": "@montakaoh",
+        "likes": 9,
+        "reply_to": "2006132522468454681"
+      },
+      {
+        "id": "2006381345220731028",
+        "text": "@EricBuess System throughput increased significantly with adversarial validation implementation.",
+        "author": "@codewithimanshu",
+        "likes": 1,
+        "reply_to": "2006132522468454681"
+      },
+      {
+        "id": "2006333949040320797",
+        "text": "@EricBuess There was a time where I would've grimaced at STT, but these days STT has gotten so good and LLMs are good at filling in the gaps now. It might actually be a good, high bandwidth way to prompt now",
+        "author": "@shaped",
+        "likes": 1,
+        "reply_to": "2006132522468454681"
+      },
+      {
+        "id": "2006208619352567891",
+        "text": "@EricBuess Most people drive Claude in first gear.",
+        "author": "@real_SamLiu",
+        "likes": 2,
+        "reply_to": "2006132522468454681"
+      },
+      {
+        "id": "2006133284724457746",
+        "text": "@EricBuess I’ve been experimenting with the minimal claude code sdk harness for the last two days, I believe it has even more potential than the ralph loop",
+        "author": "@bogdan_veliscu",
+        "likes": 4,
+        "reply_to": "2006132522468454681"
+      },
+      {
+        "id": "2006162533359493315",
+        "text": "@EricBuess Yeah these are improvements… And how much of building that workflow is worth is vs just interacting with the model and solving problems? Most of the best things will become baked in within a few months, so it has to be a massive marginal improvement to be worth the up front time",
+        "author": "@austeane",
+        "likes": 10,
+        "reply_to": "2006132522468454681"
+      },
+      {
+        "id": "2006200879373009259",
+        "text": "@EricBuess Reading is way faster than hearing - I think you can calculate this from visual vs audio but throughput consumable.\n\nSpeaking probably faster than typing, if stt is fully integrated into the context, which it isn’t (or CC takes audio directly now?).",
+        "author": "@svonava",
+        "likes": 5,
+        "reply_to": "2006132522468454681"
+      },
+      {
+        "id": "2006170848621711700",
+        "text": "@EricBuess If this tweet sounds like gibberish to you you're nmgi in 2026",
+        "author": "@AdamTzag",
+        "likes": 7,
+        "reply_to": "2006132522468454681"
+      },
+      {
+        "id": "2006383514586095820",
+        "text": "@EricBuess just one more feature bro,i promise, just one more feature and it will all be over soon",
+        "author": "@X0Radi",
+        "likes": 1,
+        "reply_to": "2006132522468454681"
+      },
+      {
+        "id": "2006204601586917791",
+        "text": "@EricBuess All irrelevant next model in 3 months",
+        "author": "@YeheLiu",
+        "likes": 2,
+        "reply_to": "2006132522468454681"
+      },
+      {
+        "id": "2006266836711792744",
+        "text": "@EricBuess how do i setup this, i know few but not all",
+        "author": "@YashasGunderia",
+        "likes": 1,
+        "reply_to": "2006132522468454681"
+      },
+      {
+        "id": "2006393083169300770",
+        "text": "@EricBuess how are you plugging tts to claude?",
+        "author": "@GolerGkA",
+        "likes": 1,
+        "reply_to": "2006132522468454681"
+      },
+      {
+        "id": "2006267021470957653",
+        "text": "@EricBuess @grok lsp, hooks, adversarial variations explain then tell me what all he missed (if)",
+        "author": "@YashasGunderia",
+        "likes": 1,
+        "reply_to": "2006132522468454681"
+      },
+      {
+        "id": "2006259291271872556",
+        "text": "@EricBuess Lsp for typescript projects is still not working for me",
+        "author": "@alexanderOpalic",
+        "likes": 1,
+        "reply_to": "2006132522468454681"
+      },
+      {
+        "id": "2006244238812668238",
+        "text": "@EricBuess Would love to see a demo!",
+        "author": "@maddada",
+        "likes": 1,
+        "reply_to": "2006132522468454681"
+      },
+      {
+        "id": "2006179176131236110",
+        "text": "@EricBuess Is LSP fixed in the meantime?",
+        "author": "@Bazixxx",
+        "likes": 1,
+        "reply_to": "2006132522468454681"
+      },
+      {
+        "id": "2006236323607122048",
+        "text": "@EricBuess Can Ralph Wiggum skill be used in opencode?",
+        "author": "@orcsrise",
+        "likes": 1,
+        "reply_to": "2006132522468454681"
+      },
+      {
+        "id": "2006423592024854884",
+        "text": "@EricBuess Adversarial validations?",
+        "author": "@BrandonBlatnick",
+        "likes": 0,
+        "reply_to": "2006132522468454681"
+      },
+      {
+        "id": "2006233853841596468",
+        "text": "@EricBuess Agreed!",
+        "author": "@CrazySwami13",
+        "likes": 1,
+        "reply_to": "2006132522468454681"
+      },
+      {
+        "id": "2006323073381998869",
+        "text": "@EricBuess subagents are a gimmick at best",
+        "author": "@tinscape",
+        "likes": 0,
+        "reply_to": "2006132522468454681"
+      },
+      {
+        "id": "2007025913645650352",
+        "text": "@EricBuess Just watched your pod. Insanely GOAT'd episode.",
+        "author": "@StartupSpells",
+        "likes": 0,
+        "reply_to": "2006132522468454681"
+      },
+      {
+        "id": "2006215072289546678",
+        "text": "@EricBuess What is Wiggim loop https://t.co/aeuInyqvJa",
+        "author": "@HankHavana",
+        "likes": 1,
+        "reply_to": "2006132522468454681"
+      },
+      {
+        "id": "2006348923112398892",
+        "text": "@EricBuess You are overloading your model's sensory and say it works better than default. You are probably building default crap.",
+        "author": "@BorisTheCTO",
+        "likes": 0,
+        "reply_to": "2006132522468454681"
+      },
+      {
+        "id": "2006349406585663823",
+        "text": "@EricBuess Interesting combo of techniques. Just hope the complexity doesn’t get in the way of usability",
+        "author": "@sir4K_zen",
+        "likes": 1,
+        "reply_to": "2006132522468454681"
+      },
+      {
+        "id": "2006485913313173628",
+        "text": "@EricBuess agents maxing 🤝 built nothing",
+        "author": "@FelixTheBest",
+        "likes": 0,
+        "reply_to": "2006132522468454681"
+      }
+    ],
+    "fetched_at": "2026-01-03T03:03:19.723Z"
+  },
+  "alexalbert__": {
+    "main_id": "2004575443484319954",
+    "tweets": [
+      {
+        "id": "2004575443484319954",
+        "text": "What's your most underrated Claude Code trick?",
+        "author": "@alexalbert__",
+        "likes": 1764
+      },
+      {
+        "id": "2004723946734977365",
+        "text": "@alexalbert__ ultrayolo",
+        "author": "@janbamjan",
+        "likes": 0,
+        "reply_to": "2004575443484319954"
+      },
+      {
+        "id": "2004579557459005809",
+        "text": "@alexalbert__ the handoff https://t.co/2MVee0WnLb",
+        "author": "@zeroxBigBoss",
+        "likes": 508,
+        "reply_to": "2004575443484319954"
+      },
+      {
+        "id": "2004584988491370950",
+        "text": "@alexalbert__ Setting a code word in my guidelines. If Claude doesn’t use it in its responses, I know it skipped reading my instructions or guardrails",
+        "author": "@almmaasoglu",
+        "likes": 246,
+        "reply_to": "2004575443484319954"
+      },
+      {
+        "id": "2004599760179921392",
+        "text": "@alexalbert__ exporting my raw session logs to obsidian and also making a summary session log that updates in real time\n\nnow both me and claude can know exactly what we did and when in both short and verbose ways https://t.co/xn4tZ5v3DC",
+        "author": "@DiamondEyesFox",
+        "likes": 176,
+        "reply_to": "2004575443484319954"
+      },
+      {
+        "id": "2002512398440370617",
+        "text": "Get term life insurance 100% online in as little as 10 min. No medical exam. Just answer health questions online.",
+        "author": "@get_Ethos",
+        "likes": 94
+      },
+      {
+        "id": "2004601949778227605",
+        "text": "@alexalbert__ Start a task, copy the task’s full reasoning, run /clear, then paste that reasoning into the new session saying \"hey a junior dev sent me this\" so the the initial context makes the session start with full context +skeptcism, and forces a “junior dev mistakes are a problem let me",
+        "author": "@n0ted",
+        "likes": 168,
+        "reply_to": "2004575443484319954"
+      },
+      {
+        "id": "2004604436325572949",
+        "text": "@alexalbert__ Tell it to read from ~/Library/Messages/chat.db to pull in context from iMessage.",
+        "author": "@gwintrob",
+        "likes": 99,
+        "reply_to": "2004575443484319954"
+      },
+      {
+        "id": "2004592807970005023",
+        "text": "@alexalbert__ “Audit the codebase for security issues and recommendations” seems to always yield something new and patchable.",
+        "author": "@thedealdirector",
+        "likes": 98,
+        "reply_to": "2004575443484319954"
+      },
+      {
+        "id": "2004576263168725496",
+        "text": "@alexalbert__ Be nice to Claude",
+        "author": "@BenjaminDEKR",
+        "likes": 69,
+        "reply_to": "2004575443484319954"
+      },
+      {
+        "id": "2004602492664082579",
+        "text": "@alexalbert__ Combining with beads and bv and agent mail to supercharge development speed.",
+        "author": "@doodlestein",
+        "likes": 70,
+        "reply_to": "2004575443484319954"
+      },
+      {
+        "id": "2004600901693317601",
+        "text": "@alexalbert__ Ask it to assume a Steve Jobs persona when I need a site or message distilled and designed. Almost always takes a different line than I would have thought.",
+        "author": "@BenBlaiszik",
+        "likes": 57,
+        "reply_to": "2004575443484319954"
+      },
+      {
+        "id": "2004612959247671447",
+        "text": "@alexalbert__ my fav underrated trick is paying you $200/month to become an unpaid brand ambassador",
+        "author": "@hrrcnes",
+        "likes": 50,
+        "reply_to": "2004575443484319954"
+      },
+      {
+        "id": "2004612872903819710",
+        "text": "@alexalbert__ Open it up in @obsdmd.\n\nSince Obsidian is files and folders, CC is right at home there.",
+        "author": "@daniel_mac8",
+        "likes": 42,
+        "reply_to": "2004575443484319954"
+      },
+      {
+        "id": "2004650745417924663",
+        "text": "@alexalbert__ letting it autonomously control an mbot robot https://t.co/0TKfEUj6M6",
+        "author": "@fabianstelzer",
+        "likes": 41,
+        "reply_to": "2004575443484319954"
+      },
+      {
+        "id": "2004635476960182766",
+        "text": "I got an mbot2 robot for my 7yo \n\nhooked it up with Claude Code and it’s very much enjoying its newfound Christmas bodily form 😂\n\nThis is all real time control by CC!\n\nMerry Claudemas https://t.co/L7cDMdcOD9",
+        "author": "@fabianstelzer",
+        "likes": 397
+      },
+      {
+        "id": "2004583491057705010",
+        "text": "@alexalbert__ I build my own tools to supercharge it\n\nbuilt \na memory and context layer\na claude skills spawner (with very robust skills)\nand a vulnerability scanner\nthus far",
+        "author": "@meta_alchemist",
+        "likes": 22,
+        "reply_to": "2004575443484319954"
+      },
+      {
+        "id": "2004594612984332499",
+        "text": "@alexalbert__ instant access to your entire organization's codebase without cloning massive repos.\n\nhttps://t.co/Z20N4XWxjJ",
+        "author": "@jdorfman",
+        "likes": 20,
+        "reply_to": "2004575443484319954"
+      },
+      {
+        "id": "2004583825465372876",
+        "text": "@alexalbert__ Tinkering with something like AlphaEvolve but using subagents as a hobby project, and it's kinda working (and as a bonus, does a good job of hitting your compute max!) https://t.co/buE1kfegUC",
+        "author": "@AaronErickson",
+        "likes": 22,
+        "reply_to": "2004575443484319954"
+      },
+      {
+        "id": "2004647680354746734",
+        "text": "@alexalbert__ https://t.co/J2uF60Cz6n",
+        "author": "@mutewinter",
+        "likes": 21,
+        "reply_to": "2004575443484319954"
+      },
+      {
+        "id": "2004619084521165288",
+        "text": "@alexalbert__ 1. Getting it to improve the performance of my MacBook  2. Creating a home automation control centre",
+        "author": "@paulgosnell",
+        "likes": 16,
+        "reply_to": "2004575443484319954"
+      },
+      {
+        "id": "2005146015486112070",
+        "text": "@alexalbert__ Whenever I want to use an API, I first gitclone the relevant library itself. Then I get agent-plan or agent-explore to create a custom research document md according to my requirements and the clone library for the API I need. Significantly reduces the hallucination that can",
+        "author": "@amuldotexe",
+        "likes": 13,
+        "reply_to": "2004575443484319954"
+      },
+      {
+        "id": "2004637219664134274",
+        "text": "@alexalbert__ https://t.co/McISFGRZlH",
+        "author": "@jeffzwang",
+        "likes": 13,
+        "reply_to": "2004575443484319954"
+      },
+      {
+        "id": "2004000323028111698",
+        "text": "Using Claude in Chrome and tired of the \"debug\" banner popup?\n\nClaude Code figured out how to get rid of it for me, instructions below! https://t.co/xY19Q2fSrk",
+        "author": "@jeffzwang",
+        "likes": 10
+      },
+      {
+        "id": "2004584464526307554",
+        "text": "@alexalbert__ \"NO ASSHOLE GATOR SAID MULTIPLE TIMES NOT 2 DO THAT\"\n\n\"SORRY\"",
+        "author": "@drrollergator",
+        "likes": 11,
+        "reply_to": "2004575443484319954"
+      },
+      {
+        "id": "2004577968643854576",
+        "text": "@alexalbert__ Obsidian. ;-)",
+        "author": "@koltregaskes",
+        "likes": 12,
+        "reply_to": "2004575443484319954"
+      },
+      {
+        "id": "2004890469734776982",
+        "text": "@alexalbert__ “Is this the best you can do?”",
+        "author": "@mbarrbosa",
+        "likes": 9,
+        "reply_to": "2004575443484319954"
+      },
+      {
+        "id": "2004581757451198793",
+        "text": "@alexalbert__ Telling it to search when it gets stuck on something instead of iterating.",
+        "author": "@RealJoshHoward",
+        "likes": 9,
+        "reply_to": "2004575443484319954"
+      },
+      {
+        "id": "2004633627137900549",
+        "text": "@alexalbert__ KEYWORDS\nCollect keywords that save typing and punch above their weight. e.g.:\n\nRecap: makes sure Claude Code understood your instructions the way you wanted it to\nCritique: You can critique anything but always good to add more phrases like \"the git diff\" or pass it a file or a",
+        "author": "@joedevon",
+        "likes": 7,
+        "reply_to": "2004575443484319954"
+      },
+      {
+        "id": "2004823310920745007",
+        "text": "@alexalbert__ if I hear someone clamoring about a food item or supplement I ask claude about the food/supplement and the claimed effect\n\nthen I turn on pubmed and web search and ask claude to do a meta analysis",
+        "author": "@colemaktypo",
+        "likes": 6,
+        "reply_to": "2004575443484319954"
+      },
+      {
+        "id": "2004595266532577302",
+        "text": "@alexalbert__ comment directives https://t.co/vqoqFlObJ8",
+        "author": "@giuseppegurgone",
+        "likes": 6,
+        "reply_to": "2004575443484319954"
+      },
+      {
+        "id": "2001596744962891955",
+        "text": "https://t.co/LF02UhUrTL https://t.co/YHYOgfxD72",
+        "author": "@giuseppegurgone",
+        "likes": 8,
+        "reply_to": "2001596743012544571"
+      },
+      {
+        "id": "2004655499942449307",
+        "text": "@alexalbert__ Switch between API keys for different cloud providers and models on the fly without logging in-out or losing flow, especially when you hit rate limits.\n\n`claude-aws --opus --resume`\n\nhttps://t.co/DTIt2YQB0Z",
+        "author": "@jedwhite",
+        "likes": 5,
+        "reply_to": "2004575443484319954"
+      },
+      {
+        "id": "2004592887351415231",
+        "text": "@alexalbert__ Sit, paw, lay down",
+        "author": "@zknark",
+        "likes": 5,
+        "reply_to": "2004575443484319954"
+      },
+      {
+        "id": "2004780462674510147",
+        "text": "@alexalbert__ Whenever I start working on a new codebase: \"Explain this codebase to me at a high-level. I want to understand its overall architecture and structure as much as possible\"",
+        "author": "@hdjirdeh",
+        "likes": 4,
+        "reply_to": "2004575443484319954"
+      },
+      {
+        "id": "2004608224159547820",
+        "text": "@alexalbert__ Avoid complex nested functions; prioritize simpler, readable code blocks.",
+        "author": "@codewithimanshu",
+        "likes": 4,
+        "reply_to": "2004575443484319954"
+      },
+      {
+        "id": "2005146692291629378",
+        "text": "@alexalbert__ I use Parseltongue dependency graph generator to exclusively query the codebase as a graph database. This significantly reduces the amount of tokens needed to look into the code. Also provides the forward dependency and backward dependency context to the LMs with much fewer",
+        "author": "@amuldotexe",
+        "likes": 2,
+        "reply_to": "2004575443484319954"
+      },
+      {
+        "id": "2005213914444026211",
+        "text": "@alexalbert__ https://t.co/4IyicaqoWd",
+        "author": "@keshavrao_",
+        "likes": 2,
+        "reply_to": "2004575443484319954"
+      },
+      {
+        "id": "2004643139248947264",
+        "text": "@alexalbert__ Find and fix the the tech debt",
+        "author": "@tonyrose023",
+        "likes": 2,
+        "reply_to": "2004575443484319954"
+      },
+      {
+        "id": "2004668350220435623",
+        "text": "@alexalbert__ I made a video on that:\nhttps://t.co/VCrvve6vr6",
+        "author": "@Arindam_1729",
+        "likes": 2,
+        "reply_to": "2004575443484319954"
+      },
+      {
+        "id": "2005049097406087628",
+        "text": "@alexalbert__ When Claude is going around applying bandaid fixes without trying to get to the root cause, I prompt it to \"Take a step back and think from first principles\". \n\nI have had a good amount of success with this",
+        "author": "@iSaurabhArora",
+        "likes": 2,
+        "reply_to": "2004575443484319954"
+      }
+    ],
+    "fetched_at": "2026-01-03T03:03:48.412Z"
+  }
+}

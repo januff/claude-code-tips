@@ -1,6 +1,6 @@
 # Claude Code Tips - Data Pipeline Status
 
-**Updated:** 2026-01-02 (v2 database)
+**Updated:** 2026-01-02 (v2 database + reply threads)
 
 ## Current State
 
@@ -10,6 +10,7 @@
 | From bookmarks (v2) | 20 |
 | From thread extraction | 341 |
 | From reply extraction | 19 |
+| **Reply threads fetched** | **5 threads, 159 replies** |
 | Links resolved | 10 |
 | Media items analyzed | 12 |
 
@@ -71,15 +72,26 @@ Extracted content stored in `media.vision_description`, `media.extracted_command
 - 1 official docs (Agent SDK hosting)
 - 1 product site (superchargeclaudecode.com)
 
+## Completed Actions (2026-01-02 - Reply Threads)
+
+### Reply Thread Fetching - DONE
+Fetched top/featured replies from 5 high-engagement threads using TweetDetail API via Chrome auth wrapper:
+
+| Thread | Author | API Results | Topic |
+|--------|--------|-------------|-------|
+| 2004575443484319954 | @alexalbert__ | 41 tweets (37 replies) | "Underrated tricks" |
+| 2005285904420843892 | @dejavucoder | 34 tweets (32 replies) | Claude Code 2.0 blog |
+| 2006429880297336867 | @mckaywrigley | 27 tweets (24 replies) | Agent SDK prediction |
+| 2005315279455142243 | @trq212 | 38 tweets (34 replies) | SPEC interview prompt |
+| 2006132522468454681 | @EricBuess | 34 tweets (32 replies) | LSP + hooks setup |
+
+**Total:** 174 tweets, 159 replies
+**File:** `data/thread_replies_2026-01-02.json`
+**Note:** TweetDetail API returns top/featured replies only (not all replies).
+
 ## Pending Actions
 
-### 1. Reply Thread Fetching
-High-engagement tweets need reply thread extraction:
-- @alexalbert__ (370 replies)
-- @dejavucoder (141 replies)
-- @mckaywrigley (139 replies)
-
-### 2. Additional URL Extraction
+### 1. Additional URL Extraction
 Extract and resolve URLs found in tweet text (not just card_url field).
 
 ## Database Schema v2
@@ -98,4 +110,5 @@ See `scripts/schema_v2.sql` for:
 | `data/claude_code_tips_v2.db` | SQLite database with FTS, links, media |
 | `data/bookmark-folder-2026-01-02.json` | 20 bookmarks with engagement |
 | `data/thread-replies-2025-12-29.json` | 343 thread tweets |
+| `data/thread_replies_2026-01-02.json` | 174 tweets from 5 high-engagement threads |
 | `scripts/bookmark_folder_extractor.js` | Fixed extractor (no count param) |
