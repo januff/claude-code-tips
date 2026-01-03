@@ -1,42 +1,63 @@
-# Claude Code Handoff - January 2, 2026
+# Claude Code Tips - Claude Code Handoff
 
 ## Context
-This handoff comes from a Claude.ai Project session. We're building a knowledge base of Claude Code tips from Twitter bookmarks.
+This is a knowledge base of Claude Code tips from Twitter bookmarks, sibling project to Hall of Fake.
 
-**Current State:** Database has 380 tweets, 10 links resolved, 12 media items analyzed.
-
----
-
-## ✅ COMPLETED TASKS
-
-### Task 1: Push Database to GitHub - DONE
-Committed as `ef8694d` - data/claude_code_tips_v2.db with 380 tweets
-
-### Task 2: Link Analysis Pipeline - DONE  
-Committed as `55d9635` - 10 high-value links with metadata in `links` table
-
-### Task 3: Image/Media Analysis Pipeline - DONE
-Committed as `89f492c` - 12 media items with vision analysis in `media` table
-
-### Task 4: Update DATA_PIPELINE_STATUS.md - DONE
-Committed as `6ce0ed0` - All stats and completed actions documented
+**Current State:**
+- Database: `claude_code_tips.db` (SQLite with FTS5)
+- Tweets: 380 in database
+- Links: 10 resolved with metadata
+- Media: 12 items analyzed
 
 ---
 
-## 🔄 CURRENT TASK
+## ✅ CANONICAL WORKFLOW: Claude for Chrome Auth Wrapper
 
-### Task 5: Reply Thread Fetching
+**Proven 2026-01-02 on Hall of Fake** — Same pattern applies to Twitter extraction.
 
-**Goal:** Fetch full reply threads for high-engagement tweets using Twitter's TweetDetail API.
+### Principle
+```
+Claude for Chrome = AUTH WRAPPER ONLY
+• Navigates to authenticated page (x.com)
+• Captures Bearer token / cookies via fetch interceptor  
+• Executes API calls in page context
+• NO visual scrolling, NO DOM scraping
+```
 
-**Why:** Current reply data only has text and likes. TweetDetail gives us:
-- Full author info (handle, name, followers)
-- Timestamps
-- Engagement metrics (replies, retweets, likes, views)
-- Threading structure (conversation_id, in_reply_to)
-- Media attachments
+### Extraction Pattern
+```
+1. Load existing tweet IDs from database into Set
+2. Capture auth (navigate to bookmark folder + intercept)
+3. Paginate GraphQL API with cursor
+4. STOP at first known tweet ID
+5. Return only NEW items
+```
 
-**High-Priority Threads:**
+### To Run New Extraction
+```bash
+claude --chrome
+# Then: "Navigate to my Twitter bookmark folder, capture auth,
+# and extract new bookmarks using GraphQL API. Stop at known IDs."
+```
+
+### API Details (Twitter)
+```javascript
+// Bookmark folder endpoint
+const url = 'https://x.com/i/api/graphql/.../BookmarkFolderTimeline';
+
+// TweetDetail endpoint (for reply threads)
+const url = 'https://x.com/i/api/graphql/nBS-WpgA6ZG0CyNHD517JQ/TweetDetail';
+```
+
+See `scripts/bookmark_folder_extractor.js` for reference implementation.
+
+---
+
+## 🔄 CURRENT TASK: Reply Thread Fetching
+
+**Goal:** Fetch full reply threads for high-engagement tweets using TweetDetail API.
+
+### High-Priority Threads
 
 | Tweet ID | Author | Replies | Topic |
 |----------|--------|---------|-------|
@@ -46,88 +67,59 @@ Committed as `6ce0ed0` - All stats and completed actions documented
 | 2005315279455142243 | @trq212 | 53 | SPEC interview prompt |
 | 2006132522468454681 | @EricBuess | 37 | LSP + hooks setup |
 
-**API Approach:**
+### Steps
+1. Use Claude for Chrome to capture Twitter auth
+2. For each high-priority tweet, fetch TweetDetail
+3. Parse conversation thread entries
+4. Upsert into `tweets` table with full metadata
+5. Update DATA_PIPELINE_STATUS.md
 
-Use TweetDetail GraphQL endpoint (same pattern as bookmark extractor):
+---
 
-```javascript
-// Endpoint
-const url = 'https://x.com/i/api/graphql/nBS-WpgA6ZG0CyNHD517JQ/TweetDetail';
+## ✅ COMPLETED TASKS
 
-// Variables
-const variables = {
-  focalTweetId: "TWEET_ID_HERE",
-  includePromotedContent: false,
-  withVoice: false
-};
-
-// Features (same as bookmark extractor)
-const features = {
-  profile_label_improvements_pcf_label_in_post_enabled: false,
-  rweb_tipjar_consumption_enabled: true,
-  // ... (use same features from bookmark_folder_extractor.js)
-};
-```
-
-**Steps:**
-1. Create script `scripts/reply_thread_fetcher.js` based on bookmark extractor pattern
-2. For each high-priority tweet:
-   - Fetch TweetDetail response
-   - Parse conversation thread entries
-   - Extract reply tweets with full metadata
-3. Upsert into `tweets` table:
-   - Update existing replies with engagement data
-   - Insert new replies not yet captured
-   - Mark source as 'tweetdetail_extraction'
-4. Update DATA_PIPELINE_STATUS.md with results
-
-**Schema Notes:**
-The `tweets` table already has all needed columns. Key fields to populate:
-- `handle`, `display_name` (currently '@unknown' for many replies)
-- `posted_at` (currently empty)
-- `replies`, `reposts`, `likes`, `views`, `quotes`
-- `engagement_score` (calculated)
-
-**Rate Limiting:**
-- Add 2-3 second delays between requests
-- If 429 received, back off and retry
-- Process threads incrementally, commit after each
-
-**Output:** 
-- New script in scripts/
-- Updated database with rich reply data
-- Summary in DATA_PIPELINE_STATUS.md
+### Task 1-4: Initial Pipeline - DONE
+- Database pushed to GitHub
+- Link analysis pipeline (10 links)
+- Image/media analysis (12 items)
+- DATA_PIPELINE_STATUS.md updated
 
 ---
 
 ## Workflow Pattern
 
-This project uses a **Claude.ai ↔ Claude Code delegation pattern**:
+Both sibling projects use **Claude.ai ↔ Claude Code delegation**:
 
-| Environment | Role | Best For |
-|-------------|------|----------|
-| Claude.ai Project | Planning, decisions, coordination | Discussion, strategy, reviewing results |
-| Claude Code | Execution | API calls, file I/O, database ops, commits |
-
-**Why:** Keeps Claude.ai context clean. Large JSON, API responses, and iterative file operations stay in Claude Code. Results get committed to repo where Claude.ai can review via GitHub MCP.
+| Environment | Role |
+|-------------|------|
+| Claude.ai Project | Planning, decisions, coordination |
+| Claude Code | Execution: API calls, file I/O, database ops |
 
 **Pattern:**
 1. Claude.ai writes HANDOFF.md with clear tasks
-2. User runs Claude Code: `claude` → "Read HANDOFF.md and execute"
+2. User runs: `claude --chrome` → "Read HANDOFF.md and execute"
 3. Claude Code commits incrementally
-4. Claude.ai reviews via `github:get_file_contents`
+4. Claude.ai reviews via GitHub MCP
+
+---
+
+## Key File Locations
+
+| Type | Path |
+|------|------|
+| Database | `~/Development/claude-code-tips/data/claude_code_tips_v2.db` |
+| Extractors | `scripts/bookmark_folder_extractor.js` |
+| Analysis | `scripts/reply_thread_fetcher.js` |
 
 ---
 
 ## Notes for Claude Code
 
-- Auth: Copy cURL from browser Network tab, extract cookies/csrf token
-- The bookmark_folder_extractor.js has working auth setup - reuse that pattern
-- TweetDetail response structure differs from Bookmarks - inspect and adapt
-- Commit after each thread is processed (don't batch everything)
-- If a thread fetch fails, log it and continue to next
+- Auth: Copy pattern from `bookmark_folder_extractor.js`
+- Rate limit: 2-3 second delays between requests
+- Commit after each thread processed
+- Use same Chrome auth wrapper pattern as Hall of Fake
 
 ---
 
-*Handoff updated: 2026-01-02*
-*Previous tasks completed by Claude Code session*
+*Handoff updated: 2026-01-02 — Chrome auth wrapper is canonical workflow for both projects*
