@@ -1,0 +1,31 @@
+---
+url: "{{ resource.url }}"
+content_type: "{{ resource.content_type or 'unknown' }}"
+title: {{ resource.title | tojson if resource.title else '""' }}
+fetched_at: {{ resource.fetched_at or 'null' }}
+referenced_by:
+{% for ref in resource.referenced_by %}
+  - "{{ ref }}"
+{% endfor %}
+tags:
+  - type/resource
+  - resource/{{ resource.content_type or 'link' }}
+---
+
+# {{ resource.title or resource.url }}
+
+**URL:** [{{ resource.url }}]({{ resource.url }})
+
+{% if resource.description %}
+## Summary
+
+{{ resource.description }}
+
+{% endif %}
+## Referenced By
+
+```dataview
+LIST
+FROM [[]]
+WHERE contains(file.outlinks, this.file.link)
+```

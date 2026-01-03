@@ -1,0 +1,43 @@
+---
+tags:
+  - dashboard
+---
+
+# Tag Index
+
+```dataviewjs
+const allTags = {};
+dv.pages().forEach(p => {
+  (p.tags || []).forEach(t => {
+    allTags[t] = (allTags[t] || 0) + 1;
+  });
+});
+
+const sorted = Object.entries(allTags)
+  .filter(([tag, count]) => !tag.includes('dashboard'))
+  .sort((a, b) => b[1] - a[1]);
+
+dv.table(["Tag", "Count"], sorted.slice(0, 100));
+```
+
+## By Category
+
+```dataviewjs
+const categories = {};
+dv.pages().forEach(p => {
+  (p.tags || []).forEach(t => {
+    const parts = t.split('/');
+    if (parts.length === 2) {
+      const cat = parts[0];
+      categories[cat] = categories[cat] || {};
+      categories[cat][t] = (categories[cat][t] || 0) + 1;
+    }
+  });
+});
+
+for (let cat of Object.keys(categories).sort()) {
+  dv.header(3, cat);
+  const tags = Object.entries(categories[cat]).sort((a, b) => b[1] - a[1]);
+  dv.table(["Tag", "Count"], tags.slice(0, 20));
+}
+```

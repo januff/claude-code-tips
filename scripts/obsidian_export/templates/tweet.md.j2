@@ -1,0 +1,98 @@
+---
+id: "{{ tweet.id }}"
+source: "tips"
+created: {{ date }}
+author: "{{ tweet.handle }}"
+url: "{{ tweet.url }}"
+display_name: {{ display_name | tojson }}
+likes: {{ tweet.likes }}
+replies: {{ tweet.replies }}
+reposts: {{ tweet.reposts }}
+views: {{ tweet.views }}
+engagement_score: {{ tweet.engagement_score }}
+is_reply: {{ tweet.is_reply | lower }}
+{% if tweet.is_curated %}
+is_curated: true
+category: "{{ tweet.category }}"
+quality_rating: {{ tweet.quality_rating }}
+{% endif %}
+{% if tweet.card_url %}
+card_url: "{{ tweet.card_url }}"
+card_title: {{ tweet.card_title | tojson if tweet.card_title else '""' }}
+{% endif %}
+{% if tweet.tools_mentioned %}
+tools: {{ tweet.tools_mentioned | tojson }}
+{% endif %}
+tags:
+{% for tag in tags %}
+  - {{ tag }}
+{% endfor %}
+---
+
+> [!tweet] {{ tweet.handle }} · {{ date_display }}
+> {{ tweet.text | replace('\n', '\n> ') }}
+>
+> Likes: {{ likes_fmt }} · Replies: {{ tweet.replies }} · Reposts: {{ tweet.reposts }}
+
+{% if tweet.summary %}
+## Summary
+
+{{ tweet.summary }}
+
+{% endif %}
+{% if tweet.media %}
+## Media
+
+{% for m in tweet.media %}
+{% if m.local_path %}
+![[attachments/screenshots/{{ m.local_path | basename }}]]
+{% else %}
+![Media]({{ m.url }})
+{% endif %}
+
+{% if m.ocr_text %}
+```
+{{ m.ocr_text }}
+```
+{% endif %}
+
+{% if m.vision_description %}
+> {{ m.vision_description }}
+{% endif %}
+
+{% endfor %}
+{% endif %}
+{% if tweet.code_snippets %}
+## Code
+
+{% for snippet in tweet.code_snippets %}
+{{ snippet }}
+
+{% endfor %}
+{% endif %}
+{% if tweet.replies_list %}
+## Replies
+
+{% for reply in tweet.replies_list %}
+{% if reply.quality_level == 'high' %}
+> [!reply]+ {{ reply.reply_author_handle or 'Unknown' }} · High Quality
+{% elif reply.quality_level == 'low' %}
+> [!reply]- {{ reply.reply_author_handle or 'Unknown' }}
+{% else %}
+> [!reply] {{ reply.reply_author_handle or 'Unknown' }}
+{% endif %}
+> {{ reply.reply_text | replace('\n', '\n> ') }}
+{% if reply.reply_likes > 0 %}
+> *{{ reply.reply_likes }} likes*
+{% endif %}
+
+{% endfor %}
+{% endif %}
+{% if tweet.card_url %}
+## Linked Resources
+
+- [{{ tweet.card_title or tweet.card_url }}]({{ tweet.card_url }})
+{% if tweet.card_description %}
+  > {{ tweet.card_description }}
+{% endif %}
+{% endif %}
