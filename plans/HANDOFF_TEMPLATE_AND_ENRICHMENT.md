@@ -1,178 +1,197 @@
 # HANDOFF: Template Restructure + Keyword Enrichment
 
 **Created:** 2026-01-03
+**Updated:** 2026-01-03 (Phase 1 complete, added Gemini enrichment details)
 **Purpose:** Restructure frontmatter and add LLM-powered keyword extraction
 **Test with:** `--limit 10` sample before full run
 
 ---
 
-## Part 1: Template Restructure (No LLM)
+## Phase 1: Template Restructure ✅ COMPLETE
 
-### Move Metrics to Collapsed Callout
+- Moved metrics to collapsed `[!metrics]-` callout
+- Fixed dashboard number formatting with `toLocaleString()`
+- Cleaned frontmatter to 7 essential fields
 
-**Current frontmatter has too many fields.** Move metrics out, keep only essentials.
-
-**Keep in frontmatter:**
-```yaml
-created
-author
-display_name
-category
-tools
-tags
-url
-```
-
-**Move to collapsed callout in note body:**
-```markdown
-> [!metrics]- Engagement & Metadata
-> **Likes:** 800 · **Replies:** 16 · **Reposts:** 39 · **Views:** 72,244
-> **Engagement Score:** 2,900
-> 
-> **Source:** tips · **Quality:** 9/10
-> **Curated:** ✓ · **Reply:** ✗
-> **ID:** [2004579780998688823](https://x.com/...)
-```
-
-**Update `tweet.md.j2`** to reflect this structure.
-
-### Fix Dashboard Number Formatting
-
-**Update DataviewJS in dashboard templates** to use `toLocaleString()`:
-
-```javascript
-.map(p => [
-  p.file.link, 
-  p.likes?.toLocaleString() || "0",
-  p.views?.toLocaleString() || "0",
-  p.engagement_score?.toLocaleString() || "0"
-])
-```
+**Status:** Ready for Obsidian review
 
 ---
 
-## Part 2: LLM Keyword Enrichment
+## Phase 2: LLM Keyword Enrichment (Gemini)
 
-### Goal
+### Reference Implementation
 
-Single LLM pass per tweet generates multiple useful outputs:
-- **Primary keyword** → filename slug (`2025-12-26-teleport.md`)
-- **All keywords** → tags (with prefixes like `topic/`, `technique/`)
-- **Refined category** → validate/improve regex-based category
-- **Tools identified** → any Claude Code features mentioned
+Use the pattern from `hall-of-fake/batch_full_analysis.py`:
+- **Provider:** Google Gemini via `GOOGLE_API_KEY`
+- **Model:** `gemini-2.0-flash-001` (fast, cheap for text analysis)
+- **Features to copy:**
+  - Checkpointing every N items
+  - `--resume` flag
+  - `--limit N` for testing
+  - Rate limiting with exponential backoff
+  - Graceful shutdown on Ctrl+C
+  - Cost tracking
 
-### New Database Columns
+### New Script: `scripts/enrich_keywords.py`
 
-Add to `tips` table:
+```python
+#!/usr/bin/env python3
+"""
+Keyword enrichment for Claude Code tips using Gemini.
+
+Usage:
+    python scripts/enrich_keywords.py --limit 10    # Test on 10 tweets
+    python scripts/enrich_keywords.py               # Full run
+    python scripts/enrich_keywords.py --resume      # Resume from checkpoint
+"""
+```
+
+### Database Changes
+
+Add columns to `tips` table:
 ```sql
 ALTER TABLE tips ADD COLUMN keywords_json TEXT;      -- ["teleport", "context", "session"]
-ALTER TABLE tips ADD COLUMN primary_keyword TEXT;    -- "teleport"
+ALTER TABLE tips ADD COLUMN primary_keyword TEXT;    -- "teleport" (for filename)
 ALTER TABLE tips ADD COLUMN llm_category TEXT;       -- LLM-refined category
 ALTER TABLE tips ADD COLUMN llm_tools TEXT;          -- JSON array of tools
-ALTER TABLE tips ADD COLUMN enrichment_notes TEXT;   -- Optional: LLM observations
+ALTER TABLE tips ADD COLUMN enrichment_model TEXT;   -- "gemini-2.0-flash-001"
+ALTER TABLE tips ADD COLUMN enrichment_cost REAL;    -- Cost in USD
 ```
 
-### LLM Prompt
+### Gemini Prompt
 
 ```
-Analyze this Claude Code tip tweet and extract:
+Analyze this Claude Code tip tweet and extract keywords for categorization.
 
 Tweet: "{tweet_text}"
 Author: {handle}
-Current category: {regex_category}
+Likes: {likes}
+Current regex-based category: {category}
 
-Return JSON:
+Return JSON only (no markdown):
 {
-  "keywords": ["keyword1", "keyword2", ...],  // 3-6 descriptive keywords
-  "primary_keyword": "best_one",              // 1-2 words for filename
-  "category": "refined_category",             // One of: context-management, planning, hooks, subagents, mcp, skills, commands, automation, workflow, tooling, meta, other
-  "tools": ["tool1", "tool2"],                // Claude Code tools/features mentioned
-  "confidence": 0.9                           // How confident in analysis
+  "keywords": ["keyword1", "keyword2", "keyword3"],
+  "primary_keyword": "best_single_keyword",
+  "category": "refined_category",
+  "tools": ["tool1", "tool2"],
+  "confidence": 0.9
 }
 
-Keywords should be:
-- Specific to Claude Code concepts when applicable
-- Useful for grouping related tips
-- Good for search/discovery
+Guidelines:
+- keywords: 3-6 descriptive terms specific to Claude Code concepts
+- primary_keyword: 1-2 words, suitable for filename (e.g., "teleport", "context-window", "handoff")
+- category: One of: context-management, planning, hooks, subagents, mcp, skills, commands, automation, workflow, tooling, meta, other
+- tools: Claude Code features mentioned (e.g., "/clear", "--resume", "AskUserQuestionTool", "hooks", "LSP")
+- confidence: 0.0-1.0 how confident in this analysis
 
-Examples of good keywords: teleport, session-resume, context-window, subagent, hook, CLAUDE.md, handoff, planning-mode, sandbox
+Good primary_keyword examples: teleport, session-resume, context-window, subagent-spawn, hook-config, handoff-pattern, plan-mode, sandbox
 ```
 
-### Enrichment Script
+### Cost Estimate
 
-Create `scripts/enrich_keywords.py`:
-- Load tweets from database
-- Call LLM API (Claude or GPT) for each
-- Store results in new columns
-- Support `--limit N` for testing
-- Support `--dry-run` to preview without saving
+- **Model:** gemini-2.0-flash-001
+- **Input:** ~200 tokens/tweet (tweet text + prompt)
+- **Output:** ~100 tokens (JSON response)
+- **Pricing:** $0.10/1M input, $0.40/1M output
+- **Per tweet:** ~$0.00006
+- **380 tweets:** ~$0.02 total
 
-### Update Export to Use Keywords
+### Execution
 
-After enrichment, update `utils.py` and templates:
-- Filename: use `primary_keyword` if available, fallback to current slugify
-- Tags: merge `keywords` with existing tags (add `topic/` prefix)
-- Category: prefer `llm_category` over regex `category`
-
----
-
-## Execution Order
-
-### Phase 1: Template fixes (no LLM)
 ```bash
-# Fix template structure and dashboards
-# Then test:
-python scripts/export_tips.py --limit 10
-# Verify in Obsidian:
-# - Metrics in collapsed callout
-# - Dashboard numbers formatted
-```
+cd ~/Development/claude-code-tips
+source ~/Development/Hall\ of\ Fake/venv/bin/activate
 
-### Phase 2: Keyword enrichment (10 samples)
-```bash
-# Run enrichment on 10 highest-engagement tweets
+# Ensure GOOGLE_API_KEY is set
+export GOOGLE_API_KEY="your-key-here"
+
+# Test on 10 highest-engagement tweets
 python scripts/enrich_keywords.py --limit 10
 
-# Re-export samples
-python scripts/export_tips.py --limit 10
+# Check results
+sqlite3 data/claude_code_tips_v2.db "SELECT tweet_id, primary_keyword, keywords_json FROM tips WHERE primary_keyword IS NOT NULL LIMIT 10;"
 
-# Verify in Obsidian:
-# - Filenames use keywords
-# - Tags include extracted keywords
-# - Categories refined
+# If good, run full enrichment
+python scripts/enrich_keywords.py
+
+# Re-export with new keywords
+python scripts/export_tips.py --limit 10  # Verify filenames changed
+python scripts/export_tips.py             # Full export
 ```
 
-### Phase 3: Full enrichment (if samples look good)
-```bash
-python scripts/enrich_keywords.py           # All 380 tweets
-python scripts/export_tips.py               # Full vault
+### Export Updates
+
+After enrichment, update export to use keywords:
+
+**In `utils.py` slugify:**
+```python
+def generate_filename(tweet, date_str):
+    # Prefer primary_keyword if available
+    if tweet.primary_keyword:
+        slug = slugify(tweet.primary_keyword)
+    else:
+        slug = slugify(tweet.text[:50])
+    return f"{date_str}-{slug}.md"
+```
+
+**In `tweet.md.j2` tags:**
+```jinja
+tags:
+{% for tag in tags %}
+  - {{ tag }}
+{% endfor %}
+{% if tweet.keywords %}
+{% for kw in tweet.keywords %}
+  - topic/{{ kw }}
+{% endfor %}
+{% endif %}
 ```
 
 ---
 
 ## Test Checklist
 
-### After Phase 1:
-- [ ] Frontmatter has only: created, author, display_name, category, tools, tags, url
-- [ ] Collapsed `[!metrics]-` callout shows engagement data
-- [ ] Numbers in callout have commas
-- [ ] Dashboard tables show formatted numbers
+### After Phase 2 (10 samples):
+- [ ] `primary_keyword` populated for all 10
+- [ ] Keywords are specific and useful (not generic)
+- [ ] Filenames use keywords (e.g., `2025-12-26-teleport.md`)
+- [ ] Tags include `topic/` prefixed keywords
+- [ ] Categories refined where regex was wrong
+- [ ] Cost tracking shows reasonable amounts
 
-### After Phase 2:
-- [ ] Sample filenames are short and descriptive (e.g., `2025-12-26-teleport.md`)
-- [ ] Keywords appear in tags (e.g., `topic/teleport`, `topic/context`)
-- [ ] Categories seem accurate
-- [ ] Tools list captures Claude Code features mentioned
-
----
-
-## API Considerations
-
-- **Model:** Claude Sonnet or Haiku (fast, cheap for classification)
-- **Cost estimate:** ~$0.01-0.02 per tweet → ~$4-8 for all 380
-- **Rate limiting:** Add delays between calls
-- **Error handling:** Log failures, continue processing
+### After Full Run:
+- [ ] All 380 tweets enriched
+- [ ] Total cost < $0.10
+- [ ] Export produces clean filenames
+- [ ] Graph view shows useful topic clusters
 
 ---
 
-*Handoff created: 2026-01-03*
+## Skill Abstraction (Future)
+
+Both projects now use Gemini for enrichment:
+- **Hall of Fake:** Visual analysis of videos
+- **Claude Code Tips:** Keyword extraction from text
+
+Consider extracting shared pattern to a skill:
+```
+skills/
+└── llm-enrichment/
+    ├── SKILL.md
+    ├── gemini_client.py
+    ├── checkpoint.py
+    └── batch_processor.py
+```
+
+This would standardize:
+- Provider configuration
+- Checkpointing
+- Rate limiting
+- Cost tracking
+- Resume capability
+
+Defer until after both projects have stable enrichment pipelines.
+
+---
+
+*Handoff updated: 2026-01-03*
