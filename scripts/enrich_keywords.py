@@ -19,35 +19,44 @@ import sqlite3
 import time
 from pathlib import Path
 
+from dotenv import load_dotenv
 import google.generativeai as genai
 
+# Load environment variables from .env file
+load_dotenv(Path(__file__).parent.parent / ".env")
 
-EXTRACTION_PROMPT = """Analyze this Claude Code tip tweet and extract keywords.
 
-Tweet text:
-{text}
+EXTRACTION_PROMPT = """You are analyzing a Claude Code tip tweet to extract the MOST SPECIFIC identifier for this content.
 
-Author: {author}
-Current category: {category}
-Engagement (likes): {likes}
+Tweet: "{text}"
+Author: @{author}
+Likes: {likes}
 
-Return a JSON object with exactly these fields:
+Your goal is to find THE PRECISE TERM that uniquely identifies what this tweet is about:
+
+PRIORITY ORDER:
+1. If it mentions a SPECIFIC COMMAND or FLAG, use that exactly (e.g., "--teleport", "--sandbox", "/compact", "ccc")
+2. If it mentions a SPECIFIC TOOL by name, use that (e.g., "AskUserQuestionTool", "TaskTool", "Bash")
+3. If it's about a TECHNIQUE, use the most distinctive phrase from the tweet (e.g., "underrated-trick", "agent-swarms")
+4. Only use generic terms as last resort
+
+AVOID as primary_keyword:
+- "claude-code" (redundant - entire vault is Claude Code tips)
+- "claude-" prefix unless Claude itself is the subject
+- Generic words: "tip", "trick", "hack", "workflow" unless paired with specific modifier
+
+Return JSON only (no markdown):
 {{
-    "keywords": ["list", "of", "relevant", "keywords"],
-    "primary_keyword": "single-most-important-keyword",
-    "category": "refined-category-if-different",
-    "tools": ["list", "of", "tools-or-commands-mentioned"],
-    "confidence": 0.95
+  "primary_keyword": "most-specific-identifier",
+  "keywords": ["other", "relevant", "specific", "terms"],
+  "command_or_flag": "--actual-flag-if-mentioned or null",
+  "tool_name": "ActualToolName if mentioned or null",
+  "category": "one of: context-management, planning, hooks, subagents, mcp, skills, commands, automation, workflow, tooling, meta, prompting, security",
+  "confidence": 0.0-1.0
 }}
 
-Guidelines:
-- keywords: 3-6 keywords that describe the tip (lowercase, hyphenated)
-- primary_keyword: The single best keyword for a filename (short, descriptive)
-- category: Refine from these options: context-management, planning, documentation, skills, prompting, integration, subagents, code-quality, obsidian, voice, configuration, mcp, debugging, workflow
-- tools: Any CLI commands, flags, or tools mentioned (e.g., "--teleport", "CLAUDE.md", "/compact")
-- confidence: Your confidence score 0-1
-
-Return ONLY valid JSON, no markdown or explanation."""
+The primary_keyword should be what the user would type to FIND this later, or the actual command they'd USE.
+Specificity beats description. Shorter is better if equally specific."""
 
 
 def extract_keywords(model, tweet: dict) -> dict | None:
@@ -55,7 +64,6 @@ def extract_keywords(model, tweet: dict) -> dict | None:
     prompt = EXTRACTION_PROMPT.format(
         text=tweet['text'],
         author=tweet['handle'],
-        category=tweet.get('category') or 'uncategorized',
         likes=tweet.get('likes') or 0
     )
 
@@ -98,6 +106,11 @@ def main():
         action="store_true",
         help="Show what would be processed without making API calls"
     )
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Re-process tweets even if already enriched"
+    )
 
     args = parser.parse_args()
 
@@ -121,14 +134,22 @@ def main():
     conn.row_factory = sqlite3.Row
     cursor = conn.cursor()
 
-    # Find tweets without keyword enrichment
-    query = """
-        SELECT t.id, tw.text, tw.handle, t.category, tw.likes
-        FROM tips t
-        JOIN tweets tw ON t.tweet_id = tw.id
-        WHERE t.primary_keyword IS NULL
-        ORDER BY tw.likes DESC
-    """
+    # Find tweets to enrich
+    if args.force:
+        query = """
+            SELECT t.id, tw.text, tw.handle, t.category, tw.likes
+            FROM tips t
+            JOIN tweets tw ON t.tweet_id = tw.id
+            ORDER BY tw.likes DESC
+        """
+    else:
+        query = """
+            SELECT t.id, tw.text, tw.handle, t.category, tw.likes
+            FROM tips t
+            JOIN tweets tw ON t.tweet_id = tw.id
+            WHERE t.primary_keyword IS NULL
+            ORDER BY tw.likes DESC
+        """
     if args.limit:
         query += f" LIMIT {args.limit}"
 
@@ -152,22 +173,35 @@ def main():
         result = extract_keywords(model, tweet_dict)
 
         if result:
+            # Handle null values from LLM
+            cmd_or_flag = result.get('command_or_flag')
+            if cmd_or_flag and cmd_or_flag.lower() in ('null', 'none', ''):
+                cmd_or_flag = None
+            tool_name = result.get('tool_name')
+            if tool_name and tool_name.lower() in ('null', 'none', ''):
+                tool_name = None
+
             cursor.execute("""
                 UPDATE tips SET
                     keywords_json = ?,
                     primary_keyword = ?,
                     llm_category = ?,
-                    llm_tools = ?
+                    llm_tools = ?,
+                    command_or_flag = ?,
+                    tool_name = ?
                 WHERE id = ?
             """, (
                 json.dumps(result.get('keywords', [])),
                 result.get('primary_keyword'),
                 result.get('category'),
-                json.dumps(result.get('tools', [])),
+                json.dumps(result.get('keywords', [])),  # reuse keywords for llm_tools
+                cmd_or_flag,
+                tool_name,
                 tweet['id']
             ))
             conn.commit()
-            print(f"  -> {result.get('primary_keyword')} ({result.get('category')})")
+            extra = f" [{cmd_or_flag}]" if cmd_or_flag else ""
+            print(f"  -> {result.get('primary_keyword')} ({result.get('category')}){extra}")
             processed += 1
         else:
             failed += 1
