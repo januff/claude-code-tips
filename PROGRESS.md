@@ -3,7 +3,7 @@
 > Personal adoption tracker for techniques from the 343-tweet tips thread.
 > Updated as patterns are tested and integrated into workflows.
 
-**Last Updated:** December 31, 2025 (evening)  
+**Last Updated:** January 4, 2026
 **Active Projects:** Hall of Fake, claude-code-tips
 
 ---
@@ -127,7 +127,7 @@
 | #65 Worktrees | ❓ UNTESTED | — | |
 | #63 .context method | ❓ UNTESTED | — | |
 | #102 Run Claude Code in Docker | ⏭️ SKIPPED | — | Not needed for current workflow |
-| Playwright MCP | ✅ ADOPTED | claude-code-tips | Used for thread extraction |
+| Playwriter MCP | ✅ ADOPTED | claude-code-tips | Chrome extension approach, replaced Playwright MCP |
 
 ---
 
@@ -209,6 +209,30 @@ This is the same pattern as Hall of Fake and claude-code-tips. The two current p
 ---
 
 ## Weekly Check-in Log
+
+### Week of 2026-01-04
+
+**Accomplishments:**
+- ✅ Playwriter MCP workflow established (replaces Playwright approach)
+- ✅ 17 threads scraped (435 replies total)
+- ✅ Author reply classification implemented
+  - Thread continuations (self-replies) stay in main card
+  - Author responses to comments show nested under the comment
+  - Green `[!tip]+` callouts with ↩️ for visual distinction
+- ✅ Full vault export (380 tweets)
+- ✅ `note_tweet` path fix for truncated long tweets
+- ✅ Repo cleanup: 14 handoffs archived, `assets/` folder created
+
+**New tools adopted:**
+- ✅ Playwriter MCP (Chrome extension approach)
+- 📋 PENDING: DiamondEyesFox llm-obsidian-scripts (conversation export)
+
+**Schema additions:**
+- `is_thread_continuation` — author replying to self
+- `is_author_response` — author replying to community comment
+- `response_to_reply_id` — links response to parent comment
+
+---
 
 ### Week of 2025-12-31 (New Year's Eve) — UPDATED
 

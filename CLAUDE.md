@@ -58,6 +58,48 @@ The goal is to synthesize community wisdom into actionable configurations.
 
 ---
 
+## 🌐 Browser Automation
+
+**Playwriter MCP** (remorses/playwriter) — NOT Playwright MCP
+
+For browser automation tasks requiring logged-in sessions:
+
+```json
+"mcpServers": {
+  "playwriter": {
+    "command": "npx",
+    "args": ["playwriter"]
+  }
+}
+```
+
+**Key advantages:**
+- Chrome extension approach: click icon on tab to grant control
+- Uses existing logged-in session (no separate auth needed)
+- ~90% less context window than Playwright MCP
+- Full Playwright API via single `execute` tool
+- Network interception for API capture (TweetDetail, etc.)
+
+**Workflow:**
+1. Install Playwriter Chrome extension
+2. Navigate to target page in Chrome
+3. Click extension icon (turns green when connected)
+4. Claude Code controls via `mcp__playwriter__execute`
+
+**Common pattern for Twitter thread scraping:**
+```javascript
+// Set up network interception
+page.on('response', async res => {
+  if (res.url().includes('TweetDetail')) {
+    state.responses.push({ body: await res.json() });
+  }
+});
+// Navigate with 'load' (not 'networkidle')
+await page.goto(url, { waitUntil: 'load', timeout: 20000 });
+```
+
+---
+
 ## Project Structure
 
 ```
@@ -66,6 +108,7 @@ The goal is to synthesize community wisdom into actionable configurations.
 ├── HANDOFF.md                   # Current tasks for Claude Code (key file!)
 ├── PROGRESS.md                  # Personal adoption tracker
 ├── ORCHESTRATOR.md              # Cross-session planning context
+├── assets/                      # Images (tweet-image.png, xmas73.png)
 ├── tips/
 │   ├── full-thread.md          # Complete numbered tips from @alexalbert__ thread
 │   └── grouped-tips.md         # Thematically organized version
@@ -73,14 +116,19 @@ The goal is to synthesize community wisdom into actionable configurations.
 │   └── claude-commentary.md    # Opus 4.5 analysis and recommendations
 ├── data/
 │   ├── claude_code_tips_v2.db  # SQLite database with FTS
+│   ├── threads/                # Scraped thread JSON files
 │   └── (JSON exports)
 ├── docs/
 │   └── DATA_PIPELINE_STATUS.md # Current pipeline state
 ├── plans/
-│   └── (handoff documents)
+│   ├── archive/                # Completed handoffs
+│   └── (active handoff documents)
+├── vault/                       # Obsidian-ready markdown export
+│   └── attachments/            # Media files (screenshots, videos)
 └── scripts/
-    ├── bookmark_folder_extractor.js  # Twitter bookmark extraction
-    └── schema_v2.sql                 # Database schema
+    ├── import_thread_replies.py     # Thread reply importer with classification
+    ├── obsidian_export/             # Export library
+    └── twitter_thread_extractor.js  # Thread JSON extraction
 ```
 
 ## Key Files
@@ -91,6 +139,8 @@ The goal is to synthesize community wisdom into actionable configurations.
 | `PROGRESS.md` | Personal tracking of which tips have been adopted |
 | `docs/DATA_PIPELINE_STATUS.md` | Pipeline state: tweets, links, media analyzed |
 | `data/claude_code_tips_v2.db` | SQLite database with all tips, links, media |
+| `vault/` | Obsidian-ready markdown export (380 tweets) |
+| `data/threads/` | Scraped thread JSON files (17 threads, 435 replies) |
 
 ## Your Task
 
@@ -210,4 +260,4 @@ To confirm you've read these instructions, include the phrase "context-first" so
 
 ---
 
-*This CLAUDE.md was last updated January 2, 2026 — Added cold-start prompt template*
+*This CLAUDE.md was last updated January 4, 2026 — Added Playwriter MCP, updated project structure*
