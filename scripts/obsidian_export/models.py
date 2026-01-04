@@ -47,6 +47,12 @@ class Tweet:
     commands_mentioned: list[str] = field(default_factory=list)
     code_snippets: list[str] = field(default_factory=list)
 
+    # LLM enrichment data
+    primary_keyword: Optional[str] = None
+    keywords: list[str] = field(default_factory=list)
+    llm_category: Optional[str] = None
+    llm_tools: list[str] = field(default_factory=list)
+
     # Related data
     media: list['Media'] = field(default_factory=list)
     replies_list: list['Reply'] = field(default_factory=list)

@@ -44,6 +44,7 @@ class VaultExporter(ABC):
         # Add custom filters
         self.env.filters['basename'] = lambda p: Path(p).name if p else ''
         self.env.filters['tojson'] = lambda v: self._to_json(v)
+        self.env.filters['format_number'] = format_number
 
     def _to_json(self, value) -> str:
         """Convert value to JSON-safe string for YAML."""
@@ -142,7 +143,11 @@ class TipsExporter(VaultExporter):
                 ti.is_curated,
                 ti.tools_mentioned,
                 ti.commands_mentioned,
-                ti.code_snippets
+                ti.code_snippets,
+                ti.primary_keyword,
+                ti.keywords_json,
+                ti.llm_category,
+                ti.llm_tools
             FROM tweets t
             LEFT JOIN tips ti ON t.id = ti.tweet_id
             ORDER BY t.likes DESC
@@ -184,6 +189,10 @@ class TipsExporter(VaultExporter):
                 tools_mentioned=parse_json_field(row['tools_mentioned']),
                 commands_mentioned=parse_json_field(row['commands_mentioned']),
                 code_snippets=parse_json_field(row['code_snippets']),
+                primary_keyword=row['primary_keyword'],
+                keywords=parse_json_field(row['keywords_json']),
+                llm_category=row['llm_category'],
+                llm_tools=parse_json_field(row['llm_tools']),
             )
 
             # Load media
@@ -241,7 +250,8 @@ class TipsExporter(VaultExporter):
             filename = generate_filename(
                 tweet.posted_at,
                 tweet.text[:100],
-                tweet.id
+                tweet.id,
+                primary_keyword=tweet.primary_keyword
             )
 
             content = template.render(

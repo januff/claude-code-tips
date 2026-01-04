@@ -103,31 +103,38 @@ def format_datetime_display(date_str: Optional[str]) -> str:
 
 
 def format_number(n: Optional[int]) -> str:
-    """Format number with K/M suffixes for display."""
+    """Format number with comma separators for display."""
     if n is None:
         return "0"
-
-    if n >= 1_000_000:
-        return f"{n / 1_000_000:.1f}M"
-    elif n >= 1_000:
-        return f"{n / 1_000:.1f}K"
-    else:
-        return str(n)
+    return f"{n:,}"
 
 
-def generate_filename(date_str: str, text: str, id_fallback: str) -> str:
+def generate_filename(
+    date_str: str,
+    text: str,
+    id_fallback: str,
+    primary_keyword: Optional[str] = None
+) -> str:
     """
     Generate note filename: {date}-{slug}.md
 
+    Uses primary_keyword if available, otherwise falls back to text slug.
     Falls back to {date}-{id}.md if slug is invalid.
     """
     date = format_date(date_str, fallback="unknown")
-    slug = slugify(text)
 
+    # Prefer primary_keyword from LLM enrichment
+    if primary_keyword:
+        slug = slugify(primary_keyword)
+        if slug and len(slug) >= 3:
+            return f"{date}-{slug}.md"
+
+    # Fall back to text-based slug
+    slug = slugify(text)
     if slug and len(slug) >= 3:
         return f"{date}-{slug}.md"
-    else:
-        return f"{date}-{id_fallback}.md"
+
+    return f"{date}-{id_fallback}.md"
 
 
 def escape_yaml(value: str) -> str:
