@@ -52,6 +52,9 @@ class Tweet:
     keywords: list[str] = field(default_factory=list)
     llm_category: Optional[str] = None
     llm_tools: list[str] = field(default_factory=list)
+    # Enrichment v3 holistic summaries
+    holistic_summary: Optional[str] = None
+    one_liner: Optional[str] = None
 
     # Related data
     media: list['Media'] = field(default_factory=list)
@@ -111,6 +114,14 @@ class Media:
     is_settings_screenshot: bool = False
     is_code_screenshot: bool = False
     extracted_commands: Optional[str] = None
+    # Enrichment v2 fields
+    workflow_summary: Optional[str] = None
+    commands_shown: list[str] = field(default_factory=list)
+    key_action: Optional[str] = None
+    # Enrichment v3 fields
+    focus_text: Optional[str] = None
+    full_ocr: Optional[str] = None
+    ui_context: Optional[str] = None
 
 
 @dataclass
@@ -126,6 +137,9 @@ class Reply:
     reply_likes: int = 0
     reply_depth: int = 1
     is_author_reply: bool = False
+    is_thread_continuation: bool = False
+    is_author_response: bool = False
+    response_to_reply_id: Optional[str] = None
     is_educational: bool = False
     quality_score: Optional[int] = None
     has_media: bool = False

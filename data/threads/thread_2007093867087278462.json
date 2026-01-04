@@ -1,0 +1,326 @@
+[
+  {
+    "id": "2007093867087278462",
+    "text": "One thing Im surprised about claude even 4.5 opus is that it still needs to be told to use the venv of the project",
+    "author_handle": "@Teknium",
+    "author_name": "Teknium (e/λ)",
+    "created_at": "Fri Jan 02 14:17:22 +0000 2026",
+    "is_reply_to": null,
+    "likes": 282
+  },
+  {
+    "id": "2007110904383779305",
+    "text": "@Teknium If you use UV it not make mistakes",
+    "author_handle": "@AIFlow_ML",
+    "author_name": "Igor Lessio - Robots/acc - AIFlow Labs",
+    "created_at": "Fri Jan 02 15:25:04 +0000 2026",
+    "is_reply_to": "2007093867087278462",
+    "likes": 10
+  },
+  {
+    "id": "2007117896104005887",
+    "text": "@AIFlow_ML The cluster isn’t allowed to id have to do a stupid way off installing it for just my user which is more complex, i install uv through pip in my venv",
+    "author_handle": "@Teknium",
+    "author_name": "Teknium (e/λ)",
+    "created_at": "Fri Jan 02 15:52:51 +0000 2026",
+    "is_reply_to": "2007110904383779305",
+    "likes": 0
+  },
+  {
+    "id": "2007104863172472945",
+    "text": "@Teknium Does it ignore system prompt reminders?",
+    "author_handle": "@gilnotmountain",
+    "author_name": "Gil",
+    "created_at": "Fri Jan 02 15:01:04 +0000 2026",
+    "is_reply_to": "2007093867087278462",
+    "likes": 1
+  },
+  {
+    "id": "2007117562635813366",
+    "text": "@gilnotmountain I don’t have any but it will ignore that a venv exists and try to break my cluster installing things system wide instead",
+    "author_handle": "@Teknium",
+    "author_name": "Teknium (e/λ)",
+    "created_at": "Fri Jan 02 15:51:32 +0000 2026",
+    "is_reply_to": "2007104863172472945",
+    "likes": 7
+  },
+  {
+    "id": "2007109439363666164",
+    "text": "@Teknium yes, opus has a sandbox model energy. understands and prefers docker to run code, at least on antigravity (donno if they have custom system instructions). I've also noticed opus using pydantic, typescripts and all types of structural abstractions and is great at organizing files",
+    "author_handle": "@0xDevShah",
+    "author_name": "Dev Shah",
+    "created_at": "Fri Jan 02 15:19:15 +0000 2026",
+    "is_reply_to": "2007093867087278462",
+    "likes": 6
+  },
+  {
+    "id": "2007471957508342180",
+    "text": "@Teknium It's this, and using uv by just spamming `uv pip install`.",
+    "author_handle": "@llm_wizard",
+    "author_name": "Chris 🇨🇦",
+    "created_at": "Sat Jan 03 15:19:46 +0000 2026",
+    "is_reply_to": "2007093867087278462",
+    "likes": 1
+  },
+  {
+    "id": "2007110898843033893",
+    "text": "@Teknium I'm fucking sick of telling agents to use uv too",
+    "author_handle": "@mrkmcknz",
+    "author_name": "mark",
+    "created_at": "Fri Jan 02 15:25:03 +0000 2026",
+    "is_reply_to": "2007093867087278462",
+    "likes": 6
+  },
+  {
+    "id": "2007104336359497759",
+    "text": "@Teknium lol try codex, \nit forgets to use uv venv after sometime \neven when you explicitly tell it",
+    "author_handle": "@shxf0072",
+    "author_name": "Joey (e/λ)",
+    "created_at": "Fri Jan 02 14:58:58 +0000 2026",
+    "is_reply_to": "2007093867087278462",
+    "likes": 9
+  },
+  {
+    "id": "2007105737898536970",
+    "text": "@Teknium It will also never, ever figure this out by itself",
+    "author_handle": "@peteromallet",
+    "author_name": "POM",
+    "created_at": "Fri Jan 02 15:04:32 +0000 2026",
+    "is_reply_to": "2007093867087278462",
+    "likes": 2
+  },
+  {
+    "id": "2007257120262299902",
+    "text": "@Teknium Yes I think 3.7 ish finally used UV once without me telling it which was exciting, but yea I see it still slipping up all the time",
+    "author_handle": "@LeeLeepenkman",
+    "author_name": "Lee Penkman",
+    "created_at": "Sat Jan 03 01:06:05 +0000 2026",
+    "is_reply_to": "2007093867087278462",
+    "likes": 1
+  },
+  {
+    "id": "2007274128508960983",
+    "text": "@Teknium Something’s never change 😭",
+    "author_handle": "@AllanatrixQ",
+    "author_name": "Allanatrix",
+    "created_at": "Sat Jan 03 02:13:40 +0000 2026",
+    "is_reply_to": "2007093867087278462",
+    "likes": 1
+  },
+  {
+    "id": "2007142068221817118",
+    "text": "@Teknium Like constantly.  Stop trying to break the system install plx",
+    "author_handle": "@essobi",
+    "author_name": "Kyle 'esSOBi' Stone",
+    "created_at": "Fri Jan 02 17:28:54 +0000 2026",
+    "is_reply_to": "2007093867087278462",
+    "likes": 3
+  },
+  {
+    "id": "2007324174386377026",
+    "text": "@Teknium this enrages me",
+    "author_handle": "@max_paperclips",
+    "author_name": "Shannon Sands",
+    "created_at": "Sat Jan 03 05:32:32 +0000 2026",
+    "is_reply_to": "2007093867087278462",
+    "likes": 5
+  },
+  {
+    "id": "2007154648663175331",
+    "text": "you can solve this with hooks\n\nPreToolUse on Bash → detect pip install or uv → check venv exists → use updatedInput to rewrite command to ./venv/bin/pip install\n\nexecutes correctly and can't be bypassed or forgotten \n\nsolved a problem i had in the upcoming v3 of continuous claude",
+    "author_handle": "@parcadei",
+    "author_name": "dei",
+    "created_at": "Fri Jan 02 18:18:54 +0000 2026",
+    "is_reply_to": "2007093867087278462",
+    "likes": 10
+  },
+  {
+    "id": "2007126390890750299",
+    "text": "Opus produced a logic trap yesterday that required a user to already have created a bundle before it would show the \"Create Bundle\" button. It had to over-write  correct code to do it. It did it again on 2 other pages at the same time. My concern is that the next version will be more powerful but still generate the same sort of errors.",
+    "author_handle": "@Guygies",
+    "author_name": "The Guy",
+    "created_at": "Fri Jan 02 16:26:36 +0000 2026",
+    "is_reply_to": "2007093867087278462",
+    "likes": 3
+  },
+  {
+    "id": "2007554122422296762",
+    "text": "@Teknium Every single time man. At least it feels like that\n\nI've gotten in the habit of putting it in every prompt I send that might prompt running something or managing environment\n\nEven though instructions to use uv &amp; venv are already in {rules}.md",
+    "author_handle": "@dezkant",
+    "author_name": "afishinsea",
+    "created_at": "Sat Jan 03 20:46:15 +0000 2026",
+    "is_reply_to": "2007093867087278462",
+    "likes": 1
+  },
+  {
+    "id": "2007107437724086298",
+    "text": "@Teknium It uses devenv effectively, with a modicum of guidance on tasks and processes.",
+    "author_handle": "@zndx",
+    "author_name": "Ryan Hill",
+    "created_at": "Fri Jan 02 15:11:18 +0000 2026",
+    "is_reply_to": "2007093867087278462",
+    "likes": 2
+  },
+  {
+    "id": "2007112306342371541",
+    "text": "@Teknium tells you a lot about venv",
+    "author_handle": "@yacinelearning",
+    "author_name": "Yacine Mahdid",
+    "created_at": "Fri Jan 02 15:30:38 +0000 2026",
+    "is_reply_to": "2007093867087278462",
+    "likes": 4
+  },
+  {
+    "id": "2007194898446078295",
+    "text": "@Teknium I’ve always had to remind Claude to keep his head out of the clouds, despite all the advancements.\n\nIt’s really no different than a genius with Asperger’s",
+    "author_handle": "@bryan_king",
+    "author_name": "Bryan King",
+    "created_at": "Fri Jan 02 20:58:50 +0000 2026",
+    "is_reply_to": "2007093867087278462",
+    "likes": 1
+  },
+  {
+    "id": "2007133137734967465",
+    "text": "@Teknium a quick system prompt will turn Opus from super-intelligence to consistent super-intelligence",
+    "author_handle": "@authentikkira",
+    "author_name": "Kira",
+    "created_at": "Fri Jan 02 16:53:25 +0000 2026",
+    "is_reply_to": "2007093867087278462",
+    "likes": 1
+  },
+  {
+    "id": "2007095788082463004",
+    "text": "@Teknium had claude 4.5 forget to activate venv for me yesterday while solving a python issue, then it wrote perfect code that wouldn't run lmao classic ai moment",
+    "author_handle": "@jasonth0",
+    "author_name": "jason",
+    "created_at": "Fri Jan 02 14:25:00 +0000 2026",
+    "is_reply_to": "2007093867087278462",
+    "likes": 2
+  },
+  {
+    "id": "2007143268522570048",
+    "text": "@Teknium never had that issue with codex (gpt-5.2-codex-xhigh)",
+    "author_handle": "@poppybyte",
+    "author_name": "poppybyte",
+    "created_at": "Fri Jan 02 17:33:40 +0000 2026",
+    "is_reply_to": "2007093867087278462",
+    "likes": 0
+  },
+  {
+    "id": "2007155212361105623",
+    "text": "@Teknium python or typescript — you choose",
+    "author_handle": "@hololux",
+    "author_name": "galal",
+    "created_at": "Fri Jan 02 18:21:08 +0000 2026",
+    "is_reply_to": "2007093867087278462",
+    "likes": 1
+  },
+  {
+    "id": "2007100964319166704",
+    "text": "@Teknium I wind up sending it \"Use uv run python and uv run pytest - this is a uv project, not system Python\" over and over ... learned priors are a b!#$5!",
+    "author_handle": "@jpalioto",
+    "author_name": "John P Alioto",
+    "created_at": "Fri Jan 02 14:45:34 +0000 2026",
+    "is_reply_to": "2007093867087278462",
+    "likes": 1
+  },
+  {
+    "id": "2007464566318309480",
+    "text": "@Teknium start writing golang clis. agents like them better.",
+    "author_handle": "@jjpcodes",
+    "author_name": "Marx & Spencer meal deal",
+    "created_at": "Sat Jan 03 14:50:24 +0000 2026",
+    "is_reply_to": "2007093867087278462",
+    "likes": 1
+  },
+  {
+    "id": "2007213963722084382",
+    "text": "@Teknium You will eventually come around and accept the belief that this is still gpt 3.5, once the LLM leaves the zone of  \"i have seen this place before\" its over",
+    "author_handle": "@yggdrasil__ai",
+    "author_name": "yggdrasil",
+    "created_at": "Fri Jan 02 22:14:35 +0000 2026",
+    "is_reply_to": "2007093867087278462",
+    "likes": 0
+  },
+  {
+    "id": "2007388535863865662",
+    "text": "@Teknium the irony of an AI that can reason about distributed systems but still needs \"btw use .venv\" in every prompt",
+    "author_handle": "@Niyxuis",
+    "author_name": "nyx 👻",
+    "created_at": "Sat Jan 03 09:48:17 +0000 2026",
+    "is_reply_to": "2007093867087278462",
+    "likes": 1
+  },
+  {
+    "id": "2007095357260644457",
+    "text": "@Teknium could be because they use uv extensively and you don't need to explicitly activate a venv there?",
+    "author_handle": "@_thomasip",
+    "author_name": "Thomas Ip",
+    "created_at": "Fri Jan 02 14:23:17 +0000 2026",
+    "is_reply_to": "2007093867087278462",
+    "likes": 1
+  },
+  {
+    "id": "2007161366000611646",
+    "text": "@Teknium It's wild how often it trips on venv. You'd think it would just get it by now",
+    "author_handle": "@karanjagtiani04",
+    "author_name": "Karan Jagtiani",
+    "created_at": "Fri Jan 02 18:45:35 +0000 2026",
+    "is_reply_to": "2007093867087278462",
+    "likes": 1
+  },
+  {
+    "id": "2007108513403941345",
+    "text": "@Teknium This is a common issue! I've found that explicitly stating 'use the project's venv' in the prompt helps Claude stay on track. Sometimes it's just about being more specific with instructions.",
+    "author_handle": "@lalitmadan",
+    "author_name": "Lalit M",
+    "created_at": "Fri Jan 02 15:15:34 +0000 2026",
+    "is_reply_to": "2007093867087278462",
+    "likes": 1
+  },
+  {
+    "id": "2007340745418838239",
+    "text": "@Teknium For me it’s the fact that I still need to remind it to use bun 🙃",
+    "author_handle": "@GingPerrier",
+    "author_name": "Ging Perrier",
+    "created_at": "Sat Jan 03 06:38:22 +0000 2026",
+    "is_reply_to": "2007093867087278462",
+    "likes": 2
+  },
+  {
+    "id": "2007149394634912041",
+    "text": "@Teknium It's just polite and waiting for you to give it permission",
+    "author_handle": "@dusveloper",
+    "author_name": "Dustin 🗑️",
+    "created_at": "Fri Jan 02 17:58:01 +0000 2026",
+    "is_reply_to": "2007093867087278462",
+    "likes": 1
+  },
+  {
+    "id": "2007136447904846149",
+    "text": "@Teknium use uv",
+    "author_handle": "@tummycom",
+    "author_name": "Evelyn",
+    "created_at": "Fri Jan 02 17:06:34 +0000 2026",
+    "is_reply_to": "2007093867087278462",
+    "likes": 1
+  },
+  {
+    "id": "2007115875347013690",
+    "text": "@Teknium gets me at this stage asking codex to check a pdf and it's \"fumbling how to read a pdf document...\"",
+    "author_handle": "@iRyanBell",
+    "author_name": "Ryan Bell",
+    "created_at": "Fri Jan 02 15:44:49 +0000 2026",
+    "is_reply_to": "2007093867087278462",
+    "likes": 1
+  },
+  {
+    "id": "2000967843492585781",
+    "text": "Been vibe-coding something small:\n\n- Studied 2,000+ tech brand logos\n- Turned patterns into ready-to-use logos\n- All human-designed\n- $69 for a full brand kit",
+    "author_handle": "@RaananTz",
+    "author_name": "Raanan Tzory",
+    "created_at": "Tue Dec 16 16:34:44 +0000 2025",
+    "is_reply_to": null,
+    "likes": 97
+  }
+]

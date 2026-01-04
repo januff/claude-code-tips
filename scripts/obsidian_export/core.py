@@ -147,7 +147,9 @@ class TipsExporter(VaultExporter):
                 ti.primary_keyword,
                 ti.keywords_json,
                 ti.llm_category,
-                ti.llm_tools
+                ti.llm_tools,
+                ti.holistic_summary,
+                ti.one_liner
             FROM tweets t
             LEFT JOIN tips ti ON t.id = ti.tweet_id
             ORDER BY t.likes DESC
@@ -193,10 +195,19 @@ class TipsExporter(VaultExporter):
                 keywords=parse_json_field(row['keywords_json']),
                 llm_category=row['llm_category'],
                 llm_tools=parse_json_field(row['llm_tools']),
+                holistic_summary=row['holistic_summary'],
+                one_liner=row['one_liner'],
             )
 
             # Load media
-            cursor.execute("SELECT * FROM media WHERE tweet_id = ?", (tweet.id,))
+            cursor.execute("""
+                SELECT id, tweet_id, media_type, url, expanded_url, alt_text,
+                       video_url, local_path, ocr_text, vision_description,
+                       is_settings_screenshot, is_code_screenshot, extracted_commands,
+                       workflow_summary, commands_shown, key_action,
+                       focus_text, full_ocr, ui_context
+                FROM media WHERE tweet_id = ?
+            """, (tweet.id,))
             for m_row in cursor.fetchall():
                 tweet.media.append(Media(
                     id=m_row['id'],
@@ -212,6 +223,12 @@ class TipsExporter(VaultExporter):
                     is_settings_screenshot=bool(m_row['is_settings_screenshot']),
                     is_code_screenshot=bool(m_row['is_code_screenshot']),
                     extracted_commands=m_row['extracted_commands'],
+                    workflow_summary=m_row['workflow_summary'],
+                    commands_shown=parse_json_field(m_row['commands_shown']),
+                    key_action=m_row['key_action'],
+                    focus_text=m_row['focus_text'],
+                    full_ocr=m_row['full_ocr'],
+                    ui_context=m_row['ui_context'],
                 ))
 
             # Load replies
@@ -231,6 +248,9 @@ class TipsExporter(VaultExporter):
                     reply_likes=r_row['reply_likes'] or 0,
                     reply_depth=r_row['reply_depth'] or 1,
                     is_author_reply=bool(r_row['is_author_reply']),
+                    is_thread_continuation=bool(r_row['is_thread_continuation']),
+                    is_author_response=bool(r_row['is_author_response']),
+                    response_to_reply_id=r_row['response_to_reply_id'],
                     is_educational=bool(r_row['is_educational']),
                     quality_score=r_row['quality_score'],
                     has_media=bool(r_row['has_media']),
