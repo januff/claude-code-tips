@@ -30,36 +30,53 @@ from google.genai import types
 load_dotenv(Path(__file__).parent.parent / ".env")
 
 
-VIDEO_PROMPT = """This is a screen recording from a Claude Code tutorial tweet.
-Describe the WORKFLOW being demonstrated:
-- What buttons/UI elements are clicked?
-- What commands are typed?
-- What is the end result?
+VIDEO_PROMPT = """Analyze this screen recording from a Claude Code tutorial tweet.
 
-Be specific about command names, flags, and UI elements.
-Return JSON only (no markdown):
+Extract the following in JSON format:
+
 {
-  "workflow_summary": "one paragraph description",
-  "commands_shown": ["--teleport session_id", "claude --resume"],
-  "ui_elements": ["Open in CLI button", "Cursor terminal"],
-  "key_action": "the main thing being demonstrated"
-}"""
+  "summary": "One sentence: what does this video demonstrate",
+
+  "focus_text": "If there's a specific command or prompt being typed/shown, extract it VERBATIM. Otherwise null.",
+
+  "workflow": "Step-by-step what happens in the video (First... Then... Finally...)",
+
+  "key_action": "The main takeaway - what should the user learn to DO from this",
+
+  "commands_shown": ["actual", "commands", "typed", "or", "executed"],
+
+  "ui_elements": ["buttons", "menus", "or", "UI", "elements", "interacted", "with"]
+}
+
+Return JSON only (no markdown)."""
 
 
-IMAGE_PROMPT = """This is a screenshot from a Claude Code tip tweet.
-Extract:
-- Any visible command text or code
-- Settings or configuration shown
-- Key information displayed
+IMAGE_PROMPT = """Analyze this screenshot from a Claude Code tutorial tweet.
 
-Return JSON only (no markdown):
+Extract the following in JSON format:
+
 {
-  "extracted_text": "literal text visible",
-  "content_type": "code|settings|terminal|ui|other",
-  "summary": "what this screenshot shows",
-  "commands_shown": ["any commands visible"],
-  "key_action": "the main thing being shown"
-}"""
+  "summary": "One sentence: what IS this screenshot showing (UI element, settings page, terminal, etc.)",
+
+  "focus_text": "The main command, prompt, or code being demonstrated. Extract VERBATIM - do not summarize. If it's a multi-line prompt or code block, preserve all lines exactly. If no specific focus text, use null.",
+
+  "full_ocr": "ALL visible text in the screenshot, extracted verbatim. Preserve structure (newlines, bullets, etc.) as much as possible. This should be copy-pasteable.",
+
+  "ui_context": "What part of the UI is shown (e.g., 'Claude.ai style settings', 'VS Code terminal', 'Claude Code CLI')",
+
+  "workflow": "What process or action is being demonstrated",
+
+  "key_action": "The main takeaway - what should the user learn to DO from this",
+
+  "commands_shown": ["any", "CLI", "commands", "visible"]
+}
+
+CRITICAL:
+- focus_text must be VERBATIM, not summarized
+- full_ocr must capture ALL text, not a selection
+- Do not skip any visible text in prompts, code blocks, or instructions
+
+Return JSON only (no markdown)."""
 
 
 def extract_frames(video_path: Path, num_frames: int = 4) -> list[bytes]:
@@ -248,20 +265,30 @@ def main():
         result = analyze_media(client, media_path, is_video)
 
         if result:
-            workflow_summary = result.get('workflow_summary') or result.get('summary', '')
+            # New v3 fields
+            workflow_summary = result.get('workflow') or result.get('workflow_summary') or result.get('summary', '')
             commands_shown = result.get('commands_shown', [])
             key_action = result.get('key_action', '')
+            focus_text = result.get('focus_text')
+            full_ocr = result.get('full_ocr')
+            ui_context = result.get('ui_context')
 
             cursor.execute("""
                 UPDATE media SET
                     workflow_summary = ?,
                     commands_shown = ?,
-                    key_action = ?
+                    key_action = ?,
+                    focus_text = ?,
+                    full_ocr = ?,
+                    ui_context = ?
                 WHERE id = ?
             """, (
                 workflow_summary,
                 json.dumps(commands_shown) if commands_shown else None,
                 key_action,
+                focus_text if focus_text != 'null' else None,
+                full_ocr,
+                ui_context,
                 item['id']
             ))
             conn.commit()

@@ -9,7 +9,7 @@ tags:
 dv.table(
   ["Note", "Created", "Author"],
   dv.pages()
-    .where(p => p.source && !p.file.path.includes("_"))
+    .where(p => p.url && !p.file.path.includes("_"))
     .sort(p => p.created, 'desc')
     .limit(30)
     .map(p => [p.file.link, p.created, p.author || p.creator])

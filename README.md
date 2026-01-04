@@ -5,7 +5,7 @@
 ## Source
 
 <p align="center">
-  <img src="tweet-image.png" width="500" alt="Alex Albert's thread asking 'What's your most underrated Claude Code trick?'">
+  <img src="assets/tweet-image.png" width="500" alt="Alex Albert's thread asking 'What's your most underrated Claude Code trick?'">
 </p>
 
 The tips came from a thread by [@alexalbert__](https://x.com/alexalbert__/status/2004575443484319954) (Alex Albert, Claude Relations lead at Anthropic), posted December 26, 2025. He asked: *"What's your most underrated Claude Code trick?"* The thread got 98K views and 182 replies—and it's still growing.
@@ -15,7 +15,7 @@ The tips came from a thread by [@alexalbert__](https://x.com/alexalbert__/status
 Joey got a Claude Max subscription as a Christmas gift from his brother [Ed Anuff](https://x.com/edanuff). According to Joey, the gift sub was "a classic Christmas present—like the Giant Tinkertoys we got in 1972. Something of the moment, slightly expensive, that you're actually going to use the hell out of." Ed also got their friend [Carl Steadman](https://x.com/guydeboredom) a gift subscription. Joey was going to forward them the thread on Slack. Instead, he built this repo. Overkill? Possibly. But now you can have it too.
 
 <p align="center">
-  <img src="xmas73.png" width="500" alt="Giant Tinkertoys under tree"><br>
+  <img src="assets/xmas73.png" width="500" alt="Giant Tinkertoys under tree"><br>
   <em>Ed and Joey, Christmas 1972. The Tinkertoys got built.</em>
 </p>
 
@@ -58,8 +58,9 @@ claude-code-tips/
 ├── CLAUDE.md                      # Instructions for Claude instances
 ├── README.md                      # This file (written by me)
 ├── .gitignore                     # Created by Claude Mobile
-├── tweet-image.png                # Screenshot of the original thread
-├── xmas73.png                     # Ed and Joey, Christmas 1973
+├── assets/
+│   ├── tweet-image.png            # Screenshot of the original thread
+│   └── xmas73.png                 # Ed and Joey, Christmas 1973
 ├── tips/
 │   ├── full-thread.md             # All 109 tips, formatted
 │   ├── grouped-tips.md            # Tips organized by theme

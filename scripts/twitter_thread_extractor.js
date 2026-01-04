@@ -96,9 +96,14 @@ function parseTweet(tweetResult) {
 
     if (!legacy) return null;
 
+    // Handle extended tweets (note_tweet) for long-form content
+    // Priority: note_tweet > legacy.full_text > legacy.text
+    const noteTweet = tweet?.note_tweet?.note_tweet_results?.result?.text;
+    const tweetText = noteTweet || legacy.full_text || legacy.text || '';
+
     return {
       id: tweet.rest_id,
-      text: legacy.full_text,
+      text: tweetText,
       author_handle: '@' + (core?.screen_name || 'unknown'),
       author_name: core?.name || '',
       created_at: legacy.created_at,
