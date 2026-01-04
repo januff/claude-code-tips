@@ -1,197 +1,319 @@
-# HANDOFF: Template Restructure + Keyword Enrichment
+# HANDOFF: Template Fixes + Enrichment Pipeline
 
 **Created:** 2026-01-03
-**Updated:** 2026-01-03 (Phase 1 complete, added Gemini enrichment details)
-**Purpose:** Restructure frontmatter and add LLM-powered keyword extraction
-**Test with:** `--limit 10` sample before full run
+**Updated:** 2026-01-04
+**Purpose:** Fix template issues and run comprehensive LLM enrichment
 
 ---
 
-## Phase 1: Template Restructure ✅ COMPLETE
+## Phase 1: Template Structure Fix (REDO NEEDED)
 
-- Moved metrics to collapsed `[!metrics]-` callout
-- Fixed dashboard number formatting with `toLocaleString()`
-- Cleaned frontmatter to 7 essential fields
+### Problem with Current Implementation
 
-**Status:** Ready for Obsidian review
+The Phase 1 changes removed engagement from the wrong place:
+- ❌ Removed engagement line from tweet card (should keep)
+- ❌ Left metrics in frontmatter properties (should remove)
+- ❌ Placed `[!metrics]-` callout in middle (should be at bottom)
+
+### Correct Structure
+
+```markdown
+---
+created: 2025-12-26
+author: "@chongdashu"
+display_name: "Chong-U"
+category: "context-management"
+tools: ["--teleport"]
+tags:
+  - category/context-management
+  - type/thread
+  - tool/--teleport
+url: "https://x.com/..."
+---
+
+> [!tweet] @chongdashu · Dec 26, 2025
+> Tweet text here...
+>
+> Likes: 800 · Replies: 16 · Reposts: 39  ← KEEP THIS LINE
+
+## Media
+
+![[attachments/screenshots/tweet_123_1.png]]
+
+## Replies
+
+> [!reply]+ @someone · High Quality
+> Reply text...
+
+> [!metrics]- Engagement & Metadata  ← AT VERY BOTTOM
+> **Likes:** 800 · **Views:** 72,244 · **Engagement Score:** 2,900
+> 
+> **Source:** tips · **Quality:** 9/10
+> **Curated:** ✓ · **Reply:** ✗
+> **ID:** [2004579780998688823](https://x.com/...)
+```
+
+### Changes Required
+
+**In `tweet.md.j2`:**
+1. Remove `likes`, `views`, `engagement_score` from frontmatter YAML
+2. Restore engagement line in the `[!tweet]` callout
+3. Move `[!metrics]-` section to END of file (after Replies, after Linked Resources)
 
 ---
 
-## Phase 2: LLM Keyword Enrichment (Gemini)
+## Phase 2: Enrichment Pipeline Inventory
 
-### Reference Implementation
+### Overview of ALL Gemini Calls
 
-Use the pattern from `hall-of-fake/batch_full_analysis.py`:
-- **Provider:** Google Gemini via `GOOGLE_API_KEY`
-- **Model:** `gemini-2.0-flash-001` (fast, cheap for text analysis)
-- **Features to copy:**
-  - Checkpointing every N items
-  - `--resume` flag
-  - `--limit N` for testing
-  - Rate limiting with exponential backoff
-  - Graceful shutdown on Ctrl+C
-  - Cost tracking
+| Task | Input | Output | Records | Est. Cost |
+|------|-------|--------|---------|-----------|
+| **Keyword Extraction** | Tweet text | keywords, primary_keyword, category, tools | 380 tweets | ~$0.02 |
+| **Resource Summarization** | Fetched webpage content | summary, key_points, relevance_score | 10 links | ~$0.01 |
+| **Media Download** | URLs | Local files in attachments/ | 12 media | $0 (no LLM) |
+| **Video Workflow Descriptions** | Video frames | workflow_description | ~5 videos | ~$0.05 |
 
-### New Script: `scripts/enrich_keywords.py`
+**Total estimated cost:** ~$0.08
 
-```python
-#!/usr/bin/env python3
-"""
-Keyword enrichment for Claude Code tips using Gemini.
+### Task A: Keyword Extraction (Primary)
 
-Usage:
-    python scripts/enrich_keywords.py --limit 10    # Test on 10 tweets
-    python scripts/enrich_keywords.py               # Full run
-    python scripts/enrich_keywords.py --resume      # Resume from checkpoint
-"""
-```
-
-### Database Changes
-
-Add columns to `tips` table:
-```sql
-ALTER TABLE tips ADD COLUMN keywords_json TEXT;      -- ["teleport", "context", "session"]
-ALTER TABLE tips ADD COLUMN primary_keyword TEXT;    -- "teleport" (for filename)
-ALTER TABLE tips ADD COLUMN llm_category TEXT;       -- LLM-refined category
-ALTER TABLE tips ADD COLUMN llm_tools TEXT;          -- JSON array of tools
-ALTER TABLE tips ADD COLUMN enrichment_model TEXT;   -- "gemini-2.0-flash-001"
-ALTER TABLE tips ADD COLUMN enrichment_cost REAL;    -- Cost in USD
-```
-
-### Gemini Prompt
-
-```
-Analyze this Claude Code tip tweet and extract keywords for categorization.
-
-Tweet: "{tweet_text}"
-Author: {handle}
-Likes: {likes}
-Current regex-based category: {category}
-
-Return JSON only (no markdown):
+**Input per tweet:**
+```json
 {
-  "keywords": ["keyword1", "keyword2", "keyword3"],
-  "primary_keyword": "best_single_keyword",
-  "category": "refined_category",
-  "tools": ["tool1", "tool2"],
-  "confidence": 0.9
+  "tweet_text": "Not many know about this hidden command...",
+  "author": "@chongdashu",
+  "likes": 800,
+  "current_category": "context-management"
 }
-
-Guidelines:
-- keywords: 3-6 descriptive terms specific to Claude Code concepts
-- primary_keyword: 1-2 words, suitable for filename (e.g., "teleport", "context-window", "handoff")
-- category: One of: context-management, planning, hooks, subagents, mcp, skills, commands, automation, workflow, tooling, meta, other
-- tools: Claude Code features mentioned (e.g., "/clear", "--resume", "AskUserQuestionTool", "hooks", "LSP")
-- confidence: 0.0-1.0 how confident in this analysis
-
-Good primary_keyword examples: teleport, session-resume, context-window, subagent-spawn, hook-config, handoff-pattern, plan-mode, sandbox
 ```
 
-### Cost Estimate
+**Output:**
+```json
+{
+  "keywords": ["teleport", "session-resume", "cli-button", "context-transfer"],
+  "primary_keyword": "teleport",
+  "category": "context-management",
+  "tools": ["--teleport", "Open in CLI"],
+  "confidence": 0.95
+}
+```
 
-- **Model:** gemini-2.0-flash-001
-- **Input:** ~200 tokens/tweet (tweet text + prompt)
-- **Output:** ~100 tokens (JSON response)
-- **Pricing:** $0.10/1M input, $0.40/1M output
-- **Per tweet:** ~$0.00006
-- **380 tweets:** ~$0.02 total
+**Database columns:**
+- `tips.keywords_json` — Full keyword list
+- `tips.primary_keyword` — For filename
+- `tips.llm_category` — Refined category
+- `tips.llm_tools` — JSON array
 
-### Execution
+### Task B: Resource Summarization
+
+The `links` table has 10 resolved URLs. We need to:
+1. Fetch full content (if not already done)
+2. Send to Gemini for summarization
+3. Generate standalone resource notes
+
+**Input:**
+```json
+{
+  "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+  "title": "awesome-claude-skills",
+  "content_type": "github",
+  "fetched_content": "README.md contents..."
+}
+```
+
+**Output:**
+```json
+{
+  "summary": "Curated collection of Claude Code skills including...",
+  "key_points": ["Skills for automation", "MCP integrations", "Custom commands"],
+  "resource_type": "github-awesome-list",
+  "relevance_tags": ["skills", "mcp", "automation"]
+}
+```
+
+**Database columns (add to links table):**
+- `links.llm_summary` — Rich summary
+- `links.key_points_json` — Extracted key points
+- `links.relevance_tags_json` — Tags for cross-referencing
+
+**Export output:**
+```
+_resources/
+├── github-composiohq-awesome-claude-skills.md
+├── github-feiskyer-claude-code-settings.md
+├── blog-sankalp-claude-code-2-guide.md
+└── ...
+```
+
+### Task C: Media File Download (No LLM)
+
+Currently media URLs exist but files aren't downloaded locally.
+
+**Script: `scripts/download_media.py`**
+```python
+# For each media record with URL but no local_path:
+# 1. Download image/video to data/media/
+# 2. Update media.local_path in database
+# 3. Export copies to vault/attachments/screenshots/
+```
+
+**After download, export should symlink or copy:**
+```
+vault/attachments/
+├── screenshots/
+│   ├── tweet_123_1.png
+│   └── tweet_456_1.jpg
+├── thumbnails/  (for HoF)
+└── videos/      (for HoF)
+```
+
+### Task D: Video Workflow Descriptions (Bookmarked)
+
+For media items where `media_type = 'video'` and content is instructional (screen recordings):
+
+**Input:** 4 frames extracted from video
+**Output:**
+```json
+{
+  "workflow_description": "Demonstrates clicking 'Open in CLI' button in Claude Code Chrome interface, copying the teleport command, switching to Cursor terminal, and resuming the session with full context.",
+  "steps": [
+    "Click 'Open in CLI' button in top-right",
+    "Copy command to clipboard",
+    "Paste in Cursor terminal",
+    "Session resumes with history"
+  ],
+  "tools_shown": ["Open in CLI", "claude --teleport", "Cursor"]
+}
+```
+
+**Defer this** until after A, B, C are complete.
+
+---
+
+## Phase 2 Execution Order
 
 ```bash
 cd ~/Development/claude-code-tips
 source ~/Development/Hall\ of\ Fake/venv/bin/activate
+export GOOGLE_API_KEY="..."
 
-# Ensure GOOGLE_API_KEY is set
-export GOOGLE_API_KEY="your-key-here"
+# 1. Fix template first
+#    (Claude Code fixes tweet.md.j2)
 
-# Test on 10 highest-engagement tweets
+# 2. Download media files locally
+python scripts/download_media.py
+
+# 3. Keyword enrichment (10 samples first)
 python scripts/enrich_keywords.py --limit 10
+python scripts/export_tips.py --limit 10
+# → Verify in Obsidian
 
-# Check results
-sqlite3 data/claude_code_tips_v2.db "SELECT tweet_id, primary_keyword, keywords_json FROM tips WHERE primary_keyword IS NOT NULL LIMIT 10;"
-
-# If good, run full enrichment
+# 4. Full keyword enrichment
 python scripts/enrich_keywords.py
 
-# Re-export with new keywords
-python scripts/export_tips.py --limit 10  # Verify filenames changed
-python scripts/export_tips.py             # Full export
+# 5. Resource summarization
+python scripts/enrich_resources.py
+
+# 6. Full export
+python scripts/export_tips.py
+# → Open in Obsidian, verify:
+#    - Short filenames
+#    - Attachments present
+#    - Resource notes in _resources/
+#    - Metrics at bottom of each note
 ```
 
-### Export Updates
+---
 
-After enrichment, update export to use keywords:
+## Script Templates
 
-**In `utils.py` slugify:**
+### enrich_keywords.py
+
+Reference `hall-of-fake/batch_full_analysis.py` for:
+- Checkpointing
+- Resume capability
+- Rate limiting
+- Cost tracking
+- Graceful shutdown
+
+### enrich_resources.py
+
+```python
+# For each link in links table:
+# 1. Fetch content if not cached (web_fetch or use existing)
+# 2. Send to Gemini with summarization prompt
+# 3. Update links table with llm_summary, key_points_json
+# 4. Support --limit and --resume
+```
+
+### download_media.py
+
+```python
+# For each media in media table where local_path is NULL:
+# 1. Download from url to data/media/{tweet_id}_{index}.{ext}
+# 2. Update media.local_path
+# 3. No LLM calls needed
+```
+
+---
+
+## Export Updates After Enrichment
+
+### Filename generation (utils.py)
 ```python
 def generate_filename(tweet, date_str):
-    # Prefer primary_keyword if available
     if tweet.primary_keyword:
-        slug = slugify(tweet.primary_keyword)
-    else:
-        slug = slugify(tweet.text[:50])
-    return f"{date_str}-{slug}.md"
+        return f"{date_str}-{slugify(tweet.primary_keyword)}.md"
+    return f"{date_str}-{slugify(tweet.text[:50])}.md"
 ```
 
-**In `tweet.md.j2` tags:**
-```jinja
-tags:
-{% for tag in tags %}
-  - {{ tag }}
-{% endfor %}
-{% if tweet.keywords %}
-{% for kw in tweet.keywords %}
-  - topic/{{ kw }}
-{% endfor %}
-{% endif %}
+### Resource notes (core.py)
+```python
+def export_resources(self):
+    for resource in self.load_resources():
+        note = self.render_template('resource.md.j2', resource=resource)
+        path = self.output_dir / '_resources' / f"{slugify(resource.url)}.md"
+        path.write_text(note)
+```
+
+### Attachments (core.py)
+```python
+def setup_attachments(self):
+    # Symlink or copy media files to vault/attachments/
+    screenshots_dir = self.output_dir / 'attachments' / 'screenshots'
+    screenshots_dir.mkdir(parents=True, exist_ok=True)
+    
+    for media in self.media_with_local_files:
+        src = Path(media.local_path)
+        dst = screenshots_dir / src.name
+        if not dst.exists():
+            shutil.copy(src, dst)  # or symlink
 ```
 
 ---
 
 ## Test Checklist
 
-### After Phase 2 (10 samples):
-- [ ] `primary_keyword` populated for all 10
-- [ ] Keywords are specific and useful (not generic)
-- [ ] Filenames use keywords (e.g., `2025-12-26-teleport.md`)
-- [ ] Tags include `topic/` prefixed keywords
-- [ ] Categories refined where regex was wrong
-- [ ] Cost tracking shows reasonable amounts
+### After Template Fix:
+- [ ] Frontmatter has NO likes/views/engagement_score
+- [ ] Tweet card shows engagement line (Likes: X · Replies: Y)
+- [ ] `[!metrics]-` callout is at VERY BOTTOM of note
+- [ ] Callout shows all metadata with formatting
 
-### After Full Run:
-- [ ] All 380 tweets enriched
-- [ ] Total cost < $0.10
-- [ ] Export produces clean filenames
-- [ ] Graph view shows useful topic clusters
+### After Media Download:
+- [ ] `vault/attachments/screenshots/` has files
+- [ ] Notes show embedded images (not broken links)
 
----
+### After Keyword Enrichment (10 samples):
+- [ ] Filenames are short and descriptive
+- [ ] Keywords appear in tags
+- [ ] Categories refined where needed
 
-## Skill Abstraction (Future)
-
-Both projects now use Gemini for enrichment:
-- **Hall of Fake:** Visual analysis of videos
-- **Claude Code Tips:** Keyword extraction from text
-
-Consider extracting shared pattern to a skill:
-```
-skills/
-└── llm-enrichment/
-    ├── SKILL.md
-    ├── gemini_client.py
-    ├── checkpoint.py
-    └── batch_processor.py
-```
-
-This would standardize:
-- Provider configuration
-- Checkpointing
-- Rate limiting
-- Cost tracking
-- Resume capability
-
-Defer until after both projects have stable enrichment pipelines.
+### After Resource Enrichment:
+- [ ] `_resources/` folder has markdown notes
+- [ ] Each resource has summary and key points
+- [ ] Backlinks work from tweet notes to resources
 
 ---
 
-*Handoff updated: 2026-01-03*
+*Handoff updated: 2026-01-04*
