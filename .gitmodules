@@ -1,0 +1,3 @@
+[submodule "tools/llm-obsidian-scripts"]
+	path = tools/llm-obsidian-scripts
+	url = https://github.com/DiamondEyesFox/llm-obsidian-scripts.git
