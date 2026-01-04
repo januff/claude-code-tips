@@ -1,0 +1,38 @@
+[
+  {
+    "id": "2004575443484319954",
+    "text": "What's your most underrated Claude Code trick?",
+    "author_handle": "@undefined",
+    "created_at": "Fri Dec 26 15:30:03 +0000 2025",
+    "is_reply_to": null,
+    "likes": 1777,
+    "retweets": 79,
+    "replies": 369,
+    "views": 671281,
+    "media": []
+  },
+  {
+    "id": "2004601949778227605",
+    "text": "@alexalbert__ Start a task, copy the task’s full reasoning, run /clear, then paste that reasoning into the new session saying \"hey a junior dev sent me this\" so the the initial context makes the session start with full context +skeptcism, and forces a “junior dev mistakes are a problem let me",
+    "author_handle": "@undefined",
+    "created_at": "Fri Dec 26 17:15:23 +0000 2025",
+    "is_reply_to": "2004575443484319954",
+    "likes": 169,
+    "retweets": 3,
+    "replies": 2,
+    "views": 21219,
+    "media": []
+  },
+  {
+    "id": "2004604436325572949",
+    "text": "@alexalbert__ Tell it to read from ~/Library/Messages/chat.db to pull in context from iMessage.",
+    "author_handle": "@undefined",
+    "created_at": "Fri Dec 26 17:25:16 +0000 2025",
+    "is_reply_to": "2004575443484319954",
+    "likes": 99,
+    "retweets": 3,
+    "replies": 5,
+    "views": 16674,
+    "media": []
+  }
+]

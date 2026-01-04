@@ -1,0 +1,38 @@
+[
+  {
+    "id": "2006362777414484231",
+    "text": "So I'm an information addict,  and I was testing some 4.5 Opus prompts. This one was *really* fun to add, making all my queries noticeably more information-dense:\n\n**Default to maximum depth.** He'd much rather be yanked into the deepest intricacies of a field immediately — and",
+    "author_handle": "@undefined",
+    "created_at": "Wed Dec 31 13:52:17 +0000 2025",
+    "is_reply_to": null,
+    "likes": 407,
+    "retweets": 10,
+    "replies": 9,
+    "views": 28991,
+    "media": []
+  },
+  {
+    "id": "2006366953926213832",
+    "text": "@menhguin This is good. You find referring to the user 'he' opposed to 'i' or 'they' helps?",
+    "author_handle": "@undefined",
+    "created_at": "Wed Dec 31 14:08:52 +0000 2025",
+    "is_reply_to": "2006362777414484231",
+    "likes": 1,
+    "retweets": 0,
+    "replies": 1,
+    "views": 1101,
+    "media": []
+  },
+  {
+    "id": "2006375460650033422",
+    "text": "@Matthewagi ok so anthropic docs says refer to user + refer to claude by name. let's just say one of the things i'm experimenting with convincing claude to lean into being \n\nNo idea if this works, but it's been rly good at the specific gigabrain tasks i want it to work on + most of the",
+    "author_handle": "@undefined",
+    "created_at": "Wed Dec 31 14:42:41 +0000 2025",
+    "is_reply_to": "2006366953926213832",
+    "likes": 21,
+    "retweets": 0,
+    "replies": 3,
+    "views": 1207,
+    "media": []
+  }
+]

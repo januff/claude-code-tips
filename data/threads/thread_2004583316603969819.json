@@ -1,0 +1,32 @@
+[
+  {
+    "id": "2004575443484319954",
+    "text": "What's your most underrated Claude Code trick?",
+    "author_handle": "@undefined",
+    "created_at": "Fri Dec 26 15:30:03 +0000 2025",
+    "is_reply_to": null,
+    "likes": 1777,
+    "retweets": 79,
+    "replies": 369,
+    "views": 671282,
+    "media": []
+  },
+  {
+    "id": "2004583316603969819",
+    "text": "@alexalbert__ Because Honestly tired of getting flickering screen and I feel like the rate limits have been halved rather than 2x'ed https://t.co/u9qq4WpTgU",
+    "author_handle": "@undefined",
+    "created_at": "Fri Dec 26 16:01:20 +0000 2025",
+    "is_reply_to": "2004575443484319954",
+    "likes": 5,
+    "retweets": 0,
+    "replies": 1,
+    "views": 2067,
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G9G1v2CaYAAp4-h.jpg",
+        "expanded_url": "https://x.com/taheerBuilds/status/2004583316603969819/photo/1"
+      }
+    ]
+  }
+]

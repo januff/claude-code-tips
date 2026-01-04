@@ -1,0 +1,26 @@
+[
+  {
+    "id": "2004575443484319954",
+    "text": "What's your most underrated Claude Code trick?",
+    "author_handle": "@undefined",
+    "created_at": "Fri Dec 26 15:30:03 +0000 2025",
+    "is_reply_to": null,
+    "likes": 1777,
+    "retweets": 79,
+    "replies": 369,
+    "views": 671281,
+    "media": []
+  },
+  {
+    "id": "2004576263911215487",
+    "text": "@alexalbert__ custom skills. wrote one with my codebase patterns and now every new session already knows the architecture. no more re-explaining context",
+    "author_handle": "@undefined",
+    "created_at": "Fri Dec 26 15:33:19 +0000 2025",
+    "is_reply_to": "2004575443484319954",
+    "likes": 55,
+    "retweets": 0,
+    "replies": 3,
+    "views": 17779,
+    "media": []
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "2004575443484319954",
+    "text": "What's your most underrated Claude Code trick?",
+    "author_handle": "@undefined",
+    "created_at": "Fri Dec 26 15:30:03 +0000 2025",
+    "is_reply_to": null,
+    "likes": 1777,
+    "retweets": 79,
+    "replies": 369,
+    "views": 671281,
+    "media": []
+  },
+  {
+    "id": "2004650745417924663",
+    "text": "@alexalbert__ letting it autonomously control an mbot robot https://t.co/0TKfEUj6M6",
+    "author_handle": "@undefined",
+    "created_at": "Fri Dec 26 20:29:16 +0000 2025",
+    "is_reply_to": "2004575443484319954",
+    "likes": 41,
+    "retweets": 0,
+    "replies": 0,
+    "views": 10715,
+    "media": []
+  },
+  {
+    "id": "2005285904420843892",
+    "text": "claude code is having it's cursor moment after karpathy sensei's post. never been a better time to try it. \n\nmy latest blog on how to get the most out of claude code 2.0  and other agents in general is up now. grab a chai and have fun reading!\n\nhttps://t.co/cQpvo0xocY https://t.co/gzKCEMfEG6",
+    "author_handle": "@undefined",
+    "created_at": "Sun Dec 28 14:33:10 +0000 2025",
+    "is_reply_to": null,
+    "likes": 9273,
+    "retweets": 824,
+    "replies": 146,
+    "views": 1383965,
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G9Qz_X2aQAA-bqx.jpg",
+        "expanded_url": "https://x.com/dejavucoder/status/2005285904420843892/photo/1"
+      }
+    ]
+  },
+  {
+    "id": "2005352818086182917",
+    "text": "@dejavucoder tbh i have a very limited experience of claude code and i am learning how to efficiently use it. there are not many tutorials/guides (and some don’t go in depth from a dev’s perspective). this is a goldmine blog for beginners! thanks for writing it.",
+    "author_handle": "@undefined",
+    "created_at": "Sun Dec 28 18:59:04 +0000 2025",
+    "is_reply_to": "2005285904420843892",
+    "likes": 27,
+    "retweets": 0,
+    "replies": 2,
+    "views": 14034,
+    "media": []
+  }
+]

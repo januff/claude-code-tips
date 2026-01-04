@@ -1,0 +1,26 @@
+[
+  {
+    "id": "2004575443484319954",
+    "text": "What's your most underrated Claude Code trick?",
+    "author_handle": "@undefined",
+    "created_at": "Fri Dec 26 15:30:03 +0000 2025",
+    "is_reply_to": null,
+    "likes": 1777,
+    "retweets": 79,
+    "replies": 369,
+    "views": 671282,
+    "media": []
+  },
+  {
+    "id": "2004957015102423380",
+    "text": "@alexalbert__ - Plan mode to generate phased tickets (a bunch of md files) \n- Prompt with numbered steps (e.g., 1, 2, 3) that iterate through these milestone tickets, building, code reviewing, and improving code\n- Then I go to sleep",
+    "author_handle": "@undefined",
+    "created_at": "Sat Dec 27 16:46:17 +0000 2025",
+    "is_reply_to": "2004575443484319954",
+    "likes": 1,
+    "retweets": 0,
+    "replies": 1,
+    "views": 169,
+    "media": []
+  }
+]

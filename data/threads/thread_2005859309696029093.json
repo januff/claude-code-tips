@@ -1,0 +1,38 @@
+[
+  {
+    "id": "2005823958671937697",
+    "text": "Tell Claude Code to add this as a shortcut and thank me later https://t.co/pEg540ot1J",
+    "author_handle": "@undefined",
+    "created_at": "Tue Dec 30 02:11:12 +0000 2025",
+    "is_reply_to": null,
+    "likes": 679,
+    "retweets": 22,
+    "replies": 75,
+    "views": 178243,
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G9YeP14aYAAIiE7.jpg",
+        "expanded_url": "https://x.com/anshnanda/status/2005823958671937697/photo/1"
+      }
+    ]
+  },
+  {
+    "id": "2005859309696029093",
+    "text": "@anshnanda this is mine :D https://t.co/KtFc7nVsWC",
+    "author_handle": "@undefined",
+    "created_at": "Tue Dec 30 04:31:41 +0000 2025",
+    "is_reply_to": "2005823958671937697",
+    "likes": 114,
+    "retweets": 9,
+    "replies": 4,
+    "views": 12709,
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G9Y-ZsmWgAAOZoC.png",
+        "expanded_url": "https://x.com/jeffzwang/status/2005859309696029093/photo/1"
+      }
+    ]
+  }
+]

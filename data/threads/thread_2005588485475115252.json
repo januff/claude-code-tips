@@ -1,0 +1,50 @@
+[
+  {
+    "id": "2005386565087047905",
+    "text": "am i legitimately missing out on some major new productivity/power unlocks in claude code by ignoring all the extras (mcps, plugins, skills, agents) and just going vanilla with it?",
+    "author_handle": "@undefined",
+    "created_at": "Sun Dec 28 21:13:10 +0000 2025",
+    "is_reply_to": null,
+    "likes": 765,
+    "retweets": 5,
+    "replies": 148,
+    "views": 136032,
+    "media": []
+  },
+  {
+    "id": "2005392302219591779",
+    "text": "@Shpigford Yes. Commands, then skills. Then way way down the list the other ones",
+    "author_handle": "@undefined",
+    "created_at": "Sun Dec 28 21:35:57 +0000 2025",
+    "is_reply_to": "2005386565087047905",
+    "likes": 91,
+    "retweets": 0,
+    "replies": 1,
+    "views": 19804,
+    "media": []
+  },
+  {
+    "id": "2005393975205859431",
+    "text": "@aarondfrancis custom commands? if so, what's an example of one that's impactful?",
+    "author_handle": "@undefined",
+    "created_at": "Sun Dec 28 21:42:36 +0000 2025",
+    "is_reply_to": "2005392302219591779",
+    "likes": 26,
+    "retweets": 0,
+    "replies": 5,
+    "views": 18357,
+    "media": []
+  },
+  {
+    "id": "2005588485475115252",
+    "text": "@Shpigford @aarondfrancis I literally just pushed this website live. Check it out it will teach you those things and make it easy to setup a few commands and skills. My aim was to make it dead simple to create skills, commands, and use them.  https://t.co/mvFH1sYkhH",
+    "author_handle": "@undefined",
+    "created_at": "Mon Dec 29 10:35:31 +0000 2025",
+    "is_reply_to": "2005393975205859431",
+    "likes": 1,
+    "retweets": 0,
+    "replies": 1,
+    "views": 337,
+    "media": []
+  }
+]

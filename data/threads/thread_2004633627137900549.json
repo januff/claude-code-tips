@@ -1,0 +1,38 @@
+[
+  {
+    "id": "2004575443484319954",
+    "text": "What's your most underrated Claude Code trick?",
+    "author_handle": "@undefined",
+    "created_at": "Fri Dec 26 15:30:03 +0000 2025",
+    "is_reply_to": null,
+    "likes": 1777,
+    "retweets": 79,
+    "replies": 369,
+    "views": 671282,
+    "media": []
+  },
+  {
+    "id": "2004890469734776982",
+    "text": "@alexalbert__ “Is this the best you can do?”",
+    "author_handle": "@undefined",
+    "created_at": "Sat Dec 27 12:21:51 +0000 2025",
+    "is_reply_to": "2004575443484319954",
+    "likes": 9,
+    "retweets": 0,
+    "replies": 1,
+    "views": 1116,
+    "media": []
+  },
+  {
+    "id": "2004633627137900549",
+    "text": "@alexalbert__ KEYWORDS\nCollect keywords that save typing and punch above their weight. e.g.:\n\nRecap: makes sure Claude Code understood your instructions the way you wanted it to\nCritique: You can critique anything but always good to add more phrases like \"the git diff\" or pass it a file or a",
+    "author_handle": "@undefined",
+    "created_at": "Fri Dec 26 19:21:15 +0000 2025",
+    "is_reply_to": "2004575443484319954",
+    "likes": 7,
+    "retweets": 0,
+    "replies": 2,
+    "views": 3897,
+    "media": []
+  }
+]

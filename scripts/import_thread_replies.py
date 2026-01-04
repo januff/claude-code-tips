@@ -19,6 +19,27 @@ DB_PATH = Path(__file__).parent.parent / "data" / "claude_code_tips_v2.db"
 THREADS_DIR = Path(__file__).parent.parent / "data" / "threads"
 
 
+def ensure_schema(conn):
+    """Add new columns if they don't exist."""
+    cursor = conn.cursor()
+
+    # Check existing columns
+    cursor.execute("PRAGMA table_info(thread_replies)")
+    existing_cols = {row[1] for row in cursor.fetchall()}
+
+    # Add media_json if not exists
+    if 'media_json' not in existing_cols:
+        print("Adding media_json column...")
+        cursor.execute("ALTER TABLE thread_replies ADD COLUMN media_json TEXT")
+
+    # extracted_urls should already exist, but add if missing
+    if 'extracted_urls' not in existing_cols:
+        print("Adding extracted_urls column...")
+        cursor.execute("ALTER TABLE thread_replies ADD COLUMN extracted_urls TEXT")
+
+    conn.commit()
+
+
 def extract_urls(text):
     """Extract URLs from text."""
     url_pattern = r'https?://[^\s<>"{}|\\^`\[\]]+'
@@ -111,6 +132,9 @@ def import_thread(conn, thread_file):
         # Handle date format: created_at_iso or created_at
         posted_at = tweet.get('created_at_iso') or tweet.get('created_at')
 
+        # Store full media array as JSON
+        media_json = json.dumps(tweet['media']) if tweet.get('media') else None
+
         cursor.execute("""
             INSERT INTO thread_replies (
                 parent_tweet_id,
@@ -127,9 +151,10 @@ def import_thread(conn, thread_file):
                 response_to_reply_id,
                 has_media,
                 media_urls,
+                media_json,
                 extracted_urls,
                 fetched_at
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """, (
             main_tweet_id,
             tweet['id'],
@@ -145,6 +170,7 @@ def import_thread(conn, thread_file):
             response_to_reply_id,
             1 if tweet.get('media') else 0,
             json.dumps([m.get('url') for m in tweet.get('media', [])]) if tweet.get('media') else None,
+            media_json,
             json.dumps(urls) if urls else None,
             fetched_at
         ))
@@ -168,6 +194,10 @@ def main():
     print(f"Importing {len(thread_files)} thread files...")
 
     conn = sqlite3.connect(DB_PATH)
+
+    # Ensure schema has new columns
+    ensure_schema(conn)
+
     total_imported = 0
 
     for thread_file in sorted(thread_files):

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "2005315275026260309",
+    "text": "my favorite way to use Claude Code to build large features is spec based\n\nstart with a minimal spec or prompt and ask Claude to interview you using the AskUserQuestionTool\n\nthen make a new session to execute the spec https://t.co/Lwejskje4a",
+    "author_handle": "@undefined",
+    "created_at": "Sun Dec 28 16:29:53 +0000 2025",
+    "is_reply_to": null,
+    "likes": 6257,
+    "retweets": 440,
+    "replies": 264,
+    "views": 1519146,
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G9ROmpcWgAIcamR.jpg",
+        "expanded_url": "https://x.com/trq212/status/2005315275026260309/photo/1"
+      }
+    ]
+  },
+  {
+    "id": "2005315277828096030",
+    "text": "for big features or new projects Claude might ask me 40+ questions and I end up with a much more detailed spec that I feel I had a lot of control over",
+    "author_handle": "@undefined",
+    "created_at": "Sun Dec 28 16:29:53 +0000 2025",
+    "is_reply_to": "2005315275026260309",
+    "likes": 378,
+    "retweets": 4,
+    "replies": 3,
+    "views": 67448,
+    "media": []
+  }
+]
