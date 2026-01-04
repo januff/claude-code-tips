@@ -1,0 +1,203 @@
+{
+  "main": {
+    "id": "00bef9b579ea06c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "36fe9d232037da8a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "60e0c19c55ad4d36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-01-01-claude-code-is-looking-insane-for-2026-agent.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-01-01-claude-code-is-looking-insane-for-2026-agent"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1c3964a7e258d86a",
+    "type": "split",
+    "children": [
+      {
+        "id": "7dffd758c5f4e4a7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "13ac3b020f988bdc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ed8c27ad882f693e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "75d080589fec1faf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e289182c873d5786",
+    "type": "split",
+    "children": [
+      {
+        "id": "9794378cbd0fb669",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d575c0e1d9651399",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2025-12-30-lsp-hooks-subagents-adversarial-validations-ralph.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2025-12-30-lsp-hooks-subagents-adversarial-validations-ralph"
+            }
+          },
+          {
+            "id": "794797486573e7cb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2025-12-30-lsp-hooks-subagents-adversarial-validations-ralph.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2025-12-30-lsp-hooks-subagents-adversarial-validations-ralph"
+            }
+          },
+          {
+            "id": "250fb82862f58821",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "32ab12cd29b1c1b2",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "2950c470e8d3df18",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2025-12-30-lsp-hooks-subagents-adversarial-validations-ralph.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2025-12-30-lsp-hooks-subagents-adversarial-validations-ralph"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "60e0c19c55ad4d36",
+  "lastOpenFiles": [
+    "_dashboards/top-by-engagement.md",
+    "2026-01-01-claude-code-is-looking-insane-for-2026-agent.md",
+    "2025-12-30-tell-claude-code-to-add-this-as-a-shortcut-and.md",
+    "2025-12-30-lsp-hooks-subagents-adversarial-validations-ralph.md",
+    "2025-12-26-not-many-know-about-this-hidden-command-claude.md",
+    "2025-12-26-whats-your-most-underrated-claude-code-trick.md",
+    "2025-12-28-claude-code-is-having-its-cursor-moment-after.md",
+    "2025-12-28-use-these-settings-in-claude-to-write-humanized.md",
+    "2025-12-31-the-claude-agent-sdk-will-do-for-knowledge-work.md",
+    "2025-12-27-advent-of-claude-day-27-sandbox-mode-can-i-run.md",
+    "_dashboards/by-creator.md",
+    "_dashboards/recent-additions.md",
+    "2025-12-28-the-prompt-ive-been-using-is-read-this-specmd-and.md",
+    "_dashboards/tag-index.md"
+  ]
+}

@@ -1,0 +1,17 @@
+---
+tags:
+  - dashboard
+---
+
+# By Creator
+
+```dataviewjs
+const creators = dv.pages()
+  .where(p => p.author || p.creator)
+  .groupBy(p => p.author || p.creator);
+
+for (let group of creators.sort(g => g.rows.length, 'desc').slice(0, 30)) {
+  dv.header(3, group.key + " (" + group.rows.length + ")");
+  dv.list(group.rows.sort(p => p.likes, 'desc').map(p => p.file.link).slice(0, 10));
+}
+```

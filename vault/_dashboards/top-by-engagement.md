@@ -1,0 +1,22 @@
+---
+tags:
+  - dashboard
+---
+
+# Top by Engagement
+
+```dataviewjs
+dv.table(
+  ["Note", "Likes", "Views", "Score"],
+  dv.pages()
+    .where(p => p.url && !p.file.path.includes("_"))
+    .sort(p => p.likes, 'desc')
+    .limit(50)
+    .map(p => [
+      p.file.link,
+      p.likes?.toLocaleString() || "0",
+      p.views?.toLocaleString() || "0",
+      p.engagement_score?.toLocaleString() || "—"
+    ])
+)
+```

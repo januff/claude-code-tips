@@ -1,24 +1,9 @@
 ---
-id: "{{ tweet.id }}"
-source: "tips"
 created: {{ date }}
 author: "{{ tweet.handle }}"
-url: "{{ tweet.url }}"
 display_name: {{ display_name | tojson }}
-likes: {{ tweet.likes }}
-replies: {{ tweet.replies }}
-reposts: {{ tweet.reposts }}
-views: {{ tweet.views }}
-engagement_score: {{ tweet.engagement_score }}
-is_reply: {{ tweet.is_reply | lower }}
-{% if tweet.is_curated %}
-is_curated: true
+{% if tweet.category %}
 category: "{{ tweet.category }}"
-quality_rating: {{ tweet.quality_rating }}
-{% endif %}
-{% if tweet.card_url %}
-card_url: "{{ tweet.card_url }}"
-card_title: {{ tweet.card_title | tojson if tweet.card_title else '""' }}
 {% endif %}
 {% if tweet.tools_mentioned %}
 tools: {{ tweet.tools_mentioned | tojson }}
@@ -27,12 +12,13 @@ tags:
 {% for tag in tags %}
   - {{ tag }}
 {% endfor %}
+url: "{{ tweet.url }}"
 ---
 
 > [!tweet] {{ tweet.handle }} · {{ date_display }}
 > {{ tweet.text | replace('\n', '\n> ') }}
 >
-> Likes: {{ likes_fmt }} · Replies: {{ tweet.replies }} · Reposts: {{ tweet.reposts }}
+> Likes: {{ tweet.likes | format_number }} · Replies: {{ tweet.replies | format_number }} · Reposts: {{ tweet.reposts | format_number }}
 
 {% if tweet.summary %}
 ## Summary
@@ -96,3 +82,11 @@ tags:
   > {{ tweet.card_description }}
 {% endif %}
 {% endif %}
+
+> [!metrics]- Engagement & Metadata
+> **Likes:** {{ tweet.likes | format_number }} · **Replies:** {{ tweet.replies | format_number }} · **Reposts:** {{ tweet.reposts | format_number }} · **Views:** {{ tweet.views | format_number }}
+> **Engagement Score:** {{ tweet.engagement_score | format_number }}
+>
+> **Source:** tips · **Quality:** {{ tweet.quality_rating or '—' }}/10
+> **Curated:** {{ '✓' if tweet.is_curated else '✗' }} · **Reply:** {{ '✓' if tweet.is_reply else '✗' }}
+> **ID:** [{{ tweet.id }}]({{ tweet.url }})
