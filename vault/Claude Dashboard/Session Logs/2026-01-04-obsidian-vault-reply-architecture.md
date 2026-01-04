@@ -1,71 +1,64 @@
-# Session: Obsidian Vault Reply Architecture
-
-**Date:** 2026-01-04
-**Duration:** ~3 hours
-**Context:** Continued from previous session (context restored via summary)
-
+---
+date: 2026-01-04
+projects: claude-code-tips
+duration: ~4 hours
+context: Obsidian vault enrichment, reply architecture refactoring
 ---
 
-## Session Goals
+# Session Summary: January 4, 2026
 
-1. Establish Playwriter MCP workflow for browser automation
-2. Scrape threads for top tweets with unknown reply authors
-3. Implement author reply type classification
-4. Export vault with improved reply formatting
+## Key Accomplishments
 
----
+### 1. Reply Text Truncation Fix
+- Discovered scraped JSON had truncated text (275 chars instead of 1,247)
+- Root cause: Twitter API returns truncated text in some response paths
+- Fix: Added `note_tweet.note_tweet_results.result.text` path to `parseTweet()`
 
-## Accomplishments
+### 2. Playwriter MCP Workflow Established
+- Replaced Playwright MCP with Playwriter (remorses/playwriter)
+- Chrome extension approach: click icon on tab to grant control
+- Uses existing logged-in session — no separate auth needed
+- 90% less context window usage
 
-### Playwriter MCP Setup
-- Installed Playwriter Chrome extension (remorses/playwriter)
-- Configured MCP in `~/.claude.json`
-- Established workflow: click extension icon on tab, Claude Code controls via `mcp__playwriter__execute`
-- Successfully captured TweetDetail API responses via network interception
+### 3. Batch Thread Scraping
+- Scraped 17 threads with 435 total replies
+- All replies now have real author handles (previously "unknown")
 
-### Thread Scraping
-- Scraped 17 threads total (435 replies)
-- Used `waitUntil: 'load'` instead of `networkidle` for reliability
-- Saved thread JSON to `data/threads/thread_XXXX.json`
+### 4. Author Reply Type Distinction
+- **Problem:** Highly-engaged authors (like DejaVuCoder with ~20 responses) bloated main tweet cards
+- **Solution:** Distinguish thread continuations (self-replies) from responses (to comments)
+  - Thread continuations: Stay in main card
+  - Author responses: Nest under the comment with green `[!tip]+` callout
+- **Schema changes:** Added `is_thread_continuation`, `is_author_response`, `response_to_reply_id`
 
-### Author Reply Classification
-Added schema columns:
-- `is_thread_continuation` — author replying to self
-- `is_author_response` — author replying to community comment
-- `response_to_reply_id` — links response to parent comment
+### 5. Repo Cleanup
+- Moved 14 completed handoffs to `plans/archive/`
+- Created `assets/` folder for images
+- Deleted duplicate database
+- Updated CLAUDE.md and PROGRESS.md
 
-Updated `import_thread_replies.py` to classify based on `in_reply_to` chain.
+## Architectural Decisions
 
-### Export Template Updates
-- Thread continuations stay inline in main tweet card
-- Author responses nested under the comment they replied to
-- Green `[!tip]+` callouts with arrow emoji for visual distinction
-- Fixed newline issues between callout header and body
+| Decision | Rationale |
+|----------|-----------|
+| Playwriter > Playwright | Uses existing browser session, 90% less context |
+| Thread continuations vs responses | Prevents card bloat from engaged authors |
+| Green callouts for author responses | Visual distinction in Obsidian |
 
-### Repo Cleanup
-- Moved images to `assets/` folder
-- Archived 14 completed handoffs to `plans/archive/`
-- Deleted duplicate `claude_code_tips.db`
+## Tools & Resources Discovered
 
----
+- **Playwriter MCP:** https://github.com/remorses/playwriter
+- **DiamondEyesFox llm-obsidian-scripts:** https://github.com/DiamondEyesFox/llm-obsidian-scripts
+- **claude-conversation-extractor:** https://github.com/ZeroSumQuant/claude-conversation-extractor
 
-## Key Learnings
+## Next Steps (Deferred)
+- [ ] Scale reply scraping to all 380 tweets
+- [ ] ContentUnit enrichment for worthy replies
+- [ ] Configure raw_log.js for automatic transcript export
 
-1. **Playwriter >> Playwright MCP** — Chrome extension approach uses existing logged-in sessions, 90% less context overhead
+## Session Artifacts
 
-2. **Twitter's note_tweet format** — Long tweets (>280 chars) store full text in `note_tweet.note_tweet_results.result.text`, not `legacy.full_text`
-
-3. **Author reply classification requires in_reply_to** — Need to build set of author tweet IDs and check if `in_reply_to` points to one of them
-
----
-
-## Next Steps
-
-- [ ] Re-scrape all 380 tweets to get complete `in_reply_to` data
-- [ ] Run enrichment pipeline on new tweets
-- [ ] Export full vault with all reply classifications
-- [ ] Test DiamondEyesFox session logging hook
-
----
-
-*Session logged via DiamondEyesFox llm-obsidian-scripts*
+- Commit `004f2af`: Author reply type classification
+- Commit `51a3c1c`: Repo cleanup, archive completed handoffs
+- Commit `000c2b7`: Update CLAUDE.md and PROGRESS.md
+- Handoff: `plans/HANDOFF_AUTHOR_REPLY_TYPES.md` (archived after completion)
