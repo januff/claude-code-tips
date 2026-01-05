@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "36fe9d232037da8a",
+        "id": "e879bd9fd4078210",
         "type": "tabs",
         "children": [
           {
@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-12-26-claude-skills-spawner.md",
+                "file": "2025-12-26-agent-mail.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-12-26-claude-skills-spawner"
+              "title": "2025-12-26-agent-mail"
             }
           }
         ]
@@ -40,7 +40,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byCreatedTime",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -183,22 +183,26 @@
       "bases:Create new base": false
     }
   },
-  "active": "60e0c19c55ad4d36",
+  "active": "13ac3b020f988bdc",
   "lastOpenFiles": [
-    "2025-12-26-be-better.md",
+    "2025-12-26-agent-mail.md",
+    "2025-12-28-claude-code-20.md",
+    "2025-12-26-claude-skills-spawner.md",
+    "_dashboards/top-by-engagement.md",
+    "2025-12-26-codebase-access-without-cloning.md",
+    "2025-12-26-claude-aws.md",
+    "2025-12-26-audit-codebase-security-issues.md",
+    "2025-12-26-alphaevolve.md",
+    "2025-12-26-chatdb.md",
+    "2025-12-31-personal-preferences-prompt.md",
     "2026-01-04-claude-chrome.md",
+    "2025-12-26-be-better.md",
     "2025-12-30-frictionless-context-management.md",
     "2025-12-30-cli-aliases.md",
     "2026-01-03-kv-cache-persistence.md",
     "2026-01-02-obsidian.md",
-    "2025-12-26-claude-skills-spawner.md",
-    "2025-12-26-claude-aws.md",
-    "2025-12-26-chatdb.md",
     "2025-12-26-branch-or-fork-agent.md",
     "2025-12-26-be-nice.md",
-    "2025-12-26-audit-codebase-security-issues.md",
-    "2025-12-26-agent-mail.md",
-    "2025-12-26-alphaevolve.md",
     "2026-01-03-chrome-devtools-mcp.md",
     "2025-12-28-agent-plan.md",
     "2025-12-27-explain-this-codebase-to-me-at-a-high-level.md",
@@ -207,10 +211,6 @@
     "2025-12-28-2005213914444026211.md",
     "2025-12-26-flickering-screen.md",
     "2025-12-26-debug-banner-popup.md",
-    "2025-12-31-agentic-harness.md",
-    "2026-01-02-agentic-interfaces.md",
-    "2025-12-26-diversehigh-temperature-synthetic-comments.md",
-    "2026-01-04-cc-mirror-quick.md",
     "Claude Dashboard/Session Logs",
     "Claude Dashboard/Reference",
     "Claude Dashboard/Outbox",

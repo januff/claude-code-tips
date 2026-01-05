@@ -31,8 +31,8 @@ def main():
     parser.add_argument(
         "--output", "-o",
         type=Path,
-        default=Path(__file__).parent.parent / "vault",
-        help="Output directory for vault (default: ./vault)"
+        default=Path(__file__).parent.parent / "Claude Code Tips",
+        help="Output directory for vault (default: ./Claude Code Tips)"
     )
     parser.add_argument(
         "--db",
