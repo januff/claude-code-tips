@@ -127,13 +127,17 @@ def generate_filename(
     date_str: str,
     text: str,
     id_fallback: str,
-    primary_keyword: Optional[str] = None
+    primary_keyword: Optional[str] = None,
+    handle: Optional[str] = None
 ) -> str:
     """
     Generate note filename: {date}-{slug}.md
 
-    Uses primary_keyword if available, otherwise falls back to text slug.
-    Falls back to {date}-{id}.md if slug is invalid.
+    Priority:
+    1. primary_keyword from LLM enrichment
+    2. Auto-extracted keyword from text (hashtags, Claude terms, etc.)
+    3. Falls back to {date}-{id}.md if all else fails
+
     If date_str is missing, extracts date from tweet ID (snowflake format).
     """
     date = format_date(date_str, fallback=None)
@@ -141,17 +145,20 @@ def generate_filename(
     if not date:
         date = date_from_tweet_id(id_fallback) or "unknown"
 
-    # Prefer primary_keyword from LLM enrichment
+    # 1. Prefer primary_keyword from LLM enrichment
     if primary_keyword:
         slug = slugify(primary_keyword)
         if slug and len(slug) >= 3:
             return f"{date}-{slug}.md"
 
-    # Fall back to text-based slug
-    slug = slugify(text)
-    if slug and len(slug) >= 3:
-        return f"{date}-{slug}.md"
+    # 2. Try auto-extracted fallback keyword
+    fallback_kw = generate_fallback_keyword(text, handle)
+    if fallback_kw:
+        slug = slugify(fallback_kw, max_length=40)
+        if slug and len(slug) >= 3:
+            return f"{date}-{slug}.md"
 
+    # 3. Last resort: use ID
     return f"{date}-{id_fallback}.md"
 
 
@@ -199,3 +206,120 @@ def extract_mentions(text: str) -> list[str]:
 
     mentions = re.findall(r'@(\w+)', text)
     return mentions
+
+
+# Common Claude Code terms for keyword extraction
+CLAUDE_CODE_TERMS = [
+    'claude code', 'claude-code', 'claudecode',
+    'claude.md', 'claudemd', 'claude md',
+    'mcp', 'mcp server', 'mcp servers',
+    'subagent', 'subagents', 'sub-agent', 'sub-agents',
+    'hooks', 'hook', 'pretooluse', 'posttooluse',
+    'slash command', 'slash commands', '/compact', '/clear', '/help',
+    'agent sdk', 'agent-sdk',
+    'skills', 'skill',
+    'obsidian', 'cursor', 'vscode', 'vs code',
+    'opus', 'sonnet', 'haiku',
+    'ultrathink', 'think hard', 'think harder',
+    'sandbox', 'sandboxing',
+    'context window', 'context management',
+    'plan mode', 'planning',
+    'handoff', 'hand-off',
+]
+
+# Stopwords to filter from extracted keywords
+STOPWORDS = {
+    'the', 'a', 'an', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for',
+    'of', 'with', 'by', 'from', 'is', 'are', 'was', 'were', 'be', 'been',
+    'have', 'has', 'had', 'do', 'does', 'did', 'will', 'would', 'could',
+    'should', 'may', 'might', 'must', 'can', 'this', 'that', 'these',
+    'those', 'i', 'you', 'he', 'she', 'it', 'we', 'they', 'my', 'your',
+    'his', 'her', 'its', 'our', 'their', 'what', 'which', 'who', 'whom',
+    'when', 'where', 'why', 'how', 'all', 'each', 'every', 'both', 'few',
+    'more', 'most', 'other', 'some', 'such', 'no', 'not', 'only', 'same',
+    'so', 'than', 'too', 'very', 'just', 'also', 'now', 'here', 'there',
+    'im', 'ive', 'youre', 'youve', 'hes', 'shes', 'its', 'were', 'theyre',
+    'dont', 'doesnt', 'didnt', 'wont', 'wouldnt', 'cant', 'couldnt',
+    'using', 'use', 'used', 'get', 'got', 'getting', 'make', 'made',
+    'making', 'like', 'really', 'actually', 'basically', 'literally',
+}
+
+
+def generate_fallback_keyword(text: str, handle: Optional[str] = None) -> str:
+    """
+    Generate a short keyword from tweet text when primary_keyword is missing.
+
+    Priority:
+    1. First hashtag (without #)
+    2. Common Claude Code terms found in text
+    3. First quoted phrase
+    4. Handle + first 2-3 significant words
+    """
+    if not text:
+        return ""
+
+    text_lower = text.lower()
+
+    # 1. Check for hashtags — use first hashtag
+    hashtags = re.findall(r'#(\w+)', text)
+    if hashtags:
+        return hashtags[0].lower()
+
+    # 2. Check for common Claude Code terms (prefer multi-word matches first)
+    found_terms = []
+    for term in sorted(CLAUDE_CODE_TERMS, key=len, reverse=True):
+        if term in text_lower:
+            # Normalize the term for filename
+            normalized = term.replace('.', '').replace('/', '').replace(' ', '-')
+            found_terms.append(normalized)
+            if len(found_terms) >= 2:
+                break
+
+    if found_terms:
+        # Dedupe similar terms and combine up to 2
+        unique_terms = []
+        for term in found_terms:
+            # Skip if this term is a substring of an existing term or vice versa
+            if not any(term in t or t in term for t in unique_terms):
+                unique_terms.append(term)
+        keyword = '-'.join(unique_terms[:2])
+
+        # For very common terms, prefix with handle to avoid collisions
+        common_terms = {'claude-code', 'obsidian', 'skills', 'skill', 'hooks', 'mcp', 'opus', 'sonnet'}
+        if keyword in common_terms and handle:
+            clean_handle = handle.lstrip('@').lower()
+            if clean_handle and clean_handle not in ('unknown', 'undefined'):
+                return f"{clean_handle}-{keyword}"
+        return keyword
+
+    # 3. Check for quoted phrases
+    quoted = re.findall(r'["\']([^"\']{3,30})["\']', text)
+    if quoted:
+        # Use first short quoted phrase
+        phrase = quoted[0].strip()
+        if len(phrase) <= 25:
+            return slugify(phrase, max_length=25)
+
+    # 4. Fall back to handle + significant words
+    # Clean handle
+    clean_handle = ""
+    if handle:
+        clean_handle = handle.lstrip('@').lower()
+        # Skip generic handles
+        if clean_handle in ('unknown', 'undefined', ''):
+            clean_handle = ""
+
+    # Extract significant words from text
+    words = re.findall(r'\b[a-zA-Z]{3,}\b', text)
+    significant = [w.lower() for w in words if w.lower() not in STOPWORDS][:4]
+
+    if clean_handle and significant:
+        # Handle + first 2 words
+        return f"{clean_handle}-{'-'.join(significant[:2])}"
+    elif significant:
+        # Just first 3 significant words
+        return '-'.join(significant[:3])
+    elif clean_handle:
+        return clean_handle
+
+    return ""

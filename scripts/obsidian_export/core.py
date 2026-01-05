@@ -308,7 +308,8 @@ class TipsExporter(VaultExporter):
                 tweet.posted_at,
                 tweet.text[:100],
                 tweet.id,
-                primary_keyword=tweet.primary_keyword
+                primary_keyword=tweet.primary_keyword,
+                handle=tweet.handle
             )
 
             content = template.render(
