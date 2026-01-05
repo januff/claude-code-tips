@@ -43,6 +43,10 @@ url: "https://x.com/kepano/status/2007223691315499199"
 > there's more but that's off the rip, having a lot of fun
 > *190 likes*
 
+> [!tip]+ ↩️ @kepano · Sat Jan 03 05:20:32 +0000 2026
+
+> @internetvin Can you share any examples of your context files? (feel free to redact anything sensitive)
+
 > [!reply] @roasbeef · Sat Jan 03 01:45:00 +0000 2026
 > @kepano embedded Claude Code directly into @obsdmd using the agent sdk!
 > 
@@ -61,6 +65,12 @@ url: "https://x.com/kepano/status/2007223691315499199"
 > @kepano I used Claude code yesterday to review 2025, and I have all my goals from the last few years on there, asked it to find trends! To help plan 2026
 > *94 likes*
 
+> [!tip]+ ↩️ @kepano · Sat Jan 03 05:14:31 +0000 2026
+
+> @belindmo Can you share some of your prompts? 
+> 
+> Did you discover anything that you wouldn't have found on your own, or did it mostly make the process faster? Something else?
+
 > [!reply] @bleikamp · Fri Jan 02 22:57:37 +0000 2026
 > It's my main interface to Obsidian now
 > 
@@ -78,33 +88,42 @@ url: "https://x.com/kepano/status/2007223691315499199"
 > 2. create specific folders for current projects that im working on and load all the notes/pdfs/there for claude to read. make claude put on a critique lens; make claude role play different perspectives/backgrounds; make claude put valuable points into notes and keep iterating like this
 > *83 likes*
 
+> [!tip]+ ↩️ @kepano · Sat Jan 03 05:17:38 +0000 2026
+
+> @poetengineer__ For 1. are there specific reusable scripts? Can you share any, or the prompts you use?
+
 > [!reply] @jmduke · Fri Jan 02 23:47:07 +0000 2026
 > @kepano mass metadata editing, mostly, also "insert backlinks that I missed"
 > *54 likes*
+
+> [!tip]+ ↩️ @kepano · Sat Jan 03 00:00:19 +0000 2026
+
+> @jmduke Can you give examples of mass metadata editing? Are you having Claude generate Python scripts or how do you control hallucinations?
 
 > [!reply] @DontFearAI · Sat Jan 03 06:23:57 +0000 2026
 > @kepano Somewhat related. I use Obsidian Web Clipper to convert websites to markdown files and then upload them into Claude chats and projects. MD files use way less tokens versus having Claude fetch the websites.
 > *50 likes*
 
-> [!reply] @kepano · Sat Jan 03 07:15:56 +0000 2026
+> [!tip]+ ↩️ @kepano · Sat Jan 03 07:15:56 +0000 2026
+
 > @DontFearAI Yes. LLMs are incredibly slow and wasteful for converting HTML to Markdown, compared to the rules-based approach of Defuddle (the underlying library I built for Obsidian Well Clipper)
-> *47 likes*
 
 > [!reply] @nexo_v1 · Sat Jan 03 01:03:11 +0000 2026
 > @kepano I migrated from Notion to Obsidian specifically for this. Because the vault is just local text files, I can point Claude Code at the directory to get cross-file insights, auto-organize folders, and batch-edit metadata. It's a game changer for maintenance
 > *47 likes*
 
+> [!tip]+ ↩️ @kepano · Sat Jan 03 05:40:04 +0000 2026
+
+> @nexo_v1 yes
+> https://t.co/dFL01LmXek
+
 > [!reply] @davidhoang · Sat Jan 03 03:08:24 +0000 2026
 > @kepano Identify new backlinks to add, synthesize knowledge base and generate summaries, batch re-organization.
 > *45 likes*
 
-> [!reply] @kepano · Sat Jan 03 14:11:28 +0000 2026
-> @matpizarro1005 https://t.co/SwVQ4TxhPx
-> *44 likes*
+> [!tip]+ ↩️ @kepano · Sat Jan 03 03:14:03 +0000 2026
 
-> [!reply] @kepano · Sat Jan 03 05:20:32 +0000 2026
-> @internetvin Can you share any examples of your context files? (feel free to redact anything sensitive)
-> *41 likes*
+> @davidhoang Can you share a bit more about the prompts you use?
 
 > [!reply] @zachtdavidson · Sat Jan 03 05:28:00 +0000 2026
 > The first thing I do when I open my computer these days is ask Claude code “Where were we? check my vault”
@@ -114,21 +133,6 @@ url: "https://x.com/kepano/status/2007223691315499199"
 > Typically Claude code is my “command center” client and Obsidian is my “review/edit” client
 > *29 likes*
 
-> [!reply] @kepano · Sat Jan 03 00:00:19 +0000 2026
-> @jmduke Can you give examples of mass metadata editing? Are you having Claude generate Python scripts or how do you control hallucinations?
-> *25 likes*
-
-> [!reply] @kepano · Sat Jan 03 05:14:31 +0000 2026
-> @belindmo Can you share some of your prompts? 
-> 
-> Did you discover anything that you wouldn't have found on your own, or did it mostly make the process faster? Something else?
-> *21 likes*
-
-> [!reply] @kepano · Sat Jan 03 05:40:04 +0000 2026
-> @nexo_v1 yes
-> https://t.co/dFL01LmXek
-> *21 likes*
-
 > [!reply] @julianfkelly · Sat Jan 03 00:15:50 +0000 2026
 > @kepano I have a https://t.co/ZhugYy0EGR file that contains a style guide, and I'll have Claude update and rename notes, format, add backlinks, organize in folders, then ask me questions about updating the style guide after
 > *19 likes*
@@ -136,10 +140,6 @@ url: "https://x.com/kepano/status/2007223691315499199"
 > [!reply] @chaseadams · Sat Jan 03 03:07:09 +0000 2026
 > @kepano https://t.co/sKmjqzf3av
 > *16 likes*
-
-> [!reply] @kepano · Sat Jan 03 03:14:03 +0000 2026
-> @davidhoang Can you share a bit more about the prompts you use?
-> *14 likes*
 
 > [!reply] @bedesqui · Fri Jan 02 23:27:05 +0000 2026
 > @kepano I wrote cli scripts for following wikilinks, then I mostly @ mention files while I'm talking to claude, works wonders
@@ -153,10 +153,6 @@ url: "https://x.com/kepano/status/2007223691315499199"
 > I can publish them to my website this week (along with my Vault Setup Guide (which @VegetablesReidy asked me about last week). https://t.co/LeVng547W8
 > *12 likes*
 
-> [!reply] @kepano · Sat Jan 03 05:17:38 +0000 2026
-> @poetengineer__ For 1. are there specific reusable scripts? Can you share any, or the prompts you use?
-> *10 likes*
-
 > [!reply] @0317_hiroya · Sat Jan 03 00:02:30 +0000 2026
 > @kepano Hi, kepao!
 > 
@@ -169,6 +165,10 @@ url: "https://x.com/kepano/status/2007223691315499199"
 > @kepano The leap forward is significant enough to make me *never* use Obsidian without Claude again.
 > Not interested in sharing how as this is way too powerful.
 > *6 likes*
+
+> [!tip]+ ↩️ @kepano · Sat Jan 03 14:11:28 +0000 2026
+
+> @matpizarro1005 https://t.co/SwVQ4TxhPx
 
 > [!reply] @InferenceActive · Sat Jan 03 22:08:47 +0000 2026
 > Using Claude Code + @obsdmd + @cursor_ai for knowledge repos and learning paths related to Active Inference and many other topics. 

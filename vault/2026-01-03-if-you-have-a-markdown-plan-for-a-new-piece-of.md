@@ -131,11 +131,8 @@ url: "https://x.com/doodlestein/status/2007588870662107197"
 > 
 > And I will personally answer your questions or problems if you reach out to me on X or on GitHub issues (it might be Claude impersonating me though, lol).
 >
-> Likes: 648 · Replies: 27 · Reposts: 41
-
-## Replies
-
-> [!reply] @doodlestein · Sat Jan 03 23:08:22 +0000 2026
+> ---
+> *@doodlestein · Sat Jan 03 23:08:22 +0000 2026:*
 > Here is a sample AGENTS dot md file for a complex project that uses NextJS for a webapp and also has a typescript CLI tool:
 > 
 > https://t.co/MB64e8DRqL
@@ -143,15 +140,112 @@ url: "https://x.com/doodlestein/status/2007588870662107197"
 > And here is another version I made today for a different project which is a bash script; I simply gave Claude Code the other AGENTS dot md file and told it to adapt it to fit the new project based on the new project's plan document:
 > 
 > https://t.co/Qo4bLctT0j
-> *19 likes*
-
-> [!reply] @doodlestein · Sat Jan 03 23:51:38 +0000 2026
+>
+> ---
+> *@doodlestein · Sat Jan 03 23:51:38 +0000 2026:*
 > Here are some important additional clarifications:
 > 
 > https://t.co/grHeFZSfjG
-> *7 likes*
+>
+> ---
+> *@doodlestein · Sun Jan 04 08:57:48 +0000 2026:*
+> Yet another clarification:
+> 
+> https://t.co/AG2yI9OaLa
+>
+> ---
+> *@doodlestein · Sun Jan 04 00:28:12 +0000 2026:*
+> Even more clarifications:
+> 
+> https://t.co/VKFLIqVYWE
+>
+> ---
+> *@doodlestein · Sun Jan 04 02:19:16 +0000 2026:*
+> Still more clarifications: 
+> 
+> https://t.co/eRfORkBZd6
+>
+> Likes: 648 · Replies: 27 · Reposts: 41
 
-> [!reply] @doodlestein · Sun Jan 04 00:24:31 +0000 2026
+## Replies
+
+> [!reply] @TomDavenport · Sat Jan 03 23:48:04 +0000 2026
+> @doodlestein The prompt is overkill and I’m. Or reading that, but I agree something amazing happens when gpt 5 pro extended makes a plan for codex. Mine has even made a STATE command for my personal codex os to report its status and config for the next round of upgrades.
+> *4 likes*
+
+> [!tip]+ ↩️ @doodlestein · Sat Jan 03 23:58:14 +0000 2026
+
+> @TomDavenport The prompt isn't overkill, it works extremely well.
+
+> [!reply] @advait_jayant · Sat Jan 03 23:53:00 +0000 2026
+> @doodlestein orchestrating a swarm of agents with structured memory is the only way to scale beyond simple scripts. 
+> 
+> the hardest part is maintaining coherent architecture across parallel agents who each think they understand the system but drift in subtly incompatible directions.
+> *3 likes*
+
+> [!tip]+ ↩️ @doodlestein · Sat Jan 03 23:57:42 +0000 2026
+
+> That's why the beads are so important. All that hard work that requires understanding the entire project structure is done in "plan space" where everything can neatly fit entirely in the model's context window. Once the plan is turned into beads, agents only need to understand their current bead. 
+> 
+> It's like how a cook in a busy diner can grab a numbered ticket that tells him to make a pastrami on rye sandwich and he can do that perfectly without needing to concern himself with all the intricacies of the dining room and how long each customer has been waiting, who needs to get their check, etc.
+
+> [!reply] @danieltb_dev · Sat Jan 03 23:35:41 +0000 2026
+> the workflow:
+> 
+> Write markdown plan
+> 
+> GPT Pro (reasoning mode) critiques and improves it
+> 
+> Claude Code converts plan → beads (structured tasks with dependencies)
+> 
+> Spin up 5-10 agents in parallel
+> 
+> Agents coordinate via MCP Agent Mail, work through beads systematically
+> 
+> Review rounds after each bead
+> 
+> Test coverage, UI/UX polish, bug sweeps
+> Commit and push
+> *2 likes*
+
+> [!tip]+ ↩️ @doodlestein · Sat Jan 03 23:51:04 +0000 2026
+
+> You don't even need to write the initial markdown plan yourself. You can write that with GPT Pro, just explaining what it is you want to make. Claude Opus 4.5 in the webapp is also pretty good for helping to make the initial markdown plan, but I still think GPT Pro is the best for this.
+> 
+> I usually also specify the tech stack I want to use. Nowadays, for a web app, it's generally Typescript, Nextjs 16, React 19, Tailwind, Supabase, etc. with anything performance critical being done in rust compiled down to wasm; if it's a CLI tool I usually use Golang or Rust if it's very performance critical. 
+> 
+> BTW, I forgot to mention it above, but I like to have a best practices guide in the project folder and reference it in the AGENTS dot md file.
+> 
+> I have a collection of these that are around 6 months out of date, but you can have Claude Code search the web and update them to the latest versions and ask it to read the latest documentation, articles, blog posts, etc. and make revisions:
+> 
+> https://t.co/Br4INOoPwo
+> 
+> Also, when prompting the model to create the initial markdown plan version, I spend a lot of time explaining the goals and intent of the project and detailing the workflows. That is, how you want the final software to work from the standpoint of the user's interactions. The more the model understand about what is you're really trying to accomplish and the end goal and why, it can do a better job for you.
+
+> [!reply] @JohnThilen · Sun Jan 04 00:11:43 +0000 2026
+> That is an impressively comprehensive guide, that is also better than my current workflow in several ways! There are however a few things that I would still do differently.
+> 
+> 1. The initial plan review should take implementation complexity in mind. Should implementation be iterative? Should a skeleton of frontend+backend come first, or should the protocol between them be defined first? What extent of testing would increase likelihood of succeeding?
+> 
+> 2. Before using beads, i let the agent describe the relationships between tasks into the tasks, so that e.g. one task about setting up an MVP didn't also implement authentication, since that was already a separate defined task. This was however something I did a couple of months ago, and perhaps opus 4.5 and got 5.2 pro won't mess up like that.
+> 
+> 3. One thing that taskmaster does right is the concept of researching tasks, which is something I'm missing here. Which tech stack should be used? Are there existing open source projects that does parts of this? Existing libraries/packages?
+> 
+> 4. If each bead is a bit complex then I think it makes sense to document design decisions in markdown, as well as reviewing planned beads to see if there they need to be updated with lessons-learned from the work that was done. A bit like wrapping up your task while things are fresh in context before compacting and starting the next task. However, the part about updating other tasks messed up my attempts to execute tasks in parallel, and I am quite curious about what you think is a good approach (or whether) to incorporate such feedback. It seems like you are doing something similar with agents dot md?
+> 
+> 5. Since I like security, for non-trivial apps, I do a security review pass when the high level architecture (interfaces and protocols, basic use cases) are done/known. Concretely this is mostly about defining areas of responsibility, error handling (or even need for fuzzing), logical issues related to parallelization, and similar. Maybe keeping track of what info is known by which part of the system. I'm sure opus and gpt can come up with a good list of things to consider.
+> 
+> Some questions:
+> 
+> 6. How do you divide the tasks to your swarm of agents? Do you have an orchestrator agent that executes agents in the background?
+> 
+> 7. You say that agents "introduce themselves"over email. Do they need individual areas of expertise for this to be efficient, or can there be 10 generalists sending basically the same introduction email?
+> 
+> 8. You add testing after implementing a while. Do you have some traceability between git commit/branch and bead so it becomes easier to see what changes were made for one bead, so that testing that bead can be added by an agent with a fresh context window?
+> *2 likes*
+
+> [!tip]+ ↩️ @doodlestein · Sun Jan 04 00:24:31 +0000 2026
+
 > "Should a skeleton of frontend+backend come first"; I think you get a better result faster by creating one big comprehensive, detailed, granular plan. That's the only way to get these models to use their big brains to understand the entire system all at the same time. Once you start turning it into actual code, it gets way too big to understand.
 > 
 > Finding the flaws and fixing them is the whole point of all the iterations and blending in the feedback from all the frontier models. If you follow the procedure I outlined using those specific models and prompts, after enough rounds, you will have an extremely good plan that will "just work."
@@ -201,128 +295,14 @@ url: "https://x.com/doodlestein/status/2007588870662107197"
 > Yes, bv automatically does this analysis and links beads to the relevant git commits by analyzing the stream of data and making logical deductions.
 > 
 > Damn, that was a lot of questions! I should start charging for this :)
-> *5 likes*
-
-> [!reply] @doodlestein · Sun Jan 04 01:16:55 +0000 2026
-> @abhilashreddi I have 8 Max accounts, 4 Pro accounts, 3 Gemini Ultra accounts. There is no contractor in the world that could approach what I'm putting out using these agents, and if there were, it would cost millions. Besides, I have a  consulting business that covers these costs.
-> *5 likes*
-
-> [!reply] @doodlestein · Sat Jan 03 23:54:09 +0000 2026
-> Well, let's be precise here: the GPT Pro web app doesn't need to know anything about beads. Really the question is, how does Codex-cli using GPT 5.2 know about beads. 
-> 
-> And the answer is that it is totally explained in the AGENTS dot md file, as are all the other tools like agent mail, bv, ubs, cass, etc.
-> 
-> If you don't have a good AGENTS dot md file, none of this stuff is going to work well. That's also why I'm so insistent on ensuring that they constantly re-read the AGENTS dot md file; otherwise, they totally forgot what they're doing and how to operatre.
-> *4 likes*
-
-> [!reply] @doodlestein · Sat Jan 03 23:57:42 +0000 2026
-> That's why the beads are so important. All that hard work that requires understanding the entire project structure is done in "plan space" where everything can neatly fit entirely in the model's context window. Once the plan is turned into beads, agents only need to understand their current bead. 
-> 
-> It's like how a cook in a busy diner can grab a numbered ticket that tells him to make a pastrami on rye sandwich and he can do that perfectly without needing to concern himself with all the intricacies of the dining room and how long each customer has been waiting, who needs to get their check, etc.
-> *4 likes*
-
-> [!reply] @TomDavenport · Sat Jan 03 23:48:04 +0000 2026
-> @doodlestein The prompt is overkill and I’m. Or reading that, but I agree something amazing happens when gpt 5 pro extended makes a plan for codex. Mine has even made a STATE command for my personal codex os to report its status and config for the next round of upgrades.
-> *4 likes*
-
-> [!reply] @doodlestein · Sat Jan 03 23:51:04 +0000 2026
-> You don't even need to write the initial markdown plan yourself. You can write that with GPT Pro, just explaining what it is you want to make. Claude Opus 4.5 in the webapp is also pretty good for helping to make the initial markdown plan, but I still think GPT Pro is the best for this.
-> 
-> I usually also specify the tech stack I want to use. Nowadays, for a web app, it's generally Typescript, Nextjs 16, React 19, Tailwind, Supabase, etc. with anything performance critical being done in rust compiled down to wasm; if it's a CLI tool I usually use Golang or Rust if it's very performance critical. 
-> 
-> BTW, I forgot to mention it above, but I like to have a best practices guide in the project folder and reference it in the AGENTS dot md file.
-> 
-> I have a collection of these that are around 6 months out of date, but you can have Claude Code search the web and update them to the latest versions and ask it to read the latest documentation, articles, blog posts, etc. and make revisions:
-> 
-> https://t.co/Br4INOoPwo
-> 
-> Also, when prompting the model to create the initial markdown plan version, I spend a lot of time explaining the goals and intent of the project and detailing the workflows. That is, how you want the final software to work from the standpoint of the user's interactions. The more the model understand about what is you're really trying to accomplish and the end goal and why, it can do a better job for you.
-> *3 likes*
-
-> [!reply] @doodlestein · Sun Jan 04 08:57:48 +0000 2026
-> Yet another clarification:
-> 
-> https://t.co/AG2yI9OaLa
-> *3 likes*
-
-> [!reply] @advait_jayant · Sat Jan 03 23:53:00 +0000 2026
-> @doodlestein orchestrating a swarm of agents with structured memory is the only way to scale beyond simple scripts. 
-> 
-> the hardest part is maintaining coherent architecture across parallel agents who each think they understand the system but drift in subtly incompatible directions.
-> *3 likes*
-
-> [!reply] @doodlestein · Sun Jan 04 00:28:12 +0000 2026
-> Even more clarifications:
-> 
-> https://t.co/VKFLIqVYWE
-> *2 likes*
-
-> [!reply] @doodlestein · Sat Jan 03 23:58:14 +0000 2026
-> @TomDavenport The prompt isn't overkill, it works extremely well.
-> *2 likes*
-
-> [!reply] @danieltb_dev · Sat Jan 03 23:35:41 +0000 2026
-> the workflow:
-> 
-> Write markdown plan
-> 
-> GPT Pro (reasoning mode) critiques and improves it
-> 
-> Claude Code converts plan → beads (structured tasks with dependencies)
-> 
-> Spin up 5-10 agents in parallel
-> 
-> Agents coordinate via MCP Agent Mail, work through beads systematically
-> 
-> Review rounds after each bead
-> 
-> Test coverage, UI/UX polish, bug sweeps
-> Commit and push
-> *2 likes*
-
-> [!reply] @JohnThilen · Sun Jan 04 00:11:43 +0000 2026
-> That is an impressively comprehensive guide, that is also better than my current workflow in several ways! There are however a few things that I would still do differently.
-> 
-> 1. The initial plan review should take implementation complexity in mind. Should implementation be iterative? Should a skeleton of frontend+backend come first, or should the protocol between them be defined first? What extent of testing would increase likelihood of succeeding?
-> 
-> 2. Before using beads, i let the agent describe the relationships between tasks into the tasks, so that e.g. one task about setting up an MVP didn't also implement authentication, since that was already a separate defined task. This was however something I did a couple of months ago, and perhaps opus 4.5 and got 5.2 pro won't mess up like that.
-> 
-> 3. One thing that taskmaster does right is the concept of researching tasks, which is something I'm missing here. Which tech stack should be used? Are there existing open source projects that does parts of this? Existing libraries/packages?
-> 
-> 4. If each bead is a bit complex then I think it makes sense to document design decisions in markdown, as well as reviewing planned beads to see if there they need to be updated with lessons-learned from the work that was done. A bit like wrapping up your task while things are fresh in context before compacting and starting the next task. However, the part about updating other tasks messed up my attempts to execute tasks in parallel, and I am quite curious about what you think is a good approach (or whether) to incorporate such feedback. It seems like you are doing something similar with agents dot md?
-> 
-> 5. Since I like security, for non-trivial apps, I do a security review pass when the high level architecture (interfaces and protocols, basic use cases) are done/known. Concretely this is mostly about defining areas of responsibility, error handling (or even need for fuzzing), logical issues related to parallelization, and similar. Maybe keeping track of what info is known by which part of the system. I'm sure opus and gpt can come up with a good list of things to consider.
-> 
-> Some questions:
-> 
-> 6. How do you divide the tasks to your swarm of agents? Do you have an orchestrator agent that executes agents in the background?
-> 
-> 7. You say that agents "introduce themselves"over email. Do they need individual areas of expertise for this to be efficient, or can there be 10 generalists sending basically the same introduction email?
-> 
-> 8. You add testing after implementing a while. Do you have some traceability between git commit/branch and bead so it becomes easier to see what changes were made for one bead, so that testing that bead can be added by an agent with a fresh context window?
-> *2 likes*
-
-> [!reply] @doodlestein · Sun Jan 04 02:19:16 +0000 2026
-> Still more clarifications: 
-> 
-> https://t.co/eRfORkBZd6
-> *1 likes*
-
-> [!reply] @doodlestein · Sun Jan 04 08:56:14 +0000 2026
-> All of that happens in the planning phase. I ask all the frontier models to come up with plans and then show their plans to GPT 5.2 Pro in the web app with a prompt of this form:
-> 
-> ---
-> 
-> I asked 3 competing LLMs to do the exact same thing and they came up with pretty different plans which you can read below. I want you to REALLY carefully analyze their plans with an open mind and be intellectually honest about what they did that's better than your plan. Then I want you to come up with the best possible revisions to your plan (you should simply update your existing document for your original plan with the revisions) that artfully and skillfully blends the "best of all worlds" to create a true, ultimate, superior hybrid version of the plan that best achieves our stated goals and will work the best in real-world practice to solve the problems we are facing and our overarching goals while ensuring the extreme success of the enterprise as best as possible; you should provide me with a complete series of git-diff style changes to your original plan to turn it into the new, enhanced, much longer and detailed plan that integrates the best of all the plans with every good idea included (you don't need to mention which ideas came from which models in the final revised enhanced plan):
-> *1 likes*
 
 > [!reply] @somi_ai · Sun Jan 04 06:29:59 +0000 2026
 > The multi-agent coordination insight here is underrated. We've found the biggest challenge isn't getting agents to complete tasks, it's preventing duplicate work when they race to claim the same bead. Adding a simple lock/claim mechanism before starting each task cut our wasted cycles significantly.
 > *1 likes*
 
-> [!reply] @doodlestein · Sun Jan 04 08:57:11 +0000 2026
+> [!tip]+ ↩️ @doodlestein · Sun Jan 04 08:57:11 +0000 2026
+
 > @somi_ai That problem is solved by Agent Mail in my workflow (and also by telling the agents to mark beads as being in-progress as soon as they start work on them).
-> *1 likes*
 
 > [!reply] @nyn · Sun Jan 04 13:34:52 +0000 2026
 > @doodlestein this is super deep and sounds absolutely surreal. And looking at your refernce repo, I can see the quality of code and documentation! 
@@ -330,15 +310,23 @@ url: "https://x.com/doodlestein/status/2007588870662107197"
 > Would it be possible to post a loom/screen share on a sample project?
 > *1 likes*
 
-> [!reply] @doodlestein · Sun Jan 04 15:25:15 +0000 2026
+> [!tip]+ ↩️ @doodlestein · Sun Jan 04 15:25:15 +0000 2026
+
 > @nyn See this;
 > 
 > https://t.co/4LZ84VgVRH
-> *1 likes*
 
 > [!reply] @dubs3c · Sun Jan 04 00:28:56 +0000 2026
 > @doodlestein Even better, use multiple personas
 > *1 likes*
+
+> [!tip]+ ↩️ @doodlestein · Sun Jan 04 00:49:13 +0000 2026
+
+> I disagree, I think it's much better to keep each agent fungible and replaceable at will so that when they crash or lose their memory or whatever you can simply boot up a new one and they can parachute in and immediately be useful. Trying to give each one a role make everything more brittle. 
+> 
+> I'm not saying your approach is wrong or won't work, I'm just telling you what I've settled on and I know works really well for super high velocity development of complex projects.
+> 
+> Agents die or crash or get dumb/have amnesia all the time and you want your system to be immune to that so you don't even care when it happens.
 
 > [!reply] @dubs3c · Sat Jan 03 00:43:22 +0000 2026
 > started incorporating my council of experts in my development flow, pretty good feedback loop between code agent &lt;-&gt; the council. although, the expert personas and initial https://t.co/F60JWIcYWf need to be tuned, otherwise the agents may talk about things that are insignificant https://t.co/nHIV84wQed
@@ -348,29 +336,35 @@ url: "https://x.com/doodlestein/status/2007588870662107197"
 > @doodlestein Solid process. Iteration seems key for refining the plan. Have you tried tracking those incremental changes over time? Would be neat to see the evolution
 > *1 likes*
 
+> [!tip]+ ↩️ @doodlestein · Sun Jan 04 04:03:02 +0000 2026
+
+> @sir4K_zen I do have them but tend not to look back much at the previous revisions because they’re usually strictly worse than the final one. It’s really more about the process than the specifics of any particular plan.
+
 > [!reply] @Netman2048 · Sun Jan 04 00:06:53 +0000 2026
 > @doodlestein when I first started messing around with ChatGPT early 2025, i would have a conv around the app i wanted to build. it would generate arch docs, but it would start with v1, then do v1.1 but 1.1, 1.2x etc were deltas and it wouldnt make a full doc no matter how much i prompted it.
 > *1 likes*
 
-> [!reply] @doodlestein · Sun Jan 04 00:08:19 +0000 2026
+> [!tip]+ ↩️ @doodlestein · Sun Jan 04 00:08:19 +0000 2026
+
 > @Netman2048 The trick is to explicitly ask it for git-diff style changes and then have CC or codex implement the changes against the original plan document. That solves the problem, and also the related problem of the model silently truncating parts or leaving out features and functionality.
-> *1 likes*
 
 > [!reply] @abhilashreddi · Sun Jan 04 00:58:03 +0000 2026
 > @doodlestein $550/mo just for the subscriptions seems steep for solo devs. have u calculated the break even point vs hiring a contractor?
 
+> [!tip]+ ↩️ @doodlestein · Sun Jan 04 01:16:55 +0000 2026
+
+> @abhilashreddi I have 8 Max accounts, 4 Pro accounts, 3 Gemini Ultra accounts. There is no contractor in the world that could approach what I'm putting out using these agents, and if there were, it would cost millions. Besides, I have a  consulting business that covers these costs.
+
 > [!reply] @DmitryMakarovML · Sun Jan 04 05:29:07 +0000 2026
 > Is the plan you describe above also the outcome of a debate among multiple LLMs? I.e.,  can multiple LLMs arguing with each other come up with a system that is simpler/cheaper/more robust than the above one and yet is expected to produce the outcome of a similar or better quality?
 
-> [!reply] @doodlestein · Sun Jan 04 00:49:13 +0000 2026
-> I disagree, I think it's much better to keep each agent fungible and replaceable at will so that when they crash or lose their memory or whatever you can simply boot up a new one and they can parachute in and immediately be useful. Trying to give each one a role make everything more brittle. 
-> 
-> I'm not saying your approach is wrong or won't work, I'm just telling you what I've settled on and I know works really well for super high velocity development of complex projects.
-> 
-> Agents die or crash or get dumb/have amnesia all the time and you want your system to be immune to that so you don't even care when it happens.
+> [!tip]+ ↩️ @doodlestein · Sun Jan 04 08:56:14 +0000 2026
 
-> [!reply] @doodlestein · Sun Jan 04 04:03:02 +0000 2026
-> @sir4K_zen I do have them but tend not to look back much at the previous revisions because they’re usually strictly worse than the final one. It’s really more about the process than the specifics of any particular plan.
+> All of that happens in the planning phase. I ask all the frontier models to come up with plans and then show their plans to GPT 5.2 Pro in the web app with a prompt of this form:
+> 
+> ---
+> 
+> I asked 3 competing LLMs to do the exact same thing and they came up with pretty different plans which you can read below. I want you to REALLY carefully analyze their plans with an open mind and be intellectually honest about what they did that's better than your plan. Then I want you to come up with the best possible revisions to your plan (you should simply update your existing document for your original plan with the revisions) that artfully and skillfully blends the "best of all worlds" to create a true, ultimate, superior hybrid version of the plan that best achieves our stated goals and will work the best in real-world practice to solve the problems we are facing and our overarching goals while ensuring the extreme success of the enterprise as best as possible; you should provide me with a complete series of git-diff style changes to your original plan to turn it into the new, enhanced, much longer and detailed plan that integrates the best of all the plans with every good idea included (you don't need to mention which ideas came from which models in the final revised enhanced plan):
 
 
 > [!metrics]- Engagement & Metadata

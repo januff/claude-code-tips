@@ -27,6 +27,12 @@ url: "https://x.com/nummanali/status/2007849823756575084"
 > 
 > Ask it to load the orchestration skill and to initiate
 >
+> ---
+> *@nummanali · Sun Jan 04 16:21:17 +0000 2026:*
+> CC Mirror Repo
+> 
+> https://t.co/TruC20Yxtz
+>
 > Likes: 220 · Replies: 14 · Reposts: 20
 
 ## Replies
@@ -51,23 +57,17 @@ url: "https://x.com/nummanali/status/2007849823756575084"
 > Spin up clusters in minutes with Voltage  Park On-Demand. Scale to thousands, billed by the second.
 > *53 likes*
 
-> [!reply] @nummanali · Sun Jan 04 16:21:17 +0000 2026
-> CC Mirror Repo
-> 
-> https://t.co/TruC20Yxtz
-> *8 likes*
-
 > [!reply] @stableAPY · Sun Jan 04 16:26:43 +0000 2026
 > @nummanali Your last tweets about that got me downloading cc-mirror for my GLM 4.7 coding plan
 > 
 > updating right away
 > *3 likes*
 
-> [!reply] @nummanali · Sun Jan 04 16:27:35 +0000 2026
+> [!tip]+ ↩️ @nummanali · Sun Jan 04 16:27:35 +0000 2026
+
 > @stableAPY Quick installation skips team mode for glm, use the new variant options or update it after creation
 > 
 > GLM handles the multi agent coordination very well
-> *2 likes*
 
 > [!reply] @Teraaiguide · Sun Jan 04 22:14:34 +0000 2026
 > @nummanali “Kraken” releases &amp; tools like claude‑flow turn Claude Code into a multi‑agent orchestrator you control with npm commands. 
@@ -81,11 +81,11 @@ url: "https://x.com/nummanali/status/2007849823756575084"
 > @nummanali the skill only works when using the patched version right?
 > *1 likes*
 
-> [!reply] @nummanali · Sun Jan 04 19:16:25 +0000 2026
+> [!tip]+ ↩️ @nummanali · Sun Jan 04 19:16:25 +0000 2026
+
 > @roderik Atm because the tools only enable in the patched version 
 > 
 > But when they publicly release it’ll be applicable on main Claude
-> *1 likes*
 
 > [!reply] @mpela81 · Sun Jan 04 18:27:35 +0000 2026
 > @nummanali Is it supported on windows? It's failing to me with:
@@ -93,7 +93,8 @@ url: "https://x.com/nummanali/status/2007849823756575084"
 > Regular claude code works fine.
 > *1 likes*
 
-> [!reply] @nummanali · Sun Jan 04 18:34:35 +0000 2026
+> [!tip]+ ↩️ @nummanali · Sun Jan 04 18:34:35 +0000 2026
+
 > @mpela81 @Anthropic I don’t think it works on windows 
 > 
 > Others have reported 
@@ -101,33 +102,32 @@ url: "https://x.com/nummanali/status/2007849823756575084"
 > Can you open an issue please 
 > 
 > https://t.co/TruC20Yxtz
-> *1 likes*
 
 > [!reply] @jacobferrari_ · Sun Jan 04 17:59:47 +0000 2026
 > @nummanali pumped, going to test this now!
 > *1 likes*
 
-> [!reply] @nummanali · Sun Jan 04 18:00:19 +0000 2026
+> [!tip]+ ↩️ @nummanali · Sun Jan 04 18:00:19 +0000 2026
+
 > @jacobferrari_ Let me know how it goes !
-> *1 likes*
 
 > [!reply] @vivekdevops · Sun Jan 04 18:14:22 +0000 2026
 > @nummanali Does this support --chrome
 > *1 likes*
 
-> [!reply] @nummanali · Sun Jan 04 18:29:34 +0000 2026
+> [!tip]+ ↩️ @nummanali · Sun Jan 04 18:29:34 +0000 2026
+
 > @vivekdevops The Claude Mirror variant does 
 > 
 > Chrome needs a Claude subscription
-> *1 likes*
 
 > [!reply] @TalkwithAI · Sun Jan 04 20:45:21 +0000 2026
 > @nummanali I've started trying Droid with claude. Is it better than Droid?
 > *1 likes*
 
-> [!reply] @nummanali · Sun Jan 04 20:48:51 +0000 2026
+> [!tip]+ ↩️ @nummanali · Sun Jan 04 20:48:51 +0000 2026
+
 > @TalkwithAI IMO Claude Code is the best for Opus 4.5
-> *1 likes*
 
 > [!reply] @Zay878458749421 · Sun Jan 04 16:59:17 +0000 2026
 > @nummanali How is this better than the  orchestrator plugin from @0xSero ? Is it just different and for cc?

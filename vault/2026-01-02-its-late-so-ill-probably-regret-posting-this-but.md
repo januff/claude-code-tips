@@ -21,6 +21,18 @@ url: "https://x.com/alexhillman/status/2006968571268661423"
 > 
 > special thanks to @steipete, this would be a lot messier without his work!
 >
+> ---
+> *@alexhillman · Fri Jan 02 06:01:49 +0000 2026:*
+> Smaug is the most useful parts of my very custom system, built to bridge your Twitter bookmarks with your favorite knowledge system (Obsidian, etc) with a simple and reliable agentic personal assistant who...happens to act like a dragon.
+>
+> ---
+> *@alexhillman · Fri Jan 02 06:03:08 +0000 2026:*
+> Run it manually a few times to learn how it works, then set it up to run as often as you want (instructions in the readme). 
+> 
+> ~20 bookmarks typically takes it ~5-7 minutes depending on how many links they contain and what's inside them. 
+> 
+> have fun, PRs welcome!
+>
 > Likes: 1,114 · Replies: 54 · Reposts: 69
 
 ## Replies
@@ -29,29 +41,17 @@ url: "https://x.com/alexhillman/status/2006968571268661423"
 > @alexhillman ayyyy thanks for this fam! i was able to use Claude opus + anti gravity to put this together in like 2 hours https://t.co/9Lkm1RqNWK
 > *17 likes*
 
-> [!reply] @alexhillman · Fri Jan 02 06:01:49 +0000 2026
-> Smaug is the most useful parts of my very custom system, built to bridge your Twitter bookmarks with your favorite knowledge system (Obsidian, etc) with a simple and reliable agentic personal assistant who...happens to act like a dragon.
-> *16 likes*
+> [!tip]+ ↩️ @alexhillman · Fri Jan 02 15:43:29 +0000 2026
 
-> [!reply] @alexhillman · Fri Jan 02 06:03:08 +0000 2026
-> Run it manually a few times to learn how it works, then set it up to run as often as you want (instructions in the readme). 
-> 
-> ~20 bookmarks typically takes it ~5-7 minutes depending on how many links they contain and what's inside them. 
-> 
-> have fun, PRs welcome!
-> *13 likes*
-
-> [!reply] @alexhillman · Fri Jan 02 15:43:29 +0000 2026
 > @emmagine79 Brooooo this is awesome! 🙌 Lemme know if you end up publishing, happy to link to it from the repo
-> *4 likes*
 
 > [!reply] @brianball · Fri Jan 02 17:01:07 +0000 2026
 > @alexhillman https://t.co/NzZSpwupWP
 > *2 likes*
 
-> [!reply] @alexhillman · Fri Jan 02 17:03:17 +0000 2026
+> [!tip]+ ↩️ @alexhillman · Fri Jan 02 17:03:17 +0000 2026
+
 > @brianball https://t.co/yJQWRL6Omq
-> *2 likes*
 
 > [!reply] @khemaridh · Sun Jan 04 18:56:24 +0000 2026
 > @alexhillman Man, I am a non-coder learning all this stuff. Your feed has been gold, so many threads to pull on. And your excitement is contagious.
@@ -59,55 +59,46 @@ url: "https://x.com/alexhillman/status/2006968571268661423"
 > Thanks, Alex!
 > *2 likes*
 
+> [!tip]+ ↩️ @alexhillman · Sun Jan 04 19:06:19 +0000 2026
+
+> @khemaridh love to hear that Khe, i've learned lots from your work over the years so very happy that I've been able to return the favor! lemme know if you ever wanna jam on stuff :)
+
 > [!reply] @notajungman · Fri Jan 02 15:04:09 +0000 2026
 > @alexhillman thanks for posting this..
 > but when 4.20 comes out.. could you please call that revision Puff The Magic Dragon?
 > *2 likes*
 
-> [!reply] @alexhillman · Fri Jan 02 22:16:00 +0000 2026
-> I could be wrong but I'd be surprised its the parallel part, more likely depends on what you're bookmarking. 
-> 
-> tweets with lots of links to big articles/etc is gonna cost more cuz it's reviewing all that stuff.
-> 
-> def makes sense to throw that against a cheaper model, possibly even a free one like Open Router's free tier.
-> *2 likes*
+> [!tip]+ ↩️ @alexhillman · Fri Jan 02 15:23:57 +0000 2026
+
+> @notajungman Hahah
 
 > [!reply] @DaelonSuzuka · Fri Jan 02 18:13:10 +0000 2026
 > @alexhillman This would have been helpful *before* I decided to never bookmark anything because I knew I'd never look at them.
 > *2 likes*
 
-> [!reply] @alexhillman · Fri Jan 02 17:05:40 +0000 2026
-> @Zer0dots the bookmark gang is bananas
-> *1 likes*
+> [!tip]+ ↩️ @alexhillman · Fri Jan 02 18:16:56 +0000 2026
 
-> [!reply] @alexhillman · Fri Jan 02 15:23:57 +0000 2026
-> @notajungman Hahah
-> *1 likes*
-
-> [!reply] @alexhillman · Sat Jan 03 06:38:59 +0000 2026
-> @welshofer Whose rate limit? This isn't using Twitter's api if that's what you mean. If you mean Claude it's the best $200/mo I spend.
-> *1 likes*
-
-> [!reply] @alexhillman · Fri Jan 02 18:16:56 +0000 2026
 > @DaelonSuzuka https://t.co/0HgqcEk6xB
-> *1 likes*
 
 > [!reply] @Zer0dots · Fri Jan 02 16:11:33 +0000 2026
 > @alexhillman Bookmark/like ratio is wild with this one
 
-> [!reply] @alexhillman · Sun Jan 04 19:06:19 +0000 2026
-> @khemaridh love to hear that Khe, i've learned lots from your work over the years so very happy that I've been able to return the favor! lemme know if you ever wanna jam on stuff :)
+> [!tip]+ ↩️ @alexhillman · Fri Jan 02 17:05:40 +0000 2026
+
+> @Zer0dots the bookmark gang is bananas
 
 > [!reply] @bitdeep_ · Fri Jan 02 13:29:10 +0000 2026
 > @alexhillman ho, hope this one is good, getting this x bookmarks are pretty hard in folders with images/videos etc.
 
-> [!reply] @alexhillman · Fri Jan 02 15:33:26 +0000 2026
+> [!tip]+ ↩️ @alexhillman · Fri Jan 02 15:33:26 +0000 2026
+
 > @bitdeep_ Not fully sure how well it handles folders yet, images and videos are def on the way. Contributions welcome!
 
 > [!reply] @draparente · Sat Jan 03 20:10:19 +0000 2026
 > @alexhillman I had started building the same thing with bird over new years, crazy how fast software moves now!
 
-> [!reply] @alexhillman · Sat Jan 03 20:12:47 +0000 2026
+> [!tip]+ ↩️ @alexhillman · Sat Jan 03 20:12:47 +0000 2026
+
 > @draparente it really is wild, and cool to see so many people trying similar things in their own way. 
 > 
 > how is yours set up?
@@ -117,8 +108,20 @@ url: "https://x.com/alexhillman/status/2006968571268661423"
 > 
 > The parallel agent orchestration is cool but seems like overkill for this volume. Might need to switch fully to Haiku or rethink the sub-agent strategy. https://t.co/u9U9BIHZuc
 
+> [!tip]+ ↩️ @alexhillman · Fri Jan 02 22:16:00 +0000 2026
+
+> I could be wrong but I'd be surprised its the parallel part, more likely depends on what you're bookmarking. 
+> 
+> tweets with lots of links to big articles/etc is gonna cost more cuz it's reviewing all that stuff.
+> 
+> def makes sense to throw that against a cheaper model, possibly even a free one like Open Router's free tier.
+
 > [!reply] @welshofer · Sat Jan 03 06:16:19 +0000 2026
 > @alexhillman This is awesome. I built something similar with a firebase backend, dashboard, and iOS client but: How do you manage the ridiculously small rate limit? Or are you handing them $200 a month.
+
+> [!tip]+ ↩️ @alexhillman · Sat Jan 03 06:38:59 +0000 2026
+
+> @welshofer Whose rate limit? This isn't using Twitter's api if that's what you mean. If you mean Claude it's the best $200/mo I spend.
 
 
 > [!metrics]- Engagement & Metadata

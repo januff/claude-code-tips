@@ -35,29 +35,25 @@ url: "https://x.com/housecor/status/2007516621825552416"
 > @housecor I'd recommend the dev-browser skill to replace the playwright MCP. Seems to work just as well without context bloat: https://t.co/44R8ajxUOb
 > *61 likes*
 
+> [!tip]+ ↩️ @housecor · Sat Jan 03 18:37:37 +0000 2026
+
+> @smerchek Nice timing - Just found that repo an hour ago! Eager to try
+
 > [!reply] @mattsichterman · Sat Jan 03 21:07:59 +0000 2026
 > @housecor Lock in to https://t.co/n4jDINxUkH
 > *14 likes*
 
-> [!reply] @housecor · Sat Jan 03 21:31:47 +0000 2026
-> @YakutKhon Playwright MCP works cross-browser, uses the accessibility tree, and has a headless mode. 
-> 
-> But both have their tradeoffs.
-> 
-> Details here: https://t.co/89hj3ft7kc
-> *6 likes*
+> [!tip]+ ↩️ @housecor · Sat Jan 03 21:19:33 +0000 2026
+
+> @mattsichterman Yep, someone else mentioned too
 
 > [!reply] @davidfano · Sat Jan 03 21:43:15 +0000 2026
 > @housecor Just found playwriter and it’s pretty cool.
 > *5 likes*
 
-> [!reply] @housecor · Sat Jan 03 21:13:23 +0000 2026
-> @ntkris Yes I tell it to
-> *4 likes*
+> [!tip]+ ↩️ @housecor · Sat Jan 03 22:50:12 +0000 2026
 
-> [!reply] @housecor · Sat Jan 03 18:37:37 +0000 2026
-> @smerchek Nice timing - Just found that repo an hour ago! Eager to try
-> *3 likes*
+> @davidfano yep multiple people mentioned. Eager to try
 
 > [!reply] @pk_iv · Sun Jan 04 13:12:21 +0000 2026
 > @housecor If you're running on a VPS and don't have access to chrome, you can always use this: https://t.co/4BFmOjulpZ
@@ -67,36 +63,24 @@ url: "https://x.com/housecor/status/2007516621825552416"
 > @housecor DevTools MCP is killer for catching those hidden bottlenecks that regular testing completely misses.
 > *3 likes*
 
-> [!reply] @housecor · Sat Jan 03 22:50:12 +0000 2026
-> @davidfano yep multiple people mentioned. Eager to try
-> *2 likes*
-
-> [!reply] @housecor · Sat Jan 03 22:50:54 +0000 2026
-> @TendiesOfWisdom Using a subagent still uses the same number of tokens, right? 
-> 
-> Perhaps I'm misunderstanding you?
-> *2 likes*
-
-> [!reply] @housecor · Sat Jan 03 21:19:33 +0000 2026
-> @mattsichterman Yep, someone else mentioned too
-> *1 likes*
-
-> [!reply] @housecor · Sun Jan 04 16:27:39 +0000 2026
-> @mattarderne Haven’t hit that
-> *1 likes*
-
 > [!reply] @TendiesOfWisdom · Sat Jan 03 22:04:20 +0000 2026
 > @housecor Do you spin these up as subagents to protect the main context window (since they eat tokens)?
 > *1 likes*
+
+> [!tip]+ ↩️ @housecor · Sat Jan 03 22:50:54 +0000 2026
+
+> @TendiesOfWisdom Using a subagent still uses the same number of tokens, right? 
+> 
+> Perhaps I'm misunderstanding you?
 
 > [!reply] @decruz · Sun Jan 04 03:23:00 +0000 2026
 > @housecor This is the solution:
 > https://t.co/WoXSeawLyf
 > *1 likes*
 
-> [!reply] @housecor · Sun Jan 04 13:58:54 +0000 2026
+> [!tip]+ ↩️ @housecor · Sun Jan 04 13:58:54 +0000 2026
+
 > @decruz Yep, many people suggested
-> *1 likes*
 
 > [!reply] @shipitniko · Sat Jan 03 20:48:53 +0000 2026
 > Feels like a quiet turning point where the browser stops being a UI for humans and starts being an API for agents
@@ -122,11 +106,27 @@ url: "https://x.com/housecor/status/2007516621825552416"
 > [!reply] @ntkris · Sat Jan 03 19:59:27 +0000 2026
 > @housecor Have you found a way to have it test its own changes via one of these tools? Changes via claude code I mean
 
+> [!tip]+ ↩️ @housecor · Sat Jan 03 21:13:23 +0000 2026
+
+> @ntkris Yes I tell it to
+
 > [!reply] @mattarderne · Sun Jan 04 16:00:15 +0000 2026
 > @housecor What do you do when Plawright is getting locked out by cloudflare?
 
+> [!tip]+ ↩️ @housecor · Sun Jan 04 16:27:39 +0000 2026
+
+> @mattarderne Haven’t hit that
+
 > [!reply] @YakutKhon · Sat Jan 03 20:12:45 +0000 2026
 > @housecor Why do you rate Playwright higher than Claude Chrome extension? Isn't it harder to setup than to teach Claude Chrome? Granted it's a bit slow today, but so much easier to use and make changes
+
+> [!tip]+ ↩️ @housecor · Sat Jan 03 21:31:47 +0000 2026
+
+> @YakutKhon Playwright MCP works cross-browser, uses the accessibility tree, and has a headless mode. 
+> 
+> But both have their tradeoffs.
+> 
+> Details here: https://t.co/89hj3ft7kc
 
 > [!reply] @nnnnicholas · Sat Jan 03 21:55:58 +0000 2026
 > @housecor have you tried having claude extension do research using other ai tools? this is where i’m headed. no more copy pasting between 5 ai apps to get a pro research synthesis

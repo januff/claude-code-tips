@@ -23,10 +23,6 @@ url: "https://x.com/alxfazio/status/2007151926614593739"
 > Will you join us in this effort and become One for Israel?
 > *518 likes*
 
-> [!reply] @alxfazio · Fri Jan 02 21:20:24 +0000 2026
-> @chrisbmullins beads is a meme
-> *11 likes*
-
 > [!reply] @lucidpaths33 · Fri Jan 02 20:22:57 +0000 2026
 > @alxfazio when is to better to use a sub-agent versus a skill?
 > 
@@ -35,29 +31,21 @@ url: "https://x.com/alxfazio/status/2007151926614593739"
 > sorry for lack of term knowledge:/
 > *8 likes*
 
-> [!reply] @alxfazio · Fri Jan 02 21:21:49 +0000 2026
-> @andreihasna @trq212 you can literally ask claude to not check subtask state after compaction to avoid overfitting the context. the context overfit happens because claude tries to read the state of all the subagents in full
-> *8 likes*
+> [!tip]+ ↩️ @alxfazio · Fri Jan 02 22:20:42 +0000 2026
 
-> [!reply] @alxfazio · Fri Jan 02 19:47:16 +0000 2026
-> @karanjagtiani04 it's literally a prompt dawg
-> *8 likes*
+> @lucidpaths33 maybe just read the docs lil bro
 
 > [!reply] @andreihasna · Fri Jan 02 20:53:54 +0000 2026
 > @alxfazio There is a bug when task is too big, context rand out and the whole session errors and can only resume from a previous state. @trq212 maybe you guys can do something about it.
 > *6 likes*
 
+> [!tip]+ ↩️ @alxfazio · Fri Jan 02 21:21:49 +0000 2026
+
+> @andreihasna @trq212 you can literally ask claude to not check subtask state after compaction to avoid overfitting the context. the context overfit happens because claude tries to read the state of all the subagents in full
+
 > [!reply] @cyb3rops · Fri Jan 02 23:00:38 +0000 2026
 > @alxfazio I never felt that the LLM isn’t fast enough. What’s slow is my review.
 > *5 likes*
-
-> [!reply] @alxfazio · Fri Jan 02 22:20:42 +0000 2026
-> @lucidpaths33 maybe just read the docs lil bro
-> *4 likes*
-
-> [!reply] @alxfazio · Fri Jan 02 19:51:57 +0000 2026
-> @fr0ziisc2 just ask claude to do it
-> *4 likes*
 
 > [!reply] @librarythingtim · Sat Jan 03 04:01:26 +0000 2026
 > @alxfazio How do you do it so the agents aren’t getting in each others’ way?
@@ -74,6 +62,10 @@ url: "https://x.com/alxfazio/status/2007151926614593739"
 > [!reply] @chrisbmullins · Fri Jan 02 20:59:05 +0000 2026
 > @alxfazio I'm using Beads, but I still dont understand how to prevent a github pileup. Do I really have to ask my AI what a worktree is?
 > *2 likes*
+
+> [!tip]+ ↩️ @alxfazio · Fri Jan 02 21:20:24 +0000 2026
+
+> @chrisbmullins beads is a meme
 
 > [!reply] @shaped · Fri Jan 02 19:33:56 +0000 2026
 > Folks are discovering what Roo Code made possible 6 months ago
@@ -106,9 +98,17 @@ url: "https://x.com/alxfazio/status/2007151926614593739"
 > @alxfazio u did with a detailed SPEC[.]md ?
 > *1 likes*
 
+> [!tip]+ ↩️ @alxfazio · Fri Jan 02 19:51:57 +0000 2026
+
+> @fr0ziisc2 just ask claude to do it
+
 > [!reply] @karanjagtiani04 · Fri Jan 02 19:43:31 +0000 2026
 > @alxfazio Sounds efficient with those parallel agents. Curious about the challenges you faced during implementation
 > *1 likes*
+
+> [!tip]+ ↩️ @alxfazio · Fri Jan 02 19:47:16 +0000 2026
+
+> @karanjagtiani04 it's literally a prompt dawg
 
 > [!reply] @mpopv · Fri Jan 02 20:46:08 +0000 2026
 > @alxfazio Brooks's Law BTFO

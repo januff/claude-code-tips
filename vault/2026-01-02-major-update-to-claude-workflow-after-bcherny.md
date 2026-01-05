@@ -39,6 +39,10 @@ url: "https://x.com/cloudxdev/status/2007232734637199762"
 > 
 > https://t.co/LqjxFfSuyy
 >
+> ---
+> *@cloudxdev · Fri Jan 02 23:30:47 +0000 2026:*
+> https://t.co/ZM0CTtp1bs
+>
 > Likes: 835 · Replies: 17 · Reposts: 55
 
 ## Replies
@@ -58,21 +62,13 @@ url: "https://x.com/cloudxdev/status/2007232734637199762"
 > MyStreme is “testing the waters” under Reg CF to build a safer, family-friendly alternative to streaming. Be part of the change.
 > *4 likes*
 
-> [!reply] @cloudxdev · Fri Jan 02 23:30:47 +0000 2026
-> https://t.co/ZM0CTtp1bs
-> *3 likes*
-
-> [!reply] @cloudxdev · Sat Jan 03 15:25:47 +0000 2026
-> @YashasGunderia @bcherny Yes all in the repo
-> *2 likes*
-
 > [!reply] @peteryxu · Fri Jan 02 23:36:28 +0000 2026
 > @cloudxdev @bcherny Super fast! Did you use CC to do it -:)
 > *1 likes*
 
-> [!reply] @cloudxdev · Fri Jan 02 23:38:02 +0000 2026
+> [!tip]+ ↩️ @cloudxdev · Fri Jan 02 23:38:02 +0000 2026
+
 > @peteryxu @bcherny yes and also @xai api
-> *1 likes*
 
 > [!reply] @skylar_b_payne · Sat Jan 03 17:31:55 +0000 2026
 > @cloudxdev @bcherny Dumb question: I keep seeing people have slash commands like “/root:command”
@@ -113,10 +109,15 @@ url: "https://x.com/cloudxdev/status/2007232734637199762"
 > [!reply] @YashasGunderia · Sat Jan 03 06:33:53 +0000 2026
 > @cloudxdev @bcherny Did u add the specific sub agents he uses?
 
+> [!tip]+ ↩️ @cloudxdev · Sat Jan 03 15:25:47 +0000 2026
+
+> @YashasGunderia @bcherny Yes all in the repo
+
 > [!reply] @Apostroph3s · Sat Jan 03 06:53:08 +0000 2026
 > @cloudxdev @bcherny Do you think it is possible to select a different model for some commands ?? Like, commit with haiku, ...
 
-> [!reply] @cloudxdev · Sat Jan 03 15:25:30 +0000 2026
+> [!tip]+ ↩️ @cloudxdev · Sat Jan 03 15:25:30 +0000 2026
+
 > @Apostroph3s @bcherny I think for this to happen, you must switch the model, than run command
 > 
 > I don’t have any knowledge of applying commands with a specific model, it always run with the inherited model

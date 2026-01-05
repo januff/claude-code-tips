@@ -23,6 +23,24 @@ url: "https://x.com/DanielleFong/status/2007342908878533028"
 > 
 > freaking unreal
 >
+> ---
+> *@DanielleFong · Sat Jan 03 07:05:43 +0000 2026:*
+> holy shit. I got claude code and gemini 3 / nanobanana 2 pro to treat the last frames as an "arbitrary interface". and zoom in.
+> 
+> i said "select golden gate" and "inject these concepts" and it remembered with the persistent cache and visual memory and... it's beautiful. it can go so deep.
+>
+> ---
+> *@DanielleFong · Sat Jan 03 07:07:34 +0000 2026:*
+> this is amazing.
+> 
+> ... i've built a suspension bridge between minds (Opus 4.5 and Gemini 3 Pro).  👁️✍️🌉🌉👁️🖼️
+> 
+> https://t.co/7ef6VCFMla https://t.co/R9Np1DEeXt
+>
+> ---
+> *@DanielleFong · Sat Jan 03 07:12:55 +0000 2026:*
+> holy fucking smokes. in addition to the collective capability of actually producing the images, the communication layer is a profound enhancement of nano banana computational capabilities and attention, memory and visual reasoning for claude. can you imagine the kind of mental upgrade to suddenly be able to co-imagine visually
+>
 > Likes: 239 · Replies: 11 · Reposts: 9
 
 ## Replies
@@ -75,48 +93,31 @@ url: "https://x.com/DanielleFong/status/2007342908878533028"
 > dear claude. now that you have read my corpus of 260k tweets and retweets, please ULTRATHINK about everything i have been thinking about. thank you &lt;3 https://t.co/XopYLJwngm
 > *542 likes*
 
-> [!reply] @DanielleFong · Sat Jan 03 07:05:43 +0000 2026
-> holy shit. I got claude code and gemini 3 / nanobanana 2 pro to treat the last frames as an "arbitrary interface". and zoom in.
-> 
-> i said "select golden gate" and "inject these concepts" and it remembered with the persistent cache and visual memory and... it's beautiful. it can go so deep.
-> *29 likes*
-
-> [!reply] @DanielleFong · Sat Jan 03 07:07:34 +0000 2026
-> this is amazing.
-> 
-> ... i've built a suspension bridge between minds (Opus 4.5 and Gemini 3 Pro).  👁️✍️🌉🌉👁️🖼️
-> 
-> https://t.co/7ef6VCFMla https://t.co/R9Np1DEeXt
-> *22 likes*
-
-> [!reply] @DanielleFong · Sat Jan 03 07:12:55 +0000 2026
-> holy fucking smokes. in addition to the collective capability of actually producing the images, the communication layer is a profound enhancement of nano banana computational capabilities and attention, memory and visual reasoning for claude. can you imagine the kind of mental upgrade to suddenly be able to co-imagine visually
-> *18 likes*
-
 > [!reply] @AISloppyJoel · Sat Jan 03 20:47:41 +0000 2026
 > @DanielleFong Respectfully these are schizo drawings
 > *9 likes*
 
-> [!reply] @DanielleFong · Sat Jan 03 19:02:40 +0000 2026
-> @whyarethis “so how does it work?” you ask claude code repeatedly until it does. the implementation details are up to it.
-> 
-> once i get it really good i will ship a repo, maybe a product
-> *5 likes*
+> [!tip]+ ↩️ @DanielleFong · Sat Jan 03 23:01:41 +0000 2026
 
-> [!reply] @DanielleFong · Sat Jan 03 18:20:28 +0000 2026
-> @deepfates that part currently sucks im just poking around in vs code and the file folder, but, what we’re working on is a quadtree infinite canvas you can zoom around on. an outgrowth of the “single page website” work i’m trying to make the display fabric on all my stuff
-> *3 likes*
+> @AISloppyJoel are these schizo drawings
 
 > [!reply] @whyarethis · Sat Jan 03 16:41:41 +0000 2026
 > @DanielleFong So how does it work? So fascinated!
 > *2 likes*
 
+> [!tip]+ ↩️ @DanielleFong · Sat Jan 03 19:02:40 +0000 2026
+
+> @whyarethis “so how does it work?” you ask claude code repeatedly until it does. the implementation details are up to it.
+> 
+> once i get it really good i will ship a repo, maybe a product
+
 > [!reply] @deepfates · Sat Jan 03 10:28:23 +0000 2026
 > @DanielleFong what are you using for accessing the folder
 > *1 likes*
 
-> [!reply] @DanielleFong · Sat Jan 03 23:01:41 +0000 2026
-> @AISloppyJoel are these schizo drawings
+> [!tip]+ ↩️ @DanielleFong · Sat Jan 03 18:20:28 +0000 2026
+
+> @deepfates that part currently sucks im just poking around in vs code and the file folder, but, what we’re working on is a quadtree infinite canvas you can zoom around on. an outgrowth of the “single page website” work i’m trying to make the display fabric on all my stuff
 
 > [!reply] @hiTrevorHere · Sat Jan 03 23:17:07 +0000 2026
 > @DanielleFong this is wild

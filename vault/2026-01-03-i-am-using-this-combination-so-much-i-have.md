@@ -53,10 +53,6 @@ url: "https://x.com/internetvin/status/2007314364324364794"
 > A Talkspace therapist will listen to everything you’re feeling, so you can process what’s happening and navigate what’s next.
 > *1373 likes*
 
-> [!reply] @internetvin · Sat Jan 03 13:17:56 +0000 2026
-> @ElvinYung Not just documenting things. Was doing that already. It’s documenting them for an LLM that’s different.
-> *9 likes*
-
 > [!reply] @Killian_Kirk · Sat Jan 03 18:18:30 +0000 2026
 > I’ve been building a personal assistant system with Kiro AI + Obsidian and wanted to share a bit about how it works and what I’ve learned.
 > 
@@ -81,9 +77,17 @@ url: "https://x.com/internetvin/status/2007314364324364794"
 > @internetvin damn can’t believe we reinvented the idea of documenting things
 > *3 likes*
 
+> [!tip]+ ↩️ @internetvin · Sat Jan 03 13:17:56 +0000 2026
+
+> @ElvinYung Not just documenting things. Was doing that already. It’s documenting them for an LLM that’s different.
+
 > [!reply] @techno0ptimist · Sun Jan 04 03:33:07 +0000 2026
 > @internetvin Thanks for sharing! I was curious about different non-coding use cases
 > *2 likes*
+
+> [!tip]+ ↩️ @internetvin · Sun Jan 04 03:49:39 +0000 2026
+
+> @techno0ptimist have many more thoughts and things i have not shared yet
 
 > [!reply] @shxshidev · Sat Jan 03 08:23:28 +0000 2026
 > @internetvin wondering how big those master context files get before they start degrading signal. do you prune or let them grow?
@@ -108,9 +112,6 @@ url: "https://x.com/internetvin/status/2007314364324364794"
 > [!reply] @anvanvan · Sat Jan 03 20:20:10 +0000 2026
 > @internetvin The models are getting so good, that our job is now „only“ to provide them the right contexts so they can do their job well.
 > *1 likes*
-
-> [!reply] @internetvin · Sun Jan 04 03:49:39 +0000 2026
-> @techno0ptimist have many more thoughts and things i have not shared yet
 
 > [!reply] @TrevorLongino · Sun Jan 04 04:56:30 +0000 2026
 > @internetvin This is basically my exact use, too. But also i have Claude code heavily document what is doing and why in Obsidian so I can recover from odd dead end routes it may take.

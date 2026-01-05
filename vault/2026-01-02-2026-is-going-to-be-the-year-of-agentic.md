@@ -85,6 +85,12 @@ url: "https://x.com/rileybrown/status/2007188826226340167"
 > @rileybrown I don’t think it will a web interface. I think we’ll see insanely well designed desktop apps that compliment the web, but there are many reasons we’re able to accomplish so much with CLI. And with models getting smaller, local builds will be achievable by anyone with a mac
 > *2 likes*
 
+> [!tip]+ ↩️ @rileybrown · Sat Jan 03 04:11:30 +0000 2026
+
+> @myles_franklin 1. you can't share it easily with team
+> 2. more dangerous
+> 3. web is just easier to use on any cpu
+
 > [!reply] @nexo_v1 · Fri Jan 02 21:36:34 +0000 2026
 > @rileybrown Most devs are building rigid tools. The non-devs might win by accident because they're not constrained by traditional workflow thinking.
 > *2 likes*
@@ -105,11 +111,6 @@ url: "https://x.com/rileybrown/status/2007188826226340167"
 > @rileybrown Agentic interfaces really do feel like the next evolution beyond just chatting. The idea of co-working with Claude, sometimes hands-on, sometimes running quietly in the background, just makes sense.
 > Also, I wouldn’t be surprised if a vibe coder wins.
 > *1 likes*
-
-> [!reply] @rileybrown · Sat Jan 03 04:11:30 +0000 2026
-> @myles_franklin 1. you can't share it easily with team
-> 2. more dangerous
-> 3. web is just easier to use on any cpu
 
 > [!reply] @nurijanian · Sat Jan 03 13:57:37 +0000 2026
 > @rileybrown i’d love to join, and yes I think it’s time we figure this out. https://t.co/7UXorzznLA ain’t it yet

@@ -18,35 +18,31 @@ url: "https://x.com/frankdegods/status/2007199488776253597"
 > 2. automatically asks follow-up q's to clarify which ones you want to cancel
 > 3. actually opens chrome and literally cancels them for you https://t.co/kFEX2ijioI
 >
-> Likes: 5,965 · Replies: 516 · Reposts: 177
-
-## Replies
-
-> [!reply] @frankdegods · Fri Jan 02 21:17:05 +0000 2026
+> ---
+> *@frankdegods · Fri Jan 02 21:17:05 +0000 2026:*
 > it's usually more convenient to use existing apps than making your own, but for this specifically everything sucks and i don't trust any of these random apps with my data
 > 
 > made a github for it, so you can run it locally
 > 
 > https://t.co/Uf7uZQTKFv
-> *585 likes*
-
-> [!reply] @frankdegods · Fri Jan 02 21:17:05 +0000 2026
+>
+> ---
+> *@frankdegods · Fri Jan 02 21:17:05 +0000 2026:*
 > if you want to use it but never used claude code/cursor i added a guide for that too, so you can pop your cherry 
 > 
 > https://t.co/01HMbdUQhM
-> *400 likes*
-
-> [!reply] @frankdegods · Fri Jan 02 21:25:49 +0000 2026
+>
+> ---
+> *@frankdegods · Fri Jan 02 21:25:49 +0000 2026:*
 > first time ai makes me money is by cancelling my ai subscriptions 😭
-> *373 likes*
-
-> [!reply] @frankdegods · Sat Jan 03 05:50:18 +0000 2026
+>
+> ---
+> *@frankdegods · Sat Jan 03 05:50:18 +0000 2026:*
 > 🥹 https://t.co/c1lxW7hCr3
-> *231 likes*
+>
+> Likes: 5,965 · Replies: 516 · Reposts: 177
 
-> [!reply] @frankdegods · Fri Jan 02 21:30:38 +0000 2026
-> @JonahBlake between all the OF and brazzers u might crash the servers 😭
-> *185 likes*
+## Replies
 
 > [!reply] @notthreadguy · Fri Jan 02 21:34:08 +0000 2026
 > @frankdegods bro i needed this lmao thanks 
@@ -62,12 +58,6 @@ url: "https://x.com/frankdegods/status/2007199488776253597"
 > @frankdegods All due respect you got bigger issues in life if you have $27K in subscriptions you forgot about...
 > *71 likes*
 
-> [!reply] @frankdegods · Sat Jan 03 00:33:25 +0000 2026
-> @Jarrad_sol the day i can find something that opus 4.5 can’t do
-> 
-> is the day i stop
-> *49 likes*
-
 > [!reply] @GrabowskiDylan · Fri Jan 02 23:21:51 +0000 2026
 > @frankdegods JFC how the hell does somebody just casually build up to $27k/year in subscriptions 
 > 
@@ -78,6 +68,10 @@ url: "https://x.com/frankdegods/status/2007199488776253597"
 > @frankdegods I’m actually going to use this
 > *25 likes*
 
+> [!tip]+ ↩️ @frankdegods · Fri Jan 02 21:30:38 +0000 2026
+
+> @JonahBlake between all the OF and brazzers u might crash the servers 😭
+
 > [!reply] @VicVijayakumar · Sat Jan 03 03:27:56 +0000 2026
 > @frankdegods insane to have $27k/year in subscriptions but who knows what your particular situation is. good work.
 > *25 likes*
@@ -86,11 +80,21 @@ url: "https://x.com/frankdegods/status/2007199488776253597"
 > @frankdegods frank is the dev https://t.co/3QRPf2LGoR
 > *16 likes*
 
+> [!tip]+ ↩️ @frankdegods · Sat Jan 03 00:33:25 +0000 2026
+
+> @Jarrad_sol the day i can find something that opus 4.5 can’t do
+> 
+> is the day i stop
+
 > [!reply] @bentiz · Sat Jan 03 00:50:58 +0000 2026
 > @frankdegods One of the most convincing AI use cases I've seen in a while
 > 
 > Not flashy, just saves real money
 > *16 likes*
+
+> [!tip]+ ↩️ @frankdegods · Sat Jan 03 02:46:30 +0000 2026
+
+> @bentiz 🙏
 
 > [!reply] @serbobross · Sat Jan 03 00:10:55 +0000 2026
 > @frankdegods brother how did you jar 27k in subscriptions what were you subscribing too
@@ -129,10 +133,6 @@ url: "https://x.com/frankdegods/status/2007199488776253597"
 > [!reply] @MINHxDYNASTY · Fri Jan 02 21:32:51 +0000 2026
 > @frankdegods wait no fucking way, this is amazing
 > *6 likes*
-
-> [!reply] @frankdegods · Sat Jan 03 02:46:30 +0000 2026
-> @bentiz 🙏
-> *5 likes*
 
 > [!reply] @doodlifts · Sat Jan 03 00:23:23 +0000 2026
 > @frankdegods Bro just put rocket money out of business 🤣
