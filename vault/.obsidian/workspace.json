@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-12-30-shortcut.md",
+                "file": "unknown-the-computerusetool-is-going-to-launch-in-the.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-12-30-shortcut"
+              "title": "unknown-the-computerusetool-is-going-to-launch-in-the"
             }
           }
         ]
@@ -183,46 +183,52 @@
       "bases:Create new base": false
     }
   },
-  "active": "60e0c19c55ad4d36",
+  "active": "13ac3b020f988bdc",
   "lastOpenFiles": [
-    "2025-12-31-agent-sdk.md",
+    "2026-01-02-major-update-to-claude-workflow-after-bcherny.md",
+    "2025-12-27-whenever-i-start-working-on-a-new-codebase.md",
+    "unknown-coding-via-carplay-with-a-project-manager-agent.md",
+    "2026-01-02-im-boris-and-i-created-claude-code-lots-of-people.md",
+    "2025-12-26-i-created-a-small-command-ping-which-sends-me-a.md",
+    "2025-12-26-ask-it-to-read-this-thread-analyze-and-consider.md",
+    "2025-12-26-antigravity-oauth.md",
+    "2025-12-26-1-getting-it-to-improve-the-performance-of-my.md",
+    "unknown-it-almost-feels-kind-of-like-a-new-form-of.md",
+    "2025-12-30-ralph-wiggum-loops.md",
+    "2025-12-28-claude-code-20.md",
     "2025-12-26-teleport.md",
+    "2025-12-27-sandbox.md",
+    "Claude Dashboard/Session Logs/2026-01-04-obsidian-vault-reply-architecture.md",
+    "2025-12-30-shortcut.md",
+    "Claude Dashboard/Todo.md",
+    "Claude Dashboard/Session Logs",
+    "Claude Dashboard/Scratchpad.md",
+    "Claude Dashboard/Reference",
+    "Claude Dashboard/Outbox",
+    "Claude Dashboard/Inbox",
+    "Claude Dashboard",
+    "2025-12-31-agent-sdk.md",
     "attachments/screenshots/tweet_2005859309696029093_2.png",
     "attachments/videos/tweet_2004579780998688823_12.mp4",
     "attachments/videos/tweet_2004977723429847380_11.mp4",
     "2026-01-01-agent-swarms.md",
-    "2025-12-30-shortcut.md",
     "2025-12-26-underrated-trick.md",
-    "2025-12-27-sandbox.md",
     "2025-12-28-askuserquestiontool.md",
-    "2025-12-28-claude-code-20.md",
-    "2025-12-30-ralph-wiggum-loops.md",
     "2025-12-28-bypass-ai-detectors.md",
     "_dashboards/top-by-engagement.md",
     "2026-01-02-one-thing-im-surprised-about-claude-even-45-opus.md",
     "2025-12-31-its-an-sdk-that-allows-you-to-build-any-kind-of.md",
     "2025-12-26-exit-claude.md",
-    "2025-12-26-1-iterating-on-a-plan-manually-before-executing-i.md",
-    "2025-12-26-1-if-im-truly-vibing-ill-tell-claude-to-ask-me.md",
-    "2025-12-26-1-getting-it-to-improve-the-performance-of-my.md",
     "attachments/screenshots/tweet_2005360362737344574_8.png",
     "attachments/screenshots/tweet_2005285904420843892_10.jpg",
     "attachments/screenshots/tweet_2004599760179921392_6.jpg",
     "attachments/screenshots/tweet_2004599760179921392_5.jpg",
     "attachments/screenshots/tweet_2004599760179921392_4.jpg",
     "attachments/screenshots/tweet_2004599760179921392_3.jpg",
-    "_dashboards/by-creator.md",
-    "_dashboards/recent-additions.md",
-    "_dashboards/tag-index.md",
     "attachments/screenshots/tweet_2004579780998688823_12.mp4",
     "attachments/screenshots/tweet_2004977723429847380_11.mp4",
     "attachments/screenshots/tweet_2005371841020559855_7.jpg",
     "attachments/screenshots/tweet_2005396092532498796_9.jpg",
-    "attachments/screenshots/tweet_2005823958671937697_1.jpg",
-    "2025-12-26-claude-code-trick.md",
-    "2025-12-31-claude-agent-sdk.md",
-    "2026-01-01-claude-code.md",
-    "2025-12-28-technical-spec.md",
-    "2025-12-28-claude-code.md"
+    "attachments/screenshots/tweet_2005823958671937697_1.jpg"
   ]
 }
