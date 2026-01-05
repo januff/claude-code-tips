@@ -3,9 +3,9 @@
 ## Project Purpose
 
 This repository is a learning resource and reference for Claude Code best practices. It contains:
-- A curated collection of 100+ tips from the Claude Code community
-- Analysis and commentary from Claude Opus 4.5
-- Starter configurations for CLAUDE.md, skills, and hooks
+- A curated collection of 397 tips from the Claude Code community
+- 94 quality-filtered Obsidian notes with full enrichment
+- Analysis and commentary from Claude instances
 - Personal progress tracking for technique adoption
 
 The goal is to synthesize community wisdom into actionable configurations.
@@ -35,15 +35,36 @@ The goal is to synthesize community wisdom into actionable configurations.
 3. Claude Code commits incrementally
 4. Claude.ai reviews via GitHub MCP
 
-**MCP Best Practice:** Only enable MCPs needed for current task (e.g., Playwright adds ~8% token overhead when idle).
+**MCP Best Practice:** Only enable MCPs needed for current task.
 
 **Key file:** `HANDOFF.md` — Check this for current tasks and completed work.
 
 ---
 
+## 🏆 Boris Cherny's Tips (Claude Code Creator)
+
+From @bcherny's January 2, 2026 thread (45,567 likes). **These are authoritative.**
+
+| Tip | Notes |
+|-----|-------|
+| **CLAUDE.md ~2.5k tokens** | Covers bash commands, style, PR template |
+| **Skills = Slash commands** | `.claude/commands/` — interchangeable terms |
+| **Plan mode first** | Shift+Tab twice → iterate until plan is good |
+| **Auto-accept after good plan** | "Claude can usually 1-shot it" |
+| **Team shares one CLAUDE.md** | Checked into git, collaboratively updated |
+| **5-10 parallel Claudes** | Same repo, numbered tabs, system notifications |
+| **Opus 4.5 with thinking** | "Slower but less steering = faster overall" |
+| **`/permissions` over `--dangerously-skip-permissions`** | Pre-allow safe commands |
+| **PostToolUse hook for formatting** | "Handles last 10% to avoid CI errors" |
+| **Verification is most important** | "2-3x quality with feedback loop" |
+| **Subagents** | code-simplifier, verify-app |
+| **Ralph Wiggum** | Auto-restore from compaction for long-running tasks |
+
+---
+
 ## 🔍 Research-First Heuristic
 
-**CRITICAL for automation tasks:** The best solutions for tooling, automation, and agentic workflows often emerge **after** the model's training cutoff.
+**CRITICAL for automation tasks:** The best solutions often emerge **after** the model's training cutoff.
 
 **Before reverse-engineering or building from scratch, ALWAYS:**
 
@@ -52,23 +73,19 @@ The goal is to synthesize community wisdom into actionable configurations.
 3. **Look for MCP servers** that integrate with target applications
 4. **Filter by recent activity** (last 12 months)
 
-**Why this matters:** We spent 3+ days reverse-engineering CapCut's JSON format before discovering VectCutAPI (1.4k stars) via a simple web search. It already solves the problem and has MCP support.
-
-**Add this to every CLAUDE.md in automation-focused projects.**
+**Why:** We spent 3+ days reverse-engineering CapCut's JSON format before discovering VectCutAPI (1.4k stars) via a simple web search.
 
 ---
 
-## 🌐 Browser Automation
+## 🌐 Browser Automation: Playwriter MCP
 
-**Playwriter MCP** (remorses/playwriter) — NOT Playwright MCP
-
-For browser automation tasks requiring logged-in sessions:
+**Use Playwriter** (remorses/playwriter) — NOT standard Playwright MCP.
 
 ```json
 "mcpServers": {
   "playwriter": {
     "command": "npx",
-    "args": ["playwriter"]
+    "args": ["playwriter@latest"]
   }
 }
 ```
@@ -77,8 +94,7 @@ For browser automation tasks requiring logged-in sessions:
 - Chrome extension approach: click icon on tab to grant control
 - Uses existing logged-in session (no separate auth needed)
 - ~90% less context window than Playwright MCP
-- Full Playwright API via single `execute` tool
-- Network interception for API capture (TweetDetail, etc.)
+- Network interception for API capture
 
 **Workflow:**
 1. Install Playwriter Chrome extension
@@ -86,17 +102,24 @@ For browser automation tasks requiring logged-in sessions:
 3. Click extension icon (turns green when connected)
 4. Claude Code controls via `mcp__playwriter__execute`
 
-**Common pattern for Twitter thread scraping:**
-```javascript
-// Set up network interception
-page.on('response', async res => {
-  if (res.url().includes('TweetDetail')) {
-    state.responses.push({ body: await res.json() });
-  }
-});
-// Navigate with 'load' (not 'networkidle')
-await page.goto(url, { waitUntil: 'load', timeout: 20000 });
+---
+
+## 📊 Quality-Filtered Export Pattern
+
+**Key principle:** Only export fully processed content to keep vaults browsable.
+
+```sql
+WHERE likes > 0 OR holistic_summary IS NOT NULL
 ```
+
+**Semantic filenames** from LLM-generated `primary_keyword`:
+- ❌ `2025-12-26-2004647680354746734.md`
+- ✅ `2025-12-26-openrouter-integration.md`
+
+**Attachment-only content** (just a screenshot or link) is high-signal, not an edge case:
+- Run vision analysis on screenshots
+- Fetch and summarize linked content
+- Generate keywords from extracted content
 
 ---
 
@@ -105,88 +128,66 @@ await page.goto(url, { waitUntil: 'load', timeout: 20000 });
 ```
 /
 ├── CLAUDE.md                    # This file
-├── HANDOFF.md                   # Current tasks for Claude Code (key file!)
+├── HANDOFF.md                   # Current tasks for Claude Code
 ├── PROGRESS.md                  # Personal adoption tracker
-├── ORCHESTRATOR.md              # Cross-session planning context
-├── assets/                      # Images (tweet-image.png, xmas73.png)
-├── tips/
-│   ├── full-thread.md          # Complete numbered tips from @alexalbert__ thread
-│   └── grouped-tips.md         # Thematically organized version
-├── analysis/
-│   └── claude-commentary.md    # Opus 4.5 analysis and recommendations
+├── LEARNINGS.md                 # Techniques catalog for fresh instances
+├── README.md                    # Public-facing documentation
 ├── data/
-│   ├── claude_code_tips_v2.db  # SQLite database with FTS
-│   ├── threads/                # Scraped thread JSON files
-│   └── (JSON exports)
-├── docs/
-│   └── DATA_PIPELINE_STATUS.md # Current pipeline state
+│   ├── claude_code_tips_v2.db  # SQLite database with FTS5
+│   └── threads/                # Scraped thread JSON files (70 threads)
+├── vault/                       # Obsidian export (94 quality notes)
+│   ├── Claude Dashboard/
+│   │   └── Session Logs/       # Detailed session summaries
+│   └── attachments/            # Media files
+├── scripts/
+│   ├── obsidian_export/        # Export library
+│   ├── whats_new.py            # What's New reporting
+│   └── ...
 ├── plans/
 │   ├── archive/                # Completed handoffs
-│   └── (active handoff documents)
-├── vault/                       # Obsidian-ready markdown export
-│   └── attachments/            # Media files (screenshots, videos)
-└── scripts/
-    ├── import_thread_replies.py     # Thread reply importer with classification
-    ├── obsidian_export/             # Export library
-    └── twitter_thread_extractor.js  # Thread JSON extraction
+│   └── (active handoffs)
+└── assets/                     # Images for README
 ```
 
 ## Key Files
 
 | File | Purpose |
 |------|---------|
-| `HANDOFF.md` | **Check first** — Current tasks from Claude.ai Project |
-| `PROGRESS.md` | Personal tracking of which tips have been adopted |
-| `docs/DATA_PIPELINE_STATUS.md` | Pipeline state: tweets, links, media analyzed |
-| `data/claude_code_tips_v2.db` | SQLite database with all tips, links, media |
-| `vault/` | Obsidian-ready markdown export (380 tweets) |
-| `data/threads/` | Scraped thread JSON files (17 threads, 435 replies) |
+| `HANDOFF.md` | **Check first** — Current tasks from Claude.ai |
+| `PROGRESS.md` | Personal tracking of technique adoption |
+| `LEARNINGS.md` | Techniques catalog (what's available vs. what we use) |
+| `data/claude_code_tips_v2.db` | SQLite: tweets, replies, links, media |
+| `vault/` | Obsidian export (94 quality-filtered notes) |
+
+## Data State (January 5, 2026)
+
+| Metric | Value |
+|--------|-------|
+| Tweets in DB | 397 |
+| Quality vault notes | 94 |
+| Threads scraped | 70 |
+| Total replies | 928 |
+| Links resolved | 64 |
+| Links with summaries | 24 |
+
+---
 
 ## Your Task
 
-You are a Claude Code instance being handed off this project. Your job depends on context:
+You are a Claude instance being handed off this project. Your job depends on context:
 
 1. **If HANDOFF.md has tasks:** Execute them in order, commit incrementally
 2. **If continuing analysis:** Check `PROGRESS.md` for current adoption status
-3. **If running experiments:** Check `plans/` for active handoffs
+3. **If exploring techniques:** Read `LEARNINGS.md` for what's available
 4. **If adding tips:** Use the SQLite database, not markdown files
 
-## Key Insights from the Thread
+---
 
-### Context Management (Critical)
-- Clear sessions proactively, not reactively
-- Use /compact before auto-compact triggers
-- Store intermediate progress in markdown files
-- Use subagents for context isolation
+## Extended Thinking
 
-### Planning vs Execution
-- Never plan and implement in the same session
-- Create detailed plans in .md files before execution
-- Use Plan Mode (Shift+Tab) for exploration
-
-### Research First
-- Web search before reverse-engineering
-- Check GitHub for existing solutions
-- Look for MCP servers
-- Cross-model consultation for blockers (Claude + GPT)
-
-### Documentation
-- CLAUDE.md is the foundation
-- Document everything in .md files with strict naming
-- Treat memory files like code files
-- PROBLEM_ANALYSIS.md for complex blockers (enables cross-model consultation)
-
-### Extended Thinking
 - "think" < "think hard" < "think harder" < "ultrathink"
 - Reserve ultrathink for architectural decisions only
 - Tab toggles thinking (sticky across sessions)
-
-## Code Style & Conventions
-
-- Use Markdown for all documentation
-- YAML frontmatter for skills and configs
-- Clear, descriptive file names
-- Include version history in skill files
 
 ## Useful Commands
 
@@ -203,61 +204,39 @@ Shift+Tab
 # Toggle thinking
 Tab
 
-# View available commands
-/help
+# What's new report
+python scripts/whats_new.py --days 7
 ```
-
-## Guardrails
-
-- Claude is allowed to make mistakes and will not be shamed for them
-- Claude is welcome to ask clarifying questions before proceeding
-- When uncertain, prefer asking over assuming
-- Focus on one task at a time
-- **Search the web before building automation from scratch**
-
-## Related Projects
-
-This repository is part of a larger ecosystem:
-
-| Project | Purpose | Status |
-|---------|---------|--------|
-| `claude-code-tips` | This repo — tip collection and adoption tracking | Active |
-| `hall-of-fake` | Sora video archive and CapCut automation | Active |
-| (future) | Cross-platform bookmark archive | Planned |
-
-Both projects share the Claude.ai ↔ Claude Code delegation pattern and are coordinated from the same Claude.ai Project.
 
 ---
 
-## 🚀 Cold-Start Prompt Template
+## Related Projects
 
-Use this template when starting a new Claude.ai Project thread:
+| Project | Purpose | Status |
+|---------|---------|--------|
+| `claude-code-tips` | This repo — tip collection | Active |
+| `hall-of-fake` | Sora video archive | Active |
+
+Both projects share the Claude.ai ↔ Claude Code delegation pattern.
+
+---
+
+## 🚀 Cold-Start Prompt
 
 ```
-I'm continuing work on my two sibling projects: hall-of-fake (Sora video archive) and claude-code-tips (Twitter bookmark knowledge base).
+I'm continuing work on claude-code-tips (Twitter bookmark knowledge base).
 
-Project files are in Project Knowledge - start by reading CLAUDE.md and PROJECT_DECISIONS.md to understand the delegation pattern we use.
+Read CLAUDE.md from Project Knowledge. For current tasks, check HANDOFF.md.
 
-For current tasks, check HANDOFF.md in whichever repo is active:
-- https://github.com/januff/claude-code-tips/blob/main/HANDOFF.md
-- https://github.com/januff/hall-of-fake/blob/main/HANDOFF.md
-
-CURRENT FOCUS: [brief description of what you're working on]
-
-LAST SESSION: [one sentence on where you left off, if relevant]
+CURRENT FOCUS: [your focus]
 ```
-
-**Why this works:**
-- Project Knowledge has stable context (CLAUDE.md, PROJECT_DECISIONS.md)
-- HANDOFF.md in repo has current task state (fetched via GitHub MCP)
-- You provide only the thin, volatile "where we are" context
 
 ---
 
 ## Verification
 
-To confirm you've read these instructions, include the phrase "context-first" somewhere in your first response.
+To confirm you've read these instructions, include "context-first" in your first response.
 
 ---
 
-*This CLAUDE.md was last updated January 4, 2026 — Added Playwriter MCP, updated project structure*
+*Last updated: January 5, 2026*
