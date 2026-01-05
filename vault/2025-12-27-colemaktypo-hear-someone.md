@@ -1,0 +1,32 @@
+---
+created: 2025-12-27
+author: "@colemaktypo"
+display_name: "matthias"
+category: "workflow"
+tags:
+  - category/workflow
+likes: 6
+views: 1779
+engagement_score: 0
+url: "https://x.com/colemaktypo/status/2004823310920745007"
+---
+
+> [!tweet] @colemaktypo · Dec 27, 2025
+> if I hear someone clamoring about a food item or supplement I ask claude about the food/supplement and the claimed effect
+> 
+> then I turn on pubmed and web search and ask claude to do a meta analysis
+>
+> Likes: 6 · Replies: 0 · Reposts: 0
+
+## Summary
+
+if I hear someone clamoring about a food item or supplement I ask claude about the food/supplement and the claimed effect
+
+
+> [!metrics]- Engagement & Metadata
+> **Likes:** 6 · **Replies:** 0 · **Reposts:** 0 · **Views:** 1,779
+> **Engagement Score:** 0
+>
+> **Source:** tips · **Quality:** 6/10
+> **Curated:** ✓ · **Reply:** ✗
+> **ID:** [2004823310920745007](https://x.com/colemaktypo/status/2004823310920745007)
