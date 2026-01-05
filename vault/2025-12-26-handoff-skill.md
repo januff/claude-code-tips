@@ -19,7 +19,7 @@ url: "https://x.com/zeroxBigBoss/status/2004579557459005809"
 
 ## Summary
 
-the handoff
+Claude Code skill for generating handoff prompts between AI agents. Creates self-contained, actionable prompts for handing work to another agent (Codex, Claude Code) that has no context from current session. Supports continuation, investigation, review, or exploration follow-ups. Uses allowed-tools: Bash(git:*), Bash(pwd:*), Edit(:./claude/handoffs/*).
 
 ## Replies
 
