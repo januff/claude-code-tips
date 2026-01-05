@@ -259,42 +259,83 @@ def generate_video_filename(
     Generate semantic filename for Hall of Fake video notes.
 
     Priority:
-    1. Best phrase from searchable_elements (most distinctive)
+    1. Two elements from searchable_elements (subject + context)
     2. Combination of thematic_tags
     3. Significant words from prompt
     4. Fallback to video_id
 
-    Never use primary_subject alone - it's often just a name without context.
+    Always combine at least two elements for context.
     """
     date = format_date(date_str, fallback="unknown")
 
-    # 1. Try searchable_elements - these are the most distinctive phrases
+    # Generic terms to skip entirely
+    skip_terms = {'ai video', 'ai generated', 'sora ai', 'viral'}
+
+    # 1. Try searchable_elements
     if searchable_elements and len(searchable_elements) > 0:
-        # Look for multi-word phrases first (more distinctive)
+        # Build list of usable elements (skip generic terms)
+        usable = []
         for elem in searchable_elements:
             elem_lower = elem.lower().strip()
-            # Skip very short or very long elements
-            if 5 <= len(elem_lower) <= 40:
-                # Skip generic terms
-                skip_terms = ['sora', 'ai video', 'ai generated', 'sora ai', 'viral']
-                if not any(skip in elem_lower for skip in skip_terms):
-                    slug = slugify(elem_lower, max_length=35)
-                    if slug and len(slug) >= 5:
-                        return f"{date}-{slug}.md"
+            # Skip if contains generic terms as substring
+            if any(skip in elem_lower for skip in skip_terms):
+                continue
+            slug = slugify(elem, max_length=35)
+            if slug and len(slug) >= 3:
+                usable.append((slug, elem_lower))
 
-        # If no good phrase, try combining first two elements
-        usable = [slugify(e, max_length=15) for e in searchable_elements[:3]
-                  if e.lower() not in ('sora', 'ai video', 'sora ai')]
-        usable = [u for u in usable if u and len(u) >= 3]
-        if len(usable) >= 2:
-            return f"{date}-{usable[0]}-{usable[1]}.md"
-        elif len(usable) == 1:
-            # Single element - try to add context from thematic_tags
+        if len(usable) >= 1:
+            first_slug, first_elem = usable[0]
+
+            # Action words that make even 2-word phrases descriptive enough
+            action_words = {'chase', 'drifting', 'surfing', 'skateboarding', 'dancing',
+                           'racing', 'flying', 'swimming', 'jumping', 'parody'}
+
+            # If first element is 3+ words OR contains an action word, use alone
+            has_action = any(word in first_elem for word in action_words)
+            if len(first_elem.split()) >= 3 or has_action:
+                return f"{date}-{first_slug}.md"
+
+            # Otherwise (likely just a name), add a second element for context
+            if len(usable) >= 2:
+                distinctive_keywords = ['tank', 'whale', 'tricycle', 'bike', 'submarine',
+                                       'chase', 'drifting', 'surfing', 'ramp', 'crowd',
+                                       'sora', 'parody', 'fail', 'pants', 'abrams',
+                                       'skateboard', 'skate', 'mega']
+
+                # Words from first element to avoid redundancy
+                first_words = set(first_elem.split())
+
+                second = None
+                # Look for distinctive keywords from the end
+                for slug, elem_lower in reversed(usable[1:]):
+                    elem_words = set(elem_lower.split())
+                    # Skip if shares a word with first element (redundant)
+                    if first_words & elem_words:
+                        continue
+                    if any(kw in elem_lower for kw in distinctive_keywords):
+                        second = slug
+                        break
+
+                # Fallback: take the last short element that doesn't overlap
+                if not second:
+                    for slug, elem_lower in reversed(usable[1:]):
+                        elem_words = set(elem_lower.split())
+                        if first_words & elem_words:
+                            continue
+                        if len(elem_lower.split()) <= 2:
+                            second = slug
+                            break
+
+                if second:
+                    return f"{date}-{first_slug}-{second}.md"
+
+            # Single element - add context from thematic_tags
             if thematic_tags:
                 tag_slug = slugify(thematic_tags[0], max_length=15)
-                if tag_slug:
-                    return f"{date}-{usable[0]}-{tag_slug}.md"
-            return f"{date}-{usable[0]}.md"
+                if tag_slug and tag_slug != first_slug:
+                    return f"{date}-{first_slug}-{tag_slug}.md"
+            return f"{date}-{first_slug}.md"
 
     # 2. Try thematic_tags combination
     if thematic_tags and len(thematic_tags) >= 2:
