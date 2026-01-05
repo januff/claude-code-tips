@@ -1,5 +1,16 @@
 # Claude Code Tips Repository
 
+## 🎯 First: Check CURRENT_FOCUS.md
+
+**Before doing anything else**, read `CURRENT_FOCUS.md` in this repo. It tells you:
+- Which project is currently active (may be the sibling repo)
+- Where the handoff docs are
+- What happened last session
+
+This is a cross-project workspace. Work may bounce between `claude-code-tips` and `hall-of-fake`.
+
+---
+
 ## Project Purpose
 
 This repository is a learning resource and reference for Claude Code best practices. It contains:
