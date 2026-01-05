@@ -16,6 +16,10 @@ url: "https://x.com/mutewinter/status/2004647680354746734"
 >
 > Likes: 20 · Replies: 1 · Reposts: 0
 
+## Summary
+
+Guide for routing Claude Code requests through OpenRouter API instead of Anthropic directly. Set ANTHROPIC_BASE_URL and ANTHROPIC_API_KEY environment variables to use OpenRouter. Enables access to various models with billing transparency through OpenRouter dashboard. Models must support tool use.
+
 ## Replies
 
 > [!reply] @undefined · Fri Dec 26 15:30:03 +0000 2025

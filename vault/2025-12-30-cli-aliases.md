@@ -21,7 +21,7 @@ url: "https://x.com/jeffzwang/status/2005859309696029093"
 
 ## Summary
 
-this is mine :D
+Claude CLI shell aliases for faster workflow: alias claude="claude --dangerously-skip-permissions" (skip permission prompts), alias cc="claude" (short form), alias ccc="claude --continue" (continue last session), alias ccr="claude --resume" (resume session), alias c="claude" (minimal).
 
 ## Media
 
