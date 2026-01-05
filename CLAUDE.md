@@ -163,7 +163,7 @@ WHERE likes > 0 OR holistic_summary IS NOT NULL
 ## Key Files
 
 | File | Purpose |
-|------|---------|
+|------|---------||
 | `HANDOFF.md` | **Check first** — Current tasks from Claude.ai |
 | `PROGRESS.md` | Personal tracking of technique adoption |
 | `LEARNINGS.md` | Techniques catalog (what's available vs. what we use) |
