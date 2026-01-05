@@ -253,67 +253,71 @@ def generate_video_filename(
     thematic_tags: Optional[list[str]] = None,
     characters: Optional[list] = None,
     prompt: Optional[str] = None,
+    searchable_elements: Optional[list[str]] = None,
 ) -> str:
     """
     Generate semantic filename for Hall of Fake video notes.
 
     Priority:
-    1. primary_subject + first thematic_tag (e.g., "submarine-drifting")
-    2. Character duo if 2 recognizable names (e.g., "griffith-knotts")
-    3. primary_subject alone
-    4. First 2-3 significant words from prompt
-    5. Fallback to video_id
+    1. Best phrase from searchable_elements (most distinctive)
+    2. Combination of thematic_tags
+    3. Significant words from prompt
+    4. Fallback to video_id
+
+    Never use primary_subject alone - it's often just a name without context.
     """
     date = format_date(date_str, fallback="unknown")
 
-    # Try primary_subject + action
-    if primary_subject:
-        subject_slug = slugify(primary_subject, max_length=20)
+    # 1. Try searchable_elements - these are the most distinctive phrases
+    if searchable_elements and len(searchable_elements) > 0:
+        # Look for multi-word phrases first (more distinctive)
+        for elem in searchable_elements:
+            elem_lower = elem.lower().strip()
+            # Skip very short or very long elements
+            if 5 <= len(elem_lower) <= 40:
+                # Skip generic terms
+                skip_terms = ['sora', 'ai video', 'ai generated', 'sora ai', 'viral']
+                if not any(skip in elem_lower for skip in skip_terms):
+                    slug = slugify(elem_lower, max_length=35)
+                    if slug and len(slug) >= 5:
+                        return f"{date}-{slug}.md"
 
-        # Add action context from thematic_tags
-        if thematic_tags and len(thematic_tags) > 0:
-            # Pick first action-like tag
-            action_words = ['chase', 'drifting', 'surfing', 'dancing', 'fighting',
-                           'cooking', 'singing', 'racing', 'flying', 'swimming',
-                           'jumping', 'running', 'eating', 'playing', 'riding']
-            action_tag = None
-            for tag in thematic_tags:
-                tag_lower = tag.lower()
-                if any(word in tag_lower for word in action_words):
-                    action_tag = slugify(tag, max_length=15)
-                    break
+        # If no good phrase, try combining first two elements
+        usable = [slugify(e, max_length=15) for e in searchable_elements[:3]
+                  if e.lower() not in ('sora', 'ai video', 'sora ai')]
+        usable = [u for u in usable if u and len(u) >= 3]
+        if len(usable) >= 2:
+            return f"{date}-{usable[0]}-{usable[1]}.md"
+        elif len(usable) == 1:
+            # Single element - try to add context from thematic_tags
+            if thematic_tags:
+                tag_slug = slugify(thematic_tags[0], max_length=15)
+                if tag_slug:
+                    return f"{date}-{usable[0]}-{tag_slug}.md"
+            return f"{date}-{usable[0]}.md"
 
-            if action_tag:
-                return f"{date}-{subject_slug}-{action_tag}.md"
+    # 2. Try thematic_tags combination
+    if thematic_tags and len(thematic_tags) >= 2:
+        tag_slugs = [slugify(t, max_length=15) for t in thematic_tags[:3]]
+        tag_slugs = [t for t in tag_slugs if t and len(t) >= 3]
+        if len(tag_slugs) >= 2:
+            return f"{date}-{'-'.join(tag_slugs[:2])}.md"
 
-        return f"{date}-{subject_slug}.md"
+    # 3. Try primary_subject + thematic_tag (but never subject alone)
+    if primary_subject and thematic_tags:
+        subject_slug = slugify(primary_subject, max_length=15)
+        tag_slug = slugify(thematic_tags[0], max_length=15)
+        if subject_slug and tag_slug:
+            return f"{date}-{subject_slug}-{tag_slug}.md"
 
-    # Try character duo
-    if characters and len(characters) >= 2:
-        # Extract names from character dicts or strings
-        names = []
-        for char in characters[:2]:
-            if isinstance(char, dict):
-                name = char.get('name') or char.get('description', '')
-            else:
-                name = str(char)
-            # Extract last name or single name
-            name_parts = name.split()
-            if name_parts:
-                names.append(slugify(name_parts[-1], max_length=15))
-
-        if len(names) == 2 and all(names):
-            return f"{date}-{names[0]}-{names[1]}.md"
-
-    # Fallback to prompt words
+    # 4. Fallback to prompt words
     if prompt:
-        # Extract significant words
         words = re.findall(r'\b[a-zA-Z]{3,}\b', prompt)
         significant = [w.lower() for w in words if w.lower() not in STOPWORDS][:3]
-        if significant:
+        if len(significant) >= 2:
             return f"{date}-{'-'.join(significant)}.md"
 
-    # Last resort
+    # 5. Last resort - video_id
     return f"{date}-{video_id}.md"
 
 

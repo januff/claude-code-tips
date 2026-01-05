@@ -495,6 +495,7 @@ class HoFExporter(VaultExporter):
                 thematic_tags=video.thematic_tags,
                 characters=video.characters,
                 prompt=video.prompt,
+                searchable_elements=video.searchable_elements,
             )
 
             content = template.render(
