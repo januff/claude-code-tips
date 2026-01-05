@@ -97,6 +97,8 @@ it's an sdk that allows you to build any kind of agent with all of the tools fro
 > [!reply] @ivanburazin · Sat Jan 03 15:06:41 +0000 2026
 > @mckaywrigley @stnkvcs @e2b @mckaywrigley have you tried us at @daytonaio ? Here is a few guides how to use Agent SDK : https://t.co/rNl3bHphSb
 > *1 likes*
+>
+> 📎 **[daytona.io/docs/en/claude](https://www.daytona.io/docs/en/claude/)** — Daytona is a platform for managing development environments and isolated sandboxes. Demonstrates integrating Claude Code with Daytona for running tasks in sandboxes and streaming logs programmatically through interactive terminal access, service connections, and autonomous multi-agent systems.
 
 > [!reply] @LKorsun · Wed Dec 31 17:40:48 +0000 2025
 > @mckaywrigley @stnkvcs @e2b This is what I have been looking for over the past few days, thanks @mckaywrigley
@@ -125,6 +127,8 @@ it's an sdk that allows you to build any kind of agent with all of the tools fro
 > 
 > i do think they could improve the observability stuff though (and i anticipate they will!).
 > https://t.co/K49XDZavrX
+>
+> 📎 **[platform.claude.com/docs/en/agent-sdk/cost-tracking](https://platform.claude.com/docs/en/agent-sdk/cost-tracking)** — Detailed documentation for tracking token usage and costs in Claude Agent SDK. Explains step/message concepts, usage deduplication by message ID, and provides implementation examples for building cost tracking systems and billing dashboards with proper handling of parallel tool uses and cache tokens.
 
 > [!reply] @sean_infinnerty · Wed Dec 31 15:24:09 +0000 2025
 > @mckaywrigley @stnkvcs @e2b Is it possible to use a Claude Code 20x Max subscription when running custom agents using the SDK in a hosted sandbox for personal use?

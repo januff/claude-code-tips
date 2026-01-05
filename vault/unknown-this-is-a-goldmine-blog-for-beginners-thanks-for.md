@@ -35,6 +35,8 @@ this is a goldmine blog for beginners
 > 
 > https://t.co/cQpvo0xocY https://t.co/gzKCEMfEG6
 > *9273 likes*
+>
+> 📎 **[sankalp.bearblog.dev/my-experience-with-claude-code-20-and-how-to-get-better-at-using-coding-agents](https://sankalp.bearblog.dev/my-experience-with-claude-code-20-and-how-to-get-better-at-using-coding-agents/)** — Comprehensive guide emphasizing three core principles: stay updated with tooling, upskill in your domain for better context, and experiment with open-mindedness. Key tips include mastering context engineering with /compact and /handoff, leveraging specialized sub-agents (Explore, Plan), and combining multiple models for complementary feedback loops.
 
 > [!reply] @undefined · Fri Dec 26 15:30:03 +0000 2025
 > What's your most underrated Claude Code trick?

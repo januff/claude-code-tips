@@ -105,6 +105,8 @@ This Claude Code tip highlights several upcoming features planned for 2026, show
 > [!reply] @ZenHuifer · Fri Jan 02 15:47:30 +0000 2026
 > @nummanali Don't think that Claude Code can only write code. He can do more. For example, I regard him as my health system.   https://t.co/c4J0Hrs81A
 > *1 likes*
+>
+> 📎 **[github.com/huifer/Claude-Ally-Health](https://github.com/huifer/Claude-Ally-Health)** — File system-based personal health data management system operated via Claude Code CLI. Features medical report image recognition, biochemical indicator extraction, medication interaction detection, multi-disciplinary consultations across 9 specialties, and radiation monitoring. All data stored locally for privacy.
 
 > [!tip]+ ↩️ @nummanali · Fri Jan 02 15:54:19 +0000 2026
 
@@ -137,6 +139,8 @@ This Claude Code tip highlights several upcoming features planned for 2026, show
 > 
 > https://t.co/XjUogza1Wb
 > *1 likes*
+>
+> 📎 **[github.com/andrefigueira/.context](https://github.com/andrefigueira/.context/)** — Documentation-as-Code methodology that organizes project docs into a .context/ folder, creating a Git-native knowledge base for AI tools. Eliminates context gaps by providing structured documentation about patterns, conventions, and architecture. Transforms AI outputs from generic implementations to project-specific solutions.
 
 > [!reply] @nicklaunches · Thu Jan 01 16:58:02 +0000 2026
 > @nummanali Swarms are the headline, but the Session Search Assistant is what makes this viable for large repos.

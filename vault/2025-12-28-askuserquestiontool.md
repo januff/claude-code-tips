@@ -72,6 +72,8 @@ This Claude code tip demonstrates a prompting technique for thorough spec review
 > asked claude to interview me about what i wanted as my interview command, we came up with this
 > https://t.co/9c7kt4Qe9U
 > *5 likes*
+>
+> 📎 **[github.com/gupsammy/Claude-setup/blob/main/commands/interview.md](https://github.com/gupsammy/Claude-setup/blob/main/commands/interview.md)** — Structured thinking-partner command that guides users through idea development via targeted questioning. Adapts to domain (technical, creative, business) and probes hidden assumptions. Synthesizes findings into a focused document weaving key themes and quotes.
 
 > [!reply] @jungkeunhong · Sun Dec 28 16:35:27 +0000 2025
 > @trq212 @spec I've used this methodology. It's really good. cc makes decision with clarifications. btw, I use Wispr Flow for this. Many questions are hard to answer with a keyboard, lol
@@ -188,6 +190,8 @@ This Claude code tip demonstrates a prompting technique for thorough spec review
 
 > [!reply] @xGoatJames · Sun Dec 28 17:23:22 +0000 2025
 > @trq212 @spec Great strategy. I’ve been enforcing interview x plan mode and definitely noticing better outputs. May incorporate strict interview behavior into https://t.co/hFQnuUJUJp
+>
+> 📎 **[code.claude.com/docs](https://code.claude.com/docs/)** — Claude Code is Anthropic's agentic coding tool operating directly in the terminal. It enables developers to build features from descriptions, debug issues, navigate codebases, and automate tasks through natural language. Supports MCP integrations, Unix-philosophy composability, and enterprise deployment on AWS/GCP.
 
 
 > [!metrics]- Engagement & Metadata

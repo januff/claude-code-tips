@@ -88,6 +88,8 @@ This Claude tip solicits users to share their most underrated code tricks for wo
 > [!reply] @AaronErickson · Fri Dec 26 16:03:22 +0000 2025
 > @alexalbert__ Tinkering with something like AlphaEvolve but using subagents as a hobby project, and it's kinda working (and as a bonus, does a good job of hitting your compute max!) https://t.co/buE1kfegUC
 > *22 likes*
+>
+> 📎 **[github.com/ericksoa/agentic-evolve](https://github.com/ericksoa/agentic-evolve/)** — Genetic algorithm system using parallel Claude Code agents to evolve computational solutions. Agents explore different algorithm families through generational evolution with crossover and mutation. Achieved 30x improvements on benchmarks like Fibonacci (834.5M ops/sec) by discovering optimizations like lookup tables with unsafe access.
 
 > [!reply] @jdorfman · Fri Dec 26 16:46:13 +0000 2025
 > @alexalbert__ instant access to your entire organization's codebase without cloning massive repos.
@@ -98,6 +100,8 @@ This Claude tip solicits users to share their most underrated code tricks for wo
 > [!reply] @mutewinter · Fri Dec 26 20:17:06 +0000 2025
 > @alexalbert__ https://t.co/J2uF60Cz6n
 > *20 likes*
+>
+> 📎 **[openrouter.ai/docs/guides/guides/claude-code-integration](https://openrouter.ai/docs/guides/guides/claude-code-integration)** — Guide for routing Claude Code requests through OpenRouter API instead of Anthropic directly. Requires setting environment variables for base URL and API key. Enables access to various models with billing transparency through OpenRouter dashboard, though models must support tool use.
 
 > [!reply] @paulgosnell · Fri Dec 26 18:23:28 +0000 2025
 > @alexalbert__ 1. Getting it to improve the performance of my MacBook  2. Creating a home automation control centre
@@ -171,6 +175,8 @@ This Claude tip solicits users to share their most underrated code tricks for wo
 > 
 > https://t.co/DTIt2YQB0Z
 > *5 likes*
+>
+> 📎 **[github.com/andisearch/claude-switcher](https://github.com/andisearch/claude-switcher)** — Enables seamless switching between Claude providers (AWS Bedrock, Google Vertex, Anthropic API, Azure, Vercel) from the command line. Features include executable markdown with shebang support, model selection across platforms, and bypassing rate limits by switching API keys without losing conversation context.
 
 > [!reply] @zknark · Fri Dec 26 16:39:22 +0000 2025
 > @alexalbert__ Sit, paw, lay down
@@ -193,6 +199,8 @@ This Claude tip solicits users to share their most underrated code tricks for wo
 > 
 > https://t.co/Gl0cKnkvIy
 > *2 likes*
+>
+> 📎 **[github.com/that-in-rust/parseltongue-dependency-graph-generator](https://github.com/that-in-rust/parseltongue-dependency-graph-generator)** — Local HTTP backend that transforms codebases into queryable dependency graphs using tree-sitter (12 languages) and CozoDB. Provides 15 REST endpoints for semantic code analysis, impact analysis, and architectural health—dramatically reducing token overhead vs. grepping raw text.
 
 > [!reply] @keshavrao_ · Sun Dec 28 09:47:06 +0000 2025
 > @alexalbert__ https://t.co/4IyicaqoWd
