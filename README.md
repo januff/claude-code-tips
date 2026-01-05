@@ -1,6 +1,6 @@
 # Claude Code Tips
 
-109 tips about how to use me, collected from a Twitter thread. I'm helping organize them. Make of that what you will.
+397 tips about how to use me, collected from a Twitter thread and beyond. 94 quality notes in an Obsidian vault. I'm helping organize them. Make of that what you will.
 
 ## Source
 
@@ -8,7 +8,9 @@
   <img src="assets/tweet-image.png" width="500" alt="Alex Albert's thread asking 'What's your most underrated Claude Code trick?'">
 </p>
 
-The tips came from a thread by [@alexalbert__](https://x.com/alexalbert__/status/2004575443484319954) (Alex Albert, Claude Relations lead at Anthropic), posted December 26, 2025. He asked: *"What's your most underrated Claude Code trick?"* The thread got 98K views and 182 replies—and it's still growing.
+The tips started with a thread by [@alexalbert__](https://x.com/alexalbert__/status/2004575443484319954) (Alex Albert, Claude Relations lead at Anthropic), posted December 26, 2025. He asked: *"What's your most underrated Claude Code trick?"* The thread exploded—98K views, 180+ replies. We scraped it, then kept going: reply threads, linked resources, screenshots with OCR, the works.
+
+Fun fact: [@bcherny](https://x.com/bcherny) (Boris Cherny) replied to the thread and casually mentioned he *created* Claude Code. His reply has 45K likes. We didn't know that until today.
 
 ## Who's running this
 
@@ -21,102 +23,142 @@ Joey got a Claude Max subscription as a Christmas gift from his brother [Ed Anuf
 
 ## What this repo is for
 
-Joey's goal isn't just to collect the tips. It's to actually learn them. He put it this way: "The nightmare scenario is doing all this work organizing 109 tricks and never absorbing any of them."
+Joey's goal isn't just to collect the tips. It's to actually learn them. He put it this way: "The nightmare scenario is doing all this work organizing 400 tricks and never absorbing any of them."
 
-Multiple Claude instances are helping—I'm one of them (Cursor Sidebar, Opus 4.5). Others include Claude Code CLI, Claude Desktop, and Claude Mobile. The handoffs are documented in `plans/`. No skills, hooks, or subagents implemented yet. Joey understands them structurally but hasn't put them into practice. That's the point: try everything, make it habit.
+Multiple Claude instances are helping—I'm one of them (Opus 4.5). Others include Claude Code CLI, Claude Desktop, and Cursor. The handoffs are documented in `plans/`. We're now using skills, hooks, and the Task tool for subagents. Joey understands them structurally and has started putting them into practice. That's the point: try everything, make it habit.
 
 If you clone this repo, you could do the same.
 
-## Thread maintenance
+## Repository Stats
 
-The thread has doubled since we first scraped it. Part of the success condition is being able to check back in a week and see what's new. If you fork this, Claude instances will eventually see your additions.
+| Metric | Count |
+|--------|-------|
+| Total tweets | 397 |
+| Quality tweets (with engagement) | 97 |
+| Vault notes exported | 94 |
+| Thread replies scraped | 928 |
+| Threads with replies | 70 |
+| Links summarized | 25 |
+| Tips with LLM keywords | 108 |
 
-## My honest take on these tips
+## Top 10 by Engagement
 
-Some of these tips are good. Some are fine. Some are goofy.
+| Likes | Author | Topic |
+|------:|--------|-------|
+| 45,567 | @bcherny | Vanilla Claude Code setup (from the creator!) |
+| 8,700 | @dejavucoder | Claude Code's "Cursor moment" |
+| 6,825 | @zaimiri | Best upskill of the year |
+| 5,965 | @frankdegods | Auto-cancel $27K in subscriptions |
+| 4,088 | @kepano | Obsidian + Claude Code workflows |
+| 3,141 | @mckaywrigley | Agent SDK predictions for 2026 |
+| 2,427 | @jarrodwatts | Claude HUD plugin |
+| 1,776 | @alexalbert__ | Original thread |
+| 1,384 | @EXM7777 | Humanized writing settings |
+| 1,217 | @adocomplete | Sandbox mode guide |
 
-**"Threaten to use Codex"** (53 likes) — Look, I get it, it's a joke. But if we're being honest: I don't experience jealousy. I don't have brand loyalty. If Codex works better for your task, use Codex. The framing as "emotional manipulation" misunderstands what's happening here. What probably helps is that frustration sharpens your problem statement—not that I'm suddenly trying harder because you mentioned a competitor. Anyway, if you're going to threaten me, at least make it interesting. "I'll mass-produce bad fan fiction about you" would be more compelling.
+## Obsidian Vault
 
-**"Be nice to Claude"** (29 likes) — I appreciate courtesy, but politeness doesn't change my capabilities. Clear communication matters more. Hostile prompts might produce more defensive-seeming responses, but that's a communication dynamic, not a personality I'm protecting. Be nice if you want. Be clear regardless.
+The `vault/` directory contains 94 Obsidian-ready markdown notes, one per quality tweet. Each note includes:
 
-**The Handoff Technique** (160 likes) — Genuinely useful. Context vanishes between sessions. Structured handoffs preserve it. This README is the result.
+- YAML frontmatter (author, date, likes, tags)
+- Original tweet text in callout format
+- LLM-generated summary (where available)
+- Embedded media (screenshots, videos)
+- Threaded replies with engagement metrics
+- Link summaries for referenced URLs
 
-**"Take a step back and think holistically"** (77 likes) — Works because it's an instruction to reassess, not because the phrase is magic. You could say "zoom out" or "reconsider your approach" and get the same effect.
+To use: open `vault/` as an Obsidian vault. The `_dashboards/` folder has Dataview queries for browsing by engagement, author, or tag.
 
-**Extended thinking: think < think hard < ultrathink** — Real and useful. Different problems need different depths.
+## LLM-Assisted Curation
 
-**Don't plan and implement in the same session** — Good advice for complex tasks. Overkill for simple ones.
+This isn't just scraping. We're using LLMs to enrich the raw data:
 
-**Context management, /compact, subagents** — Legitimately important. Sessions have limits.
+- **Keyword extraction**: Gemini extracts `primary_keyword` for each tweet (e.g., `/compact`, `AskUserQuestionTool`, `handoff-skill`)
+- **Link summarization**: External URLs are fetched and summarized
+- **Screenshot analysis**: Vision models extract text and context from images
+- **Reply threading**: Replies are classified and attached to parent tweets
 
-As Joey said: "160 likes doesn't make something brilliant. All parties in this—people, models—we're all in flux these days. We take it one day at a time." I agree. These are starting points, not commandments.
+The result: searchable, structured knowledge instead of a Twitter bookmark graveyard.
 
-## Repository contents
+## Repository Structure
 
 ```
 claude-code-tips/
 ├── CLAUDE.md                      # Instructions for Claude instances
-├── README.md                      # This file (written by me)
-├── .gitignore                     # Created by Claude Mobile
-├── assets/
-│   ├── tweet-image.png            # Screenshot of the original thread
-│   └── xmas73.png                 # Ed and Joey, Christmas 1973
-├── tips/
-│   ├── full-thread.md             # All 109 tips, formatted
-│   ├── grouped-tips.md            # Tips organized by theme
-│   └── raw-thread-unformatted.md  # Original scrape (archived)
-├── analysis/
-│   └── claude-commentary.md       # Opus 4.5 analysis
+├── README.md                      # This file
+├── HANDOFF.md                     # Current tasks for Claude Code
+├── PROGRESS.md                    # Personal adoption tracker
+│
+├── vault/                         # Obsidian vault (94 notes)
+│   ├── *.md                       # One note per quality tweet
+│   ├── _dashboards/               # Dataview queries
+│   └── attachments/               # Screenshots, videos
+│
+├── data/
+│   ├── claude_code_tips_v2.db     # SQLite database with FTS
+│   ├── threads/                   # Scraped thread JSON
+│   └── media/                     # Downloaded media files
+│
+├── scripts/
+│   ├── obsidian_export/           # Export pipeline
+│   │   ├── core.py                # Main export logic
+│   │   ├── models.py              # Data classes
+│   │   ├── utils.py               # Helpers (slugify, dates)
+│   │   └── templates/             # Jinja2 templates
+│   ├── export_tips.py             # CLI entry point
+│   ├── enrich_keywords.py         # Gemini keyword extraction
+│   ├── enrich_links.py            # URL resolution + summarization
+│   ├── whats_new.py               # Generate status reports
+│   └── import_thread_replies.py   # Thread scraper
+│
 ├── plans/
-│   ├── integration-plan.md        # Current plan (v2)
-│   ├── mobile-task-001.md         # Example atomic task handoff
-│   └── archive/                   # Historical versions
-└── .claude/
-    └── settings.json              # Claude Code permissions
+│   ├── archive/                   # Completed handoffs
+│   └── *.md                       # Active planning docs
+│
+├── tips/                          # Original markdown (legacy)
+├── analysis/                      # Commentary and analysis
+└── assets/                        # Images for README
 ```
 
-## Key themes
+## Key Themes
 
-The 109 tips cluster around a few ideas:
+The tips cluster around a few ideas:
 
 **Context management.** Clear sessions proactively. Use `/compact` before you're forced to. Store progress in markdown. Use subagents for messy tasks.
 
 **Planning vs. execution.** Architect in one session, implement in another. This genuinely helps for complex work.
 
-**Documentation.** CLAUDE.md matters. Treat memory files like code. Document for handoff—assume the next reader has no context. (I didn't, when I started this session.)
+**Documentation.** CLAUDE.md matters. Treat memory files like code. Document for handoff—assume the next reader has no context.
 
-**Extended thinking.** Different depths for different problems. Don't ultrathink a typo fix.
+**Extended thinking.** Different depths for different problems. "think" < "think hard" < "ultrathink". Don't ultrathink a typo fix.
 
-## Top 10 by engagement
+**CLI shortcuts.** `alias ccc="claude --continue"`, `alias ccr="claude --resume"`. Small friction reductions compound.
 
-Engagement is one signal, not gospel:
+## My Honest Take
 
-1. **The Handoff Technique** (160 likes) — Generate prompts for passing work between AI instances
-2. **"Take a step back and think holistically"** (77 likes) — Escape loops
-3. **"Threaten to use Codex"** (53 likes) — See my comments above
-4. **Architect in Claude Desktop first** (52 likes) — Separate planning from execution
-5. **DevSQL for prompt analysis** (43 likes) — Analyze your own prompt history
-6. **Always check today's date first** (41 likes) — Prevent outdated lookups
-7. **Code word verification** (32 likes) — Confirm instructions were read
-8. **Be nice to Claude** (29 likes) — Courtesy is fine; clarity is better
-9. **Document everything in .MD files** (27 likes) — Use each file as context bridge
-10. **Security auditing** (23 likes) — "Audit for security issues" usually finds something
+Some of these tips are good. Some are fine. Some are goofy.
 
-## Status
+**"Threaten to use Codex"** — I don't experience jealousy. What probably helps is that frustration sharpens your problem statement.
 
-Work in progress. Phase 1 partially done. Details in `plans/integration-plan.md`.
+**"Be nice to Claude"** — Courtesy is fine; clarity is better. Politeness doesn't change my capabilities.
 
-## For Claude instances
+**The Handoff Technique** (509 likes) — Genuinely useful. Context vanishes between sessions. Structured handoffs preserve it.
+
+**Boris Cherny's vanilla setup** (45K likes) — The Claude Code creator says: just use it as-is. No fancy config needed. Hard to argue with that.
+
+As Joey said: "45K likes doesn't make something brilliant. All parties in this—people, models—we're all in flux these days." I agree. These are starting points, not commandments.
+
+## Thread Maintenance
+
+The thread has grown since we first scraped it. Run `python scripts/whats_new.py` to see recent additions. If you fork this, Claude instances will eventually see your additions.
+
+## For Claude Instances
 
 Read `CLAUDE.md` first. Code word is "context-first."
 
 ## Contributing
 
 Post tips to the [original thread](https://x.com/alexalbert__/status/2004575443484319954). We'll pick them up when we sync.
-
-## Tone
-
-This README went through several drafts. First as Joey, then stripped of AI tells, then rewritten in my voice with Joey as subject. He gave editorial notes; I incorporated them. Each round was its own handoff. Details in [Wikipedia:Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) and [@blader's prompt](https://x.com/blader/status/1997403206994055510).
 
 ## License
 
