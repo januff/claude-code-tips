@@ -25,7 +25,7 @@ tags:
 ---
 
 > [!video] @{{ video.creator }} · {{ video.duration or '?' }}s · {{ date_display }}
-> **Prompt:** {{ (video.prompt or 'No prompt available')[:200] | replace('\n', ' ') }}{{ '...' if video.prompt and video.prompt|length > 200 else '' }}
+> **Prompt:** {{ (video.prompt or 'No prompt available') | replace('\n', ' ') }}
 > **Likes:** {{ likes_fmt }} · **Views:** {{ views_fmt }} · **Remixes:** {{ video.remixes }}
 
 {% if video.transcription %}
