@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "unknown-the-computerusetool-is-going-to-launch-in-the.md",
+                "file": "2025-12-31-it-will-be-publicly-available-but-almost-nobody.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "unknown-the-computerusetool-is-going-to-launch-in-the"
+              "title": "2025-12-31-it-will-be-publicly-available-but-almost-nobody"
             }
           }
         ]
@@ -183,8 +183,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "13ac3b020f988bdc",
+  "active": "60e0c19c55ad4d36",
   "lastOpenFiles": [
+    "2026-01-02-if-youre-using-obsidian-with-claude-code-tell-me.md",
+    "2025-12-26-1-iterating-on-a-plan-manually-before-executing-i.md",
     "2026-01-02-major-update-to-claude-workflow-after-bcherny.md",
     "2025-12-27-whenever-i-start-working-on-a-new-codebase.md",
     "unknown-coding-via-carplay-with-a-project-manager-agent.md",
@@ -217,8 +219,6 @@
     "2025-12-28-bypass-ai-detectors.md",
     "_dashboards/top-by-engagement.md",
     "2026-01-02-one-thing-im-surprised-about-claude-even-45-opus.md",
-    "2025-12-31-its-an-sdk-that-allows-you-to-build-any-kind-of.md",
-    "2025-12-26-exit-claude.md",
     "attachments/screenshots/tweet_2005360362737344574_8.png",
     "attachments/screenshots/tweet_2005285904420843892_10.jpg",
     "attachments/screenshots/tweet_2004599760179921392_6.jpg",
