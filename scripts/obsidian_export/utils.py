@@ -245,6 +245,78 @@ STOPWORDS = {
 }
 
 
+def generate_video_filename(
+    date_str: str,
+    video_id: str,
+    primary_subject: Optional[str] = None,
+    action_summary: Optional[str] = None,
+    thematic_tags: Optional[list[str]] = None,
+    characters: Optional[list] = None,
+    prompt: Optional[str] = None,
+) -> str:
+    """
+    Generate semantic filename for Hall of Fake video notes.
+
+    Priority:
+    1. primary_subject + first thematic_tag (e.g., "submarine-drifting")
+    2. Character duo if 2 recognizable names (e.g., "griffith-knotts")
+    3. primary_subject alone
+    4. First 2-3 significant words from prompt
+    5. Fallback to video_id
+    """
+    date = format_date(date_str, fallback="unknown")
+
+    # Try primary_subject + action
+    if primary_subject:
+        subject_slug = slugify(primary_subject, max_length=20)
+
+        # Add action context from thematic_tags
+        if thematic_tags and len(thematic_tags) > 0:
+            # Pick first action-like tag
+            action_words = ['chase', 'drifting', 'surfing', 'dancing', 'fighting',
+                           'cooking', 'singing', 'racing', 'flying', 'swimming',
+                           'jumping', 'running', 'eating', 'playing', 'riding']
+            action_tag = None
+            for tag in thematic_tags:
+                tag_lower = tag.lower()
+                if any(word in tag_lower for word in action_words):
+                    action_tag = slugify(tag, max_length=15)
+                    break
+
+            if action_tag:
+                return f"{date}-{subject_slug}-{action_tag}.md"
+
+        return f"{date}-{subject_slug}.md"
+
+    # Try character duo
+    if characters and len(characters) >= 2:
+        # Extract names from character dicts or strings
+        names = []
+        for char in characters[:2]:
+            if isinstance(char, dict):
+                name = char.get('name') or char.get('description', '')
+            else:
+                name = str(char)
+            # Extract last name or single name
+            name_parts = name.split()
+            if name_parts:
+                names.append(slugify(name_parts[-1], max_length=15))
+
+        if len(names) == 2 and all(names):
+            return f"{date}-{names[0]}-{names[1]}.md"
+
+    # Fallback to prompt words
+    if prompt:
+        # Extract significant words
+        words = re.findall(r'\b[a-zA-Z]{3,}\b', prompt)
+        significant = [w.lower() for w in words if w.lower() not in STOPWORDS][:3]
+        if significant:
+            return f"{date}-{'-'.join(significant)}.md"
+
+    # Last resort
+    return f"{date}-{video_id}.md"
+
+
 def generate_fallback_keyword(text: str, handle: Optional[str] = None) -> str:
     """
     Generate a short keyword from tweet text when primary_keyword is missing.

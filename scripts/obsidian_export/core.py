@@ -12,7 +12,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from .models import Tweet, Video, Media, Reply, Link, Resource, Compilation, parse_json_field
 from .utils import (
-    generate_filename, format_date, format_datetime_display,
+    generate_filename, generate_video_filename, format_date, format_datetime_display,
     format_number, slugify, sanitize_text
 )
 
@@ -487,10 +487,14 @@ class HoFExporter(VaultExporter):
         try:
             template = self.env.get_template("video.md.j2")
 
-            filename = generate_filename(
+            filename = generate_video_filename(
                 video.posted_at,
-                video.prompt or video.discovery_phrase or '',
-                video.video_id
+                video.video_id,
+                primary_subject=video.primary_subject,
+                action_summary=video.action_summary,
+                thematic_tags=video.thematic_tags,
+                characters=video.characters,
+                prompt=video.prompt,
             )
 
             content = template.render(

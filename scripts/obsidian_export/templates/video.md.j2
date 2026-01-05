@@ -1,24 +1,10 @@
 ---
-id: "{{ video.video_id }}"
-source: "hof"
 created: {{ date }}
 creator: "{{ video.creator }}"
-prompt: {{ video.prompt | tojson if video.prompt else '""' }}
-duration: {{ video.duration or 0 }}
-likes: {{ video.likes }}
-views: {{ video.views }}
-remixes: {{ video.remixes }}
-is_remix: {{ video.is_remix | lower }}
-{% if video.parent_post_id %}
-parent_video_id: "{{ video.parent_post_id }}"
-{% endif %}
-has_speech: {{ video.has_speech | lower }}
-has_local_video: {{ video.has_local_video | lower }}
+prompt: |
+  {{ video.prompt | replace('\n', '\n  ') if video.prompt else '' }}
 {% if video.primary_subject %}
 primary_subject: {{ video.primary_subject | tojson }}
-{% endif %}
-{% if video.subject_category %}
-subject_category: "{{ video.subject_category }}"
 {% endif %}
 {% if video.setting %}
 setting: {{ video.setting | tojson }}
@@ -32,14 +18,6 @@ style_tags: {{ video.style_tags | tojson }}
 {% if video.thematic_tags %}
 thematic_tags: {{ video.thematic_tags | tojson }}
 {% endif %}
-{% if video.featured_in %}
-featured_in:
-{% for f in video.featured_in %}
-  - title: {{ f.headline | tojson if f.headline else '"Unknown"' }}
-    url: "{{ f.url }}"
-    timestamp: "{{ f.timestamp or '' }}"
-{% endfor %}
-{% endif %}
 tags:
 {% for tag in tags %}
   - {{ tag }}
@@ -47,21 +25,9 @@ tags:
 ---
 
 > [!video] @{{ video.creator }} · {{ video.duration or '?' }}s · {{ date_display }}
-> **Prompt:** {{ video.prompt or 'No prompt available' }}
+> **Prompt:** {{ (video.prompt or 'No prompt available')[:200] | replace('\n', ' ') }}{% if video.prompt and video.prompt|length > 200 %}...{% endif %}
 >
 > Likes: {{ likes_fmt }} · Views: {{ views_fmt }} · Remixes: {{ video.remixes }}
-
-## Video
-
-{% if video.has_thumbnail %}
-![[attachments/thumbnails/{{ video.thumbnail_path }}]]
-{% endif %}
-
-{% if video.has_local_video %}
-![[attachments/videos/{{ video.local_filename }}]]
-{% else %}
-*Video not downloaded locally*
-{% endif %}
 
 {% if video.transcription %}
 ## Transcript
@@ -69,6 +35,16 @@ tags:
 > {{ video.transcription }}
 
 {% endif %}
+## Video
+
+{% if video.has_local_video %}
+<video src="videos/{{ video.local_filename }}" width="200" controls></video>
+{% elif video.has_thumbnail %}
+![[attachments/thumbnails/{{ video.thumbnail_path }}|200]]
+{% else %}
+*No video or thumbnail available*
+{% endif %}
+
 {% if video.primary_subject or video.setting or video.characters %}
 ## Visual Analysis
 
@@ -136,3 +112,26 @@ This is a remix of [[{{ video.parent_post_id }}]]
 
 {% endfor %}
 {% endif %}
+
+---
+
+<details>
+<summary>Metadata</summary>
+
+| Field | Value |
+|-------|-------|
+| id | `{{ video.video_id }}` |
+| source | hof |
+| duration | {{ video.duration or 0 }}s |
+| likes | {{ video.likes }} |
+| views | {{ video.views }} |
+| remixes | {{ video.remixes }} |
+| is_remix | {{ video.is_remix | lower }} |
+{% if video.parent_post_id %}| parent_video_id | `{{ video.parent_post_id }}` |
+{% endif %}
+| has_speech | {{ video.has_speech | lower }} |
+| has_local_video | {{ video.has_local_video | lower }} |
+{% if video.subject_category %}| subject_category | {{ video.subject_category }} |
+{% endif %}
+
+</details>
