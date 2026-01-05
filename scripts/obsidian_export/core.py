@@ -119,8 +119,10 @@ class VaultExporter(ABC):
 class TipsExporter(VaultExporter):
     """Exporter for Claude Code Tips vault."""
 
-    def __init__(self, db_path: Path, output_dir: Path, limit: Optional[int] = None):
+    def __init__(self, db_path: Path, output_dir: Path, limit: Optional[int] = None,
+                 quality_filter: bool = True):
         super().__init__(db_path, output_dir, limit)
+        self.quality_filter = quality_filter
         (self.output_dir / "_resources").mkdir(parents=True, exist_ok=True)
 
     def setup_vault(self):
@@ -168,8 +170,13 @@ class TipsExporter(VaultExporter):
                 ti.one_liner
             FROM tweets t
             LEFT JOIN tips ti ON t.id = ti.tweet_id
-            ORDER BY t.likes DESC
         """
+        # Quality filter: only export tweets with engagement OR enrichment
+        # Exclude @unknown handles (duplicate thread replies already in parent notes)
+        if self.quality_filter:
+            query += """ WHERE (t.likes > 0 OR ti.holistic_summary IS NOT NULL)
+                AND t.handle != '@unknown'"""
+        query += " ORDER BY t.likes DESC"
         if self.limit:
             query += f" LIMIT {self.limit}"
 
@@ -326,6 +333,7 @@ class TipsExporter(VaultExporter):
         print(f"=" * 40)
         print(f"Database: {self.db_path}")
         print(f"Output: {self.output_dir}")
+        print(f"Quality filter: {'ON (likes > 0 OR has summary)' if self.quality_filter else 'OFF (all tweets)'}")
         if self.limit:
             print(f"Limit: {self.limit}")
 

@@ -51,6 +51,20 @@ def slugify(text: str, max_length: int = 50) -> str:
     return text
 
 
+def date_from_tweet_id(tweet_id: str) -> Optional[str]:
+    """
+    Extract date from Twitter snowflake ID.
+    Twitter IDs encode timestamp as: (id >> 22) + 1288834974657 = ms since epoch
+    """
+    try:
+        id_int = int(tweet_id)
+        timestamp_ms = (id_int >> 22) + 1288834974657
+        dt = datetime.fromtimestamp(timestamp_ms / 1000)
+        return dt.strftime("%Y-%m-%d")
+    except (ValueError, OSError):
+        return None
+
+
 def format_date(date_str: Optional[str], fallback: str = "unknown") -> str:
     """
     Parse various date formats and return YYYY-MM-DD.
@@ -120,8 +134,12 @@ def generate_filename(
 
     Uses primary_keyword if available, otherwise falls back to text slug.
     Falls back to {date}-{id}.md if slug is invalid.
+    If date_str is missing, extracts date from tweet ID (snowflake format).
     """
-    date = format_date(date_str, fallback="unknown")
+    date = format_date(date_str, fallback=None)
+    # Fallback to extracting date from tweet ID
+    if not date:
+        date = date_from_tweet_id(id_fallback) or "unknown"
 
     # Prefer primary_keyword from LLM enrichment
     if primary_keyword:

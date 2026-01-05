@@ -3,7 +3,8 @@
 Export Claude Code Tips database to Obsidian vault.
 
 Usage:
-    python scripts/export_tips.py              # Full export
+    python scripts/export_tips.py              # Quality tweets only (default)
+    python scripts/export_tips.py --all        # Include all tweets
     python scripts/export_tips.py --limit 10   # Sample export
     python scripts/export_tips.py --output ~/custom/path
 """
@@ -39,6 +40,12 @@ def main():
         default=Path(__file__).parent.parent / "data" / "claude_code_tips_v2.db",
         help="Path to tips database"
     )
+    parser.add_argument(
+        "--all", "-a",
+        action="store_true",
+        dest="include_all",
+        help="Include all tweets (skip quality filter)"
+    )
 
     args = parser.parse_args()
 
@@ -46,10 +53,14 @@ def main():
         print(f"Error: Database not found at {args.db}")
         sys.exit(1)
 
+    # Quality filter is ON by default, --all disables it
+    quality_filter = not args.include_all
+
     exporter = TipsExporter(
         db_path=args.db,
         output_dir=args.output,
         limit=args.limit,
+        quality_filter=quality_filter,
     )
 
     exporter.export()
