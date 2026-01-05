@@ -125,6 +125,44 @@ class Media:
 
 
 @dataclass
+class Link:
+    """Represents a resolved URL with metadata."""
+    short_url: str
+    expanded_url: str
+    content_type: Optional[str] = None
+    title: Optional[str] = None
+    description: Optional[str] = None
+    llm_summary: Optional[str] = None
+
+    @property
+    def domain(self) -> str:
+        """Extract domain from expanded_url."""
+        try:
+            from urllib.parse import urlparse
+            parsed = urlparse(self.expanded_url)
+            return parsed.netloc.replace('www.', '')
+        except:
+            return ''
+
+    @property
+    def display_path(self) -> str:
+        """Extract a clean display path from the URL."""
+        try:
+            from urllib.parse import urlparse
+            parsed = urlparse(self.expanded_url)
+            path = parsed.path.rstrip('/')
+            # For GitHub, show repo path nicely
+            if 'github.com' in parsed.netloc and path:
+                return f"{parsed.netloc}{path}"
+            # For docs, show domain + path
+            if path:
+                return f"{parsed.netloc.replace('www.', '')}{path}"
+            return parsed.netloc.replace('www.', '')
+        except:
+            return self.expanded_url
+
+
+@dataclass
 class Reply:
     """Represents a reply in a thread."""
     id: int
@@ -144,6 +182,7 @@ class Reply:
     quality_score: Optional[int] = None
     has_media: bool = False
     media_urls: Optional[str] = None
+    links: list['Link'] = field(default_factory=list)
 
     @property
     def quality_level(self) -> str:

@@ -10,7 +10,7 @@ from abc import ABC, abstractmethod
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from .models import Tweet, Video, Media, Reply, Resource, Compilation, parse_json_field
+from .models import Tweet, Video, Media, Reply, Link, Resource, Compilation, parse_json_field
 from .utils import (
     generate_filename, format_date, format_datetime_display,
     format_number, slugify, sanitize_text
@@ -133,6 +133,22 @@ class TipsExporter(VaultExporter):
         conn.row_factory = sqlite3.Row
         cursor = conn.cursor()
 
+        # Pre-load all links into a lookup dict by short_url
+        cursor.execute("""
+            SELECT short_url, expanded_url, content_type, title, description, llm_summary
+            FROM links WHERE expanded_url IS NOT NULL
+        """)
+        links_by_short_url = {}
+        for l_row in cursor.fetchall():
+            links_by_short_url[l_row['short_url']] = Link(
+                short_url=l_row['short_url'],
+                expanded_url=l_row['expanded_url'],
+                content_type=l_row['content_type'],
+                title=l_row['title'],
+                description=l_row['description'],
+                llm_summary=l_row['llm_summary'],
+            )
+
         # Main query with tips join
         query = """
             SELECT
@@ -237,6 +253,19 @@ class TipsExporter(VaultExporter):
                 (tweet.id,)
             )
             for r_row in cursor.fetchall():
+                # Match extracted URLs to links
+                reply_links = []
+                extracted_urls = r_row['extracted_urls']
+                if extracted_urls:
+                    try:
+                        import json
+                        urls = json.loads(extracted_urls)
+                        for url in urls:
+                            if url in links_by_short_url:
+                                reply_links.append(links_by_short_url[url])
+                    except (json.JSONDecodeError, TypeError):
+                        pass
+
                 tweet.replies_list.append(Reply(
                     id=r_row['id'],
                     parent_tweet_id=r_row['parent_tweet_id'],
@@ -255,6 +284,7 @@ class TipsExporter(VaultExporter):
                     quality_score=r_row['quality_score'],
                     has_media=bool(r_row['has_media']),
                     media_urls=r_row['media_urls'],
+                    links=reply_links,
                 ))
 
             tweets.append(tweet)

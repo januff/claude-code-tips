@@ -107,12 +107,20 @@ url: "{{ tweet.url }}"
 {% if reply.reply_likes > 0 %}
 > *{{ reply.reply_likes }} likes*
 {% endif %}
+{% for link in reply.links if link.llm_summary %}
+>
+> 📎 **[{{ link.display_path }}]({{ link.expanded_url }})** — {{ link.llm_summary }}
+{% endfor %}
 {% set author_response = tweet.replies_list | selectattr('response_to_reply_id', 'equalto', reply.reply_tweet_id) | first %}
 {% if author_response %}
 
 > [!tip]+ ↩️ {{ author_response.reply_author_handle }} · {{ author_response.reply_posted_at or '' }}
 
 > {{ author_response.reply_text | replace('\n', '\n> ') }}
+{% for link in author_response.links if link.llm_summary %}
+>
+> 📎 **[{{ link.display_path }}]({{ link.expanded_url }})** — {{ link.llm_summary }}
+{% endfor %}
 {% endif %}
 
 {% endfor %}
