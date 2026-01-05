@@ -146,7 +146,7 @@ WHERE likes > 0 OR holistic_summary IS NOT NULL
 ├── data/
 │   ├── claude_code_tips_v2.db  # SQLite database with FTS5
 │   └── threads/                # Scraped thread JSON files (70 threads)
-├── vault/                       # Obsidian export (94 quality notes)
+├── Claude Code Tips/            # Obsidian vault (94 quality notes)
 │   ├── Claude Dashboard/
 │   │   └── Session Logs/       # Detailed session summaries
 │   └── attachments/            # Media files
@@ -163,12 +163,12 @@ WHERE likes > 0 OR holistic_summary IS NOT NULL
 ## Key Files
 
 | File | Purpose |
-|------|---------|
+|------|---------||
 | `HANDOFF.md` | **Check first** — Current tasks from Claude.ai |
 | `PROGRESS.md` | Personal tracking of technique adoption |
 | `LEARNINGS.md` | Techniques catalog (what's available vs. what we use) |
 | `data/claude_code_tips_v2.db` | SQLite: tweets, replies, links, media |
-| `vault/` | Obsidian export (94 quality-filtered notes) |
+| `Claude Code Tips/` | Obsidian vault (94 quality-filtered notes) |
 
 ## Data State (January 5, 2026)
 

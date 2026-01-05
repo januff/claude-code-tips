@@ -20,7 +20,7 @@ from obsidian_export import HoFExporter
 # Default paths for Hall of Fake
 HOF_DIR = Path.home() / "Development" / "Hall of Fake"
 DEFAULT_DB = HOF_DIR / "hall_of_fake.db"
-DEFAULT_OUTPUT = HOF_DIR / "vault"
+DEFAULT_OUTPUT = HOF_DIR / "Hall of Fake"
 DEFAULT_VIDEOS = HOF_DIR / "videos"
 DEFAULT_THUMBNAILS = HOF_DIR / "thumbnails"
 
