@@ -1,0 +1,39 @@
+---
+created: 2025-12-26
+author: "@hakanderyal"
+display_name: "Hakan Deryal"
+category: "context-management"
+tools: ["skills", "task"]
+tags:
+  - category/context-management
+  - tool/skills
+  - tool/task
+likes: 2
+views: 309
+engagement_score: 0
+url: "https://x.com/hakanderyal/status/2004633433927303186"
+---
+
+> [!tweet] @hakanderyal · Dec 26, 2025
+> I was using skills before they were a thing. 
+> 
+> /backend, /frontend, /fullstack and a few variants each. Each loading necessary context via @ references to relevant files. 
+> 
+> Just enough context for the specific task at hand. 
+> 
+> Still using them.
+>
+> Likes: 2 · Replies: 0 · Reposts: 0
+
+## Summary
+
+I was using skills before they were a thing
+
+
+> [!metrics]- Engagement & Metadata
+> **Likes:** 2 · **Replies:** 0 · **Reposts:** 0 · **Views:** 309
+> **Engagement Score:** 0
+>
+> **Source:** tips · **Quality:** 6/10
+> **Curated:** ✓ · **Reply:** ✗
+> **ID:** [2004633433927303186](https://x.com/hakanderyal/status/2004633433927303186)

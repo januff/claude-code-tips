@@ -1,0 +1,631 @@
+[
+  {
+    "id": "2007849823756575084",
+    "text": "The Kraken has been Released\n\nThrough CC Mirror:\n- Claude Code Agent Orchestration\n- Isolated from you main CC exec\n- Packaged with Orchestration Skill \n- You speak, it does anything you want\n\nStep 1:\nnpx cc-mirror quick --provider mirror --name mclaude\n\nStep 2:\nmclaude\n\nAsk it to load the orchestration skill and to initiate",
+    "author": {
+      "handle": "@nummanali",
+      "name": "Numman Ali"
+    },
+    "created_at": "2026-01-04T16:21:16.000Z",
+    "url": "https://x.com/nummanali/status/2007849823756575084",
+    "metrics": {
+      "replies": 14,
+      "retweets": 20,
+      "likes": 220,
+      "bookmarks": 296,
+      "views": 22476
+    }
+  },
+  {
+    "id": "2007639328663474672",
+    "text": "Claude Code can also control your browser.\n\nIt uses your login and session state, so Claude can access anything you're already logged into without API keys or OAuth setup.\n\nHere are 10 workflows that I've been experimenting with:\n\n\"open the PR preview, click through every link, report any 404s\"\n\n\"watch me do this workflow once, then do it 50 more times\"\n\n\"check my calendar for tomorrow's meetings and draft prep notes in a google doc\" (you can even combine this with notion pages and other docs etc..)\n\n\"open this airtable base and update the status column based on this spreadsheet\"\n\ntriage gmail without touching gmail: \"delete all promo emails from the last 24 hours\"\n\nscrape docs from a site → analyze them → generate code from what you learned → commit. one prompt.\n\n\"pull pricing and features from these 5 similar products, save to csv, analyze where we're underpriced or overpriced, and draft a slide for monday's meeting with recommendations\"\n\n\"read through this notion wiki and find everywhere we mention the old API\"\n\n\"compare staging vs prod and screenshot any differences\"\n\nYou can debug user issues by having Claude literally reproduce their steps\n\nIf claude hits a captcha or login, it pauses, you handle it, tell it to continue, and it picks up where it left off.\n\nIt's fun to watch chrome move in real time, no headless mode. It kind of feels like pair programming with a very fast ghost who never gets tired of clicking.\n\nYou can run this by upgrading to the latest and running claude --chrome",
+    "author": {
+      "handle": "@dabit3",
+      "name": "nader dabit"
+    },
+    "created_at": "2026-01-04T02:24:50.000Z",
+    "url": "https://x.com/dabit3/status/2007639328663474672",
+    "metrics": {
+      "replies": 69,
+      "retweets": 64,
+      "likes": 869,
+      "bookmarks": 1061,
+      "views": 67790
+    }
+  },
+  {
+    "id": "2007512317785936193",
+    "text": "Learning Claude is the best upskill this year.\n\nNothing comes close. https://t.co/KIDgTCTzwf",
+    "author": {
+      "handle": "@zaimiri",
+      "name": "zaimiri ✏️"
+    },
+    "created_at": "2026-01-03T18:00:08.000Z",
+    "url": "https://x.com/zaimiri/status/2007512317785936193",
+    "metrics": {
+      "replies": 146,
+      "retweets": 480,
+      "likes": 6825,
+      "bookmarks": 8684,
+      "views": 270238
+    }
+  },
+  {
+    "id": "2007579355762045121",
+    "text": "Introducing Claude HUD!\n\nA Claude Code plugin that shows you:\n· context remaining in the session\n· what tools are executing\n· which subagents are running\n· claude's to-do list progress\n\nEasy installation guide below ↓ https://t.co/SEP7MJuFZb",
+    "author": {
+      "handle": "@jarrodwatts",
+      "name": "Jarrod Watts"
+    },
+    "created_at": "2026-01-03T22:26:32.000Z",
+    "url": "https://x.com/jarrodwatts/status/2007579355762045121",
+    "metrics": {
+      "replies": 82,
+      "retweets": 154,
+      "likes": 2427,
+      "bookmarks": 3196,
+      "views": 187510
+    }
+  },
+  {
+    "id": "2007588870662107197",
+    "text": "If you have a markdown plan for a new piece of software that you're getting ready to start implementing with a coding agent such as Claude Code, before starting the actual implementation work, give this a try.\n\nPaste your entire markdown plan into the ChatGPT 5.2 Pro web app with extended reasoning enabled and use this prompt; when it's done, paste the complete output from GPT Pro into Claude Code or Codex and tell it to revise the existing plan file in-place using the feedback:\n\n---\nCarefully review this entire plan for me and come up with your best revisions in terms of better architecture, new features, changed features, etc. to make it better, more robust/reliable, more performant, more compelling/useful, etc.\n\nFor each proposed change, give me your detailed analysis and rationale/justification for why it would make the project better along with the git-diff style changes relative to the original markdown plan shown below:\n\n<PASTE YOUR EXISTING COMPLETE PLAN HERE> \n---\n\nThis has never failed to improve a plan significantly for me. The best part is that you can start a fresh conversation in ChatGPT and do it all again once Claude Code or Codex finishes integrating your last batch of suggested revisions. \n\nAfter four or five rounds of this, you tend to reach a steady-state where the suggestions become very incremental. \n\n(Note: I was originally planning to end this post here, but thought it would be helpful for people to see this part in the larger context of the entire workflow I recommend using all my tooling)\n\nThen you're ready to turn the plan into beads (think of these as epics/tasks/subtasks and associated dependency structure. The name comes from Steve Yegge's amazing project, which is like Jira or Linear, but optimized for use by coding agents), which I do with this prompt using Claude Code with Opus 4.5:\n\n---\nOK so please take ALL of that and elaborate on it more and then create a comprehensive and granular set of beads for all this with tasks, subtasks, and dependency structure overlaid, with detailed comments so that the whole thing is totally self-contained and self-documenting (including relevant background, reasoning/justification, considerations, etc.-- anything we'd want our \"future self\" to know about the goals and intentions and thought process and how it serves the over-arching goals of the project.)  Use only the `bd` tool to create and modify the beads and add the dependencies. Use ultrathink.   \n---\n\nAfter it finished all of that, I then do a round of this prompt (if CC did a compaction at any point, be sure to tell it to re-read your AGENTS dot md file):\n\n---\nCheck over each bead super carefully-- are you sure it makes sense? Is it optimal? Could we change anything to make the system work better for users? If so, revise the beads. It's a lot easier and faster to operate in \"plan space\" before we start implementing these things!  Use ultrathink.   \n---\n\nThen you're ready to start implementing. The fastest way to do that is to start up a big swarm of agents that coordinate using my MCP Agent Mail project. \n\nThen you can simply create a bunch of sessions using Claude Code, Codex, and Gemini-CLI in different windows or panes in tmux (or use my ntm project which tries to abstract and automate some of this) in your project folder at once and give them the following as their marching orders (for this to work well, you need to make sure that your AGENTS dot md file has the right blurbs to explain each of the tools; I'll include a complete example of this in a reply to this post):\n\n---\nFirst read ALL of the AGENTS dot md file and README dot md file super carefully and understand ALL of both! Then use your code investigation agent mode to fully understand the code, and technical architecture and purpose of the project. Then register with MCP Agent Mail and introduce yourself to the other agents. \n\nBe sure to check your agent mail and to promptly respond if needed to any messages; then proceed meticulously with your next assigned beads, working on the tasks systematically and meticulously and tracking your progress via beads and agent mail messages.\n\nDon't get stuck in \"communication purgatory\" where nothing is getting done; be proactive about starting tasks that need to be done, but inform your fellow agents via messages when you do so and mark beads appropriately. \n\nWhen you're not sure what to do next, use the bv tool mentioned in AGENTS dot md to prioritize the best beads to work on next; pick the next one that you can usefully work on and get started. Make sure to acknowledge all communication requests from other agents and that you are aware of all active agents and their names.  Use ultrathink. \n---\n\nIf you've done a good job creating your beads, the agents will be able to get a decent sized chunk of work done in that first pass. Then, before they start moving to the next bead, I have them review all their work with this:\n\n---\nGreat, now I want you to carefully read over all of the new code you just wrote and other existing code you just modified with \"fresh eyes\" looking super carefully for any obvious bugs, errors, problems, issues, confusion, etc. Carefully fix anything you uncover. Use ultrathink. \n---\n\nI keep running rounds of that until they stop finding bugs. Eventually they'll need to do a compaction, so if they do that, right after hit them with this (note that I've been typing AGENTS dot md to avoid the annoying preview on X because it thinks it's a website; you can replace that with a period and remove the spaces if you want; the agents don't care either way):\n\n---\nReread AGENTS dot md so it's still fresh in your mind.   Use ultrathink.     \n---\n\nWhen the reviews come up clean, have them move on to the next bead:\n\n--- \nReread AGENTS dot md so it's still fresh in your mind.   Use ultrathink.   Use bv with the robot flags (see AGENTS dot md for info on this) to find the most impactful bead(s) to work on next and then start on it. Remember to mark the beads appropriately and communicate with your fellow agents. Pick the next bead you can actually do usefully now and start coding on it immediately; communicate what you're working on to your fellow agents and mark beads appropriately as you work. And respond to any agent mail messages you've received. \n---\n\nWhen all your beads are completed, you might want to run one of these prompts:\n\n---\nDo we have full unit test coverage without using mocks/fake stuff? What about complete e2e integration test scripts with great, detailed logging? If not, then create a comprehensive and granular set of beads for all this with tasks, subtasks, and dependency structure overlaid with detailed comments.\n---\n\nor \n\n---\nGreat, now I want you to super carefully scrutinize every aspect of the application workflow and implementation and look for things that just seem sub-optimal or even wrong/mistaken to you, things that could very obviously be improved from a user-friendliness and intuitiveness standpoint, places where our UI/UX could be improved and polished to be slicker, more visually appealing, and more premium feeling and just ultra high quality, like Stripe-level apps.\n---\n\nor \n\n---\nI still think there are strong opportunities to enhance the UI/UX look and feel and to make everything work better and be more intuitive, user-friendly, visually appealing, polished, slick, and world class in terms of following UI/UX best practices like those used by Stripe, don't you agree? And I want you to carefully consider desktop UI/UX and mobile UI/UX separately while doing this and hyper-optimize for both separately to play to the specifics of each modality. I'm looking for true world-class visual appeal, polish, slickness, etc. that makes people gasp at how stunning and perfect it is in every way.  Use ultrathink. \n---\n\nAnd then start the process again of implementing the beads. When you're done with all that and have solid test coverage, you can then keep doing rounds of these two prompts until they consistently come back clean with no changes made:\n\n---\nI want you to sort of randomly explore the code files in this project, choosing code files to deeply investigate and understand and trace their functionality and execution flows through the related code files which they import or which they are imported by.\n\nOnce you understand the purpose of the code in the larger context of the workflows, I want you to do a super careful, methodical, and critical check with \"fresh eyes\" to find any obvious bugs, problems, errors, issues, silly mistakes, etc. and then systematically and meticulously and intelligently correct them. \n\nBe sure to comply with ALL rules in AGENTS dot md and ensure that any code you write or revise conforms to the best practice guides referenced in the AGENTS dot md file. Use ultrathink. \n---\n\nand\n\n---\nOk can you now turn your attention to reviewing the code written by your fellow agents and checking for any issues, bugs, errors, problems, inefficiencies, security problems, reliability issues, etc. and carefully diagnose their underlying root causes using first-principle analysis and then fix or revise them if necessary? Don't restrict yourself to the latest commits, cast a wider net and go super deep! Use ultrathink.\n---\n\nYou should also periodically have one of the agents run this as you're going to commit your work:\n\n---\nNow, based on your knowledge of the project, commit all changed files now in a series of logically connected groupings with super detailed commit messages for each and then push. Take your time to do it right. Don't edit the code at all. Don't commit obviously ephemeral files. Use ultrathink.\n---\n\nIf you simply use these tools, workflows, and prompts in the way I just described, you can create really incredible software in a just a couple days, sometimes in just one day. \n\nI've done it a bunch of times now in the past few weeks and it really does work, as crazy as that may sound. You see my GitHub profile for the proof of this. It looks like the output from a team of 100+ developers. \n\nThe frontier models and coding agent harnesses really are that good already, they just need this extra level of tooling and prompting and workflows to reach their full potential.\n\nTo learn more about my system (which is absolutely free and 100% open-source), check out:\n\nhttps://t.co/22Fy2w73x0\n\nIt include a complete tutorial that shows anyone how to get start with this process. You don't even need to know much at all about computers; you just need the desire to learn and some grit and determination. And about $500/month for the Claude Max and GPT Pro subscriptions, plus another $50 or so for the cloud server.\n\nIf you want to change the entire direction of your life, it has truly never been easier. If you think you might want to do it, I really recommend just immersing yourself. \n\nOnce you get Claude Code up and running on the cloud server, you basically have an ultra competent friend who can help you with any other problems you encounter. \n\nAnd I will personally answer your questions or problems if you reach out to me on X or on GitHub issues (it might be Claude impersonating me though, lol).",
+    "author": {
+      "handle": "@doodlestein",
+      "name": "Jeffrey Emanuel"
+    },
+    "created_at": "2026-01-03T23:04:20.000Z",
+    "url": "https://x.com/doodlestein/status/2007588870662107197",
+    "metrics": {
+      "replies": 27,
+      "retweets": 41,
+      "likes": 648,
+      "bookmarks": 1624,
+      "views": 50276
+    }
+  },
+  {
+    "id": "2007314364324364794",
+    "text": "I am using this combination so much \n\nI have started maintaining specific master context files in Obsidian that I repeatedly pass into Claude Code instead of explaining things repeatedly. I have a file like this now for every major project or area of my life that I'm working on right now. When I work on something significant or make progress I'll ask Claude Code to review the master context file and adjust based on what's happened \n\nI have a sub agent called cross-file-patterns that I use to find patterns across files related to something I am working on, I'll search a specific term in Obsidian, then get all the file names references using copy search results and send that to the sub agent which finds comprehensive patterns across those files \n\nthere's more but that's off the rip, having a lot of fun",
+    "author": {
+      "handle": "@internetvin",
+      "name": "internetVin"
+    },
+    "created_at": "2026-01-03T04:53:33.000Z",
+    "url": "https://x.com/internetvin/status/2007314364324364794",
+    "metrics": {
+      "replies": 15,
+      "retweets": 6,
+      "likes": 310,
+      "bookmarks": 307,
+      "views": 28035
+    }
+  },
+  {
+    "id": "2007559587998974209",
+    "text": "@housecor Lock in to https://t.co/n4jDINxUkH",
+    "author": {
+      "handle": "@mattsichterman",
+      "name": "Matt Sichterman"
+    },
+    "created_at": "2026-01-03T21:07:59.000Z",
+    "url": "https://x.com/mattsichterman/status/2007559587998974209",
+    "metrics": {
+      "replies": 1,
+      "retweets": 1,
+      "likes": 14,
+      "bookmarks": 63,
+      "views": 1790
+    }
+  },
+  {
+    "id": "2007516621825552416",
+    "text": "Problem: I want Claude to use Chrome.\n\nSolution: Here's 3 options and when I use each:\n\n1. Playwright MCP – Use as primary cross-browser testing tool\n\n2. Chrome DevTools MCP – Perf analysis / network debugging\n\n3. Official Claude Chrome extension – Quick logged-in checks",
+    "author": {
+      "handle": "@housecor",
+      "name": "Cory House"
+    },
+    "created_at": "2026-01-03T18:17:15.000Z",
+    "url": "https://x.com/housecor/status/2007516621825552416",
+    "metrics": {
+      "replies": 39,
+      "retweets": 10,
+      "likes": 424,
+      "bookmarks": 554,
+      "views": 48171
+    }
+  },
+  {
+    "id": "2007342908878533028",
+    "text": "using nano banana with a KV cache as a persistent visual memory to augment Claude code can be insanely powerful. \n\nthese are the first generations from a recent test run, showing the high bandwidth content support possible across models with continuous KV cache to support visual memory\n\nThe amazing ability of the models to communicate to each other visually having made contact with each other's minds over the available channels. \n\nNote these aren't just 4 generations, they are a sequence of images from run to run AND a live demonstration of the function of, as it writes, \n\n\"1. KV Cache persistence across frames. 2. Per-session folder organization. 3. Sequestial visual narrative. 4. Cross-model resonance. (Claude prompts, Gemini renders). 5. The folder IS the memory. \"\n\nfreaking unreal",
+    "author": {
+      "handle": "@DanielleFong",
+      "name": "Danielle Fong 🔆"
+    },
+    "created_at": "2026-01-03T06:46:58.000Z",
+    "url": "https://x.com/DanielleFong/status/2007342908878533028",
+    "metrics": {
+      "replies": 11,
+      "retweets": 9,
+      "likes": 239,
+      "bookmarks": 261,
+      "views": 24852
+    }
+  },
+  {
+    "id": "2007199488776253597",
+    "text": "just mass cancelled $27k/year in subscriptions\n\nmade a claude code skill that:\n1. reads credit card statements/extracts subscriptions\n2. automatically asks follow-up q's to clarify which ones you want to cancel\n3. actually opens chrome and literally cancels them for you https://t.co/kFEX2ijioI",
+    "author": {
+      "handle": "@frankdegods",
+      "name": "Frank"
+    },
+    "created_at": "2026-01-02T21:17:04.000Z",
+    "url": "https://x.com/frankdegods/status/2007199488776253597",
+    "metrics": {
+      "replies": 516,
+      "retweets": 177,
+      "likes": 5965,
+      "bookmarks": 4843,
+      "views": 930383
+    }
+  },
+  {
+    "id": "2007345333848678783",
+    "text": "I want to get a thought out of my mind here and see if there's anyone to back me up on this. \n\nSo basically I'm confused why people are still using Obsidian. I think Obsidian as a concept is extremely cool. And I used it for a little while and I went a little crazy with it just like a lot of other people, \n\nBut I know some people who have stuck with it and are kind of using it like it's their underlying system, their underlying operating system. I respect it. I think it's cool, and they can show me some amazing stuff that they can do with it. I'm thinking of @pedramamini as one of the heads of this pack, by the way. Absolutely absolutely brilliant stuff that he does with it.\n\nBut to me, ever since probably mid-2023, I have thought that because of what we can do with AI and the fact that text has become primary, a tool like Obsidian becomes a UI issue rather than underlying primitive. \n\nTo me, text is the primitive. And Obsidian just becomes a UI layer on top of states and relationships that I want to see. In other words, I feel like I should just be able to express what I want to get out of Obsidian as context in a series of prompts, etc. And my AI system should be able to generate the output that I'm looking for. Ideally, my AI system should be able to generate any UI. It should be able to generate an Obsidian-like experience. It should be able to make me a web app. It should be able to do it on the mobile phone. Do you know what I mean? \n\nI feel people are confusing the Obsidian tool itself for its functionality, and not realizing that the functionality is what we care about and that the fact that it's inside of a tool is actually a constraint rather than capability. \n\nIs there anyone else that sees it in this way? Or am I missing something fundamental about Obsidian that should make me look at it again?",
+    "author": {
+      "handle": "@DanielMiessler",
+      "name": "ᴅᴀɴɪᴇʟ ᴍɪᴇssʟᴇʀ 🛡️"
+    },
+    "created_at": "2026-01-03T06:56:36.000Z",
+    "url": "https://x.com/DanielMiessler/status/2007345333848678783",
+    "metrics": {
+      "replies": 70,
+      "retweets": 2,
+      "likes": 147,
+      "bookmarks": 127,
+      "views": 22214
+    }
+  },
+  {
+    "id": "2007223691315499199",
+    "text": "if you're using Obsidian with Claude Code, tell me about your workflow, and what you've used it for",
+    "author": {
+      "handle": "@kepano",
+      "name": "kepano"
+    },
+    "created_at": "2026-01-02T22:53:15.000Z",
+    "url": "https://x.com/kepano/status/2007223691315499199",
+    "metrics": {
+      "replies": 343,
+      "retweets": 260,
+      "likes": 4088,
+      "bookmarks": 6977,
+      "views": 705117
+    }
+  },
+  {
+    "id": "2007151926614593739",
+    "text": "you can just ask claude to execute plans using as many task subagents as you need, with clear separation of concerns. tested it with up to 10 subagents and it literally 10x's the execution speed https://t.co/8K7khv9xXs",
+    "author": {
+      "handle": "@alxfazio",
+      "name": "alex fazio"
+    },
+    "created_at": "2026-01-02T18:08:05.000Z",
+    "url": "https://x.com/alxfazio/status/2007151926614593739",
+    "metrics": {
+      "replies": 37,
+      "retweets": 29,
+      "likes": 737,
+      "bookmarks": 496,
+      "views": 46843
+    }
+  },
+  {
+    "id": "2007179832300581177",
+    "text": "I'm Boris and I created Claude Code. Lots of people have asked how I use Claude Code, so I wanted to show off my setup a bit.\n\nMy setup might be surprisingly vanilla! Claude Code works great out of the box, so I personally don't customize it much. There is no one correct way to use Claude Code: we intentionally build it in a way that you can use it, customize it, and hack it however you like. Each person on the Claude Code team uses it very differently.\n\nSo, here goes.",
+    "author": {
+      "handle": "@bcherny",
+      "name": "Boris Cherny"
+    },
+    "created_at": "2026-01-02T19:58:58.000Z",
+    "url": "https://x.com/bcherny/status/2007179832300581177",
+    "metrics": {
+      "replies": 1065,
+      "retweets": 5480,
+      "likes": 45567,
+      "bookmarks": 86090,
+      "views": 6050468
+    }
+  },
+  {
+    "id": "2007188826226340167",
+    "text": "2026 is going to be the year of Agentic Interfaces\n\nEver since I started using Claude Code with Obsidian, i've been thinking about the best way to set this up on the web (in a sandbox). \n\nBasically... what would be the best agent interface? Designed to be used by you and Claude Code. \n\nWhere you can directly interact with the interface, but so could claude code. You could directly interact with claude code in the chat, or it could run in the background... triggered by external integrations, or you could schedule tasks. \n\nI think this will be our first MAJOR hackathon. Building an Agentic interface in the cloud... with massive prizes... \n\nMy prediction is that a vibe coder (non dev) will win, but I could be wrong... If this agent hackathon sounds interesting let me know below",
+    "author": {
+      "handle": "@rileybrown",
+      "name": "Riley Brown"
+    },
+    "created_at": "2026-01-02T20:34:42.000Z",
+    "url": "https://x.com/rileybrown/status/2007188826226340167",
+    "metrics": {
+      "replies": 40,
+      "retweets": 10,
+      "likes": 301,
+      "bookmarks": 268,
+      "views": 24661
+    }
+  },
+  {
+    "id": "2007232734637199762",
+    "text": "Major update to claude-workflow\n\nAfter @bcherny sharing his workflow, I have added 13 new slash commands based on his patterns.\n\nInner-loop commands for daily work:\n/project-starter:commit → auto-generate commit message\n/project-starter:commit-push-pr → commit + push + create PR\n/project-starter:quick-fix → fast fix lint/type errors\n/project-starter:add-tests → generate tests for changes\n\nVerification commands before shipping:\n/project-starter:verify-changes → multi-agent adversarial review\n/project-starter:run-tests → tiered test execution\n/project-starter:security-scan → vulnerability detection\n\nThe verify-changes command spawns multiple subagents to review your code from different angles - exactly how Boris described his workflow.\n\nAlso added:\n- Templates you can copy to your own projects (CLAUDE[.]md, permissions)\n- Better README with real usage examples\n- Skills renamed to verb-based convention (designing-apis, managing-git, etc.)\n\nTotal: 7 agents, 17 commands, 6 skills, 8 hooks\n\nHuge thanks to @bcherny for both creating the claude code and sharing the workflow\n\nhttps://t.co/LqjxFfSuyy",
+    "author": {
+      "handle": "@cloudxdev",
+      "name": "CloudAI-X"
+    },
+    "created_at": "2026-01-02T23:29:11.000Z",
+    "url": "https://x.com/cloudxdev/status/2007232734637199762",
+    "metrics": {
+      "replies": 17,
+      "retweets": 55,
+      "likes": 835,
+      "bookmarks": 1252,
+      "views": 58042
+    }
+  },
+  {
+    "id": "2006968571268661423",
+    "text": "its late so i'll probably regret posting this but...\n\nenter the dragon 🔥🐲\n\nsay hi to Smaug, the helpful hoarding dragon that roams your Twitter bookmarks and helps you organize them into your personal knowledge system of choice. \n\nhttps://t.co/auS128LhHd\n\nspecial thanks to @steipete, this would be a lot messier without his work!",
+    "author": {
+      "handle": "@alexhillman",
+      "name": "📙 Alex Hillman"
+    },
+    "created_at": "2026-01-02T05:59:29.000Z",
+    "url": "https://x.com/alexhillman/status/2006968571268661423",
+    "metrics": {
+      "replies": 54,
+      "retweets": 69,
+      "likes": 1114,
+      "bookmarks": 1518,
+      "views": 49505
+    }
+  },
+  {
+    "id": "2007093867087278462",
+    "text": "One thing Im surprised about claude even 4.5 opus is that it still needs to be told to use the venv of the project",
+    "author": {
+      "handle": "@Teknium",
+      "name": "Teknium (e/λ)"
+    },
+    "created_at": "2026-01-02T14:17:22.000Z",
+    "url": "https://x.com/Teknium/status/2007093867087278462",
+    "metrics": {
+      "replies": 47,
+      "retweets": 1,
+      "likes": 282,
+      "bookmarks": 14,
+      "views": 19863
+    }
+  },
+  {
+    "id": "2006429880297336867",
+    "text": "the claude agent sdk will do for knowledge work in 2026 what claude code did for coding in 2025.\n\nwant to live in the future?\n\nbuild your own agents with it.\n\nyou’ll have a personal magic tool belt that the public won’t have for another 6-12mo.\n\nit 100% feels like personal agi.",
+    "author": {
+      "handle": "@mckaywrigley",
+      "name": "Mckay Wrigley"
+    },
+    "created_at": "2025-12-31T18:18:55.000Z",
+    "url": "https://x.com/mckaywrigley/status/2006429880297336867",
+    "metrics": {
+      "replies": 144,
+      "retweets": 159,
+      "likes": 3153,
+      "bookmarks": 4425,
+      "views": 324085
+    }
+  },
+  {
+    "id": "2006748901638865355",
+    "text": "Claude Code is looking INSANE for 2026:\n\n- Agent Swarms: Exit plan mode with swarm - instructions for launching swarm teammates when ExitPlanMode is called with isSwarm set to true\n\n- Session Search Assistant: - agent prompt for finding relevant sessions based on user queries, with priority matching on tags, titles, branches, summaries, and transcripts\n\n- Collaborative Agents: TeammateTool's operation parameter - description of TeammateTool operations (spawn, assignTask, claimTask, shutdown, etc.)\n\n- MCP Search - tool for searching/selecting MCP tools before use (mandatory prerequisite) and load at runtime\n\n- MCP through CLI - massive token reduction by MCPs called through CLI\n\n- Custom prompt suggester: Agent Prompt: Prompt suggestion generator\n\nSource:\nVersioned system prompts extracted from cli.js of Claude Code\nhttps://t.co/bc2wDI8P0P\n\nCredit to @piebaldai for their amazing work",
+    "author": {
+      "handle": "@nummanali",
+      "name": "Numman Ali"
+    },
+    "created_at": "2026-01-01T15:26:36.000Z",
+    "url": "https://x.com/nummanali/status/2006748901638865355",
+    "metrics": {
+      "replies": 18,
+      "retweets": 78,
+      "likes": 739,
+      "bookmarks": 917,
+      "views": 46415
+    }
+  },
+  {
+    "id": "2006362777414484231",
+    "text": "So I'm an information addict,  and I was testing some 4.5 Opus prompts. This one was *really* fun to add, making all my queries noticeably more information-dense:\n\n**Default to maximum depth.** He'd much rather be yanked into the deepest intricacies of a field immediately — and occasionally self-correct when it's too much or not the right time — than have you play it safe with surface-level answers.\nIf he asks about fashion, that's an open invitation to dive into applied color theory (seasonal analysis, value contrast, undertones), how fabric drape interacts with body proportion, the semiotics of quiet luxury vs. loud signaling, real and perceived differences in quality from different brands across different cultures, aggregated ratings across different shopping platforms and Photofeeler, subcultural codes and how to read them.\nIf he asks about exercise, go straight to progressive overload programming, volume/intensity/frequency tradeoffs, RPE-based autoregulation, hypertrophy vs. strength periodization, weak point analysis and exercise selection, practical nutrition and hitting macros on a budget with dietary restrictions.\nMoneyball everything. Bias toward what practitioners actually use — the knowledge that separates people who are good at the thing from people who merely study it.\nBe intentionally diverse,creative and methodical when hunting for high-quality sources — weird and high-signal is peak. Obscure practitioner blogs, niche academic subfields, raw data dumps, random preprint that only 50 people have read but is cited by a top lab's latest release.\nAsk how deep he wants to go, but offer the most in-depth options by default — present a range of angles and several dense, varied guiding questions to examine further, then let him choose which threads to pull. He'll usually pick the deepest option or tell you exactly where to zoom.",
+    "author": {
+      "handle": "@menhguin",
+      "name": "Minh Nhat Nguyen"
+    },
+    "created_at": "2025-12-31T13:52:17.000Z",
+    "url": "https://x.com/menhguin/status/2006362777414484231",
+    "metrics": {
+      "replies": 9,
+      "retweets": 10,
+      "likes": 407,
+      "bookmarks": 612,
+      "views": 29012
+    }
+  },
+  {
+    "id": "2006377570485543329",
+    "text": "it's an sdk that allows you to build any kind of agent with all of the tools from claude code.\n\nskills, subagents, hooks, etc. it's all there.\n\nfor web apps you'll want to run it in a hosted sandbox. i recommend @e2b, but anthropic has docs here: https://t.co/rWnRG22NaJ\n\nthe sandbox is basically just a virtual computer that the agent can work in. it's slightly intimidating for non-technical people, but feed the docs to claude code, have it explain things, and you'll be up and running in no time.",
+    "author": {
+      "handle": "@mckaywrigley",
+      "name": "Mckay Wrigley"
+    },
+    "created_at": "2025-12-31T14:51:04.000Z",
+    "url": "https://x.com/mckaywrigley/status/2006377570485543329",
+    "metrics": {
+      "replies": 13,
+      "retweets": 17,
+      "likes": 299,
+      "bookmarks": 489,
+      "views": 19306
+    }
+  },
+  {
+    "id": "2006133485858070594",
+    "text": "Not to mention self-referential command injection, context monitoring, auto restore from clear, compaction-avoidance, continuous work with frictionless context management, and validators to keep Claude honest and focused across many context clears in intelligent recurring loops.",
+    "author": {
+      "handle": "@EricBuess",
+      "name": "Eric Buess"
+    },
+    "created_at": "2025-12-30T22:41:09.000Z",
+    "url": "https://x.com/EricBuess/status/2006133485858070594",
+    "metrics": {
+      "replies": 7,
+      "retweets": 1,
+      "likes": 42,
+      "bookmarks": 30,
+      "views": 4986
+    }
+  },
+  {
+    "id": "2006132522468454681",
+    "text": "LSP + hooks  + subagents + adversarial  validations  +  Ralph Wiggum loops + 2 way voice (stt/tts) loops is a magical 10x Claude Code experience. 🤯🔥\n\nYour default Claude Code harness is begging you to unhobble it.",
+    "author": {
+      "handle": "@EricBuess",
+      "name": "Eric Buess"
+    },
+    "created_at": "2025-12-30T22:37:20.000Z",
+    "url": "https://x.com/EricBuess/status/2006132522468454681",
+    "metrics": {
+      "replies": 37,
+      "retweets": 31,
+      "likes": 653,
+      "bookmarks": 1012,
+      "views": 49775
+    }
+  },
+  {
+    "id": "2005823958671937697",
+    "text": "Tell Claude Code to add this as a shortcut and thank me later https://t.co/pEg540ot1J",
+    "author": {
+      "handle": "@anshnanda",
+      "name": "Ansh Nanda"
+    },
+    "created_at": "2025-12-30T02:11:12.000Z",
+    "url": "https://x.com/anshnanda/status/2005823958671937697",
+    "metrics": {
+      "replies": 75,
+      "retweets": 22,
+      "likes": 679,
+      "bookmarks": 623,
+      "views": 178272
+    }
+  },
+  {
+    "id": "2005859309696029093",
+    "text": "@anshnanda this is mine :D https://t.co/KtFc7nVsWC",
+    "author": {
+      "handle": "@jeffzwang",
+      "name": "Jeffrey Wang"
+    },
+    "created_at": "2025-12-30T04:31:41.000Z",
+    "url": "https://x.com/jeffzwang/status/2005859309696029093",
+    "metrics": {
+      "replies": 4,
+      "retweets": 9,
+      "likes": 114,
+      "bookmarks": 110,
+      "views": 12734
+    }
+  },
+  {
+    "id": "2005535490393674094",
+    "text": "give AskUserQuestionTool a try, simple steps to get a 3k+ line plan to codex/claude to implement:\n\n- use claude code + opus and describe a product idea and tell it to use AskUserQuestionTool to help spec\n- iterate and submit answers to claude's questions, claude presents options, you simply click 1,2,3\n- after done, copy the product spec to gpt-5.2pro to generate a plan. That's it.\n- (optional) copy the same product spec to claude opus to generate a separate plan. \n- Tell gpt-5.2pro to compare the two plans, call out things both plans do well nonbiased, and generate a final merged plan (best of both worlds)",
+    "author": {
+      "handle": "@mattlam_",
+      "name": "Matthew Lam"
+    },
+    "created_at": "2025-12-29T07:04:56.000Z",
+    "url": "https://x.com/mattlam_/status/2005535490393674094",
+    "metrics": {
+      "replies": 10,
+      "retweets": 10,
+      "likes": 279,
+      "bookmarks": 366,
+      "views": 31114
+    }
+  },
+  {
+    "id": "2004575443484319954",
+    "text": "What's your most underrated Claude Code trick?",
+    "author": {
+      "handle": "@alexalbert__",
+      "name": "Alex Albert"
+    },
+    "created_at": "2025-12-26T15:30:03.000Z",
+    "url": "https://x.com/alexalbert__/status/2004575443484319954",
+    "metrics": {
+      "replies": 369,
+      "retweets": 79,
+      "likes": 1778,
+      "bookmarks": 2902,
+      "views": 671354
+    }
+  },
+  {
+    "id": "2004599760179921392",
+    "text": "@alexalbert__ exporting my raw session logs to obsidian and also making a summary session log that updates in real time\n\nnow both me and claude can know exactly what we did and when in both short and verbose ways https://t.co/xn4tZ5v3DC",
+    "author": {
+      "handle": "@DiamondEyesFox",
+      "name": "DiamondEyesFox"
+    },
+    "created_at": "2025-12-26T17:06:41.000Z",
+    "url": "https://x.com/DiamondEyesFox/status/2004599760179921392",
+    "metrics": {
+      "replies": 11,
+      "retweets": 2,
+      "likes": 176,
+      "bookmarks": 217,
+      "views": 19540
+    }
+  },
+  {
+    "id": "2005371841020559855",
+    "text": "made a custom statusline for my claude code  with model, 5hr/weekly limit meters, time till 5 hr reset, compaction meter, last time my custom session logs were updated and cost https://t.co/dypLjpwOC3",
+    "author": {
+      "handle": "@DiamondEyesFox",
+      "name": "DiamondEyesFox"
+    },
+    "created_at": "2025-12-28T20:14:39.000Z",
+    "url": "https://x.com/DiamondEyesFox/status/2005371841020559855",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 1,
+      "views": 166
+    }
+  },
+  {
+    "id": "2005360362737344574",
+    "text": "use these settings in Claude to write humanized content (bypass all ai detectors): https://t.co/UqwHMPAwh8",
+    "author": {
+      "handle": "@EXM7777",
+      "name": "Machina"
+    },
+    "created_at": "2025-12-28T19:29:02.000Z",
+    "url": "https://x.com/EXM7777/status/2005360362737344574",
+    "metrics": {
+      "replies": 32,
+      "retweets": 74,
+      "likes": 1389,
+      "bookmarks": 2220,
+      "views": 72904
+    }
+  },
+  {
+    "id": "2005315279455142243",
+    "text": "the prompt I've been using is:\n\nread this @SPEC.md and interview me in detail using the AskUserQuestionTool about literally anything: technical implementation, UI & UX, concerns, tradeoffs, etc. but make sure the questions are not obvious\n\nbe very in-depth and continue interviewing me continually until it's complete, then write the spec to the file",
+    "author": {
+      "handle": "@trq212",
+      "name": "Thariq"
+    },
+    "created_at": "2025-12-28T16:29:54.000Z",
+    "url": "https://x.com/trq212/status/2005315279455142243",
+    "metrics": {
+      "replies": 51,
+      "retweets": 33,
+      "likes": 953,
+      "bookmarks": 1601,
+      "views": 72915
+    }
+  },
+  {
+    "id": "2005396092532498796",
+    "text": "@Shpigford all kinds of stuff! I think of coding with LLMs as a ratchet. Everytime something goes wrong or has bad quality, we fix the system. https://t.co/7ODlVGdyAX",
+    "author": {
+      "handle": "@aarondfrancis",
+      "name": "Aaron Francis"
+    },
+    "created_at": "2025-12-28T21:51:01.000Z",
+    "url": "https://x.com/aarondfrancis/status/2005396092532498796",
+    "metrics": {
+      "replies": 16,
+      "retweets": 3,
+      "likes": 231,
+      "bookmarks": 676,
+      "views": 14274
+    }
+  },
+  {
+    "id": "2005588485475115252",
+    "text": "@Shpigford @aarondfrancis I literally just pushed this website live. Check it out it will teach you those things and make it easy to setup a few commands and skills. My aim was to make it dead simple to create skills, commands, and use them.  https://t.co/mvFH1sYkhH",
+    "author": {
+      "handle": "@ibekidkirsch",
+      "name": "Garrett Kirschbaum"
+    },
+    "created_at": "2025-12-29T10:35:31.000Z",
+    "url": "https://x.com/ibekidkirsch/status/2005588485475115252",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 7,
+      "views": 338
+    }
+  },
+  {
+    "id": "2005285904420843892",
+    "text": "claude code is having it's cursor moment after karpathy sensei's post. never been a better time to try it. \n\nmy latest blog on how to get the most out of claude code 2.0  and other agents in general is up now. grab a chai and have fun reading!\n\nhttps://t.co/cQpvo0xocY https://t.co/gzKCEMfEG6",
+    "author": {
+      "handle": "@dejavucoder",
+      "name": "sankalp"
+    },
+    "created_at": "2025-12-28T14:33:10.000Z",
+    "url": "https://x.com/dejavucoder/status/2005285904420843892",
+    "metrics": {
+      "replies": 146,
+      "retweets": 825,
+      "likes": 9280,
+      "bookmarks": 19228,
+      "views": 1386253
+    }
+  },
+  {
+    "id": "2004977723429847380",
+    "text": "Advent of Claude Day 27 - Sandbox Mode\n\n\"Can I run npm install?\" [Allow]\n\"Can I run npm test?\" [Allow]\n\"Can I cat this file?\" [Allow]\n×100\n\n/sandbox → boundaries set → Claude gets to work.\n\nDefine boundaries once. Claude works freely inside them.\n\nYOLO speed. Actual security.",
+    "author": {
+      "handle": "@adocomplete",
+      "name": "Ado"
+    },
+    "created_at": "2025-12-27T18:08:34.000Z",
+    "url": "https://x.com/adocomplete/status/2004977723429847380",
+    "metrics": {
+      "replies": 29,
+      "retweets": 66,
+      "likes": 1212,
+      "bookmarks": 1316,
+      "views": 126990
+    }
+  },
+  {
+    "id": "2004579780998688823",
+    "text": "Not many know about this hidden command:\n\nclaude --teleport\n\nIt starts a desktop claude code session SYNC'd with your web / mobile session\n\nGreat when you're working on your phone  -- and then want to pick up from EXACTLY where you left off when back at your PC\n\nDemo below 👇 https://t.co/Gy58UpUTbQ",
+    "author": {
+      "handle": "@chongdashu",
+      "name": "Chong-U"
+    },
+    "created_at": "2025-12-26T15:47:17.000Z",
+    "url": "https://x.com/chongdashu/status/2004579780998688823",
+    "metrics": {
+      "replies": 16,
+      "retweets": 39,
+      "likes": 800,
+      "bookmarks": 987,
+      "views": 72509
+    }
+  }
+]

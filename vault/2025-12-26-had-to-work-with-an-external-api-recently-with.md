@@ -1,0 +1,30 @@
+---
+created: 2025-12-26
+author: "@____dzc____"
+display_name: "Blake Deckard 戴至诚 "
+category: "automation"
+tags:
+  - category/automation
+likes: 0
+views: 0
+engagement_score: 0
+url: "https://x.com/____dzc____/status/2004579903946346732"
+---
+
+> [!tweet] @____dzc____ · Dec 26, 2025
+> Had to work with an external API recently with Laravel. Had Claude Code reach out to the documentation and create DTOs (model the API endpoint shapes) and then implement it. For some reason Codex was getting blocked just trying to get the docs!
+>
+> Likes: 0 · Replies: 0 · Reposts: 0
+
+## Summary
+
+Had to work with an external API recently with Laravel
+
+
+> [!metrics]- Engagement & Metadata
+> **Likes:** 0 · **Replies:** 0 · **Reposts:** 0 · **Views:** 0
+> **Engagement Score:** 0
+>
+> **Source:** tips · **Quality:** 6/10
+> **Curated:** ✓ · **Reply:** ✗
+> **ID:** [2004579903946346732](https://x.com/____dzc____/status/2004579903946346732)

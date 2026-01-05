@@ -1,0 +1,36 @@
+---
+created: 2026-01-03
+author: "@DanielMiessler"
+display_name: "ᴅᴀɴɪᴇʟ ᴍɪᴇssʟᴇʀ 🛡️"
+tags:
+likes: 147
+views: 22214
+engagement_score: 151
+url: "https://x.com/DanielMiessler/status/2007345333848678783"
+---
+
+> [!tweet] @DanielMiessler · Jan 03, 2026
+> I want to get a thought out of my mind here and see if there's anyone to back me up on this. 
+> 
+> So basically I'm confused why people are still using Obsidian. I think Obsidian as a concept is extremely cool. And I used it for a little while and I went a little crazy with it just like a lot of other people, 
+> 
+> But I know some people who have stuck with it and are kind of using it like it's their underlying system, their underlying operating system. I respect it. I think it's cool, and they can show me some amazing stuff that they can do with it. I'm thinking of @pedramamini as one of the heads of this pack, by the way. Absolutely absolutely brilliant stuff that he does with it.
+> 
+> But to me, ever since probably mid-2023, I have thought that because of what we can do with AI and the fact that text has become primary, a tool like Obsidian becomes a UI issue rather than underlying primitive. 
+> 
+> To me, text is the primitive. And Obsidian just becomes a UI layer on top of states and relationships that I want to see. In other words, I feel like I should just be able to express what I want to get out of Obsidian as context in a series of prompts, etc. And my AI system should be able to generate the output that I'm looking for. Ideally, my AI system should be able to generate any UI. It should be able to generate an Obsidian-like experience. It should be able to make me a web app. It should be able to do it on the mobile phone. Do you know what I mean? 
+> 
+> I feel people are confusing the Obsidian tool itself for its functionality, and not realizing that the functionality is what we care about and that the fact that it's inside of a tool is actually a constraint rather than capability. 
+> 
+> Is there anyone else that sees it in this way? Or am I missing something fundamental about Obsidian that should make me look at it again?
+>
+> Likes: 147 · Replies: 70 · Reposts: 2
+
+
+> [!metrics]- Engagement & Metadata
+> **Likes:** 147 · **Replies:** 70 · **Reposts:** 2 · **Views:** 22,214
+> **Engagement Score:** 151
+>
+> **Source:** tips · **Quality:** —/10
+> **Curated:** ✗ · **Reply:** ✗
+> **ID:** [2007345333848678783](https://x.com/DanielMiessler/status/2007345333848678783)

@@ -6,8 +6,8 @@ category: "workflow"
 tags:
   - category/workflow
   - type/thread
-likes: 1761
-views: 669352
+likes: 1776
+views: 671252
 engagement_score: 8777
 url: "https://x.com/alexalbert__/status/2004575443484319954"
 ---
@@ -15,7 +15,7 @@ url: "https://x.com/alexalbert__/status/2004575443484319954"
 > [!tweet] @alexalbert__ · Dec 26, 2025
 > What's your most underrated Claude Code trick?
 >
-> Likes: 1,761 · Replies: 370 · Reposts: 77
+> Likes: 1,776 · Replies: 369 · Reposts: 79
 
 ## Summary
 
@@ -218,7 +218,7 @@ This Claude tip solicits users to share their most underrated code tricks for wo
 
 
 > [!metrics]- Engagement & Metadata
-> **Likes:** 1,761 · **Replies:** 370 · **Reposts:** 77 · **Views:** 669,352
+> **Likes:** 1,776 · **Replies:** 369 · **Reposts:** 79 · **Views:** 671,252
 > **Engagement Score:** 8,777
 >
 > **Source:** tips · **Quality:** 9/10

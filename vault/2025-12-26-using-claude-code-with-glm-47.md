@@ -1,0 +1,30 @@
+---
+created: 2025-12-26
+author: "@thesagardevkate"
+display_name: "Sagar Devkate"
+category: "meta"
+tags:
+  - category/meta
+likes: 0
+views: 0
+engagement_score: 0
+url: "https://x.com/thesagardevkate/status/2004697503145644334"
+---
+
+> [!tweet] @thesagardevkate · Dec 26, 2025
+> Using Claude code with GLM 4.7
+>
+> Likes: 0 · Replies: 0 · Reposts: 0
+
+## Summary
+
+Using Claude code with GLM 4
+
+
+> [!metrics]- Engagement & Metadata
+> **Likes:** 0 · **Replies:** 0 · **Reposts:** 0 · **Views:** 0
+> **Engagement Score:** 0
+>
+> **Source:** tips · **Quality:** 5/10
+> **Curated:** ✓ · **Reply:** ✗
+> **ID:** [2004697503145644334](https://x.com/thesagardevkate/status/2004697503145644334)

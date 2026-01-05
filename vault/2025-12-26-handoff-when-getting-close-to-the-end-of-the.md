@@ -1,0 +1,32 @@
+---
+created: 2025-12-26
+author: "@natac131"
+display_name: "8813.eth | natac.eth"
+category: "context-management"
+tools: ["task"]
+tags:
+  - category/context-management
+  - tool/task
+likes: 0
+views: 0
+engagement_score: 0
+url: "https://x.com/natac131/status/2004691575612604801"
+---
+
+> [!tweet] @natac131 · Dec 26, 2025
+> /handoff. When getting close to the end of the context window or when a task is done, especially when working off a plan, it gives me the prompt for the next claude code session.
+>
+> Likes: 0 · Replies: 0 · Reposts: 0
+
+## Summary
+
+/handoff
+
+
+> [!metrics]- Engagement & Metadata
+> **Likes:** 0 · **Replies:** 0 · **Reposts:** 0 · **Views:** 0
+> **Engagement Score:** 0
+>
+> **Source:** tips · **Quality:** 6/10
+> **Curated:** ✓ · **Reply:** ✗
+> **ID:** [2004691575612604801](https://x.com/natac131/status/2004691575612604801)

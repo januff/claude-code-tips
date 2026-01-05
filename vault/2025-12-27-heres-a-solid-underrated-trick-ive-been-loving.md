@@ -1,0 +1,32 @@
+---
+created: 2025-12-27
+author: "@SeanMcD29465784"
+display_name: "Sean McDonnell"
+category: "context-management"
+tags:
+  - category/context-management
+likes: 0
+views: 0
+engagement_score: 0
+url: "https://x.com/SeanMcD29465784/status/2004928352403042809"
+---
+
+> [!tweet] @SeanMcD29465784 · Dec 27, 2025
+> Here's a solid underrated trick I've been loving for long-running projects in Claude Code:
+> 
+> Use "handoffs" like @zeroxBigBoss shared – at the end of a session, prompt Claude to generate a concise markdown summary of progress, key decisions, open questions, and next steps. Copy
+>
+> Likes: 0 · Replies: 0 · Reposts: 0
+
+## Summary
+
+Here's a solid underrated trick I've been loving for long-running projects in Claude Code:
+
+
+> [!metrics]- Engagement & Metadata
+> **Likes:** 0 · **Replies:** 0 · **Reposts:** 0 · **Views:** 0
+> **Engagement Score:** 0
+>
+> **Source:** tips · **Quality:** 5/10
+> **Curated:** ✓ · **Reply:** ✗
+> **ID:** [2004928352403042809](https://x.com/SeanMcD29465784/status/2004928352403042809)
