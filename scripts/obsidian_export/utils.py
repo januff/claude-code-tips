@@ -244,6 +244,173 @@ STOPWORDS = {
     'making', 'like', 'really', 'actually', 'basically', 'literally',
 }
 
+# Generic subjects that shouldn't be included in filename
+GENERIC_SUBJECTS = {
+    'person', 'man', 'woman', 'people', 'group', 'crowd',
+    'news anchor', 'reporter', 'host', 'presenter', 'announcer',
+    'character', 'figure', 'individual', 'someone',
+    'actor', 'actress', 'model', 'unknown',
+    'monroe',  # Generic reporter name, not Marilyn
+}
+
+# Known celebrities/figures - use last name or moniker
+CELEBRITY_SHORT_NAMES = {
+    'bob barker': 'barker',
+    'gene wilder': 'wilder',
+    'don knotts': 'knotts',
+    'andy griffith': 'griffith',
+    'ronald reagan': 'reagan',
+    'george h.w. bush': 'bush-sr',
+    'george hw bush': 'bush-sr',
+    'george h. w. bush': 'bush-sr',
+    'george bush': 'bush',
+    'wilford brimley': 'brimley',
+    'maury povich': 'povich',
+    'rod serling': 'serling',
+    'audrey hepburn': 'hepburn',
+    'marilyn monroe': 'marilyn',
+    'john lennon': 'lennon',
+    'alfred hitchcock': 'hitchcock',
+    'richard pryor': 'pryor',
+    'philip seymour hoffman': 'hoffman',
+    'ted kaczynski': 'kaczynski',
+    'joe biden': 'biden',
+    'jfk': 'jfk',
+    'john f. kennedy': 'jfk',
+    'james brown': 'brown',
+}
+
+
+def get_subject_slug(primary_subject: Optional[str]) -> Optional[str]:
+    """
+    Get a short slug for the subject, or None if generic.
+    """
+    if not primary_subject:
+        return None
+
+    subject_lower = primary_subject.lower().strip()
+
+    # Skip None/null values that leaked through as strings
+    if subject_lower in ('none', 'null', 'n/a', 'unknown', ''):
+        return None
+
+    # Check if it's a generic subject
+    if subject_lower in GENERIC_SUBJECTS:
+        return None
+
+    # Check for known celebrity short names
+    for full_name, short_name in CELEBRITY_SHORT_NAMES.items():
+        if full_name in subject_lower or subject_lower in full_name:
+            return short_name
+
+    # For unknown subjects, use last word (usually last name)
+    # But skip if it looks generic
+    words = subject_lower.split()
+    if words:
+        last_word = slugify(words[-1], max_length=15)
+        if last_word and last_word not in GENERIC_SUBJECTS and len(last_word) >= 3:
+            return last_word
+
+    return None
+
+
+def find_distinctive_element(
+    searchable_elements: Optional[list[str]],
+    thematic_tags: Optional[list[str]],
+    action_summary: Optional[str],
+    prompt: Optional[str],
+) -> Optional[str]:
+    """
+    Find the most distinctive/memorable element for the filename.
+    """
+    # Skip terms
+    skip_terms = {'sora', 'ai video', 'ai generated', 'viral', 'deepfake', 'parody'}
+
+    # Highly memorable words to prioritize
+    memorable_keywords = {
+        'tank', 'abrams', 'whale', 'orca', 'tricycle', 'bike', 'submarine',
+        'chase', 'crash', 'explosion', 'dance', 'dancing', 'ski', 'skiing',
+        'shit', 'pants', 'fail', 'fight', 'riot', 'bust', 'arrest',
+        'mega-ramp', 'ramp', 'jump', 'flip', 'drifting', 'surfing',
+        'snowman', 'unicycle', 'hoverboard', 'broomstick',
+        'father', 'not-the-father', 'you-are-not',
+        'imagination', 'pure-imagination',
+        'collaborate', 'listen',
+        'saxophone', 'flute', 'guitar', 'bass',
+        'lion', 'tiger', 'bear', 'cat', 'otter',
+        'mona-lisa', 'scream', 'pearl-earring',
+    }
+
+    # 1. Check searchable_elements for memorable phrases
+    if searchable_elements:
+        best_score = 0
+        best_element = None
+
+        for elem in searchable_elements:
+            elem_lower = elem.lower().strip()
+
+            # Skip generic terms
+            if any(skip in elem_lower for skip in skip_terms):
+                continue
+
+            slug = slugify(elem, max_length=30)
+            if not slug or len(slug) < 3:
+                continue
+
+            # Score by memorable keywords
+            score = sum(1 for kw in memorable_keywords if kw in elem_lower)
+
+            # Bonus for multi-word phrases (more specific)
+            word_count = len(elem_lower.split())
+            if 2 <= word_count <= 4:
+                score += 1
+
+            # Bonus for action words
+            action_words = {'chase', 'crash', 'dance', 'fight', 'jump', 'escape', 'bust'}
+            if any(aw in elem_lower for aw in action_words):
+                score += 2
+
+            if score > best_score:
+                best_score = score
+                best_element = slug
+
+        if best_element:
+            return best_element
+
+        # Fallback: first non-generic element
+        for elem in searchable_elements:
+            elem_lower = elem.lower().strip()
+            if any(skip in elem_lower for skip in skip_terms):
+                continue
+            slug = slugify(elem, max_length=25)
+            if slug and len(slug) >= 5:
+                return slug
+
+    # 2. Try thematic_tags
+    if thematic_tags:
+        for tag in thematic_tags:
+            tag_lower = tag.lower()
+            if tag_lower not in skip_terms and tag_lower not in ('humor', 'comedy', 'parody'):
+                slug = slugify(tag, max_length=20)
+                if slug and len(slug) >= 4:
+                    return slug
+
+    # 3. Try action_summary
+    if action_summary:
+        words = re.findall(r'\b[a-zA-Z]{4,}\b', action_summary)
+        significant = [w.lower() for w in words if w.lower() not in STOPWORDS][:3]
+        if len(significant) >= 2:
+            return '-'.join(significant[:2])
+
+    # 4. Try prompt
+    if prompt:
+        words = re.findall(r'\b[a-zA-Z]{4,}\b', prompt)
+        significant = [w.lower() for w in words if w.lower() not in STOPWORDS][:2]
+        if significant:
+            return '-'.join(significant)
+
+    return None
+
 
 def generate_video_filename(
     date_str: str,
@@ -256,110 +423,34 @@ def generate_video_filename(
     searchable_elements: Optional[list[str]] = None,
 ) -> str:
     """
-    Generate semantic filename for Hall of Fake video notes.
+    Generate semantic filename: subject + distinctive element
 
-    Priority:
-    1. Two elements from searchable_elements (subject + context)
-    2. Combination of thematic_tags
-    3. Significant words from prompt
-    4. Fallback to video_id
-
-    Always combine at least two elements for context.
+    - Recognizable subjects get short name prefix (barker, reagan, povich)
+    - Generic subjects are skipped
+    - Always include a distinctive element for context
     """
     date = format_date(date_str, fallback="unknown")
 
-    # Generic terms to skip entirely
-    skip_terms = {'ai video', 'ai generated', 'sora ai', 'viral'}
+    # Get subject slug (None if generic)
+    subject_slug = get_subject_slug(primary_subject)
 
-    # 1. Try searchable_elements
-    if searchable_elements and len(searchable_elements) > 0:
-        # Build list of usable elements (skip generic terms)
-        usable = []
-        for elem in searchable_elements:
-            elem_lower = elem.lower().strip()
-            # Skip if contains generic terms as substring
-            if any(skip in elem_lower for skip in skip_terms):
-                continue
-            slug = slugify(elem, max_length=35)
-            if slug and len(slug) >= 3:
-                usable.append((slug, elem_lower))
+    # Find distinctive element
+    distinctive = find_distinctive_element(searchable_elements, thematic_tags, action_summary, prompt)
 
-        if len(usable) >= 1:
-            first_slug, first_elem = usable[0]
-
-            # Action words that make even 2-word phrases descriptive enough
-            action_words = {'chase', 'drifting', 'surfing', 'skateboarding', 'dancing',
-                           'racing', 'flying', 'swimming', 'jumping', 'parody'}
-
-            # If first element is 3+ words OR contains an action word, use alone
-            has_action = any(word in first_elem for word in action_words)
-            if len(first_elem.split()) >= 3 or has_action:
-                return f"{date}-{first_slug}.md"
-
-            # Otherwise (likely just a name), add a second element for context
-            if len(usable) >= 2:
-                distinctive_keywords = ['tank', 'whale', 'tricycle', 'bike', 'submarine',
-                                       'chase', 'drifting', 'surfing', 'ramp', 'crowd',
-                                       'sora', 'parody', 'fail', 'pants', 'abrams',
-                                       'skateboard', 'skate', 'mega']
-
-                # Words from first element to avoid redundancy
-                first_words = set(first_elem.split())
-
-                second = None
-                # Look for distinctive keywords from the end
-                for slug, elem_lower in reversed(usable[1:]):
-                    elem_words = set(elem_lower.split())
-                    # Skip if shares a word with first element (redundant)
-                    if first_words & elem_words:
-                        continue
-                    if any(kw in elem_lower for kw in distinctive_keywords):
-                        second = slug
-                        break
-
-                # Fallback: take the last short element that doesn't overlap
-                if not second:
-                    for slug, elem_lower in reversed(usable[1:]):
-                        elem_words = set(elem_lower.split())
-                        if first_words & elem_words:
-                            continue
-                        if len(elem_lower.split()) <= 2:
-                            second = slug
-                            break
-
-                if second:
-                    return f"{date}-{first_slug}-{second}.md"
-
-            # Single element - add context from thematic_tags
-            if thematic_tags:
-                tag_slug = slugify(thematic_tags[0], max_length=15)
-                if tag_slug and tag_slug != first_slug:
-                    return f"{date}-{first_slug}-{tag_slug}.md"
-            return f"{date}-{first_slug}.md"
-
-    # 2. Try thematic_tags combination
-    if thematic_tags and len(thematic_tags) >= 2:
-        tag_slugs = [slugify(t, max_length=15) for t in thematic_tags[:3]]
-        tag_slugs = [t for t in tag_slugs if t and len(t) >= 3]
-        if len(tag_slugs) >= 2:
-            return f"{date}-{'-'.join(tag_slugs[:2])}.md"
-
-    # 3. Try primary_subject + thematic_tag (but never subject alone)
-    if primary_subject and thematic_tags:
-        subject_slug = slugify(primary_subject, max_length=15)
-        tag_slug = slugify(thematic_tags[0], max_length=15)
-        if subject_slug and tag_slug:
-            return f"{date}-{subject_slug}-{tag_slug}.md"
-
-    # 4. Fallback to prompt words
-    if prompt:
-        words = re.findall(r'\b[a-zA-Z]{3,}\b', prompt)
-        significant = [w.lower() for w in words if w.lower() not in STOPWORDS][:3]
-        if len(significant) >= 2:
-            return f"{date}-{'-'.join(significant)}.md"
-
-    # 5. Last resort - video_id
-    return f"{date}-{video_id}.md"
+    # Combine subject + distinctive
+    if subject_slug and distinctive:
+        # Avoid redundancy - don't repeat subject in distinctive
+        if subject_slug not in distinctive:
+            return f"{date}-{subject_slug}-{distinctive}.md"
+        else:
+            return f"{date}-{distinctive}.md"
+    elif distinctive:
+        return f"{date}-{distinctive}.md"
+    elif subject_slug:
+        # Subject alone as last resort (shouldn't happen often)
+        return f"{date}-{subject_slug}.md"
+    else:
+        return f"{date}-{video_id}.md"
 
 
 def generate_fallback_keyword(text: str, handle: Optional[str] = None) -> str:

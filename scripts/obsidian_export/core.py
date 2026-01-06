@@ -90,14 +90,31 @@ class VaultExporter(ABC):
             except Exception as e:
                 self.errors.append(f"Dashboard {output_name}: {e}")
 
-    def write_note(self, filename: str, content: str, subdir: Optional[str] = None):
-        """Write a note to the vault."""
-        if subdir:
-            output_path = self.output_dir / subdir / filename
-            output_path.parent.mkdir(exist_ok=True)
-        else:
-            output_path = self.output_dir / filename
+    def get_unique_filepath(self, base_path: Path, filename: str) -> Path:
+        """Return unique filepath, appending -2, -3, etc. if collision."""
+        filepath = base_path / filename
+        if not filepath.exists():
+            return filepath
 
+        # Collision - append suffix
+        stem = filename.rsplit('.', 1)[0]  # Remove .md
+        counter = 2
+        while True:
+            new_filename = f"{stem}-{counter}.md"
+            new_filepath = base_path / new_filename
+            if not new_filepath.exists():
+                return new_filepath
+            counter += 1
+
+    def write_note(self, filename: str, content: str, subdir: Optional[str] = None):
+        """Write a note to the vault with collision handling."""
+        if subdir:
+            base_path = self.output_dir / subdir
+            base_path.mkdir(exist_ok=True)
+        else:
+            base_path = self.output_dir
+
+        output_path = self.get_unique_filepath(base_path, filename)
         output_path.write_text(content)
 
     def print_summary(self):

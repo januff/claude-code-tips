@@ -28,20 +28,23 @@ tags:
 > **Prompt:** {{ (video.prompt or 'No prompt available') | replace('\n', ' ') }}
 > **Likes:** {{ likes_fmt }} · **Views:** {{ views_fmt }} · **Remixes:** {{ video.remixes }}
 
+## Video
+
+{% if video.has_local_video %}
+{% set video_width = 360 if video.orientation and video.orientation|lower == 'landscape' else 200 %}
+<video src="videos/{{ video.local_filename }}" width="{{ video_width }}" controls></video>
+{% elif video.has_thumbnail %}
+{% set thumb_width = 360 if video.orientation and video.orientation|lower == 'landscape' else 200 %}
+![[attachments/thumbnails/{{ video.thumbnail_path }}|{{ thumb_width }}]]
+{% else %}
+*No video or thumbnail available*
+{% endif %}
+
 {% if video.transcription %}
 ## Transcript
 
 > {{ video.transcription }}
 
-{% endif %}
-## Video
-
-{% if video.has_local_video %}
-<video src="videos/{{ video.local_filename }}" width="200" controls></video>
-{% elif video.has_thumbnail %}
-![[attachments/thumbnails/{{ video.thumbnail_path }}|200]]
-{% else %}
-*No video or thumbnail available*
 {% endif %}
 
 {% if video.primary_subject or video.setting or video.characters %}
