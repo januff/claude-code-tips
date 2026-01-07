@@ -1,0 +1,37 @@
+---
+created: 2025-12-26
+author: "@CraginGodley"
+display_name: "Cragin Godley"
+category: "tooling"
+tags:
+  - category/tooling
+  - type/code-snippet
+likes: 1
+views: 231
+engagement_score: 0
+url: "https://x.com/CraginGodley/status/2004624505071673557"
+---
+
+> [!tweet] @CraginGodley · Dec 26, 2025
+> Restore Conversation (but not code) after fixing bugs, making small adjustments, etc. to reuse the existing context and keep it small for longer
+> 
+> (use `git add .` alongside this to avoid accidentally pressing the wrong button and losing your code changes)
+>
+> Likes: 1 · Replies: 0 · Reposts: 0
+
+## Summary
+
+Restore Conversation (but not code) after fixing bugs, making small adjustments, etc
+
+## Code
+
+`git add .`
+
+
+> [!metrics]- Engagement & Metadata
+> **Likes:** 1 · **Replies:** 0 · **Reposts:** 0 · **Views:** 231
+> **Engagement Score:** 0
+>
+> **Source:** tips · **Quality:** 6/10
+> **Curated:** ✓ · **Reply:** ✗
+> **ID:** [2004624505071673557](https://x.com/CraginGodley/status/2004624505071673557)
