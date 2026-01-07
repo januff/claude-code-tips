@@ -1,8 +1,14 @@
 {
-    "permissions": {
-      "allow": [
-        "Bash(git :*)",
-        "Bash(gh :*)"
-      ]
+  "permissions": {
+    "allow": [
+      "Bash(git :*)",
+      "Bash(gh :*)"
+    ]
+  },
+  "mcpServers": {
+    "playwriter": {
+      "command": "npx",
+      "args": ["playwriter@latest"]
     }
   }
+}
