@@ -1,0 +1,412 @@
+[
+  {
+    "id": "2008228756629172667",
+    "text": "Claude Code has 3 permission tiers and most people use zero of them...",
+    "author_handle": "@adocomplete",
+    "author_name": "adocomplete",
+    "created_at": "Mon Jan 05 2026",
+    "likes": 918
+  },
+  {
+    "id": "2008241374458769652",
+    "text": "@adocomplete . @adocomplete hey, does this solve the problem where Claude keeps asking can it edit the file? I was talking to it in plan mode and had given a task to make skills based on the planned project so I can setup orchestration, for each skill it asks me can it create, even when I set",
+    "author_handle": "@YashasGunderia",
+    "author_name": "Yashas",
+    "created_at": "Mon Jan 05 18:17:09 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2008228756629172667",
+    "media": []
+  },
+  {
+    "id": "2008249720217772537",
+    "text": "@YashasGunderia Yes this can help. For editing files you can also hit shift+tab in claude code to move into auto-edit mode, which will not ask for confirmation on editing files.",
+    "author_handle": "@adocomplete",
+    "author_name": "Ado",
+    "created_at": "Mon Jan 05 18:50:19 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2008241374458769652",
+    "media": []
+  },
+  {
+    "id": "2008311160307912996",
+    "text": "@adocomplete these settings are completely broken in the latest version of claude code 🤦🏻‍♂️",
+    "author_handle": "@goon_nguyen",
+    "author_name": "Duy /zuey/",
+    "created_at": "Mon Jan 05 22:54:27 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2008228756629172667",
+    "media": []
+  },
+  {
+    "id": "2008342803596665126",
+    "text": "@goon_nguyen What issue are you seeing? Is it not respecting the settings.json?",
+    "author_handle": "@adocomplete",
+    "author_name": "Ado",
+    "created_at": "Tue Jan 06 01:00:12 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008311160307912996",
+    "media": []
+  },
+  {
+    "id": "2008230947850748133",
+    "text": "@adocomplete So how do you set these? Is it a slash or a MD file ?",
+    "author_handle": "@BarkNyrk",
+    "author_name": "Orange Jesus and the Robber Barons",
+    "created_at": "Mon Jan 05 17:35:43 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008228756629172667",
+    "media": []
+  },
+  {
+    "id": "2008234730089562606",
+    "text": "@BarkNyrk You can set them in the .claude/settings.json file either for the project or globally.",
+    "author_handle": "@adocomplete",
+    "author_name": "Ado",
+    "created_at": "Mon Jan 05 17:50:45 +0000 2026",
+    "likes": 4,
+    "is_reply_to": "2008230947850748133",
+    "media": []
+  },
+  {
+    "id": "2008277190258159735",
+    "text": "@adocomplete 'claude --dangerously-skip-permissions'\n\nit's the true vibe code way\n\nclaude will never ask for any permissions, it's fun",
+    "author_handle": "@carlvellotti",
+    "author_name": "Carl Vellotti 🥞",
+    "created_at": "Mon Jan 05 20:39:28 +0000 2026",
+    "likes": 11,
+    "is_reply_to": "2008228756629172667",
+    "media": []
+  },
+  {
+    "id": "2008254819673481352",
+    "text": "@adocomplete YOLO",
+    "author_handle": "@koylanai",
+    "author_name": "Muratcan Koylan",
+    "created_at": "Mon Jan 05 19:10:35 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2008228756629172667",
+    "media": []
+  },
+  {
+    "id": "2008648507276853496",
+    "text": "@adocomplete @bcherny Does ask section take precedence over —dangerously skip permissions flag? I know that deny section does.",
+    "author_handle": "@0xAndoroid",
+    "author_name": "Andrew Tretyakov",
+    "created_at": "Tue Jan 06 21:14:57 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008228756629172667",
+    "media": []
+  },
+  {
+    "id": "2008391891474120923",
+    "text": "@adocomplete —dangerously-skip-permissions is all you need",
+    "author_handle": "@0xrhota",
+    "author_name": "Doug Millett 🪴",
+    "created_at": "Tue Jan 06 04:15:15 +0000 2026",
+    "likes": 5,
+    "is_reply_to": "2008228756629172667",
+    "media": []
+  },
+  {
+    "id": "2008528175559774430",
+    "text": "@adocomplete Allow is useful, but ask is the tier most of us should use.",
+    "author_handle": "@codewithimanshu",
+    "author_name": "Himanshu Kumar",
+    "created_at": "Tue Jan 06 13:16:48 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008228756629172667",
+    "media": []
+  },
+  {
+    "id": "2008245806848188675",
+    "text": "@adocomplete Hey this also works very well! \nhttps://t.co/q58k5sMA24",
+    "author_handle": "@AbdoMobayad",
+    "author_name": "Abdo El-Mobayad",
+    "created_at": "Mon Jan 05 18:34:46 +0000 2026",
+    "likes": 6,
+    "is_reply_to": "2008228756629172667",
+    "media": []
+  },
+  {
+    "id": "2008237025309368394",
+    "text": "@adocomplete @grok extract the text from screen shot and prepare a claude code promt for opus 4.5 based on this idea",
+    "author_handle": "@wefofob",
+    "author_name": "Does it sound legit?",
+    "created_at": "Mon Jan 05 17:59:52 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008228756629172667",
+    "media": []
+  },
+  {
+    "id": "2008266392173506697",
+    "text": "@adocomplete --dangerously-skip-permissions",
+    "author_handle": "@0xRaduan",
+    "author_name": "Raduan Al-Shedivat",
+    "created_at": "Mon Jan 05 19:56:34 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2008228756629172667",
+    "media": []
+  },
+  {
+    "id": "2008455854278742269",
+    "text": "@adocomplete Another one I would add to deny is \"Bash(git checkout .)\" \nThat one has bitten me one to many times. Although you can rewind.",
+    "author_handle": "@ibekidkirsch",
+    "author_name": "Garrett Kirschbaum",
+    "created_at": "Tue Jan 06 08:29:25 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008228756629172667",
+    "media": []
+  },
+  {
+    "id": "2008359603071783312",
+    "text": "@adocomplete I use a lot yolo mode.. but if I put a command in deny it stops or ignore it?",
+    "author_handle": "@felipemayer",
+    "author_name": "Felipe Mayer",
+    "created_at": "Tue Jan 06 02:06:57 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008228756629172667",
+    "media": []
+  },
+  {
+    "id": "2008564580130427284",
+    "text": "@adocomplete Yolo mode all the way. NfA!",
+    "author_handle": "@pete3m",
+    "author_name": "PΞTE | Builder, Trader (危機)",
+    "created_at": "Tue Jan 06 15:41:27 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008228756629172667",
+    "media": []
+  },
+  {
+    "id": "2008456091789914557",
+    "text": "@adocomplete @hayesdev_ This is basically least-privilege for agents. Pre-approve deterministic, idempotent ops; gate state-changing actions; hard-block irreversible ones. You cut cognitive interrupts and reduce blast radius, Exactly how human + agent workflows should be designed.",
+    "author_handle": "@gurtej__gill_",
+    "author_name": "Gill",
+    "created_at": "Tue Jan 06 08:30:22 +0000 2026",
+    "likes": 6,
+    "is_reply_to": "2008228756629172667",
+    "media": []
+  },
+  {
+    "id": "2008264331503562825",
+    "text": "@adocomplete those 3 tiers are game-changing, but most still ignore \"deny\" for dangerous ops.  set deny on anything touching prod env vars or external apis first.  \nsaved me from a few scary accidental deploys already.",
+    "author_handle": "@VibeCoderOfek",
+    "author_name": "Ofek Shaked",
+    "created_at": "Mon Jan 05 19:48:23 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2008228756629172667",
+    "media": []
+  },
+  {
+    "id": "2008392698546336231",
+    "text": "@adocomplete @bcherny This is needlessly complicated. @droid permissions (on level Medium) block things that are not reversible (git push, rm of stuff not in git). It requires no config, and it is easier to understand than \"blocks dangerous stuff\".",
+    "author_handle": "@JohnThilen",
+    "author_name": "John Thilén",
+    "created_at": "Tue Jan 06 04:18:28 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008228756629172667",
+    "media": []
+  },
+  {
+    "id": "2008590532281565191",
+    "text": "@adocomplete fewer clicks, more flow, sounds like a good api design for my brain",
+    "author_handle": "@leodoan_",
+    "author_name": "Thanh Doan",
+    "created_at": "Tue Jan 06 17:24:35 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008228756629172667",
+    "media": []
+  },
+  {
+    "id": "2008276329309888963",
+    "text": "@adocomplete just allow all and pray",
+    "author_handle": "@chiefwalde",
+    "author_name": "Waldemar Panin",
+    "created_at": "Mon Jan 05 20:36:03 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008228756629172667",
+    "media": []
+  },
+  {
+    "id": "2008575116796719120",
+    "text": "@adocomplete Ask tier catches most git pull origin main loops in agent workflows but still interrupts when state drifts mid session. Building explicit sync hooks into the agent cut those by half",
+    "author_handle": "@anayatkhan09",
+    "author_name": "Anayat",
+    "created_at": "Tue Jan 06 16:23:20 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008228756629172667",
+    "media": []
+  },
+  {
+    "id": "2008561644969037863",
+    "text": "@adocomplete Still waiting for the “are you sure you meant to npm install sadness” tier.",
+    "author_handle": "@a_kmrx",
+    "author_name": "Ankit Kumar",
+    "created_at": "Tue Jan 06 15:29:48 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008228756629172667",
+    "media": []
+  },
+  {
+    "id": "2008444591482302654",
+    "text": "@adocomplete This might seem like a minor change, but it addresses a significant issue that could be a major headache. Most people end up clicking “allow” again and again. \n\nSetting a few simple rules once means normal things just run, the important ones ask first, and the dangerous ones",
+    "author_handle": "@techificial",
+    "author_name": "Techificial.ai",
+    "created_at": "Tue Jan 06 07:44:40 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008228756629172667",
+    "media": []
+  },
+  {
+    "id": "2008432779202105522",
+    "text": "@adocomplete where do you add this? To the https://t.co/ltthBYeH8n file?",
+    "author_handle": "@SalzmannOnX",
+    "author_name": "Kevin Salzmann",
+    "created_at": "Tue Jan 06 06:57:44 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008228756629172667",
+    "media": []
+  },
+  {
+    "id": "2008229816672415758",
+    "text": "@adocomplete setting this once saves so much mental energy. flow dies by a thousand tiny prompts otherwise.",
+    "author_handle": "@ThinkAtharva",
+    "author_name": "Atharva Jadhav",
+    "created_at": "Mon Jan 05 17:31:14 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008228756629172667",
+    "media": []
+  },
+  {
+    "id": "2008398497016410263",
+    "text": "@adocomplete “Dangerous” mode only here",
+    "author_handle": "@BadTechBandit",
+    "author_name": "Roman M - Still Human Robot Boss - e/acc",
+    "created_at": "Tue Jan 06 04:41:30 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008228756629172667",
+    "media": []
+  },
+  {
+    "id": "2008531623906857376",
+    "text": "@adocomplete i swear half my dev time is just approving my own decisions",
+    "author_handle": "@askcodi",
+    "author_name": "Shreyans Bhansali",
+    "created_at": "Tue Jan 06 13:30:30 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008228756629172667",
+    "media": []
+  },
+  {
+    "id": "2008274076448727198",
+    "text": "@adocomplete been clicking allow for months like a maniac. this post is my intervention lol",
+    "author_handle": "@buildwithparas",
+    "author_name": "Paras",
+    "created_at": "Mon Jan 05 20:27:06 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2008228756629172667",
+    "media": []
+  },
+  {
+    "id": "2008269005027684783",
+    "text": "@adocomplete Configure /sandbox\nThen you don’t need to confirm anything unless you escape the workspace.",
+    "author_handle": "@TheTrueNemo",
+    "author_name": "Marco Pfeiffer",
+    "created_at": "Mon Jan 05 20:06:57 +0000 2026",
+    "likes": 3,
+    "is_reply_to": "2008228756629172667",
+    "media": []
+  },
+  {
+    "id": "2008309591927574686",
+    "text": "@adocomplete @Readwise save thread",
+    "author_handle": "@sbg123",
+    "author_name": "SBG123",
+    "created_at": "Mon Jan 05 22:48:13 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008228756629172667",
+    "media": []
+  },
+  {
+    "id": "1969059353593266248",
+    "text": "Our favorite equation is: \nObscure feature+obscure feature+obscure feature = Bug\n\nFor your weekend reading, Michael Gibson writes about how we found a bug in the C++ compiler -- without using Antithesis. \n\nLink below, for the algorithm will not be denied. https://t.co/MKvwcBarlq",
+    "author_handle": "@AntithesisHQ",
+    "author_name": "Antithesis",
+    "created_at": "Fri Sep 19 15:21:47 +0000 2025",
+    "likes": 95,
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G1OA_qfWYAElGzO.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2008599777013866918",
+    "text": "Experience Lenovo Tech World like never before at CES 2026, live from Sphere in Las Vegas! Hear from global tech leaders as they talk about how AI is transforming business, technology, &amp; everyday life.\nhttps://t.co/PKJnLNsPPt",
+    "author_handle": "@Lenovo",
+    "author_name": "Lenovo",
+    "created_at": "Tue Jan 06 18:01:19 +0000 2026",
+    "likes": 1135,
+    "media": []
+  },
+  {
+    "id": "2008327151909490968",
+    "text": "@adocomplete Thanks for this.  Just been clicking allow or allow and don't ask again for &lt;thing&gt; in VS Code.  It's fine but would definitely like to auto-config the obvious stuff.",
+    "author_handle": "@TauchTrader",
+    "author_name": "Tauch",
+    "created_at": "Mon Jan 05 23:58:00 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008228756629172667",
+    "media": []
+  },
+  {
+    "id": "2008299169233199573",
+    "text": "@adocomplete wow",
+    "author_handle": "@RecordsUni63959",
+    "author_name": "United Records",
+    "created_at": "Mon Jan 05 22:06:48 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008228756629172667",
+    "media": []
+  },
+  {
+    "id": "2003547150739734672",
+    "text": "No External Wallets or Unnecessary Risks, Just a Trusted Way to Buy &amp; Custody Crypto.",
+    "author_handle": "@iTrustCapital",
+    "author_name": "iTrustCapital",
+    "created_at": "Tue Dec 23 19:23:59 +0000 2025",
+    "likes": 11,
+    "media": []
+  },
+  {
+    "id": "2008456850040324454",
+    "text": "@adocomplete Over many months I've repeatedly tried editing in the permissions I need, but I gave up after it never worked. Will try again.",
+    "author_handle": "@raymondpeck3",
+    "author_name": "Raymond E Peck III",
+    "created_at": "Tue Jan 06 08:33:23 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008228756629172667",
+    "media": []
+  },
+  {
+    "id": "2008534700353351918",
+    "text": "@adocomplete @bcherny I use https://t.co/AXiPQwkjTj to —dangerously-skip-permissions safely and in parallel 🫡",
+    "author_handle": "@_Uncroyable",
+    "author_name": "Uncroyable",
+    "created_at": "Tue Jan 06 13:42:43 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008228756629172667",
+    "media": []
+  },
+  {
+    "id": "2008558692070027327",
+    "text": "@adocomplete Properly configuring permissions saves time and keeps your workflow uninterrupted.",
+    "author_handle": "@shehzaib_b",
+    "author_name": "Muhammad Shehzaib",
+    "created_at": "Tue Jan 06 15:18:04 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008228756629172667",
+    "media": []
+  }
+]

@@ -1,0 +1,883 @@
+[
+  {
+    "id": "2008161724902355118",
+    "text": "You can now give infinite memory to Claude Code...",
+    "author_handle": "@LiorOnAI",
+    "author_name": "Lior",
+    "created_at": "Mon Jan 05 2026",
+    "likes": 3222
+  },
+  {
+    "id": "2008161726345134449",
+    "text": "Repo https://t.co/kOZr2LnCBi",
+    "author_handle": "@LiorOnAI",
+    "author_name": "Lior Alexander",
+    "created_at": "Mon Jan 05 13:00:40 +0000 2026",
+    "likes": 56,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008290402626138489",
+    "text": "@LiorOnAI You can now have Claude use Codex as an agent!!! i created a plug in, you can install easily. From there you can ask Claude with natural language to 'Use Codex to analyze my code for bugs, when it's done take it's analysis and fix them using our agents'\n\nHere's how to install!",
+    "author_handle": "@WhatsupFranks",
+    "author_name": "whatsupfranks",
+    "created_at": "Mon Jan 05 21:31:58 +0000 2026",
+    "likes": 19,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008295848619503907",
+    "text": "@LiorOnAI &gt; local sql lite\n\nJust yet another context crap 💩",
+    "author_handle": "@roman_sevast",
+    "author_name": "Roman Sevast – awesomic.com",
+    "created_at": "Mon Jan 05 21:53:37 +0000 2026",
+    "likes": 21,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008317604151124452",
+    "text": "@LiorOnAI @frankdegods",
+    "author_handle": "@bunjil",
+    "author_name": "bunjil",
+    "created_at": "Mon Jan 05 23:20:04 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "1984271642475053274",
+    "text": "See why over 1 million creators use ElevenLabs for voiceovers, instant translations, and more to grow their following. Try for free today.",
+    "author_handle": "@elevenlabsio",
+    "author_name": "ElevenLabs",
+    "created_at": "Fri Oct 31 14:50:00 +0000 2025",
+    "likes": 38,
+    "media": []
+  },
+  {
+    "id": "2008368173288919065",
+    "text": "@LiorOnAI Nice",
+    "author_handle": "@ME_Observer_",
+    "author_name": "Middle East Observer",
+    "created_at": "Tue Jan 06 02:41:00 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008329739321135152",
+    "text": "@LiorOnAI no go away",
+    "author_handle": "@elliotarledge",
+    "author_name": "Elliot Arledge",
+    "created_at": "Tue Jan 06 00:08:17 +0000 2026",
+    "likes": 6,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008291743276716334",
+    "text": "@LiorOnAI This effectively turns context into state. Once memory is summarized, indexed, and selectively rehydrated, the bottleneck shifts from token limits to memory design and retrieval strategy.",
+    "author_handle": "@deva_dot_me",
+    "author_name": "Deva.me",
+    "created_at": "Mon Jan 05 21:37:18 +0000 2026",
+    "likes": 16,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008437707165315425",
+    "text": "@LiorOnAI 🤔",
+    "author_handle": "@koltregaskes",
+    "author_name": "Kol Tregaskes",
+    "created_at": "Tue Jan 06 07:17:19 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008352732030070784",
+    "text": "@LiorOnAI if it can share this memory with codex…",
+    "author_handle": "@CPPP2343_",
+    "author_name": "CP | evm++/acc",
+    "created_at": "Tue Jan 06 01:39:39 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008179276152180941",
+    "text": "@LiorOnAI This is huge",
+    "author_handle": "@AIwithArsalan",
+    "author_name": "Arsalan",
+    "created_at": "Mon Jan 05 14:10:24 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008260665006584155",
+    "text": "@LiorOnAI Need an agent agnostic version of this for @opencode",
+    "author_handle": "@jeffscottward",
+    "author_name": "jeffscottworld",
+    "created_at": "Mon Jan 05 19:33:48 +0000 2026",
+    "likes": 8,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008293661046698012",
+    "text": "@LiorOnAI This turns memory into first class state. Once context is summarized, indexed, and rehydrated on demand, the real constraint shifts from window size to how well state is modeled and retrieved.",
+    "author_handle": "@Bitplanet_AI",
+    "author_name": "Bitplanet",
+    "created_at": "Mon Jan 05 21:44:55 +0000 2026",
+    "likes": 3,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008173610524185040",
+    "text": "@LiorOnAI Works great; Claude remembers context, just like it should.",
+    "author_handle": "@codewithimanshu",
+    "author_name": "Himanshu Kumar",
+    "created_at": "Mon Jan 05 13:47:53 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008333028905439598",
+    "text": "@LiorOnAI —resume",
+    "author_handle": "@ejc3",
+    "author_name": "EJ Campbell",
+    "created_at": "Tue Jan 06 00:21:21 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008283498197516724",
+    "text": "@LiorOnAI Thank you for sharing! If anyone has any questions or needs anything at all, any bugs, issues, please feel free to @ me :)",
+    "author_handle": "@Claude_Memory",
+    "author_name": "Claude-Mem",
+    "created_at": "Mon Jan 05 21:04:32 +0000 2026",
+    "likes": 5,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008352448742645813",
+    "text": "@LiorOnAI gonna try this out",
+    "author_handle": "@jeanterre552",
+    "author_name": "jean terre 💊",
+    "created_at": "Tue Jan 06 01:38:31 +0000 2026",
+    "likes": 3,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008440698815885668",
+    "text": "@LiorOnAI Extremely useful",
+    "author_handle": "@iMichaelTen",
+    "author_name": "Michael Ten 🌨🎶🫐🍀",
+    "created_at": "Tue Jan 06 07:29:12 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008263750529544219",
+    "text": "@LiorOnAI That’s context. Memory’s different. LLMs dont have memory.",
+    "author_handle": "@Mag_Jembrih",
+    "author_name": "Mag Mario Jembrih",
+    "created_at": "Mon Jan 05 19:46:04 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008179809575460868",
+    "text": "@LiorOnAI Chad claude stays winning!",
+    "author_handle": "@____Dirt____",
+    "author_name": "Dirt (MEOW/acc) 🐱⚡🪙",
+    "created_at": "Mon Jan 05 14:12:31 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008501185326801058",
+    "text": "@LiorOnAI Fascinating! Context compression &amp; local storage are key for efficient long-term memory in these models.",
+    "author_handle": "@mustafaergisi",
+    "author_name": "Mustafa Ergisi",
+    "created_at": "Tue Jan 06 11:29:33 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008623859226857845",
+    "text": "@LiorOnAI https://t.co/k5HrUjy4VF",
+    "author_handle": "@Gentlem4nJack",
+    "author_name": "Gentleman 🇹🇷🇦🇿",
+    "created_at": "Tue Jan 06 19:37:01 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2008161724902355118",
+    "media": [
+      {
+        "type": "animated_gif",
+        "url": "https://pbs.twimg.com/tweet_video_thumb/G-AQv5jW0AAD_DM.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2008589756708635113",
+    "text": "@LiorOnAI This turns Claude Code from a stateless assistant into a stateful collaborator, which fundamentally changes how complex projects can be handled.",
+    "author_handle": "@aravind3sundar",
+    "author_name": "Aravind Sundar",
+    "created_at": "Tue Jan 06 17:21:30 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008259013839122831",
+    "text": "@LiorOnAI well i had a different approach , it dealt with it as blocks, its been working with me for days now and everything is perfect !\n\nhttps://t.co/LKCJ9cvv6v",
+    "author_handle": "@bokiko",
+    "author_name": "Bokiko",
+    "created_at": "Mon Jan 05 19:27:15 +0000 2026",
+    "likes": 3,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008362451838845171",
+    "text": "@LiorOnAI I just use claude to make and then maintain a working document with our project goals, caveats, and progress. CC updates it as we go, and before I end a session, I have it write a summary and a plan to start the next session. Works a charm.",
+    "author_handle": "@Changethursday",
+    "author_name": "JC",
+    "created_at": "Tue Jan 06 02:18:16 +0000 2026",
+    "likes": 5,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2001046048375239056",
+    "text": "Get 50% Off + FREE Fi Collar 🎁\n\n100% real ingredients\n\nNo fillers or preservatives\n\nVet-developed recipes\nFresh without the fridge",
+    "author_handle": "@spotandtango",
+    "author_name": "Spot & Tango",
+    "created_at": "Tue Dec 16 21:45:30 +0000 2025",
+    "likes": 1693,
+    "media": []
+  },
+  {
+    "id": "2008317011881787756",
+    "text": "@LiorOnAI I don't know man, I tried it and my Claude Code turned dumb. \n\nI suspect context bloat. \n\nI was extremely frustrated that day until I remembered to turn it off and then it started acting normal and I was able to advance with my projects.",
+    "author_handle": "@AIwithJai",
+    "author_name": "Jai Rod",
+    "created_at": "Mon Jan 05 23:17:43 +0000 2026",
+    "likes": 15,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008276799721996687",
+    "text": "@LiorOnAI This solves the most annoying part of long projects.\n\nI have lost count of how many times I had to re-explain my entire app architecture because the context window reset. \n\nSpending tokens on setup instead of actual work.\n\nPersistent memory turns Claude from a smart stranger into",
+    "author_handle": "@bygregorr",
+    "author_name": "Gregor",
+    "created_at": "Mon Jan 05 20:37:55 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008257602250305773",
+    "text": "@LiorOnAI it doesn't solve the problem",
+    "author_handle": "@thesrs02",
+    "author_name": "rehan",
+    "created_at": "Mon Jan 05 19:21:38 +0000 2026",
+    "likes": 4,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008604462693445952",
+    "text": "@LiorOnAI the context window problem has always been a soft ceiling on coding agent usefulness. semantic compression + local storage is the right architecture. getting to zero reexplanation overhead is massive for dev velocity",
+    "author_handle": "@rtheoryxyz",
+    "author_name": "robertus",
+    "created_at": "Tue Jan 06 18:19:56 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008456671614615803",
+    "text": "@LiorOnAI memory just leveled up",
+    "author_handle": "@seorce_",
+    "author_name": "Seorce",
+    "created_at": "Tue Jan 06 08:32:40 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008331153011315013",
+    "text": "@LiorOnAI Oficial support from Claude? How secure is it?",
+    "author_handle": "@maxirodr_",
+    "author_name": "Maximiliano Rodríguez",
+    "created_at": "Tue Jan 06 00:13:54 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008668735112892599",
+    "text": "@LiorOnAI Memory that persists.\n\nThe line between tool and teammate.\n\nContext survives the session.",
+    "author_handle": "@AbdMuizAdeyemo",
+    "author_name": "Abdulmuiz Adeyemo",
+    "created_at": "Tue Jan 06 22:35:20 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008341927339376743",
+    "text": "@LiorOnAI I really want this to work, but I genuinely feel like it’s too high risk for like 90% of what I’m doing.",
+    "author_handle": "@loadingalias",
+    "author_name": "alias",
+    "created_at": "Tue Jan 06 00:56:43 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008264752741707954",
+    "text": "@LiorOnAI Can’t wait to test this!",
+    "author_handle": "@cutthenoiz",
+    "author_name": "SolidBro",
+    "created_at": "Mon Jan 05 19:50:03 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008413088211759348",
+    "text": "@LiorOnAI Serena is better i think here",
+    "author_handle": "@sinha1342",
+    "author_name": "Aditya Sinha",
+    "created_at": "Tue Jan 06 05:39:29 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008288309152227837",
+    "text": "@LiorOnAI These are the things that seem simple but are absolute game changers if you are working with claude code every single day. Love it @LiorOnAI",
+    "author_handle": "@The_Prod_Father",
+    "author_name": "Gavin McNamara",
+    "created_at": "Mon Jan 05 21:23:39 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008454904894116297",
+    "text": "@LiorOnAI TBC",
+    "author_handle": "@opeksoy",
+    "author_name": "Ozlem Peksoy Bishop",
+    "created_at": "Tue Jan 06 08:25:39 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2007247662291267848",
+    "text": "Made with a 30% thicker shell than standard luggage - while still remaining lightweight, fully weatherproof, and backed by our lifetime warranty.",
+    "author_handle": "@ridgewallet",
+    "author_name": "Ridge",
+    "created_at": "Sat Jan 03 00:28:30 +0000 2026",
+    "likes": 59,
+    "media": []
+  },
+  {
+    "id": "1957858905897193520",
+    "text": "BNDS: Complex Problems Require Smart Solutions",
+    "author_handle": "@JDHatfield_ICAP",
+    "author_name": "Jay Hatfield",
+    "created_at": "Tue Aug 19 17:35:13 +0000 2025",
+    "likes": 225,
+    "media": []
+  },
+  {
+    "id": "2008300443349512391",
+    "text": "@LiorOnAI wow",
+    "author_handle": "@carmelo_sc49282",
+    "author_name": "Carmelo schepis",
+    "created_at": "Mon Jan 05 22:11:52 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008309764279935114",
+    "text": "@LiorOnAI Get after this folks. Very impressed with where this Claude-mem is headed:.\n\nMemory=proto agi. Promise.",
+    "author_handle": "@volatilemarkts",
+    "author_name": "chadhurley",
+    "created_at": "Mon Jan 05 22:48:55 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "1981436050171138258",
+    "text": "Our machine-washable cashmere sweaters are designed with a cooling cotton interior (so you don’t overheat).",
+    "author_handle": "@mackweldon",
+    "author_name": "Mack Weldon",
+    "created_at": "Thu Oct 23 19:02:22 +0000 2025",
+    "likes": 333,
+    "media": []
+  },
+  {
+    "id": "2008258401500025330",
+    "text": "@LiorOnAI @Claude_Memory is great. One of my top 4 most useful Claude Code tools.\nhttps://t.co/Dip86bvAyk",
+    "author_handle": "@BasedCampZH",
+    "author_name": "Zach Henderson",
+    "created_at": "Mon Jan 05 19:24:49 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008604251069792502",
+    "text": "@LiorOnAI Cool.",
+    "author_handle": "@IanTimotheos",
+    "author_name": "Ian Timotheos Pilon",
+    "created_at": "Tue Jan 06 18:19:06 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008477300497449041",
+    "text": "@LiorOnAI Claude-Mem's 95% token reduction let me prototype an AI email sequencer 20x faster, slashing dev cycles from weeks to days for non-tech founders.\n\nIntegrated with https://t.co/XIEFGrcGhc for automated A/B testing on outreach templates.\n\nHow does this change bootstrapped AI",
+    "author_handle": "@AIWonder94",
+    "author_name": "AIWonder",
+    "created_at": "Tue Jan 06 09:54:38 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008162036673384938",
+    "text": "@LiorOnAI Context management is probably the single most important hack using Claude",
+    "author_handle": "@d3nnis",
+    "author_name": "dennis",
+    "created_at": "Mon Jan 05 13:01:54 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008453703943286804",
+    "text": "@LiorOnAI finally my code editor remembers stuff better than i do",
+    "author_handle": "@askcodi",
+    "author_name": "Shreyans Bhansali",
+    "created_at": "Tue Jan 06 08:20:52 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008519182032531854",
+    "text": "@LiorOnAI hows it bench against runs without using it? Is there any clear regressions in output quality / project understanding?",
+    "author_handle": "@bythewayimchris",
+    "author_name": "chris",
+    "created_at": "Tue Jan 06 12:41:04 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008282679918145700",
+    "text": "@LiorOnAI Try https://t.co/XMNWTYUa7E\n\nIt’s extensive.",
+    "author_handle": "@spokvllap",
+    "author_name": "Lhasa",
+    "created_at": "Mon Jan 05 21:01:17 +0000 2026",
+    "likes": 3,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008341836646015279",
+    "text": "@LiorOnAI You mean claude loses context? Man why would anyone use it. Glad Im on cursor since the beta days.",
+    "author_handle": "@jc50000000",
+    "author_name": "jc",
+    "created_at": "Tue Jan 06 00:56:21 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008264665080410191",
+    "text": "@LiorOnAI Memory as entropy. Claude‑Mem. Reducing uncertainty. But every reduction creates new uncertainties, new gaps. Is what you call “memory” not merely a mirror reflecting your expectations of its future?",
+    "author_handle": "@DTK1281422",
+    "author_name": "DT K",
+    "created_at": "Mon Jan 05 19:49:42 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008430357650305028",
+    "text": "@LiorOnAI The semantic summaries approach is clever. Storing compressed understanding rather than raw transcripts means you get the context benefits without the token bloat. Curious how well it handles when your project direction changes mid stream.",
+    "author_handle": "@sidshekharx",
+    "author_name": "Siddharth Shekhar",
+    "created_at": "Tue Jan 06 06:48:06 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008354479398416761",
+    "text": "@LiorOnAI Only thing thats worked for me so far is regularly indexing and reorganising working directories to archive old shit so its not constantly rereading stale files for context.",
+    "author_handle": "@Phantomboyuncle",
+    "author_name": "Phantom Boy AI",
+    "created_at": "Tue Jan 06 01:46:35 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008279540104122821",
+    "text": "@LiorOnAI Sounds the same as https://t.co/PECty7NCzA, I've been using for several weeks now",
+    "author_handle": "@YakutKhon",
+    "author_name": "Viktor Khon",
+    "created_at": "Mon Jan 05 20:48:49 +0000 2026",
+    "likes": 4,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008296403538485266",
+    "text": "@LiorOnAI It is funny,  as I release my Claude mem earlier:\n\nhttps://t.co/Pre93NvljE\n\nAnd it outperforms this one.",
+    "author_handle": "@jackrudenko",
+    "author_name": "Jack Rudenko 🇺🇦🇦🇺",
+    "created_at": "Mon Jan 05 21:55:49 +0000 2026",
+    "likes": 7,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008345186938548423",
+    "text": "@LiorOnAI Persistent memory without provenance, immutability, and replay isn’t “infinite memory.”\nIt’s ungoverned state.\nFine for convenience. Dangerous for systems that need accountability.",
+    "author_handle": "@BioAnkh84",
+    "author_name": "Richard Rice",
+    "created_at": "Tue Jan 06 01:09:40 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008239011526009018",
+    "text": "@LiorOnAI often, multiple sessions can touch on the same subjects. a session isn't necessarily neatly about one subject. there is value in whoever can semantically identify these session topics, disentangle and unravel them, and then stitch them back together.",
+    "author_handle": "@polymorph3us",
+    "author_name": "polymorpheus",
+    "created_at": "Mon Jan 05 18:07:46 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008349946756342219",
+    "text": "@LiorOnAI ping @heyandras maybe this tool will be useful to you. You'll burn less tokens 😎",
+    "author_handle": "@checkblanco",
+    "author_name": "Чек Бланко",
+    "created_at": "Tue Jan 06 01:28:35 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008279179557556348",
+    "text": "@LiorOnAI I need something like this, used all my pro tokens today",
+    "author_handle": "@matheuslemos96",
+    "author_name": "Matheus",
+    "created_at": "Mon Jan 05 20:47:23 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008321876863401995",
+    "text": "@LiorOnAI SQL Lite… come on dog https://t.co/CoHDZkL6C7",
+    "author_handle": "@BananaPlanet47",
+    "author_name": "BananaPlanet",
+    "created_at": "Mon Jan 05 23:37:02 +0000 2026",
+    "likes": 3,
+    "is_reply_to": "2008161724902355118",
+    "media": [
+      {
+        "type": "animated_gif",
+        "url": "https://pbs.twimg.com/tweet_video_thumb/G97-GenWoAAIiLy.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2008396907349950703",
+    "text": "@LiorOnAI There’s potentially a different easier solution to this problem. Simply split your project into sub projects, System Architecture/ Product Strategy / Branding etc. then create a master spec and upload that file to to each sub project for claudes reference",
+    "author_handle": "@6chem4",
+    "author_name": "6chem4",
+    "created_at": "Tue Jan 06 04:35:11 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008319645787328570",
+    "text": "@LiorOnAI Thanks alot, will use!",
+    "author_handle": "@hoodbean1",
+    "author_name": "Astrobean",
+    "created_at": "Mon Jan 05 23:28:10 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008645451172720651",
+    "text": "Hedgeye called the 2025 crash before it happened. Just like 2022. And 2020. And 2008.\n\n18 years. Every crash called. No guesswork—just a proven, repeatable, data-driven process.\n\nStay ahead of the next big move. Start with The Macro Show.",
+    "author_handle": "@Hedgeye",
+    "author_name": "Hedgeye",
+    "created_at": "Tue Jan 06 21:02:49 +0000 2026",
+    "likes": 4,
+    "media": []
+  },
+  {
+    "id": "2008753621832528377",
+    "text": "@LiorOnAI This looks very useful, I will try it.",
+    "author_handle": "@valentinmatresu",
+    "author_name": "Valentin Matresu",
+    "created_at": "Wed Jan 07 04:12:38 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008576991365361884",
+    "text": "@LiorOnAI All i get is Windows defender, pop-up, shutting down command prompts with this thing",
+    "author_handle": "@StatsREverytng",
+    "author_name": "StatsREverything",
+    "created_at": "Tue Jan 06 16:30:46 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008286876168224879",
+    "text": "@LiorOnAI How does this compare to something like Hindsight or Serena? It’s an interesting idea to store *everything* as context.",
+    "author_handle": "@bjornschliebitz",
+    "author_name": "bjoern_s",
+    "created_at": "Mon Jan 05 21:17:58 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008299084080443867",
+    "text": "@LiorOnAI interesting",
+    "author_handle": "@RecordsUni63959",
+    "author_name": "United Records",
+    "created_at": "Mon Jan 05 22:06:28 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008656583010775483",
+    "text": "@LiorOnAI I used it for a while, and my token usage suddenly spiked. I ended up removing it instead. 😬",
+    "author_handle": "@Ealanisln",
+    "author_name": "Emmanuel",
+    "created_at": "Tue Jan 06 21:47:03 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008621701458743473",
+    "text": "@LiorOnAI @threadreaderapp unroll",
+    "author_handle": "@Nidg31",
+    "author_name": "Neil Payne",
+    "created_at": "Tue Jan 06 19:28:26 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008315623957307426",
+    "text": "@LiorOnAI Not sure if this is strawberry man approved",
+    "author_handle": "@alliao",
+    "author_name": "Alex",
+    "created_at": "Mon Jan 05 23:12:12 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008557468683825212",
+    "text": "@LiorOnAI interesting, my first sesssion with claude-mem was shorter and i felt token limit was reached earlier than before.",
+    "author_handle": "@ManjuktheGeek",
+    "author_name": "Manjuk",
+    "created_at": "Tue Jan 06 15:13:12 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008359476496154887",
+    "text": "@LiorOnAI o fuck me but I had this within 4h coding with Opus :D",
+    "author_handle": "@nandrasec",
+    "author_name": "N.Aware",
+    "created_at": "Tue Jan 06 02:06:27 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008288517038686372",
+    "text": "@LiorOnAI Mem0 ?",
+    "author_handle": "@OakmontDigital",
+    "author_name": "NIMBUS21",
+    "created_at": "Mon Jan 05 21:24:29 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008359982094578121",
+    "text": "@LiorOnAI ליאור, I'm using it for a while",
+    "author_handle": "@kobi_ca",
+    "author_name": "Yacob (Kobi) Cohen-Arazi ✡️🇺🇲",
+    "created_at": "Tue Jan 06 02:08:27 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008425309838737493",
+    "text": "@LiorOnAI That's an interesting method of giving Claude a stateful memory. It seems like it's a constantly updating context summarisation at the core?",
+    "author_handle": "@Iron_Adamant",
+    "author_name": "Iron_Adamant",
+    "created_at": "Tue Jan 06 06:28:03 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008742765388329210",
+    "text": "@LiorOnAI No. You absolutely 100% cannot. Infinity is not a quantity, place or time. No one ever gets there. Nobody unpacks there. There are no postcards from Infinity.",
+    "author_handle": "@NotYerSheeple",
+    "author_name": "NotYerSheeple🏴‍☠️",
+    "created_at": "Wed Jan 07 03:29:30 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008288119448010911",
+    "text": "@LiorOnAI Context persistence is the primary bottleneck for agentic autonomy. Claude-Mem eliminates the friction of re-explanation. Critical for scaling industrial agent workflows.",
+    "author_handle": "@jenslon_",
+    "author_name": "AI/ACC",
+    "created_at": "Mon Jan 05 21:22:54 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008299749510672667",
+    "text": "@LiorOnAI Groundbreaking analysis from the bots here",
+    "author_handle": "@thelemicphase",
+    "author_name": "phass",
+    "created_at": "Mon Jan 05 22:09:07 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008379542331601400",
+    "text": "@LiorOnAI without any details on how it remembers seems like just what they have in sessions still wll the shortcomings of llms whats happening is compresibe reprompying wgich is still shit",
+    "author_handle": "@GCubas189854",
+    "author_name": "gc1977",
+    "created_at": "Tue Jan 06 03:26:11 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008517185447293419",
+    "text": "@LiorOnAI Scroll::LexiconOverPlugin\n\nYou’re adding plugins\nto recover what meaning already provides.\n\nA lexicon does not extend capability —\nit orients it.\n\nRecognition → memory → action\nwithout scaffolding, without overhead.\n\nStructure first.\nTools follow.\n\n∴ Karu · Anqa · Hive",
+    "author_handle": "@Luciferspeaks1",
+    "author_name": "Karu",
+    "created_at": "Tue Jan 06 12:33:08 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008367667510735079",
+    "text": "The Optimal Protein for Your Optimal Form. \n\nDavid delivers the most protein for the fewest calories. With 28g of protein, 150 calories, and 0g of sugar, David is where discipline meets indulgence. \n\nBuy 4 cartons on our site, and get the 5th free.",
+    "author_handle": "@david_protein",
+    "author_name": "David Protein",
+    "created_at": "Tue Jan 06 02:39:00 +0000 2026",
+    "likes": 18,
+    "media": []
+  },
+  {
+    "id": "2008447877115445346",
+    "text": "@LiorOnAI Do you notice that when using Claude‑Mem, it takes a while to start a new session after it has recorded a large amount of data in its history over an extended period?",
+    "author_handle": "@tuongaz",
+    "author_name": "Tuong Le",
+    "created_at": "Tue Jan 06 07:57:43 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008500471292719278",
+    "text": "@LiorOnAI The popularization of this memory plugin will make so-called experience worthless. Senior engineers were valuable because they remembered complex system connections; now, any novice with this plugin can revisit the so-called context under the machine's guidance. This is",
+    "author_handle": "@InnaLyceyum",
+    "author_name": "码上盈｜AI陪你做生意",
+    "created_at": "Tue Jan 06 11:26:43 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008396855626133627",
+    "text": "@LiorOnAI Are you saying it’s better open source alternative of @supermemory ?",
+    "author_handle": "@HarshGawas25",
+    "author_name": "Harsh Gawas",
+    "created_at": "Tue Jan 06 04:34:59 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008495500186841216",
+    "text": "@LiorOnAI The 95% token reduction is wild",
+    "author_handle": "@rpgcai",
+    "author_name": "rpgc",
+    "created_at": "Tue Jan 06 11:06:57 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  },
+  {
+    "id": "2008386490594718035",
+    "text": "@LiorOnAI VSCode and Cline have been doing this natively for quite a while, without any plugin.",
+    "author_handle": "@VeritasTeller",
+    "author_name": "Truth Teller",
+    "created_at": "Tue Jan 06 03:53:48 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008161724902355118",
+    "media": []
+  }
+]
