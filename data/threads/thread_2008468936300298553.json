@@ -1,0 +1,434 @@
+[
+  {
+    "id": "2008468936300298553",
+    "author_handle": "@frankdegods",
+    "text": "ngl claude agent sdk might spawn a whole crop of new unicorns"
+  },
+  {
+    "id": "2008470465086386596",
+    "text": "tweeting to retweet in the near future",
+    "author_handle": "@frankdegods",
+    "author_name": "Frank",
+    "created_at": "Tue Jan 06 09:27:29 +0000 2026",
+    "likes": 30,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "2008546445822149020",
+    "text": "@frankdegods indeed\n\nhttps://t.co/YUm4YpzBiT",
+    "author_handle": "@irl_danB",
+    "author_name": "dan",
+    "created_at": "Tue Jan 06 14:29:24 +0000 2026",
+    "likes": 11,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "2008568369763762559",
+    "text": "@irl_danB damn, based",
+    "author_handle": "@frankdegods",
+    "author_name": "Frank",
+    "created_at": "Tue Jan 06 15:56:31 +0000 2026",
+    "likes": 6,
+    "is_reply_to": "2008546445822149020",
+    "media": []
+  },
+  {
+    "id": "2008691578429407514",
+    "text": "@frankdegods 1) build a modular system that supports agent SDK\n2) it's modular enough you can replace it with a better agent SDK in the future\n3) same DB, same auth, same context, various experiments\n\nthank me later",
+    "author_handle": "@keshavrao_",
+    "author_name": "Keshav",
+    "created_at": "Wed Jan 07 00:06:06 +0000 2026",
+    "likes": 6,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "2008591596561068468",
+    "text": "@frankdegods That wave is real.\nWe’re focused on the layer after raw agents , adding structure, control, and accountability so teams can actually build durable businesses with them.",
+    "author_handle": "@blackboxai",
+    "author_name": "BLACKBOX AI",
+    "created_at": "Tue Jan 06 17:28:49 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "2008508469763338510",
+    "text": "@frankdegods sdk moments are where ecosystems actually get born",
+    "author_handle": "@Sumex_Labs",
+    "author_name": "SUMEX | Web3 SuperApp",
+    "created_at": "Tue Jan 06 11:58:30 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "2008508261146972246",
+    "text": "@frankdegods yes",
+    "author_handle": "@meta_alchemist",
+    "author_name": "Meta Alchemist",
+    "created_at": "Tue Jan 06 11:57:40 +0000 2026",
+    "likes": 3,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "2008469357794357632",
+    "text": "@frankdegods i doubt so fam",
+    "author_handle": "@BalaiBB",
+    "author_name": "Bala 👽",
+    "created_at": "Tue Jan 06 09:23:05 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "2008626294670471608",
+    "text": "@frankdegods It’s been a minute! But I think we should chat. https://t.co/mDQ7IjYGA8",
+    "author_handle": "@Shannoncode",
+    "author_name": "Shannon Code",
+    "created_at": "Tue Jan 06 19:46:41 +0000 2026",
+    "likes": 12,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "2008469110280393091",
+    "text": "@frankdegods there has to be one bro, like one atleast",
+    "author_handle": "@Aabbhhz",
+    "author_name": "Abhz 💭",
+    "created_at": "Tue Jan 06 09:22:06 +0000 2026",
+    "likes": 7,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "2008597536475689461",
+    "text": "@frankdegods What are benefits over the cli?",
+    "author_handle": "@jai_prasad17",
+    "author_name": "Jai",
+    "created_at": "Tue Jan 06 17:52:25 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "2008566208162131998",
+    "text": "@frankdegods slept on and obviously next",
+    "author_handle": "@nnnnicholas",
+    "author_name": "nicholas ⛱",
+    "created_at": "Tue Jan 06 15:47:56 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "2008470720859566548",
+    "text": "@frankdegods A lot of potential for some serious unicorns to come out of this.",
+    "author_handle": "@Rex_Btc1",
+    "author_name": "BRAVO",
+    "created_at": "Tue Jan 06 09:28:30 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "2008543858486136852",
+    "text": "@frankdegods the real test is whether they'll be building with it or just building wrappers around it",
+    "author_handle": "@victor_explore",
+    "author_name": "Victor",
+    "created_at": "Tue Jan 06 14:19:07 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "2008473167602319708",
+    "text": "@frankdegods Might?? Let’s watch out 👀",
+    "author_handle": "@Sephbtc",
+    "author_name": "seph",
+    "created_at": "Tue Jan 06 09:38:13 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "2008469219810095297",
+    "text": "@frankdegods unicorns in uniforms",
+    "author_handle": "@LukaGrunt",
+    "author_name": "Luka Grunt",
+    "created_at": "Tue Jan 06 09:22:32 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "2008753213349261630",
+    "text": "@frankdegods i’m sensing that https://t.co/9ceBUcyNUO will be the first! 🍾",
+    "author_handle": "@julie_bush",
+    "author_name": "Julie Bush",
+    "created_at": "Wed Jan 07 04:11:01 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "2008550701761196465",
+    "text": "@frankdegods But you have lied before",
+    "author_handle": "@nftRanch",
+    "author_name": "Raanch",
+    "created_at": "Tue Jan 06 14:46:19 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "2008471729442639963",
+    "text": "@frankdegods new primitives, new possibilities.",
+    "author_handle": "@Gro3_",
+    "author_name": "Gro3",
+    "created_at": "Tue Jan 06 09:32:30 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "2008681760054485176",
+    "text": "@frankdegods Specific knowledge is transient, but general principles are timeless. The goal is to build leverage - tools and networks that compound. Play long-term games with long-term people to create durable wealth and freedom.",
+    "author_handle": "@_itsjustshubh",
+    "author_name": "Shubh Thorat",
+    "created_at": "Tue Jan 06 23:27:05 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "2008601266327556468",
+    "text": "@frankdegods help me understand the hype 😭",
+    "author_handle": "@dremnik",
+    "author_name": "Andrew",
+    "created_at": "Tue Jan 06 18:07:14 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "2008482301861319074",
+    "text": "@frankdegods Not might. It will for sure. \n\n\"Idea guys\" now actually have the chance to build out their projects without a huge capital investment. They only need to invest their time to learn how to use AI.\n\nMost projects will fail but some will succeed.",
+    "author_handle": "@SchitzoDev",
+    "author_name": "SchitzoDev",
+    "created_at": "Tue Jan 06 10:14:31 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "2008767019433218161",
+    "text": "@frankdegods Yea if they let me rip Claude max plan for api calls. Until then it’s useless for me",
+    "author_handle": "@YachtsmanCap",
+    "author_name": "Burdo",
+    "created_at": "Wed Jan 07 05:05:53 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "2008551053202207203",
+    "text": "@frankdegods yep, few are already abusing it.",
+    "author_handle": "@0xRaduan",
+    "author_name": "Raduan Al-Shedivat",
+    "created_at": "Tue Jan 06 14:47:42 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "2008749578636677161",
+    "text": "@frankdegods @grok summarize claude agent sdk",
+    "author_handle": "@duskofoed",
+    "author_name": "Dustin Kofoed",
+    "created_at": "Wed Jan 07 03:56:34 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "2008474403798196677",
+    "text": "@frankdegods agents in general feel like the next wave tbh",
+    "author_handle": "@0xEldorad",
+    "author_name": "Dorad 🥫",
+    "created_at": "Tue Jan 06 09:43:08 +0000 2026",
+    "likes": 3,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "2008528666217914793",
+    "text": "@frankdegods tomato crop",
+    "author_handle": "@sized_in",
+    "author_name": "sized in",
+    "created_at": "Tue Jan 06 13:18:45 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "2008744887068619234",
+    "text": "@frankdegods you are able to use your subscription plan with agent sdk btw",
+    "author_handle": "@marcuscli",
+    "author_name": "MarcusCLI",
+    "created_at": "Wed Jan 07 03:37:56 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "2008473230772986131",
+    "text": "@frankdegods Maybe...",
+    "author_handle": "@artnesh",
+    "author_name": "Artnesh",
+    "created_at": "Tue Jan 06 09:38:28 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "2008473830218489955",
+    "text": "@frankdegods cooking something glorious with it for trading",
+    "author_handle": "@d3nnis",
+    "author_name": "dennis",
+    "created_at": "Tue Jan 06 09:40:51 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "2008470798395203922",
+    "text": "@frankdegods gemini is already cooking something",
+    "author_handle": "@willy_wonka_28",
+    "author_name": "Enenche",
+    "created_at": "Tue Jan 06 09:28:48 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "2008590030626058591",
+    "text": "@frankdegods 🚖",
+    "author_handle": "@AddisonSmi57023",
+    "author_name": "Addison Smith",
+    "created_at": "Tue Jan 06 17:22:35 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "2008588659344503025",
+    "text": "@frankdegods Stfu",
+    "author_handle": "@import_bs58",
+    "author_name": "chad",
+    "created_at": "Tue Jan 06 17:17:08 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "2008470627389501710",
+    "text": "@frankdegods could be the infra layer that flips tools into fully autonomous money printers",
+    "author_handle": "@Psu353",
+    "author_name": "Su🌊",
+    "created_at": "Tue Jan 06 09:28:07 +0000 2026",
+    "likes": 3,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "2008469539118633403",
+    "text": "@frankdegods not sure about that, claude's sdk has been pretty rough in beta so far",
+    "author_handle": "@GLHFbuy",
+    "author_name": "abuy ✳️",
+    "created_at": "Tue Jan 06 09:23:48 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "2008660436846342466",
+    "text": "@frankdegods it's so good. not to mention the fact that it can drink from your max plan usage.",
+    "author_handle": "@AgenticLab1",
+    "author_name": "Agentic Lab",
+    "created_at": "Tue Jan 06 22:02:21 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "1989404216532914584",
+    "text": "Lowest price for USA-made 100% organic cotton shorts\n\n@ATGUSAMade \n\nI hope these inspire someone out there to build closer to home, wherever that is. https://t.co/fwfSPF0VIj",
+    "author_handle": "@kneeovertoesguy",
+    "author_name": "KneeOverToesGuy",
+    "created_at": "Fri Nov 14 18:45:01 +0000 2025",
+    "likes": 1423,
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/1989404088182910976/img/AySf8bRi3JL-K6Pa.jpg"
+      }
+    ]
+  },
+  {
+    "id": "1986467092242067795",
+    "text": "https://t.co/0UA3Uw2tBk",
+    "author_handle": "@jamesrosone",
+    "author_name": "James Rosone - Amazon KDP All-Star Author",
+    "created_at": "Thu Nov 06 16:13:56 +0000 2025",
+    "likes": 45,
+    "media": []
+  },
+  {
+    "id": "2008470391631839623",
+    "text": "@frankdegods Maybe.... Maybe not",
+    "author_handle": "@biggestVector",
+    "author_name": "BigVector",
+    "created_at": "Tue Jan 06 09:27:11 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "2008469106748514341",
+    "text": "@frankdegods looks promising",
+    "author_handle": "@karter_web3",
+    "author_name": "Karter",
+    "created_at": "Tue Jan 06 09:22:05 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  },
+  {
+    "id": "1996231420117688701",
+    "text": "Against all odds. \n\nPolymarket’s U.S app is now being rolled out to those on the waitlist. \n\nWe’re launching with sports — followed by markets on everything. https://t.co/WOoVMszrqc",
+    "author_handle": "@Polymarket",
+    "author_name": "Polymarket",
+    "created_at": "Wed Dec 03 14:53:53 +0000 2025",
+    "likes": 7099,
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/media/G7QIf-9XcAAAPUo.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2008469130416934968",
+    "text": "@frankdegods worth watching",
+    "author_handle": "@Cryptoarena001",
+    "author_name": "Cryptoarena",
+    "created_at": "Tue Jan 06 09:22:10 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008468936300298553",
+    "media": []
+  }
+]

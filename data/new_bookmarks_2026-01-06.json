@@ -1,8 +1,138 @@
 {
-  "fetched_at": "2026-01-07T03:55:44.635Z",
+  "fetched_at": "2026-01-07T06:06:02.740Z",
   "folder": "Claude",
-  "count": 47,
+  "count": 57,
   "tweets": [
+    {
+      "id": "2008578110141190580",
+      "text": "https://t.co/rPdSjVH7ky",
+      "author": "godofprompt",
+      "author_name": "God of Prompt",
+      "author_id": "1643695629665722379",
+      "created_at": "Tue Jan 06 16:35:13 +0000 2026",
+      "likes": 571,
+      "retweets": 57,
+      "replies": 12,
+      "quotes": 6,
+      "bookmark_count": 1424
+    },
+    {
+      "id": "2008468936300298553",
+      "text": "ngl claude agent sdk might spawn a whole crop of new unicorns",
+      "author": "frankdegods",
+      "author_name": "Frank",
+      "author_id": "1441835930889818113",
+      "created_at": "Tue Jan 06 09:21:24 +0000 2026",
+      "likes": 387,
+      "retweets": 8,
+      "replies": 50,
+      "quotes": 10,
+      "bookmark_count": 148
+    },
+    {
+      "id": "2008482197557104870",
+      "text": "Claude Code with infinite memory is now possible.\n\nClaude-Mem is a free plugin to persist memory across Claude sessions.\n\n- Up to 95% fewer tokens per session.\n- 20× more tool calls before context limits.\n\n100% open-source. https://t.co/oB4mCRMGBX",
+      "author": "simplifyinAI",
+      "author_name": "Simplifying AI",
+      "author_id": "1963821944668876800",
+      "created_at": "Tue Jan 06 10:14:06 +0000 2026",
+      "likes": 1177,
+      "retweets": 99,
+      "replies": 33,
+      "quotes": 10,
+      "bookmark_count": 1580
+    },
+    {
+      "id": "2008414283969810676",
+      "text": "This isn't an overstatement. It's not an attempt to create hype. If you don't see it yet, you will.\n\n(This post isn't about all LLMs. It's specifically about Claude Code with Opus 4.5. There was software development before Claude Code with Opus 4.5, and there is software",
+      "author": "burkov",
+      "author_name": "BURKOV",
+      "author_id": "47126544",
+      "created_at": "Tue Jan 06 05:44:14 +0000 2026",
+      "likes": 242,
+      "retweets": 25,
+      "replies": 23,
+      "quotes": 1,
+      "bookmark_count": 125
+    },
+    {
+      "id": "2008638577308291424",
+      "text": "rip conductor. claude desktop with worktree-first workflow is out.",
+      "author": "banteg",
+      "author_name": "banteg",
+      "author_id": "108172903",
+      "created_at": "Tue Jan 06 20:35:30 +0000 2026",
+      "likes": 265,
+      "retweets": 7,
+      "replies": 21,
+      "quotes": 0,
+      "bookmark_count": 227
+    },
+    {
+      "id": "2008628739572134270",
+      "text": "Docs here: https://t.co/vzjRiNWaG3\n\nS/o @amorriscode and @alicelovescake1 who built this!",
+      "author": "_catwu",
+      "author_name": "cat",
+      "author_id": "974757274206978049",
+      "created_at": "Tue Jan 06 19:56:24 +0000 2026",
+      "likes": 242,
+      "retweets": 15,
+      "replies": 19,
+      "quotes": 6,
+      "bookmark_count": 246
+    },
+    {
+      "id": "2008693098499764574",
+      "text": "如果你也在用Claude做知识管理，尤其是搭配obsidian\n\n一定不要错过这个\n\nOB 的 CEO 罗列了几乎所有优质的\nskills 帮助你更好的使用 Obsidian 进行知识管理\n\n神器，秒杀所有 AI 笔记\n\nhttps://t.co/KabADTPGzZ",
+      "author": "Jackywine",
+      "author_name": "Jackywine",
+      "author_id": "1404738934043602947",
+      "created_at": "Wed Jan 07 00:12:09 +0000 2026",
+      "likes": 234,
+      "retweets": 36,
+      "replies": 5,
+      "quotes": 0,
+      "bookmark_count": 271
+    },
+    {
+      "id": "2008344076773413357",
+      "text": "Opus 4.5 + Ralph Wiggum with XcodeBuild and playwright is going to mint millionaires.\n\nMark my words.\n\nYou’re not ready",
+      "author": "hunterhammonds",
+      "author_name": "Hunter Hammonds",
+      "author_id": "404500321",
+      "created_at": "Tue Jan 06 01:05:15 +0000 2026",
+      "likes": 1645,
+      "retweets": 51,
+      "replies": 51,
+      "quotes": 4,
+      "bookmark_count": 2757
+    },
+    {
+      "id": "2008625420741341355",
+      "text": "So apparently @GeoffreyHuntley's Ralph Wiggum technique (and our Claude Code plugin for it) went a little viral over the holidays? I thought I'd share a typical prompt I use with it. All of the instructional videos I've seen don't give thorough enough completion promises, IMHO https://t.co/q6BsobYaUF",
+      "author": "The_Whole_Daisy",
+      "author_name": "Daisy Hollman",
+      "author_id": "553205436",
+      "created_at": "Tue Jan 06 19:43:13 +0000 2026",
+      "likes": 339,
+      "retweets": 25,
+      "replies": 11,
+      "quotes": 4,
+      "bookmark_count": 572
+    },
+    {
+      "id": "2008661231909913002",
+      "text": "HUGE update to Claude Code today. You can now access Claude Code and your local files via the Claude Desktop app. No more terminal window!\n\nSimply open the desktop app, select Code and press the install button.  Thereafter, just select your folder and away you go. https://t.co/YM9m59KDym",
+      "author": "koltregaskes",
+      "author_name": "Kol Tregaskes",
+      "author_id": "14069848",
+      "created_at": "Tue Jan 06 22:05:31 +0000 2026",
+      "likes": 597,
+      "retweets": 26,
+      "replies": 37,
+      "quotes": 12,
+      "bookmark_count": 334
+    },
     {
       "id": "2008540426077344038",
       "text": "Worried about Ralph rimraf-ing your home directory?\n\ndocker sandbox run claude\n\nRuns Claude in a dockerized sandbox in the current directory.",
@@ -10,11 +140,11 @@
       "author_name": "Matt Pocock",
       "author_id": "346640777",
       "created_at": "Tue Jan 06 14:05:29 +0000 2026",
-      "likes": 844,
-      "retweets": 21,
-      "replies": 33,
+      "likes": 881,
+      "retweets": 23,
+      "replies": 35,
       "quotes": 7,
-      "bookmark_count": 816
+      "bookmark_count": 857
     },
     {
       "id": "2008237335830556916",
@@ -49,11 +179,11 @@
       "author_name": "Ado",
       "author_id": "440609049",
       "created_at": "Mon Jan 05 17:27:01 +0000 2026",
-      "likes": 918,
-      "retweets": 69,
+      "likes": 923,
+      "retweets": 70,
       "replies": 40,
       "quotes": 3,
-      "bookmark_count": 1074
+      "bookmark_count": 1087
     },
     {
       "id": "2008306060193370509",
@@ -62,11 +192,11 @@
       "author_name": "Cory House",
       "author_id": "19268321",
       "created_at": "Mon Jan 05 22:34:11 +0000 2026",
-      "likes": 603,
+      "likes": 606,
       "retweets": 27,
       "replies": 34,
       "quotes": 5,
-      "bookmark_count": 821
+      "bookmark_count": 824
     },
     {
       "id": "2008200878633931247",
@@ -75,11 +205,11 @@
       "author_name": "Matt Pocock",
       "author_id": "346640777",
       "created_at": "Mon Jan 05 15:36:14 +0000 2026",
-      "likes": 3607,
-      "retweets": 250,
-      "replies": 163,
+      "likes": 3671,
+      "retweets": 258,
+      "replies": 166,
       "quotes": 60,
-      "bookmark_count": 7179
+      "bookmark_count": 7302
     },
     {
       "id": "2008161724902355118",
@@ -88,11 +218,11 @@
       "author_name": "Lior Alexander",
       "author_id": "931470139",
       "created_at": "Mon Jan 05 13:00:39 +0000 2026",
-      "likes": 3222,
-      "retweets": 322,
-      "replies": 90,
+      "likes": 3256,
+      "retweets": 327,
+      "replies": 92,
       "quotes": 28,
-      "bookmark_count": 4438
+      "bookmark_count": 4495
     },
     {
       "id": "2008038811616555394",
@@ -101,11 +231,11 @@
       "author_name": "Geek",
       "author_id": "168139512",
       "created_at": "Mon Jan 05 04:52:14 +0000 2026",
-      "likes": 778,
+      "likes": 780,
       "retweets": 134,
-      "replies": 14,
+      "replies": 15,
       "quotes": 7,
-      "bookmark_count": 1120
+      "bookmark_count": 1124
     },
     {
       "id": "2001035072116547595",
@@ -128,10 +258,10 @@
       "author_id": "6690032",
       "created_at": "Sat Jan 03 08:41:43 +0000 2026",
       "likes": 595,
-      "retweets": 101,
-      "replies": 29,
+      "retweets": 102,
+      "replies": 30,
       "quotes": 5,
-      "bookmark_count": 955
+      "bookmark_count": 954
     },
     {
       "id": "2007849823756575084",
@@ -167,10 +297,10 @@
       "author_id": "1378756322041196552",
       "created_at": "Sat Jan 03 18:00:08 +0000 2026",
       "likes": 9288,
-      "retweets": 672,
-      "replies": 174,
+      "retweets": 671,
+      "replies": 175,
       "quotes": 25,
-      "bookmark_count": 12061
+      "bookmark_count": 12066
     },
     {
       "id": "2007579355762045121",
@@ -179,7 +309,7 @@
       "author_name": "Jarrod Watts",
       "author_id": "1366011468911497216",
       "created_at": "Sat Jan 03 22:26:32 +0000 2026",
-      "likes": 2749,
+      "likes": 2750,
       "retweets": 185,
       "replies": 97,
       "quotes": 23,
@@ -257,11 +387,11 @@
       "author_name": "Frank",
       "author_id": "1441835930889818113",
       "created_at": "Fri Jan 02 21:17:04 +0000 2026",
-      "likes": 5261,
+      "likes": 5265,
       "retweets": 177,
       "replies": 517,
-      "quotes": 79,
-      "bookmark_count": 4868
+      "quotes": 80,
+      "bookmark_count": 4870
     },
     {
       "id": "2007345333848678783",
@@ -283,11 +413,11 @@
       "author_name": "kepano",
       "author_id": "5778712",
       "created_at": "Fri Jan 02 22:53:15 +0000 2026",
-      "likes": 4315,
+      "likes": 4325,
       "retweets": 297,
       "replies": 363,
       "quotes": 75,
-      "bookmark_count": 7377
+      "bookmark_count": 7392
     },
     {
       "id": "2007151926614593739",
@@ -309,11 +439,11 @@
       "author_name": "Boris Cherny",
       "author_id": "159337660",
       "created_at": "Fri Jan 02 19:58:58 +0000 2026",
-      "likes": 48592,
-      "retweets": 6032,
-      "replies": 1154,
-      "quotes": 1071,
-      "bookmark_count": 92102
+      "likes": 48736,
+      "retweets": 6059,
+      "replies": 1157,
+      "quotes": 1080,
+      "bookmark_count": 92392
     },
     {
       "id": "2007188826226340167",
@@ -404,7 +534,7 @@
       "retweets": 10,
       "replies": 9,
       "quotes": 3,
-      "bookmark_count": 610
+      "bookmark_count": 611
     },
     {
       "id": "2006377570485543329",
@@ -495,7 +625,7 @@
       "retweets": 79,
       "replies": 368,
       "quotes": 35,
-      "bookmark_count": 2917
+      "bookmark_count": 2918
     },
     {
       "id": "2004599760179921392",
@@ -543,11 +673,11 @@
       "author_name": "Thariq",
       "author_id": "352806502",
       "created_at": "Sun Dec 28 16:29:54 +0000 2025",
-      "likes": 996,
+      "likes": 997,
       "retweets": 34,
       "replies": 54,
       "quotes": 17,
-      "bookmark_count": 1713
+      "bookmark_count": 1717
     },
     {
       "id": "2005396092532498796",
@@ -582,11 +712,11 @@
       "author_name": "sankalp",
       "author_id": "1446445479068241923",
       "created_at": "Sun Dec 28 14:33:10 +0000 2025",
-      "likes": 9331,
+      "likes": 9333,
       "retweets": 835,
       "replies": 150,
       "quotes": 77,
-      "bookmark_count": 19358
+      "bookmark_count": 19362
     },
     {
       "id": "2004977723429847380",

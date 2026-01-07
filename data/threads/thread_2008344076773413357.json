@@ -1,0 +1,587 @@
+[
+  {
+    "id": "2008344076773413357",
+    "author_handle": "@hunterhammonds",
+    "text": "Opus 4.5 + Ralph Wiggum with XcodeBuild and playwright is goated"
+  },
+  {
+    "id": "2008500813212381507",
+    "text": "Xcodebuildmcp: adds playwright like features to your swift projects.\n\nplaywright for the web.\n\nThey create an autonomous loop. Agent makes changes, opens them, screenshots, gives itself feedback, iterates.\n\nXcodebuildMCP below! https://t.co/CFEHiDjAxJ",
+    "author_handle": "@hunterhammonds",
+    "author_name": "Hunter Hammonds",
+    "created_at": "Tue Jan 06 11:28:04 +0000 2026",
+    "likes": 86,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008500982343475678",
+    "text": "I'll find time to make a tutorial on this",
+    "author_handle": "@hunterhammonds",
+    "author_name": "Hunter Hammonds",
+    "created_at": "Tue Jan 06 11:28:44 +0000 2026",
+    "likes": 24,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008509087118749763",
+    "text": "@hunterhammonds May I suggest \nhttps://t.co/i6WGRbmw3v\n\nit controls iPhone Simulator way faster, since it's using OCR tooling, to process screens, not just accessibility tree.",
+    "author_handle": "@nedim0x01",
+    "author_name": "Nedim",
+    "created_at": "Tue Jan 06 12:00:57 +0000 2026",
+    "likes": 52,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008520300439523344",
+    "text": "@nedim0x01 On my list to explore!",
+    "author_handle": "@hunterhammonds",
+    "author_name": "Hunter Hammonds",
+    "created_at": "Tue Jan 06 12:45:30 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2008509087118749763",
+    "media": []
+  },
+  {
+    "id": "2008501538814390327",
+    "text": "@hunterhammonds Well… it doesn’t need screenshots to see… if we console.log/print everything :)",
+    "author_handle": "@clementnaous",
+    "author_name": "Clément",
+    "created_at": "Tue Jan 06 11:30:57 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008502521036468324",
+    "text": "@clementnaous See how far that gets you for UI 😉",
+    "author_handle": "@hunterhammonds",
+    "author_name": "Hunter Hammonds",
+    "created_at": "Tue Jan 06 11:34:51 +0000 2026",
+    "likes": 4,
+    "is_reply_to": "2008501538814390327",
+    "media": []
+  },
+  {
+    "id": "2008594706582704408",
+    "text": "The lowest-cost GPU rentals in the world.",
+    "author_handle": "@Salad_Chefs",
+    "author_name": "Salad",
+    "created_at": "Tue Jan 06 17:41:10 +0000 2026",
+    "likes": 10,
+    "media": []
+  },
+  {
+    "id": "2008371754226307386",
+    "text": "@hunterhammonds xcodebuild builds to a sim no? How would claude run tests with playright on the sim? I supposed you just give claude permissions to use the sim in an agent call?",
+    "author_handle": "@CadenBurleson",
+    "author_name": "Caden Burleson",
+    "created_at": "Tue Jan 06 02:55:14 +0000 2026",
+    "likes": 4,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008375269438947755",
+    "text": "@CadenBurleson Different use cases. XcodeBuild for Mac/ios. Pw for web.\n\nThough there’s a screenshot loop in XCB",
+    "author_handle": "@hunterhammonds",
+    "author_name": "Hunter Hammonds",
+    "created_at": "Tue Jan 06 03:09:12 +0000 2026",
+    "likes": 9,
+    "is_reply_to": "2008371754226307386",
+    "media": []
+  },
+  {
+    "id": "2008506810639282292",
+    "text": "@hunterhammonds I heard it's AGI! 😅",
+    "author_handle": "@ibraheemmsaady",
+    "author_name": "Ibra Saadi 🔍",
+    "created_at": "Tue Jan 06 11:51:54 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008520374120812580",
+    "text": "@ibraheemmsaady close enough",
+    "author_handle": "@hunterhammonds",
+    "author_name": "Hunter Hammonds",
+    "created_at": "Tue Jan 06 12:45:48 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008506810639282292",
+    "media": []
+  },
+  {
+    "id": "2008496877671723235",
+    "text": "@hunterhammonds What is XcodeBuild? 🤔",
+    "author_handle": "@koltregaskes",
+    "author_name": "Kol Tregaskes",
+    "created_at": "Tue Jan 06 11:12:26 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008456333406638453",
+    "text": "@hunterhammonds 100% agree with playwright",
+    "author_handle": "@tadasgedgaudas",
+    "author_name": "TadasG 💻",
+    "created_at": "Tue Jan 06 08:31:19 +0000 2026",
+    "likes": 3,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008628951715823903",
+    "text": "@hunterhammonds The trifecta ✨",
+    "author_handle": "@morganlinton",
+    "author_name": "Morgan",
+    "created_at": "Tue Jan 06 19:57:15 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008735888386519352",
+    "text": "@hunterhammonds Yes I am wtf",
+    "author_handle": "@queenwartooth",
+    "author_name": "queenwartooth (🌎,💻)",
+    "created_at": "Wed Jan 07 03:02:10 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008745610040729865",
+    "text": "@hunterhammonds i agree 😎",
+    "author_handle": "@GeoffreyHuntley",
+    "author_name": "geoff",
+    "created_at": "Wed Jan 07 03:40:48 +0000 2026",
+    "likes": 4,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008491542986846399",
+    "text": "@hunterhammonds Team playwright but need to test out xcode",
+    "author_handle": "@RkBench",
+    "author_name": "Bench ®",
+    "created_at": "Tue Jan 06 10:51:14 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008628779204186599",
+    "text": "@hunterhammonds isn't it just a bash loop? ;)",
+    "author_handle": "@SaidAitmbarek",
+    "author_name": "Saïd Aitmbarek",
+    "created_at": "Tue Jan 06 19:56:34 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008452349564465462",
+    "text": "@hunterhammonds let's get the bread",
+    "author_handle": "@jesse_vermeulen",
+    "author_name": "Jesse",
+    "created_at": "Tue Jan 06 08:15:30 +0000 2026",
+    "likes": 3,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008768177262530865",
+    "text": "@hunterhammonds @grok in English please",
+    "author_handle": "@MatSposta",
+    "author_name": "Sposta",
+    "created_at": "Wed Jan 07 05:10:29 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008652258519773300",
+    "text": "@hunterhammonds I've already got direct access to xcodebuild via Bash through permissions. What am I missing? I can\n  - Build projects (xcodebuild)\n  - Manage simulators (xcrun simctl)\n  - Run tests\n  - Archive/export apps",
+    "author_handle": "@bradwrage",
+    "author_name": "Brad Wrage",
+    "created_at": "Tue Jan 06 21:29:52 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008490728012554508",
+    "text": "@hunterhammonds Interesting",
+    "author_handle": "@samuelekpe",
+    "author_name": "Samuel Ekpe",
+    "created_at": "Tue Jan 06 10:48:00 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008768241544339928",
+    "text": "@hunterhammonds @grok what’s the XcodeBuild thing",
+    "author_handle": "@herogamer21btc",
+    "author_name": "HeroGamer21.btc⚡",
+    "created_at": "Wed Jan 07 05:10:44 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008645915180159077",
+    "text": "@hunterhammonds ruby agent + action schema + orchestrator + system prompts + loop = this is the way 👌",
+    "author_handle": "@LLcryptoJ",
+    "author_name": "🥷🇵🇸",
+    "created_at": "Tue Jan 06 21:04:39 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008406672579166256",
+    "text": "@hunterhammonds How long have you kept it running to build?",
+    "author_handle": "@_buggles",
+    "author_name": "buggles",
+    "created_at": "Tue Jan 06 05:13:59 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008494581470687666",
+    "text": "@hunterhammonds did you give this one a try ? https://t.co/ulYYz0WHj2",
+    "author_handle": "@Greg__LD",
+    "author_name": "Greg_Ld",
+    "created_at": "Tue Jan 06 11:03:18 +0000 2026",
+    "likes": 5,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008465864715108670",
+    "text": "@hunterhammonds Would opus be able to navigate the app with XCB?",
+    "author_handle": "@henno_4e",
+    "author_name": "Henno",
+    "created_at": "Tue Jan 06 09:09:12 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008637937076805979",
+    "text": "@hunterhammonds Hey @grok can you mark his words?",
+    "author_handle": "@SexyTechNews",
+    "author_name": "Advanced Super Intelligence",
+    "created_at": "Tue Jan 06 20:32:57 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008588070531240337",
+    "text": "@hunterhammonds Why this particular combination?",
+    "author_handle": "@nuvolore",
+    "author_name": "Lorenzo Nuvoletta",
+    "created_at": "Tue Jan 06 17:14:48 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2000571962918412776",
+    "text": "RT @navi_Ai2: Stepping into a world where dark fantasy meets timeless elegance.Every detail from the crown to the glow of the forbidden fru…",
+    "author_handle": "@freepik",
+    "author_name": "Freepik",
+    "created_at": "Mon Dec 15 14:21:39 +0000 2025",
+    "likes": 0,
+    "media": []
+  },
+  {
+    "id": "2008706576782422346",
+    "text": "@hunterhammonds https://t.co/ODUJyC1wS8 - built with opus, playwright, running parallel on multiple mac minis. Unstoppable force of nature",
+    "author_handle": "@kevin_badii",
+    "author_name": "Kev | A.I Saas",
+    "created_at": "Wed Jan 07 01:05:42 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008479959103533278",
+    "text": "@hunterhammonds Why?",
+    "author_handle": "@crawfax",
+    "author_name": "Crawfax",
+    "created_at": "Tue Jan 06 10:05:12 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008484118573818167",
+    "text": "@hunterhammonds who's ralph wigger?",
+    "author_handle": "@franzstupar",
+    "author_name": "Franz Stupar",
+    "created_at": "Tue Jan 06 10:21:44 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008575744616919357",
+    "text": "@hunterhammonds You run it loose? What about pricing…",
+    "author_handle": "@razlevio",
+    "author_name": "Raz Levi",
+    "created_at": "Tue Jan 06 16:25:49 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008613478702161996",
+    "text": "@hunterhammonds are you?",
+    "author_handle": "@nikolasbarwicki",
+    "author_name": "Nikolas ⚡️",
+    "created_at": "Tue Jan 06 18:55:46 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008323167169749332",
+    "text": "Your AI coding tool is lying to you about what it can handle.",
+    "author_handle": "@BuildWithBrokk",
+    "author_name": "Brokk, Inc.",
+    "created_at": "Mon Jan 05 23:42:10 +0000 2026",
+    "likes": 8,
+    "media": []
+  },
+  {
+    "id": "2006270076669075871",
+    "text": "Introducing Oxytocin Calming Cream, the newest medical innovation from Maximus. Powered by breakthrough absorption technology, Oxytocin Calming Cream is clinically proven to reduce stress, promote deeper sleep, and improve your mood. Lasting benefits and no next-day fog.",
+    "author_handle": "@MaximusTribe",
+    "author_name": "Maximus",
+    "created_at": "Wed Dec 31 07:43:55 +0000 2025",
+    "likes": 31,
+    "media": []
+  },
+  {
+    "id": "2008473219582558263",
+    "text": "@hunterhammonds this!",
+    "author_handle": "@PodobnikLovro",
+    "author_name": "Lovro",
+    "created_at": "Tue Jan 06 09:38:25 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008505388799586725",
+    "text": "@hunterhammonds Cringe",
+    "author_handle": "@Poofarmer69",
+    "author_name": "Fjärt",
+    "created_at": "Tue Jan 06 11:46:15 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008729804074520663",
+    "text": "@hunterhammonds 1000%",
+    "author_handle": "@BradLedford",
+    "author_name": "Brad Ledford",
+    "created_at": "Wed Jan 07 02:38:00 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008559944166199426",
+    "text": "@hunterhammonds Bold take tools don’t mint millions, execution does.",
+    "author_handle": "@MuhammadWani_AI",
+    "author_name": "Muhammad Wani",
+    "created_at": "Tue Jan 06 15:23:02 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008464390371373286",
+    "text": "@hunterhammonds can i only use ralph in claude code or does it work in @droid as well??\n\nwould love to give it a crack but only seen info for claude code",
+    "author_handle": "@brendenvonhouse",
+    "author_name": "BH",
+    "created_at": "Tue Jan 06 09:03:20 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008367667510735079",
+    "text": "The Optimal Protein for Your Optimal Form. \n\nDavid delivers the most protein for the fewest calories. With 28g of protein, 150 calories, and 0g of sugar, David is where discipline meets indulgence. \n\nBuy 4 cartons on our site, and get the 5th free.",
+    "author_handle": "@david_protein",
+    "author_name": "David Protein",
+    "created_at": "Tue Jan 06 02:39:00 +0000 2026",
+    "likes": 18,
+    "media": []
+  },
+  {
+    "id": "2008491244188795055",
+    "text": "@hunterhammonds don't leak it bro https://t.co/YkY1V6VWT8",
+    "author_handle": "@_TUNK",
+    "author_name": "TUNK",
+    "created_at": "Tue Jan 06 10:50:03 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008344076773413357",
+    "media": [
+      {
+        "type": "animated_gif",
+        "url": "https://pbs.twimg.com/tweet_video_thumb/G9-YIxqX0AAuw-E.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2008591075200659503",
+    "text": "@hunterhammonds oh yes I am.",
+    "author_handle": "@mumpquant",
+    "author_name": "mump",
+    "created_at": "Tue Jan 06 17:26:44 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008529775942619612",
+    "text": "@hunterhammonds Ok what’s the combo for windows? I guess we don’t have xcode build on windows..",
+    "author_handle": "@shanto12",
+    "author_name": "NSOG",
+    "created_at": "Tue Jan 06 13:23:09 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008565003339919691",
+    "text": "@hunterhammonds interesting take. the combination is certainly powerful, but execution and timing will ultimately decide who benefits most.",
+    "author_handle": "@sridharfyi",
+    "author_name": "Sridhar A",
+    "created_at": "Tue Jan 06 15:43:08 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008527104334590359",
+    "text": "@hunterhammonds Nothing including swift, xcode or exclusive apple ecosystem works mint many millionaires anymore, unfortunately.",
+    "author_handle": "@thedenizozcan",
+    "author_name": "Deniz Özcan",
+    "created_at": "Tue Jan 06 13:12:32 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008484130510541194",
+    "text": "@hunterhammonds How does playwright see the ios app though?",
+    "author_handle": "@jessems",
+    "author_name": "jessems",
+    "created_at": "Tue Jan 06 10:21:47 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008579070154690851",
+    "text": "@hunterhammonds as a vibe coder with 0% background, which tasks would require a forever ralph loop?",
+    "author_handle": "@angelikofrangou",
+    "author_name": "Angeliko Frangou",
+    "created_at": "Tue Jan 06 16:39:02 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008576385808478670",
+    "text": "@hunterhammonds do it",
+    "author_handle": "@tomtomtom1776",
+    "author_name": "tom tom",
+    "created_at": "Tue Jan 06 16:28:22 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008597114025373888",
+    "text": "@hunterhammonds nah.",
+    "author_handle": "@sinnformer",
+    "author_name": "·",
+    "created_at": "Tue Jan 06 17:50:44 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008713565973397595",
+    "text": "@hunterhammonds what is this Ralph Wiggum thing; ok looking",
+    "author_handle": "@DarylAntony",
+    "author_name": "Daryl Antony",
+    "created_at": "Wed Jan 07 01:33:28 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008536448405012643",
+    "text": "@hunterhammonds Lmao so baity",
+    "author_handle": "@SumeruChat",
+    "author_name": "Samy Zee",
+    "created_at": "Tue Jan 06 13:49:40 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008640166345535688",
+    "text": "@hunterhammonds why is my algorithm guilt-tripping me every day..",
+    "author_handle": "@StonesLostValue",
+    "author_name": "꧁Rónán꧂",
+    "created_at": "Tue Jan 06 20:41:49 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008731372459110504",
+    "text": "@hunterhammonds browser mcp are janky af and we are still missing a ton of contextwindow for this to really be vaiable",
+    "author_handle": "@deafsquad",
+    "author_name": "ShitGPT aka Hackmett",
+    "created_at": "Wed Jan 07 02:44:14 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008535052041572612",
+    "text": "@hunterhammonds Tools alone aren’t enough; execution and strategy will separate the winners.",
+    "author_handle": "@shehzaib_b",
+    "author_name": "Muhammad Shehzaib",
+    "created_at": "Tue Jan 06 13:44:07 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  },
+  {
+    "id": "2008676139301253232",
+    "text": "@hunterhammonds Mark, MY WORDS! Trololololol 🏃‍♀️💨🤣",
+    "author_handle": "@VaidikaAvaidika",
+    "author_name": "Nina & Henry Ledwinka",
+    "created_at": "Tue Jan 06 23:04:45 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008344076773413357",
+    "media": []
+  }
+]

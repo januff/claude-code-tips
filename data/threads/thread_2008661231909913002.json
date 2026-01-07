@@ -1,0 +1,329 @@
+[
+  {
+    "id": "2008661231909913002",
+    "author_handle": "@koltregaskes",
+    "text": "HUGE update to Claude Code today"
+  },
+  {
+    "id": "2008756061101232620",
+    "text": "@koltregaskes This has been around for a while. I’ve been accessing CC and local files via the desktop app for the past month. \n\nDesktop app burns tokens from your non-code account. I’ve found having the desktop CC generate prompts that I paste into the Terminal helps the tokens last longer",
+    "author_handle": "@RickBakas",
+    "author_name": "Rick Bakas",
+    "created_at": "Wed Jan 07 04:22:20 +0000 2026",
+    "likes": 16,
+    "is_reply_to": "2008661231909913002"
+  },
+  {
+    "id": "2008762361771889048",
+    "text": "@koltregaskes this isn't new but it is great. i do wish it let you create tabs tho",
+    "author_handle": "@cxgonzalez",
+    "author_name": "christian",
+    "created_at": "Wed Jan 07 04:47:22 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2008661231909913002"
+  },
+  {
+    "id": "2008751669279158710",
+    "text": "@koltregaskes Oh thank goodness. Forcing a single repo experience on desktop felt limiting",
+    "author_handle": "@Shannoncode",
+    "author_name": "Shannon Code",
+    "created_at": "Wed Jan 07 04:04:53 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2008661231909913002"
+  },
+  {
+    "id": "2004462187231035878",
+    "text": "Our New Year’s Sale Is On \n\nUP TO 50% OFF EVERYTHING",
+    "author_handle": "@TheXChair",
+    "author_name": "X-Chair",
+    "created_at": "Fri Dec 26 08:00:01 +0000 2025",
+    "likes": 20
+  },
+  {
+    "id": "2008754195734949913",
+    "text": "@koltregaskes Huge news for GitHub desktop users",
+    "author_handle": "@leylndd",
+    "author_name": "leyland",
+    "created_at": "Wed Jan 07 04:14:55 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2008661231909913002"
+  },
+  {
+    "id": "2008771078403883298",
+    "text": "@koltregaskes I did this today not even knowing it was a new release! Thanks!",
+    "author_handle": "@Darbybailey",
+    "author_name": "Darby Bailey, Ph.D. 🖍️💫",
+    "created_at": "Wed Jan 07 05:22:00 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008661231909913002"
+  },
+  {
+    "id": "2008766829737439529",
+    "text": "@koltregaskes meanwhile https://t.co/L5PXuqnVW0",
+    "author_handle": "@al_from_koii",
+    "author_name": "al 🎏 🔥",
+    "created_at": "Wed Jan 07 05:05:07 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2008661231909913002"
+  },
+  {
+    "id": "2008771187028226440",
+    "text": "@koltregaskes we launched this at the end of last year 😅",
+    "author_handle": "@amorriscode",
+    "author_name": "Anthony Morris ツ",
+    "created_at": "Wed Jan 07 05:22:26 +0000 2026",
+    "likes": 6,
+    "is_reply_to": "2008661231909913002"
+  },
+  {
+    "id": "2008756296259170307",
+    "text": "@koltregaskes has been around for  a while\n\nhttps://t.co/YQzgcEVBU0",
+    "author_handle": "@amirmxt",
+    "author_name": "amirmxt",
+    "created_at": "Wed Jan 07 04:23:16 +0000 2026",
+    "likes": 3,
+    "is_reply_to": "2008661231909913002"
+  },
+  {
+    "id": "2008767751574462608",
+    "text": "@koltregaskes but terminal is so fun",
+    "author_handle": "@billyrestey",
+    "author_name": "billy restey",
+    "created_at": "Wed Jan 07 05:08:47 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008661231909913002"
+  },
+  {
+    "id": "2008767722340155547",
+    "text": "@koltregaskes i feel like ive been using that since last week am i crazy now",
+    "author_handle": "@hexeosis",
+    "author_name": "hexeosis ⬢⬢⬢⬢⬢⬢",
+    "created_at": "Wed Jan 07 05:08:40 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008661231909913002"
+  },
+  {
+    "id": "2008674516256665630",
+    "text": "@koltregaskes i dunno, i love my terminal window. don’t think i’ll ever go back to gui honestly.",
+    "author_handle": "@EddieBe",
+    "author_name": "Eddie₿e",
+    "created_at": "Tue Jan 06 22:58:18 +0000 2026",
+    "likes": 8,
+    "is_reply_to": "2008661231909913002"
+  },
+  {
+    "id": "2008748842548949066",
+    "text": "@koltregaskes No tui, NGMI.",
+    "author_handle": "@ejc3",
+    "author_name": "EJ Campbell",
+    "created_at": "Wed Jan 07 03:53:39 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2008661231909913002"
+  },
+  {
+    "id": "2008769157681344739",
+    "text": "@koltregaskes I’ve been doing this for over a week",
+    "author_handle": "@ben3bil",
+    "author_name": "BΞN",
+    "created_at": "Wed Jan 07 05:14:22 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008661231909913002"
+  },
+  {
+    "id": "2008751303741296878",
+    "text": "@koltregaskes How is this different from what we’ve had for quite some time?",
+    "author_handle": "@E__Strobel",
+    "author_name": "E__Strobel",
+    "created_at": "Wed Jan 07 04:03:26 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008661231909913002"
+  },
+  {
+    "id": "2008664272868700178",
+    "text": "@koltregaskes Love that 🔥",
+    "author_handle": "@antonpme",
+    "author_name": "Anton P. 👽",
+    "created_at": "Tue Jan 06 22:17:36 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008661231909913002"
+  },
+  {
+    "id": "2008775491734696348",
+    "text": "@koltregaskes This is huge. Removing the terminal friction is going to pull in a lot more people.",
+    "author_handle": "@AIwithMJ",
+    "author_name": "Mritunjay | AIwithMJ",
+    "created_at": "Wed Jan 07 05:39:33 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2008661231909913002"
+  },
+  {
+    "id": "2008740937233764708",
+    "text": "@koltregaskes It's been available for a bit. Anthropic team is pushing a lot of basics and reminders likely because of the Karpathy induced surge.",
+    "author_handle": "@CEOAlexColon",
+    "author_name": "Alex Colon",
+    "created_at": "Wed Jan 07 03:22:14 +0000 2026",
+    "likes": 3,
+    "is_reply_to": "2008661231909913002"
+  },
+  {
+    "id": "2008758113436844290",
+    "text": "@koltregaskes Jealous! I haven't gotten the update. Pressed update a few times lol",
+    "author_handle": "@arnabing",
+    "author_name": "Arnab",
+    "created_at": "Wed Jan 07 04:30:29 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008661231909913002"
+  },
+  {
+    "id": "2008757239008592006",
+    "text": "@koltregaskes Come on man this is very old news",
+    "author_handle": "@Truthseeker0972",
+    "author_name": "Truthseeker",
+    "created_at": "Wed Jan 07 04:27:01 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2008661231909913002"
+  },
+  {
+    "id": "2008751914184556625",
+    "text": "@koltregaskes Claude overlords plz let me use the iOS Claude app to run Claude Code locally on my Mac app plz 🙏",
+    "author_handle": "@ArvinMadhi",
+    "author_name": "Arvin M",
+    "created_at": "Wed Jan 07 04:05:51 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2008661231909913002"
+  },
+  {
+    "id": "2008776196407128422",
+    "text": "@koltregaskes Smartwatch version when?",
+    "author_handle": "@TruthtideTV",
+    "author_name": "TruthtideTV",
+    "created_at": "Wed Jan 07 05:42:21 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008661231909913002"
+  },
+  {
+    "id": "2008769821140484437",
+    "text": "@koltregaskes turning into opencode",
+    "author_handle": "@nickleefly",
+    "author_name": "Nick",
+    "created_at": "Wed Jan 07 05:17:01 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008661231909913002"
+  },
+  {
+    "id": "2008754711776948316",
+    "text": "@koltregaskes I love my terminal, gives good vibes",
+    "author_handle": "@ArthSingh0204",
+    "author_name": "Arth Singh",
+    "created_at": "Wed Jan 07 04:16:58 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008661231909913002"
+  },
+  {
+    "id": "2002511962446709031",
+    "text": "Get term life insurance 100% online in as little as 10 min. No medical exam. Just answer health questions online.",
+    "author_handle": "@get_Ethos",
+    "author_name": "Ethos",
+    "created_at": "Sat Dec 20 22:50:31 +0000 2025",
+    "likes": 534
+  },
+  {
+    "id": "2008767601766183107",
+    "text": "@koltregaskes Memes spread faster than press releases.\n\nCulture eats marketing.\n\nAttention is distribution now.",
+    "author_handle": "@AbdMuizAdeyemo",
+    "author_name": "Abdulmuiz Adeyemo",
+    "created_at": "Wed Jan 07 05:08:12 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008661231909913002"
+  },
+  {
+    "id": "2008772591407030294",
+    "text": "@koltregaskes So instead of typing cd you can click a button",
+    "author_handle": "@jeffmurphyyy",
+    "author_name": "jeff murphy",
+    "created_at": "Wed Jan 07 05:28:01 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008661231909913002"
+  },
+  {
+    "id": "2008778013354455293",
+    "text": "@koltregaskes local claude code bout to expose how messy my folders really are",
+    "author_handle": "@askcodi",
+    "author_name": "Shreyans Bhansali",
+    "created_at": "Wed Jan 07 05:49:34 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008661231909913002"
+  },
+  {
+    "id": "2008767029247942834",
+    "text": "@koltregaskes Will this work on my phone?",
+    "author_handle": "@TheAllSeeingDyl",
+    "author_name": "Dylan",
+    "created_at": "Wed Jan 07 05:05:55 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008661231909913002"
+  },
+  {
+    "id": "2008774137058033817",
+    "text": "@koltregaskes This feature was there for ages.",
+    "author_handle": "@tradingnrvn",
+    "author_name": "Trading Nirvana 🧘🏻‍♂️",
+    "created_at": "Wed Jan 07 05:34:10 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008661231909913002"
+  },
+  {
+    "id": "2008761391973302627",
+    "text": "@koltregaskes FYI this may be outside of your ZDR agreement if you go this route, in case that matters to you",
+    "author_handle": "@BowTiedStingray",
+    "author_name": "BowTiedStingray",
+    "created_at": "Wed Jan 07 04:43:31 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008661231909913002"
+  },
+  {
+    "id": "2008781488972873814",
+    "text": "@koltregaskes Now, that's something I gotta consider trying at some point.",
+    "author_handle": "@Iron_Adamant",
+    "author_name": "Iron_Adamant",
+    "created_at": "Wed Jan 07 06:03:22 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008661231909913002"
+  },
+  {
+    "id": "2008766154643566978",
+    "text": "@koltregaskes It has been like that for several months. Where have you been?",
+    "author_handle": "@lehai0609",
+    "author_name": "lehai0609",
+    "created_at": "Wed Jan 07 05:02:26 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008661231909913002"
+  },
+  {
+    "id": "2008770272980333041",
+    "text": "@koltregaskes Terminal it is for me.",
+    "author_handle": "@EdoShah83098",
+    "author_name": "EdoShah",
+    "created_at": "Wed Jan 07 05:18:48 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008661231909913002"
+  },
+  {
+    "id": "2008753699678810522",
+    "text": "@koltregaskes Too bad the desktop app sucks and keeps freezing n crashing\nJust use browser and terminal",
+    "author_handle": "@embodyingWounds",
+    "author_name": "RTASMXRA\\𑀋𑀢𑀲𑁆𑀫𑀭",
+    "created_at": "Wed Jan 07 04:12:57 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008661231909913002"
+  },
+  {
+    "id": "2008771725656260648",
+    "text": "@koltregaskes What are u talking about its been around for a long time mow 🤔",
+    "author_handle": "@Kami_ayani",
+    "author_name": "Kami",
+    "created_at": "Wed Jan 07 05:24:35 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2008661231909913002"
+  }
+]
