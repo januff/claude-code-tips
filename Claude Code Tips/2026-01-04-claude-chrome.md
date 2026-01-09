@@ -45,6 +45,10 @@ url: "https://x.com/dabit3/status/2007639328663474672"
 >
 > Likes: 869 · Replies: 69 · Reposts: 64
 
+## Summary
+
+Claude Code can now control your Chrome browser directly, leveraging your existing login sessions to automate web-based tasks without API keys or OAuth. This feature, enabled by running `claude --chrome`, allows for workflows like scraping data, updating spreadsheets, triaging email, and even reproducing user steps for debugging. Claude pauses for human intervention on captchas or logins and then continues, offering a unique pair programming-like experience.
+
 ## Replies
 
 > [!reply] @jamiequint · Sun Jan 04 03:56:31 +0000 2026

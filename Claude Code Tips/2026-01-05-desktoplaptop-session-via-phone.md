@@ -20,6 +20,10 @@ url: "https://x.com/housecor/status/2008306060193370509"
 >
 > Likes: 603 · Replies: 34 · Reposts: 27
 
+## Summary
+
+This tip provides a way to access and interact with your laptop's Claude or Codex instance directly from your phone, offering a convenient remote access solution. The key insight is to seamlessly jump into an existing desktop session from your mobile device, enabling you to monitor or work with your AI tools on the go. Details on the specific tools or configurations needed to achieve this are not provided in the Tweet.
+
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 603 · **Replies:** 34 · **Reposts:** 27 · **Views:** 0

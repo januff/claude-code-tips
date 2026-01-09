@@ -45,6 +45,10 @@ url: "https://x.com/cloudxdev/status/2007232734637199762"
 >
 > Likes: 835 · Replies: 17 · Reposts: 55
 
+## Summary
+
+This Claude Code tip introduces a major update to its workflow, incorporating 13 new slash commands inspired by @bcherny's approach. The update adds commands for inner-loop development (like `/project-starter:commit-push-pr`) and verification (including `/project-starter:verify-changes` which leverages multi-agent adversarial review). It also includes updated templates, README, and verb-based skill naming conventions, expanding the system to 7 agents, 17 commands, 6 skills, and 8 hooks.
+
 ## Replies
 
 > [!reply] @bcherny · Fri Jan 02 19:58:58 +0000 2026

@@ -141,10 +141,27 @@ class TipsExporter(VaultExporter):
         super().__init__(db_path, output_dir, limit)
         self.quality_filter = quality_filter
         (self.output_dir / "_resources").mkdir(parents=True, exist_ok=True)
+        # Track tweet_id -> filename mapping to detect renames and clean up
+        self.tweet_id_to_filename: dict[str, str] = {}
 
     def setup_vault(self):
         super().setup_vault()
         (self.output_dir / "_resources").mkdir(exist_ok=True)
+        self._load_existing_tweet_mappings()
+
+    def _load_existing_tweet_mappings(self):
+        """Scan existing vault files and build tweet_id -> filename mapping."""
+        import re
+        for md_file in self.output_dir.glob("*.md"):
+            try:
+                content = md_file.read_text()
+                # Look for tweet_id in frontmatter
+                match = re.search(r'^tweet_id:\s*["\']?(\d+)["\']?', content, re.MULTILINE)
+                if match:
+                    tweet_id = match.group(1)
+                    self.tweet_id_to_filename[tweet_id] = md_file.name
+            except Exception:
+                pass  # Ignore files we can't read
 
     def load_tweets(self) -> list[Tweet]:
         """Load tweets from database with all related data."""
@@ -329,6 +346,14 @@ class TipsExporter(VaultExporter):
                 handle=tweet.handle
             )
 
+            # Check if this tweet already has a file with a different name
+            old_filename = self.tweet_id_to_filename.get(tweet.id)
+            if old_filename and old_filename != filename:
+                # Filename changed (e.g., keyword enrichment) - delete old file
+                old_path = self.output_dir / old_filename
+                if old_path.exists():
+                    old_path.unlink()
+
             content = template.render(
                 tweet=tweet,
                 date=format_date(tweet.posted_at),
@@ -338,7 +363,12 @@ class TipsExporter(VaultExporter):
                 tags=tweet.get_tags(),
             )
 
-            self.write_note(filename, content)
+            # Write directly (overwrite if exists) - don't use get_unique_filepath
+            output_path = self.output_dir / filename
+            output_path.write_text(content)
+
+            # Update mapping
+            self.tweet_id_to_filename[tweet.id] = filename
             return True
 
         except Exception as e:

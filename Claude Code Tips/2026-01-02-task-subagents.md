@@ -15,6 +15,10 @@ url: "https://x.com/alxfazio/status/2007151926614593739"
 >
 > Likes: 737 · Replies: 37 · Reposts: 29
 
+## Summary
+
+This Claude code tip highlights a technique to significantly improve execution speed by leveraging multiple task subagents. By assigning distinct roles and responsibilities to different subagents, Claude can parallelize execution. Testing suggests a potential speed increase of up to 10x when using a large number of subagents.
+
 ## Replies
 
 > [!reply] @oneforisrael · Thu Dec 25 13:48:17 +0000 2025

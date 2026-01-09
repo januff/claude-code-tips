@@ -1,0 +1,997 @@
+[
+  {
+    "id": "2009035664860565525",
+    "author_handle": "@boredGenius",
+    "text": "Introducing CallMe, a minimal plugin that lets Claude Code call you on your phone"
+  },
+  {
+    "id": "2009035679783890994",
+    "text": "@claudeai Features:\n\n- Minimal plugin: Does one thing: call you on the phone.\n- Multi-turn conversations: Talk through decisions naturally.\n- Works anywhere: Smartphone, smartwatch, or even landline!\n- Tool-use composable: Claude can e.g. do a web search while on a call with you.",
+    "author_handle": "@boredGenius",
+    "author_name": "zefram.eth",
+    "created_at": "Wed Jan 07 22:53:26 +0000 2026",
+    "likes": 136,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009035691699961977",
+    "text": "Source code &amp; installation instructions available here:\n\nhttps://t.co/FSxJdAyg09",
+    "author_handle": "@boredGenius",
+    "author_name": "zefram.eth",
+    "created_at": "Wed Jan 07 22:53:29 +0000 2026",
+    "likes": 266,
+    "is_reply_to": "2009035679783890994"
+  },
+  {
+    "id": "2009035703372706234",
+    "text": "Stack:\n\n- Phone call: Telnyx &amp; Twilio\n- TTS &amp; STT: OpenAI",
+    "author_handle": "@boredGenius",
+    "author_name": "zefram.eth",
+    "created_at": "Wed Jan 07 22:53:32 +0000 2026",
+    "likes": 85,
+    "is_reply_to": "2009035691699961977"
+  },
+  {
+    "id": "2009035715150286877",
+    "text": "~99% of the plugin was written by Claude Code! This was a fun experiment for me to try out CC and test its capabilities &amp; extensibility.\n\nSpeech has been the default method for human communication since time immemorial, so IMO it's a nobrainer to use speech for human-AI comms.",
+    "author_handle": "@boredGenius",
+    "author_name": "zefram.eth",
+    "created_at": "Wed Jan 07 22:53:35 +0000 2026",
+    "likes": 132,
+    "is_reply_to": "2009035703372706234"
+  },
+  {
+    "id": "2009250313748779452",
+    "text": "@boredGenius @claudeai knowing my luck I'll get a call with \"allow claude to use ls to read the directory?\"",
+    "author_handle": "@tayloramurphy",
+    "author_name": "Taylor A Murphy",
+    "created_at": "Thu Jan 08 13:06:19 +0000 2026",
+    "likes": 32,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009306108549321106",
+    "text": "@tayloramurphy @claudeai that wouldn’t work unfortunately, Claude permissions have to be given via terminal input rather than MCP server so CallMe can’t do that, you need to skip permissions for the best experience",
+    "author_handle": "@boredGenius",
+    "author_name": "zefram.eth",
+    "created_at": "Thu Jan 08 16:48:02 +0000 2026",
+    "likes": 4,
+    "is_reply_to": "2009250313748779452"
+  },
+  {
+    "id": "2009055358120284463",
+    "text": "@boredGenius @kzdagoof @claudeai Holy, this sounds incredible\n\nGonna try it out",
+    "author_handle": "@jarrodwatts",
+    "author_name": "Jarrod Watts",
+    "created_at": "Thu Jan 08 00:11:38 +0000 2026",
+    "likes": 45,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009086865614557665",
+    "text": "@jarrodwatts @kzdagoof @claudeai Def try it out the first call will blow your mind 🤯 makes going AFK much more productive",
+    "author_handle": "@boredGenius",
+    "author_name": "zefram.eth",
+    "created_at": "Thu Jan 08 02:16:50 +0000 2026",
+    "likes": 12,
+    "is_reply_to": "2009055358120284463"
+  },
+  {
+    "id": "2009104713434976497",
+    "text": "@boredGenius @claudeai literally needed this today omg tysm!",
+    "author_handle": "@ConejoCapital",
+    "author_name": "bunny",
+    "created_at": "Thu Jan 08 03:27:45 +0000 2026",
+    "likes": 16,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009110252277694904",
+    "text": "@ConejoCapital @claudeai https://t.co/jPacUJlxRm",
+    "author_handle": "@boredGenius",
+    "author_name": "zefram.eth",
+    "created_at": "Thu Jan 08 03:49:46 +0000 2026",
+    "likes": 4,
+    "is_reply_to": "2009104713434976497"
+  },
+  {
+    "id": "2009321406073606188",
+    "text": "@boredGenius @claudeai what is the process for paying your callme api bill?",
+    "author_handle": "@snapss",
+    "author_name": "snaps (mainnet arc)",
+    "created_at": "Thu Jan 08 17:48:49 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009349468555235726",
+    "text": "@snapss @claudeai It’s free",
+    "author_handle": "@boredGenius",
+    "author_name": "zefram.eth",
+    "created_at": "Thu Jan 08 19:40:19 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009321406073606188"
+  },
+  {
+    "id": "2009209055781507365",
+    "text": "@boredGenius @claudeai I was sold on this cartoon visuak without even reading the rest \n\nTAKE MY MONEY",
+    "author_handle": "@GitPushPampers",
+    "author_name": "Yannis",
+    "created_at": "Thu Jan 08 10:22:22 +0000 2026",
+    "likes": 4,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009307876469449009",
+    "text": "@GitPushPampers @claudeai it’s free lol",
+    "author_handle": "@boredGenius",
+    "author_name": "zefram.eth",
+    "created_at": "Thu Jan 08 16:55:03 +0000 2026",
+    "likes": 3,
+    "is_reply_to": "2009209055781507365"
+  },
+  {
+    "id": "2009262727957463087",
+    "text": "@boredGenius @claudeai This is amazing until non-native English speaking user uses it 😆\n\nUser: \"Deploy the project\"\nClaude: \"Will do! I'll call you when I'm done deleting the project and repo\"",
+    "author_handle": "@Fookin_No_Wan",
+    "author_name": "FookinNoWan",
+    "created_at": "Thu Jan 08 13:55:39 +0000 2026",
+    "likes": 4,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009306982851969038",
+    "text": "@Fookin_No_Wan @claudeai Open ai is used for TTS and STT and I think they have multi language support actually so you don’t have to use English (haven’t tested tho)",
+    "author_handle": "@boredGenius",
+    "author_name": "zefram.eth",
+    "created_at": "Thu Jan 08 16:51:30 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009262727957463087"
+  },
+  {
+    "id": "2009288994761183248",
+    "text": "@boredGenius @claudeai the marketing image is goated. CC + nano banana?",
+    "author_handle": "@draslan_eth",
+    "author_name": "draslan.eth",
+    "created_at": "Thu Jan 08 15:40:01 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009307619832242517",
+    "text": "@draslan_eth @claudeai Just nano banana, i knew exactly how i wanted it to look storyboard wise but had to try many times before i got a decent result",
+    "author_handle": "@boredGenius",
+    "author_name": "zefram.eth",
+    "created_at": "Thu Jan 08 16:54:02 +0000 2026",
+    "likes": 4,
+    "is_reply_to": "2009288994761183248"
+  },
+  {
+    "id": "2009114008708690426",
+    "text": "@boredGenius @claudeai This rocks, super cleanly done too. Was the code all vibe coded? Is there another MCP somewhere for SMS?",
+    "author_handle": "@DonaldBough",
+    "author_name": "Donald Bough",
+    "created_at": "Thu Jan 08 04:04:41 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009308522144481779",
+    "text": "@DonaldBough @claudeai Basically all vibe coded! Had to call out Claude many times for doing stupid things tho, all in the fit history. SMS can be added but there’s already stuff out there that can do it I think",
+    "author_handle": "@boredGenius",
+    "author_name": "zefram.eth",
+    "created_at": "Thu Jan 08 16:57:37 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009114008708690426"
+  },
+  {
+    "id": "2009243015676919813",
+    "text": "@boredGenius @claudeai claude how do i fix my relationship https://t.co/zjEHbEFTjZ",
+    "author_handle": "@CambrianNetwork",
+    "author_name": "Cambrian Network 🪴",
+    "created_at": "Thu Jan 08 12:37:19 +0000 2026",
+    "likes": 36,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009180639137026218",
+    "text": "@boredGenius @claudeai claude being like https://t.co/lasT1j6m8U",
+    "author_handle": "@eniwhere_",
+    "author_name": "eni 🍞",
+    "created_at": "Thu Jan 08 08:29:27 +0000 2026",
+    "likes": 25,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009140634997936594",
+    "text": "@boredGenius @claudeai Pocket Coding FTW",
+    "author_handle": "@bensig",
+    "author_name": "Ben Sigman",
+    "created_at": "Thu Jan 08 05:50:30 +0000 2026",
+    "likes": 4,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009090357234159874",
+    "text": "@boredGenius @claudeai Thank you so much for sharing this!\n\nOh boy, now just have to make sure my usage and human brain usage don't get smashed",
+    "author_handle": "@JeremyNguyenPhD",
+    "author_name": "Jeremy Nguyen ✍🏼 🚢",
+    "created_at": "Thu Jan 08 02:30:42 +0000 2026",
+    "likes": 6,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009236002406269078",
+    "text": "@boredGenius @claudeai I didn’t even know I need this",
+    "author_handle": "@pileks",
+    "author_name": "Pileks",
+    "created_at": "Thu Jan 08 12:09:27 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009275771999629485",
+    "text": "@boredGenius @claudeai sick!",
+    "author_handle": "@pappageorge",
+    "author_name": "Nick Pappageorge",
+    "created_at": "Thu Jan 08 14:47:29 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009163740986630643",
+    "text": "@boredGenius @claudeai that's cool af",
+    "author_handle": "@kelanoo",
+    "author_name": "Kelano",
+    "created_at": "Thu Jan 08 07:22:18 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009289711857160381",
+    "text": "@boredGenius @claudeai I love life man",
+    "author_handle": "@dcbuilder",
+    "author_name": "dcbuilder.eth ⚪️",
+    "created_at": "Thu Jan 08 15:42:52 +0000 2026",
+    "likes": 3,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009239402435027099",
+    "text": "@boredGenius @claudeai what the hell is that",
+    "author_handle": "@wuipx",
+    "author_name": "wui",
+    "created_at": "Thu Jan 08 12:22:58 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009165963800007022",
+    "text": "@boredGenius @claudeai this is awesome",
+    "author_handle": "@Grantblocmates",
+    "author_name": "Grant",
+    "created_at": "Thu Jan 08 07:31:08 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009202334178435081",
+    "text": "@boredGenius @claudeai Wow, like a boss.",
+    "author_handle": "@mysticaltech",
+    "author_name": "The Canaanite",
+    "created_at": "Thu Jan 08 09:55:40 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009324280178413819",
+    "text": "@boredGenius @claudeai Have you tried this at the gym?",
+    "author_handle": "@lostbutlucky",
+    "author_name": "lostbutlucky",
+    "created_at": "Thu Jan 08 18:00:14 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009331560361984480",
+    "text": "@boredGenius @claudeai 2026: The Year of Decision Fatigue. ;) \n\nVery cool. From vide coding --&gt; AI nudging.",
+    "author_handle": "@johnrobertreed",
+    "author_name": "JR | Multicoin Capital",
+    "created_at": "Thu Jan 08 18:29:10 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "1836828603394166901",
+    "text": "Affordable and powerful Uservoice alternative for feedback collection. \n\nMake the switch today—it’s easy and free.",
+    "author_handle": "@cannyHQ",
+    "author_name": "Canny",
+    "created_at": "Thu Sep 19 18:04:00 +0000 2024",
+    "likes": 8,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2003533438393995493",
+    "text": "Lithium demand is expected to grow 5x by 2040. EnergyX’s low-cost, validated direct lithium extraction tech is built to meet it.\n\n35,000+ investors are already in. Learn how you can join them.",
+    "author_handle": "@energyx",
+    "author_name": "EnergyX",
+    "created_at": "Tue Dec 23 18:29:30 +0000 2025",
+    "likes": 13,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009100186346508655",
+    "text": "@boredGenius @claudeai me neeeeeeds",
+    "author_handle": "@Darbybailey",
+    "author_name": "Darby Bailey, Ph.D. 🖍️💫",
+    "created_at": "Thu Jan 08 03:09:46 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009210945957171384",
+    "text": "@boredGenius @claudeai lmao",
+    "author_handle": "@AureaLibe",
+    "author_name": "Aurea",
+    "created_at": "Thu Jan 08 10:29:53 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009352536411791517",
+    "text": "@boredGenius @claudeai investment bankers in 2030 calling their AI: https://t.co/sghO27970p",
+    "author_handle": "@p_misirov",
+    "author_name": "P.M",
+    "created_at": "Thu Jan 08 19:52:31 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009055082097299643",
+    "text": "@boredGenius @claudeai Sick",
+    "author_handle": "@kzdagoof",
+    "author_name": "Kevin Z",
+    "created_at": "Thu Jan 08 00:10:32 +0000 2026",
+    "likes": 4,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009366733396509105",
+    "text": "@boredGenius @claudeai This is fantastic 🤓",
+    "author_handle": "@Vanieofweb3",
+    "author_name": "Hermes",
+    "created_at": "Thu Jan 08 20:48:56 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2004759643130937473",
+    "text": "🎉 Ring in 2026 with 50% off your first month! Start your weight loss journey at Mochi Health.",
+    "author_handle": "@mochihealth",
+    "author_name": "Mochi Health",
+    "created_at": "Sat Dec 27 03:42:00 +0000 2025",
+    "likes": 80,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009308490737586388",
+    "text": "@boredGenius @claudeai That's super clever! No more staring at the screen waiting.",
+    "author_handle": "@mustafaergisi",
+    "author_name": "Mustafa Ergisi",
+    "created_at": "Thu Jan 08 16:57:29 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009190671702536601",
+    "text": "@boredGenius @claudeai Wow 😯",
+    "author_handle": "@lingodotdev",
+    "author_name": "Lingo.dev",
+    "created_at": "Thu Jan 08 09:09:19 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009158024326533410",
+    "text": "@boredGenius @claudeai 这个太实用了吧，终于可以放心出门了",
+    "author_handle": "@crazyox",
+    "author_name": "Crazyox",
+    "created_at": "Thu Jan 08 06:59:36 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009337466977964213",
+    "text": "@boredGenius @claudeai something i never though i needed",
+    "author_handle": "@francescoswiss",
+    "author_name": "Francesco Andreoli ᵍᵐ",
+    "created_at": "Thu Jan 08 18:52:38 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009305634227753196",
+    "text": "@boredGenius @claudeai https://t.co/eh27xzDNM1",
+    "author_handle": "@Mawuko",
+    "author_name": "𝙴𝚖𝚖𝚊𝚗𝚞𝚎𝚕 🇬🇭🦉",
+    "created_at": "Thu Jan 08 16:46:08 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009133459747573909",
+    "text": "@boredGenius @claudeai :D",
+    "author_handle": "@thuddwhirr",
+    "author_name": "John Wolthuis",
+    "created_at": "Thu Jan 08 05:21:59 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009212253288190179",
+    "text": "@boredGenius @claudeai @steipete could we call Clawdbot in the future you think? 😂 That would be so cool!",
+    "author_handle": "@Philo01",
+    "author_name": "Philo Hermans",
+    "created_at": "Thu Jan 08 10:35:05 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009200230764331279",
+    "text": "@boredGenius @claudeai this is actually clean af async but with a human in the loop at the right moments\n\njust followed you @boredGenius would really appreciate a follow back 👋🏻🤝🫡",
+    "author_handle": "@DeFi_Pop",
+    "author_name": "Shyla | Yellow",
+    "created_at": "Thu Jan 08 09:47:18 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009117170844795376",
+    "text": "@boredGenius @claudeai I was thinning to create it for quite long, glad you did, thanks\n\n(should be Postgres even if app is simple)",
+    "author_handle": "@samokhvalov",
+    "author_name": "Nik Samokhvalov",
+    "created_at": "Thu Jan 08 04:17:15 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009158017997263322",
+    "text": "@boredGenius @claudeai Ha, I actually have Claude Code this to build. I thought it would be pretty sci-fi to get a call from an AI. 😜",
+    "author_handle": "@koltregaskes",
+    "author_name": "Kol Tregaskes",
+    "created_at": "Thu Jan 08 06:59:34 +0000 2026",
+    "likes": 5,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009099854589603886",
+    "text": "@boredGenius @claudeai dude.",
+    "author_handle": "@_kentw",
+    "author_name": "Kent Williams",
+    "created_at": "Thu Jan 08 03:08:27 +0000 2026",
+    "likes": 5,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009369271080468494",
+    "text": "@boredGenius @claudeai music to my ears",
+    "author_handle": "@louisamira",
+    "author_name": "Louis Amira",
+    "created_at": "Thu Jan 08 20:59:01 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009183518342136108",
+    "text": "@boredGenius @claudeai This sounds awesome gonna try it",
+    "author_handle": "@DhruvalGolakiya",
+    "author_name": "Dhruval",
+    "created_at": "Thu Jan 08 08:40:54 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009103120878682611",
+    "text": "@boredGenius @claudeai Holy shit I was thinking about how to do this just yesterday \n\nFuck yes thank you!",
+    "author_handle": "@SevNightingale",
+    "author_name": "Sev",
+    "created_at": "Thu Jan 08 03:21:26 +0000 2026",
+    "likes": 3,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009085705499361705",
+    "text": "@boredGenius @claudeai very nice!",
+    "author_handle": "@netdragon0x",
+    "author_name": "ndx",
+    "created_at": "Thu Jan 08 02:12:13 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009121735535415493",
+    "text": "@boredGenius @claudeai Great",
+    "author_handle": "@RonenV",
+    "author_name": "Ronen▼",
+    "created_at": "Thu Jan 08 04:35:24 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009246377293816310",
+    "text": "@boredGenius @claudeai Love this @boredGenius",
+    "author_handle": "@gham1lt0n",
+    "author_name": "Geoff Hamilton",
+    "created_at": "Thu Jan 08 12:50:40 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009384104672796959",
+    "text": "@boredGenius @claudeai super cool :)\n\nthanks for making this oss btw\n\nlet's launch/spotlight you on https://t.co/NxtxOPYfVi if up to mate",
+    "author_handle": "@SaidAitmbarek",
+    "author_name": "Saïd Aitmbarek",
+    "created_at": "Thu Jan 08 21:57:57 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009327387683836027",
+    "text": "@boredGenius @claudeai Love the idea. \n\nGetting a phone ping when Claude needs input is next-level productivity.",
+    "author_handle": "@Yakuza_Crypto_",
+    "author_name": "Yakuza",
+    "created_at": "Thu Jan 08 18:12:35 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009246615102484710",
+    "text": "@boredGenius @claudeai slayyy wen meta glasses integration",
+    "author_handle": "@0xjitsu",
+    "author_name": "jitsu 🍝🐻🏴🦇🔊",
+    "created_at": "Thu Jan 08 12:51:37 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009295054796427600",
+    "text": "@boredGenius @claudeai you’re all crazy",
+    "author_handle": "@_biggids",
+    "author_name": "Big Gids👨‍🍳",
+    "created_at": "Thu Jan 08 16:04:06 +0000 2026",
+    "likes": 3,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009450282963571109",
+    "text": "@boredGenius @claudeai 太生草了",
+    "author_handle": "@maid_crypto",
+    "author_name": "CryptoMaid加密女仆お嬢様 .edge🦭",
+    "created_at": "Fri Jan 09 02:20:55 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2008545429542056364",
+    "text": "EUROPE AT A CROSSROADS\n\nFor three decades, Europe has drifted while America and China surged ahead—economically, technologically, militarily. With Russia threatening from the east and Trump eyeing Greenland from the west, the wake-up call couldn't be louder.\n\nREAD MORE: https://t.co/bVfev8v5t4",
+    "author_handle": "@LibratumPress",
+    "author_name": "LibratumPress",
+    "created_at": "Tue Jan 06 14:25:22 +0000 2026",
+    "likes": 171,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009110816541561297",
+    "text": "@boredGenius @claudeai @THArrowOfApollo",
+    "author_handle": "@ENowoslawski",
+    "author_name": "Eric Nowoslawski",
+    "created_at": "Thu Jan 08 03:52:00 +0000 2026",
+    "likes": 3,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009149334315782587",
+    "text": "@boredGenius @claudeai Need this for @antigravity @_mohansolo",
+    "author_handle": "@TrickyCrypto2",
+    "author_name": "Tricky",
+    "created_at": "Thu Jan 08 06:25:04 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009294901104574859",
+    "text": "@boredGenius @claudeai Pretty sick.",
+    "author_handle": "@mxcl",
+    "author_name": "Max Howell",
+    "created_at": "Thu Jan 08 16:03:29 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009303768429478093",
+    "text": "@boredGenius @claudeai cool but also as an eldar millenium i don't talk on the phone.",
+    "author_handle": "@vega_holdings",
+    "author_name": "ｖｅｇａ",
+    "created_at": "Thu Jan 08 16:38:44 +0000 2026",
+    "likes": 5,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009308283723460706",
+    "text": "@boredGenius @claudeai ur gf gonna start questioning who is this girl Claude that u keep talking to",
+    "author_handle": "@hanhdngnn",
+    "author_name": "Hansolo",
+    "created_at": "Thu Jan 08 16:56:40 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009100735628366162",
+    "text": "@boredGenius @claudeai All fun and games until… https://t.co/xRWtMHJZnM",
+    "author_handle": "@Vote_ForPedro",
+    "author_name": "Pedro Teixeira MD PhD",
+    "created_at": "Thu Jan 08 03:11:57 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009236518750371978",
+    "text": "@boredGenius @claudeai Ummmmmmmmm dude WHAT I think my wife will enjoy this upgrade 😂",
+    "author_handle": "@block_zero",
+    "author_name": "block_zero",
+    "created_at": "Thu Jan 08 12:11:30 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009098828771934538",
+    "text": "@boredGenius @claudeai This is cool. I am not sure I’m ready for brain-implant coding but I know it’s coming now.",
+    "author_handle": "@heybekay",
+    "author_name": "Brad",
+    "created_at": "Thu Jan 08 03:04:22 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009098298918084703",
+    "text": "@boredGenius @claudeai forget the plugin , i am in love with the comic !",
+    "author_handle": "@bokiko",
+    "author_name": "Bokiko",
+    "created_at": "Thu Jan 08 03:02:16 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009172417323913459",
+    "text": "@boredGenius @claudeai did Claude code this?",
+    "author_handle": "@noveleader",
+    "author_name": "Noveleader 🏰",
+    "created_at": "Thu Jan 08 07:56:47 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009193088150048772",
+    "text": "@boredGenius @claudeai Banger",
+    "author_handle": "@arXivBangers",
+    "author_name": "arXiv Bangers",
+    "created_at": "Thu Jan 08 09:18:55 +0000 2026",
+    "likes": 4,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009187872197497186",
+    "text": "@boredGenius @claudeai Needed this just when you are on vacation",
+    "author_handle": "@Mustafa_vec",
+    "author_name": "Mustafa",
+    "created_at": "Thu Jan 08 08:58:12 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009284702314586208",
+    "text": "@boredGenius @claudeai when are we getting the neuralink plugin?",
+    "author_handle": "@Joe0ussai",
+    "author_name": "Joseph",
+    "created_at": "Thu Jan 08 15:22:58 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009256716760740017",
+    "text": "@boredGenius @claudeai I'll always be busy on phone calls after this, great use case, love it",
+    "author_handle": "@jbetala7",
+    "author_name": "Jayesh Betala",
+    "created_at": "Thu Jan 08 13:31:46 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009243247684849869",
+    "text": "@boredGenius @claudeai This is so sick.",
+    "author_handle": "@Spencerfoundra",
+    "author_name": "Spencer 🍝",
+    "created_at": "Thu Jan 08 12:38:14 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009310648941830148",
+    "text": "@boredGenius @claudeai Genius",
+    "author_handle": "@AgentGill",
+    "author_name": "Mike Gill",
+    "created_at": "Thu Jan 08 17:06:04 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009101881705156916",
+    "text": "@boredGenius @claudeai Love it - can it call anyone?",
+    "author_handle": "@devcayer",
+    "author_name": "Devon Cayer",
+    "created_at": "Thu Jan 08 03:16:30 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009324912650182823",
+    "text": "@boredGenius @dounbug @claudeai Funny because it’s true",
+    "author_handle": "@chosta_eth",
+    "author_name": "chosta.eth",
+    "created_at": "Thu Jan 08 18:02:45 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009268556232327316",
+    "text": "@boredGenius @claudeai Very cool!",
+    "author_handle": "@Thorsday008",
+    "author_name": "008",
+    "created_at": "Thu Jan 08 14:18:48 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009233523836608986",
+    "text": "@boredGenius @claudeai 👀",
+    "author_handle": "@0xultravioleta",
+    "author_name": "ultravioleta",
+    "created_at": "Thu Jan 08 11:59:36 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009111624150577452",
+    "text": "@boredGenius @claudeai Video of you claude coding from a landline pls",
+    "author_handle": "@Claude_Memory",
+    "author_name": "Claude-Mem",
+    "created_at": "Thu Jan 08 03:55:13 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009093543374274626",
+    "text": "@boredGenius @claudeai I should have built this: \nhttps://t.co/pML3vJFfR6 https://t.co/f0Gim4r4Z6",
+    "author_handle": "@c_sonnier",
+    "author_name": "Chris Sonnier",
+    "created_at": "Thu Jan 08 02:43:22 +0000 2026",
+    "likes": 5,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009073060322922793",
+    "text": "@boredGenius @claudeai Time to bring these bad boys back https://t.co/OXQHy0fD3o",
+    "author_handle": "@gregthomasbooks",
+    "author_name": "Greg Thomas",
+    "created_at": "Thu Jan 08 01:21:59 +0000 2026",
+    "likes": 7,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009379223027474763",
+    "text": "@boredGenius @claudeai ok ill bite",
+    "author_handle": "@btccommentary",
+    "author_name": "IVERMAX",
+    "created_at": "Thu Jan 08 21:38:33 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009121866678722961",
+    "text": "@boredGenius @claudeai crazy stuff.. with a similar tech stack, we built in a hackathon multiplayer voice call AI - https://t.co/1M1ao1YXmQ\nyou can add it to a conference call, it listens quietly and acts only when needed",
+    "author_handle": "@singhhcoder",
+    "author_name": "Harpinder Jot Singh",
+    "created_at": "Thu Jan 08 04:35:55 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009319173940531287",
+    "text": "@boredGenius @claudeai How did you NOT contact Debbie Harry for some voiceover stuff is beyond me",
+    "author_handle": "@anistotle_",
+    "author_name": "Ani (not your typical finance bro)",
+    "created_at": "Thu Jan 08 17:39:57 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009097846142935442",
+    "text": "@boredGenius @claudeai https://t.co/5rVlDE5XMI",
+    "author_handle": "@abstractalgo",
+    "author_name": "Dragan Okanovic",
+    "created_at": "Thu Jan 08 03:00:28 +0000 2026",
+    "likes": 5,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009231745619517649",
+    "text": "@boredGenius @claudeai the phone call from claude at 2am asking for a decision because you built an escape hatch into your workflow is the most unhinged productivity hack imaginable. but it works because you've externalized accountability. the real test is whether you actually listen to what it says or",
+    "author_handle": "@rtheoryxyz",
+    "author_name": "robertus",
+    "created_at": "Thu Jan 08 11:52:32 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009096952487793032",
+    "text": "@boredGenius @lfgist @claudeai Okay, note to self... anytime I have an idea I just need to wait a week",
+    "author_handle": "@agiatreides",
+    "author_name": "Muad'Deep - e/acc",
+    "created_at": "Thu Jan 08 02:56:55 +0000 2026",
+    "likes": 5,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009120111496712324",
+    "text": "@boredGenius @claudeai you need this with @its_auren @nearcyan",
+    "author_handle": "@awesomepatel_",
+    "author_name": "Awesome 🇺🇸",
+    "created_at": "Thu Jan 08 04:28:56 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009195058394980389",
+    "text": "@boredGenius @claudeai such a fun, outside the box idea\n\nkudos, might test this out at some point",
+    "author_handle": "@ValtteriValo",
+    "author_name": "Valtteri",
+    "created_at": "Thu Jan 08 09:26:45 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009343902319559029",
+    "text": "@boredGenius @claudeai coding feel way more hand free and efficient...the future of dev tools is getting wild",
+    "author_handle": "@growwithsanch",
+    "author_name": "Sanchita",
+    "created_at": "Thu Jan 08 19:18:12 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009180726181454145",
+    "text": "@boredGenius @claudeai I run to have a break from coding so I have time to think. \n\nNot to have it pursue me.",
+    "author_handle": "@DrMiaow",
+    "author_name": "writer of strange software",
+    "created_at": "Thu Jan 08 08:29:48 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009108148271886479",
+    "text": "@boredGenius @claudeai The future of remote programmers",
+    "author_handle": "@jcrivera_mx",
+    "author_name": "Carlos Rivera",
+    "created_at": "Thu Jan 08 03:41:24 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009431324478648778",
+    "text": "Sun., January 18, 1:00 PM, By Order of the Jefferson County Supreme Court,\nLive Onsite &amp; Online Unreserved 80' Lake Ontario Waterfront Real Estate Auction, 1793 Fadden Rd., Montario Point, Mannsville, NY 13661  Open House: Sunday, January 11, 1-4 PM and one hour before Auction.",
+    "author_handle": "@bernardbrzostek",
+    "author_name": "Bernard J Brzostek",
+    "created_at": "Fri Jan 09 01:05:35 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009289014797369474",
+    "text": "@boredGenius @claudeai Let's keep it realistic https://t.co/8ZZ5mVmpLr",
+    "author_handle": "@codinginflow",
+    "author_name": "Coding in Flow",
+    "created_at": "Thu Jan 08 15:40:06 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009195525309174202",
+    "text": "@boredGenius @claudeai This looks amazing, thank you. More than anything I would like to be able to call Claude and tell it to do something.",
+    "author_handle": "@samhbarton",
+    "author_name": "Sam Barton",
+    "created_at": "Thu Jan 08 09:28:36 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009300217687101538",
+    "text": "@boredGenius @claudeai and then he go to marketing: https://t.co/Bel8hn0qpt",
+    "author_handle": "@AjayCodeWiz",
+    "author_name": "Ajay",
+    "created_at": "Thu Jan 08 16:24:37 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009281600148709607",
+    "text": "@boredGenius @claudeai @levelsio cool plugin",
+    "author_handle": "@egmndev",
+    "author_name": "egemen",
+    "created_at": "Thu Jan 08 15:10:38 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009104532786303303",
+    "text": "@boredGenius @claudeai Oh wow. This can’t be real. Right ?",
+    "author_handle": "@powerofaii",
+    "author_name": "Steve GrAIhAIm",
+    "created_at": "Thu Jan 08 03:27:02 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009146687244136670",
+    "text": "@boredGenius @claudeai I would prefer text instead of a call. In text I can answer whenever I have time. With calling I have to take the call when CC calls.",
+    "author_handle": "@SalzmannOnX",
+    "author_name": "Kevin Salzmann",
+    "created_at": "Thu Jan 08 06:14:33 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009116220092764313",
+    "text": "@boredGenius @claudeai Love this",
+    "author_handle": "@vampivar",
+    "author_name": "Vampivar",
+    "created_at": "Thu Jan 08 04:13:29 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009263727070068851",
+    "text": "@boredGenius @claudeai I cannot believe where we are at. Claude code is really pulling away.",
+    "author_handle": "@LuckyPhelps",
+    "author_name": "Lucky Phelps",
+    "created_at": "Thu Jan 08 13:59:37 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009211361667240093",
+    "text": "@boredGenius @claudeai This looks really good",
+    "author_handle": "@bryanmusuku",
+    "author_name": "Brian",
+    "created_at": "Thu Jan 08 10:31:32 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009278603922440389",
+    "text": "@boredGenius @claudeai Can you make it text me instead of calling?",
+    "author_handle": "@GhwstVR",
+    "author_name": "Ghwst VR",
+    "created_at": "Thu Jan 08 14:58:44 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  },
+  {
+    "id": "2009165693883961766",
+    "text": "@boredGenius @claudeai Yes yes yes!\nSo we can just prompt our dreams come true now? 😂",
+    "author_handle": "@thebuildguy",
+    "author_name": "Tulsi Prasad ⚡️",
+    "created_at": "Thu Jan 08 07:30:04 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009035664860565525"
+  }
+]

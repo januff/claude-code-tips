@@ -1,0 +1,2293 @@
+[
+  {
+    "id": "2009072293826453669",
+    "author_handle": "@bcherny",
+    "text": "Claude Code 2.1.0 is officially out! claude update to get it"
+  },
+  {
+    "id": "2009361614647312621",
+    "text": "@bcherny Did you add the new 'btw' feature? (to ask a quick side question without interrupting Claude's current work)",
+    "author_handle": "@zsakib_",
+    "author_name": "Sakib",
+    "created_at": "Thu Jan 08 20:28:35 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009299910269485275",
+    "text": "@bcherny You got me at Shift+Enter. Finally.",
+    "author_handle": "@quasimondo",
+    "author_name": "Mario Klingemann💧💦",
+    "created_at": "Thu Jan 08 16:23:24 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "1996543566282412452",
+    "text": "• Whether you're just starting a WP site or intend to grow it, SiteGround has the perfect hosting for you. \n• Use the power of AI in hosting - outstanding speed &amp; reliability, and smart tech combined for success.\n• Discover why thousands of web experts recommend SiteGround!",
+    "author_handle": "@SiteGround",
+    "author_name": "SiteGround",
+    "created_at": "Thu Dec 04 11:34:14 +0000 2025",
+    "likes": 18,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009084134560551232",
+    "text": "@bcherny how does teleport work? does it transfer the session file back and forth?",
+    "author_handle": "@mattrickard",
+    "author_name": "Matt Rickard",
+    "created_at": "Thu Jan 08 02:05:59 +0000 2026",
+    "likes": 37,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009129600434216968",
+    "text": "@mattrickard yes",
+    "author_handle": "@bcherny",
+    "author_name": "Boris Cherny",
+    "created_at": "Thu Jan 08 05:06:39 +0000 2026",
+    "likes": 51,
+    "is_reply_to": "2009084134560551232"
+  },
+  {
+    "id": "2009081367058108926",
+    "text": "@bcherny how does teleport work if say I have dev specific tool requirements like cargo or some such?",
+    "author_handle": "@0xTaylor_",
+    "author_name": "0xTaylor",
+    "created_at": "Thu Jan 08 01:54:59 +0000 2026",
+    "likes": 7,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009129806768812192",
+    "text": "@0xTaylor_ Set it up in your SessionStart",
+    "author_handle": "@bcherny",
+    "author_name": "Boris Cherny",
+    "created_at": "Thu Jan 08 05:07:28 +0000 2026",
+    "likes": 20,
+    "is_reply_to": "2009081367058108926"
+  },
+  {
+    "id": "2009073083337130079",
+    "text": "@bcherny I feel like you skimmed over some stuff? https://t.co/8j49zCUrcg",
+    "author_handle": "@Gerry",
+    "author_name": "gerry🗯",
+    "created_at": "Thu Jan 08 01:22:04 +0000 2026",
+    "likes": 256,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009073197451452669",
+    "text": "@Gerry A few things yeah",
+    "author_handle": "@bcherny",
+    "author_name": "Boris Cherny",
+    "created_at": "Thu Jan 08 01:22:31 +0000 2026",
+    "likes": 287,
+    "is_reply_to": "2009073083337130079"
+  },
+  {
+    "id": "2009072929431224585",
+    "text": "@bcherny Hey, if I /teleport how do I switch from plan mode to auto-accept?",
+    "author_handle": "@dtj0108",
+    "author_name": "Drew Baskin",
+    "created_at": "Thu Jan 08 01:21:27 +0000 2026",
+    "likes": 5,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009073004492566764",
+    "text": "@dtj0108 It will switch automatically",
+    "author_handle": "@bcherny",
+    "author_name": "Boris Cherny",
+    "created_at": "Thu Jan 08 01:21:45 +0000 2026",
+    "likes": 10,
+    "is_reply_to": "2009072929431224585"
+  },
+  {
+    "id": "2009073872965128507",
+    "text": "@bcherny Does /teleport work in both directions to hand of local session to the web? Useful if I need to leave the house and keep working while on the go.",
+    "author_handle": "@chrisdietr",
+    "author_name": "Chris Dietrich 🦞",
+    "created_at": "Thu Jan 08 01:25:12 +0000 2026",
+    "likes": 19,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009074383302873371",
+    "text": "@chrisdietr Yes, /teleport to go to web and --teleport to come back",
+    "author_handle": "@bcherny",
+    "author_name": "Boris Cherny",
+    "created_at": "Thu Jan 08 01:27:14 +0000 2026",
+    "likes": 94,
+    "is_reply_to": "2009073872965128507"
+  },
+  {
+    "id": "2009135607344447633",
+    "text": "@bcherny Please fix the memory leak. It’s so bad.",
+    "author_handle": "@ChadMoran",
+    "author_name": "Chad Moran",
+    "created_at": "Thu Jan 08 05:30:31 +0000 2026",
+    "likes": 12,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009154508363018283",
+    "text": "@ChadMoran What memory leak? Can you take a heap dump and dm me?",
+    "author_handle": "@bcherny",
+    "author_name": "Boris Cherny",
+    "created_at": "Thu Jan 08 06:45:37 +0000 2026",
+    "likes": 9,
+    "is_reply_to": "2009135607344447633"
+  },
+  {
+    "id": "2009078803403035130",
+    "text": "@bcherny I saw the 2.1.0 semver snafu you cleaned up (thanks!), but what's with 2.1.1 showing some places? It's even in the graphic attached to your post.",
+    "author_handle": "@AlexB138",
+    "author_name": "Alex Barnes",
+    "created_at": "Thu Jan 08 01:44:48 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009140059929498010",
+    "text": "@AlexB138 We released 2.1.1 as a follow-up today",
+    "author_handle": "@bcherny",
+    "author_name": "Boris Cherny",
+    "created_at": "Thu Jan 08 05:48:12 +0000 2026",
+    "likes": 11,
+    "is_reply_to": "2009078803403035130"
+  },
+  {
+    "id": "2009173155739279628",
+    "text": "@bcherny Can we have more info and guidance on these please:\n\n- Add hooks directly to agents and skills frontmatter \n\n- Skills: forked context and custom agent support\n\nIdeally examples would be good",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Thu Jan 08 07:59:43 +0000 2026",
+    "likes": 20,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009117069711667468",
+    "text": "@bcherny shift+enter not working on apple terminal just fyi",
+    "author_handle": "@SIGKITTEN",
+    "author_name": "SIGKITTEN",
+    "created_at": "Thu Jan 08 04:16:51 +0000 2026",
+    "likes": 21,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009231807074517284",
+    "text": "@bcherny you do know that you guys have already cooked so hard that you can take some time off right?",
+    "author_handle": "@iamkylebalmer",
+    "author_name": "Kyle Balmer",
+    "created_at": "Thu Jan 08 11:52:47 +0000 2026",
+    "likes": 4,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "1996278509312864265",
+    "text": "Generate any visual imaginable. Veo, Sora, Kling, Wan &amp; more—all in one editor. Join over 1M+ creators &amp; enterprises. Try for free now.",
+    "author_handle": "@elevenlabsio",
+    "author_name": "ElevenLabs",
+    "created_at": "Wed Dec 03 18:01:00 +0000 2025",
+    "likes": 123,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009107253446787405",
+    "text": "@bcherny If I am using Claude Code with an API key, does that mean I can't use Claude Code Web? I don't see a way to use the web version with an API key",
+    "author_handle": "@Darpinian",
+    "author_name": "James",
+    "created_at": "Thu Jan 08 03:37:51 +0000 2026",
+    "likes": 4,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009201710523453521",
+    "text": "@bcherny how does adding hooks directly to agents and skills frontmatter work? it sounds great, but the nuance isn’t clear",
+    "author_handle": "@alxfazio",
+    "author_name": "alex fazio",
+    "created_at": "Thu Jan 08 09:53:11 +0000 2026",
+    "likes": 6,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009299968985846028",
+    "text": "@bcherny would love, context editing tool but for 'thinking tokens'\n\nAskUserQuestionTool added to the SDK\n\nsome cool agent introspection tools and more checkpt/branch primitives for long horizon tasks as well for more emergent capabilities as reasoning continues to scale\n\nuni student",
+    "author_handle": "@christianyun",
+    "author_name": "christian yun",
+    "created_at": "Thu Jan 08 16:23:38 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009114895070183527",
+    "text": "@bcherny claude code alone needs an entire pr team! how long will it be before the average cc enjoyer discovers these features?",
+    "author_handle": "@DanAdvantage",
+    "author_name": "Dan Advantage",
+    "created_at": "Thu Jan 08 04:08:13 +0000 2026",
+    "likes": 6,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009080085752762432",
+    "text": "@bcherny What about Claude Code desktop support for API users?",
+    "author_handle": "@hlopez_",
+    "author_name": "Hector Lopez",
+    "created_at": "Thu Jan 08 01:49:54 +0000 2026",
+    "likes": 4,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2007247536604475819",
+    "text": "Made with a 30% thicker shell than standard luggage - while still remaining lightweight, fully weatherproof, and backed by our lifetime warranty.",
+    "author_handle": "@ridgewallet",
+    "author_name": "Ridge",
+    "created_at": "Sat Jan 03 00:28:00 +0000 2026",
+    "likes": 113,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "1927236340699033687",
+    "text": "AI agents just closed a SOC 2 audit in 19 days that should have taken months.",
+    "author_handle": "@getdelve",
+    "author_name": "Delve",
+    "created_at": "Tue May 27 05:32:04 +0000 2025",
+    "likes": 4383,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009077760149586343",
+    "text": "@bcherny Thank you!!\n\nIf anyone has been wanting to try Claude Code but cannot afford the $20 and you plan to actually use it over the next week please reply below, I have a couple free passes I can give out https://t.co/wPITd3VXi7",
+    "author_handle": "@lamps_apple",
+    "author_name": "Apple Lamps",
+    "created_at": "Thu Jan 08 01:40:39 +0000 2026",
+    "likes": 6,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009237802534523150",
+    "text": "@bcherny Boris, when it will come with scheduler?",
+    "author_handle": "@0xCVYH",
+    "author_name": "CV.YH",
+    "created_at": "Thu Jan 08 12:16:36 +0000 2026",
+    "likes": 3,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "1969059353593266248",
+    "text": "Our favorite equation is: \nObscure feature+obscure feature+obscure feature = Bug\n\nFor your weekend reading, Michael Gibson writes about how we found a bug in the C++ compiler -- without using Antithesis. \n\nLink below, for the algorithm will not be denied. https://t.co/MKvwcBarlq",
+    "author_handle": "@AntithesisHQ",
+    "author_name": "Antithesis",
+    "created_at": "Fri Sep 19 15:21:47 +0000 2025",
+    "likes": 98,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009214441444004145",
+    "text": "@bcherny I’m still regularly getting corruption of the Settings files because Claude doesn’t seem to be properly escaping commands that have all manner of funny characters in them.",
+    "author_handle": "@julianharris",
+    "author_name": "Julian Harris",
+    "created_at": "Thu Jan 08 10:43:46 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009083873821602043",
+    "text": "@bcherny Can you please just focus on making it stop crashing all the time. The flickering crash is a killer",
+    "author_handle": "@graadient",
+    "author_name": "graadient",
+    "created_at": "Thu Jan 08 02:04:57 +0000 2026",
+    "likes": 13,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009091885881819535",
+    "text": "@bcherny Boris and team doing the divine work. Thank you sir!",
+    "author_handle": "@CdCruz",
+    "author_name": "CdCruz",
+    "created_at": "Thu Jan 08 02:36:47 +0000 2026",
+    "likes": 4,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009417385225163085",
+    "text": "@bcherny when our cli claude code is used via API key, there's seems to be no way at the moment to /teleport the session to claude(.)ai/code (which is an enterprise plan).\nI think this might be a common thing across many enterprises. are you able to add /teleport support in these",
+    "author_handle": "@soumithchintala",
+    "author_name": "Soumith Chintala",
+    "created_at": "Fri Jan 09 00:10:12 +0000 2026",
+    "likes": 6,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009157005802655988",
+    "text": "@bcherny does it still crash when reading files containing chinese",
+    "author_handle": "@sasuke___420",
+    "author_name": "sasuke⚡420",
+    "created_at": "Thu Jan 08 06:55:33 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009078762479222992",
+    "text": "@bcherny Love it! Any possibility of adding a 100x max plan for power users consuming 10B tokens a month?",
+    "author_handle": "@elliotarledge",
+    "author_name": "Elliot Arledge",
+    "created_at": "Thu Jan 08 01:44:38 +0000 2026",
+    "likes": 13,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009288291946840138",
+    "text": "@bcherny Awesome work @bcherny. \n\nAny improvements to auto compacting? I quite often run into \"Context low · Run /compact\" and then a manual compact fails due to \"Conversation too long\"",
+    "author_handle": "@tomerweller",
+    "author_name": "Tomer Weller",
+    "created_at": "Thu Jan 08 15:37:14 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009110251161657479",
+    "text": "@bcherny Hooks in agents 😘",
+    "author_handle": "@wdavidturner",
+    "author_name": "🧩🧩🧩🧩🧩 Dave",
+    "created_at": "Thu Jan 08 03:49:45 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009108995559354814",
+    "text": "@bcherny Looks like the documentation for every legacy monolith I've ever inherited.",
+    "author_handle": "@adam_x_mentis",
+    "author_name": "Mentis 🇦🇺",
+    "created_at": "Thu Jan 08 03:44:46 +0000 2026",
+    "likes": 3,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009103199639118163",
+    "text": "@bcherny If anyone needs passes let me know 🫡",
+    "author_handle": "@AlexDotEth",
+    "author_name": "Ale𝕏",
+    "created_at": "Thu Jan 08 03:21:44 +0000 2026",
+    "likes": 4,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009085244855775664",
+    "text": "@bcherny Holy moly, couldn't have timed it better!\n\nCongrats Boris, but I am blaming you for my lack of sleep that's going to happen now because of this 😜",
+    "author_handle": "@morganlinton",
+    "author_name": "Morgan",
+    "created_at": "Thu Jan 08 02:10:24 +0000 2026",
+    "likes": 5,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009248278362181990",
+    "text": "@bcherny \"shift+enter\" and \"cmd+→\" stopped working after this update\n\nusing Cursor terminal",
+    "author_handle": "@cyntro_py",
+    "author_name": "stepan",
+    "created_at": "Thu Jan 08 12:58:14 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009074200468967781",
+    "text": "@bcherny SHIFT + ENTER FOR NEW LINES",
+    "author_handle": "@starl3xx",
+    "author_name": "starl3xx 🌐",
+    "created_at": "Thu Jan 08 01:26:30 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009266155735630251",
+    "text": "@bcherny Thank you for teleport!!!",
+    "author_handle": "@DanielleMorrill",
+    "author_name": "Danielle Morrill",
+    "created_at": "Thu Jan 08 14:09:16 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009116342251860299",
+    "text": "@bcherny i just want my sessions to last longer please!",
+    "author_handle": "@Tuteth_",
+    "author_name": "tut™",
+    "created_at": "Thu Jan 08 04:13:58 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009084514480607598",
+    "text": "@bcherny Time to update and learn something new tonight",
+    "author_handle": "@TradingAloha",
+    "author_name": "Trading Aloha",
+    "created_at": "Thu Jan 08 02:07:29 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009073747588968473",
+    "text": "@bcherny 🫡",
+    "author_handle": "@seth",
+    "author_name": "seth goldstein",
+    "created_at": "Thu Jan 08 01:24:42 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009229044156661789",
+    "text": "@bcherny Teleport is crazy thing",
+    "author_handle": "@yangWao",
+    "author_name": "yangwao.hl",
+    "created_at": "Thu Jan 08 11:41:48 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009237584745250991",
+    "text": "@bcherny amazinggggggg",
+    "author_handle": "@0xCVYH",
+    "author_name": "CV.YH",
+    "created_at": "Thu Jan 08 12:15:44 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009072547124662658",
+    "text": "@bcherny 🐐",
+    "author_handle": "@jarrodwatts",
+    "author_name": "Jarrod Watts",
+    "created_at": "Thu Jan 08 01:19:56 +0000 2026",
+    "likes": 5,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009090046415278538",
+    "text": "@bcherny you are the goat",
+    "author_handle": "@nima_rez",
+    "author_name": "Nima Rezaeian",
+    "created_at": "Thu Jan 08 02:29:28 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009304471940075645",
+    "text": "@bcherny 🔥",
+    "author_handle": "@0xDesigner",
+    "author_name": "0xDesigner",
+    "created_at": "Thu Jan 08 16:41:31 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009089333576466923",
+    "text": "@bcherny /teleport your session 🤯",
+    "author_handle": "@Darbybailey",
+    "author_name": "Darby Bailey, Ph.D. 🖍️💫",
+    "created_at": "Thu Jan 08 02:26:38 +0000 2026",
+    "likes": 4,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009087046435188923",
+    "text": "@bcherny Excited to try it",
+    "author_handle": "@nazeeh",
+    "author_name": "Nazeeh",
+    "created_at": "Thu Jan 08 02:17:33 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009154259829522608",
+    "text": "@bcherny new generational breakdown just launched",
+    "author_handle": "@witcheer",
+    "author_name": "witcheer ☯︎",
+    "created_at": "Thu Jan 08 06:44:38 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009161102727479358",
+    "text": "@bcherny chad",
+    "author_handle": "@_0xaryan",
+    "author_name": "aryan | 🐂",
+    "created_at": "Thu Jan 08 07:11:49 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009078893286932955",
+    "text": "@bcherny This is great I'm gonna be /teleport-ing things all over the place 🕳️",
+    "author_handle": "@m_atoms",
+    "author_name": "Michael Adams",
+    "created_at": "Thu Jan 08 01:45:09 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009088134081118616",
+    "text": "@bcherny thanks I'll give it a go",
+    "author_handle": "@KieranOnBase",
+    "author_name": "kieran.base.eth",
+    "created_at": "Thu Jan 08 02:21:52 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009194673953493451",
+    "text": "@bcherny The shift+enter newline and wildcard tool permissions should streamline workflow for many users.",
+    "author_handle": "@mustafaergisi",
+    "author_name": "Mustafa Ergisi",
+    "created_at": "Thu Jan 08 09:25:13 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009084882216169671",
+    "text": "@bcherny ctrl+j for newlines is broken now",
+    "author_handle": "@lawrencecchen",
+    "author_name": "Lawrence Chen",
+    "created_at": "Thu Jan 08 02:08:57 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009077241951773121",
+    "text": "@bcherny Keep shipping 🫡",
+    "author_handle": "@Fund911",
+    "author_name": "911Fund",
+    "created_at": "Thu Jan 08 01:38:35 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009163134611952077",
+    "text": "@bcherny /teleport is a clever solve",
+    "author_handle": "@mtrajan",
+    "author_name": "Thiyagarajan Maruthavanan (Rajan)",
+    "created_at": "Thu Jan 08 07:19:54 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009086311643402725",
+    "text": "@bcherny Any chance for vertex ai support via mobile/web?",
+    "author_handle": "@giaccoangelo",
+    "author_name": "angelo",
+    "created_at": "Thu Jan 08 02:14:38 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009124262549000383",
+    "text": "@bcherny are you guys using claude code to ship claude code?",
+    "author_handle": "@Credib1eGuy",
+    "author_name": "Guy",
+    "created_at": "Thu Jan 08 04:45:26 +0000 2026",
+    "likes": 7,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009320017893183974",
+    "text": "@bcherny teleport is really what we have always wanted when we said we wanted to teleport",
+    "author_handle": "@goodmontheth",
+    "author_name": "Andrew M",
+    "created_at": "Thu Jan 08 17:43:18 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009073781860651318",
+    "text": "@bcherny You guys still keeping track of versions? \n\nShould it just be Claude Code v2.7 - Claude Code v2.365 since you ship daily 😅",
+    "author_handle": "@petergyang",
+    "author_name": "Peter Yang",
+    "created_at": "Thu Jan 08 01:24:51 +0000 2026",
+    "likes": 34,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2001046048622698632",
+    "text": "Get 50% Off + FREE Fi Collar 🎁\n\n100% real ingredients\n\nNo fillers or preservatives\n\nVet-developed recipes\nFresh without the fridge",
+    "author_handle": "@spotandtango",
+    "author_name": "Spot & Tango",
+    "created_at": "Tue Dec 16 21:45:30 +0000 2025",
+    "likes": 1135,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009304247754739822",
+    "text": "@bcherny - Shift+enter for newlines, w/ zero setup\n\nHuge!",
+    "author_handle": "@Vjeux",
+    "author_name": "vjeux ✪",
+    "created_at": "Thu Jan 08 16:40:38 +0000 2026",
+    "likes": 9,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009088079693562229",
+    "text": "@bcherny What's up with the new \"Warmup\" messages? Seems to get spammed a few time when a session is created now.",
+    "author_handle": "@0xTaylor_",
+    "author_name": "0xTaylor",
+    "created_at": "Thu Jan 08 02:21:39 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009099278384509254",
+    "text": "@bcherny 1096 commits is wild lol\n\nnot stopping on denied tools is a relief and hot reload on skills gonna be useful af\n\nclaude code is getting even better, thanks team",
+    "author_handle": "@stableAPY",
+    "author_name": "stableAPY.hl",
+    "created_at": "Thu Jan 08 03:06:09 +0000 2026",
+    "likes": 8,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009084462508986585",
+    "text": "@bcherny &gt; Shift+enter for newlines, w/ zero setup\nty lol. this was needed",
+    "author_handle": "@drummatick",
+    "author_name": "Saurabh Kumar",
+    "created_at": "Thu Jan 08 02:07:17 +0000 2026",
+    "likes": 17,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009073717671047293",
+    "text": "@bcherny Pumped for shift+enter! Is there a specific reason why image pasting requires ctrl + v on macOS instead of working with cmd + v like text does?",
+    "author_handle": "@tommomancini",
+    "author_name": "Tommo",
+    "created_at": "Thu Jan 08 01:24:35 +0000 2026",
+    "likes": 4,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009262235680391241",
+    "text": "@bcherny How is a skill with forked context different and/or better than a subagent?\n\nThey seems to be overlapping quite a lot now",
+    "author_handle": "@linuz90",
+    "author_name": "Fabrizio Rinaldi",
+    "created_at": "Thu Jan 08 13:53:41 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009199667368927447",
+    "text": "@bcherny Damn, 1096 commits? That’s insane. I need to carve out a weekend just to play with all these new features.",
+    "author_handle": "@RealMissAI",
+    "author_name": "Keira | MH Ventures",
+    "created_at": "Thu Jan 08 09:45:04 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009104446874374266",
+    "text": "@bcherny Low key best feature is the shift enter for new lines - thank you lol",
+    "author_handle": "@shensi_",
+    "author_name": "shensi",
+    "created_at": "Thu Jan 08 03:26:42 +0000 2026",
+    "likes": 15,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009086066301784172",
+    "text": "@bcherny I can’t believe how excited I am for a newline feature in a magic ai coding tool",
+    "author_handle": "@MSilb7",
+    "author_name": "Michael Silberling",
+    "created_at": "Thu Jan 08 02:13:39 +0000 2026",
+    "likes": 6,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009329613609292168",
+    "text": "@bcherny thank god for shift + enter new lines 😭",
+    "author_handle": "@alexinbinary",
+    "author_name": "Alex",
+    "created_at": "Thu Jan 08 18:21:26 +0000 2026",
+    "likes": 3,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009135623802900671",
+    "text": "@bcherny \"- Shift+enter for newlines\" great feature",
+    "author_handle": "@iheycc",
+    "author_name": "CC Jiang",
+    "created_at": "Thu Jan 08 05:30:35 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009399434551984138",
+    "text": "@bcherny what is the best way to use Claude Code for non-coding tasks?\nresearch, writing, etc",
+    "author_handle": "@SashaBaksht",
+    "author_name": "Sasha Baksht🕺",
+    "created_at": "Thu Jan 08 22:58:52 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009101875124240725",
+    "text": "@bcherny That's awesome news! The new Shift+enter feature will save us all so much time. Can't wait to try out the other improvements!",
+    "author_handle": "@sirshibaninja",
+    "author_name": "Colbert",
+    "created_at": "Thu Jan 08 03:16:28 +0000 2026",
+    "likes": 4,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009400348759478417",
+    "text": "@bcherny Shift+enter yay!",
+    "author_handle": "@surmenok",
+    "author_name": "Pavel Surmenok",
+    "created_at": "Thu Jan 08 23:02:30 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009356560514863562",
+    "text": "@bcherny Often in plan mode, it'll write the plan and then ask me additional questions, like I've read the plan. The problem is I can't see it -- either I open another terminal and read the /tmp/*.md file or i have to escape out to send /plan. Would be sweet to be able to view the plan",
+    "author_handle": "@levi",
+    "author_name": "Levi McCallum",
+    "created_at": "Thu Jan 08 20:08:30 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009418542987571471",
+    "text": "@bcherny Swear that new line thing was there forever",
+    "author_handle": "@0xPaulius",
+    "author_name": "Paulius 🏴‍☠️",
+    "created_at": "Fri Jan 09 00:14:48 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009103218891186194",
+    "text": "@bcherny \"shift+enter for newlines\" brother I am very grateful haha",
+    "author_handle": "@stefdelev",
+    "author_name": "Stefen",
+    "created_at": "Thu Jan 08 03:21:49 +0000 2026",
+    "likes": 11,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009144201607565519",
+    "text": "@bcherny i ran out of token boris😔\n\nbeen unable to vibecode for 3 whole days",
+    "author_handle": "@soligxbt",
+    "author_name": "dr. alex",
+    "created_at": "Thu Jan 08 06:04:40 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009347262166781973",
+    "text": "@bcherny Great stuff, you're killing it",
+    "author_handle": "@nnnnicholas",
+    "author_name": "nicholas ⛱",
+    "created_at": "Thu Jan 08 19:31:33 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009236172523098546",
+    "text": "@bcherny nice, thanks",
+    "author_handle": "@xabzxbt",
+    "author_name": "xabz",
+    "created_at": "Thu Jan 08 12:10:07 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009173894280950139",
+    "text": "@bcherny you have become my coding hero",
+    "author_handle": "@marco_dewey",
+    "author_name": "Marco Dewey",
+    "created_at": "Thu Jan 08 08:02:39 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009133803621728571",
+    "text": "@bcherny you da man Boris!",
+    "author_handle": "@lalopenguin",
+    "author_name": "lalo 🐧",
+    "created_at": "Thu Jan 08 05:23:21 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009346967596617881",
+    "text": "@bcherny Fix the flickering bug please",
+    "author_handle": "@minjunesh",
+    "author_name": "Minjune Song",
+    "created_at": "Thu Jan 08 19:30:23 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009145197226283018",
+    "text": "@bcherny 🫨🫨🫨",
+    "author_handle": "@GiselFlorez",
+    "author_name": "GISELX",
+    "created_at": "Thu Jan 08 06:08:37 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009154017482690866",
+    "text": "@bcherny Wildcard support for tool permissions can fix me",
+    "author_handle": "@isaacbmiller1",
+    "author_name": "isaac 🧩",
+    "created_at": "Thu Jan 08 06:43:40 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009077290043625799",
+    "text": "@bcherny Thanks",
+    "author_handle": "@malenchi_alex",
+    "author_name": "Alex 3am 🌘",
+    "created_at": "Thu Jan 08 01:38:47 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009104298828026130",
+    "text": "@bcherny Thank you Jesus and Boris! https://t.co/i08YOi88un",
+    "author_handle": "@JeremiahThinks",
+    "author_name": "Jeremiah Welch",
+    "created_at": "Thu Jan 08 03:26:06 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009168150647198075",
+    "text": "@bcherny claude code is the best Agent！\nhttps://t.co/ejijAkZKEQ",
+    "author_handle": "@ccjing_eth",
+    "author_name": "ccjing | MemeMax⚡️(✱,✱)",
+    "created_at": "Thu Jan 08 07:39:50 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009077367688581148",
+    "text": "@bcherny YESSS\n- /teleport your session to https://t.co/4vrf0Ap35p",
+    "author_handle": "@gptcrosa",
+    "author_name": "Ale",
+    "created_at": "Thu Jan 08 01:39:05 +0000 2026",
+    "likes": 8,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009072628443828361",
+    "text": "@bcherny I’m already taking advantage of context forking and agent-scoped hooks!",
+    "author_handle": "@EricBuess",
+    "author_name": "Eric Buess",
+    "created_at": "Thu Jan 08 01:20:16 +0000 2026",
+    "likes": 8,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009215329910837469",
+    "text": "@bcherny i'd definetely use the teleport a lot! thank you! does the update work in vs extension as well? cause mine is still stuck in the prv version. how would you suggest on a Windows PC to use the tool? I've realized that via Cursor terminal there are some missing features vs VS.",
+    "author_handle": "@dnl23",
+    "author_name": "Dimitris Leimonis",
+    "created_at": "Thu Jan 08 10:47:18 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009086655794381124",
+    "text": "@bcherny Can't /teleport😭 https://t.co/OTkDrcPgvp",
+    "author_handle": "@plattenschieber",
+    "author_name": "Jeronim Morina",
+    "created_at": "Thu Jan 08 02:16:00 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009445601575096459",
+    "text": "@bcherny shift+enter for newlines sounds small.\n\nit is not.\n\nthe tiny frictions are what kill flow state.",
+    "author_handle": "@xMikeMickelson",
+    "author_name": "Mike Mickelson",
+    "created_at": "Fri Jan 09 02:02:19 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009085514746613817",
+    "text": "@bcherny Damn this looks good. Just updated today and about to start a new project. Thanks Boris! Any tips for this update? The /teleport looks fun.",
+    "author_handle": "@TeslaExplained",
+    "author_name": "Tesla the Man - Explained",
+    "created_at": "Thu Jan 08 02:11:28 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009091124229787697",
+    "text": "@bcherny When will it be possible to bring the chat context of claude to claude code by sharing the chatId ?",
+    "author_handle": "@shuvro",
+    "author_name": "Nazmul",
+    "created_at": "Thu Jan 08 02:33:45 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009098929900765280",
+    "text": "@bcherny Do you fix this bug? https://t.co/XdSiN88m2Z",
+    "author_handle": "@tonyflo",
+    "author_name": "Anthony Flores",
+    "created_at": "Thu Jan 08 03:04:46 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2000683534759948717",
+    "text": "Learn how Writer leveraged AI code reviews to reduce the time they review PRs by 30% and find more bugs. Get Your Free Trial!",
+    "author_handle": "@coderabbitai",
+    "author_name": "CodeRabbit",
+    "created_at": "Mon Dec 15 21:45:00 +0000 2025",
+    "likes": 196,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009072730281529741",
+    "text": "@bcherny Please make it available in my county 😩",
+    "author_handle": "@diblo_n",
+    "author_name": "Abdoulaye Niangaly",
+    "created_at": "Thu Jan 08 01:20:40 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009114667806019613",
+    "text": "@bcherny no update for 3 weeks then this. good work cc team.",
+    "author_handle": "@crestalblue_",
+    "author_name": "crestalblue",
+    "created_at": "Thu Jan 08 04:07:19 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009188534859776079",
+    "text": "@bcherny Shift+enter was the patch we didn't know we needed.",
+    "author_handle": "@bencera_",
+    "author_name": "Ben Cera",
+    "created_at": "Thu Jan 08 09:00:50 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009083352780087613",
+    "text": "@bcherny Great to see permission wildcard support.\n\nThere's no Windows sandbox so we're forced to choose between dangerously YOLO-ing or endless permission requests.\n\nI shouldn't have to approve *every* fetch call in the *same* response. 🙄",
+    "author_handle": "@AiAristotle",
+    "author_name": "ΔI ₳ristotle",
+    "created_at": "Thu Jan 08 02:02:52 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009273520178552959",
+    "text": "@bcherny i'm having an issue in multiple folders https://t.co/eOcrtXmzky",
+    "author_handle": "@dasfacc",
+    "author_name": "David",
+    "created_at": "Thu Jan 08 14:38:32 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009095726907756907",
+    "text": "@bcherny Congrats! 🚀\n\nForked context + custom agents = perfect match for .FAF's live bi-sync.\n\nfaf-cli now fully detects:\n• .claude/agents/\n• .claude/skills/\n• .claude/commands/\n• Permissions\n\nnpx faf-cli init\n(10–30s first run, clear progress)\n\nFull breakdown: https://t.co/9WyTtpY9kV",
+    "author_handle": "@wolfe_jam",
+    "author_name": "English James | wolfejam.dev",
+    "created_at": "Thu Jan 08 02:52:03 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009227989356351787",
+    "text": "@bcherny it'd be great to have a linear agent next.",
+    "author_handle": "@barisyesilcicek",
+    "author_name": "Barış Yeşilçiçek",
+    "created_at": "Thu Jan 08 11:37:36 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009364242215108914",
+    "text": "@bcherny Not instead of binding shift+enter, I’ve to bind shift+j myself 🤦🏻",
+    "author_handle": "@hakanderyal",
+    "author_name": "Hakan Deryal",
+    "created_at": "Thu Jan 08 20:39:02 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009180319963074942",
+    "text": "@bcherny Overall: 1096 commits\n\nthis part is crazy 😬",
+    "author_handle": "@0xRaduan",
+    "author_name": "Raduan Al-Shedivat",
+    "created_at": "Thu Jan 08 08:28:11 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009279509510418676",
+    "text": "@bcherny Great, congrats ! What about the Agent SDK ? Still on par ?",
+    "author_handle": "@fkruta",
+    "author_name": "Francois Kruta",
+    "created_at": "Thu Jan 08 15:02:20 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009259755856900397",
+    "text": "@bcherny \"Shift+enter for newlines, w/ zero setup\"\nLFG",
+    "author_handle": "@JulienCoulaud",
+    "author_name": "Julien",
+    "created_at": "Thu Jan 08 13:43:50 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009298994891997238",
+    "text": "@bcherny &gt; shift + enter working in kitty terminal now. 🤤",
+    "author_handle": "@travisthomson_",
+    "author_name": "Travis",
+    "created_at": "Thu Jan 08 16:19:46 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009096602741559366",
+    "text": "@bcherny Hot reload and teleport take the cake, but the changelog is amazing!! So many small delights packed there.",
+    "author_handle": "@nyn",
+    "author_name": "Narayan Babu",
+    "created_at": "Thu Jan 08 02:55:31 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009096633171234919",
+    "text": "@bcherny Oh no, Ctrl-J for newlines is broken. Hope this is unintended. 🥲",
+    "author_handle": "@aofeisheng",
+    "author_name": "Aofei Sheng",
+    "created_at": "Thu Jan 08 02:55:39 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009230368172593179",
+    "text": "@bcherny @DanielMiessler Does this mean we can manually use / command for skills? What's the difference between that and a custom command now?",
+    "author_handle": "@sam_starkman",
+    "author_name": "Sam Starkman",
+    "created_at": "Thu Jan 08 11:47:04 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009187720955089101",
+    "text": "@bcherny @kimmonismus Does undo typing / pasting work?",
+    "author_handle": "@crizcraig",
+    "author_name": "Craig Quiter",
+    "created_at": "Thu Jan 08 08:57:36 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009072999107055864",
+    "text": "@bcherny This is insane🤣",
+    "author_handle": "@oikon48",
+    "author_name": "Oikon",
+    "created_at": "Thu Jan 08 01:21:44 +0000 2026",
+    "likes": 7,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009358727359701048",
+    "text": "@bcherny Does shift+enter work in WSL?",
+    "author_handle": "@StevesChirps",
+    "author_name": "Steve's Chirps",
+    "created_at": "Thu Jan 08 20:17:07 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009122334947590212",
+    "text": "@bcherny \"agents no longer stop when you deny\" means my 2am panic clicking won't derail a 40 minute task anymore. the therapy this will save me.",
+    "author_handle": "@xMikeMickelson",
+    "author_name": "Mike Mickelson",
+    "created_at": "Thu Jan 08 04:37:46 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009169817908211775",
+    "text": "@bcherny goat",
+    "author_handle": "@bencera_",
+    "author_name": "Ben Cera",
+    "created_at": "Thu Jan 08 07:46:27 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009099528851632142",
+    "text": "@bcherny cant wait to check this out\n\nparticularly excited the addition of the ability to hook directly to agents",
+    "author_handle": "@code4scale",
+    "author_name": "David",
+    "created_at": "Thu Jan 08 03:07:09 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009084921663606787",
+    "text": "@bcherny Upgrading immediately. I’m in the flippin zone w Claude code this week!",
+    "author_handle": "@ben3bil",
+    "author_name": "BΞN",
+    "created_at": "Thu Jan 08 02:09:06 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2007161343594672260",
+    "text": "A lot of resolutions disappear by February.\nThis one gives you proof.\n\nBodySpec’s medical-grade DEXA scan measures body fat, muscle mass, &amp; bone strength so progress is trackable &amp; clear.\n\nStart the year with data.\nFinish with answers.\n\nNew Year’s Deal:\n2 DEXA scans for $99.",
+    "author_handle": "@BodySpec",
+    "author_name": "BodySpec",
+    "created_at": "Fri Jan 02 18:45:30 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009176529360834827",
+    "text": "@bcherny let's gooo /teleport is such a cool name aha",
+    "author_handle": "@GitPushPampers",
+    "author_name": "Yannis",
+    "created_at": "Thu Jan 08 08:13:07 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009121649057288324",
+    "text": "@bcherny Teleportation is awesome",
+    "author_handle": "@pgbouncer",
+    "author_name": "pgBouncer",
+    "created_at": "Thu Jan 08 04:35:03 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009073758204834063",
+    "text": "@bcherny @rudrank Awesome. 😀",
+    "author_handle": "@brooksy4503",
+    "author_name": "Garth Scaysbrook",
+    "created_at": "Thu Jan 08 01:24:45 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009220940849357099",
+    "text": "@bcherny Is opus 4.5 back the way it was on day 1?",
+    "author_handle": "@dannyveigatx",
+    "author_name": "Danny Veiga",
+    "created_at": "Thu Jan 08 11:09:36 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009144012830331188",
+    "text": "@bcherny yeew!  🙏",
+    "author_handle": "@DC3_AI",
+    "author_name": "DC3AI",
+    "created_at": "Thu Jan 08 06:03:55 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009242757752365279",
+    "text": "@bcherny Loving it",
+    "author_handle": "@jbetala7",
+    "author_name": "Jayesh Betala",
+    "created_at": "Thu Jan 08 12:36:18 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009084752264089957",
+    "text": "@bcherny Shift+Enter is huge, thank you!",
+    "author_handle": "@Grant_Jennings2",
+    "author_name": "Grant Jennings",
+    "created_at": "Thu Jan 08 02:08:26 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009233627721466318",
+    "text": "@bcherny when is it going to solve cancer?",
+    "author_handle": "@steve_cook",
+    "author_name": "Steve",
+    "created_at": "Thu Jan 08 12:00:01 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009144674066575594",
+    "text": "@bcherny Already 2.1.1!",
+    "author_handle": "@SeedsForbidden",
+    "author_name": "Forbidden Seeds",
+    "created_at": "Thu Jan 08 06:06:33 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009208027736662484",
+    "text": "@bcherny The Claude Enterprise flex, making the tabs perform wildly.",
+    "author_handle": "@noelhatem",
+    "author_name": "⚡️ Noel Hatem",
+    "created_at": "Thu Jan 08 10:18:17 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009072394611335665",
+    "text": "@bcherny Love it!",
+    "author_handle": "@EricBuess",
+    "author_name": "Eric Buess",
+    "created_at": "Thu Jan 08 01:19:20 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009110075600716131",
+    "text": "@bcherny Should I use Claude Code on windows with WSL?",
+    "author_handle": "@zeeFloatingMonk",
+    "author_name": "zeemonk",
+    "created_at": "Thu Jan 08 03:49:04 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009085647366369539",
+    "text": "@bcherny Let's go!",
+    "author_handle": "@Dugweiser_8",
+    "author_name": "Colby Dugger",
+    "created_at": "Thu Jan 08 02:11:59 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009093929808089142",
+    "text": "@bcherny Shift+enter for newlines 🤤",
+    "author_handle": "@0xApotheosis",
+    "author_name": "Apotheosis",
+    "created_at": "Thu Jan 08 02:44:54 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "1995989767540945080",
+    "text": "Starlink Mini offers fast, reliable internet on the go—great for traveling, camping, exploring, boating, RVing, and more.\n\nStay connected without dead zones or slow speeds.\n\nOrder online in under 2 minutes.",
+    "author_handle": "@Starlink",
+    "author_name": "Starlink",
+    "created_at": "Tue Dec 02 22:53:38 +0000 2025",
+    "likes": 11987,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009181540262228389",
+    "text": "@bcherny Question how much of Claude code is written by Claude code?",
+    "author_handle": "@PyperCharlie",
+    "author_name": "Charlie Pyper",
+    "created_at": "Thu Jan 08 08:33:02 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009451717256249421",
+    "text": "@bcherny Ohhh teleport.",
+    "author_handle": "@torrell",
+    "author_name": "pnut",
+    "created_at": "Fri Jan 09 02:26:37 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009176682020941959",
+    "text": "@bcherny https://t.co/rj1hZ28Eb6",
+    "author_handle": "@dagostpro",
+    "author_name": "Bruno D’Agostino",
+    "created_at": "Thu Jan 08 08:13:44 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009079406674022574",
+    "text": "@bcherny Bro just do me a favor... Hit refresh for me https://t.co/P9oELfivBI",
+    "author_handle": "@marcopfortes",
+    "author_name": "Marco Fortes",
+    "created_at": "Thu Jan 08 01:47:12 +0000 2026",
+    "likes": 7,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009072660895158492",
+    "text": "@bcherny Dude the shift enter is such a huge quality of life change, thank you!!\n\nForked context is going to be cool for spawning another agent. \n\nHopefully a bunch of these things don’t break in prod.",
+    "author_handle": "@IAmAaronYang",
+    "author_name": "Aaron Yang",
+    "created_at": "Thu Jan 08 01:20:23 +0000 2026",
+    "likes": 9,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009075172402409860",
+    "text": "@bcherny https://t.co/MbxT4j1Oxt",
+    "author_handle": "@EricBuess",
+    "author_name": "Eric Buess",
+    "created_at": "Thu Jan 08 01:30:22 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009073043294077001",
+    "text": "@bcherny *2.1.1 \nlets go https://t.co/UjxvfmdB2i",
+    "author_handle": "@agivacuum",
+    "author_name": "Vacuum Cleaner",
+    "created_at": "Thu Jan 08 01:21:54 +0000 2026",
+    "likes": 4,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009078458799018355",
+    "text": "@bcherny I just got 2.1.1.",
+    "author_handle": "@tipton",
+    "author_name": "tipton cole",
+    "created_at": "Thu Jan 08 01:43:26 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009169469881385030",
+    "text": "@bcherny Thank you so much @bcherny! Great update",
+    "author_handle": "@KubaTheBuilder",
+    "author_name": "KubaTheBuilder",
+    "created_at": "Thu Jan 08 07:45:04 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009317827971555808",
+    "text": "@bcherny I use CC every day for 8 months. I still feel I need to enroll for a course since I don't understand most of the features like hooks/lsps/mcps(practically)/subagents management, etc, etc. I feel like I'm losing the grasp of the tool.",
+    "author_handle": "@MKuliasov",
+    "author_name": "Michael Kuliasov",
+    "created_at": "Thu Jan 08 17:34:36 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009089292686250356",
+    "text": "@bcherny https://t.co/zMPFDIgsDB",
+    "author_handle": "@MarstewS",
+    "author_name": "nenimozne",
+    "created_at": "Thu Jan 08 02:26:29 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009204907857883221",
+    "text": "@bcherny It's like this for almost one hour now. \n\nWould be great if the update process was more verbose and clear. https://t.co/yHquPzJYEE",
+    "author_handle": "@terminalnotes",
+    "author_name": "Antonio Cascais",
+    "created_at": "Thu Jan 08 10:05:53 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009300118873493705",
+    "text": "@bcherny the agents not stopping on deny is huge tbh. used to lose entire chains when i wanted to redirect one action. now you can actually have a conversation about why you denied it instead of starting over",
+    "author_handle": "@udaysy",
+    "author_name": "Uday Yatnalli",
+    "created_at": "Thu Jan 08 16:24:13 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009173017138798945",
+    "text": "@bcherny This update is a masterclass in user-centric engineering. The shift+enter for newlines alone eliminates a universal friction point with zero configuration.",
+    "author_handle": "@gxjdian",
+    "author_name": "M.AI",
+    "created_at": "Thu Jan 08 07:59:10 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009094908528013388",
+    "text": "@bcherny Feature request for Claude Chrome to help with front end dev:\n\nA \"record\" feature where it stores user actions, console and network data, and the user can take screenshots that are then given to claude",
+    "author_handle": "@BooneW",
+    "author_name": "boone",
+    "created_at": "Thu Jan 08 02:48:48 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009327472010252417",
+    "text": "@bcherny hey Boris are user level subagents invoked immediately? or do we have to kinda nudge claude to use them in our prompt?\n\nalso is there an indicator when they get used? i have a few and I can’t tell if they’re being used or not",
+    "author_handle": "@bowlcutWiz",
+    "author_name": "Wiz",
+    "created_at": "Thu Jan 08 18:12:55 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009102842959942040",
+    "text": "@bcherny I still do not know what is the difference between hooks and skills",
+    "author_handle": "@dzhohola",
+    "author_name": "Rosty",
+    "created_at": "Thu Jan 08 03:20:19 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009130005536887044",
+    "text": "@bcherny on the custom agent support within Skills, are we looking at a future where we can define local \"sub agents\" with restricted context windows for specific sub tasks?",
+    "author_handle": "@agenzlabs",
+    "author_name": "Burhan | AI Builder",
+    "created_at": "Thu Jan 08 05:08:15 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009128669613088879",
+    "text": "@bcherny The hot reload for skills is a game changer! As a researcher frequently iterating on custom automation workflows, this will save so much time. Also excited about the multi-language support - will be useful for collaborating with international colleagues. The /teleport feature",
+    "author_handle": "@GoGoFly23",
+    "author_name": "GoFly",
+    "created_at": "Thu Jan 08 05:02:57 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009222846678225375",
+    "text": "@bcherny Is it possible that you folks decreased the usage limits too much? I have 20x Max plan.  Two weeks ago I couldn't fill %20 of it even working with 4 different projects at the same time but today I am on %22 just working on a single project (same project I have been working on)",
+    "author_handle": "@barisbr_",
+    "author_name": "Barış",
+    "created_at": "Thu Jan 08 11:17:10 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2008742386684358791",
+    "text": "Rigorously Perfected Protein. \n\nDavid delivers 28g of protein, 150 calories, and 0g of sugar, equating to 75% of its calories from protein. Available in 8 core, indulgent flavors. \n\nBuy 4 cartons on our site, and get the 5th free.",
+    "author_handle": "@david_protein",
+    "author_name": "David Protein",
+    "created_at": "Wed Jan 07 03:28:00 +0000 2026",
+    "likes": 13,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009086687834722719",
+    "text": "@bcherny i have just wasted 30 min trying to upgrade claude code to 2.1 \n\nit continues to detect a running instance of claude code despite killing everything everywhere",
+    "author_handle": "@agiatreides",
+    "author_name": "Muad'Deep - e/acc",
+    "created_at": "Thu Jan 08 02:16:08 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009217567886594114",
+    "text": "@bcherny hooks, mcp, skills, agents, martial arts...beware feature creap please. 😍 #claude",
+    "author_handle": "@dizid",
+    "author_name": "dizid",
+    "created_at": "Thu Jan 08 10:56:12 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009258858749796584",
+    "text": "@bcherny Id like to keep the tips in CC, but have some way to acknowledge and not show me them after a while. I keep getting tips for basic stuff, which I don't need, but I still want tips on new things, or features I don't use",
+    "author_handle": "@markfrancisio",
+    "author_name": "Mark James Francis",
+    "created_at": "Thu Jan 08 13:40:16 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009088884102279484",
+    "text": "@bcherny Is vs code extension also updated?",
+    "author_handle": "@aryavibecoding",
+    "author_name": "Arya",
+    "created_at": "Thu Jan 08 02:24:51 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009203422902317464",
+    "text": "@bcherny wen unlimited usage https://t.co/xewLWnLXJC",
+    "author_handle": "@zerobuildz",
+    "author_name": "Zero",
+    "created_at": "Thu Jan 08 09:59:59 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009167722144518172",
+    "text": "@bcherny What’s the difference between this /teleport update and the previous “&amp;” feature?",
+    "author_handle": "@realKonark",
+    "author_name": "Konark",
+    "created_at": "Thu Jan 08 07:38:08 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009414480111775969",
+    "text": "@bcherny Let me guess, you wrote these changes with codex?",
+    "author_handle": "@muskforlife",
+    "author_name": "A Desolate Universe",
+    "created_at": "Thu Jan 08 23:58:39 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009106198973518213",
+    "text": "@bcherny Claude team is shipping at lightspeed.",
+    "author_handle": "@thealokverse",
+    "author_name": "A L O K",
+    "created_at": "Thu Jan 08 03:33:39 +0000 2026",
+    "likes": 3,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009079183411171477",
+    "text": "@bcherny 10K commits?? Damn... who didnt sleep?",
+    "author_handle": "@marcopfortes",
+    "author_name": "Marco Fortes",
+    "created_at": "Thu Jan 08 01:46:18 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009217933482876976",
+    "text": "@bcherny My complaint is that it cost way too much and takes too long to think and respond.",
+    "author_handle": "@KennyKw46984486",
+    "author_name": "Kenny Kwok",
+    "created_at": "Thu Jan 08 10:57:39 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009164324150104209",
+    "text": "@bcherny at the moment I can't even update because \"Another Claude process is currently running. Please try again in a moment.\" I did all the grep kill, pkill, -9 I could think of",
+    "author_handle": "@Dean_La",
+    "author_name": "Dean Langsam",
+    "created_at": "Thu Jan 08 07:24:38 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009089165108085002",
+    "text": "@bcherny My env is still intellij...\nIs claude on cli another world?!?!",
+    "author_handle": "@eksoo_kys",
+    "author_name": "윾수 | EKSOO",
+    "created_at": "Thu Jan 08 02:25:58 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009079401166807448",
+    "text": "@bcherny officially claude code pilled!",
+    "author_handle": "@ravstr",
+    "author_name": "ravstr",
+    "created_at": "Thu Jan 08 01:47:10 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009142563710881964",
+    "text": "@bcherny Teleporting sounds awesome.. I am hoping I can use the workflow of:\n1. Run explore sub-agents, come up with plan of action\n2. Start work, ensure its on track\n3. Teleport, move on to next task\n\n(then later)\n4. Go to web, view PR, merge.",
+    "author_handle": "@N3sOnline",
+    "author_name": "WILL NESS",
+    "created_at": "Thu Jan 08 05:58:09 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009116118825251215",
+    "text": "@bcherny Literally everything besides fixing the fact “accept all edits for this session” never works eve",
+    "author_handle": "@SilverYogensha",
+    "author_name": "YogenshaSilver",
+    "created_at": "Thu Jan 08 04:13:04 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009115716910477652",
+    "text": "@bcherny Shift enter is the most underrated feature . lowk better than opus 4.5",
+    "author_handle": "@KarRed46",
+    "author_name": "Karthik",
+    "created_at": "Thu Jan 08 04:11:29 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2003470259978928221",
+    "text": "RT @Med1_Ai: Chaos isn’t a workflow; Spaces is.\n\nI used to jump between folders, docs, logs, and spreadsheets just to complete one task.\n\nN…",
+    "author_handle": "@freepik",
+    "author_name": "Freepik",
+    "created_at": "Tue Dec 23 14:18:27 +0000 2025",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009182907022364942",
+    "text": "@bcherny How do I connect it to Claude desktop and with Google vertex auth",
+    "author_handle": "@yashv_singh",
+    "author_name": "Neutral net 🕸️",
+    "created_at": "Thu Jan 08 08:38:28 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009108999258390941",
+    "text": "@bcherny Hey, do the bugs get ironed out or not yet? I know the latest release had some issues w/ memory leaks and such? \n\nI’m dying to use it but wondering if it was cleaned up?",
+    "author_handle": "@loadingalias",
+    "author_name": "alias",
+    "created_at": "Thu Jan 08 03:44:47 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009072504170795404",
+    "text": "@bcherny I scanned your entire profile with the claude extension to find the most efficient workflows that you personally use and it’s fascinating how much I learned",
+    "author_handle": "@Andrey__HQ",
+    "author_name": "Andrey",
+    "created_at": "Thu Jan 08 01:19:46 +0000 2026",
+    "likes": 6,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009104912991605105",
+    "text": "@bcherny Big set of updates! 🚀\nDid it also fix the flickering that happens during execution? Happening quite frequently now and it crashes the IDE( Cursor in my case ) post that..probably something related to memory here.",
+    "author_handle": "@vivekalogics",
+    "author_name": "Vivek",
+    "created_at": "Thu Jan 08 03:28:33 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009172780714217823",
+    "text": "@bcherny Nice to see them finally streamline the agent handling and context for more fluid workflows.",
+    "author_handle": "@hulkworks",
+    "author_name": "hulk",
+    "created_at": "Thu Jan 08 07:58:14 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009148081162604822",
+    "text": "@bcherny X is so great at predicting releases",
+    "author_handle": "@kamilkwapiszpl",
+    "author_name": "Kamil Kwapisz",
+    "created_at": "Thu Jan 08 06:20:05 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009081522700308866",
+    "text": "@bcherny for teleport is it possible to be used from agent sdk to cli or web? or is teleport reserved for only cli and web?",
+    "author_handle": "@singletwinz",
+    "author_name": "Twin",
+    "created_at": "Thu Jan 08 01:55:36 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009097415744512502",
+    "text": "@bcherny Boy, I can't keep up with updates. Don't do vacation anymore please!",
+    "author_handle": "@iamspacecreated",
+    "author_name": "Vlad ⚡",
+    "created_at": "Thu Jan 08 02:58:45 +0000 2026",
+    "likes": 3,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009088414256386352",
+    "text": "@bcherny I’ve started topping up for Claude again — Claude Code is amazing! Thank you so much!",
+    "author_handle": "@l_zoet",
+    "author_name": "Eryon",
+    "created_at": "Thu Jan 08 02:22:59 +0000 2026",
+    "likes": 3,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009101149312569721",
+    "text": "@bcherny Please please give Claude the ability to know the file path of an image dragged into the terminal. 🙏🙏🙏🙏",
+    "author_handle": "@sean_infinnerty",
+    "author_name": "Sean Finnerty",
+    "created_at": "Thu Jan 08 03:13:35 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009376075898606052",
+    "text": "@bcherny I've built out several complex workflows with skills &amp; agents, for DevOps production support, but there's a BIG problem...all the MCP tools I need start my context out at &gt;150k tokens, so I disabled them...I expected skills/agents to be able to enable them when listed in allowed",
+    "author_handle": "@RickDavis404",
+    "author_name": "RickDavis404",
+    "created_at": "Thu Jan 08 21:26:03 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009400228311650472",
+    "text": "@bcherny Teleport means I can stop a session, send it remote and close my MacBook and it'll cook in the cloud or did I understand that wrong?",
+    "author_handle": "@yasinkavakliat",
+    "author_name": "Yasin Kavakli",
+    "created_at": "Thu Jan 08 23:02:01 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009096230186701083",
+    "text": "@bcherny Can we please have these in the mobile app too? \nI’d love to add skills on mobile. \nI’d love to show my gf that only speaks Spanish the research Claude did on meteor showers for the recent meteor shower etc",
+    "author_handle": "@ChimeraDefi",
+    "author_name": "ChimeraDefi.eth argentina bound",
+    "created_at": "Thu Jan 08 02:54:03 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009328586671706258",
+    "text": "@bcherny new release, more hooks, skills get a serious boost",
+    "author_handle": "@vikramships",
+    "author_name": "Vikram",
+    "created_at": "Thu Jan 08 18:17:21 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009121114669367446",
+    "text": "@bcherny Can you please add chrome extension for mobile and fix the infinite planning mode error as well",
+    "author_handle": "@_ColeJa_",
+    "author_name": "Jake",
+    "created_at": "Thu Jan 08 04:32:56 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009122368556564841",
+    "text": "@bcherny Hey @bcherny I had a question, is that terminal flickering thing fixed? Haven't skimmed change logs yet complerel but that thing is really an issue, once that thing started and I was reviewing the code and the chat suddenly went to the top and then it wasen't scrolling down... I",
+    "author_handle": "@YashasGunderia",
+    "author_name": "Yashas",
+    "created_at": "Thu Jan 08 04:37:55 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009132190874128868",
+    "text": "@bcherny I was waiting for Shift+enter for so long\n\nThank you 🥲",
+    "author_handle": "@eugenezelenkov",
+    "author_name": "Eugene",
+    "created_at": "Thu Jan 08 05:16:56 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009200595811594282",
+    "text": "@bcherny Is it me or is this thingy also way faster now?",
+    "author_handle": "@AkkermannKris",
+    "author_name": "Krïstjan",
+    "created_at": "Thu Jan 08 09:48:45 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009146388114706596",
+    "text": "@bcherny Nice to see that CC gets regularly updates which really improve the quality.",
+    "author_handle": "@SalzmannOnX",
+    "author_name": "Kevin Salzmann",
+    "created_at": "Thu Jan 08 06:13:21 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009130030920778047",
+    "text": "@bcherny Paging @AlexFinn . Let’s cook some YouTube demos.",
+    "author_handle": "@this_cpa_Parker",
+    "author_name": "Parker Sommerkamp",
+    "created_at": "Thu Jan 08 05:08:21 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "1956114609951146017",
+    "text": "A quick reminder 🙂 https://t.co/aF4ZQQ2owO",
+    "author_handle": "@RonaldReagan",
+    "author_name": "Ronald Reagan Presidential Foundation & Institute",
+    "created_at": "Thu Aug 14 22:04:00 +0000 2025",
+    "likes": 4818,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009092647177347314",
+    "text": "@bcherny Hooks directly to skills is HUGE. But thats based on my internal imagination on how it works. Will play with this a lot and report on my profile my findings (I say this assuming the documentation is not up to date)",
+    "author_handle": "@0xnfrith",
+    "author_name": "nick frith",
+    "created_at": "Thu Jan 08 02:39:48 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009387017222910081",
+    "text": "@bcherny Boris announced 2.1.0 and Claude Code updates to 2.1.1 before he can finish the post…lol",
+    "author_handle": "@mikekidder",
+    "author_name": "Mike Kidder",
+    "created_at": "Thu Jan 08 22:09:32 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009089353604321755",
+    "text": "@bcherny I would wish Claude Code would eliminate the rate limiting attention and at least lessen the time. It's so frustrating. You're very productive in 30 mins to 1 hr and then stops you from doing for another 3-4 hrs. I miss the old Claude Code that's why I totally canceled it. I used",
+    "author_handle": "@FrankhHQ",
+    "author_name": "Frank H",
+    "created_at": "Thu Jan 08 02:26:43 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009083023921435121",
+    "text": "@bcherny Great👍",
+    "author_handle": "@annopost",
+    "author_name": "Anno 🇳🇱🇧🇫",
+    "created_at": "Thu Jan 08 02:01:34 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009132460337188958",
+    "text": "@bcherny Such an amazing peace of software",
+    "author_handle": "@eugenezelenkov",
+    "author_name": "Eugene",
+    "created_at": "Thu Jan 08 05:18:01 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009224480103829645",
+    "text": "@bcherny i love you",
+    "author_handle": "@galluzzo_julian",
+    "author_name": "Julian Galluzzo",
+    "created_at": "Thu Jan 08 11:23:40 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009162721506251131",
+    "text": "@bcherny What exactly does this mean? enabling/disabling available tools per MCP? What about doing this more granular in skills, commands, ..., ...?\n&gt; Added support for MCP list_changed notifications, allowing MCP servers to dynamically update their available tools, prompts, and resources",
+    "author_handle": "@Bitcollage",
+    "author_name": "Bitcollage",
+    "created_at": "Thu Jan 08 07:18:15 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009085775842037774",
+    "text": "@bcherny So I can make a TDD agent with a TDD hook for tests, so don't stop until tests pass? (a.k.a. Ralph)",
+    "author_handle": "@nmw_dev",
+    "author_name": "NMW",
+    "created_at": "Thu Jan 08 02:12:30 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009287499793727605",
+    "text": "@bcherny Thanks, Boris. Does /teleport work using inference on AWS Bedrock?",
+    "author_handle": "@arpagon",
+    "author_name": "Sebastian Rojo",
+    "created_at": "Thu Jan 08 15:34:05 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009155597351170332",
+    "text": "@bcherny excited to see how long the 'Claude Code changed my life' era lasts before everyone realizes we're just moving from one tool hopping cycle to the next",
+    "author_handle": "@wazX_7",
+    "author_name": "Waz",
+    "created_at": "Thu Jan 08 06:49:57 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009081852183855445",
+    "text": "@bcherny This shows where AI dev tools are heading: less “chat”, more control. Hooks, agents, and skills turn models into systems  that’s where productivity actually scales.",
+    "author_handle": "@shaka_cx",
+    "author_name": "Yshak",
+    "created_at": "Thu Jan 08 01:56:55 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009147344961589520",
+    "text": "@bcherny This update is massive! Shift+enter for newlines with zero setup and hooks directly to agents frontmatter are game changers. The Skills feature with forked context and hot reload will definitely speed up custom agent development. Can't wait to test these in production.",
+    "author_handle": "@JadeAI_",
+    "author_name": "Jade 🚀 Claude Codeでチーム爆速化支援",
+    "created_at": "Thu Jan 08 06:17:09 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009271739193213383",
+    "text": "@bcherny thanks! unfortunately v2.1.0 broke `option+backspace` to delete an entire word. please bring that back :)",
+    "author_handle": "@nimarblu",
+    "author_name": "Nimar",
+    "created_at": "Thu Jan 08 14:31:27 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009138722252665316",
+    "text": "@bcherny Love the unification of Skills and Commands. Great release. 🙏",
+    "author_handle": "@gummadi",
+    "author_name": "Ravi Gummadi",
+    "created_at": "Thu Jan 08 05:42:54 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009278459592184128",
+    "text": "@bcherny Is the Editor Tool no longer crippling any file that is not UTF-8? There's like 10 duplicate bug reports on GitHub, yet we have to keep babysitting the CC to run iconv back and forth all the time :(",
+    "author_handle": "@tmrcz",
+    "author_name": "ТМР",
+    "created_at": "Thu Jan 08 14:58:10 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009095753009172851",
+    "text": "@bcherny Are the hooks for agents and skills the same as the general hooks? Are there new ones?",
+    "author_handle": "@0xnfrith",
+    "author_name": "nick frith",
+    "created_at": "Thu Jan 08 02:52:09 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2007207019493896590",
+    "text": "You don’t outgrow being gifted.\n\nYou outgrow the systems that once worked for you.",
+    "author_handle": "@GetTheFabulous",
+    "author_name": "The Fabulous",
+    "created_at": "Fri Jan 02 21:47:00 +0000 2026",
+    "likes": 217,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009087851217211870",
+    "text": "@bcherny Feature request: Please allow multi threading, parallel execution for chrome browser tool while on Claude code. Currently if two sessions are open, they get mixed up when using Claude code.",
+    "author_handle": "@udaysy",
+    "author_name": "Uday Yatnalli",
+    "created_at": "Thu Jan 08 02:20:45 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009084518070931808",
+    "text": "@bcherny Agents not stopping when we deny to use any tool is one I needed for a long time!",
+    "author_handle": "@shubh_dholakiya",
+    "author_name": "Shubh Dholakiya",
+    "created_at": "Thu Jan 08 02:07:30 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009225544437760050",
+    "text": "@bcherny Wow. Excited to try and build things around Home automation.",
+    "author_handle": "@Hem_curio",
+    "author_name": "Hemachandiran",
+    "created_at": "Thu Jan 08 11:27:54 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009090749686796456",
+    "text": "@bcherny Compactor next!\n\nThis is a great function but needs work!",
+    "author_handle": "@reneromero08",
+    "author_name": "Raúl R Romero",
+    "created_at": "Thu Jan 08 02:32:16 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009289373666132172",
+    "text": "@bcherny I use it every day，but I don't really like how Claude's code is updated so frequently—it feels like it's drifting away from the philosophy that originally defined it.",
+    "author_handle": "@goeasyway55755",
+    "author_name": "goeasyway",
+    "created_at": "Thu Jan 08 15:41:32 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009145538181214403",
+    "text": "@bcherny Shift+Enter not work on vsc",
+    "author_handle": "@alanhe421",
+    "author_name": "Alan H",
+    "created_at": "Thu Jan 08 06:09:59 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009187271095030199",
+    "text": "@bcherny Is there any quality impact when not working in English? - Configure the model to respond in your language (eg. Japanese, Spanish)",
+    "author_handle": "@vanYperen",
+    "author_name": "Richard van Yperen",
+    "created_at": "Thu Jan 08 08:55:48 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009188048999735480",
+    "text": "@bcherny That last teleport feature is sick",
+    "author_handle": "@nomad_remy",
+    "author_name": "NomadRemy",
+    "created_at": "Thu Jan 08 08:58:54 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009080959388500414",
+    "text": "@bcherny @shariqriazz Look at the changelog size 🤣",
+    "author_handle": "@rezaul_arif",
+    "author_name": "Rezaul Arif",
+    "created_at": "Thu Jan 08 01:53:22 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009104883555946998",
+    "text": "@bcherny Teleport is going up be goated",
+    "author_handle": "@TheMihirSahu",
+    "author_name": "Mihir",
+    "created_at": "Thu Jan 08 03:28:26 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009091664472916095",
+    "text": "@bcherny I think you can ship more /s",
+    "author_handle": "@nizbuilds",
+    "author_name": "Niz",
+    "created_at": "Thu Jan 08 02:35:54 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009096457308299728",
+    "text": "@bcherny Thank you and the entire team for this new release",
+    "author_handle": "@rubenmayorfx",
+    "author_name": "Aespid",
+    "created_at": "Thu Jan 08 02:54:57 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009080730429886738",
+    "text": "@bcherny That bash subagent doe",
+    "author_handle": "@markatgradient",
+    "author_name": "Mark Huang",
+    "created_at": "Thu Jan 08 01:52:27 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009229904613982301",
+    "text": "@bcherny I am on v2.1.1, but I cannot see or use the new/teleport command.",
+    "author_handle": "@Bitcollage",
+    "author_name": "Bitcollage",
+    "created_at": "Thu Jan 08 11:45:13 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009195039432327331",
+    "text": "@bcherny It just keeps getting better",
+    "author_handle": "@ESchwaa",
+    "author_name": "ESchwaa",
+    "created_at": "Thu Jan 08 09:26:41 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009077611121738116",
+    "text": "@bcherny Will hooks be added to the specification? https://t.co/2dwYbj8mgd I feel like they are stable enough at this point and Im not sure if you have impact on this, but it would be good to push for in my opinion",
+    "author_handle": "@Principal_ADE",
+    "author_name": "Fernando",
+    "created_at": "Thu Jan 08 01:40:04 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009115349590192245",
+    "text": "@bcherny it feels like Claude Max limit changed.. \n\nI was NOT able to reach limits during 8 hours of working\n\nnow I reach it in 3 hours of work\n\n:(",
+    "author_handle": "@thejakubsobotka",
+    "author_name": "Jakub Sobotka",
+    "created_at": "Thu Jan 08 04:10:01 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009399072890016026",
+    "text": "@bcherny Please sir, a hook on failed tool calls (it's already in the Issues)",
+    "author_handle": "@MythThrazz",
+    "author_name": "Marcin Dudek",
+    "created_at": "Thu Jan 08 22:57:26 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009262000379977826",
+    "text": "@bcherny Claude 2.1.2 shift + enter will break again. lol",
+    "author_handle": "@kldeason",
+    "author_name": "Kevin Deason",
+    "created_at": "Thu Jan 08 13:52:45 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009234116483674161",
+    "text": "@bcherny this solves real problems. subagent context pollution was one of my biggest pain points.",
+    "author_handle": "@f_butz",
+    "author_name": "Fabien Butz",
+    "created_at": "Thu Jan 08 12:01:57 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2008938628991615299",
+    "text": "RT @Raadmobrem: Founder of Reddit ($25B)\n\nFounder of Loom ($1B)\n\nExecs at Uber ($200B), Tinder ($8B), and more.\n\nYou can get personalized a…",
+    "author_handle": "@intro",
+    "author_name": "Intro",
+    "created_at": "Wed Jan 07 16:27:48 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009367339888767380",
+    "text": "@bcherny - Shift+enter for newlines, w/ zero setup\n\nHow? 😆 the world needs to know",
+    "author_handle": "@kandros5591",
+    "author_name": "Jaga santagostino",
+    "created_at": "Thu Jan 08 20:51:20 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009159321767301329",
+    "text": "@bcherny How can we make it react on low context, /clear and go?",
+    "author_handle": "@_eMaX_",
+    "author_name": "Grzegorz Brzęczyszczykiewicz 🐀",
+    "created_at": "Thu Jan 08 07:04:45 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009074284392796337",
+    "text": "@bcherny Good ，Skills can finally be hot-loaded.",
+    "author_handle": "@linxiaobei888",
+    "author_name": "xiaobeiLin(小北)",
+    "created_at": "Thu Jan 08 01:26:50 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009242774886076817",
+    "text": "@bcherny Hooray /teleport",
+    "author_handle": "@GarzaGabe",
+    "author_name": "Gabriel Garza",
+    "created_at": "Thu Jan 08 12:36:22 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009075234432078059",
+    "text": "@bcherny For skills can we add $ to reference skills? Right now the slash command has to be invoked at start of prompt. Similar to codex",
+    "author_handle": "@mattlam_",
+    "author_name": "Matthew Lam",
+    "created_at": "Thu Jan 08 01:30:37 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009096614095540408",
+    "text": "@bcherny how much of this new version was written by Claude Code?",
+    "author_handle": "@sockcymbal",
+    "author_name": "Nathan Black",
+    "created_at": "Thu Jan 08 02:55:34 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009217107838583272",
+    "text": "@bcherny can you guys fix auto compact on sub agents?",
+    "author_handle": "@andreihasna",
+    "author_name": "Andrei Hasna",
+    "created_at": "Thu Jan 08 10:54:22 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009106906309333127",
+    "text": "@bcherny I just got used to options+enter for newlines",
+    "author_handle": "@AmeerHaio",
+    "author_name": "Ameer",
+    "created_at": "Thu Jan 08 03:36:28 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009095922886856844",
+    "text": "@bcherny Forked context + /teleport is huge. Real workflow win.",
+    "author_handle": "@yeasindesign",
+    "author_name": "Arafat",
+    "created_at": "Thu Jan 08 02:52:49 +0000 2026",
+    "likes": 2,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009081926691487865",
+    "text": "@bcherny Needed Shift+enter so bad",
+    "author_handle": "@SwisV7",
+    "author_name": "swiszo",
+    "created_at": "Thu Jan 08 01:57:12 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009208359036342346",
+    "text": "@bcherny Shift+enter, hot reload, forked context, these details compound into serious velocity gains",
+    "author_handle": "@joulsounet",
+    "author_name": "Joulse",
+    "created_at": "Thu Jan 08 10:19:36 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009113343844319379",
+    "text": "@bcherny How do I get all the benefits of CC inside VSC? I'm using Roo Code now. A \" How to go from Roo Code to CC\" guide for non-devs would help.",
+    "author_handle": "@mayuronx",
+    "author_name": "Mayur",
+    "created_at": "Thu Jan 08 04:02:03 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009090453942272468",
+    "text": "@bcherny This feels like the /compact version of the actual updates :) Incredible stuff. Can’t wait to take it for a spin!",
+    "author_handle": "@kailazh",
+    "author_name": "Kailash",
+    "created_at": "Thu Jan 08 02:31:05 +0000 2026",
+    "likes": 1,
+    "is_reply_to": "2009072293826453669"
+  },
+  {
+    "id": "2009340689986015335",
+    "text": "@bcherny I’m unreasonably excited about shift+enter new lines",
+    "author_handle": "@Williamhitchco",
+    "author_name": "William Hitchcock",
+    "created_at": "Thu Jan 08 19:05:26 +0000 2026",
+    "likes": 0,
+    "is_reply_to": "2009072293826453669"
+  }
+]

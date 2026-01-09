@@ -36,6 +36,10 @@ url: "https://x.com/jarrodwatts/status/2007579355762045121"
 >
 > Likes: 2,427 · Replies: 82 · Reposts: 154
 
+## Summary
+
+This tip introduces Claude HUD, a plugin for Claude Code that provides real-time insights into Claude's operation. It visualizes session context, tool execution, subagent activity, and progress on to-do lists. This allows users to gain a deeper understanding of Claude's processes and resource usage within a coding session.
+
 ## Replies
 
 > [!reply] @kotobukiyas · Wed Dec 24 09:03:46 +0000 2025

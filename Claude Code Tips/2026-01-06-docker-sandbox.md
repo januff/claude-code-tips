@@ -18,6 +18,10 @@ url: "https://x.com/mattpocockuk/status/2008540426077344038"
 >
 > Likes: 844 · Replies: 33 · Reposts: 21
 
+## Summary
+
+This tip presents a method for running the Claude code assistant in a Docker container to mitigate risks. The key action is utilizing the command `docker sandbox run claude`, which creates an isolated environment to prevent accidental file system modifications or other unintended consequences from Claude's operations. This approach ensures Claude operates within the current directory without potentially affecting other parts of your system.
+
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 844 · **Replies:** 33 · **Reposts:** 21 · **Views:** 0

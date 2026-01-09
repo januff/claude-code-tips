@@ -42,6 +42,10 @@ url: "https://x.com/frankdegods/status/2007199488776253597"
 >
 > Likes: 5,965 · Replies: 516 · Reposts: 177
 
+## Summary
+
+This Claude Code tip details a workflow for automating subscription management. It showcases a Claude skill capable of parsing credit card statements to identify subscriptions, prompting the user for cancellation confirmation, and then using Chrome automation to cancel them directly. The core insight is leveraging Claude's code skills to streamline and automate the often tedious process of identifying and canceling unwanted subscriptions.
+
 ## Replies
 
 > [!reply] @notthreadguy · Fri Jan 02 21:34:08 +0000 2026

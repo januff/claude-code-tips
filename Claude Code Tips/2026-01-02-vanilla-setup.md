@@ -91,6 +91,10 @@ url: "https://x.com/bcherny/status/2007179832300581177"
 >
 > Likes: 45,567 · Replies: 1,065 · Reposts: 5,480
 
+## Summary
+
+Claude Code creator Boris shares his surprisingly simple, out-of-the-box setup as an example, emphasizing that there's no single "right" way to use the tool. The key takeaway is Claude Code's adaptability; it's designed to be customized and hacked to fit individual workflows, as demonstrated by the diverse usage within the Claude Code team itself. This highlights the flexibility and user-centric approach to Claude Code's design.
+
 ## Replies
 
 > [!reply] @MikeKhristo · Fri Jan 02 22:00:09 +0000 2026

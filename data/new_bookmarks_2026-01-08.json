@@ -1,0 +1,642 @@
+[
+  {
+    "id": "2009098789907251320",
+    "text": "Claude Code 迭代很快，已经到了 2.1.1 版本，这次有一堆更新，三个值得关注的更新：\n1）技能热重载终于来了。改完 skills 文件夹里的东西立刻生效，不用重启 session\n\n2）新增 context: fork",
+    "author_handle": "@dotey",
+    "author_name": "宝玉",
+    "created_at": "Thu Jan 08 03:04:13 +0000 2026",
+    "likes": 165,
+    "retweets": 14,
+    "replies": 48
+  },
+  {
+    "id": "2009035664860565525",
+    "text": "Introducing CallMe, a minimal plugin that lets Claude Code call you on the phone.\n\nStart a task, walk away. Your phone/watch rings when Claude is done, stuck, or needs a decision.\n\nFree &amp; open source (MIT). Underlying API costs are cents per minute of call. https://t.co/2FlZf9a5jW",
+    "author_handle": "@boredGenius",
+    "author_name": "zefram.eth",
+    "created_at": "Wed Jan 07 22:53:23 +0000 2026",
+    "likes": 5917,
+    "retweets": 368,
+    "replies": 247
+  },
+  {
+    "id": "2009072293826453669",
+    "text": "Claude Code 2.1.0 is officially out! claude update to get it\n\nWe shipped:\n\n- Shift+enter for newlines, w/ zero setup\n- Add hooks directly to agents &amp; skills frontmatter\n- Skills: forked context, hot reload, custom agent support, invoke with /\n- Agents no longer stop when you deny https://t.co/p29WlcdwoR",
+    "author_handle": "@bcherny",
+    "author_name": "Boris Cherny",
+    "created_at": "Thu Jan 08 01:18:56 +0000 2026",
+    "likes": 9578,
+    "retweets": 710,
+    "replies": 629
+  },
+  {
+    "id": "2009029701449470323",
+    "text": "Claude Code v2.1.1 introduces a new \"Bash\" subagent - a command execution specialist.\n\nUseful for avoiding context pollution in the main thread by moving multi-step operations to another context window. https://t.co/73JvhxuTKM",
+    "author_handle": "@jarrodwatts",
+    "author_name": "Jarrod Watts",
+    "created_at": "Wed Jan 07 22:29:41 +0000 2026",
+    "likes": 1187,
+    "retweets": 74,
+    "replies": 27
+  },
+  {
+    "id": "2008761427805544674",
+    "text": "A simple but very effective rule I use in Claude Code is this \"comments[.]md\" file.\n\nIt prevents Claude from writing slop comments like \"increment counter\" on already self-documenting code. https://t.co/WYDG7HPcCu",
+    "author_handle": "@jarrodwatts",
+    "author_name": "Jarrod Watts",
+    "created_at": "Wed Jan 07 04:43:40 +0000 2026",
+    "likes": 978,
+    "retweets": 51,
+    "replies": 41
+  },
+  {
+    "id": "2008714622035956104",
+    "text": "Obsidian CEO写的Skill，基于X用户调研。\n\n这几天，他好像经常问大家用给Ob写了什么好玩的Claude Skill。\n\n其实，大家的回复更精彩，但他写的很基础底层。\n\n① 写出Obsidian风格的Markdown （内链、属性等）\n② 生成.Base 文件的过滤器和公式\n③ 生成Canva无限画布等\n\n用这个很简单，只需要告诉Claude https://t.co/0jmLqgg2TW",
+    "author_handle": "@vista8",
+    "author_name": "向阳乔木",
+    "created_at": "Wed Jan 07 01:37:40 +0000 2026",
+    "likes": 264,
+    "retweets": 35,
+    "replies": 10
+  },
+  {
+    "id": "2008587855434838190",
+    "text": "I used Ralph last night with Amp and was blown away.\n\nWrote a tutorial for y'all!",
+    "author_handle": "@ryancarson",
+    "author_name": "Ryan Carson",
+    "created_at": "Tue Jan 06 17:13:57 +0000 2026",
+    "likes": 824,
+    "retweets": 30,
+    "replies": 31
+  },
+  {
+    "id": "2008578110141190580",
+    "text": "https://t.co/rPdSjVH7ky",
+    "author_handle": "@godofprompt",
+    "author_name": "God of Prompt",
+    "created_at": "Tue Jan 06 16:35:13 +0000 2026",
+    "likes": 1199,
+    "retweets": 115,
+    "replies": 20
+  },
+  {
+    "id": "2008468936300298553",
+    "text": "ngl claude agent sdk might spawn a whole crop of new unicorns",
+    "author_handle": "@frankdegods",
+    "author_name": "Frank",
+    "created_at": "Tue Jan 06 09:21:24 +0000 2026",
+    "likes": 440,
+    "retweets": 11,
+    "replies": 56
+  },
+  {
+    "id": "2008482197557104870",
+    "text": "Claude Code with infinite memory is now possible.\n\nClaude-Mem is a free plugin to persist memory across Claude sessions.\n\n- Up to 95% fewer tokens per session.\n- 20× more tool calls before context limits.\n\n100% open-source. https://t.co/oB4mCRMGBX",
+    "author_handle": "@simplifyinAI",
+    "author_name": "Simplifying AI",
+    "created_at": "Tue Jan 06 10:14:06 +0000 2026",
+    "likes": 1486,
+    "retweets": 134,
+    "replies": 42
+  },
+  {
+    "id": "2008414283969810676",
+    "text": "This isn't an overstatement. It's not an attempt to create hype. If you don't see it yet, you will.\n\n(This post isn't about all LLMs. It's specifically about Claude Code with Opus 4.5. There was software development before Claude Code with Opus 4.5, and there is software",
+    "author_handle": "@burkov",
+    "author_name": "BURKOV",
+    "created_at": "Tue Jan 06 05:44:14 +0000 2026",
+    "likes": 250,
+    "retweets": 25,
+    "replies": 24
+  },
+  {
+    "id": "2008638577308291424",
+    "text": "rip conductor. claude desktop with worktree-first workflow is out.",
+    "author_handle": "@banteg",
+    "author_name": "banteg",
+    "created_at": "Tue Jan 06 20:35:30 +0000 2026",
+    "likes": 362,
+    "retweets": 9,
+    "replies": 25
+  },
+  {
+    "id": "2008628739572134270",
+    "text": "Docs here: https://t.co/vzjRiNWaG3\n\nS/o @amorriscode and @alicelovescake1 who built this!",
+    "author_handle": "@_catwu",
+    "author_name": "cat",
+    "created_at": "Tue Jan 06 19:56:24 +0000 2026",
+    "likes": 375,
+    "retweets": 26,
+    "replies": 29
+  },
+  {
+    "id": "2008693098499764574",
+    "text": "如果你也在用Claude做知识管理，尤其是搭配obsidian\n\n一定不要错过这个\n\nOB 的 CEO 罗列了几乎所有优质的\nskills 帮助你更好的使用 Obsidian 进行知识管理\n\n神器，秒杀所有 AI 笔记\n\nhttps://t.co/KabADTPGzZ",
+    "author_handle": "@Jackywine",
+    "author_name": "Jackywine",
+    "created_at": "Wed Jan 07 00:12:09 +0000 2026",
+    "likes": 630,
+    "retweets": 110,
+    "replies": 17
+  },
+  {
+    "id": "2008344076773413357",
+    "text": "Opus 4.5 + Ralph Wiggum with XcodeBuild and playwright is going to mint millionaires.\n\nMark my words.\n\nYou’re not ready",
+    "author_handle": "@hunterhammonds",
+    "author_name": "Hunter Hammonds",
+    "created_at": "Tue Jan 06 01:05:15 +0000 2026",
+    "likes": 1986,
+    "retweets": 63,
+    "replies": 67
+  },
+  {
+    "id": "2008625420741341355",
+    "text": "So apparently @GeoffreyHuntley's Ralph Wiggum technique (and our Claude Code plugin for it) went a little viral over the holidays? I thought I'd share a typical prompt I use with it. All of the instructional videos I've seen don't give thorough enough completion promises, IMHO https://t.co/q6BsobYaUF",
+    "author_handle": "@The_Whole_Daisy",
+    "author_name": "Daisy Hollman",
+    "created_at": "Tue Jan 06 19:43:13 +0000 2026",
+    "likes": 674,
+    "retweets": 42,
+    "replies": 20
+  },
+  {
+    "id": "2008661231909913002",
+    "text": "HUGE update to Claude Code today. You can now access Claude Code and your local files via the Claude Desktop app. No more terminal window!\n\nSimply open the desktop app, select Code and press the install button.  Thereafter, just select your folder and away you go. https://t.co/YM9m59KDym",
+    "author_handle": "@koltregaskes",
+    "author_name": "Kol Tregaskes",
+    "created_at": "Tue Jan 06 22:05:31 +0000 2026",
+    "likes": 2484,
+    "retweets": 202,
+    "replies": 137
+  },
+  {
+    "id": "2008540426077344038",
+    "text": "Worried about Ralph rimraf-ing your home directory?\n\ndocker sandbox run claude\n\nRuns Claude in a dockerized sandbox in the current directory.",
+    "author_handle": "@mattpocockuk",
+    "author_name": "Matt Pocock",
+    "created_at": "Tue Jan 06 14:05:29 +0000 2026",
+    "likes": 1028,
+    "retweets": 31,
+    "replies": 45
+  },
+  {
+    "id": "2008237335830556916",
+    "text": "@anshnanda ENABLE_TOOL_SEARCH=true\nsolves this",
+    "author_handle": "@ARCaputo3",
+    "author_name": "Richie Caputo",
+    "created_at": "Mon Jan 05 18:01:06 +0000 2026",
+    "likes": 29,
+    "retweets": 0,
+    "replies": 3
+  },
+  {
+    "id": "2008029028595458184",
+    "text": "This is why Anthropic built Skills btw",
+    "author_handle": "@anshnanda",
+    "author_name": "Ansh Nanda",
+    "created_at": "Mon Jan 05 04:13:22 +0000 2026",
+    "likes": 858,
+    "retweets": 24,
+    "replies": 24
+  },
+  {
+    "id": "2008228756629172667",
+    "text": "Claude Code has 3 permission tiers and most people use zero of them:\n\n\"allow\" - Auto-approve the routine stuff\n\"ask\" - Confirm the risky stuff\n\"deny\" - Block the dangerous stuff\n\nConfigure once. Never click \"allow\" on npm test again. Your flow state will thank you. https://t.co/7jSGdyGoJO",
+    "author_handle": "@adocomplete",
+    "author_name": "Ado",
+    "created_at": "Mon Jan 05 17:27:01 +0000 2026",
+    "likes": 977,
+    "retweets": 76,
+    "replies": 48
+  },
+  {
+    "id": "2008306060193370509",
+    "text": "Problem: I’d like to be able to check on or work with my laptop’s Claude or Codex instance via my phone. \n\nSolution: Happy. \n\nJump right into an existing desktop/laptop session via your phone. \n\nhttps://t.co/aN9fH0gctA",
+    "author_handle": "@housecor",
+    "author_name": "Cory House",
+    "created_at": "Mon Jan 05 22:34:11 +0000 2026",
+    "likes": 621,
+    "retweets": 28,
+    "replies": 35
+  },
+  {
+    "id": "2008200878633931247",
+    "text": "My Ralph Wiggum breakdown went viral.\n\nIt's a keep-it-simple-stupid approach to AI coding that lets you ship while you sleep.\n\nSo here's a full explanation, example code, and demo. https://t.co/FyVdrIyqUP",
+    "author_handle": "@mattpocockuk",
+    "author_name": "Matt Pocock",
+    "created_at": "Mon Jan 05 15:36:14 +0000 2026",
+    "likes": 4149,
+    "retweets": 307,
+    "replies": 189
+  },
+  {
+    "id": "2008161724902355118",
+    "text": "You can now give infinite memory to Claude Code.\n\nClaude-Mem just released a free open source memory plugin by thedotmack.\n\nIt saves context so Claude resumes work without reexplaining everything.\n\n𝗣𝗲𝗿𝘀𝗶𝘀𝘁𝗲𝗻𝘁 𝗺𝗲𝗺𝗼𝗿𝘆 𝗳𝗼𝗿 𝗖𝗹𝗮𝘂𝗱𝗲 𝗖𝗼𝗱𝗲\nClaude-Mem records https://t.co/SQ5CX3fSec",
+    "author_handle": "@LiorOnAI",
+    "author_name": "Lior Alexander",
+    "created_at": "Mon Jan 05 13:00:39 +0000 2026",
+    "likes": 3358,
+    "retweets": 345,
+    "replies": 105
+  },
+  {
+    "id": "2008038811616555394",
+    "text": "我不知道这是什么，但它在 GitHub 上冲得太快了\n\n一个为 Claude Code 开发的技能（Skill），灵感来源于 Manus AI，通过持久化的 Markdown 文件来管理任务规划、进度追踪和知识存储。\n\n根据项目描述，Meta 在 2025 年 12 月 29 日以 20 亿美元收购了 AI 代理公司 Manus。\nManus 之所以能在 8",
+    "author_handle": "@geekbb",
+    "author_name": "Geek",
+    "created_at": "Mon Jan 05 04:52:14 +0000 2026",
+    "likes": 786,
+    "retweets": 134,
+    "replies": 15
+  },
+  {
+    "id": "2001035072116547595",
+    "text": "If you haven’t switched to the native install method for Claude Code you’re missing some of the new features.\n\nFor new install:\n\ncurl -fsSL https://t.co/8IRd2qKJyT | bash\n\nIf you have an existing installation of Claude Code, use the following to migrate to the native binary https://t.co/6KqDTmwWth",
+    "author_handle": "@EricBuess",
+    "author_name": "Eric Buess",
+    "created_at": "Tue Dec 16 21:01:53 +0000 2025",
+    "likes": 569,
+    "retweets": 30,
+    "replies": 21
+  },
+  {
+    "id": "2007371786539749837",
+    "text": "我去，这个Obsidian插件更牛逼！\n\n名字叫Claudian，直接用Claude SDK做了一个OB插件。\n\n比Terminal插件更好，能读取当前Obsidian内容作为上下文处理。\n\n（三方中转或国产平替的Claude也可以用）\n\n但需手动下载安装，步骤：\n\n1. 打开评论区第一条的Github地址。 https://t.co/9HPea5brnO",
+    "author_handle": "@vista8",
+    "author_name": "向阳乔木",
+    "created_at": "Sat Jan 03 08:41:43 +0000 2026",
+    "likes": 598,
+    "retweets": 102,
+    "replies": 31
+  },
+  {
+    "id": "2007849823756575084",
+    "text": "The Kraken has been Released\n\nThrough CC Mirror:\n- Claude Code Agent Orchestration\n- Isolated from you main CC exec\n- Packaged with Orchestration Skill \n- You speak, it does anything you want\n\nStep 1:\nnpx cc-mirror quick --provider mirror --name mclaude\n\nStep 2:\nmclaude\n\nAsk it https://t.co/D0m8voGiBe",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Sun Jan 04 16:21:16 +0000 2026",
+    "likes": 449,
+    "retweets": 35,
+    "replies": 27
+  },
+  {
+    "id": "2007639328663474672",
+    "text": "Claude Code can also control your browser.\n\nIt uses your login and session state, so Claude can access anything you're already logged into without API keys or OAuth setup.\n\nHere are 10 workflows that I've been experimenting with:\n\n\"open the PR preview, click through every link,",
+    "author_handle": "@dabit3",
+    "author_name": "nader dabit",
+    "created_at": "Sun Jan 04 02:24:50 +0000 2026",
+    "likes": 962,
+    "retweets": 69,
+    "replies": 73
+  },
+  {
+    "id": "2007512317785936193",
+    "text": "Learning Claude is the best upskill this year.\n\nNothing comes close. https://t.co/KIDgTCTzwf",
+    "author_handle": "@zaimiri",
+    "author_name": "zaimiri ✏️",
+    "created_at": "Sat Jan 03 18:00:08 +0000 2026",
+    "likes": 9336,
+    "retweets": 680,
+    "replies": 179
+  },
+  {
+    "id": "2007579355762045121",
+    "text": "Introducing Claude HUD!\n\nA Claude Code plugin that shows you:\n· context remaining in the session\n· what tools are executing\n· which subagents are running\n· claude's to-do list progress\n\nEasy installation guide below ↓ https://t.co/SEP7MJuFZb",
+    "author_handle": "@jarrodwatts",
+    "author_name": "Jarrod Watts",
+    "created_at": "Sat Jan 03 22:26:32 +0000 2026",
+    "likes": 2792,
+    "retweets": 192,
+    "replies": 100
+  },
+  {
+    "id": "2007588870662107197",
+    "text": "If you have a markdown plan for a new piece of software that you're getting ready to start implementing with a coding agent such as Claude Code, before starting the actual implementation work, give this a try.\n\nPaste your entire markdown plan into the ChatGPT 5.2 Pro web app with",
+    "author_handle": "@doodlestein",
+    "author_name": "Jeffrey Emanuel",
+    "created_at": "Sat Jan 03 23:04:20 +0000 2026",
+    "likes": 705,
+    "retweets": 43,
+    "replies": 29
+  },
+  {
+    "id": "2007314364324364794",
+    "text": "I am using this combination so much \n\nI have started maintaining specific master context files in Obsidian that I repeatedly pass into Claude Code instead of explaining things repeatedly. I have a file like this now for every major project or area of my life that I'm working on",
+    "author_handle": "@internetvin",
+    "author_name": "internetVin",
+    "created_at": "Sat Jan 03 04:53:33 +0000 2026",
+    "likes": 313,
+    "retweets": 6,
+    "replies": 15
+  },
+  {
+    "id": "2007559587998974209",
+    "text": "@housecor Lock in to https://t.co/n4jDINxUkH",
+    "author_handle": "@mattsichterman",
+    "author_name": "Matt Sichterman",
+    "created_at": "Sat Jan 03 21:07:59 +0000 2026",
+    "likes": 14,
+    "retweets": 1,
+    "replies": 1
+  },
+  {
+    "id": "2007516621825552416",
+    "text": "Problem: I want Claude to use Chrome.\n\nSolution: Here's 3 options and when I use each:\n\n1. Playwright MCP – Use as primary cross-browser testing tool\n\n2. Chrome DevTools MCP – Perf analysis / network debugging\n\n3. Official Claude Chrome extension – Quick logged-in checks",
+    "author_handle": "@housecor",
+    "author_name": "Cory House",
+    "created_at": "Sat Jan 03 18:17:15 +0000 2026",
+    "likes": 435,
+    "retweets": 13,
+    "replies": 40
+  },
+  {
+    "id": "2007342908878533028",
+    "text": "using nano banana with a KV cache as a persistent visual memory to augment Claude code can be insanely powerful. \n\nthese are the first generations from a recent test run, showing the high bandwidth content support possible across models with continuous KV cache to support visual https://t.co/Irm7zEsgAo",
+    "author_handle": "@DanielleFong",
+    "author_name": "Danielle Fong 🔆",
+    "created_at": "Sat Jan 03 06:46:58 +0000 2026",
+    "likes": 251,
+    "retweets": 10,
+    "replies": 12
+  },
+  {
+    "id": "2007199488776253597",
+    "text": "just mass cancelled $27k/year in subscriptions\n\nmade a claude code skill that:\n1. reads credit card statements/extracts subscriptions\n2. automatically asks follow-up q's to clarify which ones you want to cancel\n3. actually opens chrome and literally cancels them for you https://t.co/kFEX2ijioI",
+    "author_handle": "@frankdegods",
+    "author_name": "Frank",
+    "created_at": "Fri Jan 02 21:17:04 +0000 2026",
+    "likes": 5291,
+    "retweets": 177,
+    "replies": 519
+  },
+  {
+    "id": "2007345333848678783",
+    "text": "I want to get a thought out of my mind here and see if there's anyone to back me up on this. \n\nSo basically I'm confused why people are still using Obsidian. I think Obsidian as a concept is extremely cool. And I used it for a little while and I went a little crazy with it just",
+    "author_handle": "@DanielMiessler",
+    "author_name": "ᴅᴀɴɪᴇʟ ᴍɪᴇssʟᴇʀ 🛡️",
+    "created_at": "Sat Jan 03 06:56:36 +0000 2026",
+    "likes": 148,
+    "retweets": 2,
+    "replies": 70
+  },
+  {
+    "id": "2007223691315499199",
+    "text": "if you're using Obsidian with Claude Code, tell me about your workflow, and what you've used it for",
+    "author_handle": "@kepano",
+    "author_name": "kepano",
+    "created_at": "Fri Jan 02 22:53:15 +0000 2026",
+    "likes": 4459,
+    "retweets": 305,
+    "replies": 377
+  },
+  {
+    "id": "2007151926614593739",
+    "text": "you can just ask claude to execute plans using as many task subagents as you need, with clear separation of concerns. tested it with up to 10 subagents and it literally 10x's the execution speed https://t.co/8K7khv9xXs",
+    "author_handle": "@alxfazio",
+    "author_name": "alex fazio",
+    "created_at": "Fri Jan 02 18:08:05 +0000 2026",
+    "likes": 737,
+    "retweets": 29,
+    "replies": 37
+  },
+  {
+    "id": "2007179832300581177",
+    "text": "I'm Boris and I created Claude Code. Lots of people have asked how I use Claude Code, so I wanted to show off my setup a bit.\n\nMy setup might be surprisingly vanilla! Claude Code works great out of the box, so I personally don't customize it much. There is no one correct way to",
+    "author_handle": "@bcherny",
+    "author_name": "Boris Cherny",
+    "created_at": "Fri Jan 02 19:58:58 +0000 2026",
+    "likes": 50366,
+    "retweets": 6326,
+    "replies": 1207
+  },
+  {
+    "id": "2007188826226340167",
+    "text": "2026 is going to be the year of Agentic Interfaces\n\nEver since I started using Claude Code with Obsidian, i've been thinking about the best way to set this up on the web (in a sandbox). \n\nBasically... what would be the best agent interface? Designed to be used by you and Claude https://t.co/h3C2K9MWOW",
+    "author_handle": "@rileybrown",
+    "author_name": "Riley Brown",
+    "created_at": "Fri Jan 02 20:34:42 +0000 2026",
+    "likes": 301,
+    "retweets": 10,
+    "replies": 40
+  },
+  {
+    "id": "2007232734637199762",
+    "text": "Major update to claude-workflow\n\nAfter @bcherny sharing his workflow, I have added 13 new slash commands based on his patterns.\n\nInner-loop commands for daily work:\n/project-starter:commit → auto-generate commit message\n/project-starter:commit-push-pr → commit + push + create",
+    "author_handle": "@cloudxdev",
+    "author_name": "CloudAI-X",
+    "created_at": "Fri Jan 02 23:29:11 +0000 2026",
+    "likes": 839,
+    "retweets": 56,
+    "replies": 17
+  },
+  {
+    "id": "2006968571268661423",
+    "text": "its late so i'll probably regret posting this but...\n\nenter the dragon 🔥🐲\n\nsay hi to Smaug, the helpful hoarding dragon that roams your Twitter bookmarks and helps you organize them into your personal knowledge system of choice. \n\nhttps://t.co/d8pEXqTGMG\n\nspecial thanks to",
+    "author_handle": "@alexhillman",
+    "author_name": "📙 Alex Hillman",
+    "created_at": "Fri Jan 02 05:59:29 +0000 2026",
+    "likes": 1126,
+    "retweets": 69,
+    "replies": 54
+  },
+  {
+    "id": "2007093867087278462",
+    "text": "One thing Im surprised about claude even 4.5 opus is that it still needs to be told to use the venv of the project",
+    "author_handle": "@Teknium",
+    "author_name": "Teknium (e/λ)",
+    "created_at": "Fri Jan 02 14:17:22 +0000 2026",
+    "likes": 282,
+    "retweets": 1,
+    "replies": 47
+  },
+  {
+    "id": "2006429880297336867",
+    "text": "the claude agent sdk will do for knowledge work in 2026 what claude code did for coding in 2025.\n\nwant to live in the future?\n\nbuild your own agents with it.\n\nyou’ll have a personal magic tool belt that the public won’t have for another 6-12mo.\n\nit 100% feels like personal agi.",
+    "author_handle": "@mckaywrigley",
+    "author_name": "Mckay Wrigley",
+    "created_at": "Wed Dec 31 18:18:55 +0000 2025",
+    "likes": 3170,
+    "retweets": 160,
+    "replies": 147
+  },
+  {
+    "id": "2006748901638865355",
+    "text": "Claude Code is looking INSANE for 2026:\n\n- Agent Swarms: Exit plan mode with swarm - instructions for launching swarm teammates when ExitPlanMode is called with isSwarm set to true\n\n- Session Search Assistant: - agent prompt for finding relevant sessions based on user queries,",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Thu Jan 01 15:26:36 +0000 2026",
+    "likes": 739,
+    "retweets": 78,
+    "replies": 18
+  },
+  {
+    "id": "2006362777414484231",
+    "text": "So I'm an information addict,  and I was testing some 4.5 Opus prompts. This one was *really* fun to add, making all my queries noticeably more information-dense:\n\n**Default to maximum depth.** He'd much rather be yanked into the deepest intricacies of a field immediately — and",
+    "author_handle": "@menhguin",
+    "author_name": "Minh Nhat Nguyen",
+    "created_at": "Wed Dec 31 13:52:17 +0000 2025",
+    "likes": 407,
+    "retweets": 10,
+    "replies": 9
+  },
+  {
+    "id": "2006377570485543329",
+    "text": "@stnkvcs it's an sdk that allows you to build any kind of agent with all of the tools from claude code.\n\nskills, subagents, hooks, etc. it's all there.\n\nfor web apps you'll want to run it in a hosted sandbox. i recommend @e2b, but anthropic has docs here: https://t.co/dsnXxoVJut\n\nthe",
+    "author_handle": "@mckaywrigley",
+    "author_name": "Mckay Wrigley",
+    "created_at": "Wed Dec 31 14:51:04 +0000 2025",
+    "likes": 300,
+    "retweets": 17,
+    "replies": 13
+  },
+  {
+    "id": "2006133485858070594",
+    "text": "Not to mention self-referential command injection, context monitoring, auto restore from clear, compaction-avoidance, continuous work with frictionless context management, and validators to keep Claude honest and focused across many context clears in intelligent recurring loops.",
+    "author_handle": "@EricBuess",
+    "author_name": "Eric Buess",
+    "created_at": "Tue Dec 30 22:41:09 +0000 2025",
+    "likes": 42,
+    "retweets": 1,
+    "replies": 7
+  },
+  {
+    "id": "2006132522468454681",
+    "text": "LSP + hooks  + subagents + adversarial  validations  +  Ralph Wiggum loops + 2 way voice (stt/tts) loops is a magical 10x Claude Code experience. 🤯🔥\n\nYour default Claude Code harness is begging you to unhobble it.",
+    "author_handle": "@EricBuess",
+    "author_name": "Eric Buess",
+    "created_at": "Tue Dec 30 22:37:20 +0000 2025",
+    "likes": 654,
+    "retweets": 31,
+    "replies": 39
+  },
+  {
+    "id": "2005823958671937697",
+    "text": "Tell Claude Code to add this as a shortcut and thank me later https://t.co/pEg540ot1J",
+    "author_handle": "@anshnanda",
+    "author_name": "Ansh Nanda",
+    "created_at": "Tue Dec 30 02:11:12 +0000 2025",
+    "likes": 678,
+    "retweets": 22,
+    "replies": 75
+  },
+  {
+    "id": "2005859309696029093",
+    "text": "@anshnanda this is mine :D https://t.co/KtFc7nVsWC",
+    "author_handle": "@jeffzwang",
+    "author_name": "Jeffrey Wang",
+    "created_at": "Tue Dec 30 04:31:41 +0000 2025",
+    "likes": 114,
+    "retweets": 9,
+    "replies": 5
+  },
+  {
+    "id": "2005535490393674094",
+    "text": "give AskUserQuestionTool a try, simple steps to get a 3k+ line plan to codex/claude to implement:\n\n- use claude code + opus and describe a product idea and tell it to use AskUserQuestionTool to help spec\n- iterate and submit answers to claude's questions, claude presents options,",
+    "author_handle": "@mattlam_",
+    "author_name": "Matthew Lam",
+    "created_at": "Mon Dec 29 07:04:56 +0000 2025",
+    "likes": 279,
+    "retweets": 10,
+    "replies": 10
+  },
+  {
+    "id": "2004575443484319954",
+    "text": "What's your most underrated Claude Code trick?",
+    "author_handle": "@alexalbert__",
+    "author_name": "Alex Albert",
+    "created_at": "Fri Dec 26 15:30:03 +0000 2025",
+    "likes": 1782,
+    "retweets": 79,
+    "replies": 369
+  },
+  {
+    "id": "2004599760179921392",
+    "text": "@alexalbert__ exporting my raw session logs to obsidian and also making a summary session log that updates in real time\n\nnow both me and claude can know exactly what we did and when in both short and verbose ways https://t.co/xn4tZ5v3DC",
+    "author_handle": "@DiamondEyesFox",
+    "author_name": "DiamondEyesFox",
+    "created_at": "Fri Dec 26 17:06:41 +0000 2025",
+    "likes": 176,
+    "retweets": 1,
+    "replies": 12
+  },
+  {
+    "id": "2005371841020559855",
+    "text": "made a custom statusline for my claude code  with model, 5hr/weekly limit meters, time till 5 hr reset, compaction meter, last time my custom session logs were updated and cost https://t.co/dypLjpwOC3",
+    "author_handle": "@DiamondEyesFox",
+    "author_name": "DiamondEyesFox",
+    "created_at": "Sun Dec 28 20:14:39 +0000 2025",
+    "likes": 3,
+    "retweets": 0,
+    "replies": 2
+  },
+  {
+    "id": "2005360362737344574",
+    "text": "use these settings in Claude to write humanized content (bypass all ai detectors): https://t.co/UqwHMPAwh8",
+    "author_handle": "@EXM7777",
+    "author_name": "Machina",
+    "created_at": "Sun Dec 28 19:29:02 +0000 2025",
+    "likes": 1389,
+    "retweets": 74,
+    "replies": 31
+  },
+  {
+    "id": "2005315279455142243",
+    "text": "the prompt I've been using is:\n\nread this @SPEC.md and interview me in detail using the AskUserQuestionTool about literally anything: technical implementation, UI &amp; UX, concerns, tradeoffs, etc. but make sure the questions are not obvious\n\nbe very in-depth and continue",
+    "author_handle": "@trq212",
+    "author_name": "Thariq",
+    "created_at": "Sun Dec 28 16:29:54 +0000 2025",
+    "likes": 1046,
+    "retweets": 38,
+    "replies": 54
+  },
+  {
+    "id": "2005396092532498796",
+    "text": "@Shpigford all kinds of stuff! I think of coding with LLMs as a ratchet. Everytime something goes wrong or has bad quality, we fix the system. https://t.co/7ODlVGdyAX",
+    "author_handle": "@aarondfrancis",
+    "author_name": "Aaron Francis",
+    "created_at": "Sun Dec 28 21:51:01 +0000 2025",
+    "likes": 232,
+    "retweets": 3,
+    "replies": 16
+  },
+  {
+    "id": "2005588485475115252",
+    "text": "@Shpigford @aarondfrancis I literally just pushed this website live. Check it out it will teach you those things and make it easy to setup a few commands and skills. My aim was to make it dead simple to create skills, commands, and use them.  https://t.co/mvFH1sYkhH",
+    "author_handle": "@ibekidkirsch",
+    "author_name": "Garrett Kirschbaum",
+    "created_at": "Mon Dec 29 10:35:31 +0000 2025",
+    "likes": 1,
+    "retweets": 0,
+    "replies": 1
+  },
+  {
+    "id": "2005285904420843892",
+    "text": "claude code is having it's cursor moment after karpathy sensei's post. never been a better time to try it. \n\nmy latest blog on how to get the most out of claude code 2.0  and other agents in general is up now. grab a chai and have fun reading!\n\nhttps://t.co/cQpvo0xocY https://t.co/gzKCEMfEG6",
+    "author_handle": "@dejavucoder",
+    "author_name": "sankalp",
+    "created_at": "Sun Dec 28 14:33:10 +0000 2025",
+    "likes": 9343,
+    "retweets": 838,
+    "replies": 150
+  },
+  {
+    "id": "2004977723429847380",
+    "text": "Advent of Claude Day 27 - Sandbox Mode\n\n\"Can I run npm install?\" [Allow]\n\"Can I run npm test?\" [Allow]\n\"Can I cat this file?\" [Allow]\n×100\n\n/sandbox → boundaries set → Claude gets to work.\n\nDefine boundaries once. Claude works freely inside them.\n\nYOLO speed. Actual security. https://t.co/GWX5c2DQA3",
+    "author_handle": "@adocomplete",
+    "author_name": "Ado",
+    "created_at": "Sat Dec 27 18:08:34 +0000 2025",
+    "likes": 1208,
+    "retweets": 65,
+    "replies": 29
+  },
+  {
+    "id": "2004579780998688823",
+    "text": "Not many know about this hidden command:\n\nclaude --teleport\n\nIt starts a desktop claude code session SYNC'd with your web / mobile session\n\nGreat when you're working on your phone  -- and then want to pick up from EXACTLY where you left off when back at your PC\n\nDemo below 👇 https://t.co/Gy58UpUTbQ",
+    "author_handle": "@chongdashu",
+    "author_name": "Chong-U",
+    "created_at": "Fri Dec 26 15:47:17 +0000 2025",
+    "likes": 800,
+    "retweets": 39,
+    "replies": 16
+  }
+]
