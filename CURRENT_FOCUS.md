@@ -3,7 +3,7 @@
 > **Quick pointer for fresh Claude instances.**
 > Check this file first to know where the action is.
 
-**Last Updated:** January 10, 2026
+**Last Updated:** January 19, 2026
 
 ---
 
@@ -11,43 +11,48 @@
 
 | Field | Value |
 |-------|-------|
-| **Active Repo** | `claude-code-tips` |
-| **Handoff Location** | Check `HANDOFF.md` or `plans/` |
-| **Claude.ai Project** | Claude Code Tips |
+| **Active Repo** | `hall-of-fake` |
+| **Handoff Location** | `hall-of-fake/HANDOFF.md` |
+| **Claude.ai Project** | Hall of Fake |
 
 ## What Happened Recently
 
-### January 6-8, 2026 (Undocumented → Now Documented)
+### January 18-19, 2026 (hall-of-fake)
 
-Three sessions occurred that captured major community developments:
+**Family Browser UI Debugging Session:**
+- Fixed video hover preview in Family Browser UI
+- Fixed selection border visibility (green border now shows during hover)
+- Fixed Shift+audio functionality with browser autoplay compliance
+- Diagnosed and fixed major video playback issue:
+  - Created `scripts/check_video_mapping.py` diagnostic tool
+  - Discovered single-threaded server was causing timeouts
+  - Switched from `TCPServer` to `ThreadingTCPServer`
+  - All 821 singletons now play correctly
 
-**Key Content Captured:**
-- **Claude Code 2.1.0 release** by @bcherny (9,578 likes, 251 replies)
-- **CallMe plugin** by @boredGenius (5,917 likes, 110 replies)
-- **Ralph Wiggum viral breakdown** by @mattpocockuk (3,607 likes, 170 replies)
-- **Claude-Mem infinite memory** by @LiorOnAI (3,222 likes, 87 replies)
+**Hall of Fake Current State:**
+- Total Videos: 1,435
+- Multi-video Families: 123 (34 manual)
+- Singletons: 821
+- Family Browser UI: ✅ Fully working at localhost:8765
 
-**Data Growth:**
-- Tweets: 397 → 424 (+27)
-- Thread replies: 928 → 1,754 (+826)
-- Vault notes: 94 → 131 (+37)
+### January 6-10, 2026 (claude-code-tips)
 
-**Bug Fix:** Vault export duplicate file issue resolved in `core.py`
-
-**Session Log:** `Session Logs/2026-01-06-08-retroactive-ralph-wiggum-210-release.md`
-
-### January 10, 2026
-
-- Ran `/start-session` to identify current state
-- Discovered undocumented Jan 6-8 sessions via database/git analysis
-- Wrote retroactive session log
+- Claude Code 2.1.0 release captured
+- Ralph Wiggum viral breakdown documented
+- Vault export duplicate file issue fixed
+- Data: 424 tweets, 1,754 thread replies, 131 vault notes
 
 ## Next Steps
 
-**Options:**
-1. Continue bookmark refresh (fetch new content since Jan 8)
-2. Resume deferred tasks from Jan 5 (metrics refresh, slash commands)
-3. Hall of Fake audit (sibling project — not present in this environment)
+**Focus is now on Hall of Fake:**
+1. Use Family Browser UI to assign singletons to families
+2. Contact sheet generation after family changes
+3. Check for new Sora likes to fetch
+4. Refresh Obsidian vault export with updated families
+
+**Deferred for claude-code-tips:**
+- Bookmark refresh (fetch new content since Jan 8)
+- Metrics refresh, slash commands
 
 ---
 
@@ -55,13 +60,11 @@ Three sessions occurred that captured major community developments:
 
 When ending a session, update these files:
 
-- [ ] `CURRENT_FOCUS.md` in **both repos** — point to active project
-- [ ] Session log in `vault/Claude Dashboard/Session Logs/`
+- [x] `CURRENT_FOCUS.md` in **both repos** — point to active project
+- [x] Session log — `hall-of-fake/docs/SESSION_LOG_2026-01-19.md`
 - [ ] `PROGRESS.md` — technique adoption updates
-- [ ] `HANDOFF.md` or `plans/HANDOFF_*.md` — next tasks
-- [ ] Git commit and push
-
-**Future:** Turn this into `/wind-down` slash command.
+- [x] `HANDOFF.md` — next tasks
+- [x] Git commit and push
 
 ---
 
