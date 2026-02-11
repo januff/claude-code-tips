@@ -17,7 +17,7 @@ url: "https://x.com/oikon48/status/2004584262029512786"
 
 ## Summary
 
-output-style
+This Claude tip recommends enabling the `output-style` setting. Turning it on likely enhances the formatting and readability of Claude's responses. By activating this feature, users can experience improved presentation and potentially more structured output from the AI assistant.
 
 
 > [!metrics]- Engagement & Metadata

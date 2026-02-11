@@ -21,6 +21,10 @@ url: "https://x.com/internetvin/status/2007314364324364794"
 >
 > Likes: 310 · Replies: 15 · Reposts: 6
 
+## Summary
+
+This tip details a workflow for leveraging Claude Code more efficiently using Obsidian. The key is to create and maintain master context files in Obsidian for each project, which are then fed into Claude Code to avoid repetitive explanations. A custom "cross-file-patterns" sub-agent helps analyze multiple files, identifying patterns based on search terms and file names copied from Obsidian.
+
 ## Replies
 
 > [!reply] @MKBHD · Sat Jan 03 20:17:30 +0000 2026

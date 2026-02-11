@@ -1,0 +1,596 @@
+[
+  {
+    "id": "2010809450844831752",
+    "text": "Since we launched Claude Code, we saw people using it for all sorts of non-coding work: doing vacation research, building slide decks, cleaning up your email, cancelling subscriptions, recovering wedding photos from a hard drive, monitoring plant growth, controlling your oven.\n\nThese use cases are diverse and surprising -- the reason  is that the underlying Claude Agent is the best agent, and Opus 4.5 is the best model.\n\nToday, we're so excited to introduce Cowork, our first step towards making Claude Code work for all your non-coding work. The product is early and raw, similar to what Claude Code felt like when it first launched.\n\nCowork includes a number of novel UX and safety features that we think make the product really special: a built-in VM for isolation, out of the box support for browser automation, support for all your https://t.co/W3YiSA4piu data connectors, asking you for clarification when it's unsure,  We are excited to see how you all use it.\n\nCowork is available now as a research preview for Claude Max subscribers in the macOS app. Click on \u201cCowork\u201d in the sidebar: https://t.co/lShyhOcDTV",
+    "author_handle": "@bcherny",
+    "author_name": "Boris Cherny",
+    "created_at": "Mon Jan 12 20:21:46 +0000 2026",
+    "created_at_iso": "2026-01-12T20:21:46+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2010809450844831752",
+    "metrics": {
+      "replies": 406,
+      "retweets": 678,
+      "likes": 9244,
+      "bookmarks": 4122,
+      "views": 1211879
+    },
+    "media": []
+  },
+  {
+    "id": "2010805682434666759",
+    "text": "Introducing Cowork: Claude Code for the rest of your work.\n\nCowork lets you complete non-technical tasks much like how developers use Claude Code. https://t.co/EqckycvFH3",
+    "author_handle": "@claudeai",
+    "author_name": "Claude",
+    "created_at": "Mon Jan 12 20:06:48 +0000 2026",
+    "created_at_iso": "2026-01-12T20:06:48+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2010805682434666759",
+    "metrics": {
+      "replies": 2579,
+      "retweets": 8675,
+      "likes": 87899,
+      "bookmarks": 59896,
+      "views": 49280651
+    },
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/media/G-k8KoibgAAuiOj.jpg",
+        "video_url": "https://video.twimg.com/amplify_video/2010792398280929280/vid/avc1/480x270/UAbLHsC_KIYSjkuW.mp4?tag=21"
+      }
+    ]
+  },
+  {
+    "id": "2010811469945061799",
+    "text": "@bcherny How much of it did Claude Code write? \n\nhttps://t.co/OQHfuvyr71",
+    "author_handle": "@altryne",
+    "author_name": "Alex Volkov (Thursd/AI)",
+    "created_at": "Mon Jan 12 20:29:48 +0000 2026",
+    "created_at_iso": "2026-01-12T20:29:48+00:00",
+    "is_reply_to": "2010809450844831752",
+    "conversation_id": "2010809450844831752",
+    "metrics": {
+      "replies": 3,
+      "retweets": 15,
+      "likes": 472,
+      "bookmarks": 175,
+      "views": 183950
+    },
+    "media": []
+  },
+  {
+    "id": "2010811222409756707",
+    "text": "holy shit Anthropic built \"Cowork\" in the last... week and a half?!\n\nConfirmed by Anthropic employee @felixrieseberg  on @danshipper's live stream \n\nI wonder how much of this was Claude Code https://t.co/6hYqs2km1j",
+    "author_handle": "@altryne",
+    "author_name": "Alex Volkov (Thursd/AI)",
+    "created_at": "Mon Jan 12 20:28:49 +0000 2026",
+    "created_at_iso": "2026-01-12T20:28:49+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2010811222409756707",
+    "metrics": {
+      "replies": 52,
+      "retweets": 70,
+      "likes": 886,
+      "bookmarks": 507,
+      "views": 415428
+    },
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2010810940015435776/img/3ow-9BtLJ8sQxfVI.jpg",
+        "video_url": "https://video.twimg.com/amplify_video/2010810940015435776/vid/avc1/478x270/lyLrc9TN1ZTaGO21.mp4?tag=21"
+      }
+    ]
+  },
+  {
+    "id": "2010813886052581538",
+    "text": "@altryne All of it",
+    "author_handle": "@bcherny",
+    "author_name": "Boris Cherny",
+    "created_at": "Mon Jan 12 20:39:24 +0000 2026",
+    "created_at_iso": "2026-01-12T20:39:24+00:00",
+    "is_reply_to": "2010811469945061799",
+    "conversation_id": "2010809450844831752",
+    "metrics": {
+      "replies": 198,
+      "retweets": 439,
+      "likes": 5357,
+      "bookmarks": 800,
+      "views": 1641468
+    },
+    "media": []
+  },
+  {
+    "id": "2010810038126854353",
+    "text": "@bcherny I find myself using Claude Code for so much more than coding, this is a great release thanks guys.",
+    "author_handle": "@skillmcp",
+    "author_name": "Dave",
+    "created_at": "Mon Jan 12 20:24:06 +0000 2026",
+    "created_at_iso": "2026-01-12T20:24:06+00:00",
+    "is_reply_to": "2010809450844831752",
+    "conversation_id": "2010809450844831752",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 23,
+      "bookmarks": 0,
+      "views": 4655
+    },
+    "media": []
+  },
+  {
+    "id": "2010810543247176106",
+    "text": "@php100 \ud83e\udef6",
+    "author_handle": "@bcherny",
+    "author_name": "Boris Cherny",
+    "created_at": "Mon Jan 12 20:26:07 +0000 2026",
+    "created_at_iso": "2026-01-12T20:26:07+00:00",
+    "is_reply_to": "2010810038126854353",
+    "conversation_id": "2010809450844831752",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 11,
+      "bookmarks": 0,
+      "views": 4349
+    },
+    "media": []
+  },
+  {
+    "id": "2010818678812762246",
+    "text": "been using it for 20 minutes and it\u2019s great!\n\none issue: when switching chats (tasks) the UI always plays the linear loading animation which is jarring especially the longer the chat is. it also loads mid-agent loop queued messages out of order\n\nspecifically:\n\ncorrect order:\n- first user prompt\n- agent stuff\n- user soft interruption\n- agent acknowledges and adjusts actions, more agent stuff\n\nbut instead i\u2019m getting:\n- first user prompt\n- all agent stuff\n- user soft interruption",
+    "author_handle": "@aka_lacie",
+    "author_name": "lacie",
+    "created_at": "Mon Jan 12 20:58:26 +0000 2026",
+    "created_at_iso": "2026-01-12T20:58:26+00:00",
+    "is_reply_to": "2010809450844831752",
+    "conversation_id": "2010809450844831752",
+    "metrics": {
+      "replies": 3,
+      "retweets": 1,
+      "likes": 20,
+      "bookmarks": 3,
+      "views": 14161
+    },
+    "media": []
+  },
+  {
+    "id": "2010823655639695727",
+    "text": "@aka_lacie looking",
+    "author_handle": "@bcherny",
+    "author_name": "Boris Cherny",
+    "created_at": "Mon Jan 12 21:18:13 +0000 2026",
+    "created_at_iso": "2026-01-12T21:18:13+00:00",
+    "is_reply_to": "2010818678812762246",
+    "conversation_id": "2010809450844831752",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 27,
+      "bookmarks": 0,
+      "views": 11177
+    },
+    "media": []
+  },
+  {
+    "id": "2010810190371987670",
+    "text": "@bcherny any reason to use this for people that are using claude code already for everything?\n\nthis seems powerful for people intimidated by terminal, but limiting for people that enjoy terminal and current CLI agents.\n\nalso: looking forward to AskUserQuestion in Claude Code Web \ud83d\ude42",
+    "author_handle": "@0xRaduan",
+    "author_name": "Raduan Al-Shedivat",
+    "created_at": "Mon Jan 12 20:24:43 +0000 2026",
+    "created_at_iso": "2026-01-12T20:24:43+00:00",
+    "is_reply_to": "2010809450844831752",
+    "conversation_id": "2010809450844831752",
+    "metrics": {
+      "replies": 5,
+      "retweets": 0,
+      "likes": 21,
+      "bookmarks": 0,
+      "views": 9333
+    },
+    "media": []
+  },
+  {
+    "id": "2010810422451192002",
+    "text": "@0xRaduan Try it out and see which you prefer!",
+    "author_handle": "@bcherny",
+    "author_name": "Boris Cherny",
+    "created_at": "Mon Jan 12 20:25:38 +0000 2026",
+    "created_at_iso": "2026-01-12T20:25:38+00:00",
+    "is_reply_to": "2010810190371987670",
+    "conversation_id": "2010809450844831752",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 25,
+      "bookmarks": 0,
+      "views": 7853
+    },
+    "media": []
+  },
+  {
+    "id": "2010814110229746061",
+    "text": "@bcherny privacy policy updates? I know api has a no training clause, but cc does take data or training (why its 90% discount lol).   This looks cool but implies larger risk surface",
+    "author_handle": "@charliemktplace",
+    "author_name": "charlie marketplace",
+    "created_at": "Mon Jan 12 20:40:17 +0000 2026",
+    "created_at_iso": "2026-01-12T20:40:17+00:00",
+    "is_reply_to": "2010809450844831752",
+    "conversation_id": "2010809450844831752",
+    "metrics": {
+      "replies": 1,
+      "retweets": 2,
+      "likes": 13,
+      "bookmarks": 2,
+      "views": 12096
+    },
+    "media": []
+  },
+  {
+    "id": "2010814962240012364",
+    "text": "@charliemktplace We only train if you explicitly opt in. You can change your setting anytime in your https://t.co/h4Wlj4Pue1 settings.",
+    "author_handle": "@bcherny",
+    "author_name": "Boris Cherny",
+    "created_at": "Mon Jan 12 20:43:40 +0000 2026",
+    "created_at_iso": "2026-01-12T20:43:40+00:00",
+    "is_reply_to": "2010814110229746061",
+    "conversation_id": "2010809450844831752",
+    "metrics": {
+      "replies": 3,
+      "retweets": 0,
+      "likes": 25,
+      "bookmarks": 4,
+      "views": 11017
+    },
+    "media": []
+  },
+  {
+    "id": "2010810597999280220",
+    "text": "@bcherny heads up, getting a 404 on this page: https://t.co/st375lUwL1",
+    "author_handle": "@askcalebleigh",
+    "author_name": "Caleb",
+    "created_at": "Mon Jan 12 20:26:20 +0000 2026",
+    "created_at_iso": "2026-01-12T20:26:20+00:00",
+    "is_reply_to": "2010809450844831752",
+    "conversation_id": "2010809450844831752",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 19028
+    },
+    "media": []
+  },
+  {
+    "id": "2010813552299237669",
+    "text": "@askcalebleigh https://t.co/xhGqHThoao",
+    "author_handle": "@bcherny",
+    "author_name": "Boris Cherny",
+    "created_at": "Mon Jan 12 20:38:04 +0000 2026",
+    "created_at_iso": "2026-01-12T20:38:04+00:00",
+    "is_reply_to": "2010810597999280220",
+    "conversation_id": "2010809450844831752",
+    "metrics": {
+      "replies": 1,
+      "retweets": 3,
+      "likes": 24,
+      "bookmarks": 12,
+      "views": 17847
+    },
+    "media": []
+  },
+  {
+    "id": "2010810649572520353",
+    "text": "@bcherny When ralph-loop integration?\n\nI want to write physics research papers on my C drive, not prep my day",
+    "author_handle": "@fun_innit",
+    "author_name": "Max D. Drummer",
+    "created_at": "Mon Jan 12 20:26:32 +0000 2026",
+    "created_at_iso": "2026-01-12T20:26:32+00:00",
+    "is_reply_to": "2010809450844831752",
+    "conversation_id": "2010809450844831752",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 31,
+      "bookmarks": 0,
+      "views": 3369
+    },
+    "media": []
+  },
+  {
+    "id": "2010810915969740830",
+    "text": "@fun_innit Oh cool idea",
+    "author_handle": "@bcherny",
+    "author_name": "Boris Cherny",
+    "created_at": "Mon Jan 12 20:27:36 +0000 2026",
+    "created_at_iso": "2026-01-12T20:27:36+00:00",
+    "is_reply_to": "2010810649572520353",
+    "conversation_id": "2010809450844831752",
+    "metrics": {
+      "replies": 2,
+      "retweets": 4,
+      "likes": 31,
+      "bookmarks": 0,
+      "views": 3671
+    },
+    "media": []
+  },
+  {
+    "id": "2010813209079333311",
+    "text": "@bcherny So this is why Claude Code was crashing today huh @bcherny  ahah, you're building life changing products. Thank you! https://t.co/y02bKvBG56",
+    "author_handle": "@AaronBeMoore",
+    "author_name": "Aaron B Moore",
+    "created_at": "Mon Jan 12 20:36:42 +0000 2026",
+    "created_at_iso": "2026-01-12T20:36:42+00:00",
+    "is_reply_to": "2010809450844831752",
+    "conversation_id": "2010809450844831752",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 12,
+      "bookmarks": 0,
+      "views": 5557
+    },
+    "media": [
+      {
+        "type": "animated_gif",
+        "url": "https://pbs.twimg.com/tweet_video_thumb/G-fX4iWaYAATuvG.jpg",
+        "video_url": "https://video.twimg.com/tweet_video/G-fX4iWaYAATuvG.mp4"
+      }
+    ]
+  },
+  {
+    "id": "2010815485386932654",
+    "text": "@AaronBeMoore omg it was such a nerve wracking launch!",
+    "author_handle": "@bcherny",
+    "author_name": "Boris Cherny",
+    "created_at": "Mon Jan 12 20:45:45 +0000 2026",
+    "created_at_iso": "2026-01-12T20:45:45+00:00",
+    "is_reply_to": "2010813209079333311",
+    "conversation_id": "2010809450844831752",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 22,
+      "bookmarks": 0,
+      "views": 4609
+    },
+    "media": []
+  },
+  {
+    "id": "2010809841904980008",
+    "text": "@bcherny why Pro is never included when it comes to good stuff \ud83d\ude14",
+    "author_handle": "@DataExec",
+    "author_name": "Data Exec",
+    "created_at": "Mon Jan 12 20:23:20 +0000 2026",
+    "created_at_iso": "2026-01-12T20:23:20+00:00",
+    "is_reply_to": "2010809450844831752",
+    "conversation_id": "2010809450844831752",
+    "metrics": {
+      "replies": 4,
+      "retweets": 0,
+      "likes": 11,
+      "bookmarks": 0,
+      "views": 7957
+    },
+    "media": []
+  },
+  {
+    "id": "2010812749048344772",
+    "text": "@DataExec Join the waitlist! https://t.co/wlj87JrjGa",
+    "author_handle": "@bcherny",
+    "author_name": "Boris Cherny",
+    "created_at": "Mon Jan 12 20:34:53 +0000 2026",
+    "created_at_iso": "2026-01-12T20:34:53+00:00",
+    "is_reply_to": "2010809841904980008",
+    "conversation_id": "2010809450844831752",
+    "metrics": {
+      "replies": 5,
+      "retweets": 1,
+      "likes": 22,
+      "bookmarks": 6,
+      "views": 7411
+    },
+    "media": []
+  },
+  {
+    "id": "2010809808287580189",
+    "text": "@bcherny Does this have any change in token usage compared to current none Coworker use?",
+    "author_handle": "@cupcake_trader",
+    "author_name": "cupcake",
+    "created_at": "Mon Jan 12 20:23:11 +0000 2026",
+    "created_at_iso": "2026-01-12T20:23:11+00:00",
+    "is_reply_to": "2010809450844831752",
+    "conversation_id": "2010809450844831752",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 0,
+      "views": 3934
+    },
+    "media": []
+  },
+  {
+    "id": "2010813212980064720",
+    "text": "@cupcake_trader Cowork uses more tokens than regular Chat. This is a reason why it has its own tab, and is only available for Max users to start.",
+    "author_handle": "@bcherny",
+    "author_name": "Boris Cherny",
+    "created_at": "Mon Jan 12 20:36:43 +0000 2026",
+    "created_at_iso": "2026-01-12T20:36:43+00:00",
+    "is_reply_to": "2010809808287580189",
+    "conversation_id": "2010809450844831752",
+    "metrics": {
+      "replies": 0,
+      "retweets": 1,
+      "likes": 12,
+      "bookmarks": 2,
+      "views": 3680
+    },
+    "media": []
+  },
+  {
+    "id": "2010810381477064874",
+    "text": "@bcherny Interesting!\nAny plans to bring this on the pro plan in future? Or have a tier between 20 and 100?\n\nWould be interesting really in terms of adoption. You are basically disrupting the \u2018paying\u2019 market of openAI",
+    "author_handle": "@lazy_proc",
+    "author_name": "lazy_procrastinator",
+    "created_at": "Mon Jan 12 20:25:28 +0000 2026",
+    "created_at_iso": "2026-01-12T20:25:28+00:00",
+    "is_reply_to": "2010809450844831752",
+    "conversation_id": "2010809450844831752",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 0,
+      "views": 4117
+    },
+    "media": []
+  },
+  {
+    "id": "2010813254042366028",
+    "text": "@lazy_proc Yes! Waitlist: https://t.co/wlj87JqLQC",
+    "author_handle": "@bcherny",
+    "author_name": "Boris Cherny",
+    "created_at": "Mon Jan 12 20:36:53 +0000 2026",
+    "created_at_iso": "2026-01-12T20:36:53+00:00",
+    "is_reply_to": "2010810381477064874",
+    "conversation_id": "2010809450844831752",
+    "metrics": {
+      "replies": 3,
+      "retweets": 0,
+      "likes": 10,
+      "bookmarks": 2,
+      "views": 3623
+    },
+    "media": []
+  },
+  {
+    "id": "2010810074726380003",
+    "text": "@bcherny Excited to try this out!\n\nWhat are the coolest use cases you\u2019ve personally seen? Any links?",
+    "author_handle": "@grahamkmann",
+    "author_name": "Graham Mann",
+    "created_at": "Mon Jan 12 20:24:15 +0000 2026",
+    "created_at_iso": "2026-01-12T20:24:15+00:00",
+    "is_reply_to": "2010809450844831752",
+    "conversation_id": "2010809450844831752",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 6142
+    },
+    "media": []
+  },
+  {
+    "id": "2010810757823500582",
+    "text": "@grahamkmann @lennysan's list is a great place to start: https://t.co/kuiWoP5pY1",
+    "author_handle": "@bcherny",
+    "author_name": "Boris Cherny",
+    "created_at": "Mon Jan 12 20:26:58 +0000 2026",
+    "created_at_iso": "2026-01-12T20:26:58+00:00",
+    "is_reply_to": "2010810074726380003",
+    "conversation_id": "2010809450844831752",
+    "metrics": {
+      "replies": 2,
+      "retweets": 3,
+      "likes": 39,
+      "bookmarks": 90,
+      "views": 6349
+    },
+    "media": []
+  },
+  {
+    "id": "2010814474404475357",
+    "text": "@bcherny How many lines did Claude write and how many humans did?",
+    "author_handle": "@bitcoinOrBTC",
+    "author_name": "BitcoinIsMySafeWord",
+    "created_at": "Mon Jan 12 20:41:44 +0000 2026",
+    "created_at_iso": "2026-01-12T20:41:44+00:00",
+    "is_reply_to": "2010809450844831752",
+    "conversation_id": "2010809450844831752",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 3377
+    },
+    "media": []
+  },
+  {
+    "id": "2010815545495495111",
+    "text": "@bitcoinOrBTC It was pretty much all Claude Code",
+    "author_handle": "@bcherny",
+    "author_name": "Boris Cherny",
+    "created_at": "Mon Jan 12 20:45:59 +0000 2026",
+    "created_at_iso": "2026-01-12T20:45:59+00:00",
+    "is_reply_to": "2010814474404475357",
+    "conversation_id": "2010809450844831752",
+    "metrics": {
+      "replies": 1,
+      "retweets": 2,
+      "likes": 34,
+      "bookmarks": 11,
+      "views": 4683
+    },
+    "media": []
+  },
+  {
+    "id": "2010813437685690802",
+    "text": "@bcherny Excited about this. Quick question: does the agent run on cloud or locally?",
+    "author_handle": "@BellowsWang",
+    "author_name": "bellowswang",
+    "created_at": "Mon Jan 12 20:37:37 +0000 2026",
+    "created_at_iso": "2026-01-12T20:37:37+00:00",
+    "is_reply_to": "2010809450844831752",
+    "conversation_id": "2010809450844831752",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 1,
+      "views": 3119
+    },
+    "media": []
+  },
+  {
+    "id": "2010815269132755289",
+    "text": "@BellowsWang 100% local",
+    "author_handle": "@bcherny",
+    "author_name": "Boris Cherny",
+    "created_at": "Mon Jan 12 20:44:53 +0000 2026",
+    "created_at_iso": "2026-01-12T20:44:53+00:00",
+    "is_reply_to": "2010813437685690802",
+    "conversation_id": "2010809450844831752",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 6,
+      "bookmarks": 1,
+      "views": 3075
+    },
+    "media": []
+  },
+  {
+    "id": "2010826853955580094",
+    "text": "@bcherny this is why you cockblocked clawdbot lmaooo",
+    "author_handle": "@thekitze",
+    "author_name": "kitze \ud83d\udee0\ufe0f tinkerer.club",
+    "created_at": "Mon Jan 12 21:30:55 +0000 2026",
+    "created_at_iso": "2026-01-12T21:30:55+00:00",
+    "is_reply_to": "2010809450844831752",
+    "conversation_id": "2010809450844831752",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 44,
+      "bookmarks": 2,
+      "views": 4614
+    },
+    "media": []
+  }
+]

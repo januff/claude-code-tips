@@ -27,7 +27,7 @@ url: "https://x.com/hakanderyal/status/2004633433927303186"
 
 ## Summary
 
-I was using skills before they were a thing
+This tip describes using a skill-based workflow by creating focused contexts for backend, frontend, or full-stack tasks. This is achieved through specific prompts (e.g. /backend) that load relevant file references using @ symbols. The key insight is to provide just enough context for the immediate task, streamlining the development process.
 
 
 > [!metrics]- Engagement & Metadata

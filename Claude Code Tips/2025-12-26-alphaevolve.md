@@ -21,7 +21,7 @@ url: "https://x.com/AaronErickson/status/2004583825465372876"
 
 ## Summary
 
-Tinkering with something like AlphaEvolve but using subagents as a hobby project, and it's kinda working (and as a bonus, does a good job of hitting your compute max
+This tip highlights the creation of a hobby project similar to AlphaEvolve, leveraging subagents. The key action is building a multi-agent system, which is noted to be computationally intensive. While no specific tools are mentioned, the tip implies using an agent orchestration framework to manage the subagents effectively.
 
 ## Replies
 

@@ -20,7 +20,7 @@ url: "https://x.com/pushkar_jain26/status/2004629330799067585"
 
 ## Summary
 
-using git worktrees with claude
+This tip showcases using Git worktrees to parallelize Claude agent workflows. By creating separate worktrees for different branches, the user can run independent Claude agents concurrently. This approach allows for orchestrating agents on the main branch to monitor activity across various feature branches, significantly improving parallelization and efficiency.
 
 ## Replies
 

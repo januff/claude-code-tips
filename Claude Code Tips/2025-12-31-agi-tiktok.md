@@ -30,7 +30,7 @@ url: ""
 
 ## Summary
 
-it will be publicly available, but almost nobody will use it
+This tip highlights the potential disconnect between the arrival of advanced AI (AGI) and its actual adoption by the general public. The core idea is that despite transformative technological advancements, many people might remain focused on trivial pursuits. It serves as a reminder that societal impact isn't solely determined by technological breakthroughs.
 
 ## Replies
 

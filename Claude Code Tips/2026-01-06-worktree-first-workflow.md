@@ -14,6 +14,10 @@ url: "https://x.com/banteg/status/2008638577308291424"
 >
 > Likes: 265 · Replies: 21 · Reposts: 7
 
+## Summary
+
+This tip introduces a worktree-first workflow for the Claude Desktop application, suggesting a new way to manage code changes and experiments. It implies a user can now leverage worktrees within the Claude Desktop environment. This likely allows for isolated environments for different features or bug fixes directly within the desktop application.
+
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 265 · **Replies:** 21 · **Reposts:** 7 · **Views:** 0

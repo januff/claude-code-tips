@@ -27,7 +27,7 @@ url: "https://x.com/meta_alchemist/status/2004583491057705010"
 
 ## Summary
 
-I build my own tools to supercharge it
+The tip highlights the power of enhancing Claude's capabilities through custom tool creation. The user has built a memory/context layer, a skills spawner for creating robust skills, and a vulnerability scanner to augment Claude's functionality. This approach demonstrates how tailoring custom tools can significantly supercharge Claude's performance and broaden its application scope beyond its default features.
 
 ## Replies
 

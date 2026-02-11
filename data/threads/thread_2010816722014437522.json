@@ -1,0 +1,757 @@
+[
+  {
+    "id": "2010816722014437522",
+    "text": "ok this is SICK\n\nonce you download this, you can finally have opus 4.5 get native OP browser capabilities without interfering with your actual browsing\n\njust tested it out. this kills cursor for me\n\nclaude is cooking https://t.co/WsY3A84FRT",
+    "author_handle": "@mert",
+    "author_name": "mert",
+    "created_at": "Mon Jan 12 20:50:40 +0000 2026",
+    "created_at_iso": "2026-01-12T20:50:40+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 80,
+      "retweets": 60,
+      "likes": 1912,
+      "bookmarks": 1071,
+      "views": 204381
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-fbB5ebUAA78Nj.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2010805682434666759",
+    "text": "Introducing Cowork: Claude Code for the rest of your work.\n\nCowork lets you complete non-technical tasks much like how developers use Claude Code. https://t.co/EqckycvFH3",
+    "author_handle": "@claudeai",
+    "author_name": "Claude",
+    "created_at": "Mon Jan 12 20:06:48 +0000 2026",
+    "created_at_iso": "2026-01-12T20:06:48+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2010805682434666759",
+    "metrics": {
+      "replies": 2579,
+      "retweets": 8675,
+      "likes": 87901,
+      "bookmarks": 59896,
+      "views": 49280651
+    },
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/media/G-k8KoibgAAuiOj.jpg",
+        "video_url": "https://video.twimg.com/amplify_video/2010792398280929280/vid/avc1/480x270/UAbLHsC_KIYSjkuW.mp4?tag=21"
+      }
+    ]
+  },
+  {
+    "id": "2010834889659334687",
+    "text": "@mert Just to clarify, your screen shot is from Claude Code on desktop, not Claude Cowork!",
+    "author_handle": "@amorriscode",
+    "author_name": "Anthony Morris \u30c4",
+    "created_at": "Mon Jan 12 22:02:51 +0000 2026",
+    "created_at_iso": "2026-01-12T22:02:51+00:00",
+    "is_reply_to": "2010816722014437522",
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 21,
+      "bookmarks": 0,
+      "views": 5526
+    },
+    "media": []
+  },
+  {
+    "id": "2010835528560541906",
+    "text": "@amorriscode ah my bad\n\nbtw while I have you here, not sure if my setup but I'm unable to drop screenshots into claude code on desktop. works on terminal but not the desktop/gui thing",
+    "author_handle": "@mert",
+    "author_name": "mert",
+    "created_at": "Mon Jan 12 22:05:24 +0000 2026",
+    "created_at_iso": "2026-01-12T22:05:24+00:00",
+    "is_reply_to": "2010834889659334687",
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 3,
+      "retweets": 0,
+      "likes": 18,
+      "bookmarks": 1,
+      "views": 5042
+    },
+    "media": []
+  },
+  {
+    "id": "2010844374691643442",
+    "text": "@mert you can also use https://t.co/cG7QBcAAE8 to do the same thing with any MCP client like Cursor, opencode, claude code, etc\n\nit will not bring to front the browser window when it interacts with the page",
+    "author_handle": "@__morse",
+    "author_name": "Tommy D. Rossi",
+    "created_at": "Mon Jan 12 22:40:33 +0000 2026",
+    "created_at_iso": "2026-01-12T22:40:33+00:00",
+    "is_reply_to": "2010816722014437522",
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 1,
+      "retweets": 1,
+      "likes": 14,
+      "bookmarks": 15,
+      "views": 2815
+    },
+    "media": []
+  },
+  {
+    "id": "2010830568200749256",
+    "text": "@mert If you use Antigravity it drives a dedicated chrome instance without interfering with browsing. It\u2019s a pretty good experience and you can use Opus and Gemini Pro. Worth checking out.",
+    "author_handle": "@EthosVentures",
+    "author_name": "Ethan Kravitz",
+    "created_at": "Mon Jan 12 21:45:41 +0000 2026",
+    "created_at_iso": "2026-01-12T21:45:41+00:00",
+    "is_reply_to": "2010816722014437522",
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 8,
+      "bookmarks": 2,
+      "views": 973
+    },
+    "media": []
+  },
+  {
+    "id": "2010861386365116793",
+    "text": "@mert https://t.co/C3dY6hsaiL",
+    "author_handle": "@SharkSociety_",
+    "author_name": "Shark \ud83c\udcb1",
+    "created_at": "Mon Jan 12 23:48:09 +0000 2026",
+    "created_at_iso": "2026-01-12T23:48:09+00:00",
+    "is_reply_to": "2010816722014437522",
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 0,
+      "retweets": 1,
+      "likes": 3,
+      "bookmarks": 1,
+      "views": 1334
+    },
+    "media": []
+  },
+  {
+    "id": "2010805285322158544",
+    "text": "$cmen @Claude_Memory the biggest Claude Github on the market with a token by miles (much bigger than $sol and $ralph)\n\n2TsmuYUrsctE57VLckZBYEEzdokUF8j8e1GavekWBAGS\n\nWhy this is alpha?\n- creator token endorsed by dev (see image)\nhttps://t.co/jR2uYMXw4Y \n\n- third biggest @claudeai  Github in the world (13,000\u201313.4k stars - n1 is @AnthropicAI itself )\n\n- It frequently trends on GitHub (e.g., #1 trending multiple times, repo of the day for several days in a row).\n\n- Non brypto AI devs agree with me\nhttps://t.co/d4uHlXVj6V\n\n- one of the top $sol wallet agrees with me\nhttps://t.co/j426AYEyt8\n\n- Don't trust, verify\nhttps://t.co/5k96MxjLrG\n\nWhat is it?\nIt's a dedicated Claude Code plugin for automatic memory capture, AI compression (using Claude's own agent-sdk), semantic search, and context injection across sessions \u2014 solving the common pain point of Claude \"forgetting\" everything when a session restarts.\n\nIf you're into Claude Code development, this repo's popularity reflects how much devs value fixing the \"goldfish memory\" issue.\n\nThis is $pippin @ThePippinCo  lvl of starts fyi\n\nX\n\nShark",
+    "author_handle": "@SharkSociety_",
+    "author_name": "Shark \ud83c\udcb1",
+    "created_at": "Mon Jan 12 20:05:13 +0000 2026",
+    "created_at_iso": "2026-01-12T20:05:13+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2010805285322158544",
+    "metrics": {
+      "replies": 15,
+      "retweets": 22,
+      "likes": 76,
+      "bookmarks": 26,
+      "views": 38298
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-fLOWeWUAAt-TW.jpg",
+        "video_url": null
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-fMQqoWQAAYTFO.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2010981948026732703",
+    "text": "This is the \"moment of realization\" that every developer seems to be having this week. You are likely talking about the Claude Code CLI combined with the \"Use with Chrome\" integration (or the dev-browser skill).\n\nThe reason this \"kills Cursor\" for you is that you just realized Cursor is blind.",
+    "author_handle": "@RituWithAI",
+    "author_name": "Rituraj",
+    "created_at": "Tue Jan 13 07:47:13 +0000 2026",
+    "created_at_iso": "2026-01-13T07:47:13+00:00",
+    "is_reply_to": "2010816722014437522",
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 4,
+      "bookmarks": 2,
+      "views": 480
+    },
+    "media": []
+  },
+  {
+    "id": "2010834178581975072",
+    "text": "@mert its idea guys year thanks to claude",
+    "author_handle": "@gozyy_world",
+    "author_name": "Gozyy",
+    "created_at": "Mon Jan 12 22:00:02 +0000 2026",
+    "created_at_iso": "2026-01-12T22:00:02+00:00",
+    "is_reply_to": "2010816722014437522",
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 0,
+      "views": 412
+    },
+    "media": []
+  },
+  {
+    "id": "2010845110091583841",
+    "text": "@mert Why does it explicitly mention ETH and BTC price, but not SOL price? Bearish.",
+    "author_handle": "@SEJeff",
+    "author_name": "Jeff Schroeder",
+    "created_at": "Mon Jan 12 22:43:28 +0000 2026",
+    "created_at_iso": "2026-01-12T22:43:28+00:00",
+    "is_reply_to": "2010816722014437522",
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 682
+    },
+    "media": []
+  },
+  {
+    "id": "2010915336296808481",
+    "text": "@mert Cursor has browser mcp integrated where you can even directly drop or modify dom elements as context for llm",
+    "author_handle": "@0xWhoismax",
+    "author_name": "whoismax",
+    "created_at": "Tue Jan 13 03:22:31 +0000 2026",
+    "created_at_iso": "2026-01-13T03:22:31+00:00",
+    "is_reply_to": "2010816722014437522",
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 250
+    },
+    "media": []
+  },
+  {
+    "id": "2010893285364285472",
+    "text": "@mert i prefer to use the one built on solana that does way more in depth stuff + has onchain features. \n\nit\u2019s also wayyy cuter.",
+    "author_handle": "@heathenft",
+    "author_name": "heathen",
+    "created_at": "Tue Jan 13 01:54:54 +0000 2026",
+    "created_at_iso": "2026-01-13T01:54:54+00:00",
+    "is_reply_to": "2010816722014437522",
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 499
+    },
+    "media": []
+  },
+  {
+    "id": "2010839316486820329",
+    "text": "@mert Recommend the Apple Vision Pro?",
+    "author_handle": "@0xfar",
+    "author_name": "FAR",
+    "created_at": "Mon Jan 12 22:20:27 +0000 2026",
+    "created_at_iso": "2026-01-12T22:20:27+00:00",
+    "is_reply_to": "2010816722014437522",
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 1264
+    },
+    "media": []
+  },
+  {
+    "id": "2010946963014066595",
+    "text": "@mert https://t.co/46XnAnlEyE",
+    "author_handle": "@therealchaseeb",
+    "author_name": "chase",
+    "created_at": "Tue Jan 13 05:28:12 +0000 2026",
+    "created_at_iso": "2026-01-13T05:28:12+00:00",
+    "is_reply_to": "2010816722014437522",
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 912
+    },
+    "media": []
+  },
+  {
+    "id": "2010330015716831620",
+    "text": "gonna run an experiment using claude code, not for coding, but as an operating system for work.\n\nmost people use claude in one off conversations. yes it can read from past chats, but that context is scattered. random questions, personal stuff, work stuff all mixed together.\n\nwhat if instead the context was hyper focused on your work? everything lives in a single directory (the brain) that evolves over time. your notes, ideas, conversations, open threads. claude has full access and can write back to it. create new files, reorganize things, make recommendations based on the full picture.\n\nwhen you launch it, it evaluates everything. asks for updates, status, priorities. you talk to it and it updates the context. only your work. nothing else.\n\n(obviously nothing confidential. no names, no sensitive details. but the substance of what i'm thinking about and working on.)\n\nit becomes less of a tool you prompt and more of a partner that's actually locked in with you.\n\nhas anyone tried something like this?",
+    "author_handle": "@therealchaseeb",
+    "author_name": "chase",
+    "created_at": "Sun Jan 11 12:36:40 +0000 2026",
+    "created_at_iso": "2026-01-11T12:36:40+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2010330015716831620",
+    "metrics": {
+      "replies": 9,
+      "retweets": 0,
+      "likes": 17,
+      "bookmarks": 4,
+      "views": 6169
+    },
+    "media": []
+  },
+  {
+    "id": "2010817234671698103",
+    "text": "@mert they're cooking",
+    "author_handle": "@0xfs7",
+    "author_name": "FS7 \ud83c\udf0a",
+    "created_at": "Mon Jan 12 20:52:42 +0000 2026",
+    "created_at_iso": "2026-01-12T20:52:42+00:00",
+    "is_reply_to": "2010816722014437522",
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 1390
+    },
+    "media": []
+  },
+  {
+    "id": "2011150355133067390",
+    "text": "@mert Are you using Brave? It doesn\u2019t work with Arc and I don\u2019t wanna go back to Chrome.",
+    "author_handle": "@zen_llama",
+    "author_name": "ZenLlama",
+    "created_at": "Tue Jan 13 18:56:24 +0000 2026",
+    "created_at_iso": "2026-01-13T18:56:24+00:00",
+    "is_reply_to": "2010816722014437522",
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 153
+    },
+    "media": []
+  },
+  {
+    "id": "2010828201640288482",
+    "text": "@mert You In VR??",
+    "author_handle": "@istudycharts",
+    "author_name": "LennoX Cartel",
+    "created_at": "Mon Jan 12 21:36:17 +0000 2026",
+    "created_at_iso": "2026-01-12T21:36:17+00:00",
+    "is_reply_to": "2010816722014437522",
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 1297
+    },
+    "media": []
+  },
+  {
+    "id": "2010817146150854883",
+    "text": "@mert this is actually huge for workflows\n\nclaude bout to be my full time researcher",
+    "author_handle": "@0xLaxo",
+    "author_name": "Laxo",
+    "created_at": "Mon Jan 12 20:52:21 +0000 2026",
+    "created_at_iso": "2026-01-12T20:52:21+00:00",
+    "is_reply_to": "2010816722014437522",
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 1750
+    },
+    "media": []
+  },
+  {
+    "id": "2010920691793592582",
+    "text": "@mert I think it killed cursor for me too.",
+    "author_handle": "@Tuteth_",
+    "author_name": "tut\u2122",
+    "created_at": "Tue Jan 13 03:43:48 +0000 2026",
+    "created_at_iso": "2026-01-13T03:43:48+00:00",
+    "is_reply_to": "2010816722014437522",
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 302
+    },
+    "media": []
+  },
+  {
+    "id": "2010994528010768443",
+    "text": "@mert opus unleashed finally",
+    "author_handle": "@AdiFlips",
+    "author_name": "Adi",
+    "created_at": "Tue Jan 13 08:37:12 +0000 2026",
+    "created_at_iso": "2026-01-13T08:37:12+00:00",
+    "is_reply_to": "2010816722014437522",
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 115
+    },
+    "media": []
+  },
+  {
+    "id": "2011111946398105845",
+    "text": "@mert SICK-native OP browser mode, no fuss",
+    "author_handle": "@rayray_1_",
+    "author_name": "RayRay",
+    "created_at": "Tue Jan 13 16:23:47 +0000 2026",
+    "created_at_iso": "2026-01-13T16:23:47+00:00",
+    "is_reply_to": "2010816722014437522",
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 45
+    },
+    "media": []
+  },
+  {
+    "id": "2010817022989422815",
+    "text": "@mert https://t.co/Qp1SHpIksT",
+    "author_handle": "@ItsSun",
+    "author_name": "Sun",
+    "created_at": "Mon Jan 12 20:51:52 +0000 2026",
+    "created_at_iso": "2026-01-12T20:51:52+00:00",
+    "is_reply_to": "2010816722014437522",
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 1035
+    },
+    "media": [
+      {
+        "type": "animated_gif",
+        "url": "https://pbs.twimg.com/tweet_video_thumb/G-fbbF6WIAA60Wp.jpg",
+        "video_url": "https://video.twimg.com/tweet_video/G-fbbF6WIAA60Wp.mp4"
+      }
+    ]
+  },
+  {
+    "id": "2010963656499179901",
+    "text": "@mert \ud83d\udd25\ud83d\udd25",
+    "author_handle": "@bigrkg",
+    "author_name": "rkg.eth \ud83d\udd1c ETHDenver",
+    "created_at": "Tue Jan 13 06:34:32 +0000 2026",
+    "created_at_iso": "2026-01-13T06:34:32+00:00",
+    "is_reply_to": "2010816722014437522",
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 202
+    },
+    "media": []
+  },
+  {
+    "id": "2010830483261964723",
+    "text": "@mert bro try https://t.co/aBb2yTITJI because its BETTER than claude at handling codebase.",
+    "author_handle": "@Cryptilt",
+    "author_name": "Johnny \ud83c\udff4\u200d\u2620\ufe0f (Skilled Agent Arc)",
+    "created_at": "Mon Jan 12 21:45:21 +0000 2026",
+    "created_at_iso": "2026-01-12T21:45:21+00:00",
+    "is_reply_to": "2010816722014437522",
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 3623
+    },
+    "media": []
+  },
+  {
+    "id": "2010823815941722578",
+    "text": "@mert claude killing cursor with opus 4.5 browser? wild demo mert",
+    "author_handle": "@SaintLee04",
+    "author_name": "SaintLee (\u2756,\u2756)",
+    "created_at": "Mon Jan 12 21:18:51 +0000 2026",
+    "created_at_iso": "2026-01-12T21:18:51+00:00",
+    "is_reply_to": "2010816722014437522",
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 553
+    },
+    "media": []
+  },
+  {
+    "id": "2010829267253313765",
+    "text": "@mert this changes everything lol",
+    "author_handle": "@alex_crypto98",
+    "author_name": "Alex Crypto",
+    "created_at": "Mon Jan 12 21:40:31 +0000 2026",
+    "created_at_iso": "2026-01-12T21:40:31+00:00",
+    "is_reply_to": "2010816722014437522",
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 312
+    },
+    "media": []
+  },
+  {
+    "id": "2010879216427155977",
+    "text": "@mert insane",
+    "author_handle": "@maxwin",
+    "author_name": "\u06df",
+    "created_at": "Tue Jan 13 00:59:00 +0000 2026",
+    "created_at_iso": "2026-01-13T00:59:00+00:00",
+    "is_reply_to": "2010816722014437522",
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 521
+    },
+    "media": []
+  },
+  {
+    "id": "2011195215193751943",
+    "text": "@mert Anthropic won.",
+    "author_handle": "@_CarlosAce_",
+    "author_name": "Carlos Acevedo \ud83e\uddd9\ud83c\udffd\u200d\u2642\ufe0f",
+    "created_at": "Tue Jan 13 21:54:40 +0000 2026",
+    "created_at_iso": "2026-01-13T21:54:40+00:00",
+    "is_reply_to": "2010816722014437522",
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 44
+    },
+    "media": []
+  },
+  {
+    "id": "2010832923541332050",
+    "text": "@mert i'll be trying this out asap",
+    "author_handle": "@0xBossmang",
+    "author_name": "GOAT ferengi",
+    "created_at": "Mon Jan 12 21:55:03 +0000 2026",
+    "created_at_iso": "2026-01-12T21:55:03+00:00",
+    "is_reply_to": "2010816722014437522",
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 242
+    },
+    "media": []
+  },
+  {
+    "id": "2010836501764936100",
+    "text": "@mert This looks dope\nI refuse to pay for more than 1 AI\nSo looks like grok is getting cancelled this month",
+    "author_handle": "@JackedBasedMgr",
+    "author_name": "JackedBasedMgr",
+    "created_at": "Mon Jan 12 22:09:16 +0000 2026",
+    "created_at_iso": "2026-01-12T22:09:16+00:00",
+    "is_reply_to": "2010816722014437522",
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 188
+    },
+    "media": []
+  },
+  {
+    "id": "2010914911656743090",
+    "text": "@mert Claude Cowork completely crashed and lost convos when I asked it to generate pitch decks\u2026\n\nWill wait a bit before going ham on it",
+    "author_handle": "@VincentShipsIt",
+    "author_name": "Vincent e/acc",
+    "created_at": "Tue Jan 13 03:20:50 +0000 2026",
+    "created_at_iso": "2026-01-13T03:20:50+00:00",
+    "is_reply_to": "2010816722014437522",
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 46
+    },
+    "media": []
+  },
+  {
+    "id": "2010899350269120837",
+    "text": "@mert Just bought cursor yesterday. Not a bullish post",
+    "author_handle": "@hashvalue",
+    "author_name": "daybot",
+    "created_at": "Tue Jan 13 02:19:00 +0000 2026",
+    "created_at_iso": "2026-01-13T02:19:00+00:00",
+    "is_reply_to": "2010816722014437522",
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 33
+    },
+    "media": []
+  },
+  {
+    "id": "2010818693048029302",
+    "text": "@mert This feels like the first real \"agent in the browser\" moment\nCursor catching strays",
+    "author_handle": "@ivanbiteth",
+    "author_name": "ivanbiteth",
+    "created_at": "Mon Jan 12 20:58:30 +0000 2026",
+    "created_at_iso": "2026-01-12T20:58:30+00:00",
+    "is_reply_to": "2010816722014437522",
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 677
+    },
+    "media": []
+  },
+  {
+    "id": "2010835040658170132",
+    "text": "@mert Is playwright/puppeteer not sufficient that you need a full browser often?",
+    "author_handle": "@neilquinn",
+    "author_name": "Neil Quinn",
+    "created_at": "Mon Jan 12 22:03:27 +0000 2026",
+    "created_at_iso": "2026-01-12T22:03:27+00:00",
+    "is_reply_to": "2010816722014437522",
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 214
+    },
+    "media": []
+  },
+  {
+    "id": "2010858202561208680",
+    "text": "@mert can't you just use headless mode",
+    "author_handle": "@FractalVeritas",
+    "author_name": "Perses",
+    "created_at": "Mon Jan 12 23:35:30 +0000 2026",
+    "created_at_iso": "2026-01-12T23:35:30+00:00",
+    "is_reply_to": "2010816722014437522",
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 95
+    },
+    "media": []
+  },
+  {
+    "id": "2010859420780282175",
+    "text": "@mert try @openclaw \n\nthis is nothing",
+    "author_handle": "@decocereus",
+    "author_name": "amartya -- builder arc",
+    "created_at": "Mon Jan 12 23:40:20 +0000 2026",
+    "created_at_iso": "2026-01-12T23:40:20+00:00",
+    "is_reply_to": "2010816722014437522",
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 54
+    },
+    "media": []
+  },
+  {
+    "id": "2010854529483321709",
+    "text": "@mert The next generation will cook hard with all that\u2019s at play",
+    "author_handle": "@richeythinks",
+    "author_name": "Richie\u2019sLog",
+    "created_at": "Mon Jan 12 23:20:54 +0000 2026",
+    "created_at_iso": "2026-01-12T23:20:54+00:00",
+    "is_reply_to": "2010816722014437522",
+    "conversation_id": "2010816722014437522",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 88
+    },
+    "media": []
+  },
+  {
+    "id": "2016553639398330550",
+    "text": "Big Pharma doesn\u2019t profit from a sudden collapse; they profit from your slow fade.\n\nThe gradual loss of energy, drive, and recovery is a feature, not a bug. It makes you a lifelong customer.\n\nFight the fade at its source. It starts with NAD+.\n\n1. The..\u2026 https://t.co/uWWwV3phXP https://t.co/iccgVLlOVT",
+    "author_handle": "@BrianPrescott48",
+    "author_name": "Brian Prescott",
+    "created_at": "Wed Jan 28 16:47:08 +0000 2026",
+    "created_at_iso": "2026-01-28T16:47:08+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2016553639398330550",
+    "metrics": {
+      "replies": 13,
+      "retweets": 35,
+      "likes": 274,
+      "bookmarks": 71,
+      "views": 181876
+    },
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/1999114791529435136/img/jZte6467bGUr4yUi.jpg",
+        "video_url": "https://video.twimg.com/amplify_video/1999114791529435136/vid/avc1/480x270/wHcfrSh84hWRiLMt.mp4?tag=21"
+      }
+    ]
+  }
+]

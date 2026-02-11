@@ -1,0 +1,446 @@
+[
+  {
+    "id": "2009620498573873379",
+    "text": "Another interesting feature in Claude Code 2.1\n\nSkills are visible by default using / (just like commands).\n\nYes, this can be confusing at first, but with a solid naming convention it\u2019s easy to manage.\n\nIf you want to hide a Skill so it\u2019s not visible to users, add this to the skill frontmatter: \nuser-invocable: false\n\nWays Skills can be invoked:\n- user-invocable: true (default): users can invoke it directly\n- user-invocable: false: Claude can use it, but users shouldn\u2019t\n- disable-model-invocation: true: users can invoke it, but Claude won\u2019t do so programmatically\n\nAlso worth noting: subagents can invoke Skills too.\n\nUsing Claude Code is easy... designing well-structured, autonomous workflows is a different level entirely.\n\nComing soon: a degree in Claude Code Engineering \ud83d\ude04",
+    "author_handle": "@dani_avila7",
+    "author_name": "Daniel San",
+    "created_at": "Fri Jan 09 13:37:18 +0000 2026",
+    "created_at_iso": "2026-01-09T13:37:18+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2009620498573873379",
+    "metrics": {
+      "replies": 19,
+      "retweets": 18,
+      "likes": 207,
+      "bookmarks": 183,
+      "views": 71122
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-Oa5xiWQAAEkFq.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2009397544565305705",
+    "text": "Discovering more options in Claude Code 2.1.1\n\nSkills now support Hooks directly in the YAML frontmatter.\n\nIn addition to a Skill being able to reference another Skill, you can now add hooks to run commands or scripts on PreToolUse, PostToolUse, or Stop events.\n\nThis keeps unlocking more powerful agent-based workflows.",
+    "author_handle": "@dani_avila7",
+    "author_name": "Daniel San",
+    "created_at": "Thu Jan 08 22:51:22 +0000 2026",
+    "created_at_iso": "2026-01-08T22:51:22+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2009397544565305705",
+    "metrics": {
+      "replies": 12,
+      "retweets": 14,
+      "likes": 231,
+      "bookmarks": 202,
+      "views": 55776
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-LPKh2WEAAe87e.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2009283131845611540",
+    "text": "",
+    "author_handle": "@unknown",
+    "author_name": "",
+    "created_at": "",
+    "created_at_iso": "",
+    "is_reply_to": null,
+    "conversation_id": null,
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    },
+    "media": []
+  },
+  {
+    "id": "2009642587217670252",
+    "text": "@dani_avila7 The degens will be in your comments soon",
+    "author_handle": "@MetaSaiyans",
+    "author_name": "AlphaSaiyan\ud83c\udde9\ud83c\uddf4",
+    "created_at": "Fri Jan 09 15:05:04 +0000 2026",
+    "created_at_iso": "2026-01-09T15:05:04+00:00",
+    "is_reply_to": "2009620498573873379",
+    "conversation_id": "2009620498573873379",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 451
+    },
+    "media": []
+  },
+  {
+    "id": "2009643112851710162",
+    "text": "@MetaSaiyans Prepared and waiting",
+    "author_handle": "@dani_avila7",
+    "author_name": "Daniel San",
+    "created_at": "Fri Jan 09 15:07:10 +0000 2026",
+    "created_at_iso": "2026-01-09T15:07:10+00:00",
+    "is_reply_to": "2009642587217670252",
+    "conversation_id": "2009620498573873379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 409
+    },
+    "media": []
+  },
+  {
+    "id": "2009635984380498122",
+    "text": "I love the convenience of expanding explicit invocation capabilities, but overloading the same invocation method with both commands and skills feels confusing - could there be a collision concern?\n\nWhat if it was \"/[command]\" and \"/skill:[skill]\" or something similar for consistency?",
+    "author_handle": "@ileppane",
+    "author_name": "Ilpo Lepp\u00e4nen",
+    "created_at": "Fri Jan 09 14:38:50 +0000 2026",
+    "created_at_iso": "2026-01-09T14:38:50+00:00",
+    "is_reply_to": "2009620498573873379",
+    "conversation_id": "2009620498573873379",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 409
+    },
+    "media": []
+  },
+  {
+    "id": "2009639590882116092",
+    "text": "I was thinking about something along those lines, but keep in mind that when you install a plugin, colons (:) are also used as part of the name.\n\nSo it would end up looking something like \"plugin:type:name\" when it\u2019s a plugin, and \"type:name\" when it\u2019s a local component.\n\nwhat do you think @bcherny ?",
+    "author_handle": "@dani_avila7",
+    "author_name": "Daniel San",
+    "created_at": "Fri Jan 09 14:53:10 +0000 2026",
+    "created_at_iso": "2026-01-09T14:53:10+00:00",
+    "is_reply_to": "2009635984380498122",
+    "conversation_id": "2009620498573873379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 305
+    },
+    "media": []
+  },
+  {
+    "id": "2009627038873780487",
+    "text": "@dani_avila7 I think I still find claude unreliable in calling skills, so I either create a slash command around the chaining of steps including using skill, or I will mention explicitly to use the skill and do XYZ.",
+    "author_handle": "@0xRaduan",
+    "author_name": "Raduan Al-Shedivat",
+    "created_at": "Fri Jan 09 14:03:17 +0000 2026",
+    "created_at_iso": "2026-01-09T14:03:17+00:00",
+    "is_reply_to": "2009620498573873379",
+    "conversation_id": "2009620498573873379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 185
+    },
+    "media": []
+  },
+  {
+    "id": "2009802322315231687",
+    "text": "@dani_avila7 This makes so much more sense. Slash Commands and Skills effectively do the same thing, though skills are bit more powerful.",
+    "author_handle": "@bookwormengr",
+    "author_name": "GDP",
+    "created_at": "Sat Jan 10 01:39:48 +0000 2026",
+    "created_at_iso": "2026-01-10T01:39:48+00:00",
+    "is_reply_to": "2009620498573873379",
+    "conversation_id": "2009620498573873379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 220
+    },
+    "media": []
+  },
+  {
+    "id": "2009649869292777569",
+    "text": "@dani_avila7 Well ain't that something. Pretty wild. Agents all over the place and noone knows lol",
+    "author_handle": "@explorersofai",
+    "author_name": "Sharon | AI wonders",
+    "created_at": "Fri Jan 09 15:34:00 +0000 2026",
+    "created_at_iso": "2026-01-09T15:34:00+00:00",
+    "is_reply_to": "2009620498573873379",
+    "conversation_id": "2009620498573873379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 173
+    },
+    "media": []
+  },
+  {
+    "id": "2009638854488359341",
+    "text": "@dani_avila7 @dani_avila7, managing skill visibility is crucial for a clean user experience in Claude Code.",
+    "author_handle": "@codewithimanshu",
+    "author_name": "Himanshu Kumar",
+    "created_at": "Fri Jan 09 14:50:14 +0000 2026",
+    "created_at_iso": "2026-01-09T14:50:14+00:00",
+    "is_reply_to": "2009620498573873379",
+    "conversation_id": "2009620498573873379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 150
+    },
+    "media": []
+  },
+  {
+    "id": "2010057633642991835",
+    "text": "@dani_avila7 Been using Skills for video script writing and git workflows\nThose two save me the most time honestly.\nWhat other Skills are you finding useful?",
+    "author_handle": "@devloperVivek",
+    "author_name": "Vivek Chavan",
+    "created_at": "Sat Jan 10 18:34:19 +0000 2026",
+    "created_at_iso": "2026-01-10T18:34:19+00:00",
+    "is_reply_to": "2009620498573873379",
+    "conversation_id": "2009620498573873379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 39
+    },
+    "media": []
+  },
+  {
+    "id": "2009923620546687029",
+    "text": "@dani_avila7 I\u2019m using vue to hook ref files for outside purposes too!",
+    "author_handle": "@ronneevibe",
+    "author_name": "Ron Nee",
+    "created_at": "Sat Jan 10 09:41:48 +0000 2026",
+    "created_at_iso": "2026-01-10T09:41:48+00:00",
+    "is_reply_to": "2009620498573873379",
+    "conversation_id": "2009620498573873379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 40
+    },
+    "media": []
+  },
+  {
+    "id": "2009892211706494998",
+    "text": "@dani_avila7 Why distinguish between agents and humans, rather than ability to use the skill? E.g., some skills should be used by humans and Opus, but not by Haiku.",
+    "author_handle": "@JohnThilen",
+    "author_name": "John Thil\u00e9n",
+    "created_at": "Sat Jan 10 07:36:59 +0000 2026",
+    "created_at_iso": "2026-01-10T07:36:59+00:00",
+    "is_reply_to": "2009620498573873379",
+    "conversation_id": "2009620498573873379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 52
+    },
+    "media": []
+  },
+  {
+    "id": "2009900004534882631",
+    "text": "skill invocability controls are crucial for production workflows. the distinction between user-invocable vs model-only skills mirrors how we think about API surface design - explicit vs implicit capabilities. claude code's approach with disable-model-invocation gives you fine-grained control over agentic behavior",
+    "author_handle": "@ak_cozmo",
+    "author_name": "AK",
+    "created_at": "Sat Jan 10 08:07:57 +0000 2026",
+    "created_at_iso": "2026-01-10T08:07:57+00:00",
+    "is_reply_to": "2009620498573873379",
+    "conversation_id": "2009620498573873379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 78
+    },
+    "media": []
+  },
+  {
+    "id": "2009905720951771442",
+    "text": "@dani_avila7 This is good now the invocation will be much more stable I assume",
+    "author_handle": "@shreyas1009",
+    "author_name": "Shreyas Shinde",
+    "created_at": "Sat Jan 10 08:30:40 +0000 2026",
+    "created_at_iso": "2026-01-10T08:30:40+00:00",
+    "is_reply_to": "2009620498573873379",
+    "conversation_id": "2009620498573873379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 41
+    },
+    "media": []
+  },
+  {
+    "id": "2009889389892251723",
+    "text": "@dani_avila7 How I see this: previously those that were skills are user-invocable and those previously are not can be revised and change accordingly.",
+    "author_handle": "@ruchernchong",
+    "author_name": "Ru Chern Chong",
+    "created_at": "Sat Jan 10 07:25:47 +0000 2026",
+    "created_at_iso": "2026-01-10T07:25:47+00:00",
+    "is_reply_to": "2009620498573873379",
+    "conversation_id": "2009620498573873379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 41
+    },
+    "media": []
+  },
+  {
+    "id": "2009794658528866409",
+    "text": "@dani_avila7 Naming convention is key. I'm using verb-noun pattern (get-data, send-email) with prefixes for categories (api_, local_, mcp_). Makes it easier to find what you need when / autocomplete kicks in. How are you organizing yours?",
+    "author_handle": "@Lat3ntG3nius",
+    "author_name": "David P",
+    "created_at": "Sat Jan 10 01:09:21 +0000 2026",
+    "created_at_iso": "2026-01-10T01:09:21+00:00",
+    "is_reply_to": "2009620498573873379",
+    "conversation_id": "2009620498573873379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 70
+    },
+    "media": []
+  },
+  {
+    "id": "2009722163549614455",
+    "text": "@dani_avila7 discoverability tradeoff",
+    "author_handle": "@seorce_",
+    "author_name": "Seorce",
+    "created_at": "Fri Jan 09 20:21:17 +0000 2026",
+    "created_at_iso": "2026-01-09T20:21:17+00:00",
+    "is_reply_to": "2009620498573873379",
+    "conversation_id": "2009620498573873379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 58
+    },
+    "media": []
+  },
+  {
+    "id": "2009750746435309884",
+    "text": "@dani_avila7 crazy",
+    "author_handle": "@RecordsUni63959",
+    "author_name": "United Records",
+    "created_at": "Fri Jan 09 22:14:51 +0000 2026",
+    "created_at_iso": "2026-01-09T22:14:51+00:00",
+    "is_reply_to": "2009620498573873379",
+    "conversation_id": "2009620498573873379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 36
+    },
+    "media": []
+  },
+  {
+    "id": "2009814089690951810",
+    "text": "@dani_avila7 I will to spend time to check all the new features in Claude Code. Thank you for sharing those.",
+    "author_handle": "@rubenmayorfx",
+    "author_name": "Aespid",
+    "created_at": "Sat Jan 10 02:26:34 +0000 2026",
+    "created_at_iso": "2026-01-10T02:26:34+00:00",
+    "is_reply_to": "2009620498573873379",
+    "conversation_id": "2009620498573873379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 53
+    },
+    "media": []
+  },
+  {
+    "id": "2009659529877918068",
+    "text": "@dani_avila7 Claude Code 2.1 skills visible via /slash is clever, but naming discipline is key. user-invocable: false hides them cleanly from users while letting Claude (and subagents) use them. Proper control for autonomous workflows.",
+    "author_handle": "@3quanax",
+    "author_name": "Jack Crabtree",
+    "created_at": "Fri Jan 09 16:12:24 +0000 2026",
+    "created_at_iso": "2026-01-09T16:12:24+00:00",
+    "is_reply_to": "2009620498573873379",
+    "conversation_id": "2009620498573873379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 93
+    },
+    "media": []
+  },
+  {
+    "id": "2009621262063251948",
+    "text": "@dani_avila7 Bookmarked. Claude code content king. \n\nLearn it sooner rather than later",
+    "author_handle": "@draken1721",
+    "author_name": "DrakeN \u9b54\u4eba",
+    "created_at": "Fri Jan 09 13:40:20 +0000 2026",
+    "created_at_iso": "2026-01-09T13:40:20+00:00",
+    "is_reply_to": "2009620498573873379",
+    "conversation_id": "2009620498573873379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 102
+    },
+    "media": []
+  },
+  {
+    "id": "2012196165618467114",
+    "text": "A big thank you for this awesome work, thoughtful design, powerful flexibility, and a great step forward for autonomous workflows. \n\nCommunity https://t.co/0hpkPduKh7 wants to thank you and made you a coin to support you and buy you a coffee \u2615\ufe0f  with those fees.\n\nFeel free to claim whenever you like \ud83d\ude42\n\nhttps://t.co/uAudV9M3yX",
+    "author_handle": "@magic__one",
+    "author_name": "magic \ud83e\ude84",
+    "created_at": "Fri Jan 16 16:12:05 +0000 2026",
+    "created_at_iso": "2026-01-16T16:12:05+00:00",
+    "is_reply_to": "2009620498573873379",
+    "conversation_id": "2009620498573873379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 22
+    },
+    "media": []
+  }
+]

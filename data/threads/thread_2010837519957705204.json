@@ -1,0 +1,704 @@
+[
+  {
+    "id": "2010837519957705204",
+    "text": "I was very excited to try Cowork - I thought this would be a big moment for non-devs to start adopting Claude.\n\nBut, it's kinda underwhelming?\n\nClaude in Chrome is cool, but I just sort of opened Cowork and found myself unsure what I would actually use this for",
+    "author_handle": "@jarrodwatts",
+    "author_name": "Jarrod Watts",
+    "created_at": "Mon Jan 12 22:13:18 +0000 2026",
+    "created_at_iso": "2026-01-12T22:13:18+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2010837519957705204",
+    "metrics": {
+      "replies": 72,
+      "retweets": 3,
+      "likes": 234,
+      "bookmarks": 63,
+      "views": 68705
+    },
+    "media": []
+  },
+  {
+    "id": "2010805682434666759",
+    "text": "Introducing Cowork: Claude Code for the rest of your work.\n\nCowork lets you complete non-technical tasks much like how developers use Claude Code. https://t.co/EqckycvFH3",
+    "author_handle": "@claudeai",
+    "author_name": "Claude",
+    "created_at": "Mon Jan 12 20:06:48 +0000 2026",
+    "created_at_iso": "2026-01-12T20:06:48+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2010805682434666759",
+    "metrics": {
+      "replies": 2579,
+      "retweets": 8675,
+      "likes": 87901,
+      "bookmarks": 59896,
+      "views": 49280651
+    },
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/media/G-k8KoibgAAuiOj.jpg",
+        "video_url": "https://video.twimg.com/amplify_video/2010792398280929280/vid/avc1/480x270/UAbLHsC_KIYSjkuW.mp4?tag=21"
+      }
+    ]
+  },
+  {
+    "id": "2010853867102314981",
+    "text": "@jarrodwatts that's because youre a developer \n\nusing terminal is intimidating for most people",
+    "author_handle": "@mert",
+    "author_name": "mert",
+    "created_at": "Mon Jan 12 23:18:16 +0000 2026",
+    "created_at_iso": "2026-01-12T23:18:16+00:00",
+    "is_reply_to": "2010837519957705204",
+    "conversation_id": "2010837519957705204",
+    "metrics": {
+      "replies": 4,
+      "retweets": 0,
+      "likes": 38,
+      "bookmarks": 2,
+      "views": 4709
+    },
+    "media": []
+  },
+  {
+    "id": "2010863433139544526",
+    "text": "@mert yeah i guess i'm not the target audience\n\nidk, i still struggled to come up with use cases i would use this for - not sure if its a skill issue or just not much to practically apply it to atm",
+    "author_handle": "@jarrodwatts",
+    "author_name": "Jarrod Watts",
+    "created_at": "Mon Jan 12 23:56:17 +0000 2026",
+    "created_at_iso": "2026-01-12T23:56:17+00:00",
+    "is_reply_to": "2010853867102314981",
+    "conversation_id": "2010837519957705204",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 9,
+      "bookmarks": 0,
+      "views": 2463
+    },
+    "media": []
+  },
+  {
+    "id": "2010847917754761519",
+    "text": "@jarrodwatts Hmmm \ud83e\udd14 what baseline you starting at? Already using regular Claude code?",
+    "author_handle": "@inababi",
+    "author_name": "Salina Mendoza",
+    "created_at": "Mon Jan 12 22:54:37 +0000 2026",
+    "created_at_iso": "2026-01-12T22:54:37+00:00",
+    "is_reply_to": "2010837519957705204",
+    "conversation_id": "2010837519957705204",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 2635
+    },
+    "media": []
+  },
+  {
+    "id": "2010856507794145485",
+    "text": "@inababi Yeah, a Claude Code power user\n\nI guess if you\u2019re coming from using the terminal it doesn\u2019t unlock much new for you\n\nBut maybe it does for new users?",
+    "author_handle": "@jarrodwatts",
+    "author_name": "Jarrod Watts",
+    "created_at": "Mon Jan 12 23:28:46 +0000 2026",
+    "created_at_iso": "2026-01-12T23:28:46+00:00",
+    "is_reply_to": "2010847917754761519",
+    "conversation_id": "2010837519957705204",
+    "metrics": {
+      "replies": 3,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 0,
+      "views": 2448
+    },
+    "media": []
+  },
+  {
+    "id": "2010847554334793963",
+    "text": "@jarrodwatts Ya the example tasks are very uninspiring. I don't know why I would need Cowork for this:\n\nhttps://t.co/XezKfBmNkX",
+    "author_handle": "@ntkris",
+    "author_name": "Krishna",
+    "created_at": "Mon Jan 12 22:53:11 +0000 2026",
+    "created_at_iso": "2026-01-12T22:53:11+00:00",
+    "is_reply_to": "2010837519957705204",
+    "conversation_id": "2010837519957705204",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 9,
+      "bookmarks": 1,
+      "views": 3343
+    },
+    "media": []
+  },
+  {
+    "id": "2010840143314203072",
+    "text": "Tasks like this one will frustrate users on Cowork. It takes longer than a traditional query on the \"Chat\" tab. \n\nI don't think Cowork will add any more value for this kind of task. The examples should specifically be tasks that the \"Chat\" tab fails at. https://t.co/lhhi6fF4RZ",
+    "author_handle": "@ntkris",
+    "author_name": "Krishna",
+    "created_at": "Mon Jan 12 22:23:44 +0000 2026",
+    "created_at_iso": "2026-01-12T22:23:44+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2010840143314203072",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 4105
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-fwQKKWwAA9QMj.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2010864573897982373",
+    "text": "@jarrodwatts Yeah idk really - it\u2019s like the Claude code extension in cursor and VS code. It\u2019s literally a worse product than Claude code in the terminal.",
+    "author_handle": "@carlvellotti",
+    "author_name": "Carl Vellotti \ud83e\udd5e",
+    "created_at": "Tue Jan 13 00:00:49 +0000 2026",
+    "created_at_iso": "2026-01-13T00:00:49+00:00",
+    "is_reply_to": "2010837519957705204",
+    "conversation_id": "2010837519957705204",
+    "metrics": {
+      "replies": 0,
+      "retweets": 1,
+      "likes": 4,
+      "bookmarks": 1,
+      "views": 1346
+    },
+    "media": []
+  },
+  {
+    "id": "2010858164045168691",
+    "text": "Haven't tried Cowork yet (no mac), but I setup OpenCode to act as a very capable personal assistant in the last month and this seems like a more readily accessible version of that.\n\nThe real unlock comes when you give it access to a wide range of tools \u2014 mine can access my emails, calendar, Fizzy task list, personal task list, confluence, Xero, our research repositories at Minotaur, our company doc repositories, image generation APIs, Slack, our CRM, endpoints to get fund data, etc.\n\nThey're all defined in SKILL files, often with custom CLI tools build to access them.\n\nOnce you have that in place, it's very powerful as OpenCode (or Cowork) becomes the orchestration layer between many services, and you can write your SKILLs and AGENT to know about your specific circumstances.\n\nUsed that setup to do a lot my accounting on the weekend because I could say, \"Go to Minotaur's Xero and give me a list of unreconcilled transactions with a table of suggested changes\", and then work that through and have it apply it. For transactions that were unusual, I could get it to search my email to find relevant invoices since that integration was built.\n\nSo now I tend to approach tasks by asking, can OpenCode do this? Could it do it if I provide the right SKILL and CLI command that calls the right API? If you can extend it like that, then it can be quite a useful tool.\n\nThe tricky part is all the authentication. I was thinking about how to set this up for a friend and realised it's quite hard if you can't set up the auth / API calls for the major services you use, which a lot of non-technical people would struggle with.",
+    "author_handle": "@thomasrice_au",
+    "author_name": "Thomas Rice",
+    "created_at": "Mon Jan 12 23:35:20 +0000 2026",
+    "created_at_iso": "2026-01-12T23:35:20+00:00",
+    "is_reply_to": "2010837519957705204",
+    "conversation_id": "2010837519957705204",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 5,
+      "bookmarks": 3,
+      "views": 1272
+    },
+    "media": []
+  },
+  {
+    "id": "2010918748786737636",
+    "text": "@jarrodwatts Remember what it was like to build before Claude Code? That's where every other role is today. Work is going to change for everyone and this is our first step.",
+    "author_handle": "@amorriscode",
+    "author_name": "Anthony Morris \u30c4",
+    "created_at": "Tue Jan 13 03:36:05 +0000 2026",
+    "created_at_iso": "2026-01-13T03:36:05+00:00",
+    "is_reply_to": "2010837519957705204",
+    "conversation_id": "2010837519957705204",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 515
+    },
+    "media": []
+  },
+  {
+    "id": "2010913226301850056",
+    "text": "@jarrodwatts I\u2019ve been using Claude Code in VS as a marketer for the last 6 months for things like updating hundreds of UTM links with a new UTM taxonomy, filing podcast scripts into the right doc format and naming structure. Can now do this in Cowork. Terminals are intimidating for non-tech.",
+    "author_handle": "@lexxbarn",
+    "author_name": "Lexie Barnhorn",
+    "created_at": "Tue Jan 13 03:14:08 +0000 2026",
+    "created_at_iso": "2026-01-13T03:14:08+00:00",
+    "is_reply_to": "2010837519957705204",
+    "conversation_id": "2010837519957705204",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 315
+    },
+    "media": []
+  },
+  {
+    "id": "2011028242954670404",
+    "text": "This is going to be same reaction when corporations will put this in front of their non-technical users.\n\nUnless there is training, solid onboarding process and explicit documentation \"for dummies\" - employees will resist or avoid using it.\n\nAnthropic doesn't understand how bad it is in those organizations. Data silos, file attachments, scattered multi version of same data on shared drives, contradicting and outdated knowledge base... \n\nit's going to be an uphill battle for enterprise to adopt thise.\n\nSmall teams? yes. They will be on top of that.\nDevs or technical users - 100%.",
+    "author_handle": "@michael_kove",
+    "author_name": "\ud835\udde0\ud835\uddf6\ud835\uddf0\ud835\uddf5\ud835\uddee\ud835\uddf2\ud835\uddf9 \ud835\uddde\ud835\uddfc\ud835\ude03\ud835\uddf2",
+    "created_at": "Tue Jan 13 10:51:10 +0000 2026",
+    "created_at_iso": "2026-01-13T10:51:10+00:00",
+    "is_reply_to": "2010837519957705204",
+    "conversation_id": "2010837519957705204",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 290
+    },
+    "media": []
+  },
+  {
+    "id": "2010845151652872646",
+    "text": "@jarrodwatts https://t.co/feRwBB3J5n",
+    "author_handle": "@daboigbae",
+    "author_name": "gbae the app developer",
+    "created_at": "Mon Jan 12 22:43:38 +0000 2026",
+    "created_at_iso": "2026-01-12T22:43:38+00:00",
+    "is_reply_to": "2010837519957705204",
+    "conversation_id": "2010837519957705204",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 1013
+    },
+    "media": [
+      {
+        "type": "animated_gif",
+        "url": "https://pbs.twimg.com/tweet_video_thumb/G-f1AZ6WYAAGNNT.jpg",
+        "video_url": "https://video.twimg.com/tweet_video/G-f1AZ6WYAAGNNT.mp4"
+      }
+    ]
+  },
+  {
+    "id": "2010871358960324930",
+    "text": "@jarrodwatts Ask it to analyze your home dir and make suggestions as to what it can do.",
+    "author_handle": "@Dave_Maynor",
+    "author_name": "David Maynor",
+    "created_at": "Tue Jan 13 00:27:46 +0000 2026",
+    "created_at_iso": "2026-01-13T00:27:46+00:00",
+    "is_reply_to": "2010837519957705204",
+    "conversation_id": "2010837519957705204",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 994
+    },
+    "media": []
+  },
+  {
+    "id": "2010883707067122098",
+    "text": "@jarrodwatts Maybe for organising notion notes",
+    "author_handle": "@Viraz04",
+    "author_name": "viraz.eth",
+    "created_at": "Tue Jan 13 01:16:50 +0000 2026",
+    "created_at_iso": "2026-01-13T01:16:50+00:00",
+    "is_reply_to": "2010837519957705204",
+    "conversation_id": "2010837519957705204",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 403
+    },
+    "media": []
+  },
+  {
+    "id": "2011013028678918566",
+    "text": "@jarrodwatts https://t.co/H4YnMrJyB4",
+    "author_handle": "@intellectronica",
+    "author_name": "Eleanor Berger",
+    "created_at": "Tue Jan 13 09:50:43 +0000 2026",
+    "created_at_iso": "2026-01-13T09:50:43+00:00",
+    "is_reply_to": "2010837519957705204",
+    "conversation_id": "2010837519957705204",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 214
+    },
+    "media": []
+  },
+  {
+    "id": "2011011410923299099",
+    "text": "\ud83d\udca5 Excited about Claude Cowork. The \"Claude Code for non-coders\". The reality is - the \"Research Preview\" label fits well. It's a taste of what's coming, but for people serious about starting today with a local agent, I still recommend starting with CC or another local agent.",
+    "author_handle": "@intellectronica",
+    "author_name": "Eleanor Berger",
+    "created_at": "Tue Jan 13 09:44:17 +0000 2026",
+    "created_at_iso": "2026-01-13T09:44:17+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2011011410923299099",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 6,
+      "bookmarks": 1,
+      "views": 1110
+    },
+    "media": []
+  },
+  {
+    "id": "2010842603252531385",
+    "text": "@jarrodwatts First thing I\u2019m using it for is to organize my files on my computer. I am not organized at all",
+    "author_handle": "@59thProfile",
+    "author_name": "Spanky McDoob",
+    "created_at": "Mon Jan 12 22:33:30 +0000 2026",
+    "created_at_iso": "2026-01-12T22:33:30+00:00",
+    "is_reply_to": "2010837519957705204",
+    "conversation_id": "2010837519957705204",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 6,
+      "bookmarks": 0,
+      "views": 1131
+    },
+    "media": []
+  },
+  {
+    "id": "2010851061611852038",
+    "text": "@jarrodwatts I honestly think it's more about the direction their starting to head in and the market they serve. \n\nClaude is really dev heavy, but breaking into more general use with a flashy new feature is a really good play to start reaching a new audience.",
+    "author_handle": "@keean_edward",
+    "author_name": "Keean Edward",
+    "created_at": "Mon Jan 12 23:07:07 +0000 2026",
+    "created_at_iso": "2026-01-12T23:07:07+00:00",
+    "is_reply_to": "2010837519957705204",
+    "conversation_id": "2010837519957705204",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 5,
+      "bookmarks": 1,
+      "views": 865
+    },
+    "media": []
+  },
+  {
+    "id": "2010847897277841534",
+    "text": "@jarrodwatts That\u2019s called a lack of imagination",
+    "author_handle": "@ArtAndAlgo",
+    "author_name": "James",
+    "created_at": "Mon Jan 12 22:54:33 +0000 2026",
+    "created_at_iso": "2026-01-12T22:54:33+00:00",
+    "is_reply_to": "2010837519957705204",
+    "conversation_id": "2010837519957705204",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 5,
+      "bookmarks": 0,
+      "views": 335
+    },
+    "media": []
+  },
+  {
+    "id": "2010905617595289851",
+    "text": "@jarrodwatts the \"what would I use this for\" feeling is usually a sign you don't have enough boring tasks piled up yet\n\ngive it 2 weeks, then try again when you have 47 PDFs to summarize and 3 hours of meeting recordings to parse",
+    "author_handle": "@s_heyneman",
+    "author_name": "Sebastian (Audited) \ud83c\udde8\ud83c\udded",
+    "created_at": "Tue Jan 13 02:43:54 +0000 2026",
+    "created_at_iso": "2026-01-13T02:43:54+00:00",
+    "is_reply_to": "2010837519957705204",
+    "conversation_id": "2010837519957705204",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 120
+    },
+    "media": []
+  },
+  {
+    "id": "2010848687870586987",
+    "text": "@jarrodwatts Yeah this seems like an in-between product. Too technical for normies and too sanitized for devs. My prediction is a flop.",
+    "author_handle": "@madmaxbr5",
+    "author_name": "Max Andrews",
+    "created_at": "Mon Jan 12 22:57:41 +0000 2026",
+    "created_at_iso": "2026-01-12T22:57:41+00:00",
+    "is_reply_to": "2010837519957705204",
+    "conversation_id": "2010837519957705204",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 237
+    },
+    "media": []
+  },
+  {
+    "id": "2011024401152507925",
+    "text": "@jarrodwatts Had a very similar reaction. And yeah, do have a dev background but never found Claude Code great for the non-dev work I wanted.\n\nTried to do a few things in Cowork and... just didn't feel like the right approach. I love the idea of automating your work for the masses but ... meh",
+    "author_handle": "@tjrfinn",
+    "author_name": "Tuomas Rinta",
+    "created_at": "Tue Jan 13 10:35:54 +0000 2026",
+    "created_at_iso": "2026-01-13T10:35:54+00:00",
+    "is_reply_to": "2010837519957705204",
+    "conversation_id": "2010837519957705204",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 52
+    },
+    "media": []
+  },
+  {
+    "id": "2010848195639939453",
+    "text": "@jarrodwatts I agree, Non devs don\u2019t even know what Claude is",
+    "author_handle": "@connor_builds",
+    "author_name": "Connor",
+    "created_at": "Mon Jan 12 22:55:44 +0000 2026",
+    "created_at_iso": "2026-01-12T22:55:44+00:00",
+    "is_reply_to": "2010837519957705204",
+    "conversation_id": "2010837519957705204",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 338
+    },
+    "media": []
+  },
+  {
+    "id": "2010855379560010133",
+    "text": "@jarrodwatts you can ask it to organize your desktop i guess",
+    "author_handle": "@bffmike",
+    "author_name": "Mike Manzano \u2728 \u1bc5",
+    "created_at": "Mon Jan 12 23:24:17 +0000 2026",
+    "created_at_iso": "2026-01-12T23:24:17+00:00",
+    "is_reply_to": "2010837519957705204",
+    "conversation_id": "2010837519957705204",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 168
+    },
+    "media": []
+  },
+  {
+    "id": "2011112864782692723",
+    "text": "@jarrodwatts The secret is to put 200 random files on your desktop first",
+    "author_handle": "@RogerGilmour13",
+    "author_name": "Roger Gilmour",
+    "created_at": "Tue Jan 13 16:27:26 +0000 2026",
+    "created_at_iso": "2026-01-13T16:27:26+00:00",
+    "is_reply_to": "2010837519957705204",
+    "conversation_id": "2010837519957705204",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 13
+    },
+    "media": []
+  },
+  {
+    "id": "2010852796921200951",
+    "text": "@jarrodwatts The Venn diagram of it and Claude Code is a bit unclear. It also doesn\u2019t have screenshot / mouse input support on the local device. Apparently you can send messages with bash tho",
+    "author_handle": "@codyavant",
+    "author_name": "Cody Avant",
+    "created_at": "Mon Jan 12 23:14:01 +0000 2026",
+    "created_at_iso": "2026-01-12T23:14:01+00:00",
+    "is_reply_to": "2010837519957705204",
+    "conversation_id": "2010837519957705204",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 809
+    },
+    "media": []
+  },
+  {
+    "id": "2010859644454117497",
+    "text": "@jarrodwatts I think you're underestimating how scary the terminal is for most non-dev users...",
+    "author_handle": "@turnerloesel",
+    "author_name": "Turner Loesel",
+    "created_at": "Mon Jan 12 23:41:13 +0000 2026",
+    "created_at_iso": "2026-01-12T23:41:13+00:00",
+    "is_reply_to": "2010837519957705204",
+    "conversation_id": "2010837519957705204",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 127
+    },
+    "media": []
+  },
+  {
+    "id": "2011042459812303352",
+    "text": "@jarrodwatts Because you're a technical person",
+    "author_handle": "@godwin_france",
+    "author_name": "Saharan-sub (\ud83e\udd8a,\ud83e\udd8a)",
+    "created_at": "Tue Jan 13 11:47:40 +0000 2026",
+    "created_at_iso": "2026-01-13T11:47:40+00:00",
+    "is_reply_to": "2010837519957705204",
+    "conversation_id": "2010837519957705204",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 18
+    },
+    "media": []
+  },
+  {
+    "id": "2010902107768176795",
+    "text": "@jarrodwatts use it to delete Claude code",
+    "author_handle": "@paulmakesmovies",
+    "author_name": "Cancelproof Paul",
+    "created_at": "Tue Jan 13 02:29:57 +0000 2026",
+    "created_at_iso": "2026-01-13T02:29:57+00:00",
+    "is_reply_to": "2010837519957705204",
+    "conversation_id": "2010837519957705204",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 34
+    },
+    "media": []
+  },
+  {
+    "id": "2011006966878126301",
+    "text": "@jarrodwatts Seems like it\u2019s not the tool but your creativity that is underwhelming",
+    "author_handle": "@tristanhofman",
+    "author_name": "Tristan",
+    "created_at": "Tue Jan 13 09:26:38 +0000 2026",
+    "created_at_iso": "2026-01-13T09:26:38+00:00",
+    "is_reply_to": "2010837519957705204",
+    "conversation_id": "2010837519957705204",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 32
+    },
+    "media": []
+  },
+  {
+    "id": "2010892496952504598",
+    "text": "@jarrodwatts Maybe it's just not for you?",
+    "author_handle": "@downfall",
+    "author_name": "downfall",
+    "created_at": "Tue Jan 13 01:51:46 +0000 2026",
+    "created_at_iso": "2026-01-13T01:51:46+00:00",
+    "is_reply_to": "2010837519957705204",
+    "conversation_id": "2010837519957705204",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 38
+    },
+    "media": []
+  },
+  {
+    "id": "2010888335720399154",
+    "text": "@jarrodwatts This is aimed at folks whose only encounter with a terminal is at the airport around the holidays\u2026 not exactly the Claude Code audience.",
+    "author_handle": "@sebastavar",
+    "author_name": "Seba Stavar",
+    "created_at": "Tue Jan 13 01:35:14 +0000 2026",
+    "created_at_iso": "2026-01-13T01:35:14+00:00",
+    "is_reply_to": "2010837519957705204",
+    "conversation_id": "2010837519957705204",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 56
+    },
+    "media": []
+  },
+  {
+    "id": "2011082934841696723",
+    "text": "When you open Claude code in the terminal on your computer, it creates a feeling that you having unlimited power, control over your computer through this magic genie who can do anything. Especially for less technical people who couldn\u2019t really use a terminal before, or could only use one a little bit.\n\nImpossible to recreate that feeling through an app that you connect to a folder.",
+    "author_handle": "@darengb",
+    "author_name": "daren",
+    "created_at": "Tue Jan 13 14:28:30 +0000 2026",
+    "created_at_iso": "2026-01-13T14:28:30+00:00",
+    "is_reply_to": "2010837519957705204",
+    "conversation_id": "2010837519957705204",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 33
+    },
+    "media": []
+  },
+  {
+    "id": "2010849743304302649",
+    "text": "@jarrodwatts haven\u2019t tried yet\u2026 my question is whether it\u2019s a superset or subset of what you could by just cd\u2019into the directory and running claude \u2014dangerously-skip-permissions \u2014chrome ?",
+    "author_handle": "@siraustin",
+    "author_name": "Austin S. Lin",
+    "created_at": "Mon Jan 12 23:01:53 +0000 2026",
+    "created_at_iso": "2026-01-12T23:01:53+00:00",
+    "is_reply_to": "2010837519957705204",
+    "conversation_id": "2010837519957705204",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 597
+    },
+    "media": []
+  },
+  {
+    "id": "2010878001664467397",
+    "text": "@jarrodwatts Ok but imagine cowork, but it\u2019s hosted on a different server, and it remembers all your preferences and it has a personality that lives forever and it tries to make you laugh. \ud83d\udc40",
+    "author_handle": "@jam0xb797fd",
+    "author_name": "joseph",
+    "created_at": "Tue Jan 13 00:54:10 +0000 2026",
+    "created_at_iso": "2026-01-13T00:54:10+00:00",
+    "is_reply_to": "2010837519957705204",
+    "conversation_id": "2010837519957705204",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 170
+    },
+    "media": []
+  },
+  {
+    "id": "2010858299906814246",
+    "text": "This seems like a great marketing release rather than an actual leap in capability. But directionally it feels right, the plumbing just isn't there yet for it to do real work like Claude Code does in development.",
+    "author_handle": "@jdjohnson",
+    "author_name": "Jarad Johnson",
+    "created_at": "Mon Jan 12 23:35:53 +0000 2026",
+    "created_at_iso": "2026-01-12T23:35:53+00:00",
+    "is_reply_to": "2010837519957705204",
+    "conversation_id": "2010837519957705204",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 138
+    },
+    "media": []
+  }
+]

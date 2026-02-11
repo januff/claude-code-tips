@@ -35,6 +35,10 @@ url: "https://x.com/nummanali/status/2007849823756575084"
 >
 > Likes: 220 · Replies: 14 · Reposts: 20
 
+## Summary
+
+This tip introduces 'mclaude', a Claude Code Agent built using CC Mirror for orchestrated code execution. It allows you to isolate code agent execution from your main Claude Code environment and run orchestrated skills. The demonstrated commands are `npx cc-mirror quick --provider mirror --name mclaude` to create the agent, and then simply `mclaude` to invoke it.
+
 ## Replies
 
 > [!reply] @nummanali · Sun Jan 04 10:58:53 +0000 2026

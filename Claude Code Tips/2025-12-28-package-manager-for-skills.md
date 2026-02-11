@@ -20,7 +20,7 @@ url: "https://x.com/AaronErickson/status/2005144431637529064"
 
 ## Summary
 
-One more idea, y'all have a decent package manager for skills yet
+This Claude Code tip explores the concept of a skill package manager, prompted by the idea of managing and distributing skills for the Claude model. The author created a proof-of-concept basic package manager, highlighting the potential for a more robust system to exist. The tip doesn't showcase specific commands or tools within the POC, but rather advocates for the development of a package manager solution within the Claude ecosystem.
 
 
 > [!metrics]- Engagement & Metadata

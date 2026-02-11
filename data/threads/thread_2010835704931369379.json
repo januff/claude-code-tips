@@ -1,0 +1,596 @@
+[
+  {
+    "id": "2010835704931369379",
+    "text": "https://t.co/x84Z70ZXGf",
+    "author_handle": "@clairevo",
+    "author_name": "claire vo \ud83d\udda4",
+    "created_at": "Mon Jan 12 22:06:06 +0000 2026",
+    "created_at_iso": "2026-01-12T22:06:06+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2010835704931369379",
+    "metrics": {
+      "replies": 121,
+      "retweets": 162,
+      "likes": 2320,
+      "bookmarks": 4730,
+      "views": 1336527
+    },
+    "media": []
+  },
+  {
+    "id": "2011249143365382446",
+    "text": "@clairevo thank you for the thoughtful feedback!",
+    "author_handle": "@_catwu",
+    "author_name": "cat",
+    "created_at": "Wed Jan 14 01:28:57 +0000 2026",
+    "created_at_iso": "2026-01-14T01:28:57+00:00",
+    "is_reply_to": "2010835704931369379",
+    "conversation_id": "2010835704931369379",
+    "metrics": {
+      "replies": 3,
+      "retweets": 0,
+      "likes": 19,
+      "bookmarks": 0,
+      "views": 2307
+    },
+    "media": []
+  },
+  {
+    "id": "2010856941011222572",
+    "text": "@clairevo Finally somebody that tried instead of \u201cinsane!!!\u201d us",
+    "author_handle": "@SiVola",
+    "author_name": "Paolo Perazzo",
+    "created_at": "Mon Jan 12 23:30:29 +0000 2026",
+    "created_at_iso": "2026-01-12T23:30:29+00:00",
+    "is_reply_to": "2010835704931369379",
+    "conversation_id": "2010835704931369379",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 59,
+      "bookmarks": 1,
+      "views": 20060
+    },
+    "media": []
+  },
+  {
+    "id": "2010858388616577374",
+    "text": "@SiVola the context-free hype posts are exhausting",
+    "author_handle": "@clairevo",
+    "author_name": "claire vo \ud83d\udda4",
+    "created_at": "Mon Jan 12 23:36:14 +0000 2026",
+    "created_at_iso": "2026-01-12T23:36:14+00:00",
+    "is_reply_to": "2010856941011222572",
+    "conversation_id": "2010835704931369379",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 72,
+      "bookmarks": 1,
+      "views": 16977
+    },
+    "media": []
+  },
+  {
+    "id": "2010861336419316088",
+    "text": "@clairevo great write up",
+    "author_handle": "@iruletheworldmo",
+    "author_name": "\ud83c\udf53\ud83c\udf53\ud83c\udf53",
+    "created_at": "Mon Jan 12 23:47:57 +0000 2026",
+    "created_at_iso": "2026-01-12T23:47:57+00:00",
+    "is_reply_to": "2010835704931369379",
+    "conversation_id": "2010835704931369379",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 22,
+      "bookmarks": 0,
+      "views": 15801
+    },
+    "media": []
+  },
+  {
+    "id": "2010862100424638721",
+    "text": "@iruletheworldmo ty ty",
+    "author_handle": "@clairevo",
+    "author_name": "claire vo \ud83d\udda4",
+    "created_at": "Mon Jan 12 23:50:59 +0000 2026",
+    "created_at_iso": "2026-01-12T23:50:59+00:00",
+    "is_reply_to": "2010861336419316088",
+    "conversation_id": "2010835704931369379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 4,
+      "bookmarks": 0,
+      "views": 13502
+    },
+    "media": []
+  },
+  {
+    "id": "2010859670223929697",
+    "text": "@clairevo The Venn diagram is not a circle! This is me! \"I can't imagine a Claude Max user on OSX who knows wtf to do with an agent AND ALSO would prefer a limited desktop app experience vs... terminal.\" But Cowork's not useful to me until the Connectors work (they broke for me too).",
+    "author_handle": "@TarenSK",
+    "author_name": "TarenSK",
+    "created_at": "Mon Jan 12 23:41:20 +0000 2026",
+    "created_at_iso": "2026-01-12T23:41:20+00:00",
+    "is_reply_to": "2010835704931369379",
+    "conversation_id": "2010835704931369379",
+    "metrics": {
+      "replies": 5,
+      "retweets": 0,
+      "likes": 11,
+      "bookmarks": 0,
+      "views": 64954
+    },
+    "media": []
+  },
+  {
+    "id": "2010865757966778479",
+    "text": "@TarenSK ok there is one of you!",
+    "author_handle": "@clairevo",
+    "author_name": "claire vo \ud83d\udda4",
+    "created_at": "Tue Jan 13 00:05:31 +0000 2026",
+    "created_at_iso": "2026-01-13T00:05:31+00:00",
+    "is_reply_to": "2010859670223929697",
+    "conversation_id": "2010835704931369379",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 0,
+      "views": 31906
+    },
+    "media": []
+  },
+  {
+    "id": "2010837204696793365",
+    "text": "@clairevo thank you for this!! super detailed, very helpful.",
+    "author_handle": "@jenny_wen",
+    "author_name": "jenny wen",
+    "created_at": "Mon Jan 12 22:12:03 +0000 2026",
+    "created_at_iso": "2026-01-12T22:12:03+00:00",
+    "is_reply_to": "2010835704931369379",
+    "conversation_id": "2010835704931369379",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 10,
+      "bookmarks": 1,
+      "views": 15814
+    },
+    "media": []
+  },
+  {
+    "id": "2010837749868179932",
+    "text": "@jenny_wen my favorite thing in the world is to do fresh eyes diary of new products so anytime \ud83e\udee1",
+    "author_handle": "@clairevo",
+    "author_name": "claire vo \ud83d\udda4",
+    "created_at": "Mon Jan 12 22:14:13 +0000 2026",
+    "created_at_iso": "2026-01-12T22:14:13+00:00",
+    "is_reply_to": "2010837204696793365",
+    "conversation_id": "2010835704931369379",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 17,
+      "bookmarks": 2,
+      "views": 13161
+    },
+    "media": []
+  },
+  {
+    "id": "2010866062049620473",
+    "text": "@clairevo I'm fairly sure this is not how 95% of people will want to use their computer.\n\nI suspect we'll see a bunch of versions of this before companies realize people don't do very much interesting stuff with a computer that is actually better proxied through an agent.",
+    "author_handle": "@sean_from_earth",
+    "author_name": "Sean",
+    "created_at": "Tue Jan 13 00:06:43 +0000 2026",
+    "created_at_iso": "2026-01-13T00:06:43+00:00",
+    "is_reply_to": "2010835704931369379",
+    "conversation_id": "2010835704931369379",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 4,
+      "bookmarks": 0,
+      "views": 4185
+    },
+    "media": []
+  },
+  {
+    "id": "2010866755401556284",
+    "text": "@sean_from_earth \"people aren't that interesting\" is my bear case against these tools",
+    "author_handle": "@clairevo",
+    "author_name": "claire vo \ud83d\udda4",
+    "created_at": "Tue Jan 13 00:09:29 +0000 2026",
+    "created_at_iso": "2026-01-13T00:09:29+00:00",
+    "is_reply_to": "2010866062049620473",
+    "conversation_id": "2010835704931369379",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 10,
+      "bookmarks": 2,
+      "views": 3164
+    },
+    "media": []
+  },
+  {
+    "id": "2010855305505292625",
+    "text": "@clairevo Very helpful",
+    "author_handle": "@introv1234",
+    "author_name": "hamad dev",
+    "created_at": "Mon Jan 12 23:23:59 +0000 2026",
+    "created_at_iso": "2026-01-12T23:23:59+00:00",
+    "is_reply_to": "2010835704931369379",
+    "conversation_id": "2010835704931369379",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 4171
+    },
+    "media": []
+  },
+  {
+    "id": "2010855456013762695",
+    "text": "@introv1234 \ud83e\udee1",
+    "author_handle": "@clairevo",
+    "author_name": "claire vo \ud83d\udda4",
+    "created_at": "Mon Jan 12 23:24:35 +0000 2026",
+    "created_at_iso": "2026-01-12T23:24:35+00:00",
+    "is_reply_to": "2010855305505292625",
+    "conversation_id": "2010835704931369379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 3784
+    },
+    "media": []
+  },
+  {
+    "id": "2010843211095245139",
+    "text": "@clairevo Great analysis.",
+    "author_handle": "@LizRabban",
+    "author_name": "Liz Rabban",
+    "created_at": "Mon Jan 12 22:35:55 +0000 2026",
+    "created_at_iso": "2026-01-12T22:35:55+00:00",
+    "is_reply_to": "2010835704931369379",
+    "conversation_id": "2010835704931369379",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 2601
+    },
+    "media": []
+  },
+  {
+    "id": "2010855427421192602",
+    "text": "@LizRabban ty!",
+    "author_handle": "@clairevo",
+    "author_name": "claire vo \ud83d\udda4",
+    "created_at": "Mon Jan 12 23:24:28 +0000 2026",
+    "created_at_iso": "2026-01-12T23:24:28+00:00",
+    "is_reply_to": "2010843211095245139",
+    "conversation_id": "2010835704931369379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 2152
+    },
+    "media": []
+  },
+  {
+    "id": "2010858248556220481",
+    "text": "@clairevo Thank you @clairevo useful. It initially sounds like a solution in search of a problem.  But there is a bitter lesson approach here?",
+    "author_handle": "@venkchandran",
+    "author_name": "Venk Chandran",
+    "created_at": "Mon Jan 12 23:35:41 +0000 2026",
+    "created_at_iso": "2026-01-12T23:35:41+00:00",
+    "is_reply_to": "2010835704931369379",
+    "conversation_id": "2010835704931369379",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 3634
+    },
+    "media": []
+  },
+  {
+    "id": "2010858893296206126",
+    "text": "My 2c: decide who this is for. If it's for non technical people DO NOT SHOW THEM CODE. abstract away all the confusing computer work and make it super friendly. Let them \"peek behind the curtain\" if they really want but don't make it front and center. Don't test only with Claude Max users - if they're paying $200/mo they're probably more advanced than the non-technical user you're targeting. Lots of things that could get this product where it ought to be.",
+    "author_handle": "@clairevo",
+    "author_name": "claire vo \ud83d\udda4",
+    "created_at": "Mon Jan 12 23:38:14 +0000 2026",
+    "created_at_iso": "2026-01-12T23:38:14+00:00",
+    "is_reply_to": "2010858248556220481",
+    "conversation_id": "2010835704931369379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 9,
+      "bookmarks": 2,
+      "views": 3103
+    },
+    "media": []
+  },
+  {
+    "id": "2010848003821879561",
+    "text": "I think we are going to see similar experiments like this where teams try to take vibe coding to the nontechnical user. \n\nIn general, my feeling is code always wins in the end. It\u2019s more practical to make the user more code savvy than to make the product abstract away all the code.",
+    "author_handle": "@hkarthik",
+    "author_name": "Karthik Hariharan",
+    "created_at": "Mon Jan 12 22:54:58 +0000 2026",
+    "created_at_iso": "2026-01-12T22:54:58+00:00",
+    "is_reply_to": "2010835704931369379",
+    "conversation_id": "2010835704931369379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 9,
+      "bookmarks": 1,
+      "views": 2762
+    },
+    "media": []
+  },
+  {
+    "id": "2010872175927181696",
+    "text": "@clairevo Great review\ud83d\udc9b",
+    "author_handle": "@belindmo",
+    "author_name": "Belinda",
+    "created_at": "Tue Jan 13 00:31:01 +0000 2026",
+    "created_at_iso": "2026-01-13T00:31:01+00:00",
+    "is_reply_to": "2010835704931369379",
+    "conversation_id": "2010835704931369379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 1,
+      "views": 1035
+    },
+    "media": []
+  },
+  {
+    "id": "2010879280847470940",
+    "text": "Haha my first question when I saw the launch was \"could this have been a chat?\" too.\nBut hearing that the output content is noticeably better is reassuring. \n\nI guess also the difference between chat vs. cowork is like asking someone to help you think through a task vs. actually delegating it.",
+    "author_handle": "@pitachoi",
+    "author_name": "Peter Choi",
+    "created_at": "Tue Jan 13 00:59:15 +0000 2026",
+    "created_at_iso": "2026-01-13T00:59:15+00:00",
+    "is_reply_to": "2010835704931369379",
+    "conversation_id": "2010835704931369379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 1388
+    },
+    "media": []
+  },
+  {
+    "id": "2010960895137186029",
+    "text": "@clairevo Would love for you to try @ManusAI and see how it stacks up!",
+    "author_handle": "@ivanleomk",
+    "author_name": "Ivan Leo",
+    "created_at": "Tue Jan 13 06:23:33 +0000 2026",
+    "created_at_iso": "2026-01-13T06:23:33+00:00",
+    "is_reply_to": "2010835704931369379",
+    "conversation_id": "2010835704931369379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 1,
+      "views": 880
+    },
+    "media": []
+  },
+  {
+    "id": "2010852465139126479",
+    "text": "Great read. My thoughts on it: \n- it\u2019s still SO developer centric, the title has code in it \n- I\u2019m not sure the examples do a good job of WHAT ppl should use it for vs vanilla Claude UI \n- Hard problem to solve but don\u2019t know if ppl are going to set up skills the way they want them to",
+    "author_handle": "@ntkris",
+    "author_name": "Krishna",
+    "created_at": "Mon Jan 12 23:12:42 +0000 2026",
+    "created_at_iso": "2026-01-12T23:12:42+00:00",
+    "is_reply_to": "2010835704931369379",
+    "conversation_id": "2010835704931369379",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 1,
+      "views": 1718
+    },
+    "media": []
+  },
+  {
+    "id": "2010890313506885691",
+    "text": "@clairevo The issue of knowing the tools exists and actually using it is sooo frustrating. I get why it\u2019s hard but feels like it should be priority number 1",
+    "author_handle": "@miles_matthias",
+    "author_name": "Miles",
+    "created_at": "Tue Jan 13 01:43:05 +0000 2026",
+    "created_at_iso": "2026-01-13T01:43:05+00:00",
+    "is_reply_to": "2010835704931369379",
+    "conversation_id": "2010835704931369379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 1042
+    },
+    "media": []
+  },
+  {
+    "id": "2010866169561981235",
+    "text": "@clairevo Claire, you\u2019re killing it! Great job!",
+    "author_handle": "@basewtf",
+    "author_name": "base",
+    "created_at": "Tue Jan 13 00:07:09 +0000 2026",
+    "created_at_iso": "2026-01-13T00:07:09+00:00",
+    "is_reply_to": "2010835704931369379",
+    "conversation_id": "2010835704931369379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 141
+    },
+    "media": []
+  },
+  {
+    "id": "2010878059105440157",
+    "text": "@clairevo The promise is so exciting. I'm hopefully they nail this.",
+    "author_handle": "@wdavidturner",
+    "author_name": "\ud83e\udde9\ud83e\udde9\ud83e\udde9\ud83e\udde9\ud83e\udde9 Dave",
+    "created_at": "Tue Jan 13 00:54:24 +0000 2026",
+    "created_at_iso": "2026-01-13T00:54:24+00:00",
+    "is_reply_to": "2010835704931369379",
+    "conversation_id": "2010835704931369379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 768
+    },
+    "media": []
+  },
+  {
+    "id": "2010873638233522562",
+    "text": "@clairevo Bummer it doesn't support their own connectors (Google mail, calendar, etc). relies on chrome integration (terrible).",
+    "author_handle": "@rowantrollope",
+    "author_name": "Rowan Trollope",
+    "created_at": "Tue Jan 13 00:36:50 +0000 2026",
+    "created_at_iso": "2026-01-13T00:36:50+00:00",
+    "is_reply_to": "2010835704931369379",
+    "conversation_id": "2010835704931369379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 1089
+    },
+    "media": []
+  },
+  {
+    "id": "2010887110350299282",
+    "text": "@clairevo Nice summary \ud83e\udee1",
+    "author_handle": "@gwintrob",
+    "author_name": "Gordon Wintrob",
+    "created_at": "Tue Jan 13 01:30:22 +0000 2026",
+    "created_at_iso": "2026-01-13T01:30:22+00:00",
+    "is_reply_to": "2010835704931369379",
+    "conversation_id": "2010835704931369379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 730
+    },
+    "media": []
+  },
+  {
+    "id": "2011106168903778516",
+    "text": "@clairevo great piece and assessment",
+    "author_handle": "@tanayj",
+    "author_name": "Tanay Jaipuria",
+    "created_at": "Tue Jan 13 16:00:49 +0000 2026",
+    "created_at_iso": "2026-01-13T16:00:49+00:00",
+    "is_reply_to": "2010835704931369379",
+    "conversation_id": "2010835704931369379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 1155
+    },
+    "media": []
+  },
+  {
+    "id": "2010904274000396386",
+    "text": "@clairevo Ya idk... seems to really want me to have a lot of files on my actual computer \ud83e\udd37\ud83c\udffc\u200d\u2642\ufe0f",
+    "author_handle": "@AndySwan",
+    "author_name": "Swan",
+    "created_at": "Tue Jan 13 02:38:34 +0000 2026",
+    "created_at_iso": "2026-01-13T02:38:34+00:00",
+    "is_reply_to": "2010835704931369379",
+    "conversation_id": "2010835704931369379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 1176
+    },
+    "media": []
+  },
+  {
+    "id": "2011035544525082842",
+    "text": "@clairevo Connecting calendar, docs and meeting notes appear to be quite powerful from what I\u2019ve heard from current Google PM folks using their internal variant of this right now",
+    "author_handle": "@robleathern",
+    "author_name": "Rob Leathern",
+    "created_at": "Tue Jan 13 11:20:11 +0000 2026",
+    "created_at_iso": "2026-01-13T11:20:11+00:00",
+    "is_reply_to": "2010835704931369379",
+    "conversation_id": "2010835704931369379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 1,
+      "views": 761
+    },
+    "media": []
+  },
+  {
+    "id": "2011100068367974803",
+    "text": "@clairevo I have a friend who is an exec at a tech company (finance) but non-technical. \nHe knows agentic computer use is the future but has no idea how to navigate terminal / CC desktop app. \n$200/month is easily worthwhile to him. \nI think this is the ICP.",
+    "author_handle": "@fzfromcupertino",
+    "author_name": "Faraz Abidi",
+    "created_at": "Tue Jan 13 15:36:35 +0000 2026",
+    "created_at_iso": "2026-01-13T15:36:35+00:00",
+    "is_reply_to": "2010835704931369379",
+    "conversation_id": "2010835704931369379",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 56
+    },
+    "media": []
+  },
+  {
+    "id": "2010475808691986666",
+    "text": "Goals without deadlines drift. Deadlines without data lie. \nUnlock your athletic potential with the full-body fitness scan used by Olympians for decades - now accessible to all from BodySpec\u00ae or  under $50.",
+    "author_handle": "@BodySpec",
+    "author_name": "BodySpec",
+    "created_at": "Sun Jan 11 22:16:00 +0000 2026",
+    "created_at_iso": "2026-01-11T22:16:00+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2010475808691986666",
+    "metrics": {
+      "replies": 0,
+      "retweets": 5,
+      "likes": 24,
+      "bookmarks": 11,
+      "views": 256813
+    },
+    "media": []
+  }
+]

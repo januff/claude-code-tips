@@ -27,7 +27,7 @@ url: "https://x.com/mattlam_/status/2005535490393674094"
 
 ## Summary
 
-give AskUserQuestionTool a try, simple steps to get a 3k+ line plan to codex/claude to implement:
+This tip details a workflow for generating comprehensive product implementation plans using Claude and GPT. It leverages Claude's `AskUserQuestionTool` to refine product specifications through interactive questioning. Then, the refined spec is used to generate plans from both GPT-5.2pro and Claude Opus, which are then compared and merged by GPT-5.2pro to create an optimized, holistic plan.
 
 ## Replies
 

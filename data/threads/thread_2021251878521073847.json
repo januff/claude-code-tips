@@ -1,0 +1,548 @@
+[
+  {
+    "id": "2021251878521073847",
+    "text": "1. install Obsidian 1.12\n2. enable CLI\n3. now OpenClaw, OpenCode, Claude Code, Codex, or any other agent can use Obsidian",
+    "author_handle": "@kepano",
+    "author_name": "kepano",
+    "created_at": "Tue Feb 10 15:56:15 +0000 2026",
+    "created_at_iso": "2026-02-10T15:56:15+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2021251878521073847",
+    "metrics": {
+      "replies": 139,
+      "retweets": 320,
+      "likes": 4202,
+      "bookmarks": 2792,
+      "views": 317032
+    },
+    "media": []
+  },
+  {
+    "id": "2021241384057930224",
+    "text": "Anything you can do in Obsidian you can do from the command line.\n\nObsidian CLI is now available in 1.12 (early access). https://t.co/B8ed2zrWHe",
+    "author_handle": "@obsdmd",
+    "author_name": "Obsidian",
+    "created_at": "Tue Feb 10 15:14:33 +0000 2026",
+    "created_at_iso": "2026-02-10T15:14:33+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2021241384057930224",
+    "metrics": {
+      "replies": 368,
+      "retweets": 1194,
+      "likes": 13661,
+      "bookmarks": 5725,
+      "views": 1315727
+    },
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2021239296343330816/img/vtDNqBXPtl22au98.jpg",
+        "video_url": "https://video.twimg.com/amplify_video/2021239296343330816/vid/avc1/348x270/12CCthUqBZ5TT9Zf.mp4?tag=21"
+      }
+    ]
+  },
+  {
+    "id": "2021278119374749922",
+    "text": "Obsidian uses local files, so all your standard terminal commands work for editing/moving/searching files\n\nwhat Obsidian CLI adds is everything else:\n\n- interacting with the UI\n- Obsidian's internal functions, e.g. base queries\n- deterministic results like the \"orphans\" command\n- easily one-shot a personal plugin, now that your agent can access devtools, console, screenshots, eval, etc\n\nSee the docs:\nhttps://t.co/2huInNV7ac",
+    "author_handle": "@kepano",
+    "author_name": "kepano",
+    "created_at": "Tue Feb 10 17:40:31 +0000 2026",
+    "created_at_iso": "2026-02-10T17:40:31+00:00",
+    "is_reply_to": "2021251878521073847",
+    "conversation_id": "2021251878521073847",
+    "metrics": {
+      "replies": 13,
+      "retweets": 10,
+      "likes": 234,
+      "bookmarks": 78,
+      "views": 17482
+    },
+    "media": []
+  },
+  {
+    "id": "2021271737707430186",
+    "text": "Very cool. I was already using Claude Code native tools to search and write to my Obsidian vaults but I like that this comes with native Obsidian functionality. I need to check out the features but any high level thoughts on the advantages of using this Obsidian CLI over direct access with the coding agent?",
+    "author_handle": "@omarsar0",
+    "author_name": "elvis",
+    "created_at": "Tue Feb 10 17:15:10 +0000 2026",
+    "created_at_iso": "2026-02-10T17:15:10+00:00",
+    "is_reply_to": "2021251878521073847",
+    "conversation_id": "2021251878521073847",
+    "metrics": {
+      "replies": 1,
+      "retweets": 1,
+      "likes": 16,
+      "bookmarks": 5,
+      "views": 3915
+    },
+    "media": []
+  },
+  {
+    "id": "2021274817773830399",
+    "text": "@omarsar0 the CLI commands are complementary to existing terminal commands, see the docs\n\nthey do entirely different things (like plugin development tools), or deterministically + quickly retrieve info e.g. the \"orphans\" command is instant\nhttps://t.co/sc36GWMHeo",
+    "author_handle": "@kepano",
+    "author_name": "kepano",
+    "created_at": "Tue Feb 10 17:27:24 +0000 2026",
+    "created_at_iso": "2026-02-10T17:27:24+00:00",
+    "is_reply_to": "2021271737707430186",
+    "conversation_id": "2021251878521073847",
+    "metrics": {
+      "replies": 1,
+      "retweets": 2,
+      "likes": 19,
+      "bookmarks": 8,
+      "views": 2901
+    },
+    "media": []
+  },
+  {
+    "id": "2021263334805209304",
+    "text": "@kepano It would be nice to have a headless cli to use on a VPS, e.g. to trigger obsidian sync. Currently, you need to install the gui version to have access to the cli",
+    "author_handle": "@k_sharovarskyi",
+    "author_name": "Kostiantyn Sharovarskyi\ud83c\uddfa\ud83c\udde6",
+    "created_at": "Tue Feb 10 16:41:46 +0000 2026",
+    "created_at_iso": "2026-02-10T16:41:46+00:00",
+    "is_reply_to": "2021251878521073847",
+    "conversation_id": "2021251878521073847",
+    "metrics": {
+      "replies": 4,
+      "retweets": 0,
+      "likes": 11,
+      "bookmarks": 2,
+      "views": 1695
+    },
+    "media": []
+  },
+  {
+    "id": "2021264194952220790",
+    "text": "@k_sharovarskyi yes",
+    "author_handle": "@kepano",
+    "author_name": "kepano",
+    "created_at": "Tue Feb 10 16:45:12 +0000 2026",
+    "created_at_iso": "2026-02-10T16:45:12+00:00",
+    "is_reply_to": "2021263334805209304",
+    "conversation_id": "2021251878521073847",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 13,
+      "bookmarks": 0,
+      "views": 1772
+    },
+    "media": []
+  },
+  {
+    "id": "2021260823662919818",
+    "text": "@kepano actually you can use claude code with obsidian even without having to enable cli. \n\njust directly in your terminal. all files are accessible in your folder through agentic search of claude code. \nim doing this since a while now.",
+    "author_handle": "@sadjikun",
+    "author_name": "ahmad",
+    "created_at": "Tue Feb 10 16:31:48 +0000 2026",
+    "created_at_iso": "2026-02-10T16:31:48+00:00",
+    "is_reply_to": "2021251878521073847",
+    "conversation_id": "2021251878521073847",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 19,
+      "bookmarks": 3,
+      "views": 3367
+    },
+    "media": []
+  },
+  {
+    "id": "2021262754993037402",
+    "text": "@sadjikun indeed, you can already do a lot just by working with files directly\n\nObsidian CLI is mainly focused on things you can't do that way, e.g. interacting with UI itself and tools for plugin development\nhttps://t.co/sc36GWM9oQ",
+    "author_handle": "@kepano",
+    "author_name": "kepano",
+    "created_at": "Tue Feb 10 16:39:28 +0000 2026",
+    "created_at_iso": "2026-02-10T16:39:28+00:00",
+    "is_reply_to": "2021260823662919818",
+    "conversation_id": "2021251878521073847",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 28,
+      "bookmarks": 4,
+      "views": 2937
+    },
+    "media": []
+  },
+  {
+    "id": "2021262541175889968",
+    "text": "@kepano Actually you don\u2019t need Obsidian CLI to use OpenCode, Claude, or Codex.\nJust:\n\n`cd ~/your-vault &amp;&amp; opencode|codex|copilot|other`",
+    "author_handle": "@gldgab",
+    "author_name": "gelado",
+    "created_at": "Tue Feb 10 16:38:37 +0000 2026",
+    "created_at_iso": "2026-02-10T16:38:37+00:00",
+    "is_reply_to": "2021251878521073847",
+    "conversation_id": "2021251878521073847",
+    "metrics": {
+      "replies": 3,
+      "retweets": 0,
+      "likes": 12,
+      "bookmarks": 5,
+      "views": 4128
+    },
+    "media": []
+  },
+  {
+    "id": "2021263186008109346",
+    "text": "@gldgab yes, except this lets you directly control the Obsidian UI, access devtools, do things like reload plugins, run base queries, etc\n\nhttps://t.co/sc36GWM9oQ",
+    "author_handle": "@kepano",
+    "author_name": "kepano",
+    "created_at": "Tue Feb 10 16:41:11 +0000 2026",
+    "created_at_iso": "2026-02-10T16:41:11+00:00",
+    "is_reply_to": "2021262541175889968",
+    "conversation_id": "2021251878521073847",
+    "metrics": {
+      "replies": 3,
+      "retweets": 0,
+      "likes": 51,
+      "bookmarks": 9,
+      "views": 3893
+    },
+    "media": []
+  },
+  {
+    "id": "2021262087180169367",
+    "text": "@kepano It\u2019s not headless so I do think this change anything",
+    "author_handle": "@renasci_michael",
+    "author_name": "Michael",
+    "created_at": "Tue Feb 10 16:36:49 +0000 2026",
+    "created_at_iso": "2026-02-10T16:36:49+00:00",
+    "is_reply_to": "2021251878521073847",
+    "conversation_id": "2021251878521073847",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 0,
+      "views": 1952
+    },
+    "media": []
+  },
+  {
+    "id": "2021263621305594280",
+    "text": "@renasci_michael at minimum it radically improves plugin development because now you can do full round-tripping, including getting console logs, screenshots, run eval, etc",
+    "author_handle": "@kepano",
+    "author_name": "kepano",
+    "created_at": "Tue Feb 10 16:42:55 +0000 2026",
+    "created_at_iso": "2026-02-10T16:42:55+00:00",
+    "is_reply_to": "2021262087180169367",
+    "conversation_id": "2021251878521073847",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 5,
+      "bookmarks": 0,
+      "views": 1785
+    },
+    "media": []
+  },
+  {
+    "id": "2021269472523260364",
+    "text": "@kepano Any benefit over using Notion?",
+    "author_handle": "@Webhead24",
+    "author_name": "\ud835\udd50\ud835\udd4f",
+    "created_at": "Tue Feb 10 17:06:10 +0000 2026",
+    "created_at_iso": "2026-02-10T17:06:10+00:00",
+    "is_reply_to": "2021251878521073847",
+    "conversation_id": "2021251878521073847",
+    "metrics": {
+      "replies": 4,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 1,
+      "views": 2777
+    },
+    "media": []
+  },
+  {
+    "id": "2021273410442060256",
+    "text": "@Webhead24 - fast\n- free for personal use\n- all local plain text files that you own, no lock-in\n- works offline by default\n- end-to-end encrypted sync\n- extensible with plugins and themes\n- 100% user-supported\n\nhttps://t.co/zcySDZGirM",
+    "author_handle": "@kepano",
+    "author_name": "kepano",
+    "created_at": "Tue Feb 10 17:21:49 +0000 2026",
+    "created_at_iso": "2026-02-10T17:21:49+00:00",
+    "is_reply_to": "2021269472523260364",
+    "conversation_id": "2021251878521073847",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 34,
+      "bookmarks": 2,
+      "views": 4085
+    },
+    "media": []
+  },
+  {
+    "id": "1714360847315976398",
+    "text": "@silaspath @obsdmd Notion does not pass 2, 3, 4, 7, and 5 is not great\n\n2. uses a cloud database\n3. uses telemetry and requires an account\n4. not end-to-end encrypted\n5. fairly limited in terms of the level of flexibility\n7. has raised ~$350 million",
+    "author_handle": "@kepano",
+    "author_name": "kepano",
+    "created_at": "Tue Oct 17 19:20:51 +0000 2023",
+    "created_at_iso": "2023-10-17T19:20:51+00:00",
+    "is_reply_to": "1714358938915700813",
+    "conversation_id": "1714296705146056807",
+    "metrics": {
+      "replies": 1,
+      "retweets": 1,
+      "likes": 25,
+      "bookmarks": 5,
+      "views": 6656
+    },
+    "media": []
+  },
+  {
+    "id": "2021265185499955658",
+    "text": "@kepano Amazing. But could you list some CLI workflows that enable it?\n\nOtherwise, all the files are stored in a folder, and agents can read them normally.\n\nMaybe it would be better to add some workflow examples that are only achievable via CLI?",
+    "author_handle": "@shuvro",
+    "author_name": "Nazmul",
+    "created_at": "Tue Feb 10 16:49:08 +0000 2026",
+    "created_at_iso": "2026-02-10T16:49:08+00:00",
+    "is_reply_to": "2021251878521073847",
+    "conversation_id": "2021251878521073847",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 1402
+    },
+    "media": []
+  },
+  {
+    "id": "2021266659009302823",
+    "text": "@shuvro you can find those here:\nhttps://t.co/sc36GWM9oQ",
+    "author_handle": "@kepano",
+    "author_name": "kepano",
+    "created_at": "Tue Feb 10 16:54:59 +0000 2026",
+    "created_at_iso": "2026-02-10T16:54:59+00:00",
+    "is_reply_to": "2021265185499955658",
+    "conversation_id": "2021251878521073847",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 4,
+      "bookmarks": 6,
+      "views": 1238
+    },
+    "media": []
+  },
+  {
+    "id": "2021340244214530431",
+    "text": "@kepano This is amazing\nNow all I need is a CLI dataview implementation which lets my agent see my notes as I see them",
+    "author_handle": "@shaped",
+    "author_name": "shaped",
+    "created_at": "Tue Feb 10 21:47:23 +0000 2026",
+    "created_at_iso": "2026-02-10T21:47:23+00:00",
+    "is_reply_to": "2021251878521073847",
+    "conversation_id": "2021251878521073847",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 525
+    },
+    "media": []
+  },
+  {
+    "id": "2021340798932090881",
+    "text": "@shaped Obsidian CLI already supports bases and you can convert dataview queries to bases queries fairly easily",
+    "author_handle": "@kepano",
+    "author_name": "kepano",
+    "created_at": "Tue Feb 10 21:49:35 +0000 2026",
+    "created_at_iso": "2026-02-10T21:49:35+00:00",
+    "is_reply_to": "2021340244214530431",
+    "conversation_id": "2021251878521073847",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 1,
+      "views": 497
+    },
+    "media": []
+  },
+  {
+    "id": "2021271826706596123",
+    "text": "@kepano who would you want an agent to use obsidian?",
+    "author_handle": "@dvirtualshivam",
+    "author_name": "shvm",
+    "created_at": "Tue Feb 10 17:15:31 +0000 2026",
+    "created_at_iso": "2026-02-10T17:15:31+00:00",
+    "is_reply_to": "2021251878521073847",
+    "conversation_id": "2021251878521073847",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 2934
+    },
+    "media": []
+  },
+  {
+    "id": "2021279594930897042",
+    "text": "@dvirtualshivam now you can much more easily make a personal Obsidian plugin",
+    "author_handle": "@kepano",
+    "author_name": "kepano",
+    "created_at": "Tue Feb 10 17:46:23 +0000 2026",
+    "created_at_iso": "2026-02-10T17:46:23+00:00",
+    "is_reply_to": "2021271826706596123",
+    "conversation_id": "2021251878521073847",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 2537
+    },
+    "media": []
+  },
+  {
+    "id": "2021271468881879453",
+    "text": "@kepano Keeps giving me errors on install - hopefully Claude code can figure it out since I'm horrible at this stuff.",
+    "author_handle": "@HeathDingwell",
+    "author_name": "Heath Dingwell",
+    "created_at": "Tue Feb 10 17:14:06 +0000 2026",
+    "created_at_iso": "2026-02-10T17:14:06+00:00",
+    "is_reply_to": "2021251878521073847",
+    "conversation_id": "2021251878521073847",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 636
+    },
+    "media": []
+  },
+  {
+    "id": "2021274440689123370",
+    "text": "@HeathDingwell see Troubleshooting\nhttps://t.co/8RoTrI4oFV",
+    "author_handle": "@kepano",
+    "author_name": "kepano",
+    "created_at": "Tue Feb 10 17:25:54 +0000 2026",
+    "created_at_iso": "2026-02-10T17:25:54+00:00",
+    "is_reply_to": "2021271468881879453",
+    "conversation_id": "2021251878521073847",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 583
+    },
+    "media": []
+  },
+  {
+    "id": "2021272706826575970",
+    "text": "@kepano cool! i just started with obsidian because of openclaw. when is this coming to public?",
+    "author_handle": "@LegalPrimes",
+    "author_name": "Quantum Daddy",
+    "created_at": "Tue Feb 10 17:19:01 +0000 2026",
+    "created_at_iso": "2026-02-10T17:19:01+00:00",
+    "is_reply_to": "2021251878521073847",
+    "conversation_id": "2021251878521073847",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 466
+    },
+    "media": []
+  },
+  {
+    "id": "2021273746892521675",
+    "text": "@LegalPrimes same as usual, see changelog for the typical cadence\nhttps://t.co/fwEv9zcveh",
+    "author_handle": "@kepano",
+    "author_name": "kepano",
+    "created_at": "Tue Feb 10 17:23:09 +0000 2026",
+    "created_at_iso": "2026-02-10T17:23:09+00:00",
+    "is_reply_to": "2021272706826575970",
+    "conversation_id": "2021251878521073847",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 429
+    },
+    "media": []
+  },
+  {
+    "id": "2021342817776435583",
+    "text": "@kepano Why does it need the desktop app though?",
+    "author_handle": "@anaisbetts",
+    "author_name": "ani",
+    "created_at": "Tue Feb 10 21:57:37 +0000 2026",
+    "created_at_iso": "2026-02-10T21:57:37+00:00",
+    "is_reply_to": "2021251878521073847",
+    "conversation_id": "2021251878521073847",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 212
+    },
+    "media": []
+  },
+  {
+    "id": "2021344827074543677",
+    "text": "@anaisbetts well this first version of the CLI can control the UI itself, including accessing devtools, inspecting the DOM, taking screenshots, etc \u2014 everything you might need to create a plugin\n\nin the future we could add a headless mode but it would have a much narrower subset of commands",
+    "author_handle": "@kepano",
+    "author_name": "kepano",
+    "created_at": "Tue Feb 10 22:05:36 +0000 2026",
+    "created_at_iso": "2026-02-10T22:05:36+00:00",
+    "is_reply_to": "2021342817776435583",
+    "conversation_id": "2021251878521073847",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 180
+    },
+    "media": []
+  },
+  {
+    "id": "2021278749111529500",
+    "text": "@kepano bro my openclaw's been using Obsidian",
+    "author_handle": "@aporia333",
+    "author_name": "jeff goldblum's favorite niece",
+    "created_at": "Tue Feb 10 17:43:01 +0000 2026",
+    "created_at_iso": "2026-02-10T17:43:01+00:00",
+    "is_reply_to": "2021251878521073847",
+    "conversation_id": "2021251878521073847",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 354
+    },
+    "media": []
+  },
+  {
+    "id": "2021278989315342568",
+    "text": "@aporia333 I think we have different definitions of \"use\"",
+    "author_handle": "@kepano",
+    "author_name": "kepano",
+    "created_at": "Tue Feb 10 17:43:59 +0000 2026",
+    "created_at_iso": "2026-02-10T17:43:59+00:00",
+    "is_reply_to": "2021278749111529500",
+    "conversation_id": "2021251878521073847",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 419
+    },
+    "media": []
+  }
+]

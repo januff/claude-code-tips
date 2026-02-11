@@ -18,7 +18,7 @@ url: "https://x.com/jdorfman/status/2004594612984332499"
 
 ## Summary
 
-instant access to your entire organization's codebase without cloning massive repos
+This Claude Code tip focuses on efficiently accessing an entire organization's codebase without the burden of cloning large repositories. It suggests a method to browse and search code instantly, eliminating the need for time-consuming downloads and local storage. The core idea is to leverage a tool or technique (unspecified in this instance) that enables remote code exploration, improving developer productivity by providing on-demand access to all code.
 
 ## Replies
 

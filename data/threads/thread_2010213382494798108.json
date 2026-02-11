@@ -1,0 +1,524 @@
+[
+  {
+    "id": "2010213382494798108",
+    "text": "Just shipped adversarial-spec, a Claude Code plugin for writing better product specs.\n\nThe problem: You write a PRD or tech spec, maybe have Claude review it, and ship it. But one model reviewing a doc will miss things. It'll gloss over gaps, accept vague requirements, and let edge cases slide.\n\nThe fix: Make multiple LLMs argue about it.\n\nadversarial-spec sends your document to GPT, Gemini, Grok, or any combination of models you want. They critique it in parallel. Then Claude synthesizes the feedback, adds its own critique, and revises. This loops until every model agrees the spec is solid.\n\nWhat actually happens in practice: requirements that seemed clear get challenged. Missing error handling gets flagged. Security gaps surface. Scope creep gets caught. One model says \"what about X?\" and another says \"the API contract is incomplete\" and Claude adds \"you haven't defined what happens when Y fails.\"\n\nBy the time all models agree, your spec has survived adversarial review from multiple perspectives.\n\nFeatures:\n- Interview mode: optional deep-dive Q&A before drafting to capture requirements upfront\n- Early agreement checks: if a model agrees too fast, it gets pressed to prove it actually read the doc\n- User review period: after consensus, you can request changes or run another cycle\n- PRD to tech spec flow: finish a PRD, then continue straight into a technical spec based on it\n- Telegram integration: get notified on your phone, inject feedback from anywhere\n\nWorks with OpenAI, Google, xAI, Mistral, Groq, Deepseek. Leveraging more models results in stricter convergence.\n\nIf you're building something and writing specs anyway, this makes them better.\n\nCheck it out and let me know what you think!\n\nhttps://t.co/OrFf5HUI10",
+    "author_handle": "@0xzak",
+    "author_name": "zak.eth",
+    "created_at": "Sun Jan 11 04:53:13 +0000 2026",
+    "created_at_iso": "2026-01-11T04:53:13+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2010213382494798108",
+    "metrics": {
+      "replies": 78,
+      "retweets": 69,
+      "likes": 1185,
+      "bookmarks": 1884,
+      "views": 81534
+    },
+    "media": []
+  },
+  {
+    "id": "2011459591222001828",
+    "text": "4 days live and this has really picked up traction! \n\n389 stars, 37 commits, 6 contributors, 7 issues closed, 5 PRs merged, 325 tests @ 92% coverage\n\nCommunity shipped Codex CLI integration for ChatGPT subscribers (Gary Basin), AWS Bedrock for enterprise routing (Ross Feinstein), Gemini CLI support without API keys (Pavel Kaminsky), OpenRouter support (lunov), plugin manifest fixes (David Aronchick)\n\nAlso added: O-series model support, web search flag, configurable timeouts, interactive model selection, focus modes, personas, cost tracking, session checkpoints, task export\n\nThanks for all the contributions! Feels good shipping stuff that people like to use!",
+    "author_handle": "@0xzak",
+    "author_name": "zak.eth",
+    "created_at": "Wed Jan 14 15:25:12 +0000 2026",
+    "created_at_iso": "2026-01-14T15:25:12+00:00",
+    "is_reply_to": "2010213382494798108",
+    "conversation_id": "2010213382494798108",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 15,
+      "bookmarks": 0,
+      "views": 3183
+    },
+    "media": []
+  },
+  {
+    "id": "2010725661095399868",
+    "text": "@0xzak I'm about to go HAM on this repo. Do you wanna sit on a @HashingItOutPod and wildly nerd out about specs with me?",
+    "author_handle": "@Corpetty",
+    "author_name": "Corey Petty",
+    "created_at": "Mon Jan 12 14:48:49 +0000 2026",
+    "created_at_iso": "2026-01-12T14:48:49+00:00",
+    "is_reply_to": "2010213382494798108",
+    "conversation_id": "2010213382494798108",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 6,
+      "bookmarks": 0,
+      "views": 342
+    },
+    "media": []
+  },
+  {
+    "id": "2010727425228087748",
+    "text": "@Corpetty @HashingItOutPod Lmao yeah let\u2019s do it",
+    "author_handle": "@0xzak",
+    "author_name": "zak.eth",
+    "created_at": "Mon Jan 12 14:55:50 +0000 2026",
+    "created_at_iso": "2026-01-12T14:55:50+00:00",
+    "is_reply_to": "2010725661095399868",
+    "conversation_id": "2010213382494798108",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 300
+    },
+    "media": []
+  },
+  {
+    "id": "2010223162211143751",
+    "text": "@0xzak YES",
+    "author_handle": "@masonic_tweets",
+    "author_name": "mason",
+    "created_at": "Sun Jan 11 05:32:04 +0000 2026",
+    "created_at_iso": "2026-01-11T05:32:04+00:00",
+    "is_reply_to": "2010213382494798108",
+    "conversation_id": "2010213382494798108",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 1855
+    },
+    "media": []
+  },
+  {
+    "id": "2010223572179165500",
+    "text": "@masonic_tweets yes",
+    "author_handle": "@0xzak",
+    "author_name": "zak.eth",
+    "created_at": "Sun Jan 11 05:33:42 +0000 2026",
+    "created_at_iso": "2026-01-11T05:33:42+00:00",
+    "is_reply_to": "2010223162211143751",
+    "conversation_id": "2010213382494798108",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 1625
+    },
+    "media": []
+  },
+  {
+    "id": "2010224289656762845",
+    "text": "@0xzak Nice!!",
+    "author_handle": "@juanfranblanco",
+    "author_name": "Juan Blanco \u2600\ufe0f\u2600\ufe0f\ud83c\udf5e\ud83c\udf5e\ud83e\udd87\ud83d\udd0a",
+    "created_at": "Sun Jan 11 05:36:33 +0000 2026",
+    "created_at_iso": "2026-01-11T05:36:33+00:00",
+    "is_reply_to": "2010213382494798108",
+    "conversation_id": "2010213382494798108",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 2176
+    },
+    "media": []
+  },
+  {
+    "id": "2010224402101830134",
+    "text": "@juanfranblanco thanks! try it out and lmk what you think!",
+    "author_handle": "@0xzak",
+    "author_name": "zak.eth",
+    "created_at": "Sun Jan 11 05:37:00 +0000 2026",
+    "created_at_iso": "2026-01-11T05:37:00+00:00",
+    "is_reply_to": "2010224289656762845",
+    "conversation_id": "2010213382494798108",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 1943
+    },
+    "media": []
+  },
+  {
+    "id": "2010362857745940895",
+    "text": "@0xzak have you tried/planned a similar tool but for generating a spec from an existing codebase? I work with existing codebases and now try to extend with AI, but often results are disappointing. am wondering if I should generate detailed specs to better guide the AI.",
+    "author_handle": "@Julien_Bouvier",
+    "author_name": "John Smith",
+    "created_at": "Sun Jan 11 14:47:10 +0000 2026",
+    "created_at_iso": "2026-01-11T14:47:10+00:00",
+    "is_reply_to": "2010213382494798108",
+    "conversation_id": "2010213382494798108",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 4,
+      "bookmarks": 1,
+      "views": 625
+    },
+    "media": []
+  },
+  {
+    "id": "2010388067841106225",
+    "text": "@Julien_Bouvier Have not. Would be interesting to experiment with though.",
+    "author_handle": "@0xzak",
+    "author_name": "zak.eth",
+    "created_at": "Sun Jan 11 16:27:21 +0000 2026",
+    "created_at_iso": "2026-01-11T16:27:21+00:00",
+    "is_reply_to": "2010362857745940895",
+    "conversation_id": "2010213382494798108",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 0,
+      "views": 505
+    },
+    "media": []
+  },
+  {
+    "id": "2010380296927981699",
+    "text": "@0xzak Nice work!. Do you think there any benefits in running the adversarial-spec agains the same llm, just using different models?",
+    "author_handle": "@Derpnat0r",
+    "author_name": "Derpnator \ud83c\udde7\ud83c\uddf7\ud83c\uddec\ud83c\udde7",
+    "created_at": "Sun Jan 11 15:56:28 +0000 2026",
+    "created_at_iso": "2026-01-11T15:56:28+00:00",
+    "is_reply_to": "2010213382494798108",
+    "conversation_id": "2010213382494798108",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 566
+    },
+    "media": []
+  },
+  {
+    "id": "2010388376176979973",
+    "text": "@Derpnat0r Not sure for certain, but I\u2019d say probably.",
+    "author_handle": "@0xzak",
+    "author_name": "zak.eth",
+    "created_at": "Sun Jan 11 16:28:34 +0000 2026",
+    "created_at_iso": "2026-01-11T16:28:34+00:00",
+    "is_reply_to": "2010380296927981699",
+    "conversation_id": "2010213382494798108",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 504
+    },
+    "media": []
+  },
+  {
+    "id": "2010367647268180073",
+    "text": "@0xzak why does this have 4o, 4-turbo, and o1 as the default openai models to use for conversation? \n\ncompared to opus 4.5, thats like asking a team of 3 middle schoolers to review a PHD's thesis? \n\nlike the idea tho, testing with modern models",
+    "author_handle": "@hbruceweaver",
+    "author_name": "bruce weaver",
+    "created_at": "Sun Jan 11 15:06:12 +0000 2026",
+    "created_at_iso": "2026-01-11T15:06:12+00:00",
+    "is_reply_to": "2010213382494798108",
+    "conversation_id": "2010213382494798108",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 1,
+      "views": 1003
+    },
+    "media": []
+  },
+  {
+    "id": "2010387920474247553",
+    "text": "@hbruceweaver You can use multiple models.",
+    "author_handle": "@0xzak",
+    "author_name": "zak.eth",
+    "created_at": "Sun Jan 11 16:26:46 +0000 2026",
+    "created_at_iso": "2026-01-11T16:26:46+00:00",
+    "is_reply_to": "2010367647268180073",
+    "conversation_id": "2010213382494798108",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 741
+    },
+    "media": []
+  },
+  {
+    "id": "2010360877657051337",
+    "text": "@0xzak Finally someone did what I was doing manually in my IDE (MD docs I have uploaded to Gemini 3 pro for summary). Is there a different approach to the Greenfield versus Brownfield project? How many arguing cycles are there about before the final PRD is done &amp; what costs/tokens?",
+    "author_handle": "@sinuhet",
+    "author_name": "Sinuhet",
+    "created_at": "Sun Jan 11 14:39:18 +0000 2026",
+    "created_at_iso": "2026-01-11T14:39:18+00:00",
+    "is_reply_to": "2010213382494798108",
+    "conversation_id": "2010213382494798108",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 662
+    },
+    "media": []
+  },
+  {
+    "id": "2010388267548446834",
+    "text": "@sinuhet It\u2019s about 7 cycles to achieve consensus, but depends on the models you use. I found that grok is the laziest and agrees much earlier than any of the other models.",
+    "author_handle": "@0xzak",
+    "author_name": "zak.eth",
+    "created_at": "Sun Jan 11 16:28:08 +0000 2026",
+    "created_at_iso": "2026-01-11T16:28:08+00:00",
+    "is_reply_to": "2010360877657051337",
+    "conversation_id": "2010213382494798108",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 548
+    },
+    "media": []
+  },
+  {
+    "id": "2010362941359722849",
+    "text": "@0xzak Stupid question: as not all LLM have the same speed, do they all wait until the last LLM responds before they proceed with the next step/argument? Can I see the LLM dispute in real-time?",
+    "author_handle": "@sinuhet",
+    "author_name": "Sinuhet",
+    "created_at": "Sun Jan 11 14:47:30 +0000 2026",
+    "created_at_iso": "2026-01-11T14:47:30+00:00",
+    "is_reply_to": "2010213382494798108",
+    "conversation_id": "2010213382494798108",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 460
+    },
+    "media": []
+  },
+  {
+    "id": "2010388598256758993",
+    "text": "@sinuhet Yeah, they all wait and you can provide feedback after each cycle.",
+    "author_handle": "@0xzak",
+    "author_name": "zak.eth",
+    "created_at": "Sun Jan 11 16:29:27 +0000 2026",
+    "created_at_iso": "2026-01-11T16:29:27+00:00",
+    "is_reply_to": "2010362941359722849",
+    "conversation_id": "2010213382494798108",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 378
+    },
+    "media": []
+  },
+  {
+    "id": "2010499981195592018",
+    "text": "@0xzak I've been doing this by hand for months. Somehow never thought of writing a Claude plugin for it.",
+    "author_handle": "@austinc3301",
+    "author_name": "Agus \ud83d\udd0e\ud83d\udd38",
+    "created_at": "Sun Jan 11 23:52:03 +0000 2026",
+    "created_at_iso": "2026-01-11T23:52:03+00:00",
+    "is_reply_to": "2010213382494798108",
+    "conversation_id": "2010213382494798108",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 5,
+      "bookmarks": 0,
+      "views": 272
+    },
+    "media": []
+  },
+  {
+    "id": "2010356662578610621",
+    "text": "@0xzak awesome, i\u2019ve been doing this manually for a while and GPT always finds some things claude misses, super useful if you\u2019re planning something complex",
+    "author_handle": "@cewh1te",
+    "author_name": "Cody White",
+    "created_at": "Sun Jan 11 14:22:33 +0000 2026",
+    "created_at_iso": "2026-01-11T14:22:33+00:00",
+    "is_reply_to": "2010213382494798108",
+    "conversation_id": "2010213382494798108",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 4,
+      "bookmarks": 0,
+      "views": 423
+    },
+    "media": []
+  },
+  {
+    "id": "2010767465014284636",
+    "text": "@0xzak It gets even better if you ensure one or a set is in the \u201cno\u201d camp and one is in the \u201cyes\u201d camp and then you want to make sure the no turns to a yes.",
+    "author_handle": "@realSidhuJag",
+    "author_name": "jagdeep sidhu",
+    "created_at": "Mon Jan 12 17:34:56 +0000 2026",
+    "created_at_iso": "2026-01-12T17:34:56+00:00",
+    "is_reply_to": "2010213382494798108",
+    "conversation_id": "2010213382494798108",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 0,
+      "views": 191
+    },
+    "media": []
+  },
+  {
+    "id": "2010585569232040269",
+    "text": "@0xzak Multi-model disagreement as a forcing function is clever.",
+    "author_handle": "@DabbaNetwork",
+    "author_name": "Dabba Network \ud83d\udfe8",
+    "created_at": "Mon Jan 12 05:32:09 +0000 2026",
+    "created_at_iso": "2026-01-12T05:32:09+00:00",
+    "is_reply_to": "2010213382494798108",
+    "conversation_id": "2010213382494798108",
+    "metrics": {
+      "replies": 0,
+      "retweets": 1,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 728
+    },
+    "media": []
+  },
+  {
+    "id": "2010413093780910111",
+    "text": "@0xzak This is sick",
+    "author_handle": "@0xZakk",
+    "author_name": "Zakk",
+    "created_at": "Sun Jan 11 18:06:47 +0000 2026",
+    "created_at_iso": "2026-01-11T18:06:47+00:00",
+    "is_reply_to": "2010213382494798108",
+    "conversation_id": "2010213382494798108",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 286
+    },
+    "media": []
+  },
+  {
+    "id": "2010347823942823950",
+    "text": "@0xzak Awesome spec\n\nI use this approach all the time time, across the full SDLC process\n\nGreat to see it codified in a plugin!",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Sun Jan 11 13:47:26 +0000 2026",
+    "created_at_iso": "2026-01-11T13:47:26+00:00",
+    "is_reply_to": "2010213382494798108",
+    "conversation_id": "2010213382494798108",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 693
+    },
+    "media": []
+  },
+  {
+    "id": "2010275370700833229",
+    "text": "@0xzak This is wild. Forcing LLMs to debate specs feels like hosting a tech cage match",
+    "author_handle": "@carlosml",
+    "author_name": "Carlos Lebron",
+    "created_at": "Sun Jan 11 08:59:32 +0000 2026",
+    "created_at_iso": "2026-01-11T08:59:32+00:00",
+    "is_reply_to": "2010213382494798108",
+    "conversation_id": "2010213382494798108",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 317
+    },
+    "media": []
+  },
+  {
+    "id": "2010414037444837573",
+    "text": "@0xzak Does it work with OpenRouter?",
+    "author_handle": "@RepKeithAmmon",
+    "author_name": "Rep. Keith Ammon",
+    "created_at": "Sun Jan 11 18:10:32 +0000 2026",
+    "created_at_iso": "2026-01-11T18:10:32+00:00",
+    "is_reply_to": "2010213382494798108",
+    "conversation_id": "2010213382494798108",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 296
+    },
+    "media": []
+  },
+  {
+    "id": "2010234011285852611",
+    "text": "@0xzak Nice, starred. I have a dedicated planning repository for new projects that includes custom instructions for PRDs and generating Linear tasks... but it's just one model.",
+    "author_handle": "@netdragon0x",
+    "author_name": "ndx (agentic arc)",
+    "created_at": "Sun Jan 11 06:15:11 +0000 2026",
+    "created_at_iso": "2026-01-11T06:15:11+00:00",
+    "is_reply_to": "2010213382494798108",
+    "conversation_id": "2010213382494798108",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 501
+    },
+    "media": []
+  },
+  {
+    "id": "2010228066396893397",
+    "text": "@0xzak Always with the vibes, this one",
+    "author_handle": "@Shenanigrahams",
+    "author_name": "Graham",
+    "created_at": "Sun Jan 11 05:51:33 +0000 2026",
+    "created_at_iso": "2026-01-11T05:51:33+00:00",
+    "is_reply_to": "2010213382494798108",
+    "conversation_id": "2010213382494798108",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 343
+    },
+    "media": []
+  },
+  {
+    "id": "2010276411496661151",
+    "text": "@0xzak oooh! time to get some red teaming done",
+    "author_handle": "@petheth",
+    "author_name": "peth.eth",
+    "created_at": "Sun Jan 11 09:03:40 +0000 2026",
+    "created_at_iso": "2026-01-11T09:03:40+00:00",
+    "is_reply_to": "2010213382494798108",
+    "conversation_id": "2010213382494798108",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 412
+    },
+    "media": []
+  }
+]

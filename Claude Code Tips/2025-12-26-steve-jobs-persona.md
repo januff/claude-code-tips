@@ -23,7 +23,7 @@ url: "https://x.com/BenBlaiszik/status/2004600901693317601"
 
 ## Summary
 
-Ask it to assume a Steve Jobs persona when I need a site or message distilled and designed
+This tip highlights a creative prompt engineering technique: requesting Claude to adopt the persona of Steve Jobs when needing design or communication refinement. By imbuing the AI with this specific perspective, users can unlock novel and potentially unexpected design insights. This approach demonstrates the power of persona-based prompting for achieving differentiated results.
 
 ## Replies
 

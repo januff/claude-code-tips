@@ -20,7 +20,7 @@ import time
 from pathlib import Path
 
 from dotenv import load_dotenv
-import google.generativeai as genai
+from google import genai
 
 # Load environment variables from .env file
 load_dotenv(Path(__file__).parent.parent / ".env")
@@ -59,7 +59,7 @@ The primary_keyword should be what the user would type to FIND this later, or th
 Specificity beats description. Shorter is better if equally specific."""
 
 
-def extract_keywords(model, tweet: dict) -> dict | None:
+def extract_keywords(client, tweet: dict) -> dict | None:
     """Call Gemini to extract keywords from a tweet."""
     prompt = EXTRACTION_PROMPT.format(
         text=tweet['text'],
@@ -68,7 +68,10 @@ def extract_keywords(model, tweet: dict) -> dict | None:
     )
 
     try:
-        response = model.generate_content(prompt)
+        response = client.models.generate_content(
+            model="gemini-2.0-flash",
+            contents=prompt
+        )
         text = response.text.strip()
 
         # Clean up response - sometimes wrapped in markdown
@@ -125,10 +128,9 @@ def main():
 
     # Configure Gemini
     if not args.dry_run:
-        genai.configure(api_key=api_key)
-        model = genai.GenerativeModel('gemini-2.0-flash')
+        client = genai.Client(api_key=api_key)
     else:
-        model = None
+        client = None
 
     conn = sqlite3.connect(args.db)
     conn.row_factory = sqlite3.Row
@@ -170,7 +172,7 @@ def main():
         tweet_dict = dict(tweet)
         print(f"Processing {tweet['id']}: {tweet['text'][:50]}...")
 
-        result = extract_keywords(model, tweet_dict)
+        result = extract_keywords(client, tweet_dict)
 
         if result:
             # Handle null values from LLM

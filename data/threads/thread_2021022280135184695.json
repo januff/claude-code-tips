@@ -1,0 +1,128 @@
+[
+  {
+    "id": "2020992712825241801",
+    "text": "Created a custom slash command \"/handover\" in Claude Code: When I'm ending a Claude session (e.g. context window filling up), I get Claude to generate a \"https://t.co/GZrCLFU2Zu\" document which summarizes everything we did in this session, including decisions, pitfalls, lessons learned, etc. So the next session's Claude has full context. \n\nThis prevents amnesia and preserves institutional knowledge",
+    "author_handle": "@zarazhangrui",
+    "author_name": "Zara Zhang",
+    "created_at": "Mon Feb 09 22:46:25 +0000 2026",
+    "created_at_iso": "2026-02-09T22:46:25+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2020992712825241801",
+    "metrics": {
+      "replies": 196,
+      "retweets": 175,
+      "likes": 2965,
+      "bookmarks": 3926,
+      "views": 175466
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HAwBvUIaIAA1pMi.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2021022280135184695",
+    "text": "@zarazhangrui turn this into a pre auto compact hook and it will do it automatically",
+    "author_handle": "@pauloportella_",
+    "author_name": "Paulo",
+    "created_at": "Tue Feb 10 00:43:55 +0000 2026",
+    "created_at_iso": "2026-02-10T00:43:55+00:00",
+    "is_reply_to": "2020992712825241801",
+    "conversation_id": "2020992712825241801",
+    "metrics": {
+      "replies": 3,
+      "retweets": 1,
+      "likes": 106,
+      "bookmarks": 42,
+      "views": 9713
+    },
+    "media": []
+  },
+  {
+    "id": "2021027248359567371",
+    "text": "@pauloportella_ ohh good idea, just set it up https://t.co/VHAzxemcPT",
+    "author_handle": "@zarazhangrui",
+    "author_name": "Zara Zhang",
+    "created_at": "Tue Feb 10 01:03:39 +0000 2026",
+    "created_at_iso": "2026-02-10T01:03:39+00:00",
+    "is_reply_to": "2021022280135184695",
+    "conversation_id": "2020992712825241801",
+    "metrics": {
+      "replies": 2,
+      "retweets": 8,
+      "likes": 161,
+      "bookmarks": 172,
+      "views": 9175
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HAwhkcAbAAAltJ6.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2021035802843807874",
+    "text": "@pauloportella_ @zarazhangrui I was doing this manually by asking CC to \"do an AI handoff\", though it remembers to do it automatically after it completes major changes.\nhttps://t.co/ZZzTHpxn4a",
+    "author_handle": "@Michaelzsguo",
+    "author_name": "Michael Guo",
+    "created_at": "Tue Feb 10 01:37:39 +0000 2026",
+    "created_at_iso": "2026-02-10T01:37:39+00:00",
+    "is_reply_to": "2021022280135184695",
+    "conversation_id": "2020992712825241801",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 294
+    },
+    "media": []
+  },
+  {
+    "id": "2020945457996763295",
+    "text": "This Claude Code /statusline is so helpful. Now I'm constantly reminded if the current session slips into \"dumb zone\" and context poisoning. If it does, I ask CC to save needed to AI handoff, run /clear, and pick up from what was just left off, but now context is green again: https://t.co/6J6ULX4ztD",
+    "author_handle": "@Michaelzsguo",
+    "author_name": "Michael Guo",
+    "created_at": "Mon Feb 09 19:38:39 +0000 2026",
+    "created_at_iso": "2026-02-09T19:38:39+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2020945457996763295",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 409
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HAvXDGibwAAcYA0.png",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2021208471744459245",
+    "text": "@pauloportella_ @zarazhangrui Isn't it what compact supposed to do in the first place? Compact thing is quite opaque for me",
+    "author_handle": "@jbmnllr",
+    "author_name": "JB Mnllr",
+    "created_at": "Tue Feb 10 13:03:46 +0000 2026",
+    "created_at_iso": "2026-02-10T13:03:46+00:00",
+    "is_reply_to": "2021022280135184695",
+    "conversation_id": "2020992712825241801",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 69
+    },
+    "media": []
+  }
+]

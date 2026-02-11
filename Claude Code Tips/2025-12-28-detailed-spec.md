@@ -20,7 +20,7 @@ url: ""
 
 ## Summary
 
-for big features or new projects Claude might ask me 40+ questions and I end up with a much more detailed spec that I feel I had a lot of control over
+This tip highlights using Claude for detailed feature specification. By engaging in extensive Q&A (often 40+ questions), Claude helps users develop comprehensive specs. This iterative process allows for increased user control and a higher degree of detail in the final product, fostering a more thorough development process.
 
 ## Replies
 

@@ -43,7 +43,7 @@ url: "https://x.com/menhguin/status/2006362777414484231"
 
 ## Summary
 
-So I'm an information addict,  and I was testing some 4
+This Claude Code tip focuses on eliciting information-dense responses by instructing the model to default to maximum depth in its answers. The key insight is to prompt Claude to immediately explore the intricacies of a topic, citing practitioner-level knowledge and diverse, high-signal sources, rather than providing surface-level information. The tip suggests offering a range of in-depth options and guiding questions to let the user choose the level of detail, often selecting the most complex.
 
 ## Replies
 

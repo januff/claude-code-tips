@@ -20,7 +20,7 @@ url: "https://x.com/IAmAaronYang/status/2004576953807049049"
 
 ## Summary
 
-1
+This tip highlights using Claude to create and iterate on a manual plan, saved as a markdown file, before execution. It emphasizes the value of creating a shared, team-wide memory using Claude. This enables colleagues to access previously solved solutions, improving team efficiency and preventing redundant work.
 
 
 > [!metrics]- Engagement & Metadata

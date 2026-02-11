@@ -21,7 +21,7 @@ url: "https://x.com/skillcreatorai/status/2004576263911215487"
 
 ## Summary
 
-custom skills
+This Claude tip highlights the use of custom skills to improve workflow efficiency. By creating a custom skill containing information about your codebase's patterns and architecture, you can avoid repeatedly explaining project context in new sessions. This allows Claude to immediately understand the project and provide more relevant assistance without needing manual re-explanation of foundational knowledge.
 
 ## Replies
 

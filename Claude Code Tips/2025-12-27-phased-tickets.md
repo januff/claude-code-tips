@@ -21,7 +21,7 @@ url: "https://x.com/stevesprompt/status/2004957015102423380"
 
 ## Summary
 
-- Plan mode to generate phased tickets (a bunch of md files)
+This tip describes a structured workflow for coding projects using Claude's "Plan" mode to generate milestone tickets as markdown files. The user prompts Claude with numbered steps that iteratively build, review, and improve the code across these milestones. This allows for a phased and organized approach to development that can be paused and resumed easily, even overnight.
 
 ## Replies
 

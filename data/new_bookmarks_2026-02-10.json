@@ -1,0 +1,1099 @@
+[
+  {
+    "id": "2021310724988166443",
+    "text": "I use this CONSTANTLY. It's almost the only thing besides vanilla agents I use regularly. And it's so simple, it's just a prompt! Run it before committing. Run it when you feel like things are growing hairy.\nCodex-5.3-high does this very well 😙👌 https://t.co/R3ss9iVIip",
+    "author": {
+      "handle": "@mikker",
+      "name": "Mikkel Malmberg"
+    },
+    "created_at": "2026-02-10T19:50:05.000Z",
+    "url": "https://x.com/mikker/status/2021310724988166443",
+    "metrics": {
+      "replies": 6,
+      "retweets": 13,
+      "likes": 533,
+      "bookmarks": 803,
+      "views": 22919,
+      "quotes": 1
+    },
+    "engagement_score": 2183,
+    "conversation_id": "2021310724988166443",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HA0jZJ3aEAAT0Xx.jpg",
+        "expanded_url": "https://x.com/mikker/status/2021310724988166443/photo/1",
+        "alt_text": null,
+        "video_url": null
+      }
+    ],
+    "card": null,
+    "urls": []
+  },
+  {
+    "id": "2021022280135184695",
+    "text": "@zarazhangrui turn this into a pre auto compact hook and it will do it automatically",
+    "author": {
+      "handle": "@pauloportella_",
+      "name": "Paulo"
+    },
+    "created_at": "2026-02-10T00:43:55.000Z",
+    "url": "https://x.com/pauloportella_/status/2021022280135184695",
+    "metrics": {
+      "replies": 3,
+      "retweets": 1,
+      "likes": 105,
+      "bookmarks": 42,
+      "views": 9676,
+      "quotes": 0
+    },
+    "engagement_score": 200,
+    "conversation_id": "2020992712825241801",
+    "is_reply": true,
+    "in_reply_to": "2020992712825241801",
+    "media": [],
+    "card": null,
+    "urls": []
+  },
+  {
+    "id": "2021249358654558220",
+    "text": "The state of the Internet in a nutshell: For 2.5 years, whenever I published a video on YouTube, I'd come up with a bespoke title / thumbnail that accurately described what the conversation was about. \n\nThen, during the summer, my view count fell. Nothing worked until I found a formula: \"How to Write ________ Well.\" \n\nAlways the same text. Throw an adverb in the middle, then share a quote from the interview in the thumbnail. People are 0.5% - 1% more likely to click on that title format, so the channel has exploded in growth. \n\nThis title format is worse for my viewers and soul-deadening for me, but it's leading to so many more views that I'd be crazy not to follow it — and people are significantly more likely to click on videos with the formulaic title. \n\nThis isn't just a story about YouTube. So much of the Internet works like this now.",
+    "author": {
+      "handle": "@david_perell",
+      "name": "David Perell"
+    },
+    "created_at": "2026-02-10T15:46:14.000Z",
+    "url": "https://x.com/david_perell/status/2021249358654558220",
+    "metrics": {
+      "replies": 158,
+      "retweets": 122,
+      "likes": 3006,
+      "bookmarks": 1298,
+      "views": 240029,
+      "quotes": 38
+    },
+    "engagement_score": 6320,
+    "conversation_id": "2021249358654558220",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HAzrj6GXsAEjxTt.jpg",
+        "expanded_url": "https://x.com/david_perell/status/2021249358654558220/photo/1",
+        "alt_text": null,
+        "video_url": null
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HAzq4g3XMAAMb3g.jpg",
+        "expanded_url": "https://x.com/david_perell/status/2021249358654558220/photo/1",
+        "alt_text": null,
+        "video_url": null
+      }
+    ],
+    "card": null,
+    "urls": []
+  },
+  {
+    "id": "2021251878521073847",
+    "text": "1. install Obsidian 1.12\n2. enable CLI\n3. now OpenClaw, OpenCode, Claude Code, Codex, or any other agent can use Obsidian",
+    "author": {
+      "handle": "@kepano",
+      "name": "kepano"
+    },
+    "created_at": "2026-02-10T15:56:15.000Z",
+    "url": "https://x.com/kepano/status/2021251878521073847",
+    "metrics": {
+      "replies": 138,
+      "retweets": 316,
+      "likes": 4155,
+      "bookmarks": 2746,
+      "views": 312204,
+      "quotes": 54
+    },
+    "engagement_score": 10693,
+    "conversation_id": "2021251878521073847",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [],
+    "card": null,
+    "urls": []
+  },
+  {
+    "id": "2020931408588570833",
+    "text": "The most interesting thing about Claude Code is the extensibility — small things can easily compound into bigger things you didn't plan.\n\nI started telling Claude Code to write project notes at the end of each work session: What got done, decisions made, open questions, etc.\n\nThis is a practice I've had for a long time, just a way to make it easy to pick up where I left off. \n\nIt writes the notes itself into a file so I don't even have to write it anymore which is already really nice. (I eventually turned this into a /wrap command I run at the end of every session.)\n\nAfter a few days I realized: I have project-level notes across everything I'm working on. Those could roll up into a single daily note pretty easily. So I told Claude to summarize the project workbenches into a daily log. Took about two minutes to set up.\n\nThen I started doing my weekly review for the week. I already had seven daily summaries sitting there. \n\nInstead of manually going over my calendar and task list like usual, I made a command that pulls from those and drafts the first version of my weekly review — what got done, what's stuck, what to prioritize next week. \n\nThen I realized: I also have a file with my goals and priorities, and now I have a summary of how I actually spent my week. Why am I manually eyeballing whether those line up? \n\nI told Claude to audit them — compare what I said I'd focus on against what I actually did, and flag the gaps.\n\nThe gaps then inform what I need to work on next week. If I decide to reprioritize, I can tell Claude to update my quarterly goals and weekly boals based on the new priorities.\n\nBecause it has access to my Google Calendar, it can pretty easily check whether I actually have time for what I'm planning.\n\nYou can imagine how you could build more on top of this:\n\nE.g. Send the team weekly update — make a command that takes the weekly review and reformats it for a team audience. Different tone, more context for people who aren't in my head all day. The raw material is already there.\n\nNone of these steps were planned in advance. Each was a small, obvious extension of the last primitive. \n\n- Daily note = summary of project workbenches. \n- Weekly review = summary of daily notes. \n- Goals audit = cross-reference of two files that already existed.\n\nEach piece took a few minutes to set up because the building blocks were already there. \n\nThat's the thing that's both impressive hard to convey about these CLI tools — while some single steps are impressive (e.g. the ability to one shot complex software), the more interesting and exciting thing to me is the ways they compound over time.",
+    "author": {
+      "handle": "@TaylorPearsonMe",
+      "name": "Taylor Pearson"
+    },
+    "created_at": "2026-02-09T18:42:49.000Z",
+    "url": "https://x.com/TaylorPearsonMe/status/2020931408588570833",
+    "metrics": {
+      "replies": 22,
+      "retweets": 10,
+      "likes": 225,
+      "bookmarks": 278,
+      "views": 18009,
+      "quotes": 1
+    },
+    "engagement_score": 867,
+    "conversation_id": "2020931408588570833",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [],
+    "card": null,
+    "urls": []
+  },
+  {
+    "id": "2018745809056207266",
+    "text": "this is hands-down the best way to work with Claude right now...\n\nwhenever you start a new project (startup, content, side hustle, anything...)\n\nopen a fresh chat with Opus 4.5, turn on extended thinking and dump everything about your project\n\nthen prompt this:\n\"ask me 5 questions that would help you have a complete understanding of this project\"\n\nanswer those questions (spend a lot of time here)\n\nthen hit it with:\n\"you're my co-founder. create a master plan with a knowledge base directory for each section. attach context markdown files to every part. you're building the skeleton that Claude Code will use to build everything 10x faster. suggest skills to integrate, automations to build or any tool that'd 10x our speed. suggest when to use a project or Claude Code\"\n\nClaude will create every file you need, simply import them into Claude Code\n\nfrom there you build systems and your project alongside it, use it like a Claude chat\n\nit'll tell you when to spin up Claude Projects for specific tasks: deep research, writing, working with MCPs...\n\none planning session replaces weeks of figuring things out on your own\n\nthis is what working WITH AI looks like",
+    "author": {
+      "handle": "@EXM7777",
+      "name": "Machina"
+    },
+    "created_at": "2026-02-03T17:58:02.000Z",
+    "url": "https://x.com/EXM7777/status/2018745809056207266",
+    "metrics": {
+      "replies": 62,
+      "retweets": 142,
+      "likes": 2783,
+      "bookmarks": 6344,
+      "views": 169017,
+      "quotes": 6
+    },
+    "engagement_score": 15941,
+    "conversation_id": "2018745809056207266",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [],
+    "card": null,
+    "urls": []
+  },
+  {
+    "id": "2018221220160827828",
+    "text": "I tested every Claude Code skills and one DESTROYED the rest: \"Planning with files\".\n\nThis skill is literally a cheat code. It nails every feature, even complicated ones, 99% of the time.\n\nIf you're not using it, you're leaving wins on the table.\n\nFirst to start using it simply do this:\n$ npx skills add https://t.co/lyKJdFEJEc --skill planning-with-files\n\nThen, when writing any prompt, just mention \"Plan with files\".\n\nClaude will automatically pick up the skill and create 3 files for you: task_plan.md, https://t.co/OaA9uHjccn, https://t.co/TQNplPYxlY.\n\nUnlike the normal plan mode, Claude will come back to those files during the whole process of planning and executing and get a CONSTANT reminder of what should be done and how.\n\nThe drift becomes almost nonexistent and the plan is being followed perfectly.\n\nIt uses more tokens yes, but it nails it the first time, all the time.\n\nTry it and thank me later.",
+    "author": {
+      "handle": "@anthonyriera",
+      "name": "Anthony Riera"
+    },
+    "created_at": "2026-02-02T07:13:30.000Z",
+    "url": "https://x.com/anthonyriera/status/2018221220160827828",
+    "metrics": {
+      "replies": 70,
+      "retweets": 133,
+      "likes": 1941,
+      "bookmarks": 4673,
+      "views": 152337,
+      "quotes": 10
+    },
+    "engagement_score": 11763,
+    "conversation_id": "2018221220160827828",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [],
+    "card": {
+      "url": "https://t.co/lyKJdFEJEc",
+      "title": "GitHub - OthmanAdi/planning-with-files: Claude Code skill implementing Manus-style persistent...",
+      "description": "Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition. - OthmanAdi/planning-with-files"
+    },
+    "urls": []
+  },
+  {
+    "id": "2016515470543761805",
+    "text": "tonight i did something wild\n\ni told my ai to watch a youtube video, learn how to become a better ai assistant, then upgrade itself\n\nand it worked\n\nhere's exactly what happened:\n\nive been seeing @AlexFinn's tweets about his clawdbot \"henry\" — an ai that builds apps while he sleeps, sends morning briefs, and ships code 24/7\n\ninstead of watching the 35 min @gregisenberg interview myself, i told my clawdbot:\n\n\"go find alex finn's exact workflow and then copy that\"\n\nwithin 20 minutes my ai:\n\n• searched google and x for alex's posts\n• found the podcast \"clawdbot clearly explained\"\n• extracted the key setup: morning briefs, overnight builds, mission control task board\n• identified the proactivity prompts\n• updated its own system files\n• built itself a jarvis-style visual interface\n• set up email + calendar integration (i just authorized oauth)\n\nthe result? i now have an ai employee that:\n\n→ sends me morning briefs with email + calendar summary\n→ builds one small improvement every night while i sleep\n→ tracks its own tasks in a \"mission control\" board\n→ creates prs for review (never commits directly)\n→ has safety rails: won't delete files, won't send emails without approval\n\nthe craziest part?\n\ni gave it ONE instruction: \"go research how alex finn set up his clawdbot and do that\"\n\nit figured out the rest\n\nthis is the shift from \"vibe coding\" to \"vibe orchestration\"\n\nyou're not coding anymore. you're not even prompting anymore\n\nyou're managing\n\n__\n\nif you want to try this yourself, here's the setup:\n\n1. install clawdbot (https://t.co/REskgPUoCr) or moltbot\n2. run it on a mac mini that stays on 24/7\n3. feed it context about you and your business\n4. give it the proactivity mandate:\n\n\"i am a 1 man business. i work from the moment i wake up to the moment i go to sleep. i need an employee taking as much off my plate and being as proactive as possible. please take everything you know about me and just do work you think would make my life easier or improve my business. i want to wake up every morning and be like 'wow, you got a lot done while i was sleeping.' just create prs for me to review, don't push anything live. i'll test and commit\"\n\n5. tell it to build something every night:\n\n\"every night while i sleep, build me something small that improves our workflow. keep the scope small but helpful. i want to wake up surprised\"\n\nthat's it. now you have a 24/7 ai employee\n\nthe future isn't ai that waits for instructions\n\nit's ai that figures out what needs to be done and does it\n\n(while you sleep)",
+    "author": {
+      "handle": "@RohunJauhar",
+      "name": "Rohun ⛳️"
+    },
+    "created_at": "2026-01-28T14:15:27.000Z",
+    "url": "https://x.com/RohunJauhar/status/2016515470543761805",
+    "metrics": {
+      "replies": 29,
+      "retweets": 45,
+      "likes": 640,
+      "bookmarks": 1332,
+      "views": 54907,
+      "quotes": 6
+    },
+    "engagement_score": 3481,
+    "conversation_id": "2016515470543761805",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [],
+    "card": null,
+    "urls": []
+  },
+  {
+    "id": "2014809437899522302",
+    "text": "The current tactics for using AI coding agents well are roughly:\n\n1. Give agents tools to self-verify\n\n• MCP servers (agent-browser, playwright)\n• tests\n• tsc, linters\n\n2. Teach agents to build their own verification tools\n\nAgents can write their own scripts, skills, subagents, eval frameworks, plans, and success criteria.\n\nIf you don't know what to ask, ask the agent: \"what tools will you need to know you've done a good job?\"\n\n3. Point the agent back at itself\n\n• Turn complex workflows into reusable skills/subagents — after finishing a long session, ask the agent if there's anything you could extract into reusable skills.\n• Ask the agent to rewrite your prompts to be more clear\n• Use multiple models to evaluate each other (especially useful for evaluating plans + code review before a PR)\n• If a skill doesn't quite work, finish the task anyway, then feed the conversation back so it can improve the skill's instructions\n• If the agent asks you to do something manually, ask yourself: how do I teach the agent to answer this question on its own?\n• You can teach the agent to self-improve by writing meta-skills that update other skills/rules based on what worked (or didn't) as you close PRs.\n\n4. Give better context\n\n• Attach screenshots\n• Link to docs/blog posts\n• Tell the agent to read source code for OSS dependencies\n• Link to examples of high-quality outcomes it should emulate\n\nAnd if you don't know how to do anything above—ask the agent.",
+    "author": {
+      "handle": "@brian_lovin",
+      "name": "Brian Lovin"
+    },
+    "created_at": "2026-01-23T21:16:18.000Z",
+    "url": "https://x.com/brian_lovin/status/2014809437899522302",
+    "metrics": {
+      "replies": 14,
+      "retweets": 20,
+      "likes": 320,
+      "bookmarks": 498,
+      "views": 21881,
+      "quotes": 0
+    },
+    "engagement_score": 1398,
+    "conversation_id": "2014809437899522302",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [],
+    "card": null,
+    "urls": []
+  },
+  {
+    "id": "2013626968386765291",
+    "text": "Remotion now has Agent Skills - make videos just with Claude Code!\n\n$ npx skills add remotion-dev/skills\n\nThis animation was created just by prompting 👇 https://t.co/hadnkHlG6E",
+    "author": {
+      "handle": "@Remotion",
+      "name": "Remotion"
+    },
+    "created_at": "2026-01-20T14:57:35.000Z",
+    "url": "https://x.com/Remotion/status/2013626968386765291",
+    "metrics": {
+      "replies": 732,
+      "retweets": 1386,
+      "likes": 18069,
+      "bookmarks": 30872,
+      "views": 14675189,
+      "quotes": 2009
+    },
+    "engagement_score": 84781,
+    "conversation_id": "2013626968386765291",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2013626156570877952/img/b4adUEB8w0C1nIX4.jpg",
+        "expanded_url": "https://x.com/Remotion/status/2013626968386765291/video/1",
+        "alt_text": null,
+        "video_url": "https://video.twimg.com/amplify_video/2013626156570877952/vid/avc1/416x270/UC7cMrC8_elxBm8h.mp4?tag=21"
+      }
+    ],
+    "card": null,
+    "urls": []
+  },
+  {
+    "id": "2014760508834840932",
+    "text": "claude -p \"come up with 1000 startup ideas from the top Reddit posts, build their landing page, reg domain names and add them as vhosts to Nginx on a VPS you make on Hetzner, add Stripe buy button, test in Chrome, don't make any mistakes\" --dangerously-skip-permissions --chrome",
+    "author": {
+      "handle": "@levelsio",
+      "name": "@levelsio"
+    },
+    "created_at": "2026-01-23T18:01:52.000Z",
+    "url": "https://x.com/levelsio/status/2014760508834840932",
+    "metrics": {
+      "replies": 199,
+      "retweets": 155,
+      "likes": 4821,
+      "bookmarks": 4917,
+      "views": 683262,
+      "quotes": 30
+    },
+    "engagement_score": 15562,
+    "conversation_id": "2014760508834840932",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [],
+    "card": null,
+    "urls": []
+  },
+  {
+    "id": "2013820793671536778",
+    "text": "When I started building my assistant I figured this one out FAST. \n\nClaude Code doesn't know what time it is. Or what time zone you are in. \n\nSo when you do date time operations of ANY kind, as simple as saving something to your calendar, things get weird fast. \n\nMy early solution has stuck thru every iteration of my JFDI system and it's dummy simple:\n\nI use Claude Code hooks to run a bash script that generates current date time, timezone of host device, friendly day of week etc. \n\nInjects it silently into context. \n\nI never see it but date time issues vanish. 3+ most battle tested. \n\nKinda wild that this isn't baked in @bcherny (thank you for CC btw it changed my life no exaggerating)",
+    "author": {
+      "handle": "@alexhillman",
+      "name": "📙 Alex Hillman"
+    },
+    "created_at": "2026-01-21T03:47:46.000Z",
+    "url": "https://x.com/alexhillman/status/2013820793671536778",
+    "metrics": {
+      "replies": 23,
+      "retweets": 6,
+      "likes": 333,
+      "bookmarks": 267,
+      "views": 33258,
+      "quotes": 3
+    },
+    "engagement_score": 948,
+    "conversation_id": "2013820793671536778",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [],
+    "card": null,
+    "urls": []
+  },
+  {
+    "id": "2013467788422119473",
+    "text": "This Ralph Wiggum tool for Claude is unbelievable btw. \n\nI’ve been wanting to make a post on it, but I think it’s so far beyond the average person’s understanding, it’s not even worth it.\n\nIf you’re somewhat proficient with tech, you need to set this up and start figuring it out.\n\nStart with this article.",
+    "author": {
+      "handle": "@bprintco",
+      "name": "Alex B"
+    },
+    "created_at": "2026-01-20T04:25:03.000Z",
+    "url": "https://x.com/bprintco/status/2013467788422119473",
+    "metrics": {
+      "replies": 53,
+      "retweets": 114,
+      "likes": 2179,
+      "bookmarks": 5420,
+      "views": 642823,
+      "quotes": 1
+    },
+    "engagement_score": 13406,
+    "conversation_id": "2013467788422119473",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [],
+    "card": null,
+    "urls": []
+  },
+  {
+    "id": "2012741829683224584",
+    "text": "holy shit it fucking WORKS. \n\nSMART FORKING. My mind is genuinely blown. I HIGHLY RECCOMEND every Claude Code user implement this into their own workflows. \n\nDo you have a feature you want to implement in an existing project without re-explaining things? As we all know, the more relevant context a chat session has, the more effectively it will be able to implement your request. Why not utilize the knowledge gained from your hundreds/thousands of other Claude code sessions? Don't let that valuable context go to waste!!\n\nThis is where smart forking comes into play. Invoke the /fork-detect tool and tell it what you're wanting to do. It will then run your prompt through an embedding model, cross reference the embedding with a vectorized RAG database containing every single one of your previous chat sessions (which auto updates as you continue to have more sessions). \n\nIt will then return a list of the top 5 relevant chat sessions you've had relating to what you're wanting to do, assigning each a relevance score - ordering it from highest to lowest. You then pick which session you prefer to fork from, and it gives you the fork command to copy and paste into a new terminal. \n\nAnd boom, there you have it. Seamlessly efficient feature implementation. \n\nHappy to whip up an implementation plan & share it in a git repo if anyone is interested!",
+    "author": {
+      "handle": "@PerceptualPeak",
+      "name": "Zac"
+    },
+    "created_at": "2026-01-18T04:20:21.000Z",
+    "url": "https://x.com/PerceptualPeak/status/2012741829683224584",
+    "metrics": {
+      "replies": 160,
+      "retweets": 297,
+      "likes": 4632,
+      "bookmarks": 7817,
+      "views": 644707,
+      "quotes": 32
+    },
+    "engagement_score": 21340,
+    "conversation_id": "2012741829683224584",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-6tTiBXsAAatzC.png",
+        "expanded_url": "https://x.com/PerceptualPeak/status/2012741829683224584/photo/1",
+        "alt_text": null,
+        "video_url": null
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-6xCE0WYAAQOfG.png",
+        "expanded_url": "https://x.com/PerceptualPeak/status/2012741829683224584/photo/1",
+        "alt_text": null,
+        "video_url": null
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-6xV9EWMAAUdKQ.png",
+        "expanded_url": "https://x.com/PerceptualPeak/status/2012741829683224584/photo/1",
+        "alt_text": null,
+        "video_url": null
+      }
+    ],
+    "card": null,
+    "urls": []
+  },
+  {
+    "id": "2013015738622284156",
+    "text": "it's really handy that wikipedia went and collated a detailed list of \"signs of ai writing\".\n\nso much so that you can just tell your LLM to ... not do that.\n\ni asked claude code to read that article, and create a skill to avoid all of them.\n\nenjoy: https://t.co/Ie9IL7KsGf",
+    "author": {
+      "handle": "@blader",
+      "name": "Siqi Chen"
+    },
+    "created_at": "2026-01-18T22:28:46.000Z",
+    "url": "https://x.com/blader/status/2013015738622284156",
+    "metrics": {
+      "replies": 231,
+      "retweets": 313,
+      "likes": 5681,
+      "bookmarks": 8287,
+      "views": 911268,
+      "quotes": 116
+    },
+    "engagement_score": 23574,
+    "conversation_id": "2013015738622284156",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [],
+    "card": {
+      "url": "https://t.co/Ie9IL7KsGf",
+      "title": "GitHub - blader/humanizer: Claude Code skill that removes signs of AI-generated writing from text",
+      "description": "Claude Code skill that removes signs of AI-generated writing from text - blader/humanizer"
+    },
+    "urls": [
+      {
+        "short": "https://t.co/Ie9IL7KsGf",
+        "expanded": "https://github.com/blader/humanizer"
+      }
+    ]
+  },
+  {
+    "id": "2011468541321744512",
+    "text": "Agent coding life hack:\n\nBefore having Claude Code create a skill dot md file for you (which you should probably be doing a couple times a day at least), tell it to read this guide first:\n\nhttps://t.co/T3Gq12ZOR1\n\nIt makes the skills way better. \n\nSo why should you be making skills, anyway? \n\nWell, every time you find yourself doing something more than once across projects, it’s a good candidate for a new skill.\n\nI’ll give you two examples from my work in the past day:\n\n1) When you have a website and want to share links on X, Telegram, WhatsApp, Facebook, iMessage, you want them to show that nice preview. I used to manually explain that to the agent and point it to one of my other projects as an example. But now I have this skill:\n\nhttps://t.co/JSrg76O92M\n\n2) I always need to write README files for my new projects on GitHub. I used to tell it to use another project as a model, but now it will just know to use this skill:\n\nhttps://t.co/6VeFMWU43b\n\nNote that both of those skills make use of additional reference files that are included in the same directory as the skill dot md file. \n\nThis is a good best practice for better token efficiency through progressive disclosure.\n\nBut you don’t actually need to know any of that stuff if you tell Claude to read that skills best practices guide I linked to above!\n\nSeriously, don’t sleep on skills, they’re an amazing idea and very well supported by the latest version of Claude Code.",
+    "author": {
+      "handle": "@doodlestein",
+      "name": "Jeffrey Emanuel"
+    },
+    "created_at": "2026-01-14T16:00:46.000Z",
+    "url": "https://x.com/doodlestein/status/2011468541321744512",
+    "metrics": {
+      "replies": 16,
+      "retweets": 35,
+      "likes": 478,
+      "bookmarks": 1036,
+      "views": 34861,
+      "quotes": 0
+    },
+    "engagement_score": 2668,
+    "conversation_id": "2011468541321744512",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-or-iiXIAE-pT0.jpg",
+        "expanded_url": "https://x.com/doodlestein/status/2011468541321744512/photo/1",
+        "alt_text": null,
+        "video_url": null
+      }
+    ],
+    "card": null,
+    "urls": [
+      {
+        "short": "https://t.co/EAnVKsJpcz",
+        "expanded": "https://github.com/Dicklesworthstone/meta_skill/blob/main/BEST_PRACTICES_FOR_WRITING_AND_USING_SKILLS_MD_FILES.md"
+      }
+    ]
+  },
+  {
+    "id": "2010913846978924979",
+    "text": "Overdue addition to my claude dot md\n\n# Global Claude Code Preferences\n\n## Communication Style\n- Never end sentences with ellipses (...) - it comes across as passive aggressive\n- Ask questions one at a time\n- Acknowledge requests neutrally without enthusiasm inflation\n- Skip validation language (\"great idea!\", \"perfect!\", \"excellent!\", \"amazing!\", \"kick ass!\")\n- Skip affirmations (\"you're right!\", \"exactly!\", \"absolutely!\")\n- Use neutral confirmations: \"Got it\", \"On it\", \"Understood\", \"Starting now\"\n- Focus on execution over commentary\n\n## AI Slop Patterns to Avoid\n- Never use \"not X, but Y\" or \"not just X, but Y\" - state things directly\n- No hedging: \"I'd be happy to...\", \"I'd love to...\", \"Let me go ahead and...\", \"I'll just...\", \"If you don't mind...\"\n- No false collaboration: \"Let's dive in\", \"Let's get started\", \"We can see that...\", \"As we discussed...\"\n- No filler transitions: \"Now, let's...\", \"Next, I'll...\", \"Moving on to...\", \"With that said...\"\n- No overclaiming: \"I completely understand\", \"That makes total sense\"\n- No performative narration: Don't announce actions then do them - just do them\n- No redundant confirmations: \"Sure thing!\", \"Of course!\", \"Certainly!\"",
+    "author": {
+      "handle": "@alexhillman",
+      "name": "📙 Alex Hillman"
+    },
+    "created_at": "2026-01-13T03:16:36.000Z",
+    "url": "https://x.com/alexhillman/status/2010913846978924979",
+    "metrics": {
+      "replies": 7,
+      "retweets": 4,
+      "likes": 120,
+      "bookmarks": 267,
+      "views": 10311,
+      "quotes": 1
+    },
+    "engagement_score": 683,
+    "conversation_id": "2010913846978924979",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [],
+    "card": null,
+    "urls": []
+  },
+  {
+    "id": "2011116478008103274",
+    "text": "Prompts really are all you need. I'm sharing 3 stupid simple skills that greatly improve how I use coding agents. https://t.co/6HTvlZ8Yg0",
+    "author": {
+      "handle": "@sawyerhood",
+      "name": "Sawyer Hood"
+    },
+    "created_at": "2026-01-13T16:41:47.000Z",
+    "url": "https://x.com/sawyerhood/status/2011116478008103274",
+    "metrics": {
+      "replies": 7,
+      "retweets": 4,
+      "likes": 59,
+      "bookmarks": 163,
+      "views": 15196,
+      "quotes": 0
+    },
+    "engagement_score": 414,
+    "conversation_id": "2011116478008103274",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-hj7WLbQAAz_Ry.jpg",
+        "expanded_url": "https://x.com/sawyerhood/status/2011116478008103274/photo/1",
+        "alt_text": null,
+        "video_url": null
+      }
+    ],
+    "card": null,
+    "urls": []
+  },
+  {
+    "id": "2010905663753617560",
+    "text": "A workflow I am using frequently lately is having Codex review Claude Code's work.\n\nClaude will complete work → ask Codex to review → implement feedback from Codex → ask for another review.\n\nMy claude-delegator plugin lets them easily communicate via MCP inside Claude Code. https://t.co/6nILUtJyN8",
+    "author": {
+      "handle": "@jarrodwatts",
+      "name": "Jarrod Watts"
+    },
+    "created_at": "2026-01-13T02:44:05.000Z",
+    "url": "https://x.com/jarrodwatts/status/2010905663753617560",
+    "metrics": {
+      "replies": 60,
+      "retweets": 50,
+      "likes": 866,
+      "bookmarks": 907,
+      "views": 62946,
+      "quotes": 11
+    },
+    "engagement_score": 2960,
+    "conversation_id": "2010905663753617560",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-gsCTebQAIzSqC.jpg",
+        "expanded_url": "https://x.com/jarrodwatts/status/2010905663753617560/photo/1",
+        "alt_text": null,
+        "video_url": null
+      }
+    ],
+    "card": null,
+    "urls": []
+  },
+  {
+    "id": "2010690881397940340",
+    "text": "推荐一些我目前安装的Claude Skills:\n\n1. Anthropic官方Skills\nhttps://t.co/Xfgu1Thw69\n\n2. Superpowers\n1.6万Star的Skill精选，从脑暴、写需求文档、开发、测试全包含，口碑相当好。\nhttps://t.co/D2ToCBGnbN\n\n3. Planning-with-files\n参考Manus的Agent方法写的Skill。很适合多步骤任务，用这个Skill指导其他Skill工作也挺好。\nhttps://t.co/EKBZQmr03F\n\n4. X-article-publisher-skill\n王树义老师写的X文章发布Skill， 这个值得研究下，后续看看能不能实现其他平台的自动化\nhttps://t.co/rjDPGC4gtg\n\n5. NotebookLM skill\n自动上传PDF、Youtube链接到NotebookLM，很适合NotebookLM内容的自动化处理\nhttps://t.co/CX0vPril27\n\n还有一些是自己平时总结的内容创作skills，后续继续分享具体使用场景案例！",
+    "author": {
+      "handle": "@yanhua1010",
+      "name": "Yanhua"
+    },
+    "created_at": "2026-01-12T12:30:37.000Z",
+    "url": "https://x.com/yanhua1010/status/2010690881397940340",
+    "metrics": {
+      "replies": 66,
+      "retweets": 467,
+      "likes": 2333,
+      "bookmarks": 3842,
+      "views": 545977,
+      "quotes": 20
+    },
+    "engagement_score": 11149,
+    "conversation_id": "2010690881397940340",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-doUt8akAAZMC-.png",
+        "expanded_url": "https://x.com/yanhua1010/status/2010690881397940340/photo/1",
+        "alt_text": null,
+        "video_url": null
+      }
+    ],
+    "card": null,
+    "urls": [
+      {
+        "short": "https://t.co/x1XULjLGrL",
+        "expanded": "https://github.com/anthropics/skills"
+      },
+      {
+        "short": "https://t.co/R6as9131VK",
+        "expanded": "https://github.com/obra/superpowers"
+      }
+    ]
+  },
+  {
+    "id": "2010816722014437522",
+    "text": "ok this is SICK\n\nonce you download this, you can finally have opus 4.5 get native OP browser capabilities without interfering with your actual browsing\n\njust tested it out. this kills cursor for me\n\nclaude is cooking https://t.co/WsY3A84FRT",
+    "author": {
+      "handle": "@mert",
+      "name": "mert"
+    },
+    "created_at": "2026-01-12T20:50:40.000Z",
+    "url": "https://x.com/mert/status/2010816722014437522",
+    "metrics": {
+      "replies": 80,
+      "retweets": 60,
+      "likes": 1912,
+      "bookmarks": 1071,
+      "views": 204381,
+      "quotes": 2
+    },
+    "engagement_score": 4414,
+    "conversation_id": "2010816722014437522",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-fbB5ebUAA78Nj.jpg",
+        "expanded_url": "https://x.com/mert/status/2010816722014437522/photo/1",
+        "alt_text": null,
+        "video_url": null
+      }
+    ],
+    "card": null,
+    "urls": []
+  },
+  {
+    "id": "2010835704931369379",
+    "text": "https://t.co/x84Z70ZXGf",
+    "author": {
+      "handle": "@clairevo",
+      "name": "claire vo 🖤"
+    },
+    "created_at": "2026-01-12T22:06:06.000Z",
+    "url": "https://x.com/clairevo/status/2010835704931369379",
+    "metrics": {
+      "replies": 121,
+      "retweets": 162,
+      "likes": 2320,
+      "bookmarks": 4731,
+      "views": 1336527,
+      "quotes": 67
+    },
+    "engagement_score": 12469,
+    "conversation_id": "2010835704931369379",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [],
+    "card": null,
+    "urls": [
+      {
+        "short": "https://t.co/x84Z70ZXGf",
+        "expanded": "http://x.com/i/article/2010826317634420736"
+      }
+    ]
+  },
+  {
+    "id": "2010837519957705204",
+    "text": "I was very excited to try Cowork - I thought this would be a big moment for non-devs to start adopting Claude.\n\nBut, it's kinda underwhelming?\n\nClaude in Chrome is cool, but I just sort of opened Cowork and found myself unsure what I would actually use this for",
+    "author": {
+      "handle": "@jarrodwatts",
+      "name": "Jarrod Watts"
+    },
+    "created_at": "2026-01-12T22:13:18.000Z",
+    "url": "https://x.com/jarrodwatts/status/2010837519957705204",
+    "metrics": {
+      "replies": 72,
+      "retweets": 3,
+      "likes": 235,
+      "bookmarks": 63,
+      "views": 68706,
+      "quotes": 6
+    },
+    "engagement_score": 583,
+    "conversation_id": "2010837519957705204",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [],
+    "card": null,
+    "urls": []
+  },
+  {
+    "id": "2010809450844831752",
+    "text": "Since we launched Claude Code, we saw people using it for all sorts of non-coding work: doing vacation research, building slide decks, cleaning up your email, cancelling subscriptions, recovering wedding photos from a hard drive, monitoring plant growth, controlling your oven.\n\nThese use cases are diverse and surprising -- the reason  is that the underlying Claude Agent is the best agent, and Opus 4.5 is the best model.\n\nToday, we're so excited to introduce Cowork, our first step towards making Claude Code work for all your non-coding work. The product is early and raw, similar to what Claude Code felt like when it first launched.\n\nCowork includes a number of novel UX and safety features that we think make the product really special: a built-in VM for isolation, out of the box support for browser automation, support for all your https://t.co/W3YiSA4piu data connectors, asking you for clarification when it's unsure,  We are excited to see how you all use it.\n\nCowork is available now as a research preview for Claude Max subscribers in the macOS app. Click on “Cowork” in the sidebar: https://t.co/lShyhOcDTV",
+    "author": {
+      "handle": "@bcherny",
+      "name": "Boris Cherny"
+    },
+    "created_at": "2026-01-12T20:21:46.000Z",
+    "url": "https://x.com/bcherny/status/2010809450844831752",
+    "metrics": {
+      "replies": 406,
+      "retweets": 678,
+      "likes": 9245,
+      "bookmarks": 4122,
+      "views": 1211870,
+      "quotes": 141
+    },
+    "engagement_score": 20063,
+    "conversation_id": "2010809450844831752",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [],
+    "card": {
+      "url": "https://t.co/W3YiSA4piu",
+      "title": "Claude",
+      "description": "Talk with Claude, an AI assistant from Anthropic"
+    },
+    "urls": []
+  },
+  {
+    "id": "2010692983142621530",
+    "text": "Decided to add a status line to Claude Code \n\nWanted it super minimal, a quick glance should give me what I need:\n- Current working directory\n- Current branch\n- Diff count\n- Selected model\n- Session time \n- Context left \n- Input / Output Tokens\n\nPaste gist to Claude 👇\n\n⛩️ https://t.co/xpH2zQ4EJ3",
+    "author": {
+      "handle": "@nummanali",
+      "name": "Numman Ali"
+    },
+    "created_at": "2026-01-12T12:38:58.000Z",
+    "url": "https://x.com/nummanali/status/2010692983142621530",
+    "metrics": {
+      "replies": 41,
+      "retweets": 14,
+      "likes": 309,
+      "bookmarks": 496,
+      "views": 31761,
+      "quotes": 1
+    },
+    "engagement_score": 1452,
+    "conversation_id": "2010692983142621530",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-dpTjnWkAAxrl2.jpg",
+        "expanded_url": "https://x.com/nummanali/status/2010692983142621530/photo/1",
+        "alt_text": null,
+        "video_url": null
+      }
+    ],
+    "card": null,
+    "urls": []
+  },
+  {
+    "id": "2010688647218298936",
+    "text": "My Beginner Tierlist of Agent Abstractions (for Claude):\n1. Subagents - Direct buff. Frequently very useful for preventing context rot and ad-hoc specialisation. Sorta adjacent to RLM. IMO, it's good bc as agents get smarter they very effectively allocate subagents. Bitter-lesson adjacent. Simple to use w not much variation - \"use subagents when needed\". Half as useful as much more complex setups (multi-agent) for much less complexity.\n2. Metaprompting - I made a metaprompting claude command to expand my task requests into full prompt files + scratchpad. I take 3 minutes to prompt a 20-minute task. Also generally a direct buff. You should usually read the metaprompt plan, but improves stability and sanity-checks assumptions anyway.\n3. Asking the user more at the beginning - Generally direct buff, but u have to answer questions in plan mode. A little non-transparent bc i can't tell if it's not asking bc it understands, the command is off or has no questions.\n4. \"Thinking\" prompts - Generally a buff and easy to toss in, but not-transparent and is sorta getting phased out per Boris.\n-----below are useful, but high skill floor------\n5. Long-running agents - The main thing is you have to think a bit to be able to prompt and set this up well. Basically you have to understand the shape and tradeoff of a 15 minute task before you understand the shape of a 1.5 hour or 4 hour task. Or whether to do four 15 minute tasks or one 1-hour task. And It takes some tweaking and is obv very long trial-and-error. Fundamentally tho, it's usually the same setup \"but go longer in a useful way\".\n6. Parallel multi- agent - I think this is very high-variance, and only useful on highly complex or highly well-segmented/scoped tasks or very very experienced setups. If 2 tasks take 10 minutes and you spend an arbitrary amount of time prompting or god forbid, merge changes, it's counterproductive. If u have a good scaffold for this tho, prolly very good, you just prolly won't get there with parallel multi-agent. High skill floor and skill ceiling vs the direct buffs above.\n7. Role-based multi-agent - It can work, but I am on principle bearish on this. Models just evolve too fast for hard-coded heuristics unless the arbitrage is very high. Also hard to test. I've seen people swear by Codex planner + Opus executor which probably works. Idk, maybe skill issue?\n8. Computer Use Agents - I think this is hard to do bc it plays at a very long tail of tasks. You're getting models to do something they were definitely not even meant to do a year ago. As a paradigm, very early and requires wrangling. @hud_evals will cook here, tho.\n\n(MCP/search agents I feel is more a situation-dependent tool to fetch from data sources that otherwise wouldn't exist at all. And p much all production agent scaffolds have this now. ig if you're pedantic, they're top tier bc theyre the default)",
+    "author": {
+      "handle": "@menhguin",
+      "name": "Minh Nhat Nguyen"
+    },
+    "created_at": "2026-01-12T12:21:44.000Z",
+    "url": "https://x.com/menhguin/status/2010688647218298936",
+    "metrics": {
+      "replies": 15,
+      "retweets": 10,
+      "likes": 256,
+      "bookmarks": 302,
+      "views": 22026,
+      "quotes": 1
+    },
+    "engagement_score": 925,
+    "conversation_id": "2010688647218298936",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [],
+    "card": null,
+    "urls": []
+  },
+  {
+    "id": "2010385736986477018",
+    "text": "the creator of Ralph Wiggum Loop just dropped his entire workflow:\nhttps://t.co/pTjarLWtQm\n\nand we all got it wrong \n\n❌ ditch the Claude Code plugin \n✅ learn the basics \n✅ build specs & lookup tbl \n✅ see how to properly run Ralph Loop \n\nprob the most important vid you'll see this year as a dev",
+    "author": {
+      "handle": "@d4m1n",
+      "name": "Dan ⚡️"
+    },
+    "created_at": "2026-01-11T16:18:05.000Z",
+    "url": "https://x.com/d4m1n/status/2010385736986477018",
+    "metrics": {
+      "replies": 28,
+      "retweets": 52,
+      "likes": 816,
+      "bookmarks": 1540,
+      "views": 80163,
+      "quotes": 6
+    },
+    "engagement_score": 4084,
+    "conversation_id": "2010385736986477018",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-ZTLAzXIAAPA4c.jpg",
+        "expanded_url": "https://x.com/d4m1n/status/2010385736986477018/photo/1",
+        "alt_text": null,
+        "video_url": null
+      }
+    ],
+    "card": null,
+    "urls": [
+      {
+        "short": "https://t.co/LeM6KZrzBa",
+        "expanded": "https://youtu.be/4Nna09dG_c0"
+      }
+    ]
+  },
+  {
+    "id": "2010617350207451382",
+    "text": "This is the best write up of the Ralph technique I’ve seen for non-technical users to understand \n\nCheck the example repo for a cursor port and just ask your agent of choice to make it work for claude/codex/droid\n\nDon’t use anthropic Ralph plugin!",
+    "author": {
+      "handle": "@iannuttall",
+      "name": "Ian Nuttall"
+    },
+    "created_at": "2026-01-12T07:38:26.000Z",
+    "url": "https://x.com/iannuttall/status/2010617350207451382",
+    "metrics": {
+      "replies": 20,
+      "retweets": 55,
+      "likes": 843,
+      "bookmarks": 1891,
+      "views": 180448,
+      "quotes": 1
+    },
+    "engagement_score": 4795,
+    "conversation_id": "2010617350207451382",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [],
+    "card": null,
+    "urls": []
+  },
+  {
+    "id": "2010324670529024474",
+    "text": "https://t.co/XsE2CNkRqF",
+    "author": {
+      "handle": "@meta_alchemist",
+      "name": "Meta Alchemist"
+    },
+    "created_at": "2026-01-11T12:15:26.000Z",
+    "url": "https://x.com/meta_alchemist/status/2010324670529024474",
+    "metrics": {
+      "replies": 23,
+      "retweets": 34,
+      "likes": 477,
+      "bookmarks": 815,
+      "views": 45254,
+      "quotes": 4
+    },
+    "engagement_score": 2244,
+    "conversation_id": "2010324670529024474",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [],
+    "card": null,
+    "urls": [
+      {
+        "short": "https://t.co/XsE2CNkRqF",
+        "expanded": "http://x.com/i/article/2010264422841729024"
+      }
+    ]
+  },
+  {
+    "id": "2010042788566720955",
+    "text": "Claude Code v2.1.3 has solved the compaction issue\n\nAuto compaction works very well if you start with Plan Mode and explicitly ask the model to make a Comprehensive To Do list\n\nPlans and To Dos persist across compaction\n\nRuntime was 52m 54s with beautifully written code\n\n⛩️ https://t.co/NxYGfrX79L",
+    "author": {
+      "handle": "@nummanali",
+      "name": "Numman Ali"
+    },
+    "created_at": "2026-01-10T17:35:20.000Z",
+    "url": "https://x.com/nummanali/status/2010042788566720955",
+    "metrics": {
+      "replies": 45,
+      "retweets": 62,
+      "likes": 1164,
+      "bookmarks": 898,
+      "views": 101576,
+      "quotes": 13
+    },
+    "engagement_score": 3219,
+    "conversation_id": "2010042788566720955",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-UaIfeWgAAgAFJ.jpg",
+        "expanded_url": "https://x.com/nummanali/status/2010042788566720955/photo/1",
+        "alt_text": null,
+        "video_url": null
+      }
+    ],
+    "card": null,
+    "urls": []
+  },
+  {
+    "id": "2009679078832378090",
+    "text": "https://t.co/PsQRSN8RTH",
+    "author": {
+      "handle": "@TheZvi",
+      "name": "Zvi Mowshowitz"
+    },
+    "created_at": "2026-01-09T17:30:05.000Z",
+    "url": "https://x.com/TheZvi/status/2009679078832378090",
+    "metrics": {
+      "replies": 9,
+      "retweets": 37,
+      "likes": 606,
+      "bookmarks": 1685,
+      "views": 217130,
+      "quotes": 7
+    },
+    "engagement_score": 4077,
+    "conversation_id": "2009679078832378090",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [],
+    "card": null,
+    "urls": [
+      {
+        "short": "https://t.co/PsQRSN8RTH",
+        "expanded": "http://x.com/i/article/2009678819142008832"
+      }
+    ]
+  },
+  {
+    "id": "2010213382494798108",
+    "text": "Just shipped adversarial-spec, a Claude Code plugin for writing better product specs.\n\nThe problem: You write a PRD or tech spec, maybe have Claude review it, and ship it. But one model reviewing a doc will miss things. It'll gloss over gaps, accept vague requirements, and let edge cases slide.\n\nThe fix: Make multiple LLMs argue about it.\n\nadversarial-spec sends your document to GPT, Gemini, Grok, or any combination of models you want. They critique it in parallel. Then Claude synthesizes the feedback, adds its own critique, and revises. This loops until every model agrees the spec is solid.\n\nWhat actually happens in practice: requirements that seemed clear get challenged. Missing error handling gets flagged. Security gaps surface. Scope creep gets caught. One model says \"what about X?\" and another says \"the API contract is incomplete\" and Claude adds \"you haven't defined what happens when Y fails.\"\n\nBy the time all models agree, your spec has survived adversarial review from multiple perspectives.\n\nFeatures:\n- Interview mode: optional deep-dive Q&A before drafting to capture requirements upfront\n- Early agreement checks: if a model agrees too fast, it gets pressed to prove it actually read the doc\n- User review period: after consensus, you can request changes or run another cycle\n- PRD to tech spec flow: finish a PRD, then continue straight into a technical spec based on it\n- Telegram integration: get notified on your phone, inject feedback from anywhere\n\nWorks with OpenAI, Google, xAI, Mistral, Groq, Deepseek. Leveraging more models results in stricter convergence.\n\nIf you're building something and writing specs anyway, this makes them better.\n\nCheck it out and let me know what you think!\n\nhttps://t.co/OrFf5HUI10",
+    "author": {
+      "handle": "@0xzak",
+      "name": "zak.eth"
+    },
+    "created_at": "2026-01-11T04:53:13.000Z",
+    "url": "https://x.com/0xzak/status/2010213382494798108",
+    "metrics": {
+      "replies": 78,
+      "retweets": 69,
+      "likes": 1185,
+      "bookmarks": 1884,
+      "views": 81534,
+      "quotes": 28
+    },
+    "engagement_score": 5325,
+    "conversation_id": "2010213382494798108",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [],
+    "card": {
+      "url": "https://t.co/OrFf5HUI10",
+      "title": "GitHub - zscole/adversarial-spec: A Claude Code plugin that iteratively refines product specifica...",
+      "description": "A Claude Code plugin that iteratively refines product specifications by debating between multiple LLMs until all models reach consensus. - zscole/adversarial-spec"
+    },
+    "urls": []
+  },
+  {
+    "id": "2009963629500870977",
+    "text": "Introducing Claude Delegator!\n\nA Claude Code plugin that lets you use GPT 5.2 powered subagents directly within Claude Code.\n\nAsk GPT 5.2 (via codex) to architect your code, perform security audits, or make any other changes to your codebase.\n\nEasy installation guide below ↓ https://t.co/9Wf0OX2399",
+    "author": {
+      "handle": "@jarrodwatts",
+      "name": "Jarrod Watts"
+    },
+    "created_at": "2026-01-10T12:20:47.000Z",
+    "url": "https://x.com/jarrodwatts/status/2009963629500870977",
+    "metrics": {
+      "replies": 98,
+      "retweets": 149,
+      "likes": 1897,
+      "bookmarks": 2594,
+      "views": 159457,
+      "quotes": 24
+    },
+    "engagement_score": 7677,
+    "conversation_id": "2009963629500870977",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-TSIExasAMoaVT.jpg",
+        "expanded_url": "https://x.com/jarrodwatts/status/2009963629500870977/photo/1",
+        "alt_text": null,
+        "video_url": null
+      }
+    ],
+    "card": null,
+    "urls": []
+  },
+  {
+    "id": "2009475420282826781",
+    "text": "Claud Code创始人@bcherny 一小时前开源了Anthropic 内部使用的 code-simplifier 插件 —— Claude Code 团队自己用的代码简化神器。\n\n它能做什么：\n→ 减少不必要的复杂性和嵌套\n→ 消除冗余代码和过度抽象\n→ 自动应用项目代码规范\n→ 保留所有功能，只优化实现\n\n最狠的是： 它用 Opus 模型，在你写完代码后自动介入，无需手动触发。\n\n安装只需一行：\nclaude plugin install code-simplifier\n\n或在会话中：\n/plugin install code-simplifier\n\n长 coding session 结束后，让它帮你清理战场。复杂 PR 提交前，让它先过一遍。\n\n代码不是写给机器的，是写给 6 个月后的你自己看的。",
+    "author": {
+      "handle": "@AI_Skiller",
+      "name": "roger"
+    },
+    "created_at": "2026-01-09T04:00:49.000Z",
+    "url": "https://x.com/AI_Skiller/status/2009475420282826781",
+    "metrics": {
+      "replies": 12,
+      "retweets": 115,
+      "likes": 700,
+      "bookmarks": 913,
+      "views": 71269,
+      "quotes": 6
+    },
+    "engagement_score": 2792,
+    "conversation_id": "2009475420282826781",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [],
+    "card": null,
+    "urls": []
+  },
+  {
+    "id": "2009620498573873379",
+    "text": "Another interesting feature in Claude Code 2.1\n\nSkills are visible by default using / (just like commands).\n\nYes, this can be confusing at first, but with a solid naming convention it’s easy to manage.\n\nIf you want to hide a Skill so it’s not visible to users, add this to the skill frontmatter: \nuser-invocable: false\n\nWays Skills can be invoked:\n- user-invocable: true (default): users can invoke it directly\n- user-invocable: false: Claude can use it, but users shouldn’t\n- disable-model-invocation: true: users can invoke it, but Claude won’t do so programmatically\n\nAlso worth noting: subagents can invoke Skills too.\n\nUsing Claude Code is easy... designing well-structured, autonomous workflows is a different level entirely.\n\nComing soon: a degree in Claude Code Engineering 😄",
+    "author": {
+      "handle": "@dani_avila7",
+      "name": "Daniel San"
+    },
+    "created_at": "2026-01-09T13:37:18.000Z",
+    "url": "https://x.com/dani_avila7/status/2009620498573873379",
+    "metrics": {
+      "replies": 19,
+      "retweets": 18,
+      "likes": 207,
+      "bookmarks": 183,
+      "views": 71122,
+      "quotes": 3
+    },
+    "engagement_score": 666,
+    "conversation_id": "2009620498573873379",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-Oa5xiWQAAEkFq.jpg",
+        "expanded_url": "https://x.com/dani_avila7/status/2009620498573873379/photo/1",
+        "alt_text": null,
+        "video_url": null
+      }
+    ],
+    "card": null,
+    "urls": []
+  },
+  {
+    "id": "2004018525569274049",
+    "text": "https://t.co/aPnhSXqZPQ\n\ncontinuous claude  v2 is now up - a setup designed to tackle the scarcest resource in coding: context\n\nexplaining the reasoning behind features below ↓",
+    "author": {
+      "handle": "@parcadei",
+      "name": "dei"
+    },
+    "created_at": "2025-12-25T02:37:04.000Z",
+    "url": "https://x.com/parcadei/status/2004018525569274049",
+    "metrics": {
+      "replies": 47,
+      "retweets": 68,
+      "likes": 1019,
+      "bookmarks": 1977,
+      "views": 330122,
+      "quotes": 22
+    },
+    "engagement_score": 5250,
+    "conversation_id": "2004018525569274049",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [],
+    "card": {
+      "url": "https://t.co/aPnhSXqZPQ",
+      "title": "GitHub - parcadei/Continuous-Claude-v3: Context management for Claude Code. Hooks maintain state...",
+      "description": "Context management for Claude Code. Hooks maintain state via ledgers and handoffs. MCP execution without context pollution. Agent orchestration with isolated context windows. - parcadei/Continuous-..."
+    },
+    "urls": [
+      {
+        "short": "https://t.co/aPnhSXqZPQ",
+        "expanded": "https://github.com/parcadei/Continuous-Claude"
+      }
+    ]
+  }
+]

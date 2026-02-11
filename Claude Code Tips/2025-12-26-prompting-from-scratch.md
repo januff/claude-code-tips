@@ -18,7 +18,7 @@ url: "https://x.com/s_capatina/status/2004598863022489670"
 
 ## Summary
 
-Going deep down the Opus hole on a large feature, then discarding the entire branch and prompting from scratch with all the learnings
+This tip advocates for a radical, iterative approach to complex coding tasks using Claude Opus. It suggests exploring a feature deeply, then abandoning the code branch and re-prompting from scratch. This allows you to leverage acquired knowledge for a more efficient and targeted solution, essentially distilling your learnings into a fresh start within Claude.
 
 
 > [!metrics]- Engagement & Metadata

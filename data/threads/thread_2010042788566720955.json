@@ -1,0 +1,614 @@
+[
+  {
+    "id": "2010042788566720955",
+    "text": "Claude Code v2.1.3 has solved the compaction issue\n\nAuto compaction works very well if you start with Plan Mode and explicitly ask the model to make a Comprehensive To Do list\n\nPlans and To Dos persist across compaction\n\nRuntime was 52m 54s with beautifully written code\n\n\u26e9\ufe0f https://t.co/NxYGfrX79L",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Sat Jan 10 17:35:20 +0000 2026",
+    "created_at_iso": "2026-01-10T17:35:20+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2010042788566720955",
+    "metrics": {
+      "replies": 45,
+      "retweets": 62,
+      "likes": 1164,
+      "bookmarks": 898,
+      "views": 101578
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-UaIfeWgAAgAFJ.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2010042967768346833",
+    "text": "https://t.co/2F3MQosZvd",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Sat Jan 10 17:36:02 +0000 2026",
+    "created_at_iso": "2026-01-10T17:36:02+00:00",
+    "is_reply_to": "2010042788566720955",
+    "conversation_id": "2010042788566720955",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 13,
+      "bookmarks": 12,
+      "views": 7224
+    },
+    "media": []
+  },
+  {
+    "id": "2009996826573684737",
+    "text": "I don't have a specific prompt, I always just say it using voice dictation - I use @WisprFlow \n\nI just asked this right now:\n\n\"One final thing is to make sure you make a large to-do list using your todo write function to cover this. When you do it, make sure you put checkpoints in for each phase to make sure you've covered everything the way you want. Whether it's a self-review, an agent review, or whatever. You got this!\"",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Sat Jan 10 14:32:42 +0000 2026",
+    "created_at_iso": "2026-01-10T14:32:42+00:00",
+    "is_reply_to": "2009993392760267223",
+    "conversation_id": "2009946224955469843",
+    "metrics": {
+      "replies": 3,
+      "retweets": 0,
+      "likes": 26,
+      "bookmarks": 80,
+      "views": 8793
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-Txa65XQAAP51n.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2010107939961614375",
+    "text": "@nummanali Can they solve the flashing screens \ud83d\ude2d",
+    "author_handle": "@alexinbinary",
+    "author_name": "Alex",
+    "created_at": "Sat Jan 10 21:54:13 +0000 2026",
+    "created_at_iso": "2026-01-10T21:54:13+00:00",
+    "is_reply_to": "2010042788566720955",
+    "conversation_id": "2010042788566720955",
+    "metrics": {
+      "replies": 3,
+      "retweets": 0,
+      "likes": 13,
+      "bookmarks": 0,
+      "views": 2585
+    },
+    "media": []
+  },
+  {
+    "id": "2010112777973838315",
+    "text": "@alexinbinary On that day https://t.co/9bfZojhlMs",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Sat Jan 10 22:13:27 +0000 2026",
+    "created_at_iso": "2026-01-10T22:13:27+00:00",
+    "is_reply_to": "2010107939961614375",
+    "conversation_id": "2010042788566720955",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 12,
+      "bookmarks": 0,
+      "views": 2359
+    },
+    "media": [
+      {
+        "type": "animated_gif",
+        "url": "https://pbs.twimg.com/tweet_video_thumb/G-Va6PrWsAAyjdZ.jpg",
+        "video_url": "https://video.twimg.com/tweet_video/G-Va6PrWsAAyjdZ.mp4"
+      }
+    ]
+  },
+  {
+    "id": "2010128435780153655",
+    "text": "@nummanali Wow, excellent. That de-prioritizes the rest of experimental methods for me quite a bit. This and the Anthropic shipped Ralph skill should be enough to do a lot already.",
+    "author_handle": "@mysticaltech",
+    "author_name": "The Canaanite",
+    "created_at": "Sat Jan 10 23:15:40 +0000 2026",
+    "created_at_iso": "2026-01-10T23:15:40+00:00",
+    "is_reply_to": "2010042788566720955",
+    "conversation_id": "2010042788566720955",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 6,
+      "bookmarks": 1,
+      "views": 2474
+    },
+    "media": []
+  },
+  {
+    "id": "2010129299802567043",
+    "text": "@mysticaltech There really is no need for complex set ups for 90% of people",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Sat Jan 10 23:19:06 +0000 2026",
+    "created_at_iso": "2026-01-10T23:19:06+00:00",
+    "is_reply_to": "2010128435780153655",
+    "conversation_id": "2010042788566720955",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 8,
+      "bookmarks": 0,
+      "views": 2120
+    },
+    "media": []
+  },
+  {
+    "id": "2010223814593114365",
+    "text": "@nummanali I totally agree. The current Plan mode is becoming more like the SDD approach, and Claude is properly referring to this plan document from the Nov. version.",
+    "author_handle": "@oikon48",
+    "author_name": "Oikon",
+    "created_at": "Sun Jan 11 05:34:40 +0000 2026",
+    "created_at_iso": "2026-01-11T05:34:40+00:00",
+    "is_reply_to": "2010042788566720955",
+    "conversation_id": "2010042788566720955",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 2,
+      "views": 1175
+    },
+    "media": []
+  },
+  {
+    "id": "2010239569845989619",
+    "text": "@oikon48 You don\u2019t feel any difference in the new compaction algorithm? It was released in 2.1.0 I believe \n\nI never used auto compact as it felt too lossy \nBut this recent update has showed a change",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Sun Jan 11 06:37:16 +0000 2026",
+    "created_at_iso": "2026-01-11T06:37:16+00:00",
+    "is_reply_to": "2010223814593114365",
+    "conversation_id": "2010042788566720955",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 546
+    },
+    "media": []
+  },
+  {
+    "id": "2010455670919967217",
+    "text": "@nummanali Always Plan First.",
+    "author_handle": "@jgarzik",
+    "author_name": "Jeff Garzik",
+    "created_at": "Sun Jan 11 20:55:59 +0000 2026",
+    "created_at_iso": "2026-01-11T20:55:59+00:00",
+    "is_reply_to": "2010042788566720955",
+    "conversation_id": "2010042788566720955",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 1,
+      "views": 507
+    },
+    "media": []
+  },
+  {
+    "id": "2010457045154357677",
+    "text": "@jgarzik never mess with a man with a plan https://t.co/SSvQYU2Stn",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Sun Jan 11 21:01:26 +0000 2026",
+    "created_at_iso": "2026-01-11T21:01:26+00:00",
+    "is_reply_to": "2010455670919967217",
+    "conversation_id": "2010042788566720955",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 373
+    },
+    "media": [
+      {
+        "type": "animated_gif",
+        "url": "https://pbs.twimg.com/tweet_video_thumb/G-aUBh_XsAAlX4s.jpg",
+        "video_url": "https://video.twimg.com/tweet_video/G-aUBh_XsAAlX4s.mp4"
+      }
+    ]
+  },
+  {
+    "id": "2010105825117995025",
+    "text": "@nummanali Now ask it what all it didn\u2019t complete from the plan.\n\nUnfortunately when it compacts it does lose bits, especially if it compacts in the middle of a task.\n\nThe plan is usually 85% complete",
+    "author_handle": "@elijahbowie",
+    "author_name": "Elijah Bowie",
+    "created_at": "Sat Jan 10 21:45:49 +0000 2026",
+    "created_at_iso": "2026-01-10T21:45:49+00:00",
+    "is_reply_to": "2010042788566720955",
+    "conversation_id": "2010042788566720955",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 6,
+      "bookmarks": 1,
+      "views": 1467
+    },
+    "media": []
+  },
+  {
+    "id": "2010112153055854794",
+    "text": "@elijahbowie I get passed that by telling it to out in checkpoint todo that trigger sub agent reviews \n\nLast run was 57mins and perfect outcome",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Sat Jan 10 22:10:58 +0000 2026",
+    "created_at_iso": "2026-01-10T22:10:58+00:00",
+    "is_reply_to": "2010105825117995025",
+    "conversation_id": "2010042788566720955",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 2,
+      "views": 1244
+    },
+    "media": []
+  },
+  {
+    "id": "2010182476736630823",
+    "text": "@nummanali Yes. I've run 153 sessions in the same window for over 36 hours with auto-compaction, and several times it picked up on the to-dos from before compaction and completed the rest of the implementation in a new session without breaking a sweat.",
+    "author_handle": "@wagsify",
+    "author_name": "Wags",
+    "created_at": "Sun Jan 11 02:50:24 +0000 2026",
+    "created_at_iso": "2026-01-11T02:50:24+00:00",
+    "is_reply_to": "2010042788566720955",
+    "conversation_id": "2010042788566720955",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 5,
+      "bookmarks": 0,
+      "views": 629
+    },
+    "media": []
+  },
+  {
+    "id": "2010218839624311039",
+    "text": "@dctmfoo Wow that\u2019s amazing!",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Sun Jan 11 05:14:54 +0000 2026",
+    "created_at_iso": "2026-01-11T05:14:54+00:00",
+    "is_reply_to": "2010182476736630823",
+    "conversation_id": "2010042788566720955",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 369
+    },
+    "media": []
+  },
+  {
+    "id": "2010185684192293112",
+    "text": "@nummanali @bcherny lol @bcherny gaslit me the other day when I reported this bug a week or two ago",
+    "author_handle": "@ThinkBotHQ",
+    "author_name": "ThinkBot \u23e9",
+    "created_at": "Sun Jan 11 03:03:09 +0000 2026",
+    "created_at_iso": "2026-01-11T03:03:09+00:00",
+    "is_reply_to": "2010042788566720955",
+    "conversation_id": "2010042788566720955",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 343
+    },
+    "media": []
+  },
+  {
+    "id": "2010219843535155303",
+    "text": "@ThinkBotHQ @bcherny What do you mean?",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Sun Jan 11 05:18:53 +0000 2026",
+    "created_at_iso": "2026-01-11T05:18:53+00:00",
+    "is_reply_to": "2010185684192293112",
+    "conversation_id": "2010042788566720955",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 270
+    },
+    "media": []
+  },
+  {
+    "id": "2010050482715406778",
+    "text": "@nummanali I see you\u2019re cooking up your own orchestration tool? \ud83d\udc40",
+    "author_handle": "@justBCheung",
+    "author_name": "Brian Cheung",
+    "created_at": "Sat Jan 10 18:05:54 +0000 2026",
+    "created_at_iso": "2026-01-10T18:05:54+00:00",
+    "is_reply_to": "2010042788566720955",
+    "conversation_id": "2010042788566720955",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 695
+    },
+    "media": []
+  },
+  {
+    "id": "2010051902005018941",
+    "text": "@justBCheung Yes I am, it\u2019s called Spark\nComing in a week or two, fully open source \n\nWhat you see above is actually a refactor on my RetailBook coding agent which has strict guidelines and opinionated towards an enterprise codebase",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Sat Jan 10 18:11:33 +0000 2026",
+    "created_at_iso": "2026-01-10T18:11:33+00:00",
+    "is_reply_to": "2010050482715406778",
+    "conversation_id": "2010042788566720955",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 1,
+      "views": 1025
+    },
+    "media": []
+  },
+  {
+    "id": "1999421324226363630",
+    "text": "Agent-Native Software Development Lifecycle Pipeline\n\nSuper nervous and super excited to start building this completely automated workflow for RetailBook\n\nLinear Ticket \n\u2193\nPlanning Agents\n\u2193\nBuild Agents\n\u2193\nReview Agents\n\u2193\nQA Agents \n\u2193\nHuman Review\n\nBe future ready folks https://t.co/dXMQpgYEmI",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Fri Dec 12 10:09:25 +0000 2025",
+    "created_at_iso": "2025-12-12T10:09:25+00:00",
+    "is_reply_to": null,
+    "conversation_id": "1999421324226363630",
+    "metrics": {
+      "replies": 9,
+      "retweets": 4,
+      "likes": 77,
+      "bookmarks": 97,
+      "views": 14142
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G79eiUZWIAAM4wj.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2010138158437151017",
+    "text": "@nummanali Can you be a bit more specific what you mean by plans and todos persisting across compaction? Plans have persisted across compaction for like two months now?",
+    "author_handle": "@ariccio",
+    "author_name": "Alexander Riccio (@co2trackers)",
+    "created_at": "Sat Jan 10 23:54:18 +0000 2026",
+    "created_at_iso": "2026-01-10T23:54:18+00:00",
+    "is_reply_to": "2010042788566720955",
+    "conversation_id": "2010042788566720955",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 266
+    },
+    "media": []
+  },
+  {
+    "id": "2010138826006528324",
+    "text": "Exactly that \n\nPlans and todo list persist post compaction \n\nWith the new compaction algorithm, Claude is able to continue with them with better adherence \n\nIt was marked in the changelog that they upgraded it \n\nAfter the compaction I notice both a reference and read files labels \n\nThese are much more appropriate compared to previous versions",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Sat Jan 10 23:56:57 +0000 2026",
+    "created_at_iso": "2026-01-10T23:56:57+00:00",
+    "is_reply_to": "2010138158437151017",
+    "conversation_id": "2010042788566720955",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 1,
+      "views": 241
+    },
+    "media": []
+  },
+  {
+    "id": "2010104309921525780",
+    "text": "@nummanali This is my new work flow. With some creative hooks that process convo data in real time and  sorting it in a Sturctured way.  Like s secretary taking notes live during the convo.",
+    "author_handle": "@AI_Integrated_S",
+    "author_name": "AIIS",
+    "created_at": "Sat Jan 10 21:39:48 +0000 2026",
+    "created_at_iso": "2026-01-10T21:39:48+00:00",
+    "is_reply_to": "2010042788566720955",
+    "conversation_id": "2010042788566720955",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 1092
+    },
+    "media": []
+  },
+  {
+    "id": "2010106553076961406",
+    "text": "@AI_Integrated_S https://t.co/3V0NzMii2n",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Sat Jan 10 21:48:42 +0000 2026",
+    "created_at_iso": "2026-01-10T21:48:42+00:00",
+    "is_reply_to": "2010104309921525780",
+    "conversation_id": "2010042788566720955",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 967
+    },
+    "media": [
+      {
+        "type": "animated_gif",
+        "url": "https://pbs.twimg.com/tweet_video_thumb/G-VVQMfXUAAbVrc.jpg",
+        "video_url": "https://video.twimg.com/tweet_video/G-VVQMfXUAAbVrc.mp4"
+      }
+    ]
+  },
+  {
+    "id": "2010172455730782452",
+    "text": "@nummanali @bcherny I noticed it got better. I always do a research, state, plan, https://t.co/Hs7JAkyHOf for a task and I keep things within those 4 files. It\u2019s better about that and pulling from the plan and todo",
+    "author_handle": "@HankYeomans",
+    "author_name": "Hank Yeomans",
+    "created_at": "Sun Jan 11 02:10:35 +0000 2026",
+    "created_at_iso": "2026-01-11T02:10:35+00:00",
+    "is_reply_to": "2010042788566720955",
+    "conversation_id": "2010042788566720955",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 484
+    },
+    "media": []
+  },
+  {
+    "id": "2010217794072363084",
+    "text": "@HankYeomans @bcherny Sweet",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Sun Jan 11 05:10:44 +0000 2026",
+    "created_at_iso": "2026-01-11T05:10:44+00:00",
+    "is_reply_to": "2010172455730782452",
+    "conversation_id": "2010042788566720955",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 390
+    },
+    "media": []
+  },
+  {
+    "id": "2010200693416845761",
+    "text": "@nummanali I know \"Todos\" are a claude code primitive, but when you say \"Plan\" is persisted, can you expand? Is a formal \"Plan\" a primitive? How is it persisted? Where?",
+    "author_handle": "@entrecurious",
+    "author_name": "Connor Turland",
+    "created_at": "Sun Jan 11 04:02:47 +0000 2026",
+    "created_at_iso": "2026-01-11T04:02:47+00:00",
+    "is_reply_to": "2010042788566720955",
+    "conversation_id": "2010042788566720955",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 201
+    },
+    "media": []
+  },
+  {
+    "id": "2010221491334549723",
+    "text": "@entrecurious Shift + Tab takes you in plan mode\n\nIt uses an adapted prompt to guide Claude in gathering all requirements from you\n\nIt saves it in the global ~/.Claude folder\n\nYou can ask it to paste it in the repo if you want to keep",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Sun Jan 11 05:25:26 +0000 2026",
+    "created_at_iso": "2026-01-11T05:25:26+00:00",
+    "is_reply_to": "2010200693416845761",
+    "conversation_id": "2010042788566720955",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 165
+    },
+    "media": []
+  },
+  {
+    "id": "2010112089780826231",
+    "text": "@nummanali Does this work in headless mode though\nI have had compaction issues in -p mode",
+    "author_handle": "@Markojak",
+    "author_name": "Marko",
+    "created_at": "Sat Jan 10 22:10:42 +0000 2026",
+    "created_at_iso": "2026-01-10T22:10:42+00:00",
+    "is_reply_to": "2010042788566720955",
+    "conversation_id": "2010042788566720955",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 785
+    },
+    "media": []
+  },
+  {
+    "id": "2010113016285757645",
+    "text": "@markojak I\u2019m not sure if todowrite is exposed headless \n\nWill need to check",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Sat Jan 10 22:14:23 +0000 2026",
+    "created_at_iso": "2026-01-10T22:14:23+00:00",
+    "is_reply_to": "2010112089780826231",
+    "conversation_id": "2010042788566720955",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 730
+    },
+    "media": []
+  },
+  {
+    "id": "2010349896088584335",
+    "text": "@nummanali Sounds like you cracked the code literally and figuratively-sometimes the best breakthroughs come from revisiting the basics.",
+    "author_handle": "@hulkworks",
+    "author_name": "hulk",
+    "created_at": "Sun Jan 11 13:55:40 +0000 2026",
+    "created_at_iso": "2026-01-11T13:55:40+00:00",
+    "is_reply_to": "2010042788566720955",
+    "conversation_id": "2010042788566720955",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 61
+    },
+    "media": []
+  },
+  {
+    "id": "2010353627358249432",
+    "text": "@hulkworks Simple solutions often beat complex solutions",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Sun Jan 11 14:10:29 +0000 2026",
+    "created_at_iso": "2026-01-11T14:10:29+00:00",
+    "is_reply_to": "2010349896088584335",
+    "conversation_id": "2010042788566720955",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 56
+    },
+    "media": []
+  }
+]

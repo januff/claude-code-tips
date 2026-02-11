@@ -23,6 +23,10 @@ url: "https://x.com/housecor/status/2007516621825552416"
 >
 > Likes: 424 · Replies: 39 · Reposts: 10
 
+## Summary
+
+This tip provides three methods for interacting with Claude within the Chrome browser. It suggests using Playwright for cross-browser testing, Chrome DevTools for performance analysis and network debugging, and the official Claude Chrome extension for quick checks while logged in. By choosing the right tool based on the task, users can optimize their workflow when working with Claude and Chrome.
+
 ## Replies
 
 > [!reply] @pk_iv · Mon Dec 29 17:35:07 +0000 2025

@@ -30,7 +30,7 @@ url: "https://x.com/mckaywrigley/status/2006377570485543329"
 
 ## Summary
 
-it's an sdk that allows you to build any kind of agent with all of the tools from claude code
+The Claude Agent SDK empowers developers to create sophisticated agents equipped with diverse skills and tools. To build web applications, the SDK should run within a secure, hosted sandbox environment, which acts as a virtual computer for the agent. While setting up the sandbox might seem complex initially, you can use Claude Code itself to understand the documentation and streamline the process, leveraging provider options like E2B (recommended in the tweet) or others documented by Anthropic.
 
 ## Replies
 

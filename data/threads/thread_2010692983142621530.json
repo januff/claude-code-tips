@@ -1,0 +1,649 @@
+[
+  {
+    "id": "2010692983142621530",
+    "text": "Decided to add a status line to Claude Code \n\nWanted it super minimal, a quick glance should give me what I need:\n- Current working directory\n- Current branch\n- Diff count\n- Selected model\n- Session time \n- Context left \n- Input / Output Tokens\n\nPaste gist to Claude \ud83d\udc47\n\n\u26e9\ufe0f https://t.co/xpH2zQ4EJ3",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Mon Jan 12 12:38:58 +0000 2026",
+    "created_at_iso": "2026-01-12T12:38:58+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2010692983142621530",
+    "metrics": {
+      "replies": 41,
+      "retweets": 14,
+      "likes": 309,
+      "bookmarks": 496,
+      "views": 31761
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-dpTjnWkAAxrl2.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2010692984870670532",
+    "text": "Gist for Claude to add to your set up\n\nhttps://t.co/d48IhAJYYX",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Mon Jan 12 12:38:59 +0000 2026",
+    "created_at_iso": "2026-01-12T12:38:59+00:00",
+    "is_reply_to": "2010692983142621530",
+    "conversation_id": "2010692983142621530",
+    "metrics": {
+      "replies": 2,
+      "retweets": 2,
+      "likes": 41,
+      "bookmarks": 78,
+      "views": 3746
+    },
+    "media": []
+  },
+  {
+    "id": "2010697019493396960",
+    "text": "@nummanali if you can get an session cookie from https://t.co/CrKzzlKs4k you can also see your 5h/7d limits.\n\ncheck this out \nhttps://t.co/LQupbJkLm2",
+    "author_handle": "@serrrfirat",
+    "author_name": "Firat Sertgoz",
+    "created_at": "Mon Jan 12 12:55:01 +0000 2026",
+    "created_at_iso": "2026-01-12T12:55:01+00:00",
+    "is_reply_to": "2010692983142621530",
+    "conversation_id": "2010692983142621530",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 16,
+      "bookmarks": 20,
+      "views": 2383
+    },
+    "media": []
+  },
+  {
+    "id": "2010697740376813756",
+    "text": "@serrrfirat Super cool! Will take a look and see if it fits nicely anywhere",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Mon Jan 12 12:57:52 +0000 2026",
+    "created_at_iso": "2026-01-12T12:57:52+00:00",
+    "is_reply_to": "2010697019493396960",
+    "conversation_id": "2010692983142621530",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 1881
+    },
+    "media": []
+  },
+  {
+    "id": "2010744319221645716",
+    "text": "@nummanali gotta show limits on it too. codex bar is too good for this, but even better right in the statusline",
+    "author_handle": "@0xRaduan",
+    "author_name": "Raduan Al-Shedivat",
+    "created_at": "Mon Jan 12 16:02:58 +0000 2026",
+    "created_at_iso": "2026-01-12T16:02:58+00:00",
+    "is_reply_to": "2010692983142621530",
+    "conversation_id": "2010692983142621530",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 614
+    },
+    "media": []
+  },
+  {
+    "id": "2010745971777651030",
+    "text": "@0xRaduan I rarely hit limits so avoided it atm \n\nEven tempted to take input / output away \n\nHas no utility",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Mon Jan 12 16:09:32 +0000 2026",
+    "created_at_iso": "2026-01-12T16:09:32+00:00",
+    "is_reply_to": "2010744319221645716",
+    "conversation_id": "2010692983142621530",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 522
+    },
+    "media": []
+  },
+  {
+    "id": "2010768233591157163",
+    "text": "@nummanali clean, I like my context as a progress bar that changes color so I know when to run my /handoff command\n\nalso random quotes get a laugh out of me sometimes https://t.co/UgZJDF0P32",
+    "author_handle": "@pedrxss",
+    "author_name": "Peter",
+    "created_at": "Mon Jan 12 17:37:59 +0000 2026",
+    "created_at_iso": "2026-01-12T17:37:59+00:00",
+    "is_reply_to": "2010692983142621530",
+    "conversation_id": "2010692983142621530",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 8,
+      "bookmarks": 1,
+      "views": 1042
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-euXY5WAAAFx0g.png",
+        "video_url": null
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-eu78tWIAE8Es1.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2010772993215996315",
+    "text": "@pedrxss That progress bar is super sick",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Mon Jan 12 17:56:54 +0000 2026",
+    "created_at_iso": "2026-01-12T17:56:54+00:00",
+    "is_reply_to": "2010768233591157163",
+    "conversation_id": "2010692983142621530",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 721
+    },
+    "media": []
+  },
+  {
+    "id": "2010788480394330399",
+    "text": "@nummanali Need this",
+    "author_handle": "@l_zoet",
+    "author_name": "Eryon",
+    "created_at": "Mon Jan 12 18:58:27 +0000 2026",
+    "created_at_iso": "2026-01-12T18:58:27+00:00",
+    "is_reply_to": "2010692983142621530",
+    "conversation_id": "2010692983142621530",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 300
+    },
+    "media": []
+  },
+  {
+    "id": "2010789681190089125",
+    "text": "@l_zoet https://t.co/5Kmy3ALUxM",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Mon Jan 12 19:03:13 +0000 2026",
+    "created_at_iso": "2026-01-12T19:03:13+00:00",
+    "is_reply_to": "2010788480394330399",
+    "conversation_id": "2010692983142621530",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 308
+    },
+    "media": []
+  },
+  {
+    "id": "2010721356938436951",
+    "text": "@nummanali I like to see the cost to convince myself to renew Max :) and the time to get a feel for when Opus is acting dumb so I can clear the context! https://t.co/R2ckNsa2o0",
+    "author_handle": "@wagsify",
+    "author_name": "Wags",
+    "created_at": "Mon Jan 12 14:31:43 +0000 2026",
+    "created_at_iso": "2026-01-12T14:31:43+00:00",
+    "is_reply_to": "2010692983142621530",
+    "conversation_id": "2010692983142621530",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 347
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-eD40lb0AAH0DS.png",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2010722970260631698",
+    "text": "@dctmfoo Very nice",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Mon Jan 12 14:38:08 +0000 2026",
+    "created_at_iso": "2026-01-12T14:38:08+00:00",
+    "is_reply_to": "2010721356938436951",
+    "conversation_id": "2010692983142621530",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 305
+    },
+    "media": []
+  },
+  {
+    "id": "2010938639774007649",
+    "text": "@nummanali That's a nice status line. Thanks.",
+    "author_handle": "@kevinelliott",
+    "author_name": "Kevin Elliott",
+    "created_at": "Tue Jan 13 04:55:07 +0000 2026",
+    "created_at_iso": "2026-01-13T04:55:07+00:00",
+    "is_reply_to": "2010692983142621530",
+    "conversation_id": "2010692983142621530",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 177
+    },
+    "media": []
+  },
+  {
+    "id": "2010964524006785251",
+    "text": "@kevinelliott No probs!",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Tue Jan 13 06:37:59 +0000 2026",
+    "created_at_iso": "2026-01-13T06:37:59+00:00",
+    "is_reply_to": "2010938639774007649",
+    "conversation_id": "2010692983142621530",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 158
+    },
+    "media": []
+  },
+  {
+    "id": "2010718460087804207",
+    "text": "@nummanali This is clean. Status lines like this reduce the \u201cwhere am I / what did it change\u201d anxiety, so you review faster and trust the loop more. Diff count + context left are the two I\u2019d never ship without.",
+    "author_handle": "@BrandGrowthOS",
+    "author_name": "Karim C",
+    "created_at": "Mon Jan 12 14:20:12 +0000 2026",
+    "created_at_iso": "2026-01-12T14:20:12+00:00",
+    "is_reply_to": "2010692983142621530",
+    "conversation_id": "2010692983142621530",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 817
+    },
+    "media": []
+  },
+  {
+    "id": "2010718575594811744",
+    "text": "@BrandGrowthOS Yeah nice and easy",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Mon Jan 12 14:20:40 +0000 2026",
+    "created_at_iso": "2026-01-12T14:20:40+00:00",
+    "is_reply_to": "2010718460087804207",
+    "conversation_id": "2010692983142621530",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 694
+    },
+    "media": []
+  },
+  {
+    "id": "2010818439175147621",
+    "text": "@nummanali that context left stat is super useful. usually just guessing until it starts forgetting stuff",
+    "author_handle": "@asimgilani",
+    "author_name": "Asim Gilani",
+    "created_at": "Mon Jan 12 20:57:29 +0000 2026",
+    "created_at_iso": "2026-01-12T20:57:29+00:00",
+    "is_reply_to": "2010692983142621530",
+    "conversation_id": "2010692983142621530",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 569
+    },
+    "media": []
+  },
+  {
+    "id": "2010819780865905122",
+    "text": "@asimgilani Super useful, makes life so much easier",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Mon Jan 12 21:02:49 +0000 2026",
+    "created_at_iso": "2026-01-12T21:02:49+00:00",
+    "is_reply_to": "2010818439175147621",
+    "conversation_id": "2010692983142621530",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 498
+    },
+    "media": []
+  },
+  {
+    "id": "2010867761128591481",
+    "text": "@nummanali wow! This is clear!",
+    "author_handle": "@yu_master_ai",
+    "author_name": "Yu - AI Engineer",
+    "created_at": "Tue Jan 13 00:13:29 +0000 2026",
+    "created_at_iso": "2026-01-13T00:13:29+00:00",
+    "is_reply_to": "2010692983142621530",
+    "conversation_id": "2010692983142621530",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 146
+    },
+    "media": []
+  },
+  {
+    "id": "2010868260510564852",
+    "text": "@yu_solopreneur Yeah I didn\u2019t like all the other busy set ups \n\nSimplicity is so much better for productivity",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Tue Jan 13 00:15:28 +0000 2026",
+    "created_at_iso": "2026-01-13T00:15:28+00:00",
+    "is_reply_to": "2010867761128591481",
+    "conversation_id": "2010692983142621530",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 138
+    },
+    "media": []
+  },
+  {
+    "id": "2010716678296838151",
+    "text": "Next up, add informative icons next to each topic:\ndir | branch | ... | brain | timer | dynamic gauge | ...\n\n + How about Claude usage left limits and in case breached a rest timer (hourglass icon)?\n + Claude Code session ID?\n + To do -tracker / concurrent agents count or progress?",
+    "author_handle": "@ileppane",
+    "author_name": "Ilpo Lepp\u00e4nen",
+    "created_at": "Mon Jan 12 14:13:08 +0000 2026",
+    "created_at_iso": "2026-01-12T14:13:08+00:00",
+    "is_reply_to": "2010692983142621530",
+    "conversation_id": "2010692983142621530",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 534
+    },
+    "media": []
+  },
+  {
+    "id": "2010718052044906739",
+    "text": "@ileppane Lmao \n\nI considered it\n\nBut feel it\u2019ll be too much \n\nHave you done it?",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Mon Jan 12 14:18:35 +0000 2026",
+    "created_at_iso": "2026-01-12T14:18:35+00:00",
+    "is_reply_to": "2010716678296838151",
+    "conversation_id": "2010692983142621530",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 416
+    },
+    "media": []
+  },
+  {
+    "id": "2010767433015894226",
+    "text": "@nummanali this is neat !",
+    "author_handle": "@CodeAkram",
+    "author_name": "Shaikh Akram Ahmed",
+    "created_at": "Mon Jan 12 17:34:48 +0000 2026",
+    "created_at_iso": "2026-01-12T17:34:48+00:00",
+    "is_reply_to": "2010692983142621530",
+    "conversation_id": "2010692983142621530",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 389
+    },
+    "media": []
+  },
+  {
+    "id": "2010767882599199120",
+    "text": "@CodeAkram Thank you!",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Mon Jan 12 17:36:36 +0000 2026",
+    "created_at_iso": "2026-01-12T17:36:36+00:00",
+    "is_reply_to": "2010767433015894226",
+    "conversation_id": "2010692983142621530",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 361
+    },
+    "media": []
+  },
+  {
+    "id": "2010818831665562072",
+    "text": "@nummanali just do bunx ccstatusline that's it",
+    "author_handle": "@timurkhakhalev",
+    "author_name": "Timur Khakhalev",
+    "created_at": "Mon Jan 12 20:59:03 +0000 2026",
+    "created_at_iso": "2026-01-12T20:59:03+00:00",
+    "is_reply_to": "2010692983142621530",
+    "conversation_id": "2010692983142621530",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 1,
+      "views": 482
+    },
+    "media": []
+  },
+  {
+    "id": "2010819821013708982",
+    "text": "@timurkhakhalev It's overkill",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Mon Jan 12 21:02:59 +0000 2026",
+    "created_at_iso": "2026-01-12T21:02:59+00:00",
+    "is_reply_to": "2010818831665562072",
+    "conversation_id": "2010692983142621530",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 435
+    },
+    "media": []
+  },
+  {
+    "id": "2010836523105608040",
+    "text": "@nummanali This is awesome! Thank you",
+    "author_handle": "@wells_harrison",
+    "author_name": "Harrison Wells",
+    "created_at": "Mon Jan 12 22:09:21 +0000 2026",
+    "created_at_iso": "2026-01-12T22:09:21+00:00",
+    "is_reply_to": "2010692983142621530",
+    "conversation_id": "2010692983142621530",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 143
+    },
+    "media": []
+  },
+  {
+    "id": "2010836783517364705",
+    "text": "@wells_harrison No problemo! You can easily ask claude to tweak it to your liking \n\nLiterally just ask it \"What else can i do with the status line, how can i tweak it to my liking?\"",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Mon Jan 12 22:10:23 +0000 2026",
+    "created_at_iso": "2026-01-12T22:10:23+00:00",
+    "is_reply_to": "2010836523105608040",
+    "conversation_id": "2010692983142621530",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 148
+    },
+    "media": []
+  },
+  {
+    "id": "2010914449214091524",
+    "text": "@nummanali Thanks for sharing, here's what I got: https://t.co/c2otox32mp",
+    "author_handle": "@lakshgandikota",
+    "author_name": "laksh",
+    "created_at": "Tue Jan 13 03:19:00 +0000 2026",
+    "created_at_iso": "2026-01-13T03:19:00+00:00",
+    "is_reply_to": "2010692983142621530",
+    "conversation_id": "2010692983142621530",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 119
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-g0AY7bQAo-aYC.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2010964310957117454",
+    "text": "@lakshgandikota Love the bar style \ud83d\ude4c",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Tue Jan 13 06:37:08 +0000 2026",
+    "created_at_iso": "2026-01-13T06:37:08+00:00",
+    "is_reply_to": "2010914449214091524",
+    "conversation_id": "2010692983142621530",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 108
+    },
+    "media": []
+  },
+  {
+    "id": "2010927721531208012",
+    "text": "@nummanali This is great. How do I add this script in my setup",
+    "author_handle": "@SaturnKit",
+    "author_name": "Manoj \ud83e\ude90",
+    "created_at": "Tue Jan 13 04:11:44 +0000 2026",
+    "created_at_iso": "2026-01-13T04:11:44+00:00",
+    "is_reply_to": "2010692983142621530",
+    "conversation_id": "2010692983142621530",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 42
+    },
+    "media": []
+  },
+  {
+    "id": "2010964467815727165",
+    "text": "@SaturnKit Just paste this to claude and ask it to do it\n\nhttps://t.co/6bONFGSvFm",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Tue Jan 13 06:37:45 +0000 2026",
+    "created_at_iso": "2026-01-13T06:37:45+00:00",
+    "is_reply_to": "2010927721531208012",
+    "conversation_id": "2010692983142621530",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 40
+    },
+    "media": []
+  },
+  {
+    "id": "2010740958808412193",
+    "text": "@nummanali my fave status line so far",
+    "author_handle": "@aidailyprimer",
+    "author_name": "AI Dev Stack Pigeon",
+    "created_at": "Mon Jan 12 15:49:36 +0000 2026",
+    "created_at_iso": "2026-01-12T15:49:36+00:00",
+    "is_reply_to": "2010692983142621530",
+    "conversation_id": "2010692983142621530",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 448
+    },
+    "media": []
+  },
+  {
+    "id": "2010741995950813512",
+    "text": "@aidailyprimer https://t.co/K1Zh5J9sxm",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Mon Jan 12 15:53:44 +0000 2026",
+    "created_at_iso": "2026-01-12T15:53:44+00:00",
+    "is_reply_to": "2010740958808412193",
+    "conversation_id": "2010692983142621530",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 429
+    },
+    "media": [
+      {
+        "type": "animated_gif",
+        "url": "https://pbs.twimg.com/tweet_video_thumb/G-eXL3NWUAAG9CH.jpg",
+        "video_url": "https://video.twimg.com/tweet_video/G-eXL3NWUAAG9CH.mp4"
+      }
+    ]
+  }
+]

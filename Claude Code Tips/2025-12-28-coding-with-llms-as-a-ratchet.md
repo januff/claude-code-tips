@@ -22,7 +22,7 @@ url: "https://x.com/aarondfrancis/status/2005396092532498796"
 
 ## Summary
 
-all kinds of stuff
+The Claude code tip highlights an iterative approach to coding with LLMs, treating each error or quality issue as an opportunity to refine the system. The accompanying visual demonstrates using commands within a software tool, likely a CLI, to manage issues, Git & PRs, code quality, and project initialization. This 'ratchet' method emphasizes continuous improvement by learning and applying available commands to address shortcomings in the LLM-assisted coding workflow.
 
 ## Media
 

@@ -18,7 +18,7 @@ url: "https://x.com/hdjirdeh/status/2004780462674510147"
 
 ## Summary
 
-Whenever I start working on a new codebase: "Explain this codebase to me at a high-level
+This tip highlights using Claude to quickly understand a new codebase. By prompting Claude to explain the architecture and structure at a high-level, you can rapidly gain an overview of an unfamiliar project. This allows for faster onboarding and more efficient development by understanding the system's overall design.
 
 
 > [!metrics]- Engagement & Metadata

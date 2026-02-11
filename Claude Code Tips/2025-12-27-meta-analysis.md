@@ -20,7 +20,7 @@ url: "https://x.com/colemaktypo/status/2004823310920745007"
 
 ## Summary
 
-if I hear someone clamoring about a food item or supplement I ask claude about the food/supplement and the claimed effect
+This tip details a method for quickly vetting health claims related to foods or supplements. It involves using Claude to summarize information about a claimed effect after providing both general web search results and PubMed research data. This allows for a rapid, AI-powered meta-analysis of the available evidence before making decisions based on anecdotal information.
 
 
 > [!metrics]- Engagement & Metadata

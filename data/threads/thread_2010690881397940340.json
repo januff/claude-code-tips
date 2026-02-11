@@ -1,0 +1,671 @@
+[
+  {
+    "id": "2010690881397940340",
+    "text": "\u63a8\u8350\u4e00\u4e9b\u6211\u76ee\u524d\u5b89\u88c5\u7684Claude Skills:\n\n1. Anthropic\u5b98\u65b9Skills\nhttps://t.co/Xfgu1Thw69\n\n2. Superpowers\n1.6\u4e07Star\u7684Skill\u7cbe\u9009\uff0c\u4ece\u8111\u66b4\u3001\u5199\u9700\u6c42\u6587\u6863\u3001\u5f00\u53d1\u3001\u6d4b\u8bd5\u5168\u5305\u542b\uff0c\u53e3\u7891\u76f8\u5f53\u597d\u3002\nhttps://t.co/D2ToCBGnbN\n\n3. Planning-with-files\n\u53c2\u8003Manus\u7684Agent\u65b9\u6cd5\u5199\u7684Skill\u3002\u5f88\u9002\u5408\u591a\u6b65\u9aa4\u4efb\u52a1\uff0c\u7528\u8fd9\u4e2aSkill\u6307\u5bfc\u5176\u4ed6Skill\u5de5\u4f5c\u4e5f\u633a\u597d\u3002\nhttps://t.co/EKBZQmr03F\n\n4. X-article-publisher-skill\n\u738b\u6811\u4e49\u8001\u5e08\u5199\u7684X\u6587\u7ae0\u53d1\u5e03Skill\uff0c \u8fd9\u4e2a\u503c\u5f97\u7814\u7a76\u4e0b\uff0c\u540e\u7eed\u770b\u770b\u80fd\u4e0d\u80fd\u5b9e\u73b0\u5176\u4ed6\u5e73\u53f0\u7684\u81ea\u52a8\u5316\nhttps://t.co/rjDPGC4gtg\n\n5. NotebookLM skill\n\u81ea\u52a8\u4e0a\u4f20PDF\u3001Youtube\u94fe\u63a5\u5230NotebookLM\uff0c\u5f88\u9002\u5408NotebookLM\u5185\u5bb9\u7684\u81ea\u52a8\u5316\u5904\u7406\nhttps://t.co/CX0vPril27\n\n\u8fd8\u6709\u4e00\u4e9b\u662f\u81ea\u5df1\u5e73\u65f6\u603b\u7ed3\u7684\u5185\u5bb9\u521b\u4f5cskills\uff0c\u540e\u7eed\u7ee7\u7eed\u5206\u4eab\u5177\u4f53\u4f7f\u7528\u573a\u666f\u6848\u4f8b\uff01",
+    "author_handle": "@yanhua1010",
+    "author_name": "Yanhua",
+    "created_at": "Mon Jan 12 12:30:37 +0000 2026",
+    "created_at_iso": "2026-01-12T12:30:37+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2010690881397940340",
+    "metrics": {
+      "replies": 66,
+      "retweets": 467,
+      "likes": 2333,
+      "bookmarks": 3842,
+      "views": 545980
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-doUt8akAAZMC-.png",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2010540934359097689",
+    "text": "https://t.co/2UQflk0RQZ",
+    "author_handle": "@vista8",
+    "author_name": "\u5411\u9633\u4e54\u6728",
+    "created_at": "Mon Jan 12 02:34:47 +0000 2026",
+    "created_at_iso": "2026-01-12T02:34:47+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2010540934359097689",
+    "metrics": {
+      "replies": 80,
+      "retweets": 288,
+      "likes": 1149,
+      "bookmarks": 2090,
+      "views": 433034
+    },
+    "media": []
+  },
+  {
+    "id": "2010700081801175347",
+    "text": "\u5b89\u88c5\u7684\u8bdd\uff0c\u5982\u679c\u4f60\u60f3\u7701\u4e8b\uff0c\u76f4\u63a5\u5728cc\u91cc\u9762\u8f93\u5165\uff1a\n\u201c\u5b89\u88c5\u4e0b\u9762\u7684skills\uff1aGitHub\u94fe\u63a5\u201d\uff0c cc\u4f1a\u81ea\u5df1\u8bfb\u53d6\u94fe\u63a5\u5185\u5bb9\u5e76\u5b89\u88c5",
+    "author_handle": "@yanhua1010",
+    "author_name": "Yanhua",
+    "created_at": "Mon Jan 12 13:07:11 +0000 2026",
+    "created_at_iso": "2026-01-12T13:07:11+00:00",
+    "is_reply_to": "2010690881397940340",
+    "conversation_id": "2010690881397940340",
+    "metrics": {
+      "replies": 2,
+      "retweets": 2,
+      "likes": 16,
+      "bookmarks": 12,
+      "views": 10150
+    },
+    "media": []
+  },
+  {
+    "id": "2010968052243054845",
+    "text": "@yanhua1010 \u597d\u4e1c\u897f\uff0c\u90fd\u5b89\u88c5\u4e86",
+    "author_handle": "@wang_xiaolou",
+    "author_name": "\u65e5\u62f1\u4e00\u5352\u738b\u5c0f\u697c",
+    "created_at": "Tue Jan 13 06:52:00 +0000 2026",
+    "created_at_iso": "2026-01-13T06:52:00+00:00",
+    "is_reply_to": "2010690881397940340",
+    "conversation_id": "2010690881397940340",
+    "metrics": {
+      "replies": 1,
+      "retweets": 1,
+      "likes": 4,
+      "bookmarks": 0,
+      "views": 2743
+    },
+    "media": []
+  },
+  {
+    "id": "2010982426114195912",
+    "text": "@wang_xiaolou \ud83d\udc4d\ud83c\udffb",
+    "author_handle": "@yanhua1010",
+    "author_name": "Yanhua",
+    "created_at": "Tue Jan 13 07:49:07 +0000 2026",
+    "created_at_iso": "2026-01-13T07:49:07+00:00",
+    "is_reply_to": "2010968052243054845",
+    "conversation_id": "2010690881397940340",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 2408
+    },
+    "media": []
+  },
+  {
+    "id": "2011148618259185778",
+    "text": "@yanhua1010 Love this thank you mate",
+    "author_handle": "@EmmaCFA1",
+    "author_name": "Emma Muhleman CFA CPA",
+    "created_at": "Tue Jan 13 18:49:30 +0000 2026",
+    "created_at_iso": "2026-01-13T18:49:30+00:00",
+    "is_reply_to": "2010690881397940340",
+    "conversation_id": "2010690881397940340",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 2057
+    },
+    "media": []
+  },
+  {
+    "id": "2011215917036998905",
+    "text": "@EmmaCFA1 you\u2019re welcome",
+    "author_handle": "@yanhua1010",
+    "author_name": "Yanhua",
+    "created_at": "Tue Jan 13 23:16:55 +0000 2026",
+    "created_at_iso": "2026-01-13T23:16:55+00:00",
+    "is_reply_to": "2011148618259185778",
+    "conversation_id": "2010690881397940340",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 1798
+    },
+    "media": []
+  },
+  {
+    "id": "2010739343804322101",
+    "text": "@yanhua1010 That\u2019s is X article publisher is perfect \n\nThank you \ud83d\ude4f",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Mon Jan 12 15:43:11 +0000 2026",
+    "created_at_iso": "2026-01-12T15:43:11+00:00",
+    "is_reply_to": "2010690881397940340",
+    "conversation_id": "2010690881397940340",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 5145
+    },
+    "media": []
+  },
+  {
+    "id": "2010741382592491893",
+    "text": "@nummanali appreciate it",
+    "author_handle": "@yanhua1010",
+    "author_name": "Yanhua",
+    "created_at": "Mon Jan 12 15:51:18 +0000 2026",
+    "created_at_iso": "2026-01-12T15:51:18+00:00",
+    "is_reply_to": "2010739343804322101",
+    "conversation_id": "2010690881397940340",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 4361
+    },
+    "media": []
+  },
+  {
+    "id": "2011089982644158617",
+    "text": "@yanhua1010 Claude Code in a game changer \nhttps://t.co/pfrrJ2WWaB",
+    "author_handle": "@Thomaspeters",
+    "author_name": "Thomas Peters",
+    "created_at": "Tue Jan 13 14:56:30 +0000 2026",
+    "created_at_iso": "2026-01-13T14:56:30+00:00",
+    "is_reply_to": "2010690881397940340",
+    "conversation_id": "2010690881397940340",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 3526
+    },
+    "media": []
+  },
+  {
+    "id": "2010820688899461153",
+    "text": "Recently I used Claude Code to build my own stock screener. I\u2019m not a great programmer; average. My expertise is value investing and momentum trading. \n\nAI\u2019s vibe coding potential to transform ideas into products intrigued me. It\u2019s worth discussing the pros, cons, and implications.\n\nMy project was a custom stock screener. I used Claude for Python code and API integrations for real-time market data. It was efficient. I\u2019d describe features like filters for P/E ratios, dividend yields, and sector scans, and it delivered workable code quickly. This slashed barriers via time. What might take weeks with a dev happened in a few days.\n\nIt\u2019s pretty revolutionary, enabling quick custom tools without big investments. Like spreadsheets did for finance in the \u201980s, it empowers anyone to analyze markets.",
+    "author_handle": "@Thomaspeters",
+    "author_name": "Thomas Peters",
+    "created_at": "Mon Jan 12 21:06:26 +0000 2026",
+    "created_at_iso": "2026-01-12T21:06:26+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2010820688899461153",
+    "metrics": {
+      "replies": 4,
+      "retweets": 1,
+      "likes": 15,
+      "bookmarks": 18,
+      "views": 35096
+    },
+    "media": []
+  },
+  {
+    "id": "2011095133736091753",
+    "text": "@Thomaspeters definitely",
+    "author_handle": "@yanhua1010",
+    "author_name": "Yanhua",
+    "created_at": "Tue Jan 13 15:16:58 +0000 2026",
+    "created_at_iso": "2026-01-13T15:16:58+00:00",
+    "is_reply_to": "2011089982644158617",
+    "conversation_id": "2010690881397940340",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 2025
+    },
+    "media": []
+  },
+  {
+    "id": "2010982176675021264",
+    "text": "@yanhua1010 \u63a8\u8350\u4e00\u4e2askill\u547d\u4ee4\u884c\u5de5\u5177\ud83d\udee0\ufe0f https://t.co/PEifqjcHit",
+    "author_handle": "@DavidyangCool",
+    "author_name": "\u6444\u5f71\u9ed1\u5ba2",
+    "created_at": "Tue Jan 13 07:48:07 +0000 2026",
+    "created_at_iso": "2026-01-13T07:48:07+00:00",
+    "is_reply_to": "2010690881397940340",
+    "conversation_id": "2010690881397940340",
+    "metrics": {
+      "replies": 1,
+      "retweets": 1,
+      "likes": 5,
+      "bookmarks": 7,
+      "views": 1370
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-hxoTOaQAEo0dh.jpg",
+        "video_url": null
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-hxniqasAAeDBu.jpg",
+        "video_url": null
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-hxnqtboAEImu2.jpg",
+        "video_url": null
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-hxnmMawAE-AFe.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2010982323198804222",
+    "text": "@DavidyangCool \u725b\u903c",
+    "author_handle": "@yanhua1010",
+    "author_name": "Yanhua",
+    "created_at": "Tue Jan 13 07:48:42 +0000 2026",
+    "created_at_iso": "2026-01-13T07:48:42+00:00",
+    "is_reply_to": "2010982176675021264",
+    "conversation_id": "2010690881397940340",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 1141
+    },
+    "media": []
+  },
+  {
+    "id": "2011052595243057576",
+    "text": "@yanhua1010 \u738b\u6811\u4e49\u8001\u5e08\u7684X\u6587\u7ae0\u53d1\u5e03Skill\uff0c\u6211\u8fd9\u8fb9\u505a\u4e86\u4e2aWindows\u5e73\u53f0\u652f\u6301\uff0c\u63d0\u4ea4\u4e86PR\u8fd8\u6ca1\u901a\u8fc7\uff0c\u81ea\u5df1\u5148fork\u4e86\u4e00\u7248\uff0c\u5927\u5bb6\u53ef\u4ee5\u7528\u7528\u770b\u3002\n\nhttps://t.co/i2hl6slyqr",
+    "author_handle": "@kyonxu",
+    "author_name": "Kyon Xu",
+    "created_at": "Tue Jan 13 12:27:56 +0000 2026",
+    "created_at_iso": "2026-01-13T12:27:56+00:00",
+    "is_reply_to": "2010690881397940340",
+    "conversation_id": "2010690881397940340",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 3,
+      "views": 1130
+    },
+    "media": []
+  },
+  {
+    "id": "2011053643135639687",
+    "text": "@kyonxu \u6709\u4e9b\u683c\u5f0f\u8f6c\u6362\u3001\u56fe\u7247\u63d2\u5165\u8fd8\u6709\u4f18\u5316\u7a7a\u95f4",
+    "author_handle": "@yanhua1010",
+    "author_name": "Yanhua",
+    "created_at": "Tue Jan 13 12:32:06 +0000 2026",
+    "created_at_iso": "2026-01-13T12:32:06+00:00",
+    "is_reply_to": "2011052595243057576",
+    "conversation_id": "2010690881397940340",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 938
+    },
+    "media": []
+  },
+  {
+    "id": "2010738320561832261",
+    "text": "@yanhua1010 Skill Everything\uff01",
+    "author_handle": "@ohmuyi",
+    "author_name": "\u6c34\u6728\u6613",
+    "created_at": "Mon Jan 12 15:39:07 +0000 2026",
+    "created_at_iso": "2026-01-12T15:39:07+00:00",
+    "is_reply_to": "2010690881397940340",
+    "conversation_id": "2010690881397940340",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 1847
+    },
+    "media": []
+  },
+  {
+    "id": "2010738543140995414",
+    "text": "@ohmuyi everything of skills",
+    "author_handle": "@yanhua1010",
+    "author_name": "Yanhua",
+    "created_at": "Mon Jan 12 15:40:01 +0000 2026",
+    "created_at_iso": "2026-01-12T15:40:01+00:00",
+    "is_reply_to": "2010738320561832261",
+    "conversation_id": "2010690881397940340",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 1639
+    },
+    "media": []
+  },
+  {
+    "id": "2010753292306153486",
+    "text": "@yanhua1010 \u5b98\u65b9\u7684\u5c31\u5f88\u7cbe\u83ef\u4e86\uff01\u80fd\u5b78\u5230\u5f88\u591a\u6771\u897f\uff0c\u5404\u53d6\u6240\u9700\uff0c\u7136\u5f8c\u878d\u5408\u6210\u81ea\u5df1\u7684\u5c08\u5c6cskill",
+    "author_handle": "@way666",
+    "author_name": "Way",
+    "created_at": "Mon Jan 12 16:38:37 +0000 2026",
+    "created_at_iso": "2026-01-12T16:38:37+00:00",
+    "is_reply_to": "2010690881397940340",
+    "conversation_id": "2010690881397940340",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 1,
+      "views": 1732
+    },
+    "media": []
+  },
+  {
+    "id": "2010854807557587355",
+    "text": "@way666 \u55ef\u55ef \u5b98\u65b9\u5143skills\u53ef\u4ee5\u7528\u6765\u521b\u5efaskill",
+    "author_handle": "@yanhua1010",
+    "author_name": "Yanhua",
+    "created_at": "Mon Jan 12 23:22:00 +0000 2026",
+    "created_at_iso": "2026-01-12T23:22:00+00:00",
+    "is_reply_to": "2010753292306153486",
+    "conversation_id": "2010690881397940340",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 1487
+    },
+    "media": []
+  },
+  {
+    "id": "2011239799047536842",
+    "text": "@yanhua1010 Superpowers\u975e\u5e38\u68d2\uff0c\u73b0\u5728\u662f\u6211\u4eec\u56e2\u961f\u5de5\u4f5c\u6d41\u7684\u4e00\u90e8\u5206\u3002 \u6211\u628a\u5b83\u8f6c\u6362\u6210\u4e86Cursor Rules\u4e00\u6837\u597d\u4f7f\u3002",
+    "author_handle": "@Michaelzsguo",
+    "author_name": "Michael Guo",
+    "created_at": "Wed Jan 14 00:51:49 +0000 2026",
+    "created_at_iso": "2026-01-14T00:51:49+00:00",
+    "is_reply_to": "2010690881397940340",
+    "conversation_id": "2010690881397940340",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 1,
+      "views": 440
+    },
+    "media": []
+  },
+  {
+    "id": "2011242092484575710",
+    "text": "@Michaelzsguo \u8d5e\ud83d\udc4d",
+    "author_handle": "@yanhua1010",
+    "author_name": "Yanhua",
+    "created_at": "Wed Jan 14 01:00:56 +0000 2026",
+    "created_at_iso": "2026-01-14T01:00:56+00:00",
+    "is_reply_to": "2011239799047536842",
+    "conversation_id": "2010690881397940340",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 413
+    },
+    "media": []
+  },
+  {
+    "id": "2010930361325277444",
+    "text": "@yanhua1010 NotebookLM skill\u7684\u8bf4\u660e\u662f\u5426\u6709\u8bef\uff1f\u6211\u95ee\u4e86Claude code\uff0c\u5b83\u7684\u56de\u590d\uff1a https://t.co/OgBdZiiugT",
+    "author_handle": "@xinruigz",
+    "author_name": "newmanxc",
+    "created_at": "Tue Jan 13 04:22:14 +0000 2026",
+    "created_at_iso": "2026-01-13T04:22:14+00:00",
+    "is_reply_to": "2010690881397940340",
+    "conversation_id": "2010690881397940340",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 1106
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-hCf5TWcAA2gCx.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2010932572596117965",
+    "text": "@xinruigz \u6211\u4eca\u5929\u6838\u5b9e\u4e0b \u6570\u636e\u6e90\u5e94\u8be5\u662f\u9700\u8981\u624b\u52a8\u4e0a\u4f20\u3002\u5b83\u53ea\u662f\u5c06Claude\u548cNotebook LM\u4e4b\u95f4\u6253\u901a\u4e86 https://t.co/J3mxWtldCz",
+    "author_handle": "@yanhua1010",
+    "author_name": "Yanhua",
+    "created_at": "Tue Jan 13 04:31:01 +0000 2026",
+    "created_at_iso": "2026-01-13T04:31:01+00:00",
+    "is_reply_to": "2010930361325277444",
+    "conversation_id": "2010690881397940340",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 1,
+      "views": 898
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-hEgllWQAAtS60.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2010992720622370932",
+    "text": "@yanhua1010 \u597d\u4e1c\u897f\uff0c\u9a6c\u4e0a\u90fd\u88c5\u4e86\ud83d\ude0d",
+    "author_handle": "@gkxspace",
+    "author_name": "\u4f59\u6e29",
+    "created_at": "Tue Jan 13 08:30:01 +0000 2026",
+    "created_at_iso": "2026-01-13T08:30:01+00:00",
+    "is_reply_to": "2010690881397940340",
+    "conversation_id": "2010690881397940340",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 821
+    },
+    "media": []
+  },
+  {
+    "id": "2010997798402199941",
+    "text": "@gkxspace \u54c8\u54c8 \u69a8\u5e72cc",
+    "author_handle": "@yanhua1010",
+    "author_name": "Yanhua",
+    "created_at": "Tue Jan 13 08:50:12 +0000 2026",
+    "created_at_iso": "2026-01-13T08:50:12+00:00",
+    "is_reply_to": "2010992720622370932",
+    "conversation_id": "2010690881397940340",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 705
+    },
+    "media": []
+  },
+  {
+    "id": "2011045634506448915",
+    "text": "@yanhua1010 \u6211\u8fd9\u4e2a\u7f16\u7a0b\u5c0f\u767d\uff0c\u5df2\u7ecfFOMO\u4e86\n\u5916\u9762AI\u4ea7\u54c1\u7ecf\u7406\u6c42\u804c\u5f97\u5377\u6210\u5565\u6837\u4e86",
+    "author_handle": "@Astronaut_1216",
+    "author_name": "Zephyr.\u5728\u601d\u8003\u4e28\u963f\u676d\u676d\u676d",
+    "created_at": "Tue Jan 13 12:00:17 +0000 2026",
+    "created_at_iso": "2026-01-13T12:00:17+00:00",
+    "is_reply_to": "2010690881397940340",
+    "conversation_id": "2010690881397940340",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 754
+    },
+    "media": []
+  },
+  {
+    "id": "2011047518600380736",
+    "text": "@Astronaut_1216 \u54c8\u54c8 \u73b0\u5728\u4ea7\u54c1\u7ecf\u7406\u662f\u4e0d\u662f\u90fd\u5f97\u4f1a\u70b9\u7f16\u7a0b",
+    "author_handle": "@yanhua1010",
+    "author_name": "Yanhua",
+    "created_at": "Tue Jan 13 12:07:46 +0000 2026",
+    "created_at_iso": "2026-01-13T12:07:46+00:00",
+    "is_reply_to": "2011045634506448915",
+    "conversation_id": "2010690881397940340",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 678
+    },
+    "media": []
+  },
+  {
+    "id": "2010953739855904975",
+    "text": "@yanhua1010 \u8bf7\u95ee\u5c0f\u767d\u65b0\u624b\u5bb9\u6613\u5b66\u5417",
+    "author_handle": "@vzZEvrtEQpBRvZH",
+    "author_name": "lele",
+    "created_at": "Tue Jan 13 05:55:07 +0000 2026",
+    "created_at_iso": "2026-01-13T05:55:07+00:00",
+    "is_reply_to": "2010690881397940340",
+    "conversation_id": "2010690881397940340",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 832
+    },
+    "media": []
+  },
+  {
+    "id": "2010982663377879121",
+    "text": "@vzZEvrtEQpBRvZH \u81ea\u7136\u8bed\u8a00\u5bf9\u8bdd\u8c03\u7528skills",
+    "author_handle": "@yanhua1010",
+    "author_name": "Yanhua",
+    "created_at": "Tue Jan 13 07:50:03 +0000 2026",
+    "created_at_iso": "2026-01-13T07:50:03+00:00",
+    "is_reply_to": "2010953739855904975",
+    "conversation_id": "2010690881397940340",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 779
+    },
+    "media": []
+  },
+  {
+    "id": "2010907280011841926",
+    "text": "@yanhua1010 thank you,use cc auto load skill is amazing!",
+    "author_handle": "@JLink63127",
+    "author_name": "Ethan",
+    "created_at": "Tue Jan 13 02:50:31 +0000 2026",
+    "created_at_iso": "2026-01-13T02:50:31+00:00",
+    "is_reply_to": "2010690881397940340",
+    "conversation_id": "2010690881397940340",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 1153
+    },
+    "media": []
+  },
+  {
+    "id": "2010920761322770643",
+    "text": "@JLink63127 you\u2019re welcome",
+    "author_handle": "@yanhua1010",
+    "author_name": "Yanhua",
+    "created_at": "Tue Jan 13 03:44:05 +0000 2026",
+    "created_at_iso": "2026-01-13T03:44:05+00:00",
+    "is_reply_to": "2010907280011841926",
+    "conversation_id": "2010690881397940340",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 1079
+    },
+    "media": []
+  },
+  {
+    "id": "2011102788684743032",
+    "text": "@yanhua1010 Superpowers \u548cPlanning-with-files \u8fd9\u4fe9skils\u662f\u4e92\u65a5\u7684\u628a\uff0c\u80fd\u540c\u65f6\u642d\u914d\u4f7f\u7528\u4e48\uff1f",
+    "author_handle": "@WuZuo36693",
+    "author_name": "nobody",
+    "created_at": "Tue Jan 13 15:47:23 +0000 2026",
+    "created_at_iso": "2026-01-13T15:47:23+00:00",
+    "is_reply_to": "2010690881397940340",
+    "conversation_id": "2010690881397940340",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 703
+    },
+    "media": []
+  },
+  {
+    "id": "2011103477506925041",
+    "text": "@WuZuo36693 \u6309\u9700\u4f7f\u7528",
+    "author_handle": "@yanhua1010",
+    "author_name": "Yanhua",
+    "created_at": "Tue Jan 13 15:50:08 +0000 2026",
+    "created_at_iso": "2026-01-13T15:50:08+00:00",
+    "is_reply_to": "2011102788684743032",
+    "conversation_id": "2010690881397940340",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 650
+    },
+    "media": []
+  },
+  {
+    "id": "2019041248498065825",
+    "text": "excess daily upkeep + admin time to use \u201cproductivity platforms\u201d is why most founders/executives we\u2019ve talked to just use note-taking apps or pen + paper \ud83e\udd26\n\nvaiz isn\u2019t another \u201cworkspace you have to manage\u201d\n\ndocs and tasks live in one place, without the overhead\n\ntry it for free",
+    "author_handle": "@VaizApp",
+    "author_name": "Vaiz App",
+    "created_at": "Wed Feb 04 13:32:00 +0000 2026",
+    "created_at_iso": "2026-02-04T13:32:00+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2019041248498065825",
+    "metrics": {
+      "replies": 0,
+      "retweets": 1,
+      "likes": 4,
+      "bookmarks": 0,
+      "views": 8103
+    },
+    "media": []
+  }
+]

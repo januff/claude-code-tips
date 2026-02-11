@@ -21,7 +21,7 @@ url: "https://x.com/pastarita27/status/2004585845735710783"
 
 ## Summary
 
-ask it to read this thread, analyze and consider applicable heuristics, then generate a plurality of diverse(high-temperature) insightful and utilitarian (sometimes witty) synthetic comments, then,...
+This Claude code tip describes a powerful workflow for prompting the AI. It suggests instructing Claude to first analyze a thread, then generate multiple diverse and insightful comments (using a high temperature setting for creativity). Finally, it advises using these generated comments to refine the heuristics and skills Claude applies, creating a feedback loop for improved performance.
 
 
 > [!metrics]- Engagement & Metadata

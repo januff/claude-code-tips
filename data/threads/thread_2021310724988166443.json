@@ -1,0 +1,254 @@
+[
+  {
+    "id": "2021310724988166443",
+    "text": "I use this CONSTANTLY. It's almost the only thing besides vanilla agents I use regularly. And it's so simple, it's just a prompt! Run it before committing. Run it when you feel like things are growing hairy.\nCodex-5.3-high does this very well \ud83d\ude19\ud83d\udc4c https://t.co/R3ss9iVIip",
+    "author_handle": "@mikker",
+    "author_name": "Mikkel Malmberg",
+    "created_at": "Tue Feb 10 19:50:05 +0000 2026",
+    "created_at_iso": "2026-02-10T19:50:05+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2021310724988166443",
+    "metrics": {
+      "replies": 6,
+      "retweets": 13,
+      "likes": 548,
+      "bookmarks": 836,
+      "views": 23612
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HA0jZJ3aEAAT0Xx.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2021354330100752401",
+    "text": "@mikker make it a stop hook for your codex sessions that runs after the loop passes",
+    "author_handle": "@0xRaduan",
+    "author_name": "Raduan Al-Shedivat",
+    "created_at": "Tue Feb 10 22:43:21 +0000 2026",
+    "created_at_iso": "2026-02-10T22:43:21+00:00",
+    "is_reply_to": "2021310724988166443",
+    "conversation_id": "2021310724988166443",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 897
+    },
+    "media": []
+  },
+  {
+    "id": "2021356278564651398",
+    "text": "@0xRaduan no no, I don't want auto. I want to know what I'm doing when",
+    "author_handle": "@mikker",
+    "author_name": "Mikkel Malmberg",
+    "created_at": "Tue Feb 10 22:51:06 +0000 2026",
+    "created_at_iso": "2026-02-10T22:51:06+00:00",
+    "is_reply_to": "2021354330100752401",
+    "conversation_id": "2021310724988166443",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 4,
+      "bookmarks": 0,
+      "views": 784
+    },
+    "media": []
+  },
+  {
+    "id": "2021351047323844934",
+    "text": "@mikker The pre-commit sanity check.",
+    "author_handle": "@yesadok",
+    "author_name": "Sadok",
+    "created_at": "Tue Feb 10 22:30:19 +0000 2026",
+    "created_at_iso": "2026-02-10T22:30:19+00:00",
+    "is_reply_to": "2021310724988166443",
+    "conversation_id": "2021310724988166443",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 776
+    },
+    "media": []
+  },
+  {
+    "id": "2021361085178314825",
+    "text": "@yesadok yes! The \"Now clean up after yourself before you declare victory\".",
+    "author_handle": "@mikker",
+    "author_name": "Mikkel Malmberg",
+    "created_at": "Tue Feb 10 23:10:12 +0000 2026",
+    "created_at_iso": "2026-02-10T23:10:12+00:00",
+    "is_reply_to": "2021351047323844934",
+    "conversation_id": "2021310724988166443",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 0,
+      "views": 651
+    },
+    "media": []
+  },
+  {
+    "id": "2021402489774604650",
+    "text": "@mikker Why is this a skill and not just a command? \ud83e\udd14",
+    "author_handle": "@levifig",
+    "author_name": "Levi Figueira",
+    "created_at": "Wed Feb 11 01:54:44 +0000 2026",
+    "created_at_iso": "2026-02-11T01:54:44+00:00",
+    "is_reply_to": "2021310724988166443",
+    "conversation_id": "2021310724988166443",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 275
+    },
+    "media": []
+  },
+  {
+    "id": "2021451169726595567",
+    "text": "@mikker I think this would be better suited as a command, rather than a skill.",
+    "author_handle": "@niieani",
+    "author_name": "Bazyli",
+    "created_at": "Wed Feb 11 05:08:10 +0000 2026",
+    "created_at_iso": "2026-02-11T05:08:10+00:00",
+    "is_reply_to": "2021310724988166443",
+    "conversation_id": "2021310724988166443",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 72
+    },
+    "media": []
+  },
+  {
+    "id": "2021376696667246780",
+    "text": "Prompt Cowboy has you covered \ud83e\udd20 yeee haaww\n\nCopy prompt below \ud83e\udee1\n\n---\n\nname: refactor-pass\ndescription: Perform a refactor pass focused on simplicity after recent changes. Use when the user asks for a refactor/cleanup pass, simplification, or dead-code removal and expects build/tests to verify behavior.\n\n# Refactor Pass\n\n## Workflow\n\n1. Review the changes just made and identify simplification opportunities.\n2. Apply refactors to:\n   - Remove dead code and dead paths.\n   - Straighten logic flows.\n   - Remove excessive parameters.\n   - Remove premature optimization.\n3. Run build/tests to verify behavior.\n4. Identify optional abstractions or reusable patterns; only suggest them if they clearly improve clarity and keep suggestions brief.",
+    "author_handle": "@promptcowboy",
+    "author_name": "Prompt Cowboy",
+    "created_at": "Wed Feb 11 00:12:14 +0000 2026",
+    "created_at_iso": "2026-02-11T00:12:14+00:00",
+    "is_reply_to": "2021310724988166443",
+    "conversation_id": "2021310724988166443",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 8,
+      "views": 451
+    },
+    "media": []
+  },
+  {
+    "id": "2021375982561788310",
+    "text": "@mikker I remember when we called these prompts",
+    "author_handle": "@brandonwilson",
+    "author_name": "Brandon Wilson",
+    "created_at": "Wed Feb 11 00:09:24 +0000 2026",
+    "created_at_iso": "2026-02-11T00:09:24+00:00",
+    "is_reply_to": "2021310724988166443",
+    "conversation_id": "2021310724988166443",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 270
+    },
+    "media": []
+  },
+  {
+    "id": "2021241384057930224",
+    "text": "Anything you can do in Obsidian you can do from the command line.\n\nObsidian CLI is now available in 1.12 (early access). https://t.co/B8ed2zrWHe",
+    "author_handle": "@obsdmd",
+    "author_name": "Obsidian",
+    "created_at": "Tue Feb 10 15:14:33 +0000 2026",
+    "created_at_iso": "2026-02-10T15:14:33+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2021241384057930224",
+    "metrics": {
+      "replies": 368,
+      "retweets": 1195,
+      "likes": 13669,
+      "bookmarks": 5729,
+      "views": 1317312
+    },
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2021239296343330816/img/vtDNqBXPtl22au98.jpg",
+        "video_url": "https://video.twimg.com/amplify_video/2021239296343330816/vid/avc1/348x270/12CCthUqBZ5TT9Zf.mp4?tag=21"
+      }
+    ]
+  },
+  {
+    "id": "2021251878521073847",
+    "text": "1. install Obsidian 1.12\n2. enable CLI\n3. now OpenClaw, OpenCode, Claude Code, Codex, or any other agent can use Obsidian",
+    "author_handle": "@kepano",
+    "author_name": "kepano",
+    "created_at": "Tue Feb 10 15:56:15 +0000 2026",
+    "created_at_iso": "2026-02-10T15:56:15+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2021251878521073847",
+    "metrics": {
+      "replies": 139,
+      "retweets": 321,
+      "likes": 4207,
+      "bookmarks": 2797,
+      "views": 317335
+    },
+    "media": []
+  },
+  {
+    "id": "2021160492039811300",
+    "text": "It actually worked!\n\nFor the past couple of days I\u2019ve been throwing 5.3-codex at the C codebase for SimCity (1989) to port it to TypeScript. \n\nNot reading any code, very little steering. \n\nToday I have SimCity running in the browser. \n\nI can\u2019t believe this new world we live in. https://t.co/Pna2ilIjdh",
+    "author_handle": "@ccccjjjjeeee",
+    "author_name": "Christopher Ehrlich",
+    "created_at": "Tue Feb 10 09:53:07 +0000 2026",
+    "created_at_iso": "2026-02-10T09:53:07+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2021160492039811300",
+    "metrics": {
+      "replies": 172,
+      "retweets": 245,
+      "likes": 4274,
+      "bookmarks": 928,
+      "views": 460594
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HAyawCUbkAAQwJz.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2020930017136652670",
+    "text": "Turns out with claude code, my decades long strategy of NOT deeply learning:\n- regexs \n- sql\n- nginx confs\n- elaborate shell commands\n- advanced shell scripting\n- any javascript framework\n- perf optimization\n- webpack, cdns, bundlers\n- 1000 other things\n\n...was entirely correct.",
+    "author_handle": "@robustus",
+    "author_name": "Dan",
+    "created_at": "Mon Feb 09 18:37:17 +0000 2026",
+    "created_at_iso": "2026-02-09T18:37:17+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2020930017136652670",
+    "metrics": {
+      "replies": 668,
+      "retweets": 1370,
+      "likes": 25378,
+      "bookmarks": 2821,
+      "views": 1005484
+    },
+    "media": []
+  }
+]

@@ -1,0 +1,314 @@
+[
+  {
+    "id": "2010688647218298936",
+    "text": "My Beginner Tierlist of Agent Abstractions (for Claude):\n1. Subagents - Direct buff. Frequently very useful for preventing context rot and ad-hoc specialisation. Sorta adjacent to RLM. IMO, it's good bc as agents get smarter they very effectively allocate subagents. Bitter-lesson adjacent. Simple to use w not much variation - \"use subagents when needed\". Half as useful as much more complex setups (multi-agent) for much less complexity.\n2. Metaprompting - I made a metaprompting claude command to expand my task requests into full prompt files + scratchpad. I take 3 minutes to prompt a 20-minute task. Also generally a direct buff. You should usually read the metaprompt plan, but improves stability and sanity-checks assumptions anyway.\n3. Asking the user more at the beginning - Generally direct buff, but u have to answer questions in plan mode. A little non-transparent bc i can't tell if it's not asking bc it understands, the command is off or has no questions.\n4. \"Thinking\" prompts - Generally a buff and easy to toss in, but not-transparent and is sorta getting phased out per Boris.\n-----below are useful, but high skill floor------\n5. Long-running agents - The main thing is you have to think a bit to be able to prompt and set this up well. Basically you have to understand the shape and tradeoff of a 15 minute task before you understand the shape of a 1.5 hour or 4 hour task. Or whether to do four 15 minute tasks or one 1-hour task. And It takes some tweaking and is obv very long trial-and-error. Fundamentally tho, it's usually the same setup \"but go longer in a useful way\".\n6. Parallel multi- agent - I think this is very high-variance, and only useful on highly complex or highly well-segmented/scoped tasks or very very experienced setups. If 2 tasks take 10 minutes and you spend an arbitrary amount of time prompting or god forbid, merge changes, it's counterproductive. If u have a good scaffold for this tho, prolly very good, you just prolly won't get there with parallel multi-agent. High skill floor and skill ceiling vs the direct buffs above.\n7. Role-based multi-agent - It can work, but I am on principle bearish on this. Models just evolve too fast for hard-coded heuristics unless the arbitrage is very high. Also hard to test. I've seen people swear by Codex planner + Opus executor which probably works. Idk, maybe skill issue?\n8. Computer Use Agents - I think this is hard to do bc it plays at a very long tail of tasks. You're getting models to do something they were definitely not even meant to do a year ago. As a paradigm, very early and requires wrangling. @hud_evals will cook here, tho.\n\n(MCP/search agents I feel is more a situation-dependent tool to fetch from data sources that otherwise wouldn't exist at all. And p much all production agent scaffolds have this now. ig if you're pedantic, they're top tier bc theyre the default)",
+    "author_handle": "@menhguin",
+    "author_name": "Minh Nhat Nguyen",
+    "created_at": "Mon Jan 12 12:21:44 +0000 2026",
+    "created_at_iso": "2026-01-12T12:21:44+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2010688647218298936",
+    "metrics": {
+      "replies": 15,
+      "retweets": 10,
+      "likes": 256,
+      "bookmarks": 302,
+      "views": 22026
+    },
+    "media": []
+  },
+  {
+    "id": "2010428863344759099",
+    "text": "i spent a few weeks doing this, and my current bottleneck is having tasks to feed the agents. i have a claude desktop agent, a prompt-to-agent-task flow, multi parallel agents, subagents, scheduled review agents, computer use agents and im not utilising like 80% of capacity",
+    "author_handle": "@menhguin",
+    "author_name": "Minh Nhat Nguyen",
+    "created_at": "Sun Jan 11 19:09:27 +0000 2026",
+    "created_at_iso": "2026-01-11T19:09:27+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2010428863344759099",
+    "metrics": {
+      "replies": 2,
+      "retweets": 2,
+      "likes": 52,
+      "bookmarks": 27,
+      "views": 22045
+    },
+    "media": []
+  },
+  {
+    "id": "2010251032866238919",
+    "text": "",
+    "author_handle": "@unknown",
+    "author_name": "",
+    "created_at": "",
+    "created_at_iso": "",
+    "is_reply_to": null,
+    "conversation_id": null,
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 0
+    },
+    "media": []
+  },
+  {
+    "id": "2010688805028909461",
+    "text": "man.\nhttps://t.co/DYj99BlkFE",
+    "author_handle": "@menhguin",
+    "author_name": "Minh Nhat Nguyen",
+    "created_at": "Mon Jan 12 12:22:22 +0000 2026",
+    "created_at_iso": "2026-01-12T12:22:22+00:00",
+    "is_reply_to": "2010688647218298936",
+    "conversation_id": "2010688647218298936",
+    "metrics": {
+      "replies": 0,
+      "retweets": 1,
+      "likes": 5,
+      "bookmarks": 1,
+      "views": 1387
+    },
+    "media": []
+  },
+  {
+    "id": "2009235969959186752",
+    "text": "agi when this works https://t.co/r5IAM9t9sz",
+    "author_handle": "@menhguin",
+    "author_name": "Minh Nhat Nguyen",
+    "created_at": "Thu Jan 08 12:09:19 +0000 2026",
+    "created_at_iso": "2026-01-08T12:09:19+00:00",
+    "is_reply_to": "2009235949830762721",
+    "conversation_id": "2009235949830762721",
+    "metrics": {
+      "replies": 3,
+      "retweets": 1,
+      "likes": 82,
+      "bookmarks": 1,
+      "views": 6024
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-I9dlra0AMJ3mu.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2010729636204859678",
+    "text": "Great list!\n\nI do think we will find that parallel multiagent is not that different from Ralph setups and much much faster. Ralph fights context rot by restarting and seeding N agents with the same plan in parallel has a similar essence\n\nMost people shouldn\u2019t worry about that at all yet though, as you say\n\nAnd you above the line list is v v good",
+    "author_handle": "@ptr",
+    "author_name": "*tess",
+    "created_at": "Mon Jan 12 15:04:37 +0000 2026",
+    "created_at_iso": "2026-01-12T15:04:37+00:00",
+    "is_reply_to": "2010688647218298936",
+    "conversation_id": "2010688647218298936",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 0,
+      "views": 286
+    },
+    "media": []
+  },
+  {
+    "id": "2010730797331005814",
+    "text": "@ptr FWIW, in theory parallel is the highest-ceiling of all of these, since you are really functionally uncapped for unit human time. It's just getting from 0-2 working well takes a lot of skill, effort and iteration/cleaning. Currently most of my work hours have 1 parallel agent.",
+    "author_handle": "@menhguin",
+    "author_name": "Minh Nhat Nguyen",
+    "created_at": "Mon Jan 12 15:09:14 +0000 2026",
+    "created_at_iso": "2026-01-12T15:09:14+00:00",
+    "is_reply_to": "2010729636204859678",
+    "conversation_id": "2010688647218298936",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 0,
+      "views": 227
+    },
+    "media": []
+  },
+  {
+    "id": "2010817560761999783",
+    "text": "@menhguin Swarms provides most of these features if you want to build your own custom agents not just for programming.\n\nGithub: https://t.co/cUj7WdBQDC",
+    "author_handle": "@KyeGomezB",
+    "author_name": "Kye Gomez (swarms)",
+    "created_at": "Mon Jan 12 20:54:00 +0000 2026",
+    "created_at_iso": "2026-01-12T20:54:00+00:00",
+    "is_reply_to": "2010688647218298936",
+    "conversation_id": "2010688647218298936",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 302
+    },
+    "media": []
+  },
+  {
+    "id": "2010957574720659871",
+    "text": "@menhguin what subagents do you have and use?",
+    "author_handle": "@hud_zah",
+    "author_name": "HudZah",
+    "created_at": "Tue Jan 13 06:10:22 +0000 2026",
+    "created_at_iso": "2026-01-13T06:10:22+00:00",
+    "is_reply_to": "2010688647218298936",
+    "conversation_id": "2010688647218298936",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 282
+    },
+    "media": []
+  },
+  {
+    "id": "2010774219412685061",
+    "text": "@menhguin yes this tracks 1:1 from my experience as well\n\nnicely articulated \ud83d\udc4c",
+    "author_handle": "@_soulninja",
+    "author_name": "soul",
+    "created_at": "Mon Jan 12 18:01:46 +0000 2026",
+    "created_at_iso": "2026-01-12T18:01:46+00:00",
+    "is_reply_to": "2010688647218298936",
+    "conversation_id": "2010688647218298936",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 189
+    },
+    "media": []
+  },
+  {
+    "id": "2010744193300168792",
+    "text": "@menhguin Feeding tasks to agents can definitely be a bottleneck.",
+    "author_handle": "@MinChonChiSF",
+    "author_name": "Min Chon Chi",
+    "created_at": "Mon Jan 12 16:02:28 +0000 2026",
+    "created_at_iso": "2026-01-12T16:02:28+00:00",
+    "is_reply_to": "2010688647218298936",
+    "conversation_id": "2010688647218298936",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 86
+    },
+    "media": []
+  },
+  {
+    "id": "2011141622822814202",
+    "text": "@menhguin big brain stuff",
+    "author_handle": "@MinuteMovies3",
+    "author_name": "Minute Movies",
+    "created_at": "Tue Jan 13 18:21:42 +0000 2026",
+    "created_at_iso": "2026-01-13T18:21:42+00:00",
+    "is_reply_to": "2010688647218298936",
+    "conversation_id": "2010688647218298936",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 51
+    },
+    "media": []
+  },
+  {
+    "id": "2021403222502670765",
+    "text": "Introducing Lab: A full-stack platform for training your own agentic models\n\nBuild, evaluate and train on your own environments at scale without managing the underlying infrastructure.\n\nGiving everyone their own frontier AI lab. https://t.co/wDVCe7TOdt",
+    "author_handle": "@PrimeIntellect",
+    "author_name": "Prime Intellect",
+    "created_at": "Wed Feb 11 01:57:38 +0000 2026",
+    "created_at_iso": "2026-02-11T01:57:38+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2021403222502670765",
+    "metrics": {
+      "replies": 58,
+      "retweets": 111,
+      "likes": 795,
+      "bookmarks": 425,
+      "views": 147993
+    },
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2021396122875592709/img/j5dknfNxxTaOQ1LX.jpg",
+        "video_url": "https://video.twimg.com/amplify_video/2021396122875592709/vid/avc1/480x270/hdJGdxYhUHlvL7SM.mp4?tag=21"
+      }
+    ]
+  },
+  {
+    "id": "2021160492039811300",
+    "text": "It actually worked!\n\nFor the past couple of days I\u2019ve been throwing 5.3-codex at the C codebase for SimCity (1989) to port it to TypeScript. \n\nNot reading any code, very little steering. \n\nToday I have SimCity running in the browser. \n\nI can\u2019t believe this new world we live in. https://t.co/Pna2ilIjdh",
+    "author_handle": "@ccccjjjjeeee",
+    "author_name": "Christopher Ehrlich",
+    "created_at": "Tue Feb 10 09:53:07 +0000 2026",
+    "created_at_iso": "2026-02-10T09:53:07+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2021160492039811300",
+    "metrics": {
+      "replies": 172,
+      "retweets": 245,
+      "likes": 4273,
+      "bookmarks": 928,
+      "views": 460470
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HAyawCUbkAAQwJz.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2021374875793801447",
+    "text": "Last day at xAI.\n\nxAI's mission is push humanity up the Kardashev tech tree. Grateful to have helped cofound at the start. And enormous thanks to @elonmusk for bringing us together on this incredible journey. So proud of what the xAI team has done and will continue to stay close as a friend of the team. Thank you all for the grind together. The people and camaraderie are the real treasures at this place.\n\nWe are heading to an age of 100x productivity with the right tools. Recursive self improvement loops likely go live in the next 12mo. It\u2019s time to recalibrate my gradient on the big picture. 2026 is gonna be insane and likely the busiest (and most consequential) year for the future of our species.",
+    "author_handle": "@jimmybajimmyba",
+    "author_name": "Jimmy Ba",
+    "created_at": "Wed Feb 11 00:05:00 +0000 2026",
+    "created_at_iso": "2026-02-11T00:05:00+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2021374875793801447",
+    "metrics": {
+      "replies": 297,
+      "retweets": 170,
+      "likes": 3011,
+      "bookmarks": 670,
+      "views": 918789
+    },
+    "media": []
+  },
+  {
+    "id": "2021410167523508368",
+    "text": "create your own environments. \ntrain your own models.\nbe your own lab. https://t.co/pfEzGqoRvi",
+    "author_handle": "@willccbb",
+    "author_name": "will brown",
+    "created_at": "Wed Feb 11 02:25:14 +0000 2026",
+    "created_at_iso": "2026-02-11T02:25:14+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2021410167523508368",
+    "metrics": {
+      "replies": 8,
+      "retweets": 16,
+      "likes": 327,
+      "bookmarks": 147,
+      "views": 21064
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HA19zhPaAAkJLE_.jpg",
+        "video_url": null
+      }
+    ]
+  }
+]

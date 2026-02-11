@@ -19,7 +19,7 @@ url: "https://x.com/almmaasoglu/status/2004584988491370950"
 
 ## Summary
 
-Setting a code word in my guidelines
+This tip demonstrates a technique for ensuring Claude adheres to provided guidelines by using a pre-defined code word within the instructions. By requiring Claude to include this code word in its responses, users can quickly verify if the model has processed and is actively following the specified rules or guardrails. The key action is incorporating a unique code word into the guidelines and then checking for its presence in Claude's output.
 
 ## Replies
 

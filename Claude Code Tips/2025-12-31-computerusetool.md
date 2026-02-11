@@ -32,7 +32,7 @@ url: ""
 
 ## Summary
 
-the ComputerUseTool is going to launch in the next few months and every high agency person who invested time in the agent sdk will basically become a demigod overnight
+This tip highlights the upcoming ComputerUseTool in the agent SDK, suggesting it will significantly amplify the abilities of developers who have invested in mastering agent workflows.  The key takeaway is that early adopters of the agent SDK and this new tool will gain a significant advantage in controlling and leveraging digital intelligences. No specific commands or settings are detailed, but the focus is on the strategic importance of mastering the agent SDK ecosystem before the launch of the ComputerUseTool.
 
 ## Replies
 

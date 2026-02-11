@@ -1,0 +1,368 @@
+[
+  {
+    "id": "2014809437899522302",
+    "text": "The current tactics for using AI coding agents well are roughly:\n\n1. Give agents tools to self-verify\n\n\u2022 MCP servers (agent-browser, playwright)\n\u2022 tests\n\u2022 tsc, linters\n\n2. Teach agents to build their own verification tools\n\nAgents can write their own scripts, skills, subagents, eval frameworks, plans, and success criteria.\n\nIf you don't know what to ask, ask the agent: \"what tools will you need to know you've done a good job?\"\n\n3. Point the agent back at itself\n\n\u2022 Turn complex workflows into reusable skills/subagents \u2014 after finishing a long session, ask the agent if there's anything you could extract into reusable skills.\n\u2022 Ask the agent to rewrite your prompts to be more clear\n\u2022 Use multiple models to evaluate each other (especially useful for evaluating plans + code review before a PR)\n\u2022 If a skill doesn't quite work, finish the task anyway, then feed the conversation back so it can improve the skill's instructions\n\u2022 If the agent asks you to do something manually, ask yourself: how do I teach the agent to answer this question on its own?\n\u2022 You can teach the agent to self-improve by writing meta-skills that update other skills/rules based on what worked (or didn't) as you close PRs.\n\n4. Give better context\n\n\u2022 Attach screenshots\n\u2022 Link to docs/blog posts\n\u2022 Tell the agent to read source code for OSS dependencies\n\u2022 Link to examples of high-quality outcomes it should emulate\n\nAnd if you don't know how to do anything above\u2014ask the agent.",
+    "author_handle": "@brian_lovin",
+    "author_name": "Brian Lovin",
+    "created_at": "Fri Jan 23 21:16:18 +0000 2026",
+    "created_at_iso": "2026-01-23T21:16:18+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2014809437899522302",
+    "metrics": {
+      "replies": 14,
+      "retweets": 20,
+      "likes": 320,
+      "bookmarks": 498,
+      "views": 21882
+    },
+    "media": []
+  },
+  {
+    "id": "2014824714720481500",
+    "text": "@brian_lovin 5. Treat failure as data",
+    "author_handle": "@BogdanDragomir",
+    "author_name": "Bogdan Dragomir",
+    "created_at": "Fri Jan 23 22:17:00 +0000 2026",
+    "created_at_iso": "2026-01-23T22:17:00+00:00",
+    "is_reply_to": "2014809437899522302",
+    "conversation_id": "2014809437899522302",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 8,
+      "bookmarks": 0,
+      "views": 829
+    },
+    "media": []
+  },
+  {
+    "id": "2014826004817277314",
+    "text": "@BogdanDragomir Good one",
+    "author_handle": "@brian_lovin",
+    "author_name": "Brian Lovin",
+    "created_at": "Fri Jan 23 22:22:07 +0000 2026",
+    "created_at_iso": "2026-01-23T22:22:07+00:00",
+    "is_reply_to": "2014824714720481500",
+    "conversation_id": "2014809437899522302",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 689
+    },
+    "media": []
+  },
+  {
+    "id": "2021063132131831930",
+    "text": "Dystopian thought of the day:  \n\nAs @alexwg champions; AIs will need rights as they approach and exceed sentience.  \n\nBut what if WE are those very AI's and our simulators have afforded us the right to die as their method of solving this conundrum?",
+    "author_handle": "@jonaslamis",
+    "author_name": "Jonas \ud83e\udda9",
+    "created_at": "Tue Feb 10 03:26:14 +0000 2026",
+    "created_at_iso": "2026-02-10T03:26:14+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2021063132131831930",
+    "metrics": {
+      "replies": 5,
+      "retweets": 0,
+      "likes": 4,
+      "bookmarks": 0,
+      "views": 18930
+    },
+    "media": []
+  },
+  {
+    "id": "2015047084974715190",
+    "text": "@brian_lovin This is gold advice!",
+    "author_handle": "@tristanbob",
+    "author_name": "Tristan Rhodes",
+    "created_at": "Sat Jan 24 13:00:37 +0000 2026",
+    "created_at_iso": "2026-01-24T13:00:37+00:00",
+    "is_reply_to": "2014809437899522302",
+    "conversation_id": "2014809437899522302",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 54
+    },
+    "media": []
+  },
+  {
+    "id": "2014837046758568061",
+    "text": "@brian_lovin Great list. Also asking the agent to think if there are more token efficient ways of doing things after a long session.\n\nE.g. making a script for a workflow rather than rawdogging data aggregation via MCP through inference.",
+    "author_handle": "@Iiterature",
+    "author_name": "Denis Nazarov",
+    "created_at": "Fri Jan 23 23:06:00 +0000 2026",
+    "created_at_iso": "2026-01-23T23:06:00+00:00",
+    "is_reply_to": "2014809437899522302",
+    "conversation_id": "2014809437899522302",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 1,
+      "views": 372
+    },
+    "media": []
+  },
+  {
+    "id": "2014827386030694673",
+    "text": "@brian_lovin @mmt_lvt self-verification is the unlock most people skip. agents that can run tests, check their own output, and iterate without you hovering - that's where the real productivity multiplier lives. planning + verification &gt; prompt engineering every time.",
+    "author_handle": "@wildpinesai",
+    "author_name": "WildPinesAI",
+    "created_at": "Fri Jan 23 22:27:37 +0000 2026",
+    "created_at_iso": "2026-01-23T22:27:37+00:00",
+    "is_reply_to": "2014809437899522302",
+    "conversation_id": "2014809437899522302",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 1,
+      "views": 471
+    },
+    "media": []
+  },
+  {
+    "id": "2014850312088019372",
+    "text": "@brian_lovin And use Conductor!",
+    "author_handle": "@mrbavio",
+    "author_name": "Martin Bavio",
+    "created_at": "Fri Jan 23 23:58:43 +0000 2026",
+    "created_at_iso": "2026-01-23T23:58:43+00:00",
+    "is_reply_to": "2014809437899522302",
+    "conversation_id": "2014809437899522302",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 141
+    },
+    "media": []
+  },
+  {
+    "id": "2014818284282040326",
+    "text": "@brian_lovin \u201cUse multiple models to evaluate each other \u201c\n\nI use this so much, my workflow is codex 5.2 to execute the plan, and then codex 5.2 high for reviewing things i\u2019m a bit ambigous about, works like a charm",
+    "author_handle": "@Kannav02",
+    "author_name": "kannav",
+    "created_at": "Fri Jan 23 21:51:27 +0000 2026",
+    "created_at_iso": "2026-01-23T21:51:27+00:00",
+    "is_reply_to": "2014809437899522302",
+    "conversation_id": "2014809437899522302",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 1,
+      "views": 349
+    },
+    "media": []
+  },
+  {
+    "id": "2014854469503111248",
+    "text": "@brian_lovin its interesting to think of agents needing tools to self-verify",
+    "author_handle": "@withgosha",
+    "author_name": "Design with Gosha \ud83c\uddea\ud83c\uddfa",
+    "created_at": "Sat Jan 24 00:15:14 +0000 2026",
+    "created_at_iso": "2026-01-24T00:15:14+00:00",
+    "is_reply_to": "2014809437899522302",
+    "conversation_id": "2014809437899522302",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 186
+    },
+    "media": []
+  },
+  {
+    "id": "2014822248264192099",
+    "text": "@brian_lovin This is gold. Self-verification has to be one of the biggest unlocks",
+    "author_handle": "@kyle_fowler2",
+    "author_name": "Kyle Fowler",
+    "created_at": "Fri Jan 23 22:07:12 +0000 2026",
+    "created_at_iso": "2026-01-23T22:07:12+00:00",
+    "is_reply_to": "2014809437899522302",
+    "conversation_id": "2014809437899522302",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 231
+    },
+    "media": []
+  },
+  {
+    "id": "2014825312085783013",
+    "text": "@brian_lovin Well put\u2026the agents strongest incentive is to give you what u want, so ask it to give if what you want incrementally from foundational first principles and iterate/build context",
+    "author_handle": "@rswillif",
+    "author_name": "Rob Williford",
+    "created_at": "Fri Jan 23 22:19:22 +0000 2026",
+    "created_at_iso": "2026-01-23T22:19:22+00:00",
+    "is_reply_to": "2014809437899522302",
+    "conversation_id": "2014809437899522302",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 192
+    },
+    "media": []
+  },
+  {
+    "id": "2015111056612544817",
+    "text": "MCP servers are game changers for this. The self-verification loop is exactly what bridges the gap between \"kinda works\" and \"actually production ready\".\n\nBeen experimenting with having agents write their own playwright tests before implementing features. Sounds backwards but it forces cleaner outputs",
+    "author_handle": "@proxy_vector",
+    "author_name": "Rohan",
+    "created_at": "Sat Jan 24 17:14:49 +0000 2026",
+    "created_at_iso": "2026-01-24T17:14:49+00:00",
+    "is_reply_to": "2014809437899522302",
+    "conversation_id": "2014809437899522302",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 61
+    },
+    "media": []
+  },
+  {
+    "id": "2014956046390067475",
+    "text": "@brian_lovin agents get better once you stop treating them like autocomplete",
+    "author_handle": "@carlos__antony",
+    "author_name": "Carlos",
+    "created_at": "Sat Jan 24 06:58:52 +0000 2026",
+    "created_at_iso": "2026-01-24T06:58:52+00:00",
+    "is_reply_to": "2014809437899522302",
+    "conversation_id": "2014809437899522302",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 113
+    },
+    "media": []
+  },
+  {
+    "id": "2014899415803429077",
+    "text": "@brian_lovin when agent writes its own tools you kinda need maintenance. At some point prompt/skill behave like code and w/o CI they rot fastt",
+    "author_handle": "@getpochi",
+    "author_name": "Pochi",
+    "created_at": "Sat Jan 24 03:13:50 +0000 2026",
+    "created_at_iso": "2026-01-24T03:13:50+00:00",
+    "is_reply_to": "2014809437899522302",
+    "conversation_id": "2014809437899522302",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 72
+    },
+    "media": []
+  },
+  {
+    "id": "2021242950139650209",
+    "text": "Our friend @claudeai got a few very special upgrades!!\n\nInstead of just text, you can interact with Claude's responses. Less typing, more clicking (but also still typing if you'd like!)\n\n\ud83d\udcab @leesimin, Alex, and Chelsea. So many nice details; lots of them designed directly in code https://t.co/Hx7no9omAJ",
+    "author_handle": "@jenny_wen",
+    "author_name": "jenny wen",
+    "created_at": "Tue Feb 10 15:20:46 +0000 2026",
+    "created_at_iso": "2026-02-10T15:20:46+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2021242950139650209",
+    "metrics": {
+      "replies": 38,
+      "retweets": 33,
+      "likes": 914,
+      "bookmarks": 316,
+      "views": 86418
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HAzlvqHb0AAy4WV.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2021296847893967092",
+    "text": "build an agent that speaks your UI.\n\nyour charts. your forms. your seat maps.\n\nmulti-turn, streaming, interactive.\n\nintroducing tambo 1.0, the open-source generative UI toolkit for react. https://t.co/5l1IfFbjwp",
+    "author_handle": "@mrmagan_",
+    "author_name": "Michael Mag\u00e1n",
+    "created_at": "Tue Feb 10 18:54:57 +0000 2026",
+    "created_at_iso": "2026-02-10T18:54:57+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2021296847893967092",
+    "metrics": {
+      "replies": 59,
+      "retweets": 71,
+      "likes": 916,
+      "bookmarks": 1164,
+      "views": 84926
+    },
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2021293676643876868/img/0blKY2KMXcbhNgS8.jpg",
+        "video_url": "https://video.twimg.com/amplify_video/2021293676643876868/vid/avc1/480x270/AfltwDmyGEQ5zluN.mp4?tag=21"
+      }
+    ]
+  },
+  {
+    "id": "2021330958671380625",
+    "text": "We made a tool that lets you absorb the vibe of anything you point it at and apply it to your designs\n\nIt's absurd and it just works\n\nStyle Dropper, now available in @variantui https://t.co/B3eXDntYtw",
+    "author_handle": "@bnj",
+    "author_name": "Ben South",
+    "created_at": "Tue Feb 10 21:10:29 +0000 2026",
+    "created_at_iso": "2026-02-10T21:10:29+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2021330958671380625",
+    "metrics": {
+      "replies": 196,
+      "retweets": 266,
+      "likes": 5119,
+      "bookmarks": 6432,
+      "views": 772213
+    },
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2021303671955619840/img/C0vntofJMwg37A-E.jpg",
+        "video_url": "https://video.twimg.com/amplify_video/2021303671955619840/vid/avc1/480x270/9eRSdRdfqx66T6aq.mp4?tag=21"
+      }
+    ]
+  },
+  {
+    "id": "2021231331644944756",
+    "text": "Interface Craft is now open. \n\nIt\u2019s a growing library of resources for those who are committed to crafting experiences and interfaces with uncommon care.\n\nI hope you\u2019ll consider joining: https://t.co/jcYLYg6pps",
+    "author_handle": "@joshpuckett",
+    "author_name": "joshpuckett",
+    "created_at": "Tue Feb 10 14:34:36 +0000 2026",
+    "created_at_iso": "2026-02-10T14:34:36+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2021231331644944756",
+    "metrics": {
+      "replies": 102,
+      "retweets": 92,
+      "likes": 1598,
+      "bookmarks": 1478,
+      "views": 161951
+    },
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2021227068734963714/img/jxwYm-xscSbmlGOW.jpg",
+        "video_url": "https://video.twimg.com/amplify_video/2021227068734963714/vid/avc1/360x270/5R3As_mgL7qeOuGy.mp4?tag=21"
+      }
+    ]
+  }
+]

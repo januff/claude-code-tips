@@ -14,6 +14,10 @@ url: "https://x.com/The_Whole_Daisy/status/2008625420741341355"
 >
 > Likes: 339 · Replies: 11 · Reposts: 25
 
+## Summary
+
+This Claude Code tip focuses on improving code generation prompts, inspired by the "Ralph Wiggum technique" popularized by Geoffrey Huntley. The core idea is to craft more comprehensive completion promises in your prompts, aiming for more thorough and accurate code generation results. While the tweet doesn't detail the technique specifics, it highlights the importance of setting clear expectations for Claude's code output.
+
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 339 · **Replies:** 11 · **Reposts:** 25 · **Views:** 0

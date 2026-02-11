@@ -1,0 +1,368 @@
+[
+  {
+    "id": "2011468541321744512",
+    "text": "Agent coding life hack:\n\nBefore having Claude Code create a skill dot md file for you (which you should probably be doing a couple times a day at least), tell it to read this guide first:\n\nhttps://t.co/T3Gq12ZOR1\n\nIt makes the skills way better. \n\nSo why should you be making skills, anyway? \n\nWell, every time you find yourself doing something more than once across projects, it\u2019s a good candidate for a new skill.\n\nI\u2019ll give you two examples from my work in the past day:\n\n1) When you have a website and want to share links on X, Telegram, WhatsApp, Facebook, iMessage, you want them to show that nice preview. I used to manually explain that to the agent and point it to one of my other projects as an example. But now I have this skill:\n\nhttps://t.co/JSrg76O92M\n\n2) I always need to write README files for my new projects on GitHub. I used to tell it to use another project as a model, but now it will just know to use this skill:\n\nhttps://t.co/6VeFMWU43b\n\nNote that both of those skills make use of additional reference files that are included in the same directory as the skill dot md file. \n\nThis is a good best practice for better token efficiency through progressive disclosure.\n\nBut you don\u2019t actually need to know any of that stuff if you tell Claude to read that skills best practices guide I linked to above!\n\nSeriously, don\u2019t sleep on skills, they\u2019re an amazing idea and very well supported by the latest version of Claude Code.",
+    "author_handle": "@doodlestein",
+    "author_name": "Jeffrey Emanuel",
+    "created_at": "Wed Jan 14 16:00:46 +0000 2026",
+    "created_at_iso": "2026-01-14T16:00:46+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2011468541321744512",
+    "metrics": {
+      "replies": 16,
+      "retweets": 35,
+      "likes": 478,
+      "bookmarks": 1036,
+      "views": 34861
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-or-iiXIAE-pT0.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2011471176854348034",
+    "text": "Also, if you actually read those two sample skills, you\u2019ll notice that they\u2019re a blend of general guidelines and rules/tips, and then also specific stuff for my particular website and its sections and branding. And that\u2019s the power of skills: they\u2019re customized for your use case!",
+    "author_handle": "@doodlestein",
+    "author_name": "Jeffrey Emanuel",
+    "created_at": "Wed Jan 14 16:11:14 +0000 2026",
+    "created_at_iso": "2026-01-14T16:11:14+00:00",
+    "is_reply_to": "2011468541321744512",
+    "conversation_id": "2011468541321744512",
+    "metrics": {
+      "replies": 0,
+      "retweets": 1,
+      "likes": 10,
+      "bookmarks": 7,
+      "views": 2107
+    },
+    "media": []
+  },
+  {
+    "id": "2011717060318150767",
+    "text": "@doodlestein Thanks. I have been struggling to understand what skills are, and are good for. This unlocks it a bit (together with your other tweet about `xf`). Across projects seems to be the key?",
+    "author_handle": "@pappapez",
+    "author_name": "Peter Str\u00f6mberg aka PEZ",
+    "created_at": "Thu Jan 15 08:28:17 +0000 2026",
+    "created_at_iso": "2026-01-15T08:28:17+00:00",
+    "is_reply_to": "2011468541321744512",
+    "conversation_id": "2011468541321744512",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 254
+    },
+    "media": []
+  },
+  {
+    "id": "2011717588347470011",
+    "text": "@pappapez Yes, it's for repeatable process workflows.",
+    "author_handle": "@doodlestein",
+    "author_name": "Jeffrey Emanuel",
+    "created_at": "Thu Jan 15 08:30:23 +0000 2026",
+    "created_at_iso": "2026-01-15T08:30:23+00:00",
+    "is_reply_to": "2011717060318150767",
+    "conversation_id": "2011468541321744512",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 207
+    },
+    "media": []
+  },
+  {
+    "id": "2011504494685618270",
+    "text": "@doodlestein Thanks!  Are you planning on a subscription? I saw your prompts website with stripe. Looks like it's still cooking. \n\nI am in! You're the most high value account on this site.  Like I pay nothing and get gold coins everyday from you.",
+    "author_handle": "@Matt_M_M",
+    "author_name": "Matt",
+    "created_at": "Wed Jan 14 18:23:38 +0000 2026",
+    "created_at_iso": "2026-01-14T18:23:38+00:00",
+    "is_reply_to": "2011468541321744512",
+    "conversation_id": "2011468541321744512",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 437
+    },
+    "media": []
+  },
+  {
+    "id": "2011532447687618967",
+    "text": "Hah, yeah, I was messing around a bit with that; I need to find something that makes sense and is worth it to people. My problem is that I also want to give everything away for free\u2026\n\nI think hosting is the better monetization path, though. So I\u2019m working on a solution for that, where you bring your own Max/Pro/Ultra accounts and then you get the VPS from me that has all the tools already set up and a nice extra web interface and mobile app.\n\nWill be an optional section on the https://t.co/N4As0kJTQP site, with the main part always staying totally free and open.",
+    "author_handle": "@doodlestein",
+    "author_name": "Jeffrey Emanuel",
+    "created_at": "Wed Jan 14 20:14:42 +0000 2026",
+    "created_at_iso": "2026-01-14T20:14:42+00:00",
+    "is_reply_to": "2011504494685618270",
+    "conversation_id": "2011468541321744512",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 5,
+      "bookmarks": 1,
+      "views": 391
+    },
+    "media": []
+  },
+  {
+    "id": "2011644649434464710",
+    "text": "@doodlestein Curious why decided not to turn the guide into a skill-building Skill",
+    "author_handle": "@AaronNam",
+    "author_name": "Aaron",
+    "created_at": "Thu Jan 15 03:40:33 +0000 2026",
+    "created_at_iso": "2026-01-15T03:40:33+00:00",
+    "is_reply_to": "2011468541321744512",
+    "conversation_id": "2011468541321744512",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 360
+    },
+    "media": []
+  },
+  {
+    "id": "2011661352012496915",
+    "text": "@AaronNam That's coming, and much more:\n\nhttps://t.co/Op6e0jkGMC",
+    "author_handle": "@doodlestein",
+    "author_name": "Jeffrey Emanuel",
+    "created_at": "Thu Jan 15 04:46:55 +0000 2026",
+    "created_at_iso": "2026-01-15T04:46:55+00:00",
+    "is_reply_to": "2011644649434464710",
+    "conversation_id": "2011468541321744512",
+    "metrics": {
+      "replies": 0,
+      "retweets": 1,
+      "likes": 4,
+      "bookmarks": 4,
+      "views": 341
+    },
+    "media": []
+  },
+  {
+    "id": "2011695170790834495",
+    "text": "@doodlestein Can you explain what meta skill does? I read the readme but still don\u2019t get it.",
+    "author_handle": "@BooniXBT",
+    "author_name": "Adam",
+    "created_at": "Thu Jan 15 07:01:18 +0000 2026",
+    "created_at_iso": "2026-01-15T07:01:18+00:00",
+    "is_reply_to": "2011468541321744512",
+    "conversation_id": "2011468541321744512",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 109
+    },
+    "media": []
+  },
+  {
+    "id": "2011730906873282679",
+    "text": "@BooniXBT It does a lot of stuff, but the main thing is automating this process I described. It looks at your agent session history and looks for repeatable processes that could be usefully turned into skills. And it\u2019s a system for managing and searching and sharing those skills.",
+    "author_handle": "@doodlestein",
+    "author_name": "Jeffrey Emanuel",
+    "created_at": "Thu Jan 15 09:23:19 +0000 2026",
+    "created_at_iso": "2026-01-15T09:23:19+00:00",
+    "is_reply_to": "2011695170790834495",
+    "conversation_id": "2011468541321744512",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 118
+    },
+    "media": []
+  },
+  {
+    "id": "2011552428810965049",
+    "text": "@doodlestein Need to add better cm integration for harmful/hurtful, success/fail, agent bc validation instead of blindly creating skills yeah? Maybe im missing that but wouldn\u2019t want a bunch of random or outdated skills",
+    "author_handle": "@iAmMikeRoth",
+    "author_name": "Mike Roth \ud83e\uddf2",
+    "created_at": "Wed Jan 14 21:34:06 +0000 2026",
+    "created_at_iso": "2026-01-14T21:34:06+00:00",
+    "is_reply_to": "2011468541321744512",
+    "conversation_id": "2011468541321744512",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 464
+    },
+    "media": []
+  },
+  {
+    "id": "2011597814493823493",
+    "text": "@iAmMikeRoth Yeah I\u2019m building a tool for skills now, ms. Just started last night so it\u2019s not done yet:\n\nhttps://t.co/Op6e0jleCa",
+    "author_handle": "@doodlestein",
+    "author_name": "Jeffrey Emanuel",
+    "created_at": "Thu Jan 15 00:34:27 +0000 2026",
+    "created_at_iso": "2026-01-15T00:34:27+00:00",
+    "is_reply_to": "2011552428810965049",
+    "conversation_id": "2011468541321744512",
+    "metrics": {
+      "replies": 3,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 2,
+      "views": 482
+    },
+    "media": []
+  },
+  {
+    "id": "2011822894792524169",
+    "text": "@doodlestein @doodlestein, that guide helps Claude produce more effective skills, improving the quality of your coding output.",
+    "author_handle": "@codewithimanshu",
+    "author_name": "Himanshu Kumar",
+    "created_at": "Thu Jan 15 15:28:50 +0000 2026",
+    "created_at_iso": "2026-01-15T15:28:50+00:00",
+    "is_reply_to": "2011468541321744512",
+    "conversation_id": "2011468541321744512",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 46
+    },
+    "media": []
+  },
+  {
+    "id": "2011598501315297535",
+    "text": "@doodlestein Gold advice as always.",
+    "author_handle": "@mysticaltech",
+    "author_name": "The Canaanite",
+    "created_at": "Thu Jan 15 00:37:11 +0000 2026",
+    "created_at_iso": "2026-01-15T00:37:11+00:00",
+    "is_reply_to": "2011468541321744512",
+    "conversation_id": "2011468541321744512",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 178
+    },
+    "media": []
+  },
+  {
+    "id": "2011533575070560275",
+    "text": "@doodlestein This is the move. Skills get dramatically better when you feed the agent a style guide + examples first, otherwise you end up with \u201cgeneric https://t.co/kttQzQXMGo\u201d that nobody reuses.\nLess clever prompting, more standard operating procedure.",
+    "author_handle": "@BrandGrowthOS",
+    "author_name": "Karim C",
+    "created_at": "Wed Jan 14 20:19:11 +0000 2026",
+    "created_at_iso": "2026-01-14T20:19:11+00:00",
+    "is_reply_to": "2011468541321744512",
+    "conversation_id": "2011468541321744512",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 1,
+      "views": 232
+    },
+    "media": []
+  },
+  {
+    "id": "2011656224887226386",
+    "text": "@doodlestein Cool as fuck.",
+    "author_handle": "@fred_pope",
+    "author_name": "Fred Pope",
+    "created_at": "Thu Jan 15 04:26:33 +0000 2026",
+    "created_at_iso": "2026-01-15T04:26:33+00:00",
+    "is_reply_to": "2011468541321744512",
+    "conversation_id": "2011468541321744512",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 94
+    },
+    "media": []
+  },
+  {
+    "id": "2011673723590320157",
+    "text": "This right here. \nTrying to get others to use Claude more often at work so will be creating skill dot md files to help the engineers. Plan is to centralize them so that they can apply the same solutions consistently for those repeatable type of actions or events. \n\nA couple that I\u2019ve made.\nCode Review Skill (based on our standards + specific library versions and yaml versions) \nSecurity Skill \nDot NET Upgrade Skill + agent script so you can just provide a text file of repo links and it\u2019ll clone and apply the skill \n\nPlan is to also have some app specific skills as well to handle any runbooks to say rerun a cron job or worker process.",
+    "author_handle": "@it_is_Randy",
+    "author_name": "Its_Randy",
+    "created_at": "Thu Jan 15 05:36:05 +0000 2026",
+    "created_at_iso": "2026-01-15T05:36:05+00:00",
+    "is_reply_to": "2011468541321744512",
+    "conversation_id": "2011468541321744512",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 1,
+      "views": 104
+    },
+    "media": []
+  },
+  {
+    "id": "2011515578381652114",
+    "text": "@doodlestein \ud83c\udfa4 \u2b07\ufe0f",
+    "author_handle": "@MOODAUSTINTEXAS",
+    "author_name": "MoodAngel \ud83d\udfe7\ud83d\udfea",
+    "created_at": "Wed Jan 14 19:07:40 +0000 2026",
+    "created_at_iso": "2026-01-14T19:07:40+00:00",
+    "is_reply_to": "2011468541321744512",
+    "conversation_id": "2011468541321744512",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 187
+    },
+    "media": []
+  },
+  {
+    "id": "2011860902447104138",
+    "text": "@doodlestein Thanks for sharing those examples! Using skills for sharing link previews and README files sounds like a real time-saver.",
+    "author_handle": "@Dev__Vishwajeet",
+    "author_name": "Vishwajeet Thakur",
+    "created_at": "Thu Jan 15 17:59:52 +0000 2026",
+    "created_at_iso": "2026-01-15T17:59:52+00:00",
+    "is_reply_to": "2011468541321744512",
+    "conversation_id": "2011468541321744512",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 8
+    },
+    "media": []
+  },
+  {
+    "id": "2011688016776147157",
+    "text": "@doodlestein Chapter 4.2 is accidentally inside a code block.",
+    "author_handle": "@s_h_long",
+    "author_name": "S. H. Long \u2022\u23b3\u2022",
+    "created_at": "Thu Jan 15 06:32:53 +0000 2026",
+    "created_at_iso": "2026-01-15T06:32:53+00:00",
+    "is_reply_to": "2011468541321744512",
+    "conversation_id": "2011468541321744512",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 48
+    },
+    "media": []
+  }
+]

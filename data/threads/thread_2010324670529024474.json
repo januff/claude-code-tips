@@ -1,0 +1,530 @@
+[
+  {
+    "id": "2010324670529024474",
+    "text": "https://t.co/XsE2CNkRqF",
+    "author_handle": "@meta_alchemist",
+    "author_name": "Meta Alchemist",
+    "created_at": "Sun Jan 11 12:15:26 +0000 2026",
+    "created_at_iso": "2026-01-11T12:15:26+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2010324670529024474",
+    "metrics": {
+      "replies": 23,
+      "retweets": 34,
+      "likes": 477,
+      "bookmarks": 815,
+      "views": 45253
+    },
+    "media": []
+  },
+  {
+    "id": "2010371561149358258",
+    "text": "@meta_alchemist curious why are you choosing Svelte over Nextjs.\n\nis it generally better to use Svelte or w specific requirements.\n\nfor my project Claude suggest Nextjs because of better Supabase integration and support.",
+    "author_handle": "@nezuron_",
+    "author_name": "Nezuron",
+    "created_at": "Sun Jan 11 15:21:45 +0000 2026",
+    "created_at_iso": "2026-01-11T15:21:45+00:00",
+    "is_reply_to": "2010324670529024474",
+    "conversation_id": "2010324670529024474",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 1,
+      "views": 1863
+    },
+    "media": []
+  },
+  {
+    "id": "2010372310050759077",
+    "text": "@nezuron_ making a post about this rn Nezuron",
+    "author_handle": "@meta_alchemist",
+    "author_name": "Meta Alchemist",
+    "created_at": "Sun Jan 11 15:24:44 +0000 2026",
+    "created_at_iso": "2026-01-11T15:24:44+00:00",
+    "is_reply_to": "2010371561149358258",
+    "conversation_id": "2010324670529024474",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 772
+    },
+    "media": []
+  },
+  {
+    "id": "2010325421372711140",
+    "text": "@meta_alchemist Meta you gotta slow down with these bangers bro.... Hahaha my bookmarks tab is crying!",
+    "author_handle": "@nonceXBT",
+    "author_name": "NONCE",
+    "created_at": "Sun Jan 11 12:18:25 +0000 2026",
+    "created_at_iso": "2026-01-11T12:18:25+00:00",
+    "is_reply_to": "2010324670529024474",
+    "conversation_id": "2010324670529024474",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 789
+    },
+    "media": []
+  },
+  {
+    "id": "2010326249571574128",
+    "text": "@nonceXBT Hahah gotta continue the proliferation non-stop",
+    "author_handle": "@meta_alchemist",
+    "author_name": "Meta Alchemist",
+    "created_at": "Sun Jan 11 12:21:42 +0000 2026",
+    "created_at_iso": "2026-01-11T12:21:42+00:00",
+    "is_reply_to": "2010325421372711140",
+    "conversation_id": "2010324670529024474",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 695
+    },
+    "media": []
+  },
+  {
+    "id": "2010326911868915875",
+    "text": "@meta_alchemist Just want to say, thank you for all the content you do.\n\nGods work.\nWe need more people like this!\ud83d\ude4c",
+    "author_handle": "@Tom_Everywhere",
+    "author_name": "Tom\u00e9 Couceiro \ud83c\uddf5\ud83c\uddf9",
+    "created_at": "Sun Jan 11 12:24:20 +0000 2026",
+    "created_at_iso": "2026-01-11T12:24:20+00:00",
+    "is_reply_to": "2010324670529024474",
+    "conversation_id": "2010324670529024474",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 212
+    },
+    "media": []
+  },
+  {
+    "id": "2010327411637063755",
+    "text": "@Tom_Everywhere It's a pleasure Tome, thanks a lot\ud83d\ude4f",
+    "author_handle": "@meta_alchemist",
+    "author_name": "Meta Alchemist",
+    "created_at": "Sun Jan 11 12:26:19 +0000 2026",
+    "created_at_iso": "2026-01-11T12:26:19+00:00",
+    "is_reply_to": "2010326911868915875",
+    "conversation_id": "2010324670529024474",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 159
+    },
+    "media": []
+  },
+  {
+    "id": "2010344445544378643",
+    "text": "@meta_alchemist Meta played a huge role in me starting out Vibecoding \n\nThanks Meta! \n\nMy first build with 100% Claude Code is going live today! \n\nAnd it\u2019s basically to help others get started with Claude Pro.",
+    "author_handle": "@memeswithace",
+    "author_name": "Ace \u2660\ufe0f",
+    "created_at": "Sun Jan 11 13:34:00 +0000 2026",
+    "created_at_iso": "2026-01-11T13:34:00+00:00",
+    "is_reply_to": "2010324670529024474",
+    "conversation_id": "2010324670529024474",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 1,
+      "views": 710
+    },
+    "media": []
+  },
+  {
+    "id": "2009699342177681823",
+    "text": "I\u2019m vibecoding a site where you can win a @claudeai Pro subscription for FREE.\n\nToo many great ideas never get built because the tools are expensive.\n\nHow it works:\n\u2192 submit your app or website idea\n\u2192 Claude AI vets it\n\u2192 the public votes\n\u2192 top 3 ideas every 24 hours get funded with claude pro\n\nThis is for anyone just starting with vibecoding on @claudeai, or builders integrating claude code into real products.\n\nbuilt with claude. vetted by claude. funded to build with claude.\n\ncoming soon.",
+    "author_handle": "@memeswithace",
+    "author_name": "Ace \u2660\ufe0f",
+    "created_at": "Fri Jan 09 18:50:36 +0000 2026",
+    "created_at_iso": "2026-01-09T18:50:36+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2009699342177681823",
+    "metrics": {
+      "replies": 4,
+      "retweets": 2,
+      "likes": 8,
+      "bookmarks": 3,
+      "views": 2908
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-Pi5U_W8AAbGQK.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2010345312536449213",
+    "text": "@memeswithace that is a very solid idea Ace, respect man!! \n\nWe can help some of the projects get funded via our launchpad too, let's chat from dms to collaborate \ud83e\udef6",
+    "author_handle": "@meta_alchemist",
+    "author_name": "Meta Alchemist",
+    "created_at": "Sun Jan 11 13:37:27 +0000 2026",
+    "created_at_iso": "2026-01-11T13:37:27+00:00",
+    "is_reply_to": "2010344445544378643",
+    "conversation_id": "2010324670529024474",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 194
+    },
+    "media": []
+  },
+  {
+    "id": "2010325257404747952",
+    "text": "@meta_alchemist Next article: how to vibe code while sleeping",
+    "author_handle": "@THISISESCANOR",
+    "author_name": "ESCANOR \ud83d\udd25",
+    "created_at": "Sun Jan 11 12:17:46 +0000 2026",
+    "created_at_iso": "2026-01-11T12:17:46+00:00",
+    "is_reply_to": "2010324670529024474",
+    "conversation_id": "2010324670529024474",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 336
+    },
+    "media": []
+  },
+  {
+    "id": "2010326355460907415",
+    "text": "@THISISESCANOR Banger idea lmao",
+    "author_handle": "@meta_alchemist",
+    "author_name": "Meta Alchemist",
+    "created_at": "Sun Jan 11 12:22:07 +0000 2026",
+    "created_at_iso": "2026-01-11T12:22:07+00:00",
+    "is_reply_to": "2010325257404747952",
+    "conversation_id": "2010324670529024474",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 296
+    },
+    "media": []
+  },
+  {
+    "id": "2010324757464707220",
+    "text": "@meta_alchemist whats vibe coding?",
+    "author_handle": "@jackkbillion",
+    "author_name": "Jack Billion",
+    "created_at": "Sun Jan 11 12:15:46 +0000 2026",
+    "created_at_iso": "2026-01-11T12:15:46+00:00",
+    "is_reply_to": "2010324670529024474",
+    "conversation_id": "2010324670529024474",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 191
+    },
+    "media": []
+  },
+  {
+    "id": "2010327299594559843",
+    "text": "@jackkbillion building anything you want with no-code AI tools",
+    "author_handle": "@meta_alchemist",
+    "author_name": "Meta Alchemist",
+    "created_at": "Sun Jan 11 12:25:52 +0000 2026",
+    "created_at_iso": "2026-01-11T12:25:52+00:00",
+    "is_reply_to": "2010324757464707220",
+    "conversation_id": "2010324670529024474",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 163
+    },
+    "media": []
+  },
+  {
+    "id": "2010685692276306270",
+    "text": "@meta_alchemist bookmarked and saved, meta always providing that value.",
+    "author_handle": "@BawsaXBT",
+    "author_name": "BAWSA",
+    "created_at": "Mon Jan 12 12:10:00 +0000 2026",
+    "created_at_iso": "2026-01-12T12:10:00+00:00",
+    "is_reply_to": "2010324670529024474",
+    "conversation_id": "2010324670529024474",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 106
+    },
+    "media": []
+  },
+  {
+    "id": "2010343346406056016",
+    "text": "@meta_alchemist an article to tell me to use Claude code on my phone, ok",
+    "author_handle": "@0xCarnival",
+    "author_name": "Boring Always Bored",
+    "created_at": "Sun Jan 11 13:29:38 +0000 2026",
+    "created_at_iso": "2026-01-11T13:29:38+00:00",
+    "is_reply_to": "2010324670529024474",
+    "conversation_id": "2010324670529024474",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 126
+    },
+    "media": []
+  },
+  {
+    "id": "2010547767618507127",
+    "text": "@meta_alchemist love this",
+    "author_handle": "@quionie",
+    "author_name": "Q",
+    "created_at": "Mon Jan 12 03:01:56 +0000 2026",
+    "created_at_iso": "2026-01-12T03:01:56+00:00",
+    "is_reply_to": "2010324670529024474",
+    "conversation_id": "2010324670529024474",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 51
+    },
+    "media": []
+  },
+  {
+    "id": "2010654550777376958",
+    "text": "@meta_alchemist Bro how do you improve the graphics of game i been stuck there",
+    "author_handle": "@_kidrah_24",
+    "author_name": "Hardik (\ud83d\udd2e)",
+    "created_at": "Mon Jan 12 10:06:15 +0000 2026",
+    "created_at_iso": "2026-01-12T10:06:15+00:00",
+    "is_reply_to": "2010324670529024474",
+    "conversation_id": "2010324670529024474",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 20
+    },
+    "media": []
+  },
+  {
+    "id": "2010360019858907513",
+    "text": "@meta_alchemist Nice read \n\nI love your style of sharing what you\u2019ve done and experienced while vibe coding \n\nKeep building",
+    "author_handle": "@seancryptiq",
+    "author_name": "Sean",
+    "created_at": "Sun Jan 11 14:35:54 +0000 2026",
+    "created_at_iso": "2026-01-11T14:35:54+00:00",
+    "is_reply_to": "2010324670529024474",
+    "conversation_id": "2010324670529024474",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 80
+    },
+    "media": []
+  },
+  {
+    "id": "2010473689129656735",
+    "text": "@meta_alchemist Why no expo/react-native for cross platform mobile apps? I have been working in a few expo codebases and opus does really well with this stack",
+    "author_handle": "@code_geek91",
+    "author_name": "0x_2geek",
+    "created_at": "Sun Jan 11 22:07:34 +0000 2026",
+    "created_at_iso": "2026-01-11T22:07:34+00:00",
+    "is_reply_to": "2010324670529024474",
+    "conversation_id": "2010324670529024474",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 38
+    },
+    "media": []
+  },
+  {
+    "id": "2010566963106640366",
+    "text": "@meta_alchemist Currently sucks for teams using Azure pipelines as you cannot directly connect to github",
+    "author_handle": "@realaditya",
+    "author_name": "Aditya",
+    "created_at": "Mon Jan 12 04:18:13 +0000 2026",
+    "created_at_iso": "2026-01-12T04:18:13+00:00",
+    "is_reply_to": "2010324670529024474",
+    "conversation_id": "2010324670529024474",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 24
+    },
+    "media": []
+  },
+  {
+    "id": "2010403886893580426",
+    "text": "@meta_alchemist Use fire base in google cloud.\n\nGib hub will super suck in maximum production.",
+    "author_handle": "@pandresgq",
+    "author_name": "Andr\u00e9s",
+    "created_at": "Sun Jan 11 17:30:12 +0000 2026",
+    "created_at_iso": "2026-01-11T17:30:12+00:00",
+    "is_reply_to": "2010324670529024474",
+    "conversation_id": "2010324670529024474",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 44
+    },
+    "media": []
+  },
+  {
+    "id": "2010343528044368063",
+    "text": "@meta_alchemist @SaveToNotion",
+    "author_handle": "@nglprz",
+    "author_name": "NGLPRZ",
+    "created_at": "Sun Jan 11 13:30:22 +0000 2026",
+    "created_at_iso": "2026-01-11T13:30:22+00:00",
+    "is_reply_to": "2010324670529024474",
+    "conversation_id": "2010324670529024474",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 8
+    },
+    "media": []
+  },
+  {
+    "id": "2010683808492945598",
+    "text": "@meta_alchemist You forgot first you have be a membership of Apple Developer and Google Player \ud83d\ude05",
+    "author_handle": "@nexteacc",
+    "author_name": "Yang (\u65b0\u5341\u5e74)",
+    "created_at": "Mon Jan 12 12:02:31 +0000 2026",
+    "created_at_iso": "2026-01-12T12:02:31+00:00",
+    "is_reply_to": "2010324670529024474",
+    "conversation_id": "2010324670529024474",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 25
+    },
+    "media": []
+  },
+  {
+    "id": "2010409510989685025",
+    "text": "@meta_alchemist thanks for sharing and looking forward to specific examples using mobile app",
+    "author_handle": "@HaaaileyLiu",
+    "author_name": "Hailey",
+    "created_at": "Sun Jan 11 17:52:33 +0000 2026",
+    "created_at_iso": "2026-01-11T17:52:33+00:00",
+    "is_reply_to": "2010324670529024474",
+    "conversation_id": "2010324670529024474",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 48
+    },
+    "media": []
+  },
+  {
+    "id": "2010472552817398085",
+    "text": "@meta_alchemist If you\u2019re building for iOS you can leverage Xcode Cloud workflows to deploy on device too",
+    "author_handle": "@maxretik",
+    "author_name": "Max Retik",
+    "created_at": "Sun Jan 11 22:03:04 +0000 2026",
+    "created_at_iso": "2026-01-11T22:03:04+00:00",
+    "is_reply_to": "2010324670529024474",
+    "conversation_id": "2010324670529024474",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 52
+    },
+    "media": []
+  },
+  {
+    "id": "2010424823542100145",
+    "text": "@meta_alchemist Good article, but small correction (and one of my big pain points!): you can\u2019t make a new repo from the GitHub mobile app.\n\nRight now my workaround is to make a bunch of sandboxes ahead of time and hop into them later as I have ideas, wish it was easier though!",
+    "author_handle": "@ajmautomates",
+    "author_name": "Adam",
+    "created_at": "Sun Jan 11 18:53:24 +0000 2026",
+    "created_at_iso": "2026-01-11T18:53:24+00:00",
+    "is_reply_to": "2010324670529024474",
+    "conversation_id": "2010324670529024474",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 57
+    },
+    "media": []
+  },
+  {
+    "id": "2010324943784087814",
+    "text": "@meta_alchemist lets vibe and code fam",
+    "author_handle": "@2fast2lucky",
+    "author_name": "Wealthy \u0628\u0627\u0634\u0627 Pasha",
+    "created_at": "Sun Jan 11 12:16:31 +0000 2026",
+    "created_at_iso": "2026-01-11T12:16:31+00:00",
+    "is_reply_to": "2010324670529024474",
+    "conversation_id": "2010324670529024474",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 4
+    },
+    "media": []
+  },
+  {
+    "id": "2010546202173939779",
+    "text": "@meta_alchemist i\u2019ve been using claude mobile &amp; cursor web agents on my mobile phone while commuting to and from work and it\u2019s been an insane productivity boost \n\nfor example one thing I love to do is run remote agents to review your pr\u2019s since they already have repo access",
+    "author_handle": "@chriscmathew",
+    "author_name": "mathews",
+    "created_at": "Mon Jan 12 02:55:43 +0000 2026",
+    "created_at_iso": "2026-01-12T02:55:43+00:00",
+    "is_reply_to": "2010324670529024474",
+    "conversation_id": "2010324670529024474",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 40
+    },
+    "media": []
+  }
+]

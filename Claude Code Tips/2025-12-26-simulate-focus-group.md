@@ -19,7 +19,7 @@ url: "https://x.com/tyhouch/status/2004678013020168195"
 
 ## Summary
 
-“Please review this project and simulate a focus group with potential users
+This Claude tip demonstrates a powerful technique for gathering user feedback on a project. By prompting Claude to simulate a focus group and then synthesize the results into a summary document, you can efficiently filter out noise and identify key insights. The core action is using Claude for simulated qualitative research and automated reporting.
 
 
 > [!metrics]- Engagement & Metadata

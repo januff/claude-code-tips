@@ -1,0 +1,326 @@
+[
+  {
+    "id": "2011116478008103274",
+    "text": "Prompts really are all you need. I'm sharing 3 stupid simple skills that greatly improve how I use coding agents. https://t.co/6HTvlZ8Yg0",
+    "author_handle": "@sawyerhood",
+    "author_name": "Sawyer Hood",
+    "created_at": "Tue Jan 13 16:41:47 +0000 2026",
+    "created_at_iso": "2026-01-13T16:41:47+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2011116478008103274",
+    "metrics": {
+      "replies": 7,
+      "retweets": 4,
+      "likes": 59,
+      "bookmarks": 163,
+      "views": 15196
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-hj7WLbQAAz_Ry.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2011116479505457163",
+    "text": "1. Code Walkthrough - This is how I vibe code without flying blind. It generates an in-browser overview of what changed: architecture, crucial snippets, and no fluff. https://t.co/6khca1TuKi",
+    "author_handle": "@sawyerhood",
+    "author_name": "Sawyer Hood",
+    "created_at": "Tue Jan 13 16:41:48 +0000 2026",
+    "created_at_iso": "2026-01-13T16:41:48+00:00",
+    "is_reply_to": "2011116478008103274",
+    "conversation_id": "2011116478008103274",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 42,
+      "bookmarks": 48,
+      "views": 4292
+    },
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2010967058880901120/img/gElHQvlfxYJQllRO.jpg",
+        "video_url": "https://video.twimg.com/amplify_video/2010967058880901120/vid/avc1/360x270/FVXgLjzUwe8HKw8h.mp4?tag=21"
+      }
+    ]
+  },
+  {
+    "id": "2011116480960872668",
+    "text": "2. Library Docs - Context7 is so 2025. This skill finds libraries on GitHub, clones them, and spins up an explore agent to answer questions. This is killer for bleeding-edge deps!",
+    "author_handle": "@sawyerhood",
+    "author_name": "Sawyer Hood",
+    "created_at": "Tue Jan 13 16:41:48 +0000 2026",
+    "created_at_iso": "2026-01-13T16:41:48+00:00",
+    "is_reply_to": "2011116479505457163",
+    "conversation_id": "2011116478008103274",
+    "metrics": {
+      "replies": 5,
+      "retweets": 4,
+      "likes": 63,
+      "bookmarks": 97,
+      "views": 35813
+    },
+    "media": []
+  },
+  {
+    "id": "2011116482122694841",
+    "text": "3. workflow - \"We have Conductor at home.\" Has the overview of how to use git worktrees for my projects. I often use it as a slash command to go from plan -&gt; worktree.",
+    "author_handle": "@sawyerhood",
+    "author_name": "Sawyer Hood",
+    "created_at": "Tue Jan 13 16:41:48 +0000 2026",
+    "created_at_iso": "2026-01-13T16:41:48+00:00",
+    "is_reply_to": "2011116480960872668",
+    "conversation_id": "2011116478008103274",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 17,
+      "bookmarks": 12,
+      "views": 4213
+    },
+    "media": []
+  },
+  {
+    "id": "2011116483414540299",
+    "text": "Check them out here at https://t.co/cT9Rk9OCmW",
+    "author_handle": "@sawyerhood",
+    "author_name": "Sawyer Hood",
+    "created_at": "Tue Jan 13 16:41:49 +0000 2026",
+    "created_at_iso": "2026-01-13T16:41:49+00:00",
+    "is_reply_to": "2011116482122694841",
+    "conversation_id": "2011116478008103274",
+    "metrics": {
+      "replies": 3,
+      "retweets": 0,
+      "likes": 32,
+      "bookmarks": 85,
+      "views": 4382
+    },
+    "media": []
+  },
+  {
+    "id": "2011118693171003710",
+    "text": "@sawyerhood @trq212 Bruv you left out your main skill! \n\ndev-browsseerrrrr\n\nLibrary docs looks cool\n\nI do that manually all the time",
+    "author_handle": "@nummanali",
+    "author_name": "Numman Ali",
+    "created_at": "Tue Jan 13 16:50:35 +0000 2026",
+    "created_at_iso": "2026-01-13T16:50:35+00:00",
+    "is_reply_to": "2011116478008103274",
+    "conversation_id": "2011116478008103274",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 2,
+      "views": 687
+    },
+    "media": []
+  },
+  {
+    "id": "2011119013619957785",
+    "text": "@nummanali @trq212 hahaha i've done enough promoting on it and i don't want to keep it in sync in the marketplace",
+    "author_handle": "@sawyerhood",
+    "author_name": "Sawyer Hood",
+    "created_at": "Tue Jan 13 16:51:52 +0000 2026",
+    "created_at_iso": "2026-01-13T16:51:52+00:00",
+    "is_reply_to": "2011118693171003710",
+    "conversation_id": "2011116478008103274",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 463
+    },
+    "media": []
+  },
+  {
+    "id": "2011169117689012508",
+    "text": "@sawyerhood I\u2019m kinda surprised there are 0 hooks! But maybe that\u2019s me thinking in Opus 4, and I should just trust 4.5 to know which tool to pick and when\u2026",
+    "author_handle": "@chrisd9r",
+    "author_name": "Chris Dehghanpoor",
+    "created_at": "Tue Jan 13 20:10:58 +0000 2026",
+    "created_at_iso": "2026-01-13T20:10:58+00:00",
+    "is_reply_to": "2011116478008103274",
+    "conversation_id": "2011116478008103274",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 293
+    },
+    "media": []
+  },
+  {
+    "id": "2011200173222084880",
+    "text": "@sawyerhood approved https://t.co/dYh5b3Qyai",
+    "author_handle": "@muratsutunc",
+    "author_name": "Murat Sutunc",
+    "created_at": "Tue Jan 13 22:14:22 +0000 2026",
+    "created_at_iso": "2026-01-13T22:14:22+00:00",
+    "is_reply_to": "2011116478008103274",
+    "conversation_id": "2011116478008103274",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 177
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-k32xZbQAMiN0Z.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2011144136058097798",
+    "text": "@sawyerhood You shouldve added the dev-browser skill here too!",
+    "author_handle": "@taheerBuilds",
+    "author_name": "taheer ahmed",
+    "created_at": "Tue Jan 13 18:31:41 +0000 2026",
+    "created_at_iso": "2026-01-13T18:31:41+00:00",
+    "is_reply_to": "2011116478008103274",
+    "conversation_id": "2011116478008103274",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 193
+    },
+    "media": []
+  },
+  {
+    "id": "2011140409834291615",
+    "text": "@sawyerhood In addition to a code walkthrough, I like a \u201ccode quiz\u201d where I prompt it to ask me questions to find where my gaps in understanding are. If code gen and review are no longer bottlenecks, maybe comprehension is where we focus",
+    "author_handle": "@breenemachine",
+    "author_name": "Cody",
+    "created_at": "Tue Jan 13 18:16:53 +0000 2026",
+    "created_at_iso": "2026-01-13T18:16:53+00:00",
+    "is_reply_to": "2011116478008103274",
+    "conversation_id": "2011116478008103274",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 163
+    },
+    "media": []
+  },
+  {
+    "id": "2011389645079351548",
+    "text": "@sawyerhood Love this. #1 is real good. IndyDevDan mentioned it in Claude Output Style I think.\n\nFor Worktrees, I found WorkTrunk recently which makes syntax simpler but automating is better.",
+    "author_handle": "@StartupSpells",
+    "author_name": "Akshay from Startup Spells \ud83e\ude84",
+    "created_at": "Wed Jan 14 10:47:15 +0000 2026",
+    "created_at_iso": "2026-01-14T10:47:15+00:00",
+    "is_reply_to": "2011116478008103274",
+    "conversation_id": "2011116478008103274",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 128
+    },
+    "media": []
+  },
+  {
+    "id": "2021325859009826980",
+    "text": "\"I absolutely loved Alex and Michelle story, and so will you. Thanks Cynthia for another wonderful book!\" HER ROYAL COWBOY BILLIONAIRE! Kobo: https://t.co/1nBuhYJDwG #mustread #western #historical #romance #MontanaBillionaires",
+    "author_handle": "@CynthiaWoolf",
+    "author_name": "Cynthia Woolf",
+    "created_at": "Tue Feb 10 20:50:13 +0000 2026",
+    "created_at_iso": "2026-02-10T20:50:13+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2021325859009826980",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 21
+    },
+    "media": []
+  },
+  {
+    "id": "2020913232957804996",
+    "text": "That's one menacing 5!\n\nLooks like some tough competition among Team ZAPS in SPSFC 5. Good luck to everyone else being judged! \ud83d\ude4f https://t.co/DUEisjnIfa",
+    "author_handle": "@JoshSEdwards",
+    "author_name": "Joshua Scott Edwards \u2600\ufe0f",
+    "created_at": "Mon Feb 09 17:30:36 +0000 2026",
+    "created_at_iso": "2026-02-09T17:30:36+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2020913232957804996",
+    "metrics": {
+      "replies": 1,
+      "retweets": 1,
+      "likes": 4,
+      "bookmarks": 0,
+      "views": 208
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HAu5sT5WsAA8Fxa.png",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2021316238945767575",
+    "text": "History, mystery and romance! The Hartford Manor Series is a heart-warming 19th-century family saga set in Victorian Devon.\nhttps://t.co/xDbCvC6PEC\nhttps://t.co/7WT3LAIHmO\n#historicalfiction #Victorian #Romance https://t.co/FLewDDBQmP",
+    "author_handle": "@MarciaC89111861",
+    "author_name": "Marcia Clayton",
+    "created_at": "Tue Feb 10 20:12:00 +0000 2026",
+    "created_at_iso": "2026-02-10T20:12:00+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2021316238945767575",
+    "metrics": {
+      "replies": 1,
+      "retweets": 1,
+      "likes": 3,
+      "bookmarks": 0,
+      "views": 54
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HAkU2ZYWEAAjkeH.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2021272845087605068",
+    "text": "Coming back to a WIP after being away from it for a while... https://t.co/vhzwtOs3ZE",
+    "author_handle": "@JeneeDutary",
+    "author_name": "Jenee is on Goodreads!",
+    "created_at": "Tue Feb 10 17:19:34 +0000 2026",
+    "created_at_iso": "2026-02-10T17:19:34+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2021272845087605068",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 12,
+      "bookmarks": 0,
+      "views": 164
+    },
+    "media": [
+      {
+        "type": "animated_gif",
+        "url": "https://pbs.twimg.com/tweet_video_thumb/HA0A75aaAAEykfT.jpg",
+        "video_url": "https://video.twimg.com/tweet_video/HA0A75aaAAEykfT.mp4"
+      }
+    ]
+  }
+]

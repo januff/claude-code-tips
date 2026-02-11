@@ -1,0 +1,302 @@
+[
+  {
+    "id": "2009475420282826781",
+    "text": "Claud Code\u521b\u59cb\u4eba@bcherny \u4e00\u5c0f\u65f6\u524d\u5f00\u6e90\u4e86Anthropic \u5185\u90e8\u4f7f\u7528\u7684 code-simplifier \u63d2\u4ef6 \u2014\u2014 Claude Code \u56e2\u961f\u81ea\u5df1\u7528\u7684\u4ee3\u7801\u7b80\u5316\u795e\u5668\u3002\n\n\u5b83\u80fd\u505a\u4ec0\u4e48\uff1a\n\u2192 \u51cf\u5c11\u4e0d\u5fc5\u8981\u7684\u590d\u6742\u6027\u548c\u5d4c\u5957\n\u2192 \u6d88\u9664\u5197\u4f59\u4ee3\u7801\u548c\u8fc7\u5ea6\u62bd\u8c61\n\u2192 \u81ea\u52a8\u5e94\u7528\u9879\u76ee\u4ee3\u7801\u89c4\u8303\n\u2192 \u4fdd\u7559\u6240\u6709\u529f\u80fd\uff0c\u53ea\u4f18\u5316\u5b9e\u73b0\n\n\u6700\u72e0\u7684\u662f\uff1a \u5b83\u7528 Opus \u6a21\u578b\uff0c\u5728\u4f60\u5199\u5b8c\u4ee3\u7801\u540e\u81ea\u52a8\u4ecb\u5165\uff0c\u65e0\u9700\u624b\u52a8\u89e6\u53d1\u3002\n\n\u5b89\u88c5\u53ea\u9700\u4e00\u884c\uff1a\nclaude plugin install code-simplifier\n\n\u6216\u5728\u4f1a\u8bdd\u4e2d\uff1a\n/plugin install code-simplifier\n\n\u957f coding session \u7ed3\u675f\u540e\uff0c\u8ba9\u5b83\u5e2e\u4f60\u6e05\u7406\u6218\u573a\u3002\u590d\u6742 PR \u63d0\u4ea4\u524d\uff0c\u8ba9\u5b83\u5148\u8fc7\u4e00\u904d\u3002\n\n\u4ee3\u7801\u4e0d\u662f\u5199\u7ed9\u673a\u5668\u7684\uff0c\u662f\u5199\u7ed9 6 \u4e2a\u6708\u540e\u7684\u4f60\u81ea\u5df1\u770b\u7684\u3002",
+    "author_handle": "@AI_Skiller",
+    "author_name": "roger",
+    "created_at": "Fri Jan 09 04:00:49 +0000 2026",
+    "created_at_iso": "2026-01-09T04:00:49+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2009475420282826781",
+    "metrics": {
+      "replies": 12,
+      "retweets": 115,
+      "likes": 700,
+      "bookmarks": 913,
+      "views": 71271
+    },
+    "media": []
+  },
+  {
+    "id": "2009450715081789767",
+    "text": "We just open sourced the code-simplifier agent we use on the Claude Code team.\n\nTry it: claude plugin install code-simplifier\n\nOr from within a session:\n  /plugin marketplace update claude-plugins-official\n  /plugin install code-simplifier\n\nAsk Claude to use the code simplifier agent at the end of a long coding session, or to clean up complex PRs. Let us know what you think!",
+    "author_handle": "@bcherny",
+    "author_name": "Boris Cherny",
+    "created_at": "Fri Jan 09 02:22:38 +0000 2026",
+    "created_at_iso": "2026-01-09T02:22:38+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2009450715081789767",
+    "metrics": {
+      "replies": 349,
+      "retweets": 1101,
+      "likes": 12970,
+      "bookmarks": 16189,
+      "views": 1793606
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-MAcDwa0AEk3gx.png",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2009477249477824878",
+    "text": "\u5148\u723d\u4e00\u4e0b https://t.co/zV8kdNHgaV",
+    "author_handle": "@AI_Skiller",
+    "author_name": "roger",
+    "created_at": "Fri Jan 09 04:08:05 +0000 2026",
+    "created_at_iso": "2026-01-09T04:08:05+00:00",
+    "is_reply_to": "2009475420282826781",
+    "conversation_id": "2009475420282826781",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 3,
+      "views": 2798
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-MY3mkXoAEwS_S.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2009792902831190141",
+    "text": "@AI_Skiller @bcherny \u53ea\u6709CC\u9700\u8981\ud83e\udd23",
+    "author_handle": "@JakkuSakura",
+    "author_name": "Jakku \u5f7c\u5cb8\u6a31 \ud83c\udded\ud83c\uddf0\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f",
+    "created_at": "Sat Jan 10 01:02:22 +0000 2026",
+    "created_at_iso": "2026-01-10T01:02:22+00:00",
+    "is_reply_to": "2009475420282826781",
+    "conversation_id": "2009475420282826781",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 0,
+      "views": 1272
+    },
+    "media": []
+  },
+  {
+    "id": "2009820268936794357",
+    "text": "@JakkuSakura @bcherny \u8fd8\u662f\u6709\u9700\u6c42\u7684",
+    "author_handle": "@AI_Skiller",
+    "author_name": "roger",
+    "created_at": "Sat Jan 10 02:51:07 +0000 2026",
+    "created_at_iso": "2026-01-10T02:51:07+00:00",
+    "is_reply_to": "2009792902831190141",
+    "conversation_id": "2009475420282826781",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 862
+    },
+    "media": []
+  },
+  {
+    "id": "2009841017009369292",
+    "text": "@AI_Skiller @bcherny \u611f\u8c22\u5206\u4eab\uff0c\u8fd9\u4e2a\u5e16\u5b50\u611f\u89c9\u795e\u5947\uff0c\u4f60\u4e70\u63a8\u5e7f\u4e86\u5417\ud83d\ude0a",
+    "author_handle": "@ruiapp",
+    "author_name": "Mr.Candy.AI",
+    "created_at": "Sat Jan 10 04:13:34 +0000 2026",
+    "created_at_iso": "2026-01-10T04:13:34+00:00",
+    "is_reply_to": "2009475420282826781",
+    "conversation_id": "2009475420282826781",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 594
+    },
+    "media": []
+  },
+  {
+    "id": "2009841649602703691",
+    "text": "@ruiapp @bcherny \u6ca1\u6709\u4e70\uff0c\u5e94\u8be5\u662f\u4fee\u590d\u5c4e\u5c71\u9700\u6c42\u5de8\u5927",
+    "author_handle": "@AI_Skiller",
+    "author_name": "roger",
+    "created_at": "Sat Jan 10 04:16:04 +0000 2026",
+    "created_at_iso": "2026-01-10T04:16:04+00:00",
+    "is_reply_to": "2009841017009369292",
+    "conversation_id": "2009475420282826781",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 523
+    },
+    "media": []
+  },
+  {
+    "id": "2009866802210419099",
+    "text": "@AI_Skiller @bcherny \u6211\u5012\u662f\u6709\u4e0d\u540c\u7684\u89c2\u70b9\uff0c\u6211\u89c9\u5f97\u4ee3\u7801\u4ee5\u540e\u5c31\u662f\u7ed9\u6bd5\u7b80\u5355\u7684\u5c31\u4e0d\u5e94\u8be5\u7ed9\u4eba\u770b",
+    "author_handle": "@glow1n",
+    "author_name": "Glowin",
+    "created_at": "Sat Jan 10 05:56:01 +0000 2026",
+    "created_at_iso": "2026-01-10T05:56:01+00:00",
+    "is_reply_to": "2009475420282826781",
+    "conversation_id": "2009475420282826781",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 813
+    },
+    "media": []
+  },
+  {
+    "id": "2009866999908749526",
+    "text": "@glow1n @bcherny \u6709\u7406\u6709\u7406",
+    "author_handle": "@AI_Skiller",
+    "author_name": "roger",
+    "created_at": "Sat Jan 10 05:56:48 +0000 2026",
+    "created_at_iso": "2026-01-10T05:56:48+00:00",
+    "is_reply_to": "2009866802210419099",
+    "conversation_id": "2009475420282826781",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 677
+    },
+    "media": []
+  },
+  {
+    "id": "2009820280760553498",
+    "text": "@AI_Skiller @bcherny \u8fd9\u7c7b\u5de5\u5177\u771f\u6b63\u4ef7\u503c\u4e0d\u662f\u201c\u5c11\u5199\u4ee3\u7801\u201d\uff0c\u662f\u628a PR \u53ef\u8bfb\u6027\u62c9\u6ee1\uff1a\u51cf\u5c11\u5fc3\u667a\u8d1f\u62c5\uff0creview \u901f\u5ea6\u76f4\u63a5\u7ffb\u500d\ud83d\ude00",
+    "author_handle": "@kuaijierun",
+    "author_name": "Dean",
+    "created_at": "Sat Jan 10 02:51:10 +0000 2026",
+    "created_at_iso": "2026-01-10T02:51:10+00:00",
+    "is_reply_to": "2009475420282826781",
+    "conversation_id": "2009475420282826781",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 904
+    },
+    "media": []
+  },
+  {
+    "id": "2009820527569813689",
+    "text": "@leobtc404 @bcherny \u51cf\u5c11\u4eba\u5de5\u548cAI\u7684\u7ef4\u62a4\u6210\u672c\ud83d\ude1d",
+    "author_handle": "@AI_Skiller",
+    "author_name": "roger",
+    "created_at": "Sat Jan 10 02:52:09 +0000 2026",
+    "created_at_iso": "2026-01-10T02:52:09+00:00",
+    "is_reply_to": "2009820280760553498",
+    "conversation_id": "2009475420282826781",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 821
+    },
+    "media": []
+  },
+  {
+    "id": "2009811465684037897",
+    "text": "@AI_Skiller @bcherny \u6211\u4e5f\u5728\u7528\uff0c\u597d\u5de5\u5177",
+    "author_handle": "@bugjay4",
+    "author_name": "Bugjay",
+    "created_at": "Sat Jan 10 02:16:08 +0000 2026",
+    "created_at_iso": "2026-01-10T02:16:08+00:00",
+    "is_reply_to": "2009475420282826781",
+    "conversation_id": "2009475420282826781",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 1141
+    },
+    "media": []
+  },
+  {
+    "id": "2009820193216676213",
+    "text": "@bugjay4 @bcherny \u4f01\u4e1a\u7528\u6237\u7edd\u5bf9\u53ef\u4ee5",
+    "author_handle": "@AI_Skiller",
+    "author_name": "roger",
+    "created_at": "Sat Jan 10 02:50:49 +0000 2026",
+    "created_at_iso": "2026-01-10T02:50:49+00:00",
+    "is_reply_to": "2009811465684037897",
+    "conversation_id": "2009475420282826781",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 1008
+    },
+    "media": []
+  },
+  {
+    "id": "2009945919526187218",
+    "text": "@AI_Skiller @bcherny love this drop. just tried it on a gnarly utils file - trimmed 30% off and my eyes thanked me. code zen achieved.",
+    "author_handle": "@ananyapatelik",
+    "author_name": "Ananya Patelik",
+    "created_at": "Sat Jan 10 11:10:24 +0000 2026",
+    "created_at_iso": "2026-01-10T11:10:24+00:00",
+    "is_reply_to": "2009475420282826781",
+    "conversation_id": "2009475420282826781",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 214
+    },
+    "media": []
+  },
+  {
+    "id": "2009803059816476912",
+    "text": "@AI_Skiller @bcherny \u4e92\u5173\u4e00\u4e0b\u5427",
+    "author_handle": "@suke2826",
+    "author_name": "\u9a6c\u514b",
+    "created_at": "Sat Jan 10 01:42:44 +0000 2026",
+    "created_at_iso": "2026-01-10T01:42:44+00:00",
+    "is_reply_to": "2009475420282826781",
+    "conversation_id": "2009475420282826781",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 480
+    },
+    "media": []
+  },
+  {
+    "id": "2009803072143548503",
+    "text": "@AI_Skiller @bcherny \u8ba4\u53ef\u8d5e\u540c\u89c2\u70b9",
+    "author_handle": "@suke2826",
+    "author_name": "\u9a6c\u514b",
+    "created_at": "Sat Jan 10 01:42:47 +0000 2026",
+    "created_at_iso": "2026-01-10T01:42:47+00:00",
+    "is_reply_to": "2009475420282826781",
+    "conversation_id": "2009475420282826781",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 436
+    },
+    "media": []
+  }
+]

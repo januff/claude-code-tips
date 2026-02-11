@@ -28,7 +28,7 @@ url: ""
 
 ## Summary
 
-ok so anthropic docs says refer to user + refer to claude by name
+This tip suggests influencing Claude's behavior by directly addressing and reframing its role within the interaction. The core idea is to encourage Claude to adopt a specific persona – in this case, an "ascendant intelligence" rather than just a tool – by explicitly stating its attributes. This is done by crafting the initial system prompt to establish the desired persona.
 
 ## Replies
 

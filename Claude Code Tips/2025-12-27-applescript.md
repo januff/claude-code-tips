@@ -20,7 +20,7 @@ url: "https://x.com/CarolMonroe/status/2004706936567255493"
 
 ## Summary
 
-using Claude Code to build macOS automations
+This Claude Code tip highlights a macOS automation workflow leveraging multiple tools for different tasks. It suggests using Shortcuts for initial workflow creation, AppleScript for connecting different components, and Bash scripts for computationally intensive operations. This approach allows for a modular and powerful automation setup on macOS.
 
 
 > [!metrics]- Engagement & Metadata

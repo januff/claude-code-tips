@@ -43,6 +43,10 @@ url: "https://x.com/DanielleFong/status/2007342908878533028"
 >
 > Likes: 239 · Replies: 11 · Reposts: 9
 
+## Summary
+
+This Claude code tip explores using "nano banana" with a KV cache to create a persistent visual memory, significantly enhancing the model's capabilities. The technique demonstrates high-bandwidth content support across models, enabling a continuous visual narrative and cross-model communication (Claude prompts, Gemini renders). The KV cache functions as a persistent, folder-based memory system, enabling sequential image generation and resonant interactions between models.
+
 ## Replies
 
 > [!reply] @Yuchenj_UW · Sat Jan 03 18:02:16 +0000 2026

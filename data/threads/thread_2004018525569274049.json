@@ -1,0 +1,662 @@
+[
+  {
+    "id": "2004018525569274049",
+    "text": "https://t.co/aPnhSXqZPQ\n\ncontinuous claude  v2 is now up - a setup designed to tackle the scarcest resource in coding: context\n\nexplaining the reasoning behind features below \u2193",
+    "author_handle": "@parcadei",
+    "author_name": "dei",
+    "created_at": "Thu Dec 25 02:37:04 +0000 2025",
+    "created_at_iso": "2025-12-25T02:37:04+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2004018525569274049",
+    "metrics": {
+      "replies": 47,
+      "retweets": 68,
+      "likes": 1019,
+      "bookmarks": 1977,
+      "views": 330122
+    },
+    "media": []
+  },
+  {
+    "id": "2004018527577985370",
+    "text": "I ended up with Continuous Claude compaction & context management became a problem.\n\nAfter a long session you've compacted 15 times. You're working with a summary of a summary of a summary.\n\nClaude forgets what you're building, hallucinates features and adds redundant code. \n\nwhat can start as a great session becomes a shouting/begging match with claude",
+    "author_handle": "@parcadei",
+    "author_name": "dei",
+    "created_at": "Thu Dec 25 02:37:04 +0000 2025",
+    "created_at_iso": "2025-12-25T02:37:04+00:00",
+    "is_reply_to": "2004018525569274049",
+    "conversation_id": "2004018525569274049",
+    "metrics": {
+      "replies": 2,
+      "retweets": 1,
+      "likes": 36,
+      "bookmarks": 13,
+      "views": 15490
+    },
+    "media": []
+  },
+  {
+    "id": "2004018529272541507",
+    "text": "First problem: MCP\n\nModel Context Protocol, more like Context Eating Protocol\n\nThey're brilliant but they're token hungry.\n\n4-5 MCPs attached, 60-70 tools available led to 60,000 tokens eaten before I'd typed a message.\n\nThe solution is MCP code execution so claude runs MCPs through skills that trigger scripts.\n\nno more juggling which MCPs to turn on/off and context isn't polluted",
+    "author_handle": "@parcadei",
+    "author_name": "dei",
+    "created_at": "Thu Dec 25 02:37:04 +0000 2025",
+    "created_at_iso": "2025-12-25T02:37:04+00:00",
+    "is_reply_to": "2004018527577985370",
+    "conversation_id": "2004018525569274049",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 41,
+      "bookmarks": 21,
+      "views": 9512
+    },
+    "media": []
+  },
+  {
+    "id": "2004018531042484517",
+    "text": "Second problem: where does the work happen?\n\nYou plan a feature then instruct  Claude to implement but half way through you hit compaction and it's up to the server gods if it might work.\n\nThe answer is agents that spawn with fresh context.\n\nWhen you spawn an agent, it gets a clean context window and if you orchestrate them well,  your main conversation becomes the control panel.",
+    "author_handle": "@parcadei",
+    "author_name": "dei",
+    "created_at": "Thu Dec 25 02:37:05 +0000 2025",
+    "created_at_iso": "2025-12-25T02:37:05+00:00",
+    "is_reply_to": "2004018529272541507",
+    "conversation_id": "2004018525569274049",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 30,
+      "bookmarks": 10,
+      "views": 7698
+    },
+    "media": []
+  },
+  {
+    "id": "2004018532841828499",
+    "text": "Third problem: context hygiene requires manual effort.\n\nI'd have to remember to tell Claude to update ledgers, create handoffs, mark outcomes.\n\nAnd when you're in flow, you tend to forget.\n\nThe solution is to have hooks set up so Claude watches your context window and recommends to save state, create a hand off and /clear.",
+    "author_handle": "@parcadei",
+    "author_name": "dei",
+    "created_at": "Thu Dec 25 02:37:05 +0000 2025",
+    "created_at_iso": "2025-12-25T02:37:05+00:00",
+    "is_reply_to": "2004018531042484517",
+    "conversation_id": "2004018525569274049",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 27,
+      "bookmarks": 7,
+      "views": 6547
+    },
+    "media": []
+  },
+  {
+    "id": "2004018534582796302",
+    "text": "Fourth Problem: shit, i forgot to trigger the skill.\n\nThis solves my own context problem, rather than typing skill names, I say the trigger word and it auto-activates:  \"create plan\" \u2192 plan-agent spawns\n\nthis way I could focus more on execution and less on skill activation",
+    "author_handle": "@parcadei",
+    "author_name": "dei",
+    "created_at": "Thu Dec 25 02:37:06 +0000 2025",
+    "created_at_iso": "2025-12-25T02:37:06+00:00",
+    "is_reply_to": "2004018532841828499",
+    "conversation_id": "2004018525569274049",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 21,
+      "bookmarks": 5,
+      "views": 5689
+    },
+    "media": []
+  },
+  {
+    "id": "2004018536466075873",
+    "text": "Fifth Problem: wtf why is this not working claude?\n\n@braintrust comes in clutch here - braintrust tracing captures every turn, every tool call, every message. Claude can now debug with perfect clarity",
+    "author_handle": "@parcadei",
+    "author_name": "dei",
+    "created_at": "Thu Dec 25 02:37:06 +0000 2025",
+    "created_at_iso": "2025-12-25T02:37:06+00:00",
+    "is_reply_to": "2004018534582796302",
+    "conversation_id": "2004018525569274049",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 23,
+      "bookmarks": 11,
+      "views": 5168
+    },
+    "media": []
+  },
+  {
+    "id": "2004018538303062290",
+    "text": "Sixth Problem: the fucking codebase is too big\n\n@RepoPrompt solves this problem by outsourcing context-building externally which means I can keep the main conversation clean and get back what we need to know",
+    "author_handle": "@parcadei",
+    "author_name": "dei",
+    "created_at": "Thu Dec 25 02:37:07 +0000 2025",
+    "created_at_iso": "2025-12-25T02:37:07+00:00",
+    "is_reply_to": "2004018536466075873",
+    "conversation_id": "2004018525569274049",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 23,
+      "bookmarks": 7,
+      "views": 4862
+    },
+    "media": []
+  },
+  {
+    "id": "2004018540194722155",
+    "text": "Seventh Problem: ffs claude, that's deprecated\n\nNia from @nozomioai actually eats less context than Context7 in my experience which makes the validation of plans so much smoother",
+    "author_handle": "@parcadei",
+    "author_name": "dei",
+    "created_at": "Thu Dec 25 02:37:07 +0000 2025",
+    "created_at_iso": "2025-12-25T02:37:07+00:00",
+    "is_reply_to": "2004018538303062290",
+    "conversation_id": "2004018525569274049",
+    "metrics": {
+      "replies": 3,
+      "retweets": 1,
+      "likes": 21,
+      "bookmarks": 13,
+      "views": 11785
+    },
+    "media": []
+  },
+  {
+    "id": "2004018541901570449",
+    "text": "Eighth Problem: wtf were we doing last session\n\n@nummanali's continuity ledger idea is brilliant, update during a session with goals, constraints, whats done and whats next and Claude maintains perfect clarity",
+    "author_handle": "@parcadei",
+    "author_name": "dei",
+    "created_at": "Thu Dec 25 02:37:07 +0000 2025",
+    "created_at_iso": "2025-12-25T02:37:07+00:00",
+    "is_reply_to": "2004018540194722155",
+    "conversation_id": "2004018525569274049",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 17,
+      "bookmarks": 9,
+      "views": 4392
+    },
+    "media": []
+  },
+  {
+    "id": "2004018543751520427",
+    "text": "Ninth Problem: i cleared and now claude has no idea, fml\n\nHandoffs (courtesy of @humanlayer_dev ) creates the perfect detailed context so when you /clear, claude reads the ledger and handoff and you're teleported right back to where you left off",
+    "author_handle": "@parcadei",
+    "author_name": "dei",
+    "created_at": "Thu Dec 25 02:37:08 +0000 2025",
+    "created_at_iso": "2025-12-25T02:37:08+00:00",
+    "is_reply_to": "2004018541901570449",
+    "conversation_id": "2004018525569274049",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 15,
+      "bookmarks": 9,
+      "views": 4120
+    },
+    "media": []
+  },
+  {
+    "id": "2004018546410705251",
+    "text": "Tenth Problem: if i have to type /context one more fucking time...\n\nstatusline resolves this: I no longer have to worry about keeping an eye on context\n\nit changes colour from \ud83d\udfe2 -&gt; \ud83d\udfe1 -&gt; \ud83d\udd34 as we approach compaction with claude's hooks inserting reminders into the chat too https://t.co/0446oQlcER",
+    "author_handle": "@parcadei",
+    "author_name": "dei",
+    "created_at": "Thu Dec 25 02:37:08 +0000 2025",
+    "created_at_iso": "2025-12-25T02:37:08+00:00",
+    "is_reply_to": "2004018543751520427",
+    "conversation_id": "2004018525569274049",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 16,
+      "bookmarks": 6,
+      "views": 3844
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G8-vU5wWwAAHgAT.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2004018549262545267",
+    "text": "Eleventh Problem: improve my workflow, how?\n\nInstead of downloading 1000s of skills and agents, why not compound  on your own workflow?\n\n@braintrust again comes handy - I have an LLM-as-judge that triggers on session end, and uses gpt-5.2 to analyse our session logs, handoffs and ledgers to analyse our session performance \n\nand Claude can use this to build better hooks, skills, rules and agents through /compound-learnings",
+    "author_handle": "@parcadei",
+    "author_name": "dei",
+    "created_at": "Thu Dec 25 02:37:09 +0000 2025",
+    "created_at_iso": "2025-12-25T02:37:09+00:00",
+    "is_reply_to": "2004018546410705251",
+    "conversation_id": "2004018525569274049",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 22,
+      "bookmarks": 10,
+      "views": 3552
+    },
+    "media": []
+  },
+  {
+    "id": "2004018551108076024",
+    "text": "Twelfth Problem: how can we learn from previous sessions?\n\nOn top of the learnings skill, hooks are built in to index handoffs and ledgers into a db so I can ask Claude how we solved a similar problem in this project and he can check\n\nNext: universal db that merges project-level databases but that's a problem for 2026.",
+    "author_handle": "@parcadei",
+    "author_name": "dei",
+    "created_at": "Thu Dec 25 02:37:10 +0000 2025",
+    "created_at_iso": "2025-12-25T02:37:10+00:00",
+    "is_reply_to": "2004018549262545267",
+    "conversation_id": "2004018525569274049",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 11,
+      "bookmarks": 3,
+      "views": 3835
+    },
+    "media": []
+  },
+  {
+    "id": "2004018552894841056",
+    "text": "overall, it's not perfect, there's more features i've probably forgot to mention (I'm hitting my context limit ha)\n\nand something might not work out the box but that's what Claude is for\n\nand feel free to dm if he's stuck, so I can ask my Claude\n\nFork it and  make it your own \ud83e\udee1\n\nMerry Christmas \ud83c\udf84\n\nhttps://t.co/ExWwdLBcP9",
+    "author_handle": "@parcadei",
+    "author_name": "dei",
+    "created_at": "Thu Dec 25 02:37:10 +0000 2025",
+    "created_at_iso": "2025-12-25T02:37:10+00:00",
+    "is_reply_to": "2004018551108076024",
+    "conversation_id": "2004018525569274049",
+    "metrics": {
+      "replies": 7,
+      "retweets": 2,
+      "likes": 74,
+      "bookmarks": 97,
+      "views": 4682
+    },
+    "media": []
+  },
+  {
+    "id": "2004474033166045222",
+    "text": "@parcadei Lots to unpack. Did you try agentic memory like @Letta_AI ?",
+    "author_handle": "@vincent_koc",
+    "author_name": "Vincent Koc",
+    "created_at": "Fri Dec 26 08:47:05 +0000 2025",
+    "created_at_iso": "2025-12-26T08:47:05+00:00",
+    "is_reply_to": "2004018525569274049",
+    "conversation_id": "2004018525569274049",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 3,
+      "views": 1452
+    },
+    "media": []
+  },
+  {
+    "id": "2004591016494706830",
+    "text": "@vincent_koc @Letta_AI no I haven\u2019t but I will take a look now, thanks for the rec!",
+    "author_handle": "@parcadei",
+    "author_name": "dei",
+    "created_at": "Fri Dec 26 16:31:56 +0000 2025",
+    "created_at_iso": "2025-12-26T16:31:56+00:00",
+    "is_reply_to": "2004474033166045222",
+    "conversation_id": "2004018525569274049",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 1240
+    },
+    "media": []
+  },
+  {
+    "id": "2009753412657680559",
+    "text": "@parcadei Seems like this was recently modified https://t.co/LyYRkLsgnP",
+    "author_handle": "@Claude_Memory",
+    "author_name": "Claude-Mem",
+    "created_at": "Fri Jan 09 22:25:27 +0000 2026",
+    "created_at_iso": "2026-01-09T22:25:27+00:00",
+    "is_reply_to": "2004018525569274049",
+    "conversation_id": "2004018525569274049",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 137
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-QT83kXIAEyrk5.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2009754145360593267",
+    "text": "@Claude_Memory I clicked one of the checkboxes to see if it was interactive",
+    "author_handle": "@parcadei",
+    "author_name": "dei",
+    "created_at": "Fri Jan 09 22:28:22 +0000 2026",
+    "created_at_iso": "2026-01-09T22:28:22+00:00",
+    "is_reply_to": "2009753412657680559",
+    "conversation_id": "2004018525569274049",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 155
+    },
+    "media": []
+  },
+  {
+    "id": "2009752682290909652",
+    "text": "@parcadei And this is markdown + sqlite, fts5... https://t.co/YmNiHxPWZw",
+    "author_handle": "@Claude_Memory",
+    "author_name": "Claude-Mem",
+    "created_at": "Fri Jan 09 22:22:33 +0000 2026",
+    "created_at_iso": "2026-01-09T22:22:33+00:00",
+    "is_reply_to": "2004018525569274049",
+    "conversation_id": "2004018525569274049",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 121
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-QTUvqWIAA8W8Z.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2009753528953184537",
+    "text": "@Claude_Memory https://t.co/HqpA2DvWrb",
+    "author_handle": "@parcadei",
+    "author_name": "dei",
+    "created_at": "Fri Jan 09 22:25:55 +0000 2026",
+    "created_at_iso": "2026-01-09T22:25:55+00:00",
+    "is_reply_to": "2009752682290909652",
+    "conversation_id": "2004018525569274049",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 80
+    },
+    "media": [
+      {
+        "type": "animated_gif",
+        "url": "https://pbs.twimg.com/tweet_video_thumb/G-QULgCWwAA5siM.jpg",
+        "video_url": "https://video.twimg.com/tweet_video/G-QULgCWwAA5siM.mp4"
+      }
+    ]
+  },
+  {
+    "id": "2004297366145573326",
+    "text": "Is this synergistic with @doodlestein entire project setup structure w/ Agent Mail, bv, beads, Cass, etc? I've noticed using his setup that while beads are a great project tracking system and task management, I still hit the compaction issues and not sure if your setup would work in conjunction with it",
+    "author_handle": "@akola77",
+    "author_name": "Arj \ud83c\udf10",
+    "created_at": "Thu Dec 25 21:05:04 +0000 2025",
+    "created_at_iso": "2025-12-25T21:05:04+00:00",
+    "is_reply_to": "2004018525569274049",
+    "conversation_id": "2004018525569274049",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 4,
+      "bookmarks": 1,
+      "views": 1202
+    },
+    "media": []
+  },
+  {
+    "id": "2004595124488003636",
+    "text": "ooh that's cool, i have used beads in the past but didn't know there was more, will definitely check out! \n\nit should be synergistic because you can take what you like and merge with @doodlestein setup if you're tinkering but out of the box it might not be - will take a look once i'm done on v3 \n\nI'd probably recommend trialling out state + handoffs and /clear first though that's the highest signal solution to the compaction problem ime",
+    "author_handle": "@parcadei",
+    "author_name": "dei",
+    "created_at": "Fri Dec 26 16:48:15 +0000 2025",
+    "created_at_iso": "2025-12-26T16:48:15+00:00",
+    "is_reply_to": "2004297366145573326",
+    "conversation_id": "2004018525569274049",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 1,
+      "views": 825
+    },
+    "media": []
+  },
+  {
+    "id": "2004363914960949468",
+    "text": "@parcadei context window management is the real bottleneck. at Cozmo we're constantly hitting limits when processing FSI docs. continuous-claude solving session state + file handoffs is exactly what we need. gonna test this",
+    "author_handle": "@ak_cozmo",
+    "author_name": "AK",
+    "created_at": "Fri Dec 26 01:29:31 +0000 2025",
+    "created_at_iso": "2025-12-26T01:29:31+00:00",
+    "is_reply_to": "2004018525569274049",
+    "conversation_id": "2004018525569274049",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 0,
+      "views": 1001
+    },
+    "media": []
+  },
+  {
+    "id": "2004594179633283239",
+    "text": "@ak_cozmo let me know how you get on, if any thing could work better let me know!",
+    "author_handle": "@parcadei",
+    "author_name": "dei",
+    "created_at": "Fri Dec 26 16:44:30 +0000 2025",
+    "created_at_iso": "2025-12-26T16:44:30+00:00",
+    "is_reply_to": "2004363914960949468",
+    "conversation_id": "2004018525569274049",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 748
+    },
+    "media": []
+  },
+  {
+    "id": "2004253878523416730",
+    "text": "@parcadei @0xPaulius \ud83d\udc40 would go crazy in https://t.co/eQsiGCUfQT",
+    "author_handle": "@EsusDev",
+    "author_name": "Esus \ud83d\udcab \ud83e\ude82",
+    "created_at": "Thu Dec 25 18:12:16 +0000 2025",
+    "created_at_iso": "2025-12-25T18:12:16+00:00",
+    "is_reply_to": "2004018525569274049",
+    "conversation_id": "2004018525569274049",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 3,
+      "views": 1089
+    },
+    "media": []
+  },
+  {
+    "id": "2004258528199131311",
+    "text": "@EsusDev @0xPaulius vibed looks cool too, will check out",
+    "author_handle": "@parcadei",
+    "author_name": "dei",
+    "created_at": "Thu Dec 25 18:30:45 +0000 2025",
+    "created_at_iso": "2025-12-25T18:30:45+00:00",
+    "is_reply_to": "2004253878523416730",
+    "conversation_id": "2004018525569274049",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 937
+    },
+    "media": []
+  },
+  {
+    "id": "2004103667864207778",
+    "text": "@parcadei Saving state to ledger looks pretty interesting",
+    "author_handle": "@marcgregory_",
+    "author_name": "Marc Gregory",
+    "created_at": "Thu Dec 25 08:15:23 +0000 2025",
+    "created_at_iso": "2025-12-25T08:15:23+00:00",
+    "is_reply_to": "2004018525569274049",
+    "conversation_id": "2004018525569274049",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 1034
+    },
+    "media": []
+  },
+  {
+    "id": "2004594438501532016",
+    "text": "@marcgregory_ try it\n\ni haven't compacted in a week just handoff + clear and it's worked well (although i am biased ha)",
+    "author_handle": "@parcadei",
+    "author_name": "dei",
+    "created_at": "Fri Dec 26 16:45:32 +0000 2025",
+    "created_at_iso": "2025-12-26T16:45:32+00:00",
+    "is_reply_to": "2004103667864207778",
+    "conversation_id": "2004018525569274049",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 469
+    },
+    "media": []
+  },
+  {
+    "id": "2004300646485500026",
+    "text": "@parcadei I\u2019ve been doing this for a while, your approach isn\u2019t strong enough, you need to incorporate cffi and a .pem secret key to truly have forced direction following, otherwise claude eventually with bypass hooks using bash / python / tee and find creative ways to forge and skip tasks",
+    "author_handle": "@JamesSurra34",
+    "author_name": "Outdated Often",
+    "created_at": "Thu Dec 25 21:18:06 +0000 2025",
+    "created_at_iso": "2025-12-25T21:18:06+00:00",
+    "is_reply_to": "2004018525569274049",
+    "conversation_id": "2004018525569274049",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 1,
+      "views": 773
+    },
+    "media": []
+  },
+  {
+    "id": "2004305724076421424",
+    "text": "caveat: i claim no experience in cryptographic protocols so if what I say next makes zero sense, feel free to correct me\n\nbut wouldn't incoporating a .pem secret key and cffi mean I would need an external process for key management because if the main Claude instance has access, it'll use the key to make 'fake' ledger/handoff anyway \n\nso i'd need need to separate the signer and verifier which makes sense in a production setup but for personal dev flow seems overkill? \n\nand ime the current hooks prompt user to remind them about context + skill detection via natural language seems to work fine for creating handoff/ledgers since claude isn't inherently adversarial \n\nyou just have to engineer the outcome by organising the system a bit",
+    "author_handle": "@parcadei",
+    "author_name": "dei",
+    "created_at": "Thu Dec 25 21:38:17 +0000 2025",
+    "created_at_iso": "2025-12-25T21:38:17+00:00",
+    "is_reply_to": "2004300646485500026",
+    "conversation_id": "2004018525569274049",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 699
+    },
+    "media": []
+  },
+  {
+    "id": "2004603454854234603",
+    "text": "@parcadei Nah, with context management I can deal. The 5h token limit is the scarcest resource ;)",
+    "author_handle": "@MythThrazz",
+    "author_name": "Marcin Dudek",
+    "created_at": "Fri Dec 26 17:21:22 +0000 2025",
+    "created_at_iso": "2025-12-26T17:21:22+00:00",
+    "is_reply_to": "2004018525569274049",
+    "conversation_id": "2004018525569274049",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 552
+    },
+    "media": []
+  },
+  {
+    "id": "2004603644206088564",
+    "text": "@MythThrazz https://t.co/QsM6QMKtT4",
+    "author_handle": "@parcadei",
+    "author_name": "dei",
+    "created_at": "Fri Dec 26 17:22:07 +0000 2025",
+    "created_at_iso": "2025-12-26T17:22:07+00:00",
+    "is_reply_to": "2004603454854234603",
+    "conversation_id": "2004018525569274049",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 494
+    },
+    "media": [
+      {
+        "type": "animated_gif",
+        "url": "https://pbs.twimg.com/tweet_video_thumb/G9HIYxjXMAAAjyN.jpg",
+        "video_url": "https://video.twimg.com/tweet_video/G9HIYxjXMAAAjyN.mp4"
+      }
+    ]
+  },
+  {
+    "id": "2004249437158494719",
+    "text": "@parcadei How is saving state different than summarizing context?",
+    "author_handle": "@glipsman",
+    "author_name": "Graham Lipsman",
+    "created_at": "Thu Dec 25 17:54:37 +0000 2025",
+    "created_at_iso": "2025-12-25T17:54:37+00:00",
+    "is_reply_to": "2004018525569274049",
+    "conversation_id": "2004018525569274049",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 1149
+    },
+    "media": []
+  },
+  {
+    "id": "2004260732112863459",
+    "text": "saving state (ledger + handoffs) within a session allows Claude to pass key information to the next session and can be tweaked to your own workflow \n\nsummarising context (auto compaction) is good and will get better but the issue is you have no control over what is saved and what is lost \n\nwith continuous Claude you\u2019re able to control information transfer across session and reduce noise\n\nnoise would be Claude summarising the session but forgetting key learnings that happened in the middle or hallucinating because it lacked previous context which was lost \n\n+ allows agent orchestration handoffs allow each agent writes handoffs for structured implementation and main conversation + human in the loop can keep track of\n\nmy solution isn\u2019t perfect, lots to be tweaked but it\u2019s help a lot ime",
+    "author_handle": "@parcadei",
+    "author_name": "dei",
+    "created_at": "Thu Dec 25 18:39:30 +0000 2025",
+    "created_at_iso": "2025-12-25T18:39:30+00:00",
+    "is_reply_to": "2004249437158494719",
+    "conversation_id": "2004018525569274049",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 1,
+      "views": 1106
+    },
+    "media": []
+  }
+]

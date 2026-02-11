@@ -20,7 +20,7 @@ url: "https://x.com/EricBuess/status/2006133485858070594"
 
 ## Summary
 
-Not to mention self-referential command injection, context monitoring, auto restore from clear, compaction-avoidance, continuous work with frictionless context management, and validators to keep Cl...
+This Claude tip highlights advanced techniques for building robust and reliable applications using Claude's API. It focuses on overcoming common challenges like context loss and unintended behaviors through features like self-referential command injection, context monitoring, auto restore, and validators. By intelligently managing and validating the context across recurring loops, developers can ensure Claude remains focused and honest, even after multiple context clears.
 
 ## Replies
 

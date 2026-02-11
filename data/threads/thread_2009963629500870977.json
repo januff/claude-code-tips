@@ -1,0 +1,488 @@
+[
+  {
+    "id": "2009963629500870977",
+    "text": "Introducing Claude Delegator!\n\nA Claude Code plugin that lets you use GPT 5.2 powered subagents directly within Claude Code.\n\nAsk GPT 5.2 (via codex) to architect your code, perform security audits, or make any other changes to your codebase.\n\nEasy installation guide below \u2193 https://t.co/9Wf0OX2399",
+    "author_handle": "@jarrodwatts",
+    "author_name": "Jarrod Watts",
+    "created_at": "Sat Jan 10 12:20:47 +0000 2026",
+    "created_at_iso": "2026-01-10T12:20:47+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2009963629500870977",
+    "metrics": {
+      "replies": 98,
+      "retweets": 149,
+      "likes": 1897,
+      "bookmarks": 2594,
+      "views": 159460
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-TSIExasAMoaVT.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2009963956014858257",
+    "text": "\u00b7 Add the marketplace \n/plugin marketplace add jarrodwatts/claude-delegator\n\n\u00b7 Install the plugin \n/plugin install claude-delegator\n\n\u00b7 Run the setup:\n /claude-delegator:setup\n\nGithub: https://t.co/oyAArFUG3n",
+    "author_handle": "@jarrodwatts",
+    "author_name": "Jarrod Watts",
+    "created_at": "Sat Jan 10 12:22:05 +0000 2026",
+    "created_at_iso": "2026-01-10T12:22:05+00:00",
+    "is_reply_to": "2009963629500870977",
+    "conversation_id": "2009963629500870977",
+    "metrics": {
+      "replies": 9,
+      "retweets": 11,
+      "likes": 172,
+      "bookmarks": 195,
+      "views": 16096
+    },
+    "media": []
+  },
+  {
+    "id": "2010055609174089913",
+    "text": "@jarrodwatts very cool!\n\ni applaud the hustle as well \ud83e\udd23 https://t.co/fgz5PCxaBC",
+    "author_handle": "@_colemurray",
+    "author_name": "cole murray",
+    "created_at": "Sat Jan 10 18:26:16 +0000 2026",
+    "created_at_iso": "2026-01-10T18:26:16+00:00",
+    "is_reply_to": "2009963629500870977",
+    "conversation_id": "2009963629500870977",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 47,
+      "bookmarks": 12,
+      "views": 4298
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-Um6_iasAE9I8m.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2010104733336510826",
+    "text": "@_colemurray got this idea from oh my opencode as well - thought it was really cool that after a successful install i could star it right there within the terminal",
+    "author_handle": "@jarrodwatts",
+    "author_name": "Jarrod Watts",
+    "created_at": "Sat Jan 10 21:41:29 +0000 2026",
+    "created_at_iso": "2026-01-10T21:41:29+00:00",
+    "is_reply_to": "2010055609174089913",
+    "conversation_id": "2009963629500870977",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 19,
+      "bookmarks": 5,
+      "views": 2973
+    },
+    "media": []
+  },
+  {
+    "id": "2010000406823444749",
+    "text": "@jarrodwatts I already love it! \n\nway easier to call GPT 5.2 inside CC than spawning a codex cli",
+    "author_handle": "@stableAPY",
+    "author_name": "stableAPY.hl",
+    "created_at": "Sat Jan 10 14:46:55 +0000 2026",
+    "created_at_iso": "2026-01-10T14:46:55+00:00",
+    "is_reply_to": "2009963629500870977",
+    "conversation_id": "2009963629500870977",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 10,
+      "bookmarks": 2,
+      "views": 3437
+    },
+    "media": []
+  },
+  {
+    "id": "2010193279284064617",
+    "text": "@stableAPY glad you like it!",
+    "author_handle": "@jarrodwatts",
+    "author_name": "Jarrod Watts",
+    "created_at": "Sun Jan 11 03:33:20 +0000 2026",
+    "created_at_iso": "2026-01-11T03:33:20+00:00",
+    "is_reply_to": "2010000406823444749",
+    "conversation_id": "2009963629500870977",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 4,
+      "bookmarks": 0,
+      "views": 1525
+    },
+    "media": []
+  },
+  {
+    "id": "2010140992146681908",
+    "text": "@jarrodwatts tell your wife that you made it https://t.co/qSEAJX8nwz",
+    "author_handle": "@LLMJunky",
+    "author_name": "am.will",
+    "created_at": "Sun Jan 11 00:05:33 +0000 2026",
+    "created_at_iso": "2026-01-11T00:05:33+00:00",
+    "is_reply_to": "2009963629500870977",
+    "conversation_id": "2009963629500870977",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 1,
+      "views": 1165
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-V0he1XYAEWiTU.png",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2010143675632984334",
+    "text": "@LLMJunky Gotta let her know we\u2019re done now\n\n(i let the fame get to my head)",
+    "author_handle": "@jarrodwatts",
+    "author_name": "Jarrod Watts",
+    "created_at": "Sun Jan 11 00:16:13 +0000 2026",
+    "created_at_iso": "2026-01-11T00:16:13+00:00",
+    "is_reply_to": "2010140992146681908",
+    "conversation_id": "2009963629500870977",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 4,
+      "bookmarks": 0,
+      "views": 1004
+    },
+    "media": []
+  },
+  {
+    "id": "2009995335477952780",
+    "text": "@jarrodwatts Does it use Codex CLI to delegate the agents?",
+    "author_handle": "@anshnanda",
+    "author_name": "Ansh Nanda",
+    "created_at": "Sat Jan 10 14:26:46 +0000 2026",
+    "created_at_iso": "2026-01-10T14:26:46+00:00",
+    "is_reply_to": "2009963629500870977",
+    "conversation_id": "2009963629500870977",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 5169
+    },
+    "media": []
+  },
+  {
+    "id": "2010089215112143136",
+    "text": "@anshnanda Yes  it does, it calls codex via MCP",
+    "author_handle": "@jarrodwatts",
+    "author_name": "Jarrod Watts",
+    "created_at": "Sat Jan 10 20:39:49 +0000 2026",
+    "created_at_iso": "2026-01-10T20:39:49+00:00",
+    "is_reply_to": "2009995335477952780",
+    "conversation_id": "2009963629500870977",
+    "metrics": {
+      "replies": 3,
+      "retweets": 0,
+      "likes": 7,
+      "bookmarks": 0,
+      "views": 3115
+    },
+    "media": []
+  },
+  {
+    "id": "2009995232772034892",
+    "text": "@jarrodwatts This is cool.",
+    "author_handle": "@anshnanda",
+    "author_name": "Ansh Nanda",
+    "created_at": "Sat Jan 10 14:26:22 +0000 2026",
+    "created_at_iso": "2026-01-10T14:26:22+00:00",
+    "is_reply_to": "2009963629500870977",
+    "conversation_id": "2009963629500870977",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 3343
+    },
+    "media": []
+  },
+  {
+    "id": "2010194825820385466",
+    "text": "@anshnanda \ud83e\udee1",
+    "author_handle": "@jarrodwatts",
+    "author_name": "Jarrod Watts",
+    "created_at": "Sun Jan 11 03:39:28 +0000 2026",
+    "created_at_iso": "2026-01-11T03:39:28+00:00",
+    "is_reply_to": "2009995232772034892",
+    "conversation_id": "2009963629500870977",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 1458
+    },
+    "media": []
+  },
+  {
+    "id": "2010002275411067280",
+    "text": "@jarrodwatts does all the claude harness wokr on the gpt agent?",
+    "author_handle": "@Barthazian",
+    "author_name": "barthazian.eth \u5df4\u7279",
+    "created_at": "Sat Jan 10 14:54:21 +0000 2026",
+    "created_at_iso": "2026-01-10T14:54:21+00:00",
+    "is_reply_to": "2009963629500870977",
+    "conversation_id": "2009963629500870977",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 4470
+    },
+    "media": []
+  },
+  {
+    "id": "2010193184597667857",
+    "text": "@Barthazian it's inside the codex harness - the plugin in simple terms is really just letting claude run \"codex &lt;prompt&gt; with some pre-made system prompts &amp; guides on when it should do that",
+    "author_handle": "@jarrodwatts",
+    "author_name": "Jarrod Watts",
+    "created_at": "Sun Jan 11 03:32:57 +0000 2026",
+    "created_at_iso": "2026-01-11T03:32:57+00:00",
+    "is_reply_to": "2010002275411067280",
+    "conversation_id": "2009963629500870977",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 4,
+      "bookmarks": 1,
+      "views": 2431
+    },
+    "media": []
+  },
+  {
+    "id": "2009967748995293346",
+    "text": "@jarrodwatts Pretty cool!\n\nWhat is the reason behind it?",
+    "author_handle": "@AleksaMiti1",
+    "author_name": "Aleksa Miti\u0107",
+    "created_at": "Sat Jan 10 12:37:09 +0000 2026",
+    "created_at_iso": "2026-01-10T12:37:09+00:00",
+    "is_reply_to": "2009963629500870977",
+    "conversation_id": "2009963629500870977",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 5,
+      "bookmarks": 1,
+      "views": 4299
+    },
+    "media": []
+  },
+  {
+    "id": "2009969076635086881",
+    "text": "@AleksaMiti1 Codex is better at things like architecture and code reviews from my experience.\n\nIn opencode, you can have subagents that use any model - i wanted to try build something like that inside of claude code\n\nThis one just has codex for now, but can easily be extended to others too",
+    "author_handle": "@jarrodwatts",
+    "author_name": "Jarrod Watts",
+    "created_at": "Sat Jan 10 12:42:25 +0000 2026",
+    "created_at_iso": "2026-01-10T12:42:25+00:00",
+    "is_reply_to": "2009967748995293346",
+    "conversation_id": "2009963629500870977",
+    "metrics": {
+      "replies": 5,
+      "retweets": 0,
+      "likes": 52,
+      "bookmarks": 16,
+      "views": 4164
+    },
+    "media": []
+  },
+  {
+    "id": "2010073865121345808",
+    "text": "@jarrodwatts This is literally 1 prompt. \n\nAsk Claude Code to create an oracle skill which will invoke Codex with your prompt. \n\nThat\u2019s it!",
+    "author_handle": "@joelreymont",
+    "author_name": "Joel Reymont",
+    "created_at": "Sat Jan 10 19:38:49 +0000 2026",
+    "created_at_iso": "2026-01-10T19:38:49+00:00",
+    "is_reply_to": "2009963629500870977",
+    "conversation_id": "2009963629500870977",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 2,
+      "views": 807
+    },
+    "media": []
+  },
+  {
+    "id": "2010194744706834678",
+    "text": "@joelreymont the plugin is a bit more in-depth than that; check through the github if you're interested",
+    "author_handle": "@jarrodwatts",
+    "author_name": "Jarrod Watts",
+    "created_at": "Sun Jan 11 03:39:09 +0000 2026",
+    "created_at_iso": "2026-01-11T03:39:09+00:00",
+    "is_reply_to": "2010073865121345808",
+    "conversation_id": "2009963629500870977",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 0,
+      "views": 601
+    },
+    "media": []
+  },
+  {
+    "id": "2010081537505796479",
+    "text": "@jarrodwatts Very keen to try this out; as a newbie here, could you help me set one up for Gemini 3.0 as well? I\u2019m thinking like how @0xSisyphus labs did it with their plugin - use Gemini flash for documentation so you can delegate different tasks based on the nature of it",
+    "author_handle": "@im_benhur",
+    "author_name": "Benhur",
+    "created_at": "Sat Jan 10 20:09:18 +0000 2026",
+    "created_at_iso": "2026-01-10T20:09:18+00:00",
+    "is_reply_to": "2009963629500870977",
+    "conversation_id": "2009963629500870977",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 1387
+    },
+    "media": []
+  },
+  {
+    "id": "2010106097164825051",
+    "text": "@im_benhur @0xSisyphus that's the idea, would like to expand it to other agents and hopefully for local llms too\n\nwas hoping to get gemini supported out of the box but don't think their cli has an mcp option like codex does",
+    "author_handle": "@jarrodwatts",
+    "author_name": "Jarrod Watts",
+    "created_at": "Sat Jan 10 21:46:54 +0000 2026",
+    "created_at_iso": "2026-01-10T21:46:54+00:00",
+    "is_reply_to": "2010081537505796479",
+    "conversation_id": "2009963629500870977",
+    "metrics": {
+      "replies": 4,
+      "retweets": 0,
+      "likes": 4,
+      "bookmarks": 0,
+      "views": 1220
+    },
+    "media": []
+  },
+  {
+    "id": "2010103130680422728",
+    "text": "@jarrodwatts Can you resume codex agents from the MCP now? Last I checked you couldn\u2019t",
+    "author_handle": "@realKonark",
+    "author_name": "Konark",
+    "created_at": "Sat Jan 10 21:35:06 +0000 2026",
+    "created_at_iso": "2026-01-10T21:35:06+00:00",
+    "is_reply_to": "2009963629500870977",
+    "conversation_id": "2009963629500870977",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 845
+    },
+    "media": []
+  },
+  {
+    "id": "2010105084127129892",
+    "text": "@realKonark There is meant to be a codex-reply feature to continue a thread but i (claude) couldn't figure out how to make it work for v1, so currently its a fresh thread every delegation",
+    "author_handle": "@jarrodwatts",
+    "author_name": "Jarrod Watts",
+    "created_at": "Sat Jan 10 21:42:52 +0000 2026",
+    "created_at_iso": "2026-01-10T21:42:52+00:00",
+    "is_reply_to": "2010103130680422728",
+    "conversation_id": "2009963629500870977",
+    "metrics": {
+      "replies": 3,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 775
+    },
+    "media": []
+  },
+  {
+    "id": "2010006354942173513",
+    "text": "@jarrodwatts Why not the codex MCP?",
+    "author_handle": "@aaronbatilo",
+    "author_name": "Aaron",
+    "created_at": "Sat Jan 10 15:10:33 +0000 2026",
+    "created_at_iso": "2026-01-10T15:10:33+00:00",
+    "is_reply_to": "2009963629500870977",
+    "conversation_id": "2009963629500870977",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 861
+    },
+    "media": []
+  },
+  {
+    "id": "2010089835453935914",
+    "text": "@aaronbatilo It is using the codex mcp!\n\nIt packages up that &amp; some useful prompts &amp; delegation rules together to make it easy to use",
+    "author_handle": "@jarrodwatts",
+    "author_name": "Jarrod Watts",
+    "created_at": "Sat Jan 10 20:42:17 +0000 2026",
+    "created_at_iso": "2026-01-10T20:42:17+00:00",
+    "is_reply_to": "2010006354942173513",
+    "conversation_id": "2009963629500870977",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 0,
+      "views": 689
+    },
+    "media": []
+  },
+  {
+    "id": "2010187467136348321",
+    "text": "@jarrodwatts Why do you need a plugin when you can use a simple command: \nclaude mcp add codex mcp-server\nSurprised you need more!",
+    "author_handle": "@CodingWorkflow",
+    "author_name": "Coding Workflow",
+    "created_at": "Sun Jan 11 03:10:14 +0000 2026",
+    "created_at_iso": "2026-01-11T03:10:14+00:00",
+    "is_reply_to": "2009963629500870977",
+    "conversation_id": "2009963629500870977",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 2,
+      "views": 416
+    },
+    "media": []
+  },
+  {
+    "id": "2010195031353897282",
+    "text": "@CodingWorkflow its packaged up with some helpful rules, pre-made codex prompts and some other nice-to-haves that make it better than just raw dogging the mcp",
+    "author_handle": "@jarrodwatts",
+    "author_name": "Jarrod Watts",
+    "created_at": "Sun Jan 11 03:40:17 +0000 2026",
+    "created_at_iso": "2026-01-11T03:40:17+00:00",
+    "is_reply_to": "2010187467136348321",
+    "conversation_id": "2009963629500870977",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 396
+    },
+    "media": []
+  }
+]

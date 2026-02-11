@@ -19,7 +19,7 @@ url: "https://x.com/amuldotexe/status/2005146015486112070"
 
 ## Summary
 
-Whenever I want to use an API, I first gitclone the relevant library itself
+This tip describes a strategy for using APIs with Claude by first cloning the API's library using `gitclone`. Then, it suggests leveraging `agent-plan` or `agent-explore` to generate a custom research document (in Markdown format) based on your specific needs and the cloned API library's code. This approach helps mitigate API hallucination by grounding the agent's research in actual code.
 
 ## Replies
 

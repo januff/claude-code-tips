@@ -20,6 +20,10 @@ url: "https://x.com/EricBuess/status/2001035072116547595"
 >
 > Likes: 569 · Replies: 21 · Reposts: 30
 
+## Summary
+
+This tip highlights the importance of using the native installation method for Claude Code to access the latest features. Users with existing installations need to migrate using the provided link, while new users should use the `curl -fsSL https://t.co/8IRd2qKJyT | bash` command. Upgrading ensures you're leveraging the most up-to-date version and its benefits.
+
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 569 · **Replies:** 21 · **Reposts:** 30 · **Views:** 0

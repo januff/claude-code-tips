@@ -18,7 +18,7 @@ url: "https://x.com/mbarrbosa/status/2004890469734776982"
 
 ## Summary
 
-“Is this the best you can do
+This tip focuses on prompting Claude to improve its output by directly challenging it. The key action is to ask, "Is this the best you can do?" which prompts the model to reconsider and potentially generate a more refined or creative response. This simple phrase can be surprisingly effective at unlocking better results from Claude without requiring complex prompt engineering.
 
 ## Replies
 

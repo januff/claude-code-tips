@@ -19,7 +19,7 @@ url: "https://x.com/thedealdirector/status/2004592807970005023"
 
 ## Summary
 
-“Audit the codebase for security issues and recommendations” seems to always yield something new and patchable
+This Claude Code tip highlights the effectiveness of using the instruction "Audit the codebase for security issues and recommendations."  The insight is that this seemingly simple prompt consistently uncovers previously unknown vulnerabilities and potential improvements. This emphasizes the value of incorporating regular security audits using natural language instructions with Claude, even when no specific tools or settings are explicitly required.
 
 ## Replies
 

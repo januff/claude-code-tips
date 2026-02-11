@@ -24,7 +24,7 @@ url: "https://x.com/jedwhite/status/2004655499942449307"
 
 ## Summary
 
-Switch between API keys for different cloud providers and models on the fly without logging in-out or losing flow, especially when you hit rate limits
+This tip shows how to quickly switch between different cloud provider API keys for Claude models using the command line. By using a command like `claude-aws --opus --resume`, you can avoid workflow interruptions due to rate limits or the need to constantly log in and out of different accounts. This enables seamless access to diverse Claude models and environments without losing your progress.
 
 ## Code
 

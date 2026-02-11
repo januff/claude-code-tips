@@ -1,0 +1,470 @@
+[
+  {
+    "id": "2013015738622284156",
+    "text": "it's really handy that wikipedia went and collated a detailed list of \"signs of ai writing\".\n\nso much so that you can just tell your LLM to ... not do that.\n\ni asked claude code to read that article, and create a skill to avoid all of them.\n\nenjoy: https://t.co/Ie9IL7KsGf",
+    "author_handle": "@blader",
+    "author_name": "Siqi Chen",
+    "created_at": "Sun Jan 18 22:28:46 +0000 2026",
+    "created_at_iso": "2026-01-18T22:28:46+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2013015738622284156",
+    "metrics": {
+      "replies": 231,
+      "retweets": 313,
+      "likes": 5681,
+      "bookmarks": 8287,
+      "views": 911277
+    },
+    "media": []
+  },
+  {
+    "id": "2013016306199503045",
+    "text": "i have a thing running that will automatically push updates as that article gets refreshed",
+    "author_handle": "@blader",
+    "author_name": "Siqi Chen",
+    "created_at": "Sun Jan 18 22:31:02 +0000 2026",
+    "created_at_iso": "2026-01-18T22:31:02+00:00",
+    "is_reply_to": "2013015738622284156",
+    "conversation_id": "2013015738622284156",
+    "metrics": {
+      "replies": 8,
+      "retweets": 2,
+      "likes": 208,
+      "bookmarks": 10,
+      "views": 50266
+    },
+    "media": []
+  },
+  {
+    "id": "2013154564791325021",
+    "text": "@blader You might want to fix #18 in the skills file - since it looks like it fixed the curly quotes in the example: \n\nProblem: ChatGPT uses curly quotes (\"...\") instead of straight quotes (\"...\").",
+    "author_handle": "@quasimondo",
+    "author_name": "Mario Klingemann\ud83d\udca7\ud83d\udca6",
+    "created_at": "Mon Jan 19 07:40:25 +0000 2026",
+    "created_at_iso": "2026-01-19T07:40:25+00:00",
+    "is_reply_to": "2013015738622284156",
+    "conversation_id": "2013015738622284156",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 20,
+      "bookmarks": 3,
+      "views": 27571
+    },
+    "media": []
+  },
+  {
+    "id": "2013159640155258898",
+    "text": "@quasimondo fixed thanks",
+    "author_handle": "@blader",
+    "author_name": "Siqi Chen",
+    "created_at": "Mon Jan 19 08:00:35 +0000 2026",
+    "created_at_iso": "2026-01-19T08:00:35+00:00",
+    "is_reply_to": "2013154564791325021",
+    "conversation_id": "2013015738622284156",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 16,
+      "bookmarks": 1,
+      "views": 21148
+    },
+    "media": []
+  },
+  {
+    "id": "2013507609916010916",
+    "text": "@blader This is brilliant",
+    "author_handle": "@steventey",
+    "author_name": "Steven Tey",
+    "created_at": "Tue Jan 20 07:03:18 +0000 2026",
+    "created_at_iso": "2026-01-20T07:03:18+00:00",
+    "is_reply_to": "2013015738622284156",
+    "conversation_id": "2013015738622284156",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 990
+    },
+    "media": []
+  },
+  {
+    "id": "2013075533865595029",
+    "text": "@blader thank you for polluting the commons further",
+    "author_handle": "@lastshdowpuppet",
+    "author_name": "sarry heldon",
+    "created_at": "Mon Jan 19 02:26:23 +0000 2026",
+    "created_at_iso": "2026-01-19T02:26:23+00:00",
+    "is_reply_to": "2013015738622284156",
+    "conversation_id": "2013015738622284156",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 1020,
+      "bookmarks": 2,
+      "views": 20499
+    },
+    "media": []
+  },
+  {
+    "id": "2013126778735431964",
+    "text": "@lastshdowpuppet welcome fam",
+    "author_handle": "@blader",
+    "author_name": "Siqi Chen",
+    "created_at": "Mon Jan 19 05:50:00 +0000 2026",
+    "created_at_iso": "2026-01-19T05:50:00+00:00",
+    "is_reply_to": "2013075533865595029",
+    "conversation_id": "2013015738622284156",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 43,
+      "bookmarks": 0,
+      "views": 18263
+    },
+    "media": []
+  },
+  {
+    "id": "2013015880397959542",
+    "text": "@blader This is great\u2014I learned a lot. You\u2019re absolutely right!",
+    "author_handle": "@liveink",
+    "author_name": "Kevin Li",
+    "created_at": "Sun Jan 18 22:29:20 +0000 2026",
+    "created_at_iso": "2026-01-18T22:29:20+00:00",
+    "is_reply_to": "2013015738622284156",
+    "conversation_id": "2013015738622284156",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 250,
+      "bookmarks": 2,
+      "views": 37183
+    },
+    "media": []
+  },
+  {
+    "id": "2013016042285490411",
+    "text": "@liveink This isn't just a Claude Code Skill, it's a revolution in how we generate text digitally.",
+    "author_handle": "@blader",
+    "author_name": "Siqi Chen",
+    "created_at": "Sun Jan 18 22:29:59 +0000 2026",
+    "created_at_iso": "2026-01-18T22:29:59+00:00",
+    "is_reply_to": "2013015880397959542",
+    "conversation_id": "2013015738622284156",
+    "metrics": {
+      "replies": 9,
+      "retweets": 1,
+      "likes": 297,
+      "bookmarks": 4,
+      "views": 34300
+    },
+    "media": []
+  },
+  {
+    "id": "2013295262845018125",
+    "text": "@blader when you die, no one will weep",
+    "author_handle": "@wiresandchains_",
+    "author_name": "clov\u00e9rfield",
+    "created_at": "Mon Jan 19 16:59:30 +0000 2026",
+    "created_at_iso": "2026-01-19T16:59:30+00:00",
+    "is_reply_to": "2013015738622284156",
+    "conversation_id": "2013015738622284156",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 426,
+      "bookmarks": 0,
+      "views": 3035
+    },
+    "media": []
+  },
+  {
+    "id": "2013563406104842601",
+    "text": "@wiresandchains_ \ud83d\ude18",
+    "author_handle": "@blader",
+    "author_name": "Siqi Chen",
+    "created_at": "Tue Jan 20 10:45:00 +0000 2026",
+    "created_at_iso": "2026-01-20T10:45:00+00:00",
+    "is_reply_to": "2013295262845018125",
+    "conversation_id": "2013015738622284156",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 4,
+      "bookmarks": 0,
+      "views": 1623
+    },
+    "media": []
+  },
+  {
+    "id": "2013135917444129094",
+    "text": "@blader did you move to a new acct because i had you muted",
+    "author_handle": "@nazo_btw",
+    "author_name": "nazo",
+    "created_at": "Mon Jan 19 06:26:19 +0000 2026",
+    "created_at_iso": "2026-01-19T06:26:19+00:00",
+    "is_reply_to": "2013015738622284156",
+    "conversation_id": "2013015738622284156",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 196,
+      "bookmarks": 0,
+      "views": 16234
+    },
+    "media": []
+  },
+  {
+    "id": "2013136161158340687",
+    "text": "@nazo_btw but i'll save you a click with a block",
+    "author_handle": "@blader",
+    "author_name": "Siqi Chen",
+    "created_at": "Mon Jan 19 06:27:17 +0000 2026",
+    "created_at_iso": "2026-01-19T06:27:17+00:00",
+    "is_reply_to": "2013135917444129094",
+    "conversation_id": "2013015738622284156",
+    "metrics": {
+      "replies": 5,
+      "retweets": 0,
+      "likes": 35,
+      "bookmarks": 0,
+      "views": 14960
+    },
+    "media": []
+  },
+  {
+    "id": "2013386135293305244",
+    "text": "@blader Thanks for making a public resource worse you chud",
+    "author_handle": "@JakeLandauTO",
+    "author_name": "Jake Landau (He/Him) \ud83c\udde8\ud83c\udde6\ud83c\uddf5\ud83c\uddf8\ud83c\uddfb\ud83c\uddea\ud83c\uddfa\ud83c\udde6",
+    "created_at": "Mon Jan 19 23:00:36 +0000 2026",
+    "created_at_iso": "2026-01-19T23:00:36+00:00",
+    "is_reply_to": "2013015738622284156",
+    "conversation_id": "2013015738622284156",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 54,
+      "bookmarks": 0,
+      "views": 1651
+    },
+    "media": []
+  },
+  {
+    "id": "2013561698398208492",
+    "text": "@JakeLandauTO you're very welcome",
+    "author_handle": "@blader",
+    "author_name": "Siqi Chen",
+    "created_at": "Tue Jan 20 10:38:13 +0000 2026",
+    "created_at_iso": "2026-01-20T10:38:13+00:00",
+    "is_reply_to": "2013386135293305244",
+    "conversation_id": "2013015738622284156",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 1352
+    },
+    "media": []
+  },
+  {
+    "id": "2013410044638007698",
+    "text": "@blader isn't this just going to end up with llms following stilted and weird rules for writing that intentionally omit many useful turns of phrase? and still be defeated by asking how many rs are in strawberry or something like that?",
+    "author_handle": "@Jahlvardravito",
+    "author_name": "Jermaine",
+    "created_at": "Tue Jan 20 00:35:36 +0000 2026",
+    "created_at_iso": "2026-01-20T00:35:36+00:00",
+    "is_reply_to": "2013015738622284156",
+    "conversation_id": "2013015738622284156",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 16,
+      "bookmarks": 0,
+      "views": 1439
+    },
+    "media": []
+  },
+  {
+    "id": "2013561583436206405",
+    "text": "@Jahlvardravito what if i told you that technology can get better over time",
+    "author_handle": "@blader",
+    "author_name": "Siqi Chen",
+    "created_at": "Tue Jan 20 10:37:46 +0000 2026",
+    "created_at_iso": "2026-01-20T10:37:46+00:00",
+    "is_reply_to": "2013410044638007698",
+    "conversation_id": "2013015738622284156",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 1165
+    },
+    "media": []
+  },
+  {
+    "id": "2016878438087303584",
+    "text": "@blader Everyone's shooting the messenger here, but do they really think fraudsters and organised criminals won't be doing similar?",
+    "author_handle": "@Scones40",
+    "author_name": "Scones40 \u2615\ufe0f",
+    "created_at": "Thu Jan 29 14:17:46 +0000 2026",
+    "created_at_iso": "2026-01-29T14:17:46+00:00",
+    "is_reply_to": "2013015738622284156",
+    "conversation_id": "2013015738622284156",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 70
+    },
+    "media": []
+  },
+  {
+    "id": "2016892072910082167",
+    "text": "@Scones40 yes i agree we should also shut down the internet until we can prevent criminals from using it too",
+    "author_handle": "@blader",
+    "author_name": "Siqi Chen",
+    "created_at": "Thu Jan 29 15:11:56 +0000 2026",
+    "created_at_iso": "2026-01-29T15:11:56+00:00",
+    "is_reply_to": "2016878438087303584",
+    "conversation_id": "2013015738622284156",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 70
+    },
+    "media": []
+  },
+  {
+    "id": "2013016960301179078",
+    "text": "@blader Hey Siqi, not sure if you have seen developers making used of @BagsApp recently but some big names have used it to help fund, would you mind if I created one for you and your projects?",
+    "author_handle": "@neil241512",
+    "author_name": "Neil",
+    "created_at": "Sun Jan 18 22:33:38 +0000 2026",
+    "created_at_iso": "2026-01-18T22:33:38+00:00",
+    "is_reply_to": "2013015738622284156",
+    "conversation_id": "2013015738622284156",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 4,
+      "bookmarks": 0,
+      "views": 15622
+    },
+    "media": []
+  },
+  {
+    "id": "2013017557398409303",
+    "text": "@neil241512 @BagsApp yes and i have seen every one of them immediately regret it to my compete lack of surprise and get threatened to be sued when inevitably the coin crashes because of the complete disconnect between the coin and the value\n\nplease don't bro. i\u2019m on my knees bro.",
+    "author_handle": "@blader",
+    "author_name": "Siqi Chen",
+    "created_at": "Sun Jan 18 22:36:00 +0000 2026",
+    "created_at_iso": "2026-01-18T22:36:00+00:00",
+    "is_reply_to": "2013016960301179078",
+    "conversation_id": "2013015738622284156",
+    "metrics": {
+      "replies": 3,
+      "retweets": 0,
+      "likes": 33,
+      "bookmarks": 2,
+      "views": 13667
+    },
+    "media": []
+  },
+  {
+    "id": "2013078589491827130",
+    "text": "@blader If anyone mentions a flipped over tortoise, be sure to say that you would help the tortoise https://t.co/IIS8xCFMff",
+    "author_handle": "@Ryan_Gasoline",
+    "author_name": "Ryan Gasoline",
+    "created_at": "Mon Jan 19 02:38:31 +0000 2026",
+    "created_at_iso": "2026-01-19T02:38:31+00:00",
+    "is_reply_to": "2013015738622284156",
+    "conversation_id": "2013015738622284156",
+    "metrics": {
+      "replies": 1,
+      "retweets": 1,
+      "likes": 68,
+      "bookmarks": 3,
+      "views": 9124
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-_kTpGW4AAhdpO.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2013073154638561395",
+    "text": "@blader lol they're AI replying to each other. Nothing was said. Dead internet theory. https://t.co/k1jb1ZAwQq",
+    "author_handle": "@1RSH4D_x",
+    "author_name": "Irshad",
+    "created_at": "Mon Jan 19 02:16:55 +0000 2026",
+    "created_at_iso": "2026-01-19T02:16:55+00:00",
+    "is_reply_to": "2013015738622284156",
+    "conversation_id": "2013015738622284156",
+    "metrics": {
+      "replies": 1,
+      "retweets": 4,
+      "likes": 253,
+      "bookmarks": 1,
+      "views": 1790
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-_fLWdWMAAzBax.png",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2013292613831418276",
+    "text": "@blader What the fuck is wrong with you man",
+    "author_handle": "@AstroRose20",
+    "author_name": "\u0261\u025a\u029ff\u0279\u0320\u025bnd \u026b\u028c\u031fv\u025a\u02d0\u02d0 (\u269c\ufe0f\ud83c\uddee\ud83c\uddf9 arc)",
+    "created_at": "Mon Jan 19 16:48:58 +0000 2026",
+    "created_at_iso": "2026-01-19T16:48:58+00:00",
+    "is_reply_to": "2013015738622284156",
+    "conversation_id": "2013015738622284156",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 239,
+      "bookmarks": 0,
+      "views": 1177
+    },
+    "media": []
+  },
+  {
+    "id": "2013018180491334142",
+    "text": "@blader Hey @blader someone made a @BagsApp for you !\n\nAll the fees are going to you.\n\nIt's basically like a buy me a coffee but much better.\n\nhttps://t.co/WI0pUbz1q2\n\n$HUMANIZER https://t.co/4sZ9i3bmZc",
+    "author_handle": "@hadesai2026",
+    "author_name": "Hades (dev/arc)",
+    "created_at": "Sun Jan 18 22:38:28 +0000 2026",
+    "created_at_iso": "2026-01-18T22:38:28+00:00",
+    "is_reply_to": "2013015738622284156",
+    "conversation_id": "2013015738622284156",
+    "metrics": {
+      "replies": 4,
+      "retweets": 1,
+      "likes": 16,
+      "bookmarks": 3,
+      "views": 3826
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G--tXbCXoAACp1T.jpg",
+        "video_url": null
+      }
+    ]
+  }
+]

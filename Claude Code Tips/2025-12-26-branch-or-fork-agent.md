@@ -18,7 +18,7 @@ url: "https://x.com/JayD0ubleu/status/2004590362778837082"
 
 ## Summary
 
-Plugins allow me to create both workflows and both static and dynamic sub-agents, eliminating the need for a framework
+This Claude Code tip highlights using plugins to build agents, both for automated workflows and creating diverse sub-agents, bypassing the need for complex agent frameworks. The key advantage is simplified testing and iteration via natural language prompts. While the current approach lacks branching or forking functionality, it still allows for powerful agent design.
 
 
 > [!metrics]- Engagement & Metadata

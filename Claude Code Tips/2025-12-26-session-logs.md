@@ -23,7 +23,7 @@ url: "https://x.com/DiamondEyesFox/status/2004599760179921392"
 
 ## Summary
 
-exporting my raw session logs to obsidian and also making a summary session log that updates in real time
+This tip demonstrates a workflow for logging and summarizing Claude sessions to improve collaboration and maintain context. The key action is using Claude to access and summarize information from local log files, enabling real-time updates in both Obsidian and Claude's memory. The workflow involves managing sessions with a `Claude.md` file, organizing logs by date within the 'DEF Master Vault' application, and potentially using hooks for automation.
 
 ## Media
 

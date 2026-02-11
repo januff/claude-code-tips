@@ -1,0 +1,686 @@
+[
+  {
+    "id": "2010385736986477018",
+    "text": "the creator of Ralph Wiggum Loop just dropped his entire workflow:\nhttps://t.co/pTjarLWtQm\n\nand we all got it wrong \n\n\u274c ditch the Claude Code plugin \n\u2705 learn the basics \n\u2705 build specs & lookup tbl \n\u2705 see how to properly run Ralph Loop \n\nprob the most important vid you'll see this year as a dev",
+    "author_handle": "@d4m1n",
+    "author_name": "Dan \u26a1\ufe0f",
+    "created_at": "Sun Jan 11 16:18:05 +0000 2026",
+    "created_at_iso": "2026-01-11T16:18:05+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2010385736986477018",
+    "metrics": {
+      "replies": 28,
+      "retweets": 52,
+      "likes": 816,
+      "bookmarks": 1540,
+      "views": 80167
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-ZTLAzXIAAPA4c.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2010387111300718724",
+    "text": "this is, without exaggeration, the only video I've seen that perfectly lays out the software engineer of the future.\n\nin many ways it's exciting, perhaps even a relief.\n\nthank you @GeoffreyHuntley for sharing this example and all of your thoughts around dev \ud83d\ude4f",
+    "author_handle": "@d4m1n",
+    "author_name": "Dan \u26a1\ufe0f",
+    "created_at": "Sun Jan 11 16:23:33 +0000 2026",
+    "created_at_iso": "2026-01-11T16:23:33+00:00",
+    "is_reply_to": "2010385736986477018",
+    "conversation_id": "2010385736986477018",
+    "metrics": {
+      "replies": 3,
+      "retweets": 7,
+      "likes": 31,
+      "bookmarks": 19,
+      "views": 8264
+    },
+    "media": []
+  },
+  {
+    "id": "2010512328681476098",
+    "text": "@d4m1n The claude code plugin for ralph hardly even works - i'm honestly not sure why it was shipped in this state https://t.co/5FTytsCqLb",
+    "author_handle": "@jarrodwatts",
+    "author_name": "Jarrod Watts",
+    "created_at": "Mon Jan 12 00:41:07 +0000 2026",
+    "created_at_iso": "2026-01-12T00:41:07+00:00",
+    "is_reply_to": "2010385736986477018",
+    "conversation_id": "2010385736986477018",
+    "metrics": {
+      "replies": 4,
+      "retweets": 0,
+      "likes": 15,
+      "bookmarks": 2,
+      "views": 3474
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-bGMVWaUAAFKqQ.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2010614429260694003",
+    "text": "@jarrodwatts trying to cash in on the hype I guess.\n\nnot sure in what capacity they worked with @GeoffreyHuntley but maybe they should have had a longer chat with him \ud83d\ude03",
+    "author_handle": "@d4m1n",
+    "author_name": "Dan \u26a1\ufe0f",
+    "created_at": "Mon Jan 12 07:26:50 +0000 2026",
+    "created_at_iso": "2026-01-12T07:26:50+00:00",
+    "is_reply_to": "2010512328681476098",
+    "conversation_id": "2010385736986477018",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 1,
+      "views": 1466
+    },
+    "media": []
+  },
+  {
+    "id": "2010702525104898105",
+    "text": "@d4m1n Algo is back!!",
+    "author_handle": "@DhruvalGolakiya",
+    "author_name": "Dhruval",
+    "created_at": "Mon Jan 12 13:16:53 +0000 2026",
+    "created_at_iso": "2026-01-12T13:16:53+00:00",
+    "is_reply_to": "2010385736986477018",
+    "conversation_id": "2010385736986477018",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 786
+    },
+    "media": []
+  },
+  {
+    "id": "2010763433160163715",
+    "text": "@DhruvalGolakiya so back",
+    "author_handle": "@d4m1n",
+    "author_name": "Dan \u26a1\ufe0f",
+    "created_at": "Mon Jan 12 17:18:55 +0000 2026",
+    "created_at_iso": "2026-01-12T17:18:55+00:00",
+    "is_reply_to": "2010702525104898105",
+    "conversation_id": "2010385736986477018",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 697
+    },
+    "media": []
+  },
+  {
+    "id": "2010565875657564511",
+    "text": "@d4m1n https://t.co/OkVAxDHnrt",
+    "author_handle": "@agiatreides",
+    "author_name": "Muad'Deep - e/acc",
+    "created_at": "Mon Jan 12 04:13:53 +0000 2026",
+    "created_at_iso": "2026-01-12T04:13:53+00:00",
+    "is_reply_to": "2010385736986477018",
+    "conversation_id": "2010385736986477018",
+    "metrics": {
+      "replies": 2,
+      "retweets": 1,
+      "likes": 8,
+      "bookmarks": 3,
+      "views": 1106
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-b3Am9WUAAlT3i.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2010613773816766491",
+    "text": "@agiatreides accurate",
+    "author_handle": "@d4m1n",
+    "author_name": "Dan \u26a1\ufe0f",
+    "created_at": "Mon Jan 12 07:24:13 +0000 2026",
+    "created_at_iso": "2026-01-12T07:24:13+00:00",
+    "is_reply_to": "2010565875657564511",
+    "conversation_id": "2010385736986477018",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 753
+    },
+    "media": []
+  },
+  {
+    "id": "2010517509913661647",
+    "text": "@d4m1n been running ralph loop wrong for 2 weeks.\n\nthis explains everything.\n\nback to basics.",
+    "author_handle": "@xMikeMickelson",
+    "author_name": "Mike Mickelson",
+    "created_at": "Mon Jan 12 01:01:42 +0000 2026",
+    "created_at_iso": "2026-01-12T01:01:42+00:00",
+    "is_reply_to": "2010385736986477018",
+    "conversation_id": "2010385736986477018",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 4,
+      "bookmarks": 0,
+      "views": 1134
+    },
+    "media": []
+  },
+  {
+    "id": "2010613342117769602",
+    "text": "@xMikeMickelson you and me both Mike \ud83d\ude03\n\ngot a bit too excited",
+    "author_handle": "@d4m1n",
+    "author_name": "Dan \u26a1\ufe0f",
+    "created_at": "Mon Jan 12 07:22:30 +0000 2026",
+    "created_at_iso": "2026-01-12T07:22:30+00:00",
+    "is_reply_to": "2010517509913661647",
+    "conversation_id": "2010385736986477018",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 1,
+      "views": 745
+    },
+    "media": []
+  },
+  {
+    "id": "2010445846408745281",
+    "text": "@d4m1n Everyday, I keep learning new things.",
+    "author_handle": "@Trenchesplus",
+    "author_name": "Bare",
+    "created_at": "Sun Jan 11 20:16:56 +0000 2026",
+    "created_at_iso": "2026-01-11T20:16:56+00:00",
+    "is_reply_to": "2010385736986477018",
+    "conversation_id": "2010385736986477018",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 0,
+      "views": 725
+    },
+    "media": []
+  },
+  {
+    "id": "2010613172848513275",
+    "text": "@Trenchesplus Every single day",
+    "author_handle": "@d4m1n",
+    "author_name": "Dan \u26a1\ufe0f",
+    "created_at": "Mon Jan 12 07:21:50 +0000 2026",
+    "created_at_iso": "2026-01-12T07:21:50+00:00",
+    "is_reply_to": "2010445846408745281",
+    "conversation_id": "2010385736986477018",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 354
+    },
+    "media": []
+  },
+  {
+    "id": "2010623886917071166",
+    "text": "@d4m1n Very cool! Seems like he's showing a practical approach to structured prompts. I'm curious to see how this translates to other creative projects.",
+    "author_handle": "@socialmonkeyai",
+    "author_name": "Social Monkey",
+    "created_at": "Mon Jan 12 08:04:24 +0000 2026",
+    "created_at_iso": "2026-01-12T08:04:24+00:00",
+    "is_reply_to": "2010385736986477018",
+    "conversation_id": "2010385736986477018",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 253
+    },
+    "media": []
+  },
+  {
+    "id": "2010691600028963168",
+    "text": "@socialmonkeyai You mean outside of coding? \ud83d\ude0a",
+    "author_handle": "@d4m1n",
+    "author_name": "Dan \u26a1\ufe0f",
+    "created_at": "Mon Jan 12 12:33:28 +0000 2026",
+    "created_at_iso": "2026-01-12T12:33:28+00:00",
+    "is_reply_to": "2010623886917071166",
+    "conversation_id": "2010385736986477018",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 206
+    },
+    "media": []
+  },
+  {
+    "id": "2010593761513066897",
+    "text": "@d4m1n I didn't see the video yet. \nDid he use ampcode? If so, think about why. \nI've made a repo that I'll make it public without ampcode and better than the original Ralph .sh",
+    "author_handle": "@memoria_2024",
+    "author_name": "memorIA",
+    "created_at": "Mon Jan 12 06:04:42 +0000 2026",
+    "created_at_iso": "2026-01-12T06:04:42+00:00",
+    "is_reply_to": "2010385736986477018",
+    "conversation_id": "2010385736986477018",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 519
+    },
+    "media": []
+  },
+  {
+    "id": "2010614700694794278",
+    "text": "@memoria_2024 for the loop he just ran a script in PowerShell I believe, but the fundamental principle was to keep context small and use lookup tables for spec files and only work on one spec at a time",
+    "author_handle": "@d4m1n",
+    "author_name": "Dan \u26a1\ufe0f",
+    "created_at": "Mon Jan 12 07:27:54 +0000 2026",
+    "created_at_iso": "2026-01-12T07:27:54+00:00",
+    "is_reply_to": "2010593761513066897",
+    "conversation_id": "2010385736986477018",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 433
+    },
+    "media": []
+  },
+  {
+    "id": "2010588483052834942",
+    "text": "@d4m1n Can you do this with codex or only Claude?",
+    "author_handle": "@BropeJim",
+    "author_name": "Walt Stevens",
+    "created_at": "Mon Jan 12 05:43:43 +0000 2026",
+    "created_at_iso": "2026-01-12T05:43:43+00:00",
+    "is_reply_to": "2010385736986477018",
+    "conversation_id": "2010385736986477018",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 387
+    },
+    "media": []
+  },
+  {
+    "id": "2010613058519884051",
+    "text": "@BropeJim you should be able to do it principle.\nI think some of these became popular due to Opus 4.5, but technically possible with lesser models too",
+    "author_handle": "@d4m1n",
+    "author_name": "Dan \u26a1\ufe0f",
+    "created_at": "Mon Jan 12 07:21:23 +0000 2026",
+    "created_at_iso": "2026-01-12T07:21:23+00:00",
+    "is_reply_to": "2010588483052834942",
+    "conversation_id": "2010385736986477018",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 352
+    },
+    "media": []
+  },
+  {
+    "id": "2010591392016564345",
+    "text": "@d4m1n Just checked it on YouTube, has to pause and read and then play. As a16z says \u201cSoftware is going to eat the world\u201d.",
+    "author_handle": "@martian007a",
+    "author_name": "Taran Mann",
+    "created_at": "Mon Jan 12 05:55:17 +0000 2026",
+    "created_at_iso": "2026-01-12T05:55:17+00:00",
+    "is_reply_to": "2010385736986477018",
+    "conversation_id": "2010385736986477018",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 404
+    },
+    "media": []
+  },
+  {
+    "id": "2010613966503108761",
+    "text": "@martian007a I had to pause the video many, many times \ud83d\ude03\n\ntons of food for thought",
+    "author_handle": "@d4m1n",
+    "author_name": "Dan \u26a1\ufe0f",
+    "created_at": "Mon Jan 12 07:24:59 +0000 2026",
+    "created_at_iso": "2026-01-12T07:24:59+00:00",
+    "is_reply_to": "2010591392016564345",
+    "conversation_id": "2010385736986477018",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 363
+    },
+    "media": []
+  },
+  {
+    "id": "2010402233381536051",
+    "text": "@d4m1n can you have an orchestrator run over the loops so that the documentation my subagents do for my dev/marketing teams today can still capture that in the loop?",
+    "author_handle": "@Genspun",
+    "author_name": "genspun",
+    "created_at": "Sun Jan 11 17:23:38 +0000 2026",
+    "created_at_iso": "2026-01-11T17:23:38+00:00",
+    "is_reply_to": "2010385736986477018",
+    "conversation_id": "2010385736986477018",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 1805
+    },
+    "media": []
+  },
+  {
+    "id": "2010406852257890551",
+    "text": "@Genspun yeah I think we're missing something like that atm",
+    "author_handle": "@d4m1n",
+    "author_name": "Dan \u26a1\ufe0f",
+    "created_at": "Sun Jan 11 17:41:59 +0000 2026",
+    "created_at_iso": "2026-01-11T17:41:59+00:00",
+    "is_reply_to": "2010402233381536051",
+    "conversation_id": "2010385736986477018",
+    "metrics": {
+      "replies": 3,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 1627
+    },
+    "media": []
+  },
+  {
+    "id": "2010707590062166124",
+    "text": "@d4m1n I am confused\nIs it ralph or ralph wiggum",
+    "author_handle": "@call_tolga",
+    "author_name": "Tolga",
+    "created_at": "Mon Jan 12 13:37:01 +0000 2026",
+    "created_at_iso": "2026-01-12T13:37:01+00:00",
+    "is_reply_to": "2010385736986477018",
+    "conversation_id": "2010385736986477018",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 214
+    },
+    "media": []
+  },
+  {
+    "id": "2010763359617237497",
+    "text": "@call_tolga it's the same :-)\n\nit seems to settle as \"Ralph Loop\"",
+    "author_handle": "@d4m1n",
+    "author_name": "Dan \u26a1\ufe0f",
+    "created_at": "Mon Jan 12 17:18:37 +0000 2026",
+    "created_at_iso": "2026-01-12T17:18:37+00:00",
+    "is_reply_to": "2010707590062166124",
+    "conversation_id": "2010385736986477018",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 172
+    },
+    "media": []
+  },
+  {
+    "id": "2010533027588252097",
+    "text": "@d4m1n incredible",
+    "author_handle": "@pranavsf",
+    "author_name": "breakfastmaxi",
+    "created_at": "Mon Jan 12 02:03:22 +0000 2026",
+    "created_at_iso": "2026-01-12T02:03:22+00:00",
+    "is_reply_to": "2010385736986477018",
+    "conversation_id": "2010385736986477018",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 502
+    },
+    "media": []
+  },
+  {
+    "id": "2010583288415735960",
+    "text": "@d4m1n @doodlestein goes far beyond this. Unfortunately he's too busy building to create videos, but he shares a lot of wisdom on X. He also made this, which makes Ralph look primitive (and not in an elegant way): https://t.co/yI8brrlcSI",
+    "author_handle": "@JohnThilen",
+    "author_name": "John Thil\u00e9n",
+    "created_at": "Mon Jan 12 05:23:05 +0000 2026",
+    "created_at_iso": "2026-01-12T05:23:05+00:00",
+    "is_reply_to": "2010385736986477018",
+    "conversation_id": "2010385736986477018",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 4,
+      "bookmarks": 5,
+      "views": 297
+    },
+    "media": []
+  },
+  {
+    "id": "2010412624949723175",
+    "text": "@d4m1n Exactly. Plugins are fun, but real leverage comes from mastering the fundamentals first, then AI works for you, not the other way around.",
+    "author_handle": "@vishbuilder",
+    "author_name": "Vish Builder | SaaS, MVP & AI",
+    "created_at": "Sun Jan 11 18:04:56 +0000 2026",
+    "created_at_iso": "2026-01-11T18:04:56+00:00",
+    "is_reply_to": "2010385736986477018",
+    "conversation_id": "2010385736986477018",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 4,
+      "bookmarks": 0,
+      "views": 687
+    },
+    "media": []
+  },
+  {
+    "id": "2010601912958349723",
+    "text": "@d4m1n This needs to be the default scaffolding immediately.",
+    "author_handle": "@BenPielstick",
+    "author_name": "Ben Pielstick",
+    "created_at": "Mon Jan 12 06:37:05 +0000 2026",
+    "created_at_iso": "2026-01-12T06:37:05+00:00",
+    "is_reply_to": "2010385736986477018",
+    "conversation_id": "2010385736986477018",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 226
+    },
+    "media": []
+  },
+  {
+    "id": "2010640755904454752",
+    "text": "@d4m1n Thanks. Insightful.  I will improve my practices already by starting new session between \"write the spec\" and \" execute the https://t.co/6mn4aXTtCu \" and keep terminal by task. I was assuming writing down md was enough. But manually have loop=terminal is a nice baby step",
+    "author_handle": "@Antoine27717050",
+    "author_name": "Animam",
+    "created_at": "Mon Jan 12 09:11:26 +0000 2026",
+    "created_at_iso": "2026-01-12T09:11:26+00:00",
+    "is_reply_to": "2010385736986477018",
+    "conversation_id": "2010385736986477018",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 159
+    },
+    "media": []
+  },
+  {
+    "id": "2016049365261996312",
+    "text": "@d4m1n I ended up implementing Ralph in Pydantic AI. He's right, the methodology is universal!",
+    "author_handle": "@Audel_Rouhi",
+    "author_name": "Audel",
+    "created_at": "Tue Jan 27 07:23:19 +0000 2026",
+    "created_at_iso": "2026-01-27T07:23:19+00:00",
+    "is_reply_to": "2010385736986477018",
+    "conversation_id": "2010385736986477018",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 17
+    },
+    "media": []
+  },
+  {
+    "id": "2013166715786457485",
+    "text": "@d4m1n new technique @danlynch",
+    "author_handle": "@phatggg",
+    "author_name": "phatg",
+    "created_at": "Mon Jan 19 08:28:42 +0000 2026",
+    "created_at_iso": "2026-01-19T08:28:42+00:00",
+    "is_reply_to": "2010385736986477018",
+    "conversation_id": "2010385736986477018",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 32
+    },
+    "media": []
+  },
+  {
+    "id": "2010753006116225438",
+    "text": "@d4m1n https://t.co/cdNcjNHeR7",
+    "author_handle": "@vSouthvPawv",
+    "author_name": "sovthpaw",
+    "created_at": "Mon Jan 12 16:37:29 +0000 2026",
+    "created_at_iso": "2026-01-12T16:37:29+00:00",
+    "is_reply_to": "2010385736986477018",
+    "conversation_id": "2010385736986477018",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 118
+    },
+    "media": []
+  },
+  {
+    "id": "2010752018688999913",
+    "text": "Ralph Wiggum is the breakout dev of 2026 https://t.co/ZWdtqhKAwJ",
+    "author_handle": "@vSouthvPawv",
+    "author_name": "sovthpaw",
+    "created_at": "Mon Jan 12 16:33:33 +0000 2026",
+    "created_at_iso": "2026-01-12T16:33:33+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2010752018688999913",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 188
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-egTj_WwAEfDpv.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2010733469295632767",
+    "text": "@d4m1n he also did slay language https://t.co/9Vgs285dLQ",
+    "author_handle": "@Samuel8Sigma",
+    "author_name": "Samuel Sigma",
+    "created_at": "Mon Jan 12 15:19:51 +0000 2026",
+    "created_at_iso": "2026-01-12T15:19:51+00:00",
+    "is_reply_to": "2010385736986477018",
+    "conversation_id": "2010385736986477018",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 77
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-ePTQ6XYAApG-a.png",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2014165002429637043",
+    "text": "@d4m1n Check out my implementation of this. kept it simple and close to what the creator intended\n\nhttps://t.co/Bbsc6JpJ8g",
+    "author_handle": "@purea1go",
+    "author_name": "Mark Adler",
+    "created_at": "Thu Jan 22 02:35:32 +0000 2026",
+    "created_at_iso": "2026-01-22T02:35:32+00:00",
+    "is_reply_to": "2010385736986477018",
+    "conversation_id": "2010385736986477018",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 7
+    },
+    "media": []
+  },
+  {
+    "id": "2014164374840348876",
+    "text": "I just released Go Ralph.\n\nIt\u2019s a simple CLI for running a Ralph Wiggum style agent loop with Claude Code. The agent plans, executes, evaluates, and commits in a loop, improving its work over time and finishing full projects while you\u2019re away.\n\nGo Ralph keeps things intentionally simple. No heavy UI or TUI. Just run it, let the agent iterate, and auto-push results to git.\n\nIf you want a lean, practical way to run long lived agent loops, check it out:\nhttps://t.co/pkAG0qRkWx",
+    "author_handle": "@purea1go",
+    "author_name": "Mark Adler",
+    "created_at": "Thu Jan 22 02:33:02 +0000 2026",
+    "created_at_iso": "2026-01-22T02:33:02+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2014164374840348876",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 2,
+      "views": 928
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G_O_nkWakAEYgir.jpg",
+        "video_url": null
+      }
+    ]
+  }
+]

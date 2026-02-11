@@ -17,7 +17,7 @@ url: "https://x.com/zknark/status/2004592887351415231"
 
 ## Summary
 
-Sit, paw, lay down
+This tip highlights the use of simple natural language commands to instruct a language model. By using terms like "sit," "paw," and "lay down," you can directly influence the model's behavior or output, similar to training a dog. The key insight is that intuitive commands can be surprisingly effective in guiding AI interactions.
 
 
 > [!metrics]- Engagement & Metadata

@@ -1,0 +1,386 @@
+[
+  {
+    "id": "2010617350207451382",
+    "text": "This is the best write up of the Ralph technique I\u2019ve seen for non-technical users to understand \n\nCheck the example repo for a cursor port and just ask your agent of choice to make it work for claude/codex/droid\n\nDon\u2019t use anthropic Ralph plugin!",
+    "author_handle": "@iannuttall",
+    "author_name": "Ian Nuttall",
+    "created_at": "Mon Jan 12 07:38:26 +0000 2026",
+    "created_at_iso": "2026-01-12T07:38:26+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2010617350207451382",
+    "metrics": {
+      "replies": 20,
+      "retweets": 55,
+      "likes": 843,
+      "bookmarks": 1891,
+      "views": 180448
+    },
+    "media": []
+  },
+  {
+    "id": "2010412150918189210",
+    "text": "https://t.co/I6mRRqeQWT",
+    "author_handle": "@agrimsingh",
+    "author_name": "agrim singh",
+    "created_at": "Sun Jan 11 18:03:03 +0000 2026",
+    "created_at_iso": "2026-01-11T18:03:03+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2010412150918189210",
+    "metrics": {
+      "replies": 46,
+      "retweets": 113,
+      "likes": 1538,
+      "bookmarks": 4110,
+      "views": 457302
+    },
+    "media": []
+  },
+  {
+    "id": "2010656670742192548",
+    "text": "@iannuttall Don\u2019t understand the explanation about what is wrong with the Claude code plugin, how is it different and how does that difference make it worse?",
+    "author_handle": "@23kez",
+    "author_name": "Konstantin",
+    "created_at": "Mon Jan 12 10:14:41 +0000 2026",
+    "created_at_iso": "2026-01-12T10:14:41+00:00",
+    "is_reply_to": "2010617350207451382",
+    "conversation_id": "2010617350207451382",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 1,
+      "views": 1623
+    },
+    "media": []
+  },
+  {
+    "id": "2010658596850446781",
+    "text": "@23kez the plugin uses one session and just hammers each task into same context window\n\nthat whole point is to start fresh each loop with file based context that you control",
+    "author_handle": "@iannuttall",
+    "author_name": "Ian Nuttall",
+    "created_at": "Mon Jan 12 10:22:20 +0000 2026",
+    "created_at_iso": "2026-01-12T10:22:20+00:00",
+    "is_reply_to": "2010656670742192548",
+    "conversation_id": "2010617350207451382",
+    "metrics": {
+      "replies": 3,
+      "retweets": 0,
+      "likes": 9,
+      "bookmarks": 3,
+      "views": 1340
+    },
+    "media": []
+  },
+  {
+    "id": "2010618447210913916",
+    "text": "@iannuttall appreciate it! been a big fan of your posts for a while and was inspired to start putting out more content myself :)",
+    "author_handle": "@agrimsingh",
+    "author_name": "agrim singh",
+    "created_at": "Mon Jan 12 07:42:47 +0000 2026",
+    "created_at_iso": "2026-01-12T07:42:47+00:00",
+    "is_reply_to": "2010617350207451382",
+    "conversation_id": "2010617350207451382",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 6,
+      "bookmarks": 0,
+      "views": 1264
+    },
+    "media": []
+  },
+  {
+    "id": "2010704822635208850",
+    "text": "@iannuttall Use relentless!\n\nbun i -g @arvorco/relentless\n\nYou won\u2019t regret",
+    "author_handle": "@leonardodias",
+    "author_name": "Leonardo Dias",
+    "created_at": "Mon Jan 12 13:26:01 +0000 2026",
+    "created_at_iso": "2026-01-12T13:26:01+00:00",
+    "is_reply_to": "2010617350207451382",
+    "conversation_id": "2010617350207451382",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 4,
+      "bookmarks": 9,
+      "views": 865
+    },
+    "media": []
+  },
+  {
+    "id": "2010681215540412485",
+    "text": "@iannuttall The anthropic plugin really sucks right now I hope they correct it. \n\nI mande my own one and also a meta Ralph skill builder : https://t.co/xQ4NOu1jnQ",
+    "author_handle": "@real_doved",
+    "author_name": "Doved",
+    "created_at": "Mon Jan 12 11:52:13 +0000 2026",
+    "created_at_iso": "2026-01-12T11:52:13+00:00",
+    "is_reply_to": "2010617350207451382",
+    "conversation_id": "2010617350207451382",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 1,
+      "views": 529
+    },
+    "media": []
+  },
+  {
+    "id": "2010698187145687161",
+    "text": "@iannuttall I built /ralph-project and I can one shot an entire project with multiple phases, but it requires a deep planning session and to scaffold the directory and technical designs up front.",
+    "author_handle": "@baggins_cc",
+    "author_name": "\ud835\udd87\ud835\udd86\ud835\udd8c\ud835\udd8c\ud835\udd8e\ud835\udd93\ud835\udd98",
+    "created_at": "Mon Jan 12 12:59:39 +0000 2026",
+    "created_at_iso": "2026-01-12T12:59:39+00:00",
+    "is_reply_to": "2010617350207451382",
+    "conversation_id": "2010617350207451382",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 354
+    },
+    "media": []
+  },
+  {
+    "id": "2010627387604807800",
+    "text": "@iannuttall Exactly. I don't use the Ralph plugin itself, but added a plugin to create the external loop https://t.co/VyIQ0u36W4",
+    "author_handle": "@dariuszparys",
+    "author_name": "Dariusz Parys",
+    "created_at": "Mon Jan 12 08:18:19 +0000 2026",
+    "created_at_iso": "2026-01-12T08:18:19+00:00",
+    "is_reply_to": "2010617350207451382",
+    "conversation_id": "2010617350207451382",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 5,
+      "views": 614
+    },
+    "media": []
+  },
+  {
+    "id": "2010690279209304290",
+    "text": "@iannuttall The Ralph technique works best with tight constraints. On that cursor port repo, I'd start with a 5-file sandbox, require tests to pass, then widen scope. Skipping the Anthropic Ralph plugin makes sense. https://t.co/nh1gUhgm5p",
+    "author_handle": "@Jimmysu08",
+    "author_name": "Jimmy Su | AI Hardware Sourcing Partner",
+    "created_at": "Mon Jan 12 12:28:14 +0000 2026",
+    "created_at_iso": "2026-01-12T12:28:14+00:00",
+    "is_reply_to": "2010617350207451382",
+    "conversation_id": "2010617350207451382",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 304
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-doJgXaQAAVP2z.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2010619705267196080",
+    "text": "@iannuttall Clear explanations matter more than clever techniques.",
+    "author_handle": "@Derricksaas",
+    "author_name": "Derrick",
+    "created_at": "Mon Jan 12 07:47:47 +0000 2026",
+    "created_at_iso": "2026-01-12T07:47:47+00:00",
+    "is_reply_to": "2010617350207451382",
+    "conversation_id": "2010617350207451382",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 295
+    },
+    "media": []
+  },
+  {
+    "id": "2010708731223224512",
+    "text": "@iannuttall Ralph is really about bounding the agent\u2019s context and preventing recursive self-correction loops",
+    "author_handle": "@FilipSekan",
+    "author_name": "Filip Sekan",
+    "created_at": "Mon Jan 12 13:41:33 +0000 2026",
+    "created_at_iso": "2026-01-12T13:41:33+00:00",
+    "is_reply_to": "2010617350207451382",
+    "conversation_id": "2010617350207451382",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 181
+    },
+    "media": []
+  },
+  {
+    "id": "2010631508864950778",
+    "text": "@iannuttall Finally a clear breakdown. The Ralph technique is a game changer for agent workflows. Already implementing this approach for our team's Claude integration.",
+    "author_handle": "@AmanKum24351731",
+    "author_name": "Aman Kumar",
+    "created_at": "Mon Jan 12 08:34:42 +0000 2026",
+    "created_at_iso": "2026-01-12T08:34:42+00:00",
+    "is_reply_to": "2010617350207451382",
+    "conversation_id": "2010617350207451382",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 51
+    },
+    "media": []
+  },
+  {
+    "id": "2010709593014317551",
+    "text": "@iannuttall The Ralph loop has been working flawlessly for me. I can now spin up entire projects from ideas written decades ago in less than an hour.\n\nHow much of a game changer is this fork really?",
+    "author_handle": "@slopalot",
+    "author_name": "Derf",
+    "created_at": "Mon Jan 12 13:44:58 +0000 2026",
+    "created_at_iso": "2026-01-12T13:44:58+00:00",
+    "is_reply_to": "2010617350207451382",
+    "conversation_id": "2010617350207451382",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 259
+    },
+    "media": []
+  },
+  {
+    "id": "2010728455844048948",
+    "text": "@iannuttall Can i use it with cursor?",
+    "author_handle": "@Iamyass1ne",
+    "author_name": "Yassine Nahid",
+    "created_at": "Mon Jan 12 14:59:56 +0000 2026",
+    "created_at_iso": "2026-01-12T14:59:56+00:00",
+    "is_reply_to": "2010617350207451382",
+    "conversation_id": "2010617350207451382",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 102
+    },
+    "media": []
+  },
+  {
+    "id": "2010664983164850448",
+    "text": "@iannuttall Specific knowledge accrues leverage. Focus on fundamentals and the rest will fall into place. This Claude Code example unlocks valuable tools, but the true power is in one's own understanding and application. Seek wisdom, not just code.",
+    "author_handle": "@_itsjustshubh",
+    "author_name": "Shubh Thorat",
+    "created_at": "Mon Jan 12 10:47:42 +0000 2026",
+    "created_at_iso": "2026-01-12T10:47:42+00:00",
+    "is_reply_to": "2010617350207451382",
+    "conversation_id": "2010617350207451382",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 548
+    },
+    "media": []
+  },
+  {
+    "id": "2010693562132771222",
+    "text": "@iannuttall Theres context forking",
+    "author_handle": "@ibrgma",
+    "author_name": "brgma",
+    "created_at": "Mon Jan 12 12:41:16 +0000 2026",
+    "created_at_iso": "2026-01-12T12:41:16+00:00",
+    "is_reply_to": "2010617350207451382",
+    "conversation_id": "2010617350207451382",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 140
+    },
+    "media": []
+  },
+  {
+    "id": "2010760493670285730",
+    "text": "@iannuttall I packaged Ralph loop Bash ( no Plugin) for Claude, Codex, Gemini and Cursor. \nIt is a simple extendable system that you can add any backend you like.\n\nIt uses Ralph Loop + Backlog= use 1/3 tokens as vanilla Ralph loop, and I have projects with more than 1000 tasks   1/2",
+    "author_handle": "@MGolch",
+    "author_name": "Mahdi Golchin",
+    "created_at": "Mon Jan 12 17:07:14 +0000 2026",
+    "created_at_iso": "2026-01-12T17:07:14+00:00",
+    "is_reply_to": "2010617350207451382",
+    "conversation_id": "2010617350207451382",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 66
+    },
+    "media": []
+  },
+  {
+    "id": "2010901008243954155",
+    "text": "@iannuttall I have been wondering what the hell Ralph was all week \ud83e\udd23\n\nNow I know and it makes sense.\nTime to go build a port for my workflow and test it out.",
+    "author_handle": "@jeff_behnke_",
+    "author_name": "Jeffrey Behnke \ud83d\udcbb",
+    "created_at": "Tue Jan 13 02:25:35 +0000 2026",
+    "created_at_iso": "2026-01-13T02:25:35+00:00",
+    "is_reply_to": "2010617350207451382",
+    "conversation_id": "2010617350207451382",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 75
+    },
+    "media": []
+  },
+  {
+    "id": "2010683726582473020",
+    "text": "@iannuttall sounds super helpful thanks for sharing",
+    "author_handle": "@itsrajsinghh",
+    "author_name": "Divy Raj",
+    "created_at": "Mon Jan 12 12:02:11 +0000 2026",
+    "created_at_iso": "2026-01-12T12:02:11+00:00",
+    "is_reply_to": "2010617350207451382",
+    "conversation_id": "2010617350207451382",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 205
+    },
+    "media": []
+  },
+  {
+    "id": "2010703236039110878",
+    "text": "@iannuttall Is this ralph wiggum?",
+    "author_handle": "@call_tolga",
+    "author_name": "Tolga",
+    "created_at": "Mon Jan 12 13:19:43 +0000 2026",
+    "created_at_iso": "2026-01-12T13:19:43+00:00",
+    "is_reply_to": "2010617350207451382",
+    "conversation_id": "2010617350207451382",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 134
+    },
+    "media": []
+  }
+]

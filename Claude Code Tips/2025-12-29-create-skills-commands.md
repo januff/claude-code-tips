@@ -30,7 +30,7 @@ url: "https://x.com/ibekidkirsch/status/2005588485475115252"
 
 ## Summary
 
-I literally just pushed this website live
+This tip showcases a web service, "Supercharge Claude Code", designed to simplify the creation and use of custom skills and commands for Claude Code. The key action is using the linked website to easily configure various commands and skills to enhance your Claude Code workflows. While specific commands and settings aren't detailed, the service aims for a dead-simple setup process.
 
 ## Replies
 

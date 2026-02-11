@@ -19,7 +19,7 @@ url: ""
 
 ## Summary
 
-(no i am not sharing my full 2k word Claude Personal Preferences prompt, do u have any idea how much hornier it is)
+This tip humorously implies that a highly detailed personal preferences prompt for Claude can significantly impact its outputs. The key takeaway is that fine-tuning Claude's understanding of user preferences, even in potentially unexpected ways, can lead to noticeably different and, according to the author, surprisingly personalized results. While no specific commands are shown, it suggests the potential power and sensitivity of the initial configuration.
 
 
 > [!metrics]- Engagement & Metadata

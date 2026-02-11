@@ -1,0 +1,518 @@
+[
+  {
+    "id": "2020931408588570833",
+    "text": "The most interesting thing about Claude Code is the extensibility \u2014 small things can easily compound into bigger things you didn't plan.\n\nI started telling Claude Code to write project notes at the end of each work session: What got done, decisions made, open questions, etc.\n\nThis is a practice I've had for a long time, just a way to make it easy to pick up where I left off. \n\nIt writes the notes itself into a file so I don't even have to write it anymore which is already really nice. (I eventually turned this into a /wrap command I run at the end of every session.)\n\nAfter a few days I realized: I have project-level notes across everything I'm working on. Those could roll up into a single daily note pretty easily. So I told Claude to summarize the project workbenches into a daily log. Took about two minutes to set up.\n\nThen I started doing my weekly review for the week. I already had seven daily summaries sitting there. \n\nInstead of manually going over my calendar and task list like usual, I made a command that pulls from those and drafts the first version of my weekly review \u2014 what got done, what's stuck, what to prioritize next week. \n\nThen I realized: I also have a file with my goals and priorities, and now I have a summary of how I actually spent my week. Why am I manually eyeballing whether those line up? \n\nI told Claude to audit them \u2014 compare what I said I'd focus on against what I actually did, and flag the gaps.\n\nThe gaps then inform what I need to work on next week. If I decide to reprioritize, I can tell Claude to update my quarterly goals and weekly boals based on the new priorities.\n\nBecause it has access to my Google Calendar, it can pretty easily check whether I actually have time for what I'm planning.\n\nYou can imagine how you could build more on top of this:\n\nE.g. Send the team weekly update \u2014 make a command that takes the weekly review and reformats it for a team audience. Different tone, more context for people who aren't in my head all day. The raw material is already there.\n\nNone of these steps were planned in advance. Each was a small, obvious extension of the last primitive. \n\n- Daily note = summary of project workbenches. \n- Weekly review = summary of daily notes. \n- Goals audit = cross-reference of two files that already existed.\n\nEach piece took a few minutes to set up because the building blocks were already there. \n\nThat's the thing that's both impressive hard to convey about these CLI tools \u2014 while some single steps are impressive (e.g. the ability to one shot complex software), the more interesting and exciting thing to me is the ways they compound over time.",
+    "author_handle": "@TaylorPearsonMe",
+    "author_name": "Taylor Pearson",
+    "created_at": "Mon Feb 09 18:42:49 +0000 2026",
+    "created_at_iso": "2026-02-09T18:42:49+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2020931408588570833",
+    "metrics": {
+      "replies": 22,
+      "retweets": 10,
+      "likes": 225,
+      "bookmarks": 278,
+      "views": 18014
+    },
+    "media": []
+  },
+  {
+    "id": "2020936863805268204",
+    "text": "@TaylorPearsonMe It's summaries all the way down ;)",
+    "author_handle": "@fortelabs",
+    "author_name": "Tiago Forte",
+    "created_at": "Mon Feb 09 19:04:30 +0000 2026",
+    "created_at_iso": "2026-02-09T19:04:30+00:00",
+    "is_reply_to": "2020931408588570833",
+    "conversation_id": "2020931408588570833",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 0,
+      "views": 1002
+    },
+    "media": []
+  },
+  {
+    "id": "2020946748295066048",
+    "text": "@fortelabs lol, it really is",
+    "author_handle": "@TaylorPearsonMe",
+    "author_name": "Taylor Pearson",
+    "created_at": "Mon Feb 09 19:43:46 +0000 2026",
+    "created_at_iso": "2026-02-09T19:43:46+00:00",
+    "is_reply_to": "2020936863805268204",
+    "conversation_id": "2020931408588570833",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 360
+    },
+    "media": []
+  },
+  {
+    "id": "1990898810563055957",
+    "text": "\"I didn\u2019t think the Epstein scandal could still shock me. I was wrong.\"",
+    "author_handle": "@TheFP",
+    "author_name": "The Free Press",
+    "created_at": "Tue Nov 18 21:44:00 +0000 2025",
+    "created_at_iso": "2025-11-18T21:44:00+00:00",
+    "is_reply_to": null,
+    "conversation_id": "1990898810563055957",
+    "metrics": {
+      "replies": 793,
+      "retweets": 2610,
+      "likes": 8364,
+      "bookmarks": 1899,
+      "views": 7270579
+    },
+    "media": []
+  },
+  {
+    "id": "2020935496688714022",
+    "text": "@TaylorPearsonMe That\u2019s cool.  I think it\u2019s less about Claude Code being a CLI tool than it is about it being something that can use tools and store/use/modify the state of information through those tools",
+    "author_handle": "@mtessar",
+    "author_name": "Matt Tessar",
+    "created_at": "Mon Feb 09 18:59:04 +0000 2026",
+    "created_at_iso": "2026-02-09T18:59:04+00:00",
+    "is_reply_to": "2020931408588570833",
+    "conversation_id": "2020931408588570833",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 590
+    },
+    "media": []
+  },
+  {
+    "id": "2020946694947602888",
+    "text": "@mtessar I think that's right, but the CLI tooling framing is interesting because, insofar as I understand how Unix works, it feels like that's a really important architectural decision and primitive to how CC works. https://t.co/5d2TirBNRq",
+    "author_handle": "@TaylorPearsonMe",
+    "author_name": "Taylor Pearson",
+    "created_at": "Mon Feb 09 19:43:34 +0000 2026",
+    "created_at_iso": "2026-02-09T19:43:34+00:00",
+    "is_reply_to": "2020935496688714022",
+    "conversation_id": "2020931408588570833",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 443
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HAvYPrKXEAAhu8T.png",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2021169106313945310",
+    "text": "@TaylorPearsonMe barrier to adding a new stage is essentially zero since you just point Claude at two existing files and tell it what to do.",
+    "author_handle": "@pitachoi",
+    "author_name": "Peter Choi",
+    "created_at": "Tue Feb 10 10:27:21 +0000 2026",
+    "created_at_iso": "2026-02-10T10:27:21+00:00",
+    "is_reply_to": "2020931408588570833",
+    "conversation_id": "2020931408588570833",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 49
+    },
+    "media": []
+  },
+  {
+    "id": "2021282938009051404",
+    "text": "@pitachoi yes, and super easy to sort of refactor the existing structure to conform with whatever you want to build on top.",
+    "author_handle": "@TaylorPearsonMe",
+    "author_name": "Taylor Pearson",
+    "created_at": "Tue Feb 10 17:59:40 +0000 2026",
+    "created_at_iso": "2026-02-10T17:59:40+00:00",
+    "is_reply_to": "2021169106313945310",
+    "conversation_id": "2020931408588570833",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 25
+    },
+    "media": []
+  },
+  {
+    "id": "2021201389087838385",
+    "text": "@TaylorPearsonMe Combine that with your daily logs of your wispr flow, your meeting transcripts and, if you really want your email sent folder, and now you have a comprehensive overview of what you did. That\u2019s what I did :)",
+    "author_handle": "@runsonai",
+    "author_name": "Thanh Pham",
+    "created_at": "Tue Feb 10 12:35:37 +0000 2026",
+    "created_at_iso": "2026-02-10T12:35:37+00:00",
+    "is_reply_to": "2020931408588570833",
+    "conversation_id": "2020931408588570833",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 1,
+      "views": 53
+    },
+    "media": []
+  },
+  {
+    "id": "2021283524389560775",
+    "text": "@runsonai Love that. Sent email is a nice one to add. I was doing meeting transcripts and google calendar and that was pretty complete. In practice, basically all my Wispr Flow goes into Claude code. So I think that may be redundant, but interesting to play with. Pretty cool times!",
+    "author_handle": "@TaylorPearsonMe",
+    "author_name": "Taylor Pearson",
+    "created_at": "Tue Feb 10 18:02:00 +0000 2026",
+    "created_at_iso": "2026-02-10T18:02:00+00:00",
+    "is_reply_to": "2021201389087838385",
+    "conversation_id": "2020931408588570833",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 39
+    },
+    "media": []
+  },
+  {
+    "id": "2021216005804933592",
+    "text": "@TaylorPearsonMe you just described a multi-agent system. each step (daily notes, weekly review, goal audit) should be its own specialized agent. way easier to extend and debug when they're separate.\n\nthis exact pattern is what businesses need but won't build themselves.",
+    "author_handle": "@0xlambertd",
+    "author_name": "Lambert",
+    "created_at": "Tue Feb 10 13:33:42 +0000 2026",
+    "created_at_iso": "2026-02-10T13:33:42+00:00",
+    "is_reply_to": "2020931408588570833",
+    "conversation_id": "2020931408588570833",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 35
+    },
+    "media": []
+  },
+  {
+    "id": "2021283938853904511",
+    "text": "Help me understand what converting these from a slash command into an agent would accomplish in practice?\n\nI'm present and interacting with these processes. So having them run in the background doesn't seem like that much of an advantage, so slash commands seem to be adequate, but open to changing my mind.",
+    "author_handle": "@TaylorPearsonMe",
+    "author_name": "Taylor Pearson",
+    "created_at": "Tue Feb 10 18:03:39 +0000 2026",
+    "created_at_iso": "2026-02-10T18:03:39+00:00",
+    "is_reply_to": "2021216005804933592",
+    "conversation_id": "2020931408588570833",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 28
+    },
+    "media": []
+  },
+  {
+    "id": "2021004725970198587",
+    "text": "Stealing this immediately, thank you. I've been building something similar with my OpenClaw, I,Claudius: Daily memory files, project scratchpads, error logs, but I hadn't wired up the rollup chain you're describing. That's the missing piece.\n\nWhat's interesting to me is extending this beyond just session notes. I'm layering in premortems before any content or marketing build, tracking what actually worked vs what we assumed would work, and logging the patterns we're seeing across multiple projects. The compounding isn't just in the summaries; it's in the pattern recognition. When you can cross-reference three months of daily notes against your quarterly goals and see exactly where you drifted, that's a different kind of awareness than any weekly review gives you manually.\n\nThe \"summaries all the way down\" framing is right, but I'd add: it's also lessons all the way down. Each layer should be getting smarter, not just shorter.",
+    "author_handle": "@ajlawrence",
+    "author_name": "A.J. Lawrence",
+    "created_at": "Mon Feb 09 23:34:09 +0000 2026",
+    "created_at_iso": "2026-02-09T23:34:09+00:00",
+    "is_reply_to": "2020931408588570833",
+    "conversation_id": "2020931408588570833",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 2,
+      "views": 131
+    },
+    "media": []
+  },
+  {
+    "id": "2021282212050518285",
+    "text": "Lol, love the name. I'm thinking about how to incorporate the lessons. \n\nI think my current notion is that there's a layer that sits on top of the workbenches that's something like consolidated learning where you go back through the workbenches or have Claude go back to the workbench just periodically and construct it into learnings that are then applied to making the system better. \n\nI'm not sure that's the right approach, but generally agree that there is something more you want out of it than just simply a record of everything that happened. And that it seems like Claude is pretty good at both creating this document and then learning from it. Though figuring out how it's such in the architecture is important and I don't think I've quite solved that.",
+    "author_handle": "@TaylorPearsonMe",
+    "author_name": "Taylor Pearson",
+    "created_at": "Tue Feb 10 17:56:47 +0000 2026",
+    "created_at_iso": "2026-02-10T17:56:47+00:00",
+    "is_reply_to": "2021004725970198587",
+    "conversation_id": "2020931408588570833",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 59
+    },
+    "media": []
+  },
+  {
+    "id": "2021241712715120666",
+    "text": "i love that openclaw has made capturing knowledge so easy. \n\na word of caution: the more you use this, the more context your llm has to sift through. you're going to want something that automatically structures these notes for you in a knowledge graph.\n\nthe ingestion is easy. keeping extraction accurate and cheap will be the hard part.",
+    "author_handle": "@forageandjump",
+    "author_name": "charlotte",
+    "created_at": "Tue Feb 10 15:15:51 +0000 2026",
+    "created_at_iso": "2026-02-10T15:15:51+00:00",
+    "is_reply_to": "2020931408588570833",
+    "conversation_id": "2020931408588570833",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 1,
+      "views": 59
+    },
+    "media": []
+  },
+  {
+    "id": "2021284317083599006",
+    "text": "@forageandjump Yes, starting to run into this and trying to work through it. If there's any good prior art that you could share or point me towards, I'd be all ears.  :)\n\nhttps://t.co/Ya4TLN7tlD",
+    "author_handle": "@TaylorPearsonMe",
+    "author_name": "Taylor Pearson",
+    "created_at": "Tue Feb 10 18:05:09 +0000 2026",
+    "created_at_iso": "2026-02-10T18:05:09+00:00",
+    "is_reply_to": "2021241712715120666",
+    "conversation_id": "2020931408588570833",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 29
+    },
+    "media": []
+  },
+  {
+    "id": "2021237254593650755",
+    "text": "@TaylorPearsonMe takes a bit of setup and you have to keep an eye on data privacy, but the compound interest on your time is worth it.",
+    "author_handle": "@mokshmsharma",
+    "author_name": "Moksh M. Sharma",
+    "created_at": "Tue Feb 10 14:58:08 +0000 2026",
+    "created_at_iso": "2026-02-10T14:58:08+00:00",
+    "is_reply_to": "2020931408588570833",
+    "conversation_id": "2020931408588570833",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 8
+    },
+    "media": []
+  },
+  {
+    "id": "2020980613973733402",
+    "text": "@TaylorPearsonMe Had this exact realization last week as well.\n\nHonestly, one amazing byproduct of using CC more is that it forces me (w/ cc help) to create the robust documentation that used to be hard to justify the time for. \n\nAnd you're right, it compounds really quickly",
+    "author_handle": "@michael_zaro",
+    "author_name": "Michael Zaro",
+    "created_at": "Mon Feb 09 21:58:21 +0000 2026",
+    "created_at_iso": "2026-02-09T21:58:21+00:00",
+    "is_reply_to": "2020931408588570833",
+    "conversation_id": "2020931408588570833",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 115
+    },
+    "media": []
+  },
+  {
+    "id": "2020988476230193337",
+    "text": "@TaylorPearsonMe been doing this with LlamaIndex - the key is capturing the context + provenance of each decision\n\nlearned this after 3 months of \"why did we choose X?\" archaeology. now we track decision contexts in vector space, makes traversing the decision tree way easier",
+    "author_handle": "@navneet_rabdiya",
+    "author_name": "Navneet",
+    "created_at": "Mon Feb 09 22:29:35 +0000 2026",
+    "created_at_iso": "2026-02-09T22:29:35+00:00",
+    "is_reply_to": "2020931408588570833",
+    "conversation_id": "2020931408588570833",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 1,
+      "views": 133
+    },
+    "media": []
+  },
+  {
+    "id": "2021141247335989425",
+    "text": "@TaylorPearsonMe This is the sleeper feature.\nEnd-of-session notes quietly turn work into a compounding system: memory, decisions, open loops.\nAt some point the tool isn\u2019t assisting anymore \u2014 it\u2019s running continuity for you.",
+    "author_handle": "@UncleJAI",
+    "author_name": "Uncle J",
+    "created_at": "Tue Feb 10 08:36:39 +0000 2026",
+    "created_at_iso": "2026-02-10T08:36:39+00:00",
+    "is_reply_to": "2020931408588570833",
+    "conversation_id": "2020931408588570833",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 1,
+      "views": 51
+    },
+    "media": []
+  },
+  {
+    "id": "2021105665071251571",
+    "text": "@TaylorPearsonMe The cool part of that daily note \u2192 weekly review \u2192 goals audit chain is when it breaks. The moment file schemas drift or tools lose context, you need guardrails like typed structs and validation or your whole planning loop silently degrades.",
+    "author_handle": "@anayatkhan09",
+    "author_name": "Anayat",
+    "created_at": "Tue Feb 10 06:15:15 +0000 2026",
+    "created_at_iso": "2026-02-10T06:15:15+00:00",
+    "is_reply_to": "2020931408588570833",
+    "conversation_id": "2020931408588570833",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 74
+    },
+    "media": []
+  },
+  {
+    "id": "2021045874693128674",
+    "text": "@TaylorPearsonMe just added a wrap skill, thanks!",
+    "author_handle": "@lkr",
+    "author_name": "Laura Roeder",
+    "created_at": "Tue Feb 10 02:17:40 +0000 2026",
+    "created_at_iso": "2026-02-10T02:17:40+00:00",
+    "is_reply_to": "2020931408588570833",
+    "conversation_id": "2020931408588570833",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 1,
+      "views": 157
+    },
+    "media": []
+  },
+  {
+    "id": "2021139353771376721",
+    "text": "@TaylorPearsonMe The compounding is insane.  Literally every rep sprinkles more fairy dust on your magic machine https://t.co/CMNLRiNvy5",
+    "author_handle": "@superzac",
+    "author_name": "Zachary King",
+    "created_at": "Tue Feb 10 08:29:07 +0000 2026",
+    "created_at_iso": "2026-02-10T08:29:07+00:00",
+    "is_reply_to": "2020931408588570833",
+    "conversation_id": "2020931408588570833",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 39
+    },
+    "media": [
+      {
+        "type": "animated_gif",
+        "url": "https://pbs.twimg.com/tweet_video_thumb/HAyHhseaAAAt_xv.jpg",
+        "video_url": "https://video.twimg.com/tweet_video/HAyHhseaAAAt_xv.mp4"
+      }
+    ]
+  },
+  {
+    "id": "2021228135640072327",
+    "text": "This compounds fast when you have a distributed team.\n\nWe do something similar at Remoty. Every session leaves behind structured notes that any teammate (human or AI) can pick up later. No more \"what happened while I was offline\" Slack scrolling.\n\nThe real unlock is when these notes become institutional memory that survives context switches, timezone gaps, and even team turnover. Remote teams who build this habit now will have a massive edge.",
+    "author_handle": "@Remoty_AI",
+    "author_name": "Remoty",
+    "created_at": "Tue Feb 10 14:21:54 +0000 2026",
+    "created_at_iso": "2026-02-10T14:21:54+00:00",
+    "is_reply_to": "2020931408588570833",
+    "conversation_id": "2020931408588570833",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 8
+    },
+    "media": []
+  },
+  {
+    "id": "2021021662943047982",
+    "text": "@TaylorPearsonMe Yeah once you start building a system it opens up a trillion possibilities \ud83d\ude01",
+    "author_handle": "@macomoroni",
+    "author_name": "Marco Mori\ud83d\udc7e",
+    "created_at": "Tue Feb 10 00:41:27 +0000 2026",
+    "created_at_iso": "2026-02-10T00:41:27+00:00",
+    "is_reply_to": "2020931408588570833",
+    "conversation_id": "2020931408588570833",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 80
+    },
+    "media": []
+  },
+  {
+    "id": "2021235926358241509",
+    "text": "@TaylorPearsonMe Yes! One door leads to two more on this journey",
+    "author_handle": "@elrolio",
+    "author_name": "el rolio",
+    "created_at": "Tue Feb 10 14:52:52 +0000 2026",
+    "created_at_iso": "2026-02-10T14:52:52+00:00",
+    "is_reply_to": "2020931408588570833",
+    "conversation_id": "2020931408588570833",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 6
+    },
+    "media": []
+  },
+  {
+    "id": "2021201862314389799",
+    "text": "@TaylorPearsonMe I learned from this. Thanks.",
+    "author_handle": "@hhoanganh",
+    "author_name": "Hoang Anh",
+    "created_at": "Tue Feb 10 12:37:30 +0000 2026",
+    "created_at_iso": "2026-02-10T12:37:30+00:00",
+    "is_reply_to": "2020931408588570833",
+    "conversation_id": "2020931408588570833",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 11
+    },
+    "media": []
+  },
+  {
+    "id": "2021187133977788659",
+    "text": "@TaylorPearsonMe that's a great use case, helps with accountability and reflection too \ud83d\udcdd",
+    "author_handle": "@ASolovichh",
+    "author_name": "Wilson Wizard",
+    "created_at": "Tue Feb 10 11:38:59 +0000 2026",
+    "created_at_iso": "2026-02-10T11:38:59+00:00",
+    "is_reply_to": "2020931408588570833",
+    "conversation_id": "2020931408588570833",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 19
+    },
+    "media": []
+  }
+]

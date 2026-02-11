@@ -18,7 +18,7 @@ url: "https://x.com/taheerBuilds/status/2004583316603969819"
 
 ## Summary
 
-Because Honestly tired of getting flickering screen and I feel like the rate limits have been halved rather than 2x'ed
+This tip likely discusses troubleshooting a flickering screen issue, potentially related to rate limiting. The user seems to believe that rate limits have become more restrictive, leading to the problem. Without further context, the precise solution or recommended settings cannot be determined, but the core issue is resolving a visual artifact possibly caused by server-side restrictions.
 
 ## Replies
 

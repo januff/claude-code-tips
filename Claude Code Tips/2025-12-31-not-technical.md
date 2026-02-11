@@ -23,7 +23,7 @@ url: ""
 
 ## Summary
 
-even if you're not technical tbh
+This tip focuses on demystifying coding concepts, making them accessible even to non-technical individuals. It emphasizes that coding isn't solely for specialists, implying a simplification of fundamental principles or tools. The value lies in promoting code literacy and enabling wider participation, regardless of background. No specific tools or commands are detailed but the core idea is code accessibility.
 
 ## Replies
 

@@ -20,7 +20,7 @@ url: "https://x.com/jeffzwang/status/2004637219664134274"
 
 ## Summary
 
-Using Claude in Chrome and tired of the "debug" banner popup
+This tip focuses on removing the persistent "debug" banner that can appear when using Claude within the Chrome browser. The provided instructions, not detailed in the tweet, presumably outline steps to disable this banner. This likely involves adjusting settings within Chrome or Claude's interface to improve the user experience by eliminating visual clutter.
 
 
 > [!metrics]- Engagement & Metadata

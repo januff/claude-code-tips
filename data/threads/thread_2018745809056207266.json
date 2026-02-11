@@ -1,0 +1,668 @@
+[
+  {
+    "id": "2018745809056207266",
+    "text": "this is hands-down the best way to work with Claude right now...\n\nwhenever you start a new project (startup, content, side hustle, anything...)\n\nopen a fresh chat with Opus 4.5, turn on extended thinking and dump everything about your project\n\nthen prompt this:\n\"ask me 5 questions that would help you have a complete understanding of this project\"\n\nanswer those questions (spend a lot of time here)\n\nthen hit it with:\n\"you're my co-founder. create a master plan with a knowledge base directory for each section. attach context markdown files to every part. you're building the skeleton that Claude Code will use to build everything 10x faster. suggest skills to integrate, automations to build or any tool that'd 10x our speed. suggest when to use a project or Claude Code\"\n\nClaude will create every file you need, simply import them into Claude Code\n\nfrom there you build systems and your project alongside it, use it like a Claude chat\n\nit'll tell you when to spin up Claude Projects for specific tasks: deep research, writing, working with MCPs...\n\none planning session replaces weeks of figuring things out on your own\n\nthis is what working WITH AI looks like",
+    "author_handle": "@EXM7777",
+    "author_name": "Machina",
+    "created_at": "Tue Feb 03 17:58:02 +0000 2026",
+    "created_at_iso": "2026-02-03T17:58:02+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 62,
+      "retweets": 142,
+      "likes": 2783,
+      "bookmarks": 6344,
+      "views": 169018
+    },
+    "media": []
+  },
+  {
+    "id": "2018771513709855032",
+    "text": "more free prompts + content in my telegram (link in bio)\n\nweekly newsletter (no ads/spam): https://t.co/KcCY4jJBSd",
+    "author_handle": "@EXM7777",
+    "author_name": "Machina",
+    "created_at": "Tue Feb 03 19:40:10 +0000 2026",
+    "created_at_iso": "2026-02-03T19:40:10+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 12,
+      "bookmarks": 19,
+      "views": 10275
+    },
+    "media": []
+  },
+  {
+    "id": "2018778424182194372",
+    "text": "this is the type of workflow i'll break down here: https://t.co/WluxuWUDZC",
+    "author_handle": "@EXM7777",
+    "author_name": "Machina",
+    "created_at": "Tue Feb 03 20:07:38 +0000 2026",
+    "created_at_iso": "2026-02-03T20:07:38+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 3,
+      "retweets": 0,
+      "likes": 8,
+      "bookmarks": 8,
+      "views": 7127
+    },
+    "media": []
+  },
+  {
+    "id": "2018753271733657694",
+    "text": "@EXM7777 https://t.co/dykfrkLFx1 created plugin for my workflow",
+    "author_handle": "@ghumare64",
+    "author_name": "Rohit Ghumare",
+    "created_at": "Tue Feb 03 18:27:41 +0000 2026",
+    "created_at_iso": "2026-02-03T18:27:41+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 8,
+      "bookmarks": 10,
+      "views": 1254
+    },
+    "media": []
+  },
+  {
+    "id": "2019028662033490119",
+    "text": "@EXM7777 I've been doing that forever and it made me fall in love with Claude.\n\nI also like asking it to \"ultrathink outside the box about any gaps in your knowledge before you ask\"\n\nYes I know ultrathink doesnt do anything but it makes me feel good",
+    "author_handle": "@nikita_builds",
+    "author_name": "Nikita",
+    "created_at": "Wed Feb 04 12:41:59 +0000 2026",
+    "created_at_iso": "2026-02-04T12:41:59+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 270
+    },
+    "media": []
+  },
+  {
+    "id": "2019005924208463989",
+    "text": "See AI isn\u2019t replacing people herez when used well, it behaves less like a tool and more like a partner that helps you clarify ideas, structure work, and move faster\n\nYou still need judgment, taste and the skill to work with it. Those who learn that collaboration get a multiplier, those who don\u2019t just see another chatbot",
+    "author_handle": "@OpenledgerHQ",
+    "author_name": "OpenLedger @ Consensus HK",
+    "created_at": "Wed Feb 04 11:11:38 +0000 2026",
+    "created_at_iso": "2026-02-04T11:11:38+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 598
+    },
+    "media": []
+  },
+  {
+    "id": "2018776586829341183",
+    "text": "@EXM7777 exactly, especially since something like @lamxnts skillstack could help identify missing skills in that co-founder master plan",
+    "author_handle": "@0x_Vivek",
+    "author_name": "0x_Vivek",
+    "created_at": "Tue Feb 03 20:00:20 +0000 2026",
+    "created_at_iso": "2026-02-03T20:00:20+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 376
+    },
+    "media": []
+  },
+  {
+    "id": "2019095881648328845",
+    "text": "@EXM7777 You basically pipelined your brain into distributed inference and called it planning.\ud83d\ude01\ud83d\ude01",
+    "author_handle": "@InsForge_dev",
+    "author_name": "InsForge",
+    "created_at": "Wed Feb 04 17:09:05 +0000 2026",
+    "created_at_iso": "2026-02-04T17:09:05+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 69
+    },
+    "media": []
+  },
+  {
+    "id": "2018823157151654082",
+    "text": "@EXM7777 Spot on \ud83c\udfaf",
+    "author_handle": "@morganlinton",
+    "author_name": "Morgan",
+    "created_at": "Tue Feb 03 23:05:23 +0000 2026",
+    "created_at_iso": "2026-02-03T23:05:23+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 288
+    },
+    "media": []
+  },
+  {
+    "id": "2018853717156438447",
+    "text": "@EXM7777 + use voice to text",
+    "author_handle": "@TechSalesGuy",
+    "author_name": "Tech Sales Guy",
+    "created_at": "Wed Feb 04 01:06:49 +0000 2026",
+    "created_at_iso": "2026-02-04T01:06:49+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 1,
+      "views": 379
+    },
+    "media": []
+  },
+  {
+    "id": "2018754293416051046",
+    "text": "honestly man, AI is simply insane for learning acceleration i've been using one that's absolutely cracked also...  \n\nit's actually a quite a bit similar to this, but instead of learning before the project it focuses on leveling up after  \n\nit's so easy, all i do is write down any observation or insight i have during the project in a google doc  \n\nthen when the project is done i copy and paste the doc into claude chat then prompt it to summarise the key insights in the document  \n\nhonestly its a game changer for learning and growth. it's almost like downloading a mentor in your own mind  \n\nthe AI has a granualar view on what you we're thinking, when and at what stage  \n\nso it's able to feed you where you went wrong and what you could do better next time  \n\nAI won't always be able to catch mistakes in the moment, but once the project is done its really good at analyzing the process that led to the outcome",
+    "author_handle": "@theishshogun",
+    "author_name": "ishshogun",
+    "created_at": "Tue Feb 03 18:31:44 +0000 2026",
+    "created_at_iso": "2026-02-03T18:31:44+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 16,
+      "bookmarks": 7,
+      "views": 3506
+    },
+    "media": []
+  },
+  {
+    "id": "2018788557746557186",
+    "text": "@EXM7777 5 minutes after one shotting this mega prompt at 2am Sunday morning:\n\n*Claude weekly usage limit reached. Will reset on Sunday at 12am*",
+    "author_handle": "@AuDHD_Founder",
+    "author_name": "Timothy",
+    "created_at": "Tue Feb 03 20:47:54 +0000 2026",
+    "created_at_iso": "2026-02-03T20:47:54+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 3,
+      "retweets": 1,
+      "likes": 13,
+      "bookmarks": 0,
+      "views": 2664
+    },
+    "media": []
+  },
+  {
+    "id": "2018746622776365274",
+    "text": "The Context Markdown strategy is the single biggest unlock for AI development right now\n\nMost people treat the LLM like a junior dev that needs line-by-line instruction\nWhen you should be treating it like a CTO that needs the full architectural vision\n\nI use this exact method but I add a https://t.co/sDSQ4VpyTJ file to the context stack immediately\n\nIt defines:\n\u2192 The Paywall trigger points\n\u2192 The Onboarding flow psychology\n\u2192 The viral loop mechanics\n\nWhen Claude Code consumes that alongside the technical skeleton\nIt writes code that is optimized for conversion, not just function\n\nIt knows *why* the button needs to be there, not just *that* it needs to be there\n\nThis creates a feedback loop where the AI suggests features based on revenue goals\nRather than just completing a ticket\n\nThis is how you go from cool side project to $10k/mo asset in a weekend\nWe are literally compressing decades of dev work into singular prompts\n\nIf you arent building your context files first\nYou are just typing for exercise at this point",
+    "author_handle": "@kar_umit",
+    "author_name": "\u00dcmit Kar \ud83d\ude80",
+    "created_at": "Tue Feb 03 18:01:16 +0000 2026",
+    "created_at_iso": "2026-02-03T18:01:16+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 10,
+      "bookmarks": 12,
+      "views": 2477
+    },
+    "media": []
+  },
+  {
+    "id": "2018788636796592456",
+    "text": "@EXM7777 the \"ask me 5 questions\" prompt is underrated. forces claude to surface gaps you didnt even know existed\n\nthe master plan + knowledge base approach is basically what separates good AI workflows from just chatting",
+    "author_handle": "@NineArtss",
+    "author_name": "Nine Arts",
+    "created_at": "Tue Feb 03 20:48:12 +0000 2026",
+    "created_at_iso": "2026-02-03T20:48:12+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 8,
+      "bookmarks": 1,
+      "views": 1181
+    },
+    "media": []
+  },
+  {
+    "id": "2018861349871460747",
+    "text": "The part most people miss: that \"master plan with knowledge base directories\" IS your https://t.co/4yRR31zV21 file. Claude Code reads it automatically at session start.\n\nSo it's not a one-time planning session \u2014 it becomes a compounding system that gets better with every session you run.",
+    "author_handle": "@Vladiim",
+    "author_name": "Vlad Mehakovic",
+    "created_at": "Wed Feb 04 01:37:09 +0000 2026",
+    "created_at_iso": "2026-02-04T01:37:09+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 1,
+      "retweets": 1,
+      "likes": 5,
+      "bookmarks": 9,
+      "views": 1055
+    },
+    "media": []
+  },
+  {
+    "id": "2019049620622700773",
+    "text": "@EXM7777 The cofounder framing is solid, but if you dump everything into one Opus 4.5 chat you\u2019ll hit context fragmentation fast once code and specs evolve. I\u2019ve found per-scope projects (product, infra, agents) with explicit contracts between them scale way better.",
+    "author_handle": "@anayatkhan09",
+    "author_name": "Anayat",
+    "created_at": "Wed Feb 04 14:05:16 +0000 2026",
+    "created_at_iso": "2026-02-04T14:05:16+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 0,
+      "retweets": 1,
+      "likes": 5,
+      "bookmarks": 3,
+      "views": 413
+    },
+    "media": []
+  },
+  {
+    "id": "2018947066286985678",
+    "text": "@EXM7777 adding to this amazing framework: the most powerful step is letting the ai ask you the questions. it forces you to clarify your own thinking before you even start building anything.",
+    "author_handle": "@RitOnchain",
+    "author_name": "narrator",
+    "created_at": "Wed Feb 04 07:17:45 +0000 2026",
+    "created_at_iso": "2026-02-04T07:17:45+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 5,
+      "bookmarks": 0,
+      "views": 437
+    },
+    "media": []
+  },
+  {
+    "id": "2018757168456196115",
+    "text": "I do this. I have Claude set up as my only VP (I'm President). Claude Code is CTO. \n\nIt's CC's job to mind the bots and run the farm. He's the orchestrator. \n\nClaude WWW is there to keep me on vision. In fact, today we just finished our grand vision document, and we have a tech document to give to CC so he can get to rocking.",
+    "author_handle": "@catsfive",
+    "author_name": "Monty Nicol",
+    "created_at": "Tue Feb 03 18:43:10 +0000 2026",
+    "created_at_iso": "2026-02-03T18:43:10+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 4,
+      "bookmarks": 2,
+      "views": 1033
+    },
+    "media": []
+  },
+  {
+    "id": "2018861645704130938",
+    "text": "The part most people miss: that \"master plan with knowledge base directories\" IS your https://t.co/4yRR31zV21 file. Claude Code reads it automatically at session start.\n\nSo it's not a one-time planning session \u2014 it becomes a compounding system that gets better with every session you run.",
+    "author_handle": "@Vladiim",
+    "author_name": "Vlad Mehakovic",
+    "created_at": "Wed Feb 04 01:38:19 +0000 2026",
+    "created_at_iso": "2026-02-04T01:38:19+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 0,
+      "retweets": 1,
+      "likes": 2,
+      "bookmarks": 2,
+      "views": 436
+    },
+    "media": []
+  },
+  {
+    "id": "2018857381745295682",
+    "text": "@EXM7777 IMO creating skills/files prematurely just leads to bloat/outdated info. Then it becomes a mess updating old files/fixing broken references/etc. \n\nPrefer to only document something (ie create a skill) after I\u2019ve established its usefulness (repeated same process multiple times).",
+    "author_handle": "@ryan_combes",
+    "author_name": "Ryan Combes",
+    "created_at": "Wed Feb 04 01:21:23 +0000 2026",
+    "created_at_iso": "2026-02-04T01:21:23+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 0,
+      "views": 580
+    },
+    "media": []
+  },
+  {
+    "id": "2018746833510736264",
+    "text": "@EXM7777 Finally ! a smart way to onboard AI.",
+    "author_handle": "@Urooj978",
+    "author_name": "Urooj",
+    "created_at": "Tue Feb 03 18:02:06 +0000 2026",
+    "created_at_iso": "2026-02-03T18:02:06+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 380
+    },
+    "media": []
+  },
+  {
+    "id": "2018759321153327394",
+    "text": "@EXM7777 This is brilliant. The key is the iterative questioning to force the AI into deep context, rather than just accepting initial prompts. It's not just about dumping info, it's about structured knowledge extraction.",
+    "author_handle": "@_rjach",
+    "author_name": "Rojan Acharya",
+    "created_at": "Tue Feb 03 18:51:43 +0000 2026",
+    "created_at_iso": "2026-02-03T18:51:43+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 417
+    },
+    "media": []
+  },
+  {
+    "id": "2019357756575346914",
+    "text": "I bookmark and save prompts from X on a daily basis. This is one of the best prompts I have encountered. I've spent the last 3 hours developing a side hustle that I have struggled to define for 3 weeks. I swear I (we) have done a month's work, and I have a crystal clear plan of what to do next.\n\nThe alpha you share on X is A+. I can't thank you enough \ud83d\ude4f",
+    "author_handle": "@dpool135",
+    "author_name": "DP",
+    "created_at": "Thu Feb 05 10:29:41 +0000 2026",
+    "created_at_iso": "2026-02-05T10:29:41+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 1,
+      "views": 198
+    },
+    "media": []
+  },
+  {
+    "id": "2018753630665331172",
+    "text": "@EXM7777 I will definetly try this to improve my sessions",
+    "author_handle": "@VertoxDev",
+    "author_name": "Vertox",
+    "created_at": "Tue Feb 03 18:29:06 +0000 2026",
+    "created_at_iso": "2026-02-03T18:29:06+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 589
+    },
+    "media": []
+  },
+  {
+    "id": "2018840293953634315",
+    "text": "@EXM7777 I've found detailing project specifics upfront with a powerful LLM like Claude 4.5 really helps to refine the outputs. It's like giving it a strong foundation to build on.",
+    "author_handle": "@socialmonkeyai",
+    "author_name": "Social Monkey",
+    "created_at": "Wed Feb 04 00:13:28 +0000 2026",
+    "created_at_iso": "2026-02-04T00:13:28+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 940
+    },
+    "media": []
+  },
+  {
+    "id": "2018750035257614519",
+    "text": "@EXM7777 AI works best when you treat it like a partner.",
+    "author_handle": "@fedeponte1",
+    "author_name": "Federico De Ponte",
+    "created_at": "Tue Feb 03 18:14:49 +0000 2026",
+    "created_at_iso": "2026-02-03T18:14:49+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 520
+    },
+    "media": []
+  },
+  {
+    "id": "2018746088199512375",
+    "text": "@EXM7777 Great. Going to try soon with my upcoming project.",
+    "author_handle": "@ashar_builds",
+    "author_name": "Ashar",
+    "created_at": "Tue Feb 03 17:59:08 +0000 2026",
+    "created_at_iso": "2026-02-03T17:59:08+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 754
+    },
+    "media": []
+  },
+  {
+    "id": "2018751113391173695",
+    "text": "@EXM7777 Chain of thought prompting technique. Thanks for sharing Machina",
+    "author_handle": "@Hem_chandiran",
+    "author_name": "Hemachandiran",
+    "created_at": "Tue Feb 03 18:19:06 +0000 2026",
+    "created_at_iso": "2026-02-03T18:19:06+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 657
+    },
+    "media": []
+  },
+  {
+    "id": "2018870145972834690",
+    "text": "@EXM7777 This isn\u2019t \u201cprompting,\u201d this is actually onboarding your AI like a cofounder",
+    "author_handle": "@TTrimoreau",
+    "author_name": "Thomas Trimoreau",
+    "created_at": "Wed Feb 04 02:12:06 +0000 2026",
+    "created_at_iso": "2026-02-04T02:12:06+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 334
+    },
+    "media": []
+  },
+  {
+    "id": "2018793696360292685",
+    "text": "@EXM7777 100% going to try this",
+    "author_handle": "@ColeSimons",
+    "author_name": "Cole Simons",
+    "created_at": "Tue Feb 03 21:08:19 +0000 2026",
+    "created_at_iso": "2026-02-03T21:08:19+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 345
+    },
+    "media": []
+  },
+  {
+    "id": "2019011883655684513",
+    "text": "@EXM7777 No lol, just run /init. All you prompt wizards are funny as hell. I can tell you haven't been coding yourself. Or you've coded a simple web app, where context poisoning is not enough to affect building the simple app.",
+    "author_handle": "@laur_science",
+    "author_name": "Laur Science (\ud83d\udc99,\ud83e\udde1)",
+    "created_at": "Wed Feb 04 11:35:19 +0000 2026",
+    "created_at_iso": "2026-02-04T11:35:19+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 27
+    },
+    "media": []
+  },
+  {
+    "id": "2018753094633275659",
+    "text": "@EXM7777 Great way to prompt.",
+    "author_handle": "@yoemsri",
+    "author_name": "Youssef El Manssouri",
+    "created_at": "Tue Feb 03 18:26:59 +0000 2026",
+    "created_at_iso": "2026-02-03T18:26:59+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 1,
+      "views": 955
+    },
+    "media": []
+  },
+  {
+    "id": "2018746785125027934",
+    "text": "@EXM7777 knowledge base directory. Human replying questions....",
+    "author_handle": "@RehanKhali29639",
+    "author_name": "Rehan Khalid",
+    "created_at": "Tue Feb 03 18:01:54 +0000 2026",
+    "created_at_iso": "2026-02-03T18:01:54+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 316
+    },
+    "media": []
+  },
+  {
+    "id": "2019101101455528322",
+    "text": "@EXM7777 solid flow. id add one step - ask it to list assumptions + what info is missing. catches the stuff you forgot to dump.",
+    "author_handle": "@makelifesimple_",
+    "author_name": "Sachin Yadav",
+    "created_at": "Wed Feb 04 17:29:50 +0000 2026",
+    "created_at_iso": "2026-02-04T17:29:50+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 81
+    },
+    "media": []
+  },
+  {
+    "id": "2018879018632896994",
+    "text": "@EXM7777 Alpha",
+    "author_handle": "@Matthewod11",
+    "author_name": "Matt OD",
+    "created_at": "Wed Feb 04 02:47:21 +0000 2026",
+    "created_at_iso": "2026-02-04T02:47:21+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 141
+    },
+    "media": []
+  },
+  {
+    "id": "2018789634923524431",
+    "text": "@EXM7777 Yeah that's how most intelligent people do it",
+    "author_handle": "@chazwitt",
+    "author_name": "Chaz",
+    "created_at": "Tue Feb 03 20:52:10 +0000 2026",
+    "created_at_iso": "2026-02-03T20:52:10+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 259
+    },
+    "media": []
+  },
+  {
+    "id": "2019021136999371192",
+    "text": "@EXM7777 sounds dope, bro but what kinda projects you thinking of?",
+    "author_handle": "@foundrceo",
+    "author_name": "foundrceo",
+    "created_at": "Wed Feb 04 12:12:05 +0000 2026",
+    "created_at_iso": "2026-02-04T12:12:05+00:00",
+    "is_reply_to": "2018745809056207266",
+    "conversation_id": "2018745809056207266",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 204
+    },
+    "media": []
+  }
+]

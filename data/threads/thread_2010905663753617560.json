@@ -1,0 +1,716 @@
+[
+  {
+    "id": "2010905663753617560",
+    "text": "A workflow I am using frequently lately is having Codex review Claude Code's work.\n\nClaude will complete work \u2192 ask Codex to review \u2192 implement feedback from Codex \u2192 ask for another review.\n\nMy claude-delegator plugin lets them easily communicate via MCP inside Claude Code. https://t.co/6nILUtJyN8",
+    "author_handle": "@jarrodwatts",
+    "author_name": "Jarrod Watts",
+    "created_at": "Tue Jan 13 02:44:05 +0000 2026",
+    "created_at_iso": "2026-01-13T02:44:05+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 60,
+      "retweets": 50,
+      "likes": 866,
+      "bookmarks": 907,
+      "views": 62947
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-gsCTebQAIzSqC.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2010905755051081963",
+    "text": "if you want to try it yourself: https://t.co/GLfNRYTncP",
+    "author_handle": "@jarrodwatts",
+    "author_name": "Jarrod Watts",
+    "created_at": "Tue Jan 13 02:44:27 +0000 2026",
+    "created_at_iso": "2026-01-13T02:44:27+00:00",
+    "is_reply_to": "2010905663753617560",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 3,
+      "retweets": 1,
+      "likes": 39,
+      "bookmarks": 52,
+      "views": 7870
+    },
+    "media": []
+  },
+  {
+    "id": "2009963629500870977",
+    "text": "Introducing Claude Delegator!\n\nA Claude Code plugin that lets you use GPT 5.2 powered subagents directly within Claude Code.\n\nAsk GPT 5.2 (via codex) to architect your code, perform security audits, or make any other changes to your codebase.\n\nEasy installation guide below \u2193 https://t.co/9Wf0OX2399",
+    "author_handle": "@jarrodwatts",
+    "author_name": "Jarrod Watts",
+    "created_at": "Sat Jan 10 12:20:47 +0000 2026",
+    "created_at_iso": "2026-01-10T12:20:47+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2009963629500870977",
+    "metrics": {
+      "replies": 98,
+      "retweets": 149,
+      "likes": 1897,
+      "bookmarks": 2594,
+      "views": 159460
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-TSIExasAMoaVT.jpg",
+        "video_url": null
+      }
+    ]
+  },
+  {
+    "id": "2010985468998107171",
+    "text": "@jarrodwatts How about the other way round? Opus 4.5 just burned 35% of 5h quota review Codex 5.2\u2019s work and came back with some garbage assessment that went to the bin!",
+    "author_handle": "@indyfromoz",
+    "author_name": "indy",
+    "created_at": "Tue Jan 13 08:01:12 +0000 2026",
+    "created_at_iso": "2026-01-13T08:01:12+00:00",
+    "is_reply_to": "2010905663753617560",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 0,
+      "views": 1485
+    },
+    "media": []
+  },
+  {
+    "id": "2010987176205697231",
+    "text": "@indyfromoz My current thinking is codex takes it's time - it's slower but more accurate, that's why I like it for architecting &amp; reviews.\n\nWhereas opus is generally good for most things but needs to be put back on track some times",
+    "author_handle": "@jarrodwatts",
+    "author_name": "Jarrod Watts",
+    "created_at": "Tue Jan 13 08:07:59 +0000 2026",
+    "created_at_iso": "2026-01-13T08:07:59+00:00",
+    "is_reply_to": "2010985468998107171",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 10,
+      "bookmarks": 1,
+      "views": 1232
+    },
+    "media": []
+  },
+  {
+    "id": "2010959009172635957",
+    "text": "@jarrodwatts @grok please explain to me what codex is and what i can use it for (its my first day)",
+    "author_handle": "@shineyd1111",
+    "author_name": "Shiney D",
+    "created_at": "Tue Jan 13 06:16:04 +0000 2026",
+    "created_at_iso": "2026-01-13T06:16:04+00:00",
+    "is_reply_to": "2010905663753617560",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 2,
+      "retweets": 1,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 1234
+    },
+    "media": []
+  },
+  {
+    "id": "2010966290295636047",
+    "text": "@jarrodwatts is codex better at reviewing and scanning?",
+    "author_handle": "@meta_alchemist",
+    "author_name": "Meta Alchemist",
+    "created_at": "Tue Jan 13 06:45:00 +0000 2026",
+    "created_at_iso": "2026-01-13T06:45:00+00:00",
+    "is_reply_to": "2010905663753617560",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 1103
+    },
+    "media": []
+  },
+  {
+    "id": "2011092950034628658",
+    "text": "@jarrodwatts This kind of agent-to-agent critique loop feels like how real senior engineers already work, just compressed into minutes.",
+    "author_handle": "@Bitplanet_AI",
+    "author_name": "Bitplanet",
+    "created_at": "Tue Jan 13 15:08:18 +0000 2026",
+    "created_at_iso": "2026-01-13T15:08:18+00:00",
+    "is_reply_to": "2010905663753617560",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 646
+    },
+    "media": []
+  },
+  {
+    "id": "2010914487998746931",
+    "text": "@jarrodwatts Dope",
+    "author_handle": "@0xQuit",
+    "author_name": "Quit",
+    "created_at": "Tue Jan 13 03:19:09 +0000 2026",
+    "created_at_iso": "2026-01-13T03:19:09+00:00",
+    "is_reply_to": "2010905663753617560",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 1771
+    },
+    "media": []
+  },
+  {
+    "id": "2011221215738793997",
+    "text": "@jarrodwatts It reduces bias from any single model and often uncovers edge cases. Curious,",
+    "author_handle": "@TukiFromKL",
+    "author_name": "Tuki",
+    "created_at": "Tue Jan 13 23:37:59 +0000 2026",
+    "created_at_iso": "2026-01-13T23:37:59+00:00",
+    "is_reply_to": "2010905663753617560",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 253
+    },
+    "media": []
+  },
+  {
+    "id": "2010908264322748441",
+    "text": "@jarrodwatts On a roll dude",
+    "author_handle": "@netdragon0x",
+    "author_name": "ndx (agentic arc)",
+    "created_at": "Tue Jan 13 02:54:25 +0000 2026",
+    "created_at_iso": "2026-01-13T02:54:25+00:00",
+    "is_reply_to": "2010905663753617560",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 1108
+    },
+    "media": []
+  },
+  {
+    "id": "2011559320333533315",
+    "text": "@jarrodwatts why havent i seen anyone else do this? this is smart",
+    "author_handle": "@sableftw",
+    "author_name": "Sable | HeimLabs",
+    "created_at": "Wed Jan 14 22:01:29 +0000 2026",
+    "created_at_iso": "2026-01-14T22:01:29+00:00",
+    "is_reply_to": "2010905663753617560",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 56
+    },
+    "media": []
+  },
+  {
+    "id": "2011059488368050394",
+    "text": "@jarrodwatts @jarrodwatts, that's a clever workflow, and utilizing Codex for code reviews is a good practice.",
+    "author_handle": "@codewithimanshu",
+    "author_name": "Himanshu Kumar",
+    "created_at": "Tue Jan 13 12:55:20 +0000 2026",
+    "created_at_iso": "2026-01-13T12:55:20+00:00",
+    "is_reply_to": "2010905663753617560",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 413
+    },
+    "media": []
+  },
+  {
+    "id": "2010941583974171028",
+    "text": "I do this, but I just implemented a skill (for automatic detection when prompting), and also a deliberate /codex command. I've been finding MCPs overkill for most use cases. Not to mention they blow Claude's context window from the beginning if you don't have that experimental feature enable.",
+    "author_handle": "@msaraiva",
+    "author_name": "Marcos Saraiva",
+    "created_at": "Tue Jan 13 05:06:49 +0000 2026",
+    "created_at_iso": "2026-01-13T05:06:49+00:00",
+    "is_reply_to": "2010905663753617560",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 5,
+      "bookmarks": 1,
+      "views": 597
+    },
+    "media": []
+  },
+  {
+    "id": "2011006978798108828",
+    "text": "@jarrodwatts I do that as well together with Gemini. I also do it the other way around have Claude give the instructions to Codex &amp; Gemini, they pair, then present the result to Claude and when there's consensus it gets merged.",
+    "author_handle": "@franciscof_1990",
+    "author_name": "Francisco",
+    "created_at": "Tue Jan 13 09:26:41 +0000 2026",
+    "created_at_iso": "2026-01-13T09:26:41+00:00",
+    "is_reply_to": "2010905663753617560",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 253
+    },
+    "media": []
+  },
+  {
+    "id": "2010961253548597661",
+    "text": "@jarrodwatts Something very similar is in my to do list. \u201cAdversarial agent round table\u201d using Claude Code as the orchestrator with the skill but OpenCode having access to many different adversarial opinions. Hoping it helps refine plans.",
+    "author_handle": "@davideasaf",
+    "author_name": "David Asaf",
+    "created_at": "Tue Jan 13 06:24:59 +0000 2026",
+    "created_at_iso": "2026-01-13T06:24:59+00:00",
+    "is_reply_to": "2010905663753617560",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 104
+    },
+    "media": []
+  },
+  {
+    "id": "2011236885423931858",
+    "text": "@jarrodwatts does codex ever stop criticizing claude, or does the loop continue into infinity?",
+    "author_handle": "@muskforlife",
+    "author_name": "A Desolate Universe",
+    "created_at": "Wed Jan 14 00:40:15 +0000 2026",
+    "created_at_iso": "2026-01-14T00:40:15+00:00",
+    "is_reply_to": "2010905663753617560",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 56
+    },
+    "media": []
+  },
+  {
+    "id": "2011055888615018617",
+    "text": "@jarrodwatts Yeah this is the first phase of the switch. You will have enough of it soon and move to codex fully. You can plan with xhigh and execute with low or medium same speed as Opus but no more additional rounds",
+    "author_handle": "@dogancanbaris",
+    "author_name": "John Baris",
+    "created_at": "Tue Jan 13 12:41:02 +0000 2026",
+    "created_at_iso": "2026-01-13T12:41:02+00:00",
+    "is_reply_to": "2010905663753617560",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 56
+    },
+    "media": []
+  },
+  {
+    "id": "2010939587091447989",
+    "text": "@jarrodwatts What are your thoughts on the reverse? Codex to write the code then Claude to review? I\u2019ve found Codex output is often better for coding tasks, plus it\u2019s cheaper than Opus. Curious to hear your thoughts.",
+    "author_handle": "@SnapperAI",
+    "author_name": "Snapper AI",
+    "created_at": "Tue Jan 13 04:58:53 +0000 2026",
+    "created_at_iso": "2026-01-13T04:58:53+00:00",
+    "is_reply_to": "2010905663753617560",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 270
+    },
+    "media": []
+  },
+  {
+    "id": "2010961080877527075",
+    "text": "@jarrodwatts What are the criteria for review?",
+    "author_handle": "@DomiYoung___",
+    "author_name": "Domi Young",
+    "created_at": "Tue Jan 13 06:24:18 +0000 2026",
+    "created_at_iso": "2026-01-13T06:24:18+00:00",
+    "is_reply_to": "2010905663753617560",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 104
+    },
+    "media": []
+  },
+  {
+    "id": "2011025232069308705",
+    "text": "@jarrodwatts Two model cadence surfaces the quiet gaps before they ship",
+    "author_handle": "@JoshuaPoddoku",
+    "author_name": "Joshua Poddoku",
+    "created_at": "Tue Jan 13 10:39:13 +0000 2026",
+    "created_at_iso": "2026-01-13T10:39:13+00:00",
+    "is_reply_to": "2010905663753617560",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 110
+    },
+    "media": []
+  },
+  {
+    "id": "2010923301846270116",
+    "text": "@jarrodwatts I would love to do something like this.\n\nBut we have code rabbit on PRs which gives it\u2019s own reviews \ud83d\udc80",
+    "author_handle": "@vamsi_software",
+    "author_name": "Vamsi Gunturu",
+    "created_at": "Tue Jan 13 03:54:10 +0000 2026",
+    "created_at_iso": "2026-01-13T03:54:10+00:00",
+    "is_reply_to": "2010905663753617560",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 213
+    },
+    "media": []
+  },
+  {
+    "id": "2011239255327326455",
+    "text": "@jarrodwatts I would also try adding an Codex on Claude Code hooks for specific actions, but that may add more latency to the overall execution of the agent",
+    "author_handle": "@olegpustovit",
+    "author_name": "Oleg Pustovit",
+    "created_at": "Wed Jan 14 00:49:40 +0000 2026",
+    "created_at_iso": "2026-01-14T00:49:40+00:00",
+    "is_reply_to": "2010905663753617560",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 44
+    },
+    "media": []
+  },
+  {
+    "id": "2011040661647339934",
+    "text": "@jarrodwatts Wouldn't a skill fit this problem better than an MCP?\n\nReason: doesn't polute the context window so much",
+    "author_handle": "@terminalnotes",
+    "author_name": "Antonio Cascais",
+    "created_at": "Tue Jan 13 11:40:31 +0000 2026",
+    "created_at_iso": "2026-01-13T11:40:31+00:00",
+    "is_reply_to": "2010905663753617560",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 79
+    },
+    "media": []
+  },
+  {
+    "id": "2010941687603085358",
+    "text": "@jarrodwatts Love this. Two-model loops are underrated: one \u201cdoer\u201d + one \u201ccritic\u201d catches the quiet mistakes before they ship. The real win is consistency\u2014teams trust it when the second pass is predictable, not just smarter.",
+    "author_handle": "@BrandGrowthOS",
+    "author_name": "Karim C",
+    "created_at": "Tue Jan 13 05:07:14 +0000 2026",
+    "created_at_iso": "2026-01-13T05:07:14+00:00",
+    "is_reply_to": "2010905663753617560",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 329
+    },
+    "media": []
+  },
+  {
+    "id": "2010973215506776529",
+    "text": "@jarrodwatts my agents arguing about indentation might be the funniest thing in my repo",
+    "author_handle": "@askcodi",
+    "author_name": "Shreyans Bhansali",
+    "created_at": "Tue Jan 13 07:12:31 +0000 2026",
+    "created_at_iso": "2026-01-13T07:12:31+00:00",
+    "is_reply_to": "2010905663753617560",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 72
+    },
+    "media": []
+  },
+  {
+    "id": "2010938902484234405",
+    "text": "@jarrodwatts You don\u2019t need MCP for this. \n\nI do it with a skill and a loop in the prompt!",
+    "author_handle": "@joelreymont",
+    "author_name": "Joel Reymont",
+    "created_at": "Tue Jan 13 04:56:10 +0000 2026",
+    "created_at_iso": "2026-01-13T04:56:10+00:00",
+    "is_reply_to": "2010905663753617560",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 1,
+      "views": 192
+    },
+    "media": []
+  },
+  {
+    "id": "2010912555146113435",
+    "text": "@jarrodwatts You should consider switching roles sometimes",
+    "author_handle": "@0xmesuthere",
+    "author_name": "0xmesuthere",
+    "created_at": "Tue Jan 13 03:11:28 +0000 2026",
+    "created_at_iso": "2026-01-13T03:11:28+00:00",
+    "is_reply_to": "2010905663753617560",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 394
+    },
+    "media": []
+  },
+  {
+    "id": "2011133321980375340",
+    "text": "@jarrodwatts Is there an advantage to use codex as the supervisor compared to another session of Claude code ?",
+    "author_handle": "@real_doved",
+    "author_name": "Doved",
+    "created_at": "Tue Jan 13 17:48:43 +0000 2026",
+    "created_at_iso": "2026-01-13T17:48:43+00:00",
+    "is_reply_to": "2010905663753617560",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 104
+    },
+    "media": []
+  },
+  {
+    "id": "2011126272622280851",
+    "text": "@jarrodwatts review loop catches edge",
+    "author_handle": "@seorce_",
+    "author_name": "Seorce",
+    "created_at": "Tue Jan 13 17:20:42 +0000 2026",
+    "created_at_iso": "2026-01-13T17:20:42+00:00",
+    "is_reply_to": "2010905663753617560",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 79
+    },
+    "media": []
+  },
+  {
+    "id": "2011030065866547632",
+    "text": "@jarrodwatts That's a smart iterative approach. I find that process builds in a valuable layer of objectivity, especially with complex projects. I've been experimenting with a similar setup for my own workflow.",
+    "author_handle": "@socialmonkeyai",
+    "author_name": "Social Monkey",
+    "created_at": "Tue Jan 13 10:58:25 +0000 2026",
+    "created_at_iso": "2026-01-13T10:58:25+00:00",
+    "is_reply_to": "2010905663753617560",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 27
+    },
+    "media": []
+  },
+  {
+    "id": "2010967166313468179",
+    "text": "@jarrodwatts All LLM\u2019s you can prompt to spin two agents to review, discuss, counter argue and provide / implement.",
+    "author_handle": "@Rajesh23MD",
+    "author_name": "Maapu",
+    "created_at": "Tue Jan 13 06:48:29 +0000 2026",
+    "created_at_iso": "2026-01-13T06:48:29+00:00",
+    "is_reply_to": "2010905663753617560",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 75
+    },
+    "media": []
+  },
+  {
+    "id": "2010939325098361106",
+    "text": "@jarrodwatts https://t.co/w8UFesSK4U",
+    "author_handle": "@joelreymont",
+    "author_name": "Joel Reymont",
+    "created_at": "Tue Jan 13 04:57:51 +0000 2026",
+    "created_at_iso": "2026-01-13T04:57:51+00:00",
+    "is_reply_to": "2010905663753617560",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 290
+    },
+    "media": []
+  },
+  {
+    "id": "2009143880491446725",
+    "text": "Here\u2019s the agentic coding workflow I use and recommend, using Dots for agent task management [1] and Banjo [2] to harness my agents\u2026\n\nI start by asking the agent to create a detailed plan to do whatever needs to be done at this step. I then ask the agent to split the plan into small but detailed dots with clear titles.\n\nOptional but helpful is to ask the OTHER agent to review the plan and incorporate suggestions, e.g. ask Claude to review Codex and vise versa. I run 2x Max/Pro subscriptions of each ($800/mo total spend) but it will work with just one agent too (see bottom of this post).\n\nYou can tell your main agent to repeat this until the other agent has no more input, e.g. \u201cask the oracle to confirm that the plan is detailed enough and incorporate suggestions. repeat until oracle has no more input\u201d (see bottom of post for oracle setup).\n\nThen you ask the agent to work with the other agent to make sure the dots are small enough and detailed enough, and to split large or complex dots into smaller ones. You can loop this too so the agents work together for a while, or to have your Claude work with its deepthink skill (see bottom of post).\n\nI also have Banjo [2] integrated with Dots and nudging Claude Code or Codex and to continue, as long as more dots are available. This is the main harness I use for long-running agents working on something, e.g. my Lisp with dependent typing, Python decompiler, port of Cranelift JIT to Zig, etc.\n\nNormally, Claude Code and Codex will stop after a few iterations but with Dots agents can run for hours as they create new dots for new tasks. Dots will automatically set up Claude Code hooks to make sure tasks are created. Codex has no trouble diligently creating dots for each new task, no hooks required.\n\nI mainly run Banjo in @zeddotdev until my Neovim UI is fully debugged. The neat thing about Zed is that it will call my attention when the agent needs something.\n\nYes, I\u2019m using Zig for everything since the agent turnaround is sooo much faster that with Rust and the code is smaller and tigheer!\n\nP.S. I set up a \u201cdeep think\u201d skill for Claude Code to deeply reason about a problem using Opus as the model. I literally just asked Claude to set up this skill for me. I also asked claude to set up an \u201coracle\u201d skill where it launches Codex in the background and asks it to work on a problem or provide input. My Codex oracle skill calls Claude. Thanks to @steipete for the oracle idea!\n\n[1] https://t.co/zB7MLQ9coo\n[2] https://t.co/CR0K76DKqP\n\n@bcherny @trq212 @adocomplete @thsottiaux",
+    "author_handle": "@joelreymont",
+    "author_name": "Joel Reymont",
+    "created_at": "Thu Jan 08 06:03:23 +0000 2026",
+    "created_at_iso": "2026-01-08T06:03:23+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2009143880491446725",
+    "metrics": {
+      "replies": 6,
+      "retweets": 1,
+      "likes": 12,
+      "bookmarks": 18,
+      "views": 4615
+    },
+    "media": []
+  },
+  {
+    "id": "2010917306713477471",
+    "text": "@jarrodwatts I use the same workflow, but either my workflow is wrong or my Claude is setup pretty well, I rarely find any big issues from Codex, most are actually false positives.\n\nUsing Claude to re-check it's work though, works quite well.",
+    "author_handle": "@YakutKhon",
+    "author_name": "Viktor Khon",
+    "created_at": "Tue Jan 13 03:30:21 +0000 2026",
+    "created_at_iso": "2026-01-13T03:30:21+00:00",
+    "is_reply_to": "2010905663753617560",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 539
+    },
+    "media": []
+  },
+  {
+    "id": "2010959117624430707",
+    "text": "@jarrodwatts I am doing the same, just explained ClaudeCode how to run the Codex CLI.",
+    "author_handle": "@jonnyzzz",
+    "author_name": "Eugene Petrenko",
+    "created_at": "Tue Jan 13 06:16:30 +0000 2026",
+    "created_at_iso": "2026-01-13T06:16:30+00:00",
+    "is_reply_to": "2010905663753617560",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 249
+    },
+    "media": []
+  },
+  {
+    "id": "2011055380965835196",
+    "text": "@jarrodwatts Why use mcp vs a codex skill that tells claude how to call codex cli properly?",
+    "author_handle": "@dylkil",
+    "author_name": "dylan",
+    "created_at": "Tue Jan 13 12:39:01 +0000 2026",
+    "created_at_iso": "2026-01-13T12:39:01+00:00",
+    "is_reply_to": "2010905663753617560",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 59
+    },
+    "media": []
+  },
+  {
+    "id": "2010954988676059482",
+    "text": "@jarrodwatts There was a paper on this a few months back, cross model eval is more effective than evals using the same models, most effective was using different vendors models against each other.",
+    "author_handle": "@Manitcor",
+    "author_name": "Manitcor",
+    "created_at": "Tue Jan 13 06:00:05 +0000 2026",
+    "created_at_iso": "2026-01-13T06:00:05+00:00",
+    "is_reply_to": "2010905663753617560",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 191
+    },
+    "media": []
+  },
+  {
+    "id": "2010963664581386284",
+    "text": "@jarrodwatts Logical.",
+    "author_handle": "@shed_deli",
+    "author_name": "Seddeli",
+    "created_at": "Tue Jan 13 06:34:34 +0000 2026",
+    "created_at_iso": "2026-01-13T06:34:34+00:00",
+    "is_reply_to": "2010905663753617560",
+    "conversation_id": "2010905663753617560",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 47
+    },
+    "media": []
+  }
+]

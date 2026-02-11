@@ -29,7 +29,7 @@ url: ""
 
 ## Summary
 
-it almost feels kind of like a new form of computing
+This Claude tip highlights a paradigm shift in computing where the user defines a task and receives a result without needing to manage the intermediate processing steps. It frames agent-based workflows as a new computing model where the complexities of implementation are abstracted away, simplifying the development process. The tip suggests a move towards simply providing input and receiving output, letting the agent handle the rest.
 
 ## Replies
 

@@ -19,7 +19,7 @@ url: ""
 
 ## Summary
 
-Coding via CarPlay with a project manager agent that intelligently queues tasks for later, merges them, keeps looping until validated
+This tip introduces a novel coding workflow leveraging CarPlay and an AI-powered project manager agent. It simulates human-like interaction by intelligently queuing tasks, merging code, and iterating until validated, eliminating the need for manual code compaction or clearing. This allows for voice-driven coding on-the-go, enhancing productivity.
 
 
 > [!metrics]- Engagement & Metadata

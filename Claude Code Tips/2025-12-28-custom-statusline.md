@@ -19,7 +19,7 @@ url: "https://x.com/DiamondEyesFox/status/2005371841020559855"
 
 ## Summary
 
-made a custom statusline for my claude code  with model, 5hr/weekly limit meters, time till 5 hr reset, compaction meter, last time my custom session logs were updated and cost
+This tip showcases a custom statusline implementation for Claude Code, enhancing the user interface. The statusline displays key information such as the current model, usage against a weekly limit, time until the limit resets, compaction metrics, session log update time, and cost. By visualizing these parameters, users gain better control and awareness of their Claude Code usage and spending.
 
 ## Media
 

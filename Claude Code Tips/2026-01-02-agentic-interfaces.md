@@ -25,6 +25,10 @@ url: "https://x.com/rileybrown/status/2007188826226340167"
 >
 > Likes: 301 · Replies: 40 · Reposts: 10
 
+## Summary
+
+This tip proposes a hackathon centered around building "Agentic Interfaces" that facilitate seamless interaction between users and Claude Code, particularly in a cloud-based sandbox environment. The key insight is that a well-designed interface should allow both direct user input and autonomous Claude Code actions, triggered by integrations, schedules, or user commands. The goal is to create a platform where users and AI agents can collaborate effectively, suggesting potential for innovative no-code solutions.
+
 ## Replies
 
 > [!reply] @JacobColling · Fri Jan 02 22:30:28 +0000 2026

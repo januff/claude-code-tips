@@ -24,7 +24,7 @@ url: ""
 
 ## Summary
 
-you're like 6 prompts away from infinitely customizable personal agi
+This tip highlights the potential of Anthropic's Claude to create highly personalized AI agents. By iteratively refining prompts (approximately 6 iterations), users can significantly customize the agent's behavior and capabilities. The key insight is that Anthropic provides a powerful foundation for building sophisticated, agentic systems that can be tailored to specific needs through prompt engineering.
 
 ## Replies
 

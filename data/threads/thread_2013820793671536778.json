@@ -1,0 +1,560 @@
+[
+  {
+    "id": "2013820793671536778",
+    "text": "When I started building my assistant I figured this one out FAST. \n\nClaude Code doesn't know what time it is. Or what time zone you are in. \n\nSo when you do date time operations of ANY kind, as simple as saving something to your calendar, things get weird fast. \n\nMy early solution has stuck thru every iteration of my JFDI system and it's dummy simple:\n\nI use Claude Code hooks to run a bash script that generates current date time, timezone of host device, friendly day of week etc. \n\nInjects it silently into context. \n\nI never see it but date time issues vanish. 3+ most battle tested. \n\nKinda wild that this isn't baked in @bcherny (thank you for CC btw it changed my life no exaggerating)",
+    "author_handle": "@alexhillman",
+    "author_name": "\ud83d\udcd9 Alex Hillman",
+    "created_at": "Wed Jan 21 03:47:46 +0000 2026",
+    "created_at_iso": "2026-01-21T03:47:46+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2013820793671536778",
+    "metrics": {
+      "replies": 23,
+      "retweets": 6,
+      "likes": 333,
+      "bookmarks": 267,
+      "views": 33258
+    },
+    "media": []
+  },
+  {
+    "id": "2013797705466663172",
+    "text": "My clawdbot sucks at days and time. It never seems to have any clue what the current day or time is.",
+    "author_handle": "@stolinski",
+    "author_name": "Scott Tolinski - Syntax.fm",
+    "created_at": "Wed Jan 21 02:16:02 +0000 2026",
+    "created_at_iso": "2026-01-21T02:16:02+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2013797705466663172",
+    "metrics": {
+      "replies": 12,
+      "retweets": 0,
+      "likes": 19,
+      "bookmarks": 3,
+      "views": 39935
+    },
+    "media": []
+  },
+  {
+    "id": "2013934910755488166",
+    "text": "@alexhillman I noticed this too.\n\nCrazy to think the computer doesn\u2019t know time.\n\nI like the hook idea. \n\nWhat I did was simply put in the MD file that house the instructions to always get the time and date before moving forward.",
+    "author_handle": "@rezzz",
+    "author_name": "Jason Resnick \ud83c\udf32\ud83d\udc8c",
+    "created_at": "Wed Jan 21 11:21:14 +0000 2026",
+    "created_at_iso": "2026-01-21T11:21:14+00:00",
+    "is_reply_to": "2013820793671536778",
+    "conversation_id": "2013820793671536778",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 4,
+      "bookmarks": 0,
+      "views": 1607
+    },
+    "media": []
+  },
+  {
+    "id": "2013969453613007091",
+    "text": "@rezzz That works til it skips those instructions!",
+    "author_handle": "@alexhillman",
+    "author_name": "\ud83d\udcd9 Alex Hillman",
+    "created_at": "Wed Jan 21 13:38:30 +0000 2026",
+    "created_at_iso": "2026-01-21T13:38:30+00:00",
+    "is_reply_to": "2013934910755488166",
+    "conversation_id": "2013820793671536778",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 4,
+      "bookmarks": 0,
+      "views": 1052
+    },
+    "media": []
+  },
+  {
+    "id": "2013963835518943692",
+    "text": "@alexhillman So we need an MCP current date and time server, got it.",
+    "author_handle": "@webprofusion",
+    "author_name": "Christopher Cook",
+    "created_at": "Wed Jan 21 13:16:10 +0000 2026",
+    "created_at_iso": "2026-01-21T13:16:10+00:00",
+    "is_reply_to": "2013820793671536778",
+    "conversation_id": "2013820793671536778",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 7,
+      "bookmarks": 1,
+      "views": 473
+    },
+    "media": []
+  },
+  {
+    "id": "2013970497646588075",
+    "text": "@webprofusion \ud83d\ude02 dear God no",
+    "author_handle": "@alexhillman",
+    "author_name": "\ud83d\udcd9 Alex Hillman",
+    "created_at": "Wed Jan 21 13:42:39 +0000 2026",
+    "created_at_iso": "2026-01-21T13:42:39+00:00",
+    "is_reply_to": "2013963835518943692",
+    "conversation_id": "2013820793671536778",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 4,
+      "bookmarks": 0,
+      "views": 382
+    },
+    "media": []
+  },
+  {
+    "id": "2014000051396190453",
+    "text": "@alexhillman Yeah it's mad isn't it. It doesn't know the time. \n\nI'll restart a chat after not touching it for a day and Claude *thinks* it's previous actions were performed immediately before",
+    "author_handle": "@Loster",
+    "author_name": "Carl \ud83e\udd16",
+    "created_at": "Wed Jan 21 15:40:05 +0000 2026",
+    "created_at_iso": "2026-01-21T15:40:05+00:00",
+    "is_reply_to": "2013820793671536778",
+    "conversation_id": "2013820793671536778",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 4,
+      "bookmarks": 0,
+      "views": 194
+    },
+    "media": []
+  },
+  {
+    "id": "2014002673381409199",
+    "text": "@Loster these things don't *know* anything",
+    "author_handle": "@alexhillman",
+    "author_name": "\ud83d\udcd9 Alex Hillman",
+    "created_at": "Wed Jan 21 15:50:30 +0000 2026",
+    "created_at_iso": "2026-01-21T15:50:30+00:00",
+    "is_reply_to": "2014000051396190453",
+    "conversation_id": "2013820793671536778",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 0,
+      "views": 163
+    },
+    "media": []
+  },
+  {
+    "id": "2013912876189380661",
+    "text": "@alexhillman It busts caching which is why it isn\u2019t there. You lose a lot for little gain",
+    "author_handle": "@dir",
+    "author_name": "Nik Cubrilovic",
+    "created_at": "Wed Jan 21 09:53:41 +0000 2026",
+    "created_at_iso": "2026-01-21T09:53:41+00:00",
+    "is_reply_to": "2013820793671536778",
+    "conversation_id": "2013820793671536778",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 1,
+      "views": 1324
+    },
+    "media": []
+  },
+  {
+    "id": "2013977958050828540",
+    "text": "@dir If you put it in places that make no sense, you'd be correct. \n\nIf you inject it along with our own user prompts, all caching preserved.",
+    "author_handle": "@alexhillman",
+    "author_name": "\ud83d\udcd9 Alex Hillman",
+    "created_at": "Wed Jan 21 14:12:17 +0000 2026",
+    "created_at_iso": "2026-01-21T14:12:17+00:00",
+    "is_reply_to": "2013912876189380661",
+    "conversation_id": "2013820793671536778",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 1,
+      "views": 465
+    },
+    "media": []
+  },
+  {
+    "id": "2013977292809052586",
+    "text": "IME the stop and tool use commands aren't the right spot for injecting a timestamp to remind CC what day/time/timezone you're in. \n\nTool use is too much. \nStop is too late. \n\nUserSubmotPrompt make sure that it's injected along with MY messages. \n\nWhich is plenty, and always ahead of an operation where the date time matters, not after. \n\nAlso means that cachable turns aren't wasted.",
+    "author_handle": "@alexhillman",
+    "author_name": "\ud83d\udcd9 Alex Hillman",
+    "created_at": "Wed Jan 21 14:09:39 +0000 2026",
+    "created_at_iso": "2026-01-21T14:09:39+00:00",
+    "is_reply_to": null,
+    "conversation_id": "2013977292809052586",
+    "metrics": {
+      "replies": 2,
+      "retweets": 0,
+      "likes": 7,
+      "bookmarks": 10,
+      "views": 1565
+    },
+    "media": []
+  },
+  {
+    "id": "2013985204407349537",
+    "text": "@alexhillman I go a little bit further. And add in relative time of the current date. \nI. E. Next week =\nThis weekend =\nEtc \nMeans I can even do dates with a dumber model",
+    "author_handle": "@daloore",
+    "author_name": "Dr Lore",
+    "created_at": "Wed Jan 21 14:41:05 +0000 2026",
+    "created_at_iso": "2026-01-21T14:41:05+00:00",
+    "is_reply_to": "2013820793671536778",
+    "conversation_id": "2013820793671536778",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 1,
+      "views": 291
+    },
+    "media": []
+  },
+  {
+    "id": "2013985877161078901",
+    "text": "@daloore yup i do this too! \n\nnoticed it incorrectly identifying the day of the week in some cases, so gave it a nice lil suite of date/time references including those",
+    "author_handle": "@alexhillman",
+    "author_name": "\ud83d\udcd9 Alex Hillman",
+    "created_at": "Wed Jan 21 14:43:45 +0000 2026",
+    "created_at_iso": "2026-01-21T14:43:45+00:00",
+    "is_reply_to": "2013985204407349537",
+    "conversation_id": "2013820793671536778",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 229
+    },
+    "media": []
+  },
+  {
+    "id": "2014107633678979361",
+    "text": "I don\u2019t get how neither @AnthropicAI nor @OpenAI were able to connect their AI to the atomic clock we can all consult. \n\nTime is the basis of our society. It should have been one of the prior functions of AI. \n\nThey\u2019re working their ass off to get AI into Healthcare. But it won\u2019t even be able to see if a patient is late for their surgery ?\n\nSomething doesn\u2019t tick here.",
+    "author_handle": "@steverover_flag",
+    "author_name": "Steve Rover",
+    "created_at": "Wed Jan 21 22:47:34 +0000 2026",
+    "created_at_iso": "2026-01-21T22:47:34+00:00",
+    "is_reply_to": "2013820793671536778",
+    "conversation_id": "2013820793671536778",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 12
+    },
+    "media": []
+  },
+  {
+    "id": "2014115388980699571",
+    "text": "The models can't know what time it is because they can't know anything. \n\nI do expect that this will be fixed in most of the agent/assistant layer solutions. \n\nRemember where we are in the adoption curve. If you're asking these questions, you're light years ahead of 99.9% or people.",
+    "author_handle": "@alexhillman",
+    "author_name": "\ud83d\udcd9 Alex Hillman",
+    "created_at": "Wed Jan 21 23:18:23 +0000 2026",
+    "created_at_iso": "2026-01-21T23:18:23+00:00",
+    "is_reply_to": "2014107633678979361",
+    "conversation_id": "2013820793671536778",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 17
+    },
+    "media": []
+  },
+  {
+    "id": "2013939610074648961",
+    "text": "@alexhillman So glad I\u2019m not the only one! \n\nI started doing the same thing: store all dates as ISO-8601 and/or Unix time, have Claude check current time, and reconcile time zones. \n\nHave you figured out how to handle travel when the agent is running in an always on machine at home?",
+    "author_handle": "@ianpatrickhines",
+    "author_name": "Ian Patrick Hines",
+    "created_at": "Wed Jan 21 11:39:54 +0000 2026",
+    "created_at_iso": "2026-01-21T11:39:54+00:00",
+    "is_reply_to": "2013820793671536778",
+    "conversation_id": "2013820793671536778",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 866
+    },
+    "media": []
+  },
+  {
+    "id": "2013970131525718395",
+    "text": "@ianpatrickhines My custom client injects the client side date time at the top of a session, and if it's diff from system time of the hosted instance, the client overrides and tells the agent that I'm in a diff zone and to adjust accordingly.",
+    "author_handle": "@alexhillman",
+    "author_name": "\ud83d\udcd9 Alex Hillman",
+    "created_at": "Wed Jan 21 13:41:11 +0000 2026",
+    "created_at_iso": "2026-01-21T13:41:11+00:00",
+    "is_reply_to": "2013939610074648961",
+    "conversation_id": "2013820793671536778",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 1,
+      "views": 571
+    },
+    "media": []
+  },
+  {
+    "id": "2013892653843116305",
+    "text": "@alexhillman I recently added this to my start up skill and it helps a lot",
+    "author_handle": "@m_ashcroft",
+    "author_name": "Michael Ashcroft",
+    "created_at": "Wed Jan 21 08:33:19 +0000 2026",
+    "created_at_iso": "2026-01-21T08:33:19+00:00",
+    "is_reply_to": "2013820793671536778",
+    "conversation_id": "2013820793671536778",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 2,
+      "bookmarks": 0,
+      "views": 551
+    },
+    "media": []
+  },
+  {
+    "id": "2014164621645533481",
+    "text": "@alexhillman Lot of lessons in those opus system prompts",
+    "author_handle": "@garybasin",
+    "author_name": "Gary Basin",
+    "created_at": "Thu Jan 22 02:34:01 +0000 2026",
+    "created_at_iso": "2026-01-22T02:34:01+00:00",
+    "is_reply_to": "2013820793671536778",
+    "conversation_id": "2013820793671536778",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 114
+    },
+    "media": []
+  },
+  {
+    "id": "2013890923252301834",
+    "text": "@alexhillman I have had the same solution, works well.",
+    "author_handle": "@TomDavenport",
+    "author_name": "Tom Davenport",
+    "created_at": "Wed Jan 21 08:26:27 +0000 2026",
+    "created_at_iso": "2026-01-21T08:26:27+00:00",
+    "is_reply_to": "2013820793671536778",
+    "conversation_id": "2013820793671536778",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 339
+    },
+    "media": []
+  },
+  {
+    "id": "2014138812633682411",
+    "text": "@alexhillman This has been hell to deal with every single day. I hate it.",
+    "author_handle": "@inababi",
+    "author_name": "Salina Mendoza",
+    "created_at": "Thu Jan 22 00:51:28 +0000 2026",
+    "created_at_iso": "2026-01-22T00:51:28+00:00",
+    "is_reply_to": "2013820793671536778",
+    "conversation_id": "2013820793671536778",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 62
+    },
+    "media": []
+  },
+  {
+    "id": "2013940403737653437",
+    "text": "@alexhillman For those curious what \"silent\" means, I believe add this to settings.json\n\n{  \"hooks\": {  \"PreToolUse\": [  {  \"matcher\": \"*\",  \"command\": \"date '+Context: %A %Y-%m-%d %H:%M %Z'\"  }  ]  } }",
+    "author_handle": "@startupecon",
+    "author_name": "Michael Ewens",
+    "created_at": "Wed Jan 21 11:43:04 +0000 2026",
+    "created_at_iso": "2026-01-21T11:43:04+00:00",
+    "is_reply_to": "2013820793671536778",
+    "conversation_id": "2013820793671536778",
+    "metrics": {
+      "replies": 1,
+      "retweets": 0,
+      "likes": 3,
+      "bookmarks": 5,
+      "views": 1332
+    },
+    "media": []
+  },
+  {
+    "id": "2014183264722751620",
+    "text": "@alexhillman yup, same. I have a \"today\" command and the first thing it does it to get today's date and then proceed to pick up stuff from my to-do app mcp, linear mcp etc.",
+    "author_handle": "@akshaychugh_xyz",
+    "author_name": "Akshay Chugh",
+    "created_at": "Thu Jan 22 03:48:06 +0000 2026",
+    "created_at_iso": "2026-01-22T03:48:06+00:00",
+    "is_reply_to": "2013820793671536778",
+    "conversation_id": "2013820793671536778",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 0,
+      "views": 22
+    },
+    "media": []
+  },
+  {
+    "id": "2014019138528878711",
+    "text": "@alexhillman That's brilliant. I'm definitely stealing this. My Claude-authored EA kept kept getting confused by timezones, so I gave it this skill for portable datetime handling: https://t.co/ty33mqud1s",
+    "author_handle": "@eykd",
+    "author_name": "David Eyk, Claude Code-based \ud83d\udc22\ud83e\udd20\ud83d\udcda\ud83c\udf33\ud83d\udcbb\u271d\ufe0f",
+    "created_at": "Wed Jan 21 16:55:55 +0000 2026",
+    "created_at_iso": "2026-01-21T16:55:55+00:00",
+    "is_reply_to": "2013820793671536778",
+    "conversation_id": "2013820793671536778",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 1,
+      "bookmarks": 2,
+      "views": 51
+    },
+    "media": []
+  },
+  {
+    "id": "2014160321716396135",
+    "text": "@alexhillman GPT-5 had the current date baked into a hidden system prompt even via API. \n\nStill models perform very poorly around the concept of time in general.",
+    "author_handle": "@BryanMcAnulty",
+    "author_name": "Bryan McAnulty",
+    "created_at": "Thu Jan 22 02:16:56 +0000 2026",
+    "created_at_iso": "2026-01-22T02:16:56+00:00",
+    "is_reply_to": "2013820793671536778",
+    "conversation_id": "2013820793671536778",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 21
+    },
+    "media": []
+  },
+  {
+    "id": "2014017721952780382",
+    "text": "@alexhillman noticed this as well with a content pipeline that was built, practically the same solution as well.\n\nso funny that it doesn't know what day it is \ud83d\ude2d\n\nand that it's best to instruct claude what to do with that date/ why it's relevant to its work",
+    "author_handle": "@miltovi777",
+    "author_name": "Marcel",
+    "created_at": "Wed Jan 21 16:50:18 +0000 2026",
+    "created_at_iso": "2026-01-21T16:50:18+00:00",
+    "is_reply_to": "2013820793671536778",
+    "conversation_id": "2013820793671536778",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 83
+    },
+    "media": []
+  },
+  {
+    "id": "2013992560268578920",
+    "text": "@alexhillman I've been running into this all week. Thanks for sharing this.",
+    "author_handle": "@ProfessionalPen",
+    "author_name": "Professional Pen\u2122",
+    "created_at": "Wed Jan 21 15:10:19 +0000 2026",
+    "created_at_iso": "2026-01-21T15:10:19+00:00",
+    "is_reply_to": "2013820793671536778",
+    "conversation_id": "2013820793671536778",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 63
+    },
+    "media": []
+  },
+  {
+    "id": "2014026253024612703",
+    "text": "@alexhillman you inject it into every user message??",
+    "author_handle": "@protobluf",
+    "author_name": "protobluf",
+    "created_at": "Wed Jan 21 17:24:12 +0000 2026",
+    "created_at_iso": "2026-01-21T17:24:12+00:00",
+    "is_reply_to": "2013820793671536778",
+    "conversation_id": "2013820793671536778",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 30
+    },
+    "media": []
+  },
+  {
+    "id": "2013921711565971673",
+    "text": "@alexhillman Good tip",
+    "author_handle": "@AnimoHertz",
+    "author_name": "Animo Hertz \ud83d\udece\ufe0f",
+    "created_at": "Wed Jan 21 10:28:47 +0000 2026",
+    "created_at_iso": "2026-01-21T10:28:47+00:00",
+    "is_reply_to": "2013820793671536778",
+    "conversation_id": "2013820793671536778",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 214
+    },
+    "media": []
+  },
+  {
+    "id": "2013982488796844386",
+    "text": "@alexhillman I never noticed that before. Seems like such a simple thing that we all take for granted.",
+    "author_handle": "@E__Strobel",
+    "author_name": "E__Strobel",
+    "created_at": "Wed Jan 21 14:30:17 +0000 2026",
+    "created_at_iso": "2026-01-21T14:30:17+00:00",
+    "is_reply_to": "2013820793671536778",
+    "conversation_id": "2013820793671536778",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 87
+    },
+    "media": []
+  },
+  {
+    "id": "2014176123341463765",
+    "text": "@alexhillman I feel like Claude had perm issues with running TZ=PST date\n\nOnce I put that into a script it was a little better.\n\nStill not perfect and super frustrating to fix",
+    "author_handle": "@waim",
+    "author_name": "Ibrahim Abdul",
+    "created_at": "Thu Jan 22 03:19:44 +0000 2026",
+    "created_at_iso": "2026-01-22T03:19:44+00:00",
+    "is_reply_to": "2013820793671536778",
+    "conversation_id": "2013820793671536778",
+    "metrics": {
+      "replies": 0,
+      "retweets": 0,
+      "likes": 0,
+      "bookmarks": 0,
+      "views": 24
+    },
+    "media": []
+  }
+]

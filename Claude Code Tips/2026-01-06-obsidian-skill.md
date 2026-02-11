@@ -24,6 +24,10 @@ url: "https://x.com/vista8/status/2008714622035956104"
 >
 > Likes: 264 · Replies: 10 · Reposts: 35
 
+## Summary
+
+This tip highlights Claude Skills being developed by the Obsidian CEO, likely inspired by user suggestions, for Obsidian-specific tasks. The Skill allows Claude to generate Obsidian-flavored Markdown with features like internal links and properties. It also covers creating filters/formulas for `.Base` files and Canva-like infinite canvas functionality; accessible by simply providing the Claude Skill with the linked prompt.
+
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 264 · **Replies:** 10 · **Reposts:** 35 · **Views:** 0
