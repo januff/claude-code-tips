@@ -1,0 +1,35 @@
+{
+  "updated_at": "2026-02-11T06:00:00Z",
+  "updated_by": "claude-ai",
+  "last_commit": {
+    "sha": "600d43f",
+    "message": "docs: add PROJECT_GUIDE.md",
+    "date": "2026-02-11T05:19:55Z"
+  },
+  "stats": {
+    "tweets": "TBD — run /wrap-up from Claude Code to populate",
+    "vault_notes": "TBD",
+    "threads_scraped": "TBD",
+    "total_replies": "TBD",
+    "links_resolved": "TBD"
+  },
+  "recent_changes": [
+    "Doc audit: add STATUS.json, /wrap-up command, merge PROJECT_DECISIONS, archive stale root docs",
+    "Added PROJECT_GUIDE.md — bootstrap file for Claude.ai Project instances",
+    "Switched focus to hall-of-fake (Jan 19)",
+    "Retroactive session log for Jan 6-8 undocumented work",
+    "Vault export duplicate bug fix + 7 new bookmarks fetched (Jan 8-9)"
+  ],
+  "known_issues": [
+    "Stats not populated — requires Claude Code /wrap-up with live DB access",
+    "Stale files at root need git rm (HANDOFF.md, HANDOFF_updated.md, PROJECT_DECISIONS_updated.md, CURRENT_FOCUS.md, CROSS_PROJECT_ARCHITECTURE.md, LLM_BRIEFING.md, ORCHESTRATOR.md)",
+    "Bookmarks stale since Jan 8 — ~5 weeks of new Claude Code tips to ingest",
+    "PROGRESS.md at root should move to plans/"
+  ],
+  "key_dates": {
+    "last_bookmark_fetch": "2026-01-08",
+    "last_vault_export": "2026-01-08",
+    "doc_audit": "2026-02-10",
+    "project_dormant_since": "2026-01-19"
+  }
+}
