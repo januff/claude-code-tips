@@ -1,35 +1,34 @@
 {
-  "updated_at": "2026-02-11T05:34:58.277416+00:00",
+  "updated_at": "2026-02-11T17:56:55.844064+00:00",
   "updated_by": "claude-code",
   "last_commit": {
-    "sha": "c6181b3",
-    "message": "chore: doc audit \u2014 add STATUS.json, /wrap-up, merge PROJECT_DECISIONS, clean root",
-    "date": "2026-02-10T21:31:24-08:00"
+    "sha": "5c0171d",
+    "message": "feat: fetch 36 new bookmarks + full enrichment pipeline",
+    "date": "2026-02-11T09:56:33-08:00"
   },
   "stats": {
-    "tweets": 424,
-    "vault_notes": 131,
-    "threads_scraped": 65,
-    "links_resolved": 65,
-    "thread_replies_in_db": 26
+    "tweets": 460,
+    "vault_notes": 449,
+    "threads_scraped": 101,
+    "thread_replies_in_db": 2730,
+    "links_resolved": 83
   },
   "recent_changes": [
-    "Repo root cleanup: rm 7 stale docs, mv PROGRESS.md to plans/",
-    "Doc audit: add STATUS.json, /wrap-up command, merge PROJECT_DECISIONS, archive stale root docs",
-    "Added PROJECT_GUIDE.md \u2014 bootstrap file for Claude.ai Project instances",
-    "Switched focus to hall-of-fake (Jan 19)",
-    "Retroactive session log for Jan 6-8 undocumented work",
-    "Vault export duplicate bug fix + 7 new bookmarks fetched (Jan 8-9)"
+    "Fetched 36 new bookmarks from Twitter (424->460 tweets)",
+    "Scraped 36 new threads (973 replies, 2730 total in DB)",
+    "Full enrichment pipeline: keywords (458), summaries (460), links (31)",
+    "Vault export expanded from 94 to 449 notes (all tweets now have summaries)",
+    "Fixed enrich_keywords.py: migrated from deprecated google.generativeai to google.genai",
+    "Added .obsidian/workspace.json to .gitignore"
   ],
   "known_issues": [
-    "Stats not populated \u2014 requires Claude Code /wrap-up with live DB access",
-    "Bookmarks stale since Jan 8 \u2014 ~5 weeks of new Claude Code tips to ingest",
-    "Thread JSON files not fully imported into DB threading columns"
+    "claude.ai link returns 403 during link enrichment (1 of 83 links)",
+    "2 tweets with empty text failed keyword extraction"
   ],
   "key_dates": {
-    "last_bookmark_fetch": "2026-01-08",
-    "last_vault_export": "2026-01-08",
+    "last_bookmark_fetch": "2026-02-10",
+    "last_vault_export": "2026-02-10",
     "doc_audit": "2026-02-10",
-    "project_dormant_since": "2026-01-19"
+    "project_reactivated": "2026-02-10"
   }
 }
