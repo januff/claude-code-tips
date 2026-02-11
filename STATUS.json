@@ -9,9 +9,9 @@
   "stats": {
     "tweets": 424,
     "vault_notes": 131,
-    "threads_scraped": 11,
-    "total_replies": 26,
-    "links_resolved": 65
+    "threads_scraped": 65,
+    "links_resolved": 65,
+    "thread_replies_in_db": 26
   },
   "recent_changes": [
     "Repo root cleanup: rm 7 stale docs, mv PROGRESS.md to plans/",
@@ -23,7 +23,8 @@
   ],
   "known_issues": [
     "Stats not populated \u2014 requires Claude Code /wrap-up with live DB access",
-    "Bookmarks stale since Jan 8 \u2014 ~5 weeks of new Claude Code tips to ingest"
+    "Bookmarks stale since Jan 8 \u2014 ~5 weeks of new Claude Code tips to ingest",
+    "Thread JSON files not fully imported into DB threading columns"
   ],
   "key_dates": {
     "last_bookmark_fetch": "2026-01-08",

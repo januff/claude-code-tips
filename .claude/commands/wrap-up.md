@@ -23,8 +23,8 @@ db = sqlite3.connect('data/claude_code_tips_v2.db')
 stats = {
     'tweets': db.execute("SELECT COUNT(*) FROM tweets").fetchone()[0],
     'vault_notes': len([f for f in os.listdir('Claude Code Tips') if f.endswith('.md') and not f.startswith('_')]) if os.path.isdir('Claude Code Tips') else 0,
-    'threads_scraped': db.execute("SELECT COUNT(DISTINCT conversation_id) FROM tweets WHERE conversation_id IS NOT NULL AND conversation_id != id").fetchone()[0],
-    'total_replies': db.execute("SELECT COUNT(*) FROM tweets WHERE in_reply_to_id IS NOT NULL").fetchone()[0],
+    'threads_scraped': len([f for f in os.listdir('data/threads') if f.endswith('.json')]) if os.path.isdir('data/threads') else 0,
+    'thread_replies_in_db': db.execute("SELECT COUNT(*) FROM tweets WHERE is_reply = 1").fetchone()[0],
     'links_resolved': db.execute("SELECT COUNT(*) FROM links WHERE expanded_url IS NOT NULL").fetchone()[0]
 }
 
