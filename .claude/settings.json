@@ -1,4 +1,8 @@
 {
+  "statusLine": {
+    "type": "command",
+    "command": "python3 \"$CLAUDE_PROJECT_DIR/.claude/statusline.sh\""
+  },
   "permissions": {
     "allow": [
       "Bash(git :*)",
