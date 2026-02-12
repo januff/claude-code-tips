@@ -1,43 +1,35 @@
 {
-  "updated_at": "2026-02-12T23:30:00.000000+00:00",
+  "updated_at": "2026-02-12T23:10:34.514767+00:00",
   "updated_by": "claude-code",
   "last_commit": {
-    "sha": "dd65e34",
-    "message": "docs: enrichment audit analysis — author index, Obsidian CLI test, quote tweet coverage",
-    "date": "2026-02-12"
+    "sha": "0ef3447",
+    "message": "chore: wrap-up \u2014 enrichment audit complete, task plan archived",
+    "date": "2026-02-12T15:05:37-08:00"
   },
   "stats": {
     "tweets": 468,
-    "vault_notes": 458,
-    "threads_scraped": 115,
-    "thread_replies_in_db": 2730,
-    "links_resolved": 91,
-    "links_summarized": 47,
-    "media_analyzed": 12,
-    "enrichment_coverage": {
-      "summaries": "100%",
-      "keywords": "99.6%",
-      "links": "51.6%",
-      "media": "41.4%"
-    }
+    "vault_notes": 457,
+    "threads_scraped": 101,
+    "thread_replies_in_db": 27,
+    "links_resolved": 99
   },
   "recent_changes": [
+    "Status line: 3-line display \u2014 project pulse, session mechanics, rotating quote from DB",
     "Enrichment audit: 468 tweets audited, 4 empty-text diagnosed, 8 unenriched gap-filled",
-    "Export upgrade: models.py + core.py + tweet.md.j2 — enrichment sections, thread context, diagnostic footer",
+    "Export upgrade: models.py + core.py + tweet.md.j2 \u2014 enrichment sections, thread context, diagnostic footer",
     "Full vault re-export: 458 notes with new format (classification, linked resources, enrichment status)",
     "Author index: 406 authors, 8 Anthropic team flagged, top 10 hold 62.5% of likes",
-    "Obsidian CLI test: v1.11.7 needs 1.12+ for CLI, URI scheme works now",
-    "Quote tweet coverage: content not captured (only count), documented for future extraction"
+    "Obsidian CLI test: v1.11.7 needs 1.12+ for CLI, URI scheme works now"
   ],
   "known_issues": [
-    "Chrome extension mutual exclusion — Claude.ai app and Claude Code cannot share browser",
+    "Chrome extension mutual exclusion \u2014 Claude.ai app and Claude Code cannot share browser",
     "PROGRESS.md stale (last updated Jan 5)",
-    "4 tweets have empty text — genuinely attachment-only replies, not a parsing bug",
+    "4 tweets have empty text \u2014 genuinely attachment-only replies, not a parsing bug",
     "Quote tweets not captured in schema or extraction (only quote_count stored)",
-    "52 links (57%) still lack LLM summaries — many are t.co/media URLs",
-    "17 media items (59%) lack vision analysis — limited by missing local_path",
-    "Obsidian v1.11.7 installed — needs update to 1.12+ for CLI support",
-    "/wrap-up command does not include git push — causes invisible work",
+    "52 links (57%) still lack LLM summaries \u2014 many are t.co/media URLs",
+    "17 media items (59%) lack vision analysis \u2014 limited by missing local_path",
+    "Obsidian v1.11.7 installed \u2014 needs update to 1.12+ for CLI support",
+    "/wrap-up command does not include git push \u2014 causes invisible work",
     "Briefing generator produces double @@ in author handles"
   ],
   "key_dates": {
