@@ -1,0 +1,144 @@
+{
+  "analyzed_at": "2026-02-11T22:15:37.654510",
+  "tweet_count": 8,
+  "categories": {
+    "ACT_NOW": [],
+    "EXPERIMENT": [
+      {
+        "tweet_id": "2019469032844587505",
+        "author": "lydiahallie",
+        "likes": 5022,
+        "text_preview": "Claude Code now supports agent teams (in research preview)\n\nInstead of a single agent working through a task sequentiall",
+        "primary_keyword": null,
+        "one_liner": null,
+        "category": "EXPERIMENT",
+        "reason": "Agent teams are a new feature. While we use the delegation pattern, this is a new implementation of it directly within Claude Code that could be useful for cross-project coordination in our sibling repo (hall-of-fake).",
+        "relevance": [
+          "Delegation pattern",
+          "Cross-project coordination with hall-of-fake sibling repo"
+        ],
+        "proposed_action": "Investigate the potential benefits and drawbacks of using Claude Code agent teams for cross-project coordination, especially addressing known issues in the sibling repo."
+      },
+      {
+        "tweet_id": "2021517624803573928",
+        "author": "sharbel",
+        "likes": 1642,
+        "text_preview": "Most people bookmark tweets and never look at them again\n\nSo I built an openclaw skill that reads your bookmarks and tel",
+        "primary_keyword": null,
+        "one_liner": null,
+        "category": "EXPERIMENT",
+        "reason": "This is directly relevant to the autonomous daily bookmark monitor we are actively building. It proposes a mechanism for extracting actions and categorizing bookmarks, which is precisely what we need for our analysis engine.",
+        "relevance": [
+          "autonomous daily bookmark monitor"
+        ],
+        "proposed_action": "Investigate the x-bookmarks skill and adapt or incorporate its action extraction and categorization methods into our bookmark analysis pipeline."
+      }
+    ],
+    "NOTED": [
+      {
+        "tweet_id": "2021699851499798911",
+        "author": "bcherny",
+        "likes": 2061,
+        "text_preview": "Reflecting on what engineers love about Claude Code, one thing that jumps out is its customizability: hooks, plugins, LS",
+        "primary_keyword": null,
+        "one_liner": null,
+        "category": "NOTED",
+        "reason": "We already use Claude Code extensively and leverage many of the customization features mentioned (hooks, skills, MCPs). Boris confirming the customizability is good to know, but doesn't require any action.",
+        "relevance": [
+          "Claude Code",
+          "MCP servers",
+          "Skills"
+        ],
+        "proposed_action": null
+      },
+      {
+        "tweet_id": "2021012074160324633",
+        "author": "lydiahallie",
+        "likes": 1334,
+        "text_preview": "Claude Code Desktop now supports --dangerously-skip-permissions!\n\nThis skips all permission prompts so Claude can operat",
+        "primary_keyword": null,
+        "one_liner": null,
+        "category": "NOTED",
+        "reason": "We already use Claude Code Desktop. This is a feature update on a tool we actively use, specifically related to /permissions, which we already have.",
+        "relevance": [
+          "Claude Code Desktop",
+          "/permissions"
+        ],
+        "proposed_action": null
+      },
+      {
+        "tweet_id": "2021266983086588238",
+        "author": "firecrawl",
+        "likes": 974,
+        "text_preview": "The Firecrawl plugin is now available through Anthropic's official marketplace 🔌\n\n1. Run /plugin\n2. Install Firecrawl\n3.",
+        "primary_keyword": null,
+        "one_liner": null,
+        "category": "NOTED",
+        "reason": "We already have Firecrawl-like web scraping capabilities available via MCP servers and the project context explicitly states this. This is just an update to the official plugin store.",
+        "relevance": [
+          "Web scraping",
+          "MCP"
+        ],
+        "proposed_action": null
+      },
+      {
+        "tweet_id": "2021632916359655893",
+        "author": "trq212",
+        "likes": 631,
+        "text_preview": "We've added Plan Mode to Claude Code in Slack. \n\nWhen you give Claude a complex task it will ask you clarifying question",
+        "primary_keyword": null,
+        "one_liner": null,
+        "category": "NOTED",
+        "reason": "We already actively use Claude Code for execution and delegation, as noted in the project context. This is just an update on an existing feature.",
+        "relevance": [
+          "Claude Code Desktop is our primary interface."
+        ],
+        "proposed_action": null
+      },
+      {
+        "tweet_id": "2021718924430389424",
+        "author": "lydiahallie",
+        "likes": 606,
+        "text_preview": "Claude Code on desktop now supports local plugins\n\nInstall custom slash commands, skills, and MCP servers from the marke",
+        "primary_keyword": null,
+        "one_liner": null,
+        "category": "NOTED",
+        "reason": "We already use Claude Code Desktop as our primary interface and use skills (slash commands) and MCP servers. This is an update/feature announcement about things we already actively use.",
+        "relevance": [
+          "Claude Code Desktop",
+          "Skills",
+          "MCP Servers"
+        ],
+        "proposed_action": null
+      },
+      {
+        "tweet_id": "2021650827233169662",
+        "author": "_catwu",
+        "likes": 385,
+        "text_preview": "Want to set up a Claude Code customization, but don't want to read docs? \n\nMy favorite shortcut is to ask the claude cod",
+        "primary_keyword": null,
+        "one_liner": null,
+        "category": "NOTED",
+        "reason": "We actively use Claude Code for execution and specifically use /create-skill and YAML frontmatter for slash commands. This tip is a shortcut for what we already do.",
+        "relevance": [
+          "Delegation pattern: Claude.ai for planning, Claude Code for execution",
+          "/create-skill meta-command for generating new skills",
+          "Skills (slash commands) with YAML frontmatter"
+        ],
+        "proposed_action": null
+      }
+    ],
+    "NOISE": []
+  },
+  "summary": {
+    "act_now_count": 0,
+    "experiment_count": 2,
+    "noted_count": 6,
+    "noise_count": 0,
+    "top_engagement": {
+      "tweet_id": "2019469032844587505",
+      "likes": 5022,
+      "author": "lydiahallie"
+    }
+  }
+}
