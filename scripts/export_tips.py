@@ -7,6 +7,10 @@ Usage:
     python scripts/export_tips.py --all        # Include all tweets
     python scripts/export_tips.py --limit 10   # Sample export
     python scripts/export_tips.py --output ~/custom/path
+
+After export, optionally enhance the vault with topic clusters, links, and adoption tags:
+    python scripts/obsidian_export/enhance_vault.py
+    python scripts/obsidian_export/enhance_vault.py --dry-run  # Preview changes
 """
 
 import argparse

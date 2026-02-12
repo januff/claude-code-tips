@@ -46,6 +46,17 @@ Last fetch: [X days ago]
 Which approach?
 ```
 
+## Optional: Vault Health Check
+
+If Obsidian CLI (1.12+) is available on this system, run vault diagnostics:
+```bash
+obsidian-cli orphans   # Find unlinked notes
+obsidian-cli query     # Run base queries
+```
+
+**Status (2026-02-11):** Obsidian CLI is NOT currently installed. Skip this step.
+When it becomes available, add orphan detection and link validation here.
+
 ## Cross-Repo Paths
 
 - Hall of Fake: `../Hall of Fake/`
