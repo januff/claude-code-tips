@@ -2,12 +2,20 @@
 name: wrap-up
 description: >
   End-of-session wrap-up that updates STATUS.json with live database stats and latest
-  commit info. Use at the end of every Claude Code session, or when triggered by
-  pre-compact hook. MANDATORY before ending any session.
+  commit info. Use at the end of every Claude Code session. MANDATORY before ending
+  any session. Hooks handle automatic wrap-up on compaction and session end.
 disable-model-invocation: true
 ---
 
 # Wrap Up Session
+
+## Hook vs Manual Context
+
+**Manual invocation** (`/wrap-up`): Full wrap-up — plan check, recent_changes updates, commit.
+
+**Automatic (hooks)**: The pre-compact and session-end hooks run `wrap-up-script.py` directly.
+They skip the plan check and recent_changes updates to stay lightweight. If you know
+compaction is about to happen and want a full wrap-up, run `/wrap-up` manually first.
 
 ## Active Plan Check
 
