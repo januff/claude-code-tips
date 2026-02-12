@@ -9,7 +9,14 @@ disable-model-invocation: true
 
 # Wrap Up Session
 
-Run the wrap-up script to update STATUS.json:
+## Active Plan Check
+
+If `plans/active/TASK_PLAN.md` exists:
+1. Read it and note progress against the plan
+2. Update the Progress Log table with work done this session
+3. Update `active_task.current_phase` in STATUS.json if the phase changed
+
+## Run Wrap-Up Script
 
 ```bash
 python .claude/references/wrap-up-script.py

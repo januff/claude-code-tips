@@ -14,10 +14,11 @@ Scan repos for current state and present the starting point.
 ## Steps
 
 1. **Read STATUS.json** for last session state
-2. **Check for active handoffs:** `plans/active/HANDOFF*.md`
-3. **Read latest git log** for recent commits
-4. **Validate against live filesystem** — is the identified task still relevant?
-5. **Present starting point** with options
+2. **Check for active plan:** if `plans/active/TASK_PLAN.md` exists, read it and note current phase and progress
+3. **Check for active handoffs:** `plans/active/HANDOFF*.md`
+4. **Read latest git log** for recent commits
+5. **Validate against live filesystem** — is the identified task still relevant?
+6. **Present starting point** with options
 
 ## Expected Output
 
@@ -28,6 +29,11 @@ Based on: [source — e.g., "HANDOFF.md in claude-code-tips"]
 Last updated: [date]
 
 > "[The identified task]"
+
+ACTIVE PLAN: [if TASK_PLAN.md exists]
+  Phase: [current phase]
+  Progress: [X of Y steps complete]
+  Next: [what to resume]
 
 Verified: [validation result]
 

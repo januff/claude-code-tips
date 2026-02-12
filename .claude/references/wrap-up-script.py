@@ -35,6 +35,10 @@ status = {
     "key_dates": existing.get("key_dates", {})
 }
 
+# Preserve active_task if it exists (from /task-plan command)
+if "active_task" in existing:
+    status["active_task"] = existing["active_task"]
+
 with open('STATUS.json', 'w') as f:
     json.dump(status, f, indent=2)
 
