@@ -90,9 +90,57 @@ All 4 are from `thread_extraction` source — replies scraped from the @alexalbe
 
 ## Summary of Gaps
 
-1. **8 unenriched tweets** — recent high-engagement imports, no tips row → run enrichment scripts
-2. **52 links without summaries** (57%) → run `enrich_links.py`
-3. **17 media without vision analysis** (59%) → run `enrich_media.py`
-4. **0 OCR results** → OCR has never been run
+1. **8 unenriched tweets** — RESOLVED: created tips rows, ran all enrichment scripts
+2. **52 links without summaries** (57%) → PARTIALLY RESOLVED: ran enrich_links.py (8 more summarized, now 47/91)
+3. **17 media without vision analysis** (59%) → PARTIALLY RESOLVED: ran enrich_media.py (2 more, now 12/29 — only 12 have local_path)
+4. **0 OCR results** → OCR has never been run (enrich_media.py populates workflow_summary, not ocr_text)
 5. **4 empty-text tweets** — genuinely attachment-only, not a parsing bug
-6. **Quote tweets** — not captured in schema (see separate analysis below)
+6. **Quote tweets** — not captured in schema (see analysis below)
+
+## Post-Enrichment Coverage (after gap-fill)
+
+| Metric | Before | After | Coverage |
+|--------|--------|-------|----------|
+| Holistic summaries | 460 | 468 | **100%** |
+| Primary keywords | 458 | 466 | **99.6%** (2 empty-text can't be enriched) |
+| Links with summaries | 39 | 47 | **51.6%** |
+| Media with analysis | 10 | 12 | **41.4%** (limited by local_path availability) |
+
+---
+
+## Quote Tweet & Reply Coverage Analysis (Task 7)
+
+### Quote Tweets
+
+**Status: NOT captured.**
+
+- The `tweets` table has a `quotes` INTEGER column (count of quote tweets), extracted from `legacy.quote_count` in the GraphQL response
+- The actual quoted tweet content (`quoted_status_result`) is NOT extracted by the bookmark extractor
+- No separate table exists for quote tweet relationships
+- The bookmark extractor at line 178 only extracts `quotes: legacy.quote_count || 0` — the count, not the content
+- The thread extractor similarly only extracts the count at line 116
+
+**To add quote tweet capture (future work):**
+1. Add a `quoted_tweets` table: `(tweet_id, quoted_tweet_id, quoted_text, quoted_author, quoted_likes)`
+2. Update `parseTweet()` in `bookmark_folder_extractor.js` to extract `quoted_status_result`
+3. Update the import flow to insert quoted tweet data
+
+### Reply Coverage for Bookmarked Tweets
+
+- **27 bookmarked tweets** (5.8%) are replies to other tweets
+- All 27 have `in_reply_to_id` populated
+- Parent tweets for these replies may or may not be in the DB (the referenced tweets are often from authors we don't track)
+
+### Thread Reply Scraping
+
+- **115 tweets** (24.6%) have scraped reply threads via `thread_replies` table
+- **2,730 total thread replies** stored
+- **614 author replies** (22.5% of all replies) — high-signal content
+- The `twitter_thread_extractor.js` uses GraphQL API to fetch replies
+- The `browser_fetch_comments.js` has nested reply parsing (depth 2)
+
+### Gaps to Address (future handoff)
+
+1. Add `quoted_status_result` extraction to bookmark extractor
+2. Consider a `--fetch-parents` option for reply tweets to pull in the parent tweet
+3. The 353 tweets (75.4%) without scraped replies could benefit from thread scraping — prioritize by engagement
