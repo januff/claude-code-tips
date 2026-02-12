@@ -1,10 +1,9 @@
 {
-  "updated_at": "2026-02-12T01:43:59.265681+00:00",
-  "updated_by": "claude-code",
+  "updated_at": "2026-02-12T02:32:00+00:00",
+  "updated_by": "claude-ai",
   "last_commit": {
-    "sha": "839044f",
-    "message": "feat: autonomous bookmark monitor \u2014 daily pipeline, analysis engine, briefing generator",
-    "date": "2026-02-11T17:21:14-08:00"
+    "sha": "f8ab13b",
+    "message": "docs: HANDOFF — rewrite analyze_new_tips.py to use LLM classification"
   },
   "stats": {
     "tweets": 460,
@@ -13,7 +12,14 @@
     "thread_replies_in_db": 27,
     "links_resolved": 83
   },
+  "active_task": {
+    "handoff": "plans/active/HANDOFF_llm-analysis-rewrite.md",
+    "description": "Rewrite analyze_new_tips.py — replace keyword matching with Gemini LLM classification",
+    "prerequisite": "Fetch new bookmarks first: claude --chrome → /fetch-bookmarks"
+  },
   "recent_changes": [
+    "HANDOFF: LLM analysis rewrite — keyword matching produced 34/36 ACT_NOW (useless)",
+    "First live pipeline test: mechanics work, classification does not",
     "All 7 phases of autonomous monitor plan COMPLETE — pushed to origin/main",
     "Phase 7: daily_monitor.py, analyze_new_tips.py, generate_briefing.py, setup_cron.sh",
     "Phase 6: enhance_vault.py — topic clusters, wiki-links, adoption tags (706 lines)",
@@ -23,9 +29,12 @@
     "Phase 2: /task-plan command, plan-aware wrap-up and start-session"
   ],
   "known_issues": [
+    "analyze_new_tips.py keyword matching is non-functional — LLM rewrite in progress",
+    "New bookmarks added in Twitter but not yet fetched to DB — needs interactive claude --chrome",
+    "Playwriter MCP still in .claude/settings.json — dead config, cleanup needed",
+    "PROGRESS.md stale (last updated Jan 5) — analysis engine depends on it",
     "claude.ai link returns 403 during link enrichment (1 of 83 links)",
-    "2 tweets with empty text failed keyword extraction",
-    "PROGRESS.md stale (last updated Jan 5) \u2014 needs refresh after Phase 4"
+    "2 tweets with empty text failed keyword extraction"
   ],
   "key_dates": {
     "last_bookmark_fetch": "2026-02-10",
@@ -33,7 +42,8 @@
     "doc_audit": "2026-02-10",
     "project_reactivated": "2026-02-10",
     "autonomous_monitor_planned": "2026-02-11",
-    "autonomous_monitor_complete": "2026-02-11"
-  },
-  "active_task": null
+    "autonomous_monitor_complete": "2026-02-11",
+    "first_pipeline_test": "2026-02-11",
+    "llm_analysis_rewrite_planned": "2026-02-11"
+  }
 }
