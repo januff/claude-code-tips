@@ -243,7 +243,77 @@ Commit: `chore: full vault export — 468 tweets with enrichment diagnostics`
 
 ---
 
-## Task 6: Check Quote Tweet and Reply Coverage (30 minutes)
+## Task 6: Test Obsidian CLI Integration (30 minutes)
+
+Obsidian v1.12+ ships with a CLI. @kepano announced it (4,155 likes, classified EXPERIMENT
+in today's briefing). Since we're doing an Obsidian-focused sprint, let's test it now and
+see if it's useful for our pipeline.
+
+### Step 1: Check if Obsidian CLI is available
+
+```bash
+# Check if obsidian CLI is installed / accessible
+which obsidian
+obsidian --version
+# Or it might be accessed via the app bundle on macOS:
+/Applications/Obsidian.app/Contents/MacOS/Obsidian --help
+```
+
+If not available, check whether Obsidian 1.12+ is installed. If the version is older,
+note it and skip to the discovery step below.
+
+### Step 2: Discover capabilities
+
+```bash
+obsidian --help
+# Try common subcommands:
+obsidian vault list
+obsidian open "Claude Code Tips"
+```
+
+Document what commands exist and what they do. We're particularly interested in:
+- **Opening a specific note** — for post-export verification
+- **Triggering a vault reindex** — so Dataview queries update immediately after export
+- **Listing vault contents** — for programmatic vault health checks
+- **Running commands** — Obsidian has a command palette; can the CLI invoke commands?
+
+### Step 3: Test post-export integration
+
+If the CLI works, try:
+1. Open the vault after export: `obsidian open "Claude Code Tips"`
+2. Open a specific note (e.g., the highest-engagement tweet from today's export)
+3. Check if Dataview queries are fresh (or if a reindex is needed)
+
+### Step 4: Evaluate for pipeline integration
+
+Write findings to `analysis/obsidian-cli-test-2026-02-12.md`:
+- What works, what doesn't
+- Latency (does it open instantly or take seconds?)
+- Whether it could replace manual "open Obsidian and check" in the daily workflow
+- Specific integration points for our pipeline:
+  - Post-export: auto-open vault or specific briefing note
+  - Post-analysis: open the daily briefing for review
+  - Health check: verify note count matches DB export count
+  - Automation: could `daily_monitor.py` invoke the CLI at the end of a run?
+
+### Step 5: If it works well, add to export script
+
+If the CLI is responsive and useful, add an optional `--open` flag to `export_tips.py`
+that opens the vault (or a specific note) after export completes:
+
+```python
+if args.open:
+    subprocess.run(["obsidian", "open", "Claude Code Tips"])
+```
+
+This moves Obsidian CLI from EXPERIMENT to daily use in one step.
+
+Commit: `feat: test Obsidian CLI integration — findings + optional --open flag`
+(or `docs: Obsidian CLI test results — not yet usable` if it doesn't work)
+
+---
+
+## Task 7: Check Quote Tweet and Reply Coverage (30 minutes)
 
 This is investigative work to understand what we're NOT capturing:
 
@@ -268,7 +338,7 @@ No commit needed for this task (it's analysis, appended to Task 1's doc).
 
 ---
 
-## Task 7: Author Profile Index (15 minutes)
+## Task 8: Author Profile Index (15 minutes)
 
 Create a quick reference of all authors in the DB, sorted by tweet count and total engagement:
 
@@ -299,7 +369,7 @@ Commit: `chore: author index with engagement metrics and team identification`
 
 ---
 
-## Task 8: Wrap Up (with push!)
+## Task 9: Wrap Up (with push!)
 
 Run `/wrap-up` and then **`git push`**.
 
@@ -309,6 +379,7 @@ that's been pushed to GitHub. Every wrap-up must end with push.
 Update STATUS.json with:
 - All commits from this session
 - Enrichment audit findings (coverage percentages)
+- Obsidian CLI test results (works / doesn't work / partially works)
 - Known issues updated (empty-text resolution, any new gaps found)
 - active_task: null
 
@@ -322,6 +393,7 @@ Once the Obsidian vault shows enrichment depth diagnostically:
 3. Anthropic team tracking becomes possible (author profiles + content analysis)
 4. Agent teams can be pointed at enrichment gaps in parallel
 5. The planning instance can discuss content with the user, not just pipeline mechanics
+6. If the Obsidian CLI works, the daily pipeline can auto-open results for review
 
 ---
 
@@ -334,11 +406,15 @@ engagement loop breaks. Making the vault rich and diagnostic is what closes the 
 "community posts tip" → "system captures and enriches it" → "user evaluates and acts on it"
 → "project improves" → "insights feed back to community."
 
-The author index in Task 7 is the first step toward a specific goal: understanding the
+The author index in Task 8 is the first step toward a specific goal: understanding the
 Anthropic team's public engagement patterns well enough to eventually engage back with
 informed questions and feature requests. This is the project functioning as intended —
 not just archiving tips, but building toward active participation in the ecosystem that
 produces them.
+
+The Obsidian CLI test in Task 6 is itself an example of the loop working: @kepano's tip
+was bookmarked, captured in our pipeline, classified as EXPERIMENT in today's briefing,
+and now we're testing it as part of improving the very system that surfaced it.
 
 ---
 
