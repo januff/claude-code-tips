@@ -1,14 +1,12 @@
 #!/usr/bin/env python3
 """Claude Code status line for claude-code-tips project.
 
-Three-line display per statusline-spec.md:
+Two-line display per statusline-spec.md:
   Line 1: Project Pulse — project name, handoff, tweets, enrichment, wrap-up
-  Line 2: Session Mechanics — model, thinking, context, git, agents
-  Line 3: Rotating Quote — random high-signal tweet from DB
+  Line 2: Session Mechanics — model, context, git, agents
 """
 import json
 import os
-import re
 import sqlite3
 import subprocess
 import sys
@@ -185,42 +183,7 @@ def main():
     parts2.append(agents)
     line2 = " | ".join(parts2)
 
-    # ── Line 3: Rotating Quote ─────────────────────────────────
-    fallback = '\U0001f4ac "Verification is the most important tip" \u2014 @bcherny'
-    line3 = fallback
-
-    if db_path.exists():
-        try:
-            conn = sqlite3.connect(f"file:{db_path}?mode=ro", uri=True)
-            c = conn.cursor()
-            row = c.execute("""
-                SELECT text, handle
-                FROM tweets
-                WHERE likes > 500
-                  AND text IS NOT NULL
-                  AND LENGTH(text) < 200
-                  AND LENGTH(text) > 20
-                ORDER BY RANDOM()
-                LIMIT 1
-            """).fetchone()
-            conn.close()
-
-            if row:
-                text, handle = row
-                # Strip URLs
-                text = re.sub(r'https?://\S+', '', text).strip()
-                # Flatten newlines
-                text = re.sub(r'\s*\n\s*', ' ', text).strip()
-                # Truncate at word boundary
-                if len(text) > 100:
-                    text = text[:97].rsplit(' ', 1)[0] + "\u2026"
-                if text:
-                    at = f"@{handle}" if not handle.startswith("@") else handle
-                    line3 = f'\U0001f4ac "{text}" \u2014 {at}'
-        except Exception:
-            pass
-
-    print(f"{line1}\n{line2}\n{line3}", end="")
+    print(f"{line1}\n{line2}", end="")
 
 
 if __name__ == "__main__":
