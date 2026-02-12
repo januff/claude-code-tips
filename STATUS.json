@@ -1,10 +1,9 @@
 {
-  "updated_at": "2026-02-12T21:07:18.278183+00:00",
-  "updated_by": "claude-code",
+  "updated_at": "2026-02-12T22:17:26+00:00",
+  "updated_by": "claude-ai",
   "last_commit": {
-    "sha": "817f632",
-    "message": "chore: wrap-up \u2014 Chrome consolidation complete, STATUS.json updated",
-    "date": "2026-02-12T13:05:25-08:00"
+    "sha": "d34cf33",
+    "message": "docs: HANDOFF — Obsidian export upgrade + enrichment depth audit"
   },
   "stats": {
     "tweets": 468,
@@ -13,30 +12,44 @@
     "thread_replies_in_db": 27,
     "links_resolved": 91
   },
+  "active_task": {
+    "handoff": "plans/active/HANDOFF_obsidian-enrichment-audit.md",
+    "description": "Obsidian export upgrade — enrichment diagnostics, depth audit, author index, empty-text fix",
+    "prerequisite": "Start with /task-plan. No Chrome needed — all DB-local work. Push after every commit."
+  },
   "recent_changes": [
-    "Chrome consolidation handoff COMPLETE \u2014 all 8 tasks done",
+    "HANDOFF: Obsidian export upgrade + enrichment depth audit (8 tasks)",
+    "Chrome consolidation handoff COMPLETE — all 8 tasks done",
     "Removed Playwriter MCP from settings.json (saves ~8.4k context tokens/session)",
-    "Rewrote bookmark_folder_extractor.js v3 \u2014 self-healing hash, full-scan pagination",
-    "Rewrote /fetch-bookmarks command for Claude-in-Chrome workflow",
-    "Updated CLAUDE.md \u2014 Claude-in-Chrome only, no Playwriter",
-    "Updated twitter-api-reference.md \u2014 self-healing hash, randomized ordering, full-scan strategy",
+    "Rewrote bookmark_folder_extractor.js v3 — self-healing hash, full-scan pagination",
+    "Daily analysis run: 44 tweets — 7 ACT_NOW, 22 EXPERIMENT, 15 NOTED, 0 NOISE",
     "Enriched 8 links (resolve, fetch, summarize)",
-    "Daily analysis run: 44 tweets \u2014 7 ACT_NOW, 22 EXPERIMENT, 15 NOTED, 0 NOISE"
+    "LLM analysis rewrite COMPLETE — Gemini classification replaces keyword matching"
   ],
   "known_issues": [
-    "Chrome extension mutual exclusion \u2014 Claude.ai app and Claude Code cannot share browser",
+    "Chrome extension mutual exclusion — Claude.ai app and Claude Code cannot share browser",
     "PROGRESS.md stale (last updated Jan 5)",
-    "claude.ai link returns 403 during link enrichment (1 of 91 links)",
-    "2 tweets have empty text (attachment-only) \u2014 keyword enrichment skips them"
+    "2 tweets have empty text — likely parsing bug, not actually empty (investigation needed)",
+    "Obsidian vault last exported Feb 10 — does not reflect recent enrichment or new tweets",
+    "Quote tweets not captured in schema or extraction",
+    "Vision analysis (enrich_media.py) may not have been run systematically",
+    "Thread parent/child context not captured for bookmarked replies",
+    "/wrap-up command does not include git push — causes invisible work",
+    "Briefing generator produces double @@ in author handles"
   ],
   "key_dates": {
     "last_bookmark_fetch": "2026-02-11",
     "last_vault_export": "2026-02-10",
     "last_analysis_run": "2026-02-12",
     "chrome_consolidation_complete": "2026-02-12",
+    "obsidian_audit_planned": "2026-02-12",
     "project_reactivated": "2026-02-10",
     "autonomous_monitor_complete": "2026-02-11",
     "llm_analysis_rewrite_complete": "2026-02-11"
   },
-  "active_task": null
+  "active_task": {
+    "handoff": "plans/active/HANDOFF_obsidian-enrichment-audit.md",
+    "description": "Obsidian export upgrade — enrichment diagnostics, depth audit, author index, empty-text fix",
+    "prerequisite": "Start with /task-plan. No Chrome needed. Push after every commit."
+  }
 }
