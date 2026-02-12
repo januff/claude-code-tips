@@ -88,30 +88,20 @@ From @bcherny's January 2, 2026 thread (45,567 likes). **These are authoritative
 
 ---
 
-## 🌐 Browser Automation: Playwriter MCP
+## 🌐 Browser Automation: Claude-in-Chrome
 
-**Use Playwriter** (remorses/playwriter) — NOT standard Playwright MCP.
+Browser automation uses **Claude-in-Chrome** (native `/chrome` integration). No third-party browser extensions needed.
 
-```json
-"mcpServers": {
-  "playwriter": {
-    "command": "npx",
-    "args": ["playwriter@latest"]
-  }
-}
-```
+**Setup:** Run `/chrome` in Claude Code to enable. Uses the built-in Chrome extension.
 
-**Key advantages:**
-- Chrome extension approach: click icon on tab to grant control
-- Uses existing logged-in session (no separate auth needed)
-- ~90% less context window than Playwright MCP
-- Network interception for API capture
+**Key tools:**
+- `mcp__claude-in-chrome__tabs_context_mcp` — see available tabs
+- `mcp__claude-in-chrome__javascript_tool` — execute JS in page context
+- `mcp__claude-in-chrome__read_network_requests` — capture API calls
+- `mcp__claude-in-chrome__navigate` — page navigation
+- `mcp__claude-in-chrome__computer` — screenshots, clicks
 
-**Workflow:**
-1. Install Playwriter Chrome extension
-2. Navigate to target page in Chrome
-3. Click extension icon (turns green when connected)
-4. Claude Code controls via `mcp__playwriter__execute`
+**Chrome contention:** Only one Claude instance can hold the Chrome extension connection at a time. Claude Code should hold it during execution sessions. If the Claude.ai app is also connected, run `/chrome` → Reconnect to claim it.
 
 ---
 
@@ -250,4 +240,4 @@ To confirm you've read these instructions, include "context-first" in your first
 
 ---
 
-*Last updated: January 5, 2026*
+*Last updated: February 12, 2026*
