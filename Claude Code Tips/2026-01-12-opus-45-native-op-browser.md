@@ -1,7 +1,11 @@
 ---
+tweet_id: "2010816722014437522"
 created: 2026-01-12
 author: "@mert"
 display_name: "mert"
+primary_keyword: "opus 4.5 native OP browser"
+llm_category: "tooling"
+classification: "EXPERIMENT"
 tags:
   - type/screenshot
   - type/thread
@@ -9,6 +13,10 @@ likes: 1912
 views: 204381
 engagement_score: 4414
 url: "https://x.com/mert/status/2010816722014437522"
+enrichment_complete: false
+has_media: true
+has_links: false
+has_thread_context: true
 ---
 
 > [!tweet] @mert · Jan 12, 2026
@@ -26,15 +34,17 @@ url: "https://x.com/mert/status/2010816722014437522"
 
 This tip highlights a method to give the Claude Opus 4.5 model native browsing capabilities within the OP browser, isolating it from your regular browsing activity. By downloading the linked resource, you can enable this functionality, potentially replacing tools like Cursor. This allows Claude to access and interact with web content directly for enhanced performance and task completion.
 
+## Keywords
+
+**Primary:** `opus 4.5 native OP browser` · cursor issue, OP browser capabilities, native browser, opus 4.5
+## Classification
+
+**EXPERIMENT** — High engagement (1912 likes) with some relevance
 ## Media
 
 ![Media](https://pbs.twimg.com/media/G-fbB5ebUAA78Nj.jpg)
 
-
-
-
-
-
+> :warning: Photo not yet analyzed
 
 ## Replies
 
@@ -92,7 +102,7 @@ This tip highlights a method to give the Claude Opus 4.5 model native browsing c
 > @mert Just to clarify, your screen shot is from Claude Code on desktop, not Claude Cowork!
 > *21 likes*
 
-> [!tip]+ ↩️ @mert · 2026-01-12T22:05:24+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @mert · 2026-01-12T22:05:24+00:00
 
 > @amorriscode ah my bad
 > 
@@ -138,111 +148,8 @@ This tip highlights a method to give the Claude Opus 4.5 model native browsing c
 > @mert its idea guys year thanks to claude
 > *3 likes*
 
-> [!reply] @SEJeff · 2026-01-12T22:43:28+00:00
-> @mert Why does it explicitly mention ETH and BTC price, but not SOL price? Bearish.
-> *2 likes*
 
-> [!reply] @0xWhoismax · 2026-01-13T03:22:31+00:00
-> @mert Cursor has browser mcp integrated where you can even directly drop or modify dom elements as context for llm
-> *2 likes*
-
-> [!reply] @heathenft · 2026-01-13T01:54:54+00:00
-> @mert i prefer to use the one built on solana that does way more in depth stuff + has onchain features. 
-> 
-> it’s also wayyy cuter.
-> *1 likes*
-
-> [!reply] @0xfar · 2026-01-12T22:20:27+00:00
-> @mert Recommend the Apple Vision Pro?
-> *1 likes*
-
-> [!reply] @therealchaseeb · 2026-01-13T05:28:12+00:00
-> @mert https://t.co/46XnAnlEyE
-> *1 likes*
-
-> [!reply] @0xfs7 · 2026-01-12T20:52:42+00:00
-> @mert they're cooking
-> *1 likes*
-
-> [!reply] @JackedBasedMgr · 2026-01-12T22:09:16+00:00
-> @mert This looks dope
-> I refuse to pay for more than 1 AI
-> So looks like grok is getting cancelled this month
-> *1 likes*
-
-> [!reply] @VincentShipsIt · 2026-01-13T03:20:50+00:00
-> @mert Claude Cowork completely crashed and lost convos when I asked it to generate pitch decks…
-> 
-> Will wait a bit before going ham on it
-> *1 likes*
-
-> [!reply] @hashvalue · 2026-01-13T02:19:00+00:00
-> @mert Just bought cursor yesterday. Not a bullish post
-> *1 likes*
-
-> [!reply] @ivanbiteth · 2026-01-12T20:58:30+00:00
-> @mert This feels like the first real "agent in the browser" moment
-> Cursor catching strays
-> *1 likes*
-
-> [!reply] @zen_llama · 2026-01-13T18:56:24+00:00
-> @mert Are you using Brave? It doesn’t work with Arc and I don’t wanna go back to Chrome.
-
-> [!reply] @istudycharts · 2026-01-12T21:36:17+00:00
-> @mert You In VR??
-
-> [!reply] @0xLaxo · 2026-01-12T20:52:21+00:00
-> @mert this is actually huge for workflows
-> 
-> claude bout to be my full time researcher
-
-> [!reply] @Tuteth_ · 2026-01-13T03:43:48+00:00
-> @mert I think it killed cursor for me too.
-
-> [!reply] @AdiFlips · 2026-01-13T08:37:12+00:00
-> @mert opus unleashed finally
-
-> [!reply] @rayray_1_ · 2026-01-13T16:23:47+00:00
-> @mert SICK-native OP browser mode, no fuss
-
-> [!reply] @ItsSun · 2026-01-12T20:51:52+00:00
-> @mert https://t.co/Qp1SHpIksT
-
-> [!reply] @bigrkg · 2026-01-13T06:34:32+00:00
-> @mert 🔥🔥
-
-> [!reply] @Cryptilt · 2026-01-12T21:45:21+00:00
-> @mert bro try https://t.co/aBb2yTITJI because its BETTER than claude at handling codebase.
-
-> [!reply] @SaintLee04 · 2026-01-12T21:18:51+00:00
-> @mert claude killing cursor with opus 4.5 browser? wild demo mert
-
-> [!reply] @alex_crypto98 · 2026-01-12T21:40:31+00:00
-> @mert this changes everything lol
-
-> [!reply] @maxwin · 2026-01-13T00:59:00+00:00
-> @mert insane
-
-> [!reply] @_CarlosAce_ · 2026-01-13T21:54:40+00:00
-> @mert Anthropic won.
-
-> [!reply] @0xBossmang · 2026-01-12T21:55:03+00:00
-> @mert i'll be trying this out asap
-
-> [!reply] @neilquinn · 2026-01-12T22:03:27+00:00
-> @mert Is playwright/puppeteer not sufficient that you need a full browser often?
-
-> [!reply] @FractalVeritas · 2026-01-12T23:35:30+00:00
-> @mert can't you just use headless mode
-
-> [!reply] @decocereus · 2026-01-12T23:40:20+00:00
-> @mert try @openclaw 
-> 
-> this is nothing
-
-> [!reply] @richeythinks · 2026-01-12T23:20:54+00:00
-> @mert The next generation will cook hard with all that’s at play
-
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 1,912 · **Replies:** 80 · **Reposts:** 60 · **Views:** 204,381
@@ -251,3 +158,13 @@ This tip highlights a method to give the Claude Opus 4.5 model native browsing c
 > **Source:** tips · **Quality:** —/10
 > **Curated:** ✗ · **Reply:** ✗
 > **ID:** [2010816722014437522](https://x.com/mert/status/2010816722014437522)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ⚠️ (0/1 analyzed — 1 photo, 0 videos)
+  thread: ✅ (39 replies scraped)
+  classification: ✅ EXPERIMENT
+```

@@ -1,8 +1,11 @@
 ---
+tweet_id: "2005360362737344574"
 created: 2025-12-28
 author: "@EXM7777"
 display_name: "Machina"
+primary_keyword: "bypass-ai-detectors"
 category: "workflow"
+llm_category: "prompting"
 tools: ["write"]
 tags:
   - category/workflow
@@ -13,6 +16,10 @@ likes: 1384
 views: 71952
 engagement_score: 6062
 url: "https://x.com/EXM7777/status/2005360362737344574"
+enrichment_complete: true
+has_media: true
+has_links: false
+has_thread_context: true
 ---
 
 > [!tweet] @EXM7777 · Dec 28, 2025
@@ -30,6 +37,9 @@ url: "https://x.com/EXM7777/status/2005360362737344574"
 
 This tip shows a workflow for creating human-sounding content with Claude that can bypass AI detectors. By defining a custom writing style with specific instructions, you can guide Claude to produce more authentic and conversational text. The key is to instruct Claude to use contractions, vary sentence length, add natural pauses, and incorporate relatable metaphors and casual observations.
 
+## Keywords
+
+**Primary:** `bypass-ai-detectors` · humanized-content, ai-detectors, EXM7777
 ## Media
 
 ![[attachments/screenshots/tweet_2005360362737344574_8.png]]
@@ -50,8 +60,6 @@ authentic and conversational content.
 or casual observations.
 Show you understand the reader.
 ```
-
-**Workflow:** Defining a custom writing style for Claude by providing specific instructions.
 
 **Key Action:** Learn how to define a custom writing style for Claude by providing specific instructions focused on authentic and conversational content, using contractions, varying sentence length, and adding natural pauses.
 
@@ -96,7 +104,7 @@ Create style
 > @EXM7777 funny that Claude reacted to the new style. https://t.co/CwzP6q4dQ7
 > *9 likes*
 
-> [!tip]+ ↩️ @EXM7777 · Mon Dec 29 09:43:24 +0000 2025
+> [!tip]+ :leftwards_arrow_with_hook: @EXM7777 · Mon Dec 29 09:43:24 +0000 2025
 
 > @witcheer he knows i cooked
 
@@ -104,7 +112,7 @@ Create style
 > @EXM7777 Good prompt. How do you balance humanize vs polish?
 > *4 likes*
 
-> [!tip]+ ↩️ @EXM7777 · Sun Dec 28 19:52:00 +0000 2025
+> [!tip]+ :leftwards_arrow_with_hook: @EXM7777 · Sun Dec 28 19:52:00 +0000 2025
 
 > @vasuman is this vas or chatgpt
 
@@ -149,65 +157,8 @@ Create style
 > [!reply] @tyler_agg · Sun Dec 28 21:54:44 +0000 2025
 > @EXM7777 this is sick
 
-> [!reply] @real_SamLiu · Tue Dec 30 02:27:02 +0000 2025
-> @EXM7777 Claude settings bypass detectors by injecting human variance into token incentives.
 
-> [!reply] @Sroor414 · Mon Dec 29 12:35:59 +0000 2025
-> @EXM7777 Bookmarking this. Practical and clean
-
-> [!reply] @techlifejosh · Mon Dec 29 23:08:43 +0000 2025
-> @EXM7777 Interesting, this is inverse of getting content to rank in Ai suggestions though of course ?
-
-> [!reply] @zanbuilds · Mon Dec 29 00:04:20 +0000 2025
-> @EXM7777 this is mf time seing this feature thanks for the update
-
-> [!reply] @zanbuilds · Sun Dec 28 20:21:49 +0000 2025
-> @EXM7777 thanks for this man
-
-> [!reply] @xbirimensah · Mon Dec 29 07:45:11 +0000 2025
-> @EXM7777 Just implemented it now
-> 
-> Great stuff to be fair
-
-> [!reply] @DhruvOnAI · Mon Dec 29 12:57:56 +0000 2025
-> @EXM7777 This is useful.
-
-> [!reply] @nhkooke · Mon Dec 29 00:09:23 +0000 2025
-> @EXM7777 Understood, let's get those replies rolling. Give me a tweet to respond to.
-
-> [!reply] @Rebeykers · Mon Dec 29 00:47:12 +0000 2025
-> @EXM7777 Noted, let's dive in and craft some spicy replies.
-
-> [!reply] @david_saint_ · Sun Dec 28 20:57:29 +0000 2025
-> @EXM7777 Examples with and without
-
-> [!reply] @sweett292 · Mon Dec 29 00:47:18 +0000 2025
-> @EXM7777 Got it, let's vibe with the timeline.
-
-> [!reply] @zamora1981angel · Mon Dec 29 00:04:06 +0000 2025
-> @EXM7777 Got it, let's send it.
-
-> [!reply] @stufi33 · Tue Dec 30 18:33:19 +0000 2025
-> @EXM7777 Ummm
-
-> [!reply] @sergioluisduque · Sun Dec 28 20:22:24 +0000 2025
-> @EXM7777 have you found simple structured prompts like this work the same as longer more specific/detailed/intricate ones? and what about including examples?
-
-> [!reply] @richiepooooo · Mon Dec 29 06:17:35 +0000 2025
-> @EXM7777 Easily identifiable as AI slop
-
-> [!reply] @growwithsanch · Mon Dec 29 14:40:44 +0000 2025
-> @EXM7777 focusing on tone, flow, and real human habits like pauses and small imperfections makes writing easier to read and connect with
-
-> [!reply] @ethanmonkhouse · Sun Dec 28 21:40:52 +0000 2025
-> @EXM7777 bookmarked
-
-> [!reply] @idanzei · Sun Dec 28 20:53:55 +0000 2025
-> @EXM7777 Detectors chase syntax. humans ship substance.
-
-> [!reply] @FHPavel · Mon Dec 29 02:39:40 +0000 2025
-> @EXM7777 Let's go...it's working 🐸 https://t.co/nAcSEBvQVH
-
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 1,384 · **Replies:** 32 · **Reposts:** 73 · **Views:** 71,952
@@ -216,3 +167,13 @@ Create style
 > **Source:** tips · **Quality:** 10/10
 > **Curated:** ✓ · **Reply:** ✗
 > **ID:** [2005360362737344574](https://x.com/EXM7777/status/2005360362737344574)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ✅ (1/1 analyzed — 1 photo, 0 videos)
+  thread: ✅ (31 replies scraped)
+  classification: ❌ not classified
+```

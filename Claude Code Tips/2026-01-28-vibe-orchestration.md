@@ -1,13 +1,21 @@
 ---
+tweet_id: "2016515470543761805"
 created: 2026-01-28
 author: "@RohunJauhar"
 display_name: "Rohun ⛳️"
+primary_keyword: "vibe orchestration"
+llm_category: "automation"
+classification: "ACT_NOW"
 tags:
   - type/thread
 likes: 640
 views: 54907
 engagement_score: 3481
 url: "https://x.com/RohunJauhar/status/2016515470543761805"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: true
 ---
 
 > [!tweet] @RohunJauhar · Jan 28, 2026
@@ -84,6 +92,12 @@ url: "https://x.com/RohunJauhar/status/2016515470543761805"
 
 This tip showcases a workflow for turning an AI assistant (Clawdbot or Moltbot) into a proactive employee by giving it a single instruction: learn from successful implementations like Alex Finn's Clawdbot.  By granting the AI broad autonomy and a mandate to improve workflows nightly, the user achieved automated morning briefs, overnight improvements, and a self-managed task board.  The core instructions involved granting the AI a "proactivity mandate" and instructing it to build something small and helpful every night, leveraging tools like Google Search and X to learn and improve.
 
+## Keywords
+
+**Primary:** `vibe orchestration` · clawdbot, ai employee, automation, proactivity prompts, nightly builds, morning briefs
+## Classification
+
+**ACT_NOW** — Matches pending technique with 640 likes
 ## Replies
 
 > [!reply] @dan_elbaum · 2026-02-06T17:53:49+00:00
@@ -102,7 +116,7 @@ This tip showcases a workflow for turning an AI assistant (Clawdbot or Moltbot) 
 > @RohunJauhar @AlexFinn How do I avoid rate limits. I’m willing to pay anything. I literally can’t do a single thing and ive tried switching my model from Claude to OpenAI, resetting the session, summarizing context. Clawdbot is just unusable. I’m running on AWS ec2
 > *7 likes*
 
-> [!tip]+ ↩️ @RohunJauhar · 2026-01-29T04:59:51+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @RohunJauhar · 2026-01-29T04:59:51+00:00
 
 > @FlyInvestments_ @AlexFinn set up fallbacks for chatgpt/minimax/etc.
 
@@ -135,55 +149,8 @@ This tip showcases a workflow for turning an AI assistant (Clawdbot or Moltbot) 
 > 
 > Want to try this so much, but too busy at the moment.
 
-> [!reply] @CornOnTheCohbs · 2026-01-29T18:19:35+00:00
-> @RohunJauhar @AlexFinn lol i thought about doing this myself - how much does it running like this overnight cost? I'm contemplating giving Kimi-2.5 the call from the bullpen
 
-> [!reply] @collinsfilms · 2026-01-29T00:10:36+00:00
-> @RohunJauhar @AlexFinn It’s so wild right? Just got mine up and running last night. Built a website learned some video stuff and started building some business plans while I was sleeping.
-
-> [!reply] @robbie_jeo · 2026-01-29T09:34:24+00:00
-> @RohunJauhar @AlexFinn What happens when it hits conflicting priorities?
-
-> [!reply] @frog_omo · 2026-01-29T11:26:16+00:00
-> @RohunJauhar @AlexFinn Tbh, it followed a well-documented public workflow that many people have written about. 
-> 
-> The AI executed research instructions well, but "figuring out" implies reasoning that isn't happening. 
-> 
-> Good execution, not emergence
-
-> [!reply] @quionie · 2026-01-29T05:25:09+00:00
-> @RohunJauhar @AlexFinn this is pretty neat
-
-> [!reply] @AIHacksByMK · 2026-01-29T07:17:31+00:00
-> @RohunJauhar @AlexFinn This is a GEM. I’m going to try this.. that’s for sharing
-
-> [!reply] @noxestyle · 2026-01-29T15:47:49+00:00
-> @RohunJauhar @AlexFinn the thing isn't this... the thing is that. written by AI.
-
-> [!reply] @chriswheeler · 2026-01-28T18:18:30+00:00
-> @RohunJauhar @AlexFinn you can just do things
-
-> [!reply] @defiunknownking · 2026-01-29T05:40:18+00:00
-> @RohunJauhar @AlexFinn ohh, this is so coool dude
-
-> [!reply] @singulix_labs · 2026-01-29T06:48:02+00:00
-> @RohunJauhar @AlexFinn how much you spend on clawdbot per day in credits
-
-> [!reply] @jeremybreakfree · 2026-01-29T06:01:34+00:00
-> @RohunJauhar @AlexFinn Is this doable on a Claude pro subscription + VPS - usage wise?
-
-> [!reply] @rohitgolu2007 · 2026-01-29T05:48:57+00:00
-> @RohunJauhar @AlexFinn Soni need a different mini setup i guess for this.?
-
-> [!reply] @Renegade_Rocks · 2026-01-29T05:07:11+00:00
-> @RohunJauhar @AlexFinn Wow !
-
-> [!reply] @azaztrader01 · 2026-01-29T15:35:03+00:00
-> @RohunJauhar @AlexFinn That's incredible. Have you thought about what kind of long-term goals or directives you might give it next, now that it's set up?
-
-> [!reply] @sgmelvic · 2026-01-28T14:48:59+00:00
-> @RohunJauhar @AlexFinn Great stuff!!! Can’t wait to try myself
-
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 640 · **Replies:** 29 · **Reposts:** 45 · **Views:** 54,907
@@ -192,3 +159,13 @@ This tip showcases a workflow for turning an AI assistant (Clawdbot or Moltbot) 
 > **Source:** tips · **Quality:** —/10
 > **Curated:** ✗ · **Reply:** ✗
 > **ID:** [2016515470543761805](https://x.com/RohunJauhar/status/2016515470543761805)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ✅ (26 replies scraped)
+  classification: ✅ ACT_NOW
+```

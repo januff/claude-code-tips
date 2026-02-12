@@ -1,8 +1,11 @@
 ---
+tweet_id: "2004843105007362184"
 created: 2025-12-27
 author: "@abelwsl"
 display_name: "Abel"
+primary_keyword: "let-it-crash"
 category: "workflow"
+llm_category: "prompting"
 tools: ["write"]
 tags:
   - category/workflow
@@ -11,6 +14,10 @@ likes: 0
 views: 0
 engagement_score: 0
 url: "https://x.com/abelwsl/status/2004843105007362184"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: false
 ---
 
 > [!tweet] @abelwsl · Dec 27, 2025
@@ -22,6 +29,11 @@ url: "https://x.com/abelwsl/status/2004843105007362184"
 
 This tip suggests instructing Claude to prioritize code execution speed and simplicity by avoiding error handling, fallback methods, and migration code. The key insight is that explicitly telling Claude to avoid these safety nets can sometimes lead to faster and more focused code generation for certain tasks. The specific instruction is: "Do not handle errors; always let it crash. Do not write fallback methods or migration-related code."
 
+## Keywords
+
+**Primary:** `let-it-crash` · error-handling, fallback-methods, migration-code, crashing
+
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 0 · **Replies:** 0 · **Reposts:** 0 · **Views:** 0
@@ -30,3 +42,13 @@ This tip suggests instructing Claude to prioritize code execution speed and simp
 > **Source:** tips · **Quality:** 5/10
 > **Curated:** ✓ · **Reply:** ✗
 > **ID:** [2004843105007362184](https://x.com/abelwsl/status/2004843105007362184)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ℹ️ standalone
+  classification: ❌ not classified
+```

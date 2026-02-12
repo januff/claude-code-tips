@@ -1,12 +1,19 @@
 ---
+tweet_id: "2008638577308291424"
 created: 2026-01-06
 author: "banteg"
 display_name: "banteg"
+primary_keyword: "worktree-first workflow"
+llm_category: "workflow"
 tags:
 likes: 265
 views: 0
 engagement_score: 0
 url: "https://x.com/banteg/status/2008638577308291424"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: false
 ---
 
 > [!tweet] banteg · Jan 06, 2026
@@ -18,6 +25,11 @@ url: "https://x.com/banteg/status/2008638577308291424"
 
 This tip introduces a worktree-first workflow for the Claude Desktop application, suggesting a new way to manage code changes and experiments. It implies a user can now leverage worktrees within the Claude Desktop environment. This likely allows for isolated environments for different features or bug fixes directly within the desktop application.
 
+## Keywords
+
+**Primary:** `worktree-first workflow` · desktop
+
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 265 · **Replies:** 21 · **Reposts:** 7 · **Views:** 0
@@ -26,3 +38,13 @@ This tip introduces a worktree-first workflow for the Claude Desktop application
 > **Source:** tips · **Quality:** 1/10
 > **Curated:** ✗ · **Reply:** ✗
 > **ID:** [2008638577308291424](https://x.com/banteg/status/2008638577308291424)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ℹ️ standalone
+  classification: ❌ not classified
+```

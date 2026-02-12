@@ -1,13 +1,21 @@
 ---
+tweet_id: "2009475420282826781"
 created: 2026-01-09
 author: "@AI_Skiller"
 display_name: "roger"
+primary_keyword: "code-simplifier"
+llm_category: "tooling"
+classification: "ACT_NOW"
 tags:
   - type/thread
 likes: 700
 views: 71269
 engagement_score: 2792
 url: "https://x.com/AI_Skiller/status/2009475420282826781"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: true
 ---
 
 > [!tweet] @AI_Skiller · Jan 09, 2026
@@ -41,6 +49,12 @@ url: "https://x.com/AI_Skiller/status/2009475420282826781"
 
 The Claude Code team open-sourced their internal `code-simplifier` plugin, a powerful tool for automatically improving code quality. It uses the Opus model to reduce complexity, eliminate redundancy, and enforce code style after you finish coding, without manual triggering. Install it with `claude plugin install code-simplifier` or `/plugin install code-simplifier` to clean up long coding sessions or prepare complex pull requests.
 
+## Keywords
+
+**Primary:** `code-simplifier` · code simplification, automatic code optimization, Opus model, code readability, code quality, bcherny
+## Classification
+
+**ACT_NOW** — Matches pending technique with 700 likes
 ## Replies
 
 > [!reply] @bcherny · 2026-01-09T02:22:38+00:00
@@ -59,7 +73,7 @@ The Claude Code team open-sourced their internal `code-simplifier` plugin, a pow
 > @AI_Skiller @bcherny 只有CC需要🤣
 > *3 likes*
 
-> [!tip]+ ↩️ @AI_Skiller · 2026-01-10T02:51:07+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @AI_Skiller · 2026-01-10T02:51:07+00:00
 
 > @JakkuSakura @bcherny 还是有需求的
 
@@ -67,7 +81,7 @@ The Claude Code team open-sourced their internal `code-simplifier` plugin, a pow
 > @AI_Skiller @bcherny 感谢分享，这个帖子感觉神奇，你买推广了吗😊
 > *1 likes*
 
-> [!tip]+ ↩️ @AI_Skiller · 2026-01-10T04:16:04+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @AI_Skiller · 2026-01-10T04:16:04+00:00
 
 > @ruiapp @bcherny 没有买，应该是修复屎山需求巨大
 
@@ -75,7 +89,7 @@ The Claude Code team open-sourced their internal `code-simplifier` plugin, a pow
 > @AI_Skiller @bcherny 我倒是有不同的观点，我觉得代码以后就是给毕简单的就不应该给人看
 > *1 likes*
 
-> [!tip]+ ↩️ @AI_Skiller · 2026-01-10T05:56:48+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @AI_Skiller · 2026-01-10T05:56:48+00:00
 
 > @glow1n @bcherny 有理有理
 
@@ -83,7 +97,7 @@ The Claude Code team open-sourced their internal `code-simplifier` plugin, a pow
 > @AI_Skiller @bcherny 这类工具真正价值不是“少写代码”，是把 PR 可读性拉满：减少心智负担，review 速度直接翻倍😀
 > *1 likes*
 
-> [!tip]+ ↩️ @AI_Skiller · 2026-01-10T02:52:09+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @AI_Skiller · 2026-01-10T02:52:09+00:00
 
 > @leobtc404 @bcherny 减少人工和AI的维护成本😝
 
@@ -91,7 +105,7 @@ The Claude Code team open-sourced their internal `code-simplifier` plugin, a pow
 > @AI_Skiller @bcherny 我也在用，好工具
 > *1 likes*
 
-> [!tip]+ ↩️ @AI_Skiller · 2026-01-10T02:50:49+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @AI_Skiller · 2026-01-10T02:50:49+00:00
 
 > @bugjay4 @bcherny 企业用户绝对可以
 
@@ -106,6 +120,8 @@ The Claude Code team open-sourced their internal `code-simplifier` plugin, a pow
 > @AI_Skiller @bcherny 认可赞同观点
 
 
+---
+
 > [!metrics]- Engagement & Metadata
 > **Likes:** 700 · **Replies:** 12 · **Reposts:** 115 · **Views:** 71,269
 > **Engagement Score:** 2,792
@@ -113,3 +129,13 @@ The Claude Code team open-sourced their internal `code-simplifier` plugin, a pow
 > **Source:** tips · **Quality:** —/10
 > **Curated:** ✗ · **Reply:** ✗
 > **ID:** [2009475420282826781](https://x.com/AI_Skiller/status/2009475420282826781)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ✅ (14 replies scraped)
+  classification: ✅ ACT_NOW
+```

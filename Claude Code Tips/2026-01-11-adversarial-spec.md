@@ -1,13 +1,21 @@
 ---
+tweet_id: "2010213382494798108"
 created: 2026-01-11
 author: "@0xzak"
 display_name: "zak.eth"
+primary_keyword: "adversarial-spec"
+llm_category: "tooling"
+classification: "ACT_NOW"
 tags:
   - type/thread
 likes: 1185
 views: 81534
 engagement_score: 5325
 url: "https://x.com/0xzak/status/2010213382494798108"
+enrichment_complete: false
+has_media: false
+has_links: true
+has_thread_context: true
 ---
 
 > [!tweet] @0xzak · Jan 11, 2026
@@ -56,13 +64,33 @@ url: "https://x.com/0xzak/status/2010213382494798108"
 
 The Claude Code plugin `adversarial-spec` enhances product specifications by having multiple LLMs (GPT, Gemini, Grok, etc.) critique them in parallel until a consensus is reached. This iterative debate uncovers gaps, challenges assumptions, and surfaces edge cases that a single model review might miss, leading to more comprehensive and robust specs. Key features include interview mode, early agreement checks, user review periods, PRD-to-tech-spec flow, and Telegram integration.
 
+## Keywords
+
+**Primary:** `adversarial-spec` · product specs, PRD, tech spec, LLMs, GPT, Gemini, Grok, spec review, requirements, error handling, security gaps, scope creep, interview mode, telegram integration
+## Classification
+
+**ACT_NOW** — Matches pending technique with 1185 likes
+## Linked Resources
+
+- **[github.com/zscole/adversarial-spec](https://github.com/zscole/adversarial-spec)**
+  > :warning: Link not yet summarized
+
+- **[GitHub - zscole/adversarial-spec: A Claude Code plugin that iteratively refines product specifications by debating between multiple LLMs until all models reach consensus.](https://github.com/zscole/adversarial-spec)** · *github-repo*
+  > The `adversarial-spec` Claude Code plugin iteratively refines product specifications by having multiple LLMs debate a spec until all models, including Claude, reach a consensus. This helps catch gaps, challenge assumptions, and surface edge cases that a single model might miss, resulting in a more robust and well-vetted document.
+
+- **[GitHub - zscole/adversarial-spec: A Claude Code plugin that iteratively refines product specifications by debating between multiple LLMs until all models reach consensus.](https://github.com/zscole/adversarial-spec)** · *github-repo*
+  > The GitHub repository `adversarial-spec` provides a Claude Code plugin that refines product specifications by having multiple LLMs debate them until all reach a consensus. This iterative process aims to create more robust and comprehensive specifications by leveraging the collective intelligence of multiple models.
+
+- **[GitHub - zscole/adversarial-spec: A Claude Code plugin that iteratively refines product specifications by debating between multiple LLMs until all models reach consensus.](https://github.com/zscole/adversarial-spec)** · *github-repo*
+  > The `adversarial-spec` is a Claude Code plugin that uses multiple LLMs in a debate format to iteratively refine product specifications until all models reach a consensus. This process helps to catch gaps, challenge assumptions, and surface edge cases in the specification that a single LLM might miss.
+
 ## Replies
 
 > [!reply] @Corpetty · 2026-01-12T14:48:49+00:00
 > @0xzak I'm about to go HAM on this repo. Do you wanna sit on a @HashingItOutPod and wildly nerd out about specs with me?
 > *6 likes*
 
-> [!tip]+ ↩️ @0xzak · 2026-01-12T14:55:50+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @0xzak · 2026-01-12T14:55:50+00:00
 
 > @Corpetty @HashingItOutPod Lmao yeah let’s do it
 
@@ -74,7 +102,7 @@ The Claude Code plugin `adversarial-spec` enhances product specifications by hav
 > @0xzak have you tried/planned a similar tool but for generating a spec from an existing codebase? I work with existing codebases and now try to extend with AI, but often results are disappointing. am wondering if I should generate detailed specs to better guide the AI.
 > *4 likes*
 
-> [!tip]+ ↩️ @0xzak · 2026-01-11T16:27:21+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @0xzak · 2026-01-11T16:27:21+00:00
 
 > @Julien_Bouvier Have not. Would be interesting to experiment with though.
 
@@ -90,7 +118,7 @@ The Claude Code plugin `adversarial-spec` enhances product specifications by hav
 > @0xzak Nice work!. Do you think there any benefits in running the adversarial-spec agains the same llm, just using different models?
 > *2 likes*
 
-> [!tip]+ ↩️ @0xzak · 2026-01-11T16:28:34+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @0xzak · 2026-01-11T16:28:34+00:00
 
 > @Derpnat0r Not sure for certain, but I’d say probably.
 
@@ -102,7 +130,7 @@ The Claude Code plugin `adversarial-spec` enhances product specifications by hav
 > like the idea tho, testing with modern models
 > *2 likes*
 
-> [!tip]+ ↩️ @0xzak · 2026-01-11T16:26:46+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @0xzak · 2026-01-11T16:26:46+00:00
 
 > @hbruceweaver You can use multiple models.
 
@@ -110,7 +138,7 @@ The Claude Code plugin `adversarial-spec` enhances product specifications by hav
 > @0xzak Finally someone did what I was doing manually in my IDE (MD docs I have uploaded to Gemini 3 pro for summary). Is there a different approach to the Greenfield versus Brownfield project? How many arguing cycles are there about before the final PRD is done &amp; what costs/tokens?
 > *2 likes*
 
-> [!tip]+ ↩️ @0xzak · 2026-01-11T16:28:08+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @0xzak · 2026-01-11T16:28:08+00:00
 
 > @sinuhet It’s about 7 cycles to achieve consensus, but depends on the models you use. I found that grok is the laziest and agrees much earlier than any of the other models.
 
@@ -126,58 +154,8 @@ The Claude Code plugin `adversarial-spec` enhances product specifications by hav
 > Great to see it codified in a plugin!
 > *2 likes*
 
-> [!reply] @carlosml · 2026-01-11T08:59:32+00:00
-> @0xzak This is wild. Forcing LLMs to debate specs feels like hosting a tech cage match
-> *2 likes*
 
-> [!reply] @masonic_tweets · 2026-01-11T05:32:04+00:00
-> @0xzak YES
-> *1 likes*
-
-> [!tip]+ ↩️ @0xzak · 2026-01-11T05:33:42+00:00
-
-> @masonic_tweets yes
-
-> [!reply] @juanfranblanco · 2026-01-11T05:36:33+00:00
-> @0xzak Nice!!
-> *1 likes*
-
-> [!tip]+ ↩️ @0xzak · 2026-01-11T05:37:00+00:00
-
-> @juanfranblanco thanks! try it out and lmk what you think!
-
-> [!reply] @sinuhet · 2026-01-11T14:47:30+00:00
-> @0xzak Stupid question: as not all LLM have the same speed, do they all wait until the last LLM responds before they proceed with the next step/argument? Can I see the LLM dispute in real-time?
-> *1 likes*
-
-> [!tip]+ ↩️ @0xzak · 2026-01-11T16:29:27+00:00
-
-> @sinuhet Yeah, they all wait and you can provide feedback after each cycle.
-
-> [!reply] @DabbaNetwork · 2026-01-12T05:32:09+00:00
-> @0xzak Multi-model disagreement as a forcing function is clever.
-> *1 likes*
-
-> [!reply] @RepKeithAmmon · 2026-01-11T18:10:32+00:00
-> @0xzak Does it work with OpenRouter?
-> *1 likes*
-
-> [!reply] @netdragon0x · 2026-01-11T06:15:11+00:00
-> @0xzak Nice, starred. I have a dedicated planning repository for new projects that includes custom instructions for PRDs and generating Linear tasks... but it's just one model.
-> *1 likes*
-
-> [!reply] @Shenanigrahams · 2026-01-11T05:51:33+00:00
-> @0xzak Always with the vibes, this one
-> *1 likes*
-
-> [!reply] @petheth · 2026-01-11T09:03:40+00:00
-> @0xzak oooh! time to get some red teaming done
-> *1 likes*
-
-## Linked Resources
-
-- [GitHub - zscole/adversarial-spec: A Claude Code plugin that iteratively refines product specifica...](https://t.co/OrFf5HUI10)
-  > A Claude Code plugin that iteratively refines product specifications by debating between multiple LLMs until all models reach consensus. - zscole/adversarial-spec
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 1,185 · **Replies:** 78 · **Reposts:** 69 · **Views:** 81,534
@@ -186,3 +164,13 @@ The Claude Code plugin `adversarial-spec` enhances product specifications by hav
 > **Source:** tips · **Quality:** —/10
 > **Curated:** ✗ · **Reply:** ✗
 > **ID:** [2010213382494798108](https://x.com/0xzak/status/2010213382494798108)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ⚠️ (3/4 summarized)
+  media: ℹ️ none
+  thread: ✅ (27 replies scraped)
+  classification: ✅ ACT_NOW
+```

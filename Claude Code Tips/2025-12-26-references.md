@@ -1,8 +1,11 @@
 ---
+tweet_id: "2004633433927303186"
 created: 2025-12-26
 author: "@hakanderyal"
 display_name: "Hakan Deryal"
+primary_keyword: "@-references"
 category: "context-management"
+llm_category: "context-management"
 tools: ["skills", "task"]
 tags:
   - category/context-management
@@ -12,6 +15,10 @@ likes: 2
 views: 309
 engagement_score: 0
 url: "https://x.com/hakanderyal/status/2004633433927303186"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: false
 ---
 
 > [!tweet] @hakanderyal · Dec 26, 2025
@@ -29,6 +36,11 @@ url: "https://x.com/hakanderyal/status/2004633433927303186"
 
 This tip describes using a skill-based workflow by creating focused contexts for backend, frontend, or full-stack tasks. This is achieved through specific prompts (e.g. /backend) that load relevant file references using @ symbols. The key insight is to provide just enough context for the immediate task, streamlining the development process.
 
+## Keywords
+
+**Primary:** `@-references` · context, skills, backend, frontend, fullstack
+
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 2 · **Replies:** 0 · **Reposts:** 0 · **Views:** 309
@@ -37,3 +49,13 @@ This tip describes using a skill-based workflow by creating focused contexts for
 > **Source:** tips · **Quality:** 6/10
 > **Curated:** ✓ · **Reply:** ✗
 > **ID:** [2004633433927303186](https://x.com/hakanderyal/status/2004633433927303186)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ℹ️ standalone
+  classification: ❌ not classified
+```

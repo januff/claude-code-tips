@@ -1,7 +1,11 @@
 ---
+tweet_id: "2009620498573873379"
 created: 2026-01-09
 author: "@dani_avila7"
 display_name: "Daniel San"
+primary_keyword: "user-invocable"
+llm_category: "skills"
+classification: "ACT_NOW"
 tags:
   - type/screenshot
   - type/thread
@@ -9,6 +13,10 @@ likes: 207
 views: 71122
 engagement_score: 666
 url: "https://x.com/dani_avila7/status/2009620498573873379"
+enrichment_complete: false
+has_media: true
+has_links: false
+has_thread_context: true
 ---
 
 > [!tweet] @dani_avila7 · Jan 09, 2026
@@ -38,15 +46,17 @@ url: "https://x.com/dani_avila7/status/2009620498573873379"
 
 This Claude Code 2.1 tip explains how to manage Skill visibility. Skills are now visible by default using the `/` command, but can be hidden from users by setting `user-invocable: false` in the skill's frontmatter. You can also control whether Claude itself can programmatically invoke the Skill using `disable-model-invocation: true`.
 
+## Keywords
+
+**Primary:** `user-invocable` · skills, frontmatter, disable-model-invocation, subagents
+## Classification
+
+**ACT_NOW** — Matches pending technique with 207 likes
 ## Media
 
 ![Media](https://pbs.twimg.com/media/G-Oa5xiWQAAEkFq.jpg)
 
-
-
-
-
-
+> :warning: Photo not yet analyzed
 
 ## Replies
 
@@ -64,7 +74,7 @@ This Claude Code 2.1 tip explains how to manage Skill visibility. Skills are now
 > @dani_avila7 The degens will be in your comments soon
 > *1 likes*
 
-> [!tip]+ ↩️ @dani_avila7 · 2026-01-09T15:07:10+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @dani_avila7 · 2026-01-09T15:07:10+00:00
 
 > @MetaSaiyans Prepared and waiting
 
@@ -82,7 +92,7 @@ This Claude Code 2.1 tip explains how to manage Skill visibility. Skills are now
 > 
 > What if it was "/[command]" and "/skill:[skill]" or something similar for consistency?
 
-> [!tip]+ ↩️ @dani_avila7 · 2026-01-09T14:53:10+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @dani_avila7 · 2026-01-09T14:53:10+00:00
 
 > I was thinking about something along those lines, but keep in mind that when you install a plugin, colons (:) are also used as part of the name.
 > 
@@ -107,45 +117,8 @@ This Claude Code 2.1 tip explains how to manage Skill visibility. Skills are now
 > Those two save me the most time honestly.
 > What other Skills are you finding useful?
 
-> [!reply] @ronneevibe · 2026-01-10T09:41:48+00:00
-> @dani_avila7 I’m using vue to hook ref files for outside purposes too!
 
-> [!reply] @JohnThilen · 2026-01-10T07:36:59+00:00
-> @dani_avila7 Why distinguish between agents and humans, rather than ability to use the skill? E.g., some skills should be used by humans and Opus, but not by Haiku.
-
-> [!reply] @ak_cozmo · 2026-01-10T08:07:57+00:00
-> skill invocability controls are crucial for production workflows. the distinction between user-invocable vs model-only skills mirrors how we think about API surface design - explicit vs implicit capabilities. claude code's approach with disable-model-invocation gives you fine-grained control over agentic behavior
-
-> [!reply] @shreyas1009 · 2026-01-10T08:30:40+00:00
-> @dani_avila7 This is good now the invocation will be much more stable I assume
-
-> [!reply] @ruchernchong · 2026-01-10T07:25:47+00:00
-> @dani_avila7 How I see this: previously those that were skills are user-invocable and those previously are not can be revised and change accordingly.
-
-> [!reply] @Lat3ntG3nius · 2026-01-10T01:09:21+00:00
-> @dani_avila7 Naming convention is key. I'm using verb-noun pattern (get-data, send-email) with prefixes for categories (api_, local_, mcp_). Makes it easier to find what you need when / autocomplete kicks in. How are you organizing yours?
-
-> [!reply] @seorce_ · 2026-01-09T20:21:17+00:00
-> @dani_avila7 discoverability tradeoff
-
-> [!reply] @RecordsUni63959 · 2026-01-09T22:14:51+00:00
-> @dani_avila7 crazy
-
-> [!reply] @rubenmayorfx · 2026-01-10T02:26:34+00:00
-> @dani_avila7 I will to spend time to check all the new features in Claude Code. Thank you for sharing those.
-
-> [!reply] @3quanax · 2026-01-09T16:12:24+00:00
-> @dani_avila7 Claude Code 2.1 skills visible via /slash is clever, but naming discipline is key. user-invocable: false hides them cleanly from users while letting Claude (and subagents) use them. Proper control for autonomous workflows.
-
-> [!reply] @magic__one · 2026-01-16T16:12:05+00:00
-> A big thank you for this awesome work, thoughtful design, powerful flexibility, and a great step forward for autonomous workflows. 
-> 
-> Community https://t.co/0hpkPduKh7 wants to thank you and made you a coin to support you and buy you a coffee ☕️  with those fees.
-> 
-> Feel free to claim whenever you like 🙂
-> 
-> https://t.co/uAudV9M3yX
-
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 207 · **Replies:** 19 · **Reposts:** 18 · **Views:** 71,122
@@ -154,3 +127,13 @@ This Claude Code 2.1 tip explains how to manage Skill visibility. Skills are now
 > **Source:** tips · **Quality:** —/10
 > **Curated:** ✗ · **Reply:** ✗
 > **ID:** [2009620498573873379](https://x.com/dani_avila7/status/2009620498573873379)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ⚠️ (0/1 analyzed — 1 photo, 0 videos)
+  thread: ✅ (23 replies scraped)
+  classification: ✅ ACT_NOW
+```

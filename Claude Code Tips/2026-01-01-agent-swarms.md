@@ -1,8 +1,11 @@
 ---
+tweet_id: "2006748901638865355"
 created: 2026-01-01
 author: "@nummanali"
 display_name: "Numman Ali"
+primary_keyword: "agent-swarms"
 category: "subagents"
+llm_category: "subagents"
 tools: ["MCP", "TeammateTool"]
 tags:
   - category/subagents
@@ -13,6 +16,10 @@ likes: 678
 views: 42734
 engagement_score: 2549
 url: "https://x.com/nummanali/status/2006748901638865355"
+enrichment_complete: true
+has_media: false
+has_links: true
+has_thread_context: true
 ---
 
 > [!tweet] @nummanali · Jan 01, 2026
@@ -42,6 +49,20 @@ url: "https://x.com/nummanali/status/2006748901638865355"
 
 This Claude Code tip highlights several upcoming features planned for 2026, showcasing its advancements in agent-based collaboration and efficiency. Key improvements include agent swarms that can be deployed dynamically, a session search assistant using priority matching, collaborative agent tools with defined operations, and MCP (Modular Code Pack) search/loading via CLI for token reduction. These advancements suggest a focus on more powerful, collaborative, and resource-efficient agent workflows within Claude Code.
 
+## Keywords
+
+**Primary:** `agent-swarms` · swarm, session search assistant, collaborative agents, mcp, custom prompt suggester
+## Linked Resources
+
+- **[GitHub - Piebald-AI/claude-code-system-prompts: All parts of Claude Code's system prompt, 18 builtin tool descriptions, sub agent prompts (Plan/Explore/Task), utility prompts (CLAUDE.md, compact,  statusline, magic docs, WebFetch, Bash cmd, security review, agent creation).  Updated for each Claude Code version.](https://github.com/Piebald-AI/claude-code-system-prompts)** · *github-repo*
+  > The `claude-code-system-prompts` GitHub repository by Piebald-AI contains an up-to-date collection of all system prompts, tool descriptions, sub-agent prompts, and utility prompts used by Claude Code.  This includes conditional prompts, tool descriptions for features like Write and Bash, prompts for agents like Explore and Plan, and utility function prompts for tasks like conversation compaction and CLAUDE.md generation, updated with each Claude Code release.
+
+- **[GitHub - Piebald-AI/claude-code-system-prompts: All parts of Claude Code's system prompt, 18 builtin tool descriptions, sub agent prompts (Plan/Explore/Task), utility prompts (CLAUDE.md, compact,  statusline, magic docs, WebFetch, Bash cmd, security review, agent creation).  Updated for each Claude Code version.](https://github.com/Piebald-AI/claude-code-system-prompts)** · *github-repo*
+  > The Piebald-AI/claude-code-system-prompts GitHub repository provides a comprehensive collection of all system prompts used within Claude Code, including tool descriptions, sub-agent prompts (Plan/Explore/Task), utility prompts, and system reminders. It is updated with each new version of Claude Code, allowing users to understand and potentially customize the AI's behavior.
+
+- **[GitHub - Piebald-AI/claude-code-system-prompts: All parts of Claude Code's system prompt, 18 builtin tool descriptions, sub agent prompts (Plan/Explore/Task), utility prompts (CLAUDE.md, compact,  statusline, magic docs, WebFetch, Bash cmd, security review, agent creation).  Updated for each Claude Code version.](https://github.com/Piebald-AI/claude-code-system-prompts)** · *github-repo*
+  > This GitHub repository, Piebald-AI/claude-code-system-prompts, contains all known system prompts, tool descriptions, sub-agent prompts, and utility prompts used by Claude Code. It's updated frequently to reflect the latest Claude Code releases, allowing users to understand and even customize the underlying instructions driving Claude Code's behavior.
+
 ## Replies
 
 > [!reply] @ro · Tue Dec 30 16:07:00 +0000 2025
@@ -55,7 +76,7 @@ This Claude Code tip highlights several upcoming features planned for 2026, show
 > We'll just have to get used to extracted system prompts for now from Claude Code
 > *4 likes*
 
-> [!tip]+ ↩️ @nummanali · Thu Jan 01 17:26:40 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @nummanali · Thu Jan 01 17:26:40 +0000 2026
 
 > @shaped I think they made the right decision 
 > 
@@ -65,7 +86,7 @@ This Claude Code tip highlights several upcoming features planned for 2026, show
 > @nummanali The MCP through CLI bit is huge. Loading all tool schemas upfront was burning 60k+ tokens before you even started... dynamic loading changes the math completely.
 > *3 likes*
 
-> [!tip]+ ↩️ @nummanali · Thu Jan 01 20:37:33 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @nummanali · Thu Jan 01 20:37:33 +0000 2026
 
 > @PirouneB There is an experimental flag 
 > I’ll try dig it out 
@@ -76,7 +97,7 @@ This Claude Code tip highlights several upcoming features planned for 2026, show
 > @nummanali agent era incoming
 > *2 likes*
 
-> [!tip]+ ↩️ @nummanali · Thu Jan 01 19:44:19 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @nummanali · Thu Jan 01 19:44:19 +0000 2026
 
 > @seorce_ Let’s go
 
@@ -84,7 +105,7 @@ This Claude Code tip highlights several upcoming features planned for 2026, show
 > @nummanali swarms are just recursive prompt engineering with a higher burn rate. the real alpha is state management between nodes.
 > *1 likes*
 
-> [!tip]+ ↩️ @nummanali · Fri Jan 02 07:41:21 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @nummanali · Fri Jan 02 07:41:21 +0000 2026
 
 > @Budotine Absolutely
 > 
@@ -97,7 +118,7 @@ This Claude Code tip highlights several upcoming features planned for 2026, show
 > Thank you for the mention!
 > *1 likes*
 
-> [!tip]+ ↩️ @nummanali · Thu Jan 01 17:10:15 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @nummanali · Thu Jan 01 17:10:15 +0000 2026
 
 > @PiebaldAI You are the VIP here 
 > Thank you for your work 🙏
@@ -106,9 +127,9 @@ This Claude Code tip highlights several upcoming features planned for 2026, show
 > @nummanali Don't think that Claude Code can only write code. He can do more. For example, I regard him as my health system.   https://t.co/c4J0Hrs81A
 > *1 likes*
 >
-> 📎 **[github.com/huifer/Claude-Ally-Health](https://github.com/huifer/Claude-Ally-Health)** — File system-based personal health data management system operated via Claude Code CLI. Features medical report image recognition, biochemical indicator extraction, medication interaction detection, multi-disciplinary consultations across 9 specialties, and radiation monitoring. All data stored locally for privacy.
+> :paperclip: **[github.com/huifer/Claude-Ally-Health](https://github.com/huifer/Claude-Ally-Health)** — File system-based personal health data management system operated via Claude Code CLI. Features medical report image recognition, biochemical indicator extraction, medication interaction detection, multi-disciplinary consultations across 9 specialties, and radiation monitoring. All data stored locally for privacy.
 
-> [!tip]+ ↩️ @nummanali · Fri Jan 02 15:54:19 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @nummanali · Fri Jan 02 15:54:19 +0000 2026
 
 > @ZenHuifer this is the way
 
@@ -116,7 +137,7 @@ This Claude Code tip highlights several upcoming features planned for 2026, show
 > @nummanali watching this is like seeing @elonmusk try stand-up—confusing, slightly illegal in taste, but impossible to scroll past.
 > *1 likes*
 
-> [!tip]+ ↩️ @nummanali · Thu Jan 01 21:21:33 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @nummanali · Thu Jan 01 21:21:33 +0000 2026
 
 > @p2pumper @elonmusk Bro you confused the shit out of me with that 
 > 
@@ -128,7 +149,7 @@ This Claude Code tip highlights several upcoming features planned for 2026, show
 > @nummanali Exit plan mode could be useful.
 > *1 likes*
 
-> [!tip]+ ↩️ @nummanali · Thu Jan 01 18:39:29 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @nummanali · Thu Jan 01 18:39:29 +0000 2026
 
 > @yesadok My view on it all is that they’re preparing for full autonomy 
 > 
@@ -140,33 +161,10 @@ This Claude Code tip highlights several upcoming features planned for 2026, show
 > https://t.co/XjUogza1Wb
 > *1 likes*
 >
-> 📎 **[github.com/andrefigueira/.context](https://github.com/andrefigueira/.context/)** — Documentation-as-Code methodology that organizes project docs into a .context/ folder, creating a Git-native knowledge base for AI tools. Eliminates context gaps by providing structured documentation about patterns, conventions, and architecture. Transforms AI outputs from generic implementations to project-specific solutions.
+> :paperclip: **[github.com/andrefigueira/.context](https://github.com/andrefigueira/.context/)** — Documentation-as-Code methodology that organizes project docs into a .context/ folder, creating a Git-native knowledge base for AI tools. Eliminates context gaps by providing structured documentation about patterns, conventions, and architecture. Transforms AI outputs from generic implementations to project-specific solutions.
 
-> [!reply] @nicklaunches · Thu Jan 01 16:58:02 +0000 2026
-> @nummanali Swarms are the headline, but the Session Search Assistant is what makes this viable for large repos.
-> *1 likes*
 
-> [!reply] @askcodi · Fri Jan 02 13:15:48 +0000 2026
-> @nummanali bro turned “write some code” into “assemble the avengers”
-> *1 likes*
-
-> [!reply] @codewithimanshu · Thu Jan 01 19:17:14 +0000 2026
-> @nummanali The ExitPlanMode function activates agent swarms when isSwarm equals true.
-> *1 likes*
-
-> [!reply] @roszianski · Thu Jan 01 18:07:19 +0000 2026
-> @nummanali Super excited!
-> 
-> By the way, if you use Claude Code daily, you might be interested in my product: https://t.co/TUkFMU6KY3 https://t.co/x2CzD0Njy5
-> *1 likes*
-
-> [!reply] @techificial · Fri Jan 02 11:58:35 +0000 2026
-> A lot of this sounds exciting, but the real thing to watch is coordination. Single agents already do a decent job. The hard part is getting multiple agents to share context, pass work around smoothly, and not get in each other’s way. It’s all about reducing overhead, not adding more features. If Claude Code gets this right, it stops being just a smart coding helper and starts to feel like a real dev setup where agents work like teammates. That’s the shift that actually matters in 2026, @nummanali
-
-## Linked Resources
-
-- [GitHub - Piebald-AI/claude-code-system-prompts: All parts of Claude Code's system prompt, 20...](https://t.co/bc2wDI8P0P)
-  > All parts of Claude Code's system prompt, 20 builtin tool descriptions, sub agent prompts (Plan/Explore/Task), utility prompts (CLAUDE.md, compact, statusline, magic docs, WebFetch, Bash c...
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 678 · **Replies:** 17 · **Reposts:** 71 · **Views:** 42,734
@@ -175,3 +173,13 @@ This Claude Code tip highlights several upcoming features planned for 2026, show
 > **Source:** tips · **Quality:** 10/10
 > **Curated:** ✓ · **Reply:** ✗
 > **ID:** [2006748901638865355](https://x.com/nummanali/status/2006748901638865355)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ✅ (3/3 summarized)
+  media: ℹ️ none
+  thread: ✅ (23 replies scraped)
+  classification: ❌ not classified
+```

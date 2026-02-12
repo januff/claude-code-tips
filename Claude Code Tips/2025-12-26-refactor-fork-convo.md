@@ -1,14 +1,21 @@
 ---
+tweet_id: "2004577118962024776"
 created: 2025-12-26
 author: "@robrichardson_"
 display_name: "Rob Richardson"
+primary_keyword: "refactor-fork-convo"
 category: "context-management"
+llm_category: "workflow"
 tags:
   - category/context-management
 likes: 0
 views: 0
 engagement_score: 0
 url: "https://x.com/robrichardson_/status/2004577118962024776"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: false
 ---
 
 > [!tweet] @robrichardson_ · Dec 26, 2025
@@ -22,6 +29,11 @@ url: "https://x.com/robrichardson_/status/2004577118962024776"
 
 This tip describes an efficient refactoring workflow using Claude. By providing a concise prompt, example markdown, and a target file, you can focus Claude on specific tasks. After each successful refactor, fork the conversation at the original prompt to start fresh with a new target, ensuring a clean context window and targeted focus for each refactoring iteration.
 
+## Keywords
+
+**Primary:** `refactor-fork-convo` · refactor, fork convo, context window, markdown examples, target file
+
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 0 · **Replies:** 0 · **Reposts:** 0 · **Views:** 0
@@ -30,3 +42,13 @@ This tip describes an efficient refactoring workflow using Claude. By providing 
 > **Source:** tips · **Quality:** 5/10
 > **Curated:** ✓ · **Reply:** ✗
 > **ID:** [2004577118962024776](https://x.com/robrichardson_/status/2004577118962024776)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ℹ️ standalone
+  classification: ❌ not classified
+```

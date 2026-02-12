@@ -1,7 +1,11 @@
 ---
+tweet_id: "2010690881397940340"
 created: 2026-01-12
 author: "@yanhua1010"
 display_name: "Yanhua"
+primary_keyword: "Claude Skills"
+llm_category: "skills"
+classification: "ACT_NOW"
 tags:
   - type/screenshot
   - type/thread
@@ -9,6 +13,10 @@ likes: 2333
 views: 545977
 engagement_score: 11149
 url: "https://x.com/yanhua1010/status/2010690881397940340"
+enrichment_complete: false
+has_media: true
+has_links: true
+has_thread_context: true
 ---
 
 > [!tweet] @yanhua1010 · Jan 12, 2026
@@ -46,15 +54,25 @@ url: "https://x.com/yanhua1010/status/2010690881397940340"
 
 This tip highlights helpful Claude Skills to enhance functionality, showcasing options for various use cases. It recommends exploring Anthropic's official skills, the highly-rated Superpowers for diverse tasks, Planning-with-files for complex workflows, X-article-publisher-skill for automation, and NotebookLM skill for automated content processing. The tip suggests exploring these extensions to improve Claude's capabilities for content creation, task management, and more.
 
+## Keywords
+
+**Primary:** `Claude Skills` · Anthropic, Superpowers, Planning-with-files, X-article-publisher-skill, NotebookLM, skills
+## Classification
+
+**ACT_NOW** — High engagement (2333 likes) + directly relevant to active workflow
+## Linked Resources
+
+- **[github.com/anthropics/skills](https://github.com/anthropics/skills)**
+  > :warning: Link not yet summarized
+
+- **[github.com/obra/superpowers](https://github.com/obra/superpowers)**
+  > :warning: Link not yet summarized
+
 ## Media
 
 ![Media](https://pbs.twimg.com/media/G-doUt8akAAZMC-.png)
 
-
-
-
-
-
+> :warning: Photo not yet analyzed
 
 ## Replies
 
@@ -76,7 +94,7 @@ This tip highlights helpful Claude Skills to enhance functionality, showcasing o
 > @yanhua1010 推荐一个skill命令行工具🛠️ https://t.co/PEifqjcHit
 > *5 likes*
 
-> [!tip]+ ↩️ @yanhua1010 · 2026-01-13T07:48:42+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @yanhua1010 · 2026-01-13T07:48:42+00:00
 
 > @DavidyangCool 牛逼
 
@@ -84,7 +102,7 @@ This tip highlights helpful Claude Skills to enhance functionality, showcasing o
 > @yanhua1010 好东西，都安装了
 > *4 likes*
 
-> [!tip]+ ↩️ @yanhua1010 · 2026-01-13T07:49:07+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @yanhua1010 · 2026-01-13T07:49:07+00:00
 
 > @wang_xiaolou 👍🏻
 
@@ -102,7 +120,7 @@ This tip highlights helpful Claude Skills to enhance functionality, showcasing o
 > @yanhua1010 Love this thank you mate
 > *2 likes*
 
-> [!tip]+ ↩️ @yanhua1010 · 2026-01-13T23:16:55+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @yanhua1010 · 2026-01-13T23:16:55+00:00
 
 > @EmmaCFA1 you’re welcome
 
@@ -112,7 +130,7 @@ This tip highlights helpful Claude Skills to enhance functionality, showcasing o
 > https://t.co/i2hl6slyqr
 > *2 likes*
 
-> [!tip]+ ↩️ @yanhua1010 · 2026-01-13T12:32:06+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @yanhua1010 · 2026-01-13T12:32:06+00:00
 
 > @kyonxu 有些格式转换、图片插入还有优化空间
 
@@ -120,7 +138,7 @@ This tip highlights helpful Claude Skills to enhance functionality, showcasing o
 > @yanhua1010 Skill Everything！
 > *2 likes*
 
-> [!tip]+ ↩️ @yanhua1010 · 2026-01-12T15:40:01+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @yanhua1010 · 2026-01-12T15:40:01+00:00
 
 > @ohmuyi everything of skills
 
@@ -128,7 +146,7 @@ This tip highlights helpful Claude Skills to enhance functionality, showcasing o
 > @yanhua1010 官方的就很精華了！能學到很多東西，各取所需，然後融合成自己的專屬skill
 > *2 likes*
 
-> [!tip]+ ↩️ @yanhua1010 · 2026-01-12T23:22:00+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @yanhua1010 · 2026-01-12T23:22:00+00:00
 
 > @way666 嗯嗯 官方元skills可以用来创建skill
 
@@ -138,75 +156,12 @@ This tip highlights helpful Claude Skills to enhance functionality, showcasing o
 > Thank you 🙏
 > *1 likes*
 
-> [!tip]+ ↩️ @yanhua1010 · 2026-01-12T15:51:18+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @yanhua1010 · 2026-01-12T15:51:18+00:00
 
 > @nummanali appreciate it
 
-> [!reply] @Thomaspeters · 2026-01-13T14:56:30+00:00
-> @yanhua1010 Claude Code in a game changer 
-> https://t.co/pfrrJ2WWaB
-> *1 likes*
 
-> [!tip]+ ↩️ @yanhua1010 · 2026-01-13T15:16:58+00:00
-
-> @Thomaspeters definitely
-
-> [!reply] @Michaelzsguo · 2026-01-14T00:51:49+00:00
-> @yanhua1010 Superpowers非常棒，现在是我们团队工作流的一部分。 我把它转换成了Cursor Rules一样好使。
-> *1 likes*
-
-> [!tip]+ ↩️ @yanhua1010 · 2026-01-14T01:00:56+00:00
-
-> @Michaelzsguo 赞👍
-
-> [!reply] @xinruigz · 2026-01-13T04:22:14+00:00
-> @yanhua1010 NotebookLM skill的说明是否有误？我问了Claude code，它的回复： https://t.co/OgBdZiiugT
-> *1 likes*
-
-> [!tip]+ ↩️ @yanhua1010 · 2026-01-13T04:31:01+00:00
-
-> @xinruigz 我今天核实下 数据源应该是需要手动上传。它只是将Claude和Notebook LM之间打通了 https://t.co/J3mxWtldCz
-
-> [!reply] @gkxspace · 2026-01-13T08:30:01+00:00
-> @yanhua1010 好东西，马上都装了😍
-> *1 likes*
-
-> [!tip]+ ↩️ @yanhua1010 · 2026-01-13T08:50:12+00:00
-
-> @gkxspace 哈哈 榨干cc
-
-> [!reply] @Astronaut_1216 · 2026-01-13T12:00:17+00:00
-> @yanhua1010 我这个编程小白，已经FOMO了
-> 外面AI产品经理求职得卷成啥样了
-> *1 likes*
-
-> [!tip]+ ↩️ @yanhua1010 · 2026-01-13T12:07:46+00:00
-
-> @Astronaut_1216 哈哈 现在产品经理是不是都得会点编程
-
-> [!reply] @vzZEvrtEQpBRvZH · 2026-01-13T05:55:07+00:00
-> @yanhua1010 请问小白新手容易学吗
-> *1 likes*
-
-> [!tip]+ ↩️ @yanhua1010 · 2026-01-13T07:50:03+00:00
-
-> @vzZEvrtEQpBRvZH 自然语言对话调用skills
-
-> [!reply] @JLink63127 · 2026-01-13T02:50:31+00:00
-> @yanhua1010 thank you,use cc auto load skill is amazing!
-> *1 likes*
-
-> [!tip]+ ↩️ @yanhua1010 · 2026-01-13T03:44:05+00:00
-
-> @JLink63127 you’re welcome
-
-> [!reply] @WuZuo36693 · 2026-01-13T15:47:23+00:00
-> @yanhua1010 Superpowers 和Planning-with-files 这俩skils是互斥的把，能同时搭配使用么？
-
-> [!tip]+ ↩️ @yanhua1010 · 2026-01-13T15:50:08+00:00
-
-> @WuZuo36693 按需使用
-
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 2,333 · **Replies:** 66 · **Reposts:** 467 · **Views:** 545,977
@@ -215,3 +170,13 @@ This tip highlights helpful Claude Skills to enhance functionality, showcasing o
 > **Source:** tips · **Quality:** —/10
 > **Curated:** ✗ · **Reply:** ✗
 > **ID:** [2010690881397940340](https://x.com/yanhua1010/status/2010690881397940340)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ⚠️ (0/2 summarized)
+  media: ⚠️ (0/1 analyzed — 1 photo, 0 videos)
+  thread: ✅ (33 replies scraped)
+  classification: ✅ ACT_NOW
+```

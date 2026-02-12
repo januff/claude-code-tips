@@ -1,8 +1,11 @@
 ---
+tweet_id: "2006133485858070594"
 created: 2025-12-30
 author: "@EricBuess"
 display_name: "Eric Buess"
+primary_keyword: "frictionless context management"
 category: "context-management"
+llm_category: "context-management"
 tags:
   - category/context-management
   - type/reply
@@ -11,6 +14,10 @@ likes: 42
 views: 4919
 engagement_score: 125
 url: "https://x.com/EricBuess/status/2006133485858070594"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: true
 ---
 
 > [!tweet] @EricBuess · Dec 30, 2025
@@ -22,6 +29,9 @@ url: "https://x.com/EricBuess/status/2006133485858070594"
 
 This Claude tip highlights advanced techniques for building robust and reliable applications using Claude's API. It focuses on overcoming common challenges like context loss and unintended behaviors through features like self-referential command injection, context monitoring, auto restore, and validators. By intelligently managing and validating the context across recurring loops, developers can ensure Claude remains focused and honest, even after multiple context clears.
 
+## Keywords
+
+**Primary:** `frictionless context management` · self-referential command injection, context monitoring, auto restore from clear, compaction-avoidance, continuous work, validators, intelligent recurring loops
 ## Replies
 
 > [!reply] @EricBuess · Tue Dec 30 22:37:20 +0000 2025
@@ -48,7 +58,7 @@ This Claude tip highlights advanced techniques for building robust and reliable 
 > @EricBuess auto restore from clear changes the game. Feels like something claude code will end up fixing soon.
 > *1 likes*
 
-> [!tip]+ ↩️ @EricBuess · Wed Dec 31 21:20:16 +0000 2025
+> [!tip]+ :leftwards_arrow_with_hook: @EricBuess · Wed Dec 31 21:20:16 +0000 2025
 
 > @JasonVarbedian I’m absolutely loving it
 
@@ -70,6 +80,8 @@ This Claude tip highlights advanced techniques for building robust and reliable 
 > @EricBuess Ok now take all of that and make it one plugin please
 
 
+---
+
 > [!metrics]- Engagement & Metadata
 > **Likes:** 42 · **Replies:** 7 · **Reposts:** 1 · **Views:** 4,919
 > **Engagement Score:** 125
@@ -77,3 +89,13 @@ This Claude tip highlights advanced techniques for building robust and reliable 
 > **Source:** tips · **Quality:** 6/10
 > **Curated:** ✓ · **Reply:** ✓
 > **ID:** [2006133485858070594](https://x.com/EricBuess/status/2006133485858070594)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ✅ (10 replies scraped)
+  classification: ❌ not classified
+```

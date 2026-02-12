@@ -1,7 +1,11 @@
 ---
+tweet_id: "2011116478008103274"
 created: 2026-01-13
 author: "@sawyerhood"
 display_name: "Sawyer Hood"
+primary_keyword: "coding agents"
+llm_category: "prompting"
+classification: "NOTED"
 tags:
   - type/screenshot
   - type/thread
@@ -9,6 +13,10 @@ likes: 59
 views: 15196
 engagement_score: 414
 url: "https://x.com/sawyerhood/status/2011116478008103274"
+enrichment_complete: false
+has_media: true
+has_links: false
+has_thread_context: true
 ---
 
 > [!tweet] @sawyerhood · Jan 13, 2026
@@ -36,15 +44,17 @@ url: "https://x.com/sawyerhood/status/2011116478008103274"
 
 This tip focuses on improving coding agent usage through better prompting techniques. The key insight is that mastering a few simple prompt skills can significantly enhance agent performance. While specific commands or tools aren't mentioned, the emphasis is on refining the user's ability to effectively instruct coding agents via prompts.
 
+## Keywords
+
+**Primary:** `coding agents` · prompts, skills, improve
+## Classification
+
+**NOTED** — Some relevance (59 likes)
 ## Media
 
 ![Media](https://pbs.twimg.com/media/G-hj7WLbQAAz_Ry.jpg)
 
-
-
-
-
-
+> :warning: Photo not yet analyzed
 
 ## Replies
 
@@ -75,7 +85,7 @@ This tip focuses on improving coding agent usage through better prompting techni
 > I do that manually all the time
 > *1 likes*
 
-> [!tip]+ ↩️ @sawyerhood · 2026-01-13T16:51:52+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @sawyerhood · 2026-01-13T16:51:52+00:00
 
 > @nummanali @trq212 hahaha i've done enough promoting on it and i don't want to keep it in sync in the marketplace
 
@@ -103,6 +113,8 @@ This tip focuses on improving coding agent usage through better prompting techni
 > For Worktrees, I found WorkTrunk recently which makes syntax simpler but automating is better.
 
 
+---
+
 > [!metrics]- Engagement & Metadata
 > **Likes:** 59 · **Replies:** 7 · **Reposts:** 4 · **Views:** 15,196
 > **Engagement Score:** 414
@@ -110,3 +122,13 @@ This tip focuses on improving coding agent usage through better prompting techni
 > **Source:** tips · **Quality:** —/10
 > **Curated:** ✗ · **Reply:** ✗
 > **ID:** [2011116478008103274](https://x.com/sawyerhood/status/2011116478008103274)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ⚠️ (0/1 analyzed — 1 photo, 0 videos)
+  thread: ✅ (11 replies scraped)
+  classification: ✅ NOTED
+```

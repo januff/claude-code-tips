@@ -1,7 +1,11 @@
 ---
+tweet_id: "2021022280135184695"
 created: 2026-02-10
 author: "@pauloportella_"
 display_name: "Paulo"
+primary_keyword: "pre-auto-compact-hook"
+llm_category: "hooks"
+classification: "ACT_NOW"
 tags:
   - type/reply
   - type/thread
@@ -9,6 +13,10 @@ likes: 105
 views: 9676
 engagement_score: 200
 url: "https://x.com/pauloportella_/status/2021022280135184695"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: true
 ---
 
 > [!tweet] @pauloportella_ · Feb 10, 2026
@@ -20,6 +28,12 @@ url: "https://x.com/pauloportella_/status/2021022280135184695"
 
 The tip suggests automating a process by converting it into a "pre auto compact hook." This approach likely involves integrating a custom script or action to run automatically before a compaction process, streamlining workflows. By leveraging hooks, users can customize and extend the default behavior of a system or tool. The specific tool is not mentioned, so this requires context.
 
+## Keywords
+
+**Primary:** `pre-auto-compact-hook` · auto-compact, hooks, automation
+## Classification
+
+**ACT_NOW** — Matches pending technique with 105 likes
 ## Replies
 
 > [!reply] @zarazhangrui · 2026-02-09T22:46:25+00:00
@@ -43,6 +57,8 @@ The tip suggests automating a process by converting it into a "pre auto compact 
 > @pauloportella_ @zarazhangrui Isn't it what compact supposed to do in the first place? Compact thing is quite opaque for me
 
 
+---
+
 > [!metrics]- Engagement & Metadata
 > **Likes:** 105 · **Replies:** 3 · **Reposts:** 1 · **Views:** 9,676
 > **Engagement Score:** 200
@@ -50,3 +66,13 @@ The tip suggests automating a process by converting it into a "pre auto compact 
 > **Source:** tips · **Quality:** —/10
 > **Curated:** ✗ · **Reply:** ✓
 > **ID:** [2021022280135184695](https://x.com/pauloportella_/status/2021022280135184695)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ✅ (5 replies scraped)
+  classification: ✅ ACT_NOW
+```

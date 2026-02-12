@@ -1,13 +1,20 @@
 ---
+tweet_id: "2007342908878533028"
 created: 2026-01-03
 author: "@DanielleFong"
 display_name: "Danielle Fong 🔆"
+primary_keyword: "KV cache persistence"
+llm_category: "context-management"
 tags:
   - type/thread
 likes: 239
 views: 24852
 engagement_score: 257
 url: "https://x.com/DanielleFong/status/2007342908878533028"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: true
 ---
 
 > [!tweet] @DanielleFong · Jan 03, 2026
@@ -47,6 +54,9 @@ url: "https://x.com/DanielleFong/status/2007342908878533028"
 
 This Claude code tip explores using "nano banana" with a KV cache to create a persistent visual memory, significantly enhancing the model's capabilities. The technique demonstrates high-bandwidth content support across models, enabling a continuous visual narrative and cross-model communication (Claude prompts, Gemini renders). The KV cache functions as a persistent, folder-based memory system, enabling sequential image generation and resonant interactions between models.
 
+## Keywords
+
+**Primary:** `KV cache persistence` · nano banana, visual memory, cross-model resonance, sequential visual narrative, persistent visual memory, KV cache, per-session folder organization
 ## Replies
 
 > [!reply] @Yuchenj_UW · Sat Jan 03 18:02:16 +0000 2026
@@ -101,7 +111,7 @@ This Claude code tip explores using "nano banana" with a KV cache to create a pe
 > @DanielleFong Respectfully these are schizo drawings
 > *9 likes*
 
-> [!tip]+ ↩️ @DanielleFong · Sat Jan 03 23:01:41 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @DanielleFong · Sat Jan 03 23:01:41 +0000 2026
 
 > @AISloppyJoel are these schizo drawings
 
@@ -109,7 +119,7 @@ This Claude code tip explores using "nano banana" with a KV cache to create a pe
 > @DanielleFong So how does it work? So fascinated!
 > *2 likes*
 
-> [!tip]+ ↩️ @DanielleFong · Sat Jan 03 19:02:40 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @DanielleFong · Sat Jan 03 19:02:40 +0000 2026
 
 > @whyarethis “so how does it work?” you ask claude code repeatedly until it does. the implementation details are up to it.
 > 
@@ -119,37 +129,12 @@ This Claude code tip explores using "nano banana" with a KV cache to create a pe
 > @DanielleFong what are you using for accessing the folder
 > *1 likes*
 
-> [!tip]+ ↩️ @DanielleFong · Sat Jan 03 18:20:28 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @DanielleFong · Sat Jan 03 18:20:28 +0000 2026
 
 > @deepfates that part currently sucks im just poking around in vs code and the file folder, but, what we’re working on is a quadtree infinite canvas you can zoom around on. an outgrowth of the “single page website” work i’m trying to make the display fabric on all my stuff
 
-> [!reply] @hiTrevorHere · Sat Jan 03 23:17:07 +0000 2026
-> @DanielleFong this is wild
 
-> [!reply] @OrdoIVOVI · Sun Jan 04 03:34:49 +0000 2026
-> This is very interesting!
-> 
-> Your implementation directly connects to ideas I'm working on in physics and consciousness and wonder if you would be interested in discussing further? 
-> 
-> I actually was wondering if you could potentially pass along a couple questions to potentially test part of these ideas?
-
-> [!reply] @volatilemarkts · Sun Jan 04 20:53:00 +0000 2026
-> @DanielleFong ask your models to consider this: instead of storing visuals inside KV cache.. 
-> 
-> Store image embeddings + metadata externally
-> 
-> Keep lightweight KV pointers to them
-> 
-> Re-inject embeddings when needed..  just run it past them.. great job by the way..
-
-> [!reply] @LeviTurk · Sun Jan 04 00:01:55 +0000 2026
-> @DanielleFong english was never going to be the highest bandwidth channel between minds of such intelligence
-
-> [!reply] @JohnWittle · Sun Jan 04 00:05:32 +0000 2026
-> @DanielleFong jeeze, this is powerful
-> 
-> how did you think to do this?
-
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 239 · **Replies:** 11 · **Reposts:** 9 · **Views:** 24,852
@@ -158,3 +143,13 @@ This Claude code tip explores using "nano banana" with a KV cache to create a pe
 > **Source:** tips · **Quality:** —/10
 > **Curated:** ✗ · **Reply:** ✗
 > **ID:** [2007342908878533028](https://x.com/DanielleFong/status/2007342908878533028)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ✅ (18 replies scraped)
+  classification: ❌ not classified
+```

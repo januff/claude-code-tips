@@ -1,8 +1,11 @@
 ---
+tweet_id: "2005535490393674094"
 created: 2025-12-29
 author: "@mattlam_"
 display_name: "Matthew Lam"
+primary_keyword: "AskUserQuestionTool"
 category: "planning"
+llm_category: "tooling"
 tools: ["AskUserQuestionTool"]
 tags:
   - category/planning
@@ -12,6 +15,10 @@ likes: 277
 views: 30805
 engagement_score: 1059
 url: "https://x.com/mattlam_/status/2005535490393674094"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: true
 ---
 
 > [!tweet] @mattlam_ · Dec 29, 2025
@@ -29,6 +36,9 @@ url: "https://x.com/mattlam_/status/2005535490393674094"
 
 This tip details a workflow for generating comprehensive product implementation plans using Claude and GPT. It leverages Claude's `AskUserQuestionTool` to refine product specifications through interactive questioning. Then, the refined spec is used to generate plans from both GPT-5.2pro and Claude Opus, which are then compared and merged by GPT-5.2pro to create an optimized, holistic plan.
 
+## Keywords
+
+**Primary:** `AskUserQuestionTool` · product spec, plan generation, gpt-5.2pro, opus, merged plan
 ## Replies
 
 > [!reply] @ro · Tue Dec 30 16:07:00 +0000 2025
@@ -41,7 +51,7 @@ This tip details a workflow for generating comprehensive product implementation 
 > @mattlam_ gpt 5.2 over engineers everything. and you could “find bugs in the plan” for a century. keep it simple. find the skateboard.
 > *3 likes*
 
-> [!tip]+ ↩️ @mattlam_ · Tue Dec 30 06:53:55 +0000 2025
+> [!tip]+ :leftwards_arrow_with_hook: @mattlam_ · Tue Dec 30 06:53:55 +0000 2025
 
 > @dimasc_io glad that works for you, find that skateboard
 
@@ -49,7 +59,7 @@ This tip details a workflow for generating comprehensive product implementation 
 > @mattlam_ Curious if putting the plan through that many spins in the cycle actually makes it better/worse
 > *2 likes*
 
-> [!tip]+ ↩️ @mattlam_ · Tue Dec 30 02:12:01 +0000 2025
+> [!tip]+ :leftwards_arrow_with_hook: @mattlam_ · Tue Dec 30 02:12:01 +0000 2025
 
 > @hanghuang_ Gpt-pro might get rid of some extra details Claude gives, but no, I find more a second review always helps if it’s complex. Gpt 5.2 is also smart enough to tell you what’s not needed
 
@@ -57,7 +67,7 @@ This tip details a workflow for generating comprehensive product implementation 
 > @mattlam_ Thanks for the tip def improves on init
 > *1 likes*
 
-> [!tip]+ ↩️ @mattlam_ · Tue Dec 30 04:15:56 +0000 2025
+> [!tip]+ :leftwards_arrow_with_hook: @mattlam_ · Tue Dec 30 04:15:56 +0000 2025
 
 > @capsaicinIV For sure!
 
@@ -65,7 +75,7 @@ This tip details a workflow for generating comprehensive product implementation 
 > @mattlam_ This is nice. personally I'm using Claude inside antigravity.
 > *1 likes*
 
-> [!tip]+ ↩️ @mattlam_ · Tue Dec 30 07:20:26 +0000 2025
+> [!tip]+ :leftwards_arrow_with_hook: @mattlam_ · Tue Dec 30 07:20:26 +0000 2025
 
 > @Sukunaten havent tried antigravity but glad that works for you
 
@@ -73,7 +83,7 @@ This tip details a workflow for generating comprehensive product implementation 
 > @mattlam_ Bro you only stay in plan mode, too much
 > *1 likes*
 
-> [!tip]+ ↩️ @mattlam_ · Tue Dec 30 06:08:51 +0000 2025
+> [!tip]+ :leftwards_arrow_with_hook: @mattlam_ · Tue Dec 30 06:08:51 +0000 2025
 
 > @noborderhuman I don’t find it too much for starting a complex task, for the pro run just run it and go do something else first lol
 
@@ -81,7 +91,7 @@ This tip details a workflow for generating comprehensive product implementation 
 > @mattlam_ I wonder if giving it to the LLM Council that @karpathy built would generate a better spec
 > *1 likes*
 
-> [!tip]+ ↩️ @mattlam_ · Tue Dec 30 04:21:48 +0000 2025
+> [!tip]+ :leftwards_arrow_with_hook: @mattlam_ · Tue Dec 30 04:21:48 +0000 2025
 
 > @bronsonelliott @karpathy What’s the LLM council? I didn’t actually see that
 
@@ -89,7 +99,7 @@ This tip details a workflow for generating comprehensive product implementation 
 > @mattlam_ I was doing this with Gemini until it deleted a bunch of valuable stuff from the spec, will give 5.2 a try 🤣
 > *1 likes*
 
-> [!tip]+ ↩️ @mattlam_ · Tue Dec 30 04:51:31 +0000 2025
+> [!tip]+ :leftwards_arrow_with_hook: @mattlam_ · Tue Dec 30 04:51:31 +0000 2025
 
 > @aidanjmorgan I find it helps when I tell the agent, "Keep at least the same level of detail as the plan copied to you."
 
@@ -97,18 +107,15 @@ This tip details a workflow for generating comprehensive product implementation 
 > @mattlam_ This is a great tool that I never knew before
 > *1 likes*
 
-> [!tip]+ ↩️ @mattlam_ · Tue Dec 30 00:29:40 +0000 2025
+> [!tip]+ :leftwards_arrow_with_hook: @mattlam_ · Tue Dec 30 00:29:40 +0000 2025
 
 > @Hey_Hi_AI Great for getting that solid product spec
 
 > [!reply] @fr0ziisc2 · Tue Dec 30 18:34:49 +0000 2025
 > @mattlam_ don't use opus for this
 
-> [!reply] @anvanvan · Tue Dec 30 03:47:49 +0000 2025
-> @mattlam_ I’ve wrapped a very similar process into a skill and then handing then plan over a build queue with autonomous agents to work on the whole plan. 
-> 
-> https://t.co/9UGZI8p2Gb
 
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 277 · **Replies:** 10 · **Reposts:** 9 · **Views:** 30,805
@@ -117,3 +124,13 @@ This tip details a workflow for generating comprehensive product implementation 
 > **Source:** tips · **Quality:** 9/10
 > **Curated:** ✓ · **Reply:** ✗
 > **ID:** [2005535490393674094](https://x.com/mattlam_/status/2005535490393674094)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ✅ (19 replies scraped)
+  classification: ❌ not classified
+```

@@ -1,8 +1,11 @@
 ---
+tweet_id: "2005588485475115252"
 created: 2025-12-29
 author: "@ibekidkirsch"
 display_name: "Garrett Kirschbaum"
+primary_keyword: "create skills, commands"
 category: "workflow"
+llm_category: "skills"
 tools: ["skills"]
 tags:
   - category/workflow
@@ -13,6 +16,10 @@ likes: 1
 views: 332
 engagement_score: 18
 url: "https://x.com/ibekidkirsch/status/2005588485475115252"
+enrichment_complete: true
+has_media: false
+has_links: true
+has_thread_context: true
 ---
 
 > [!tweet] @ibekidkirsch · Dec 29, 2025
@@ -32,12 +39,22 @@ url: "https://x.com/ibekidkirsch/status/2005588485475115252"
 
 This tip showcases a web service, "Supercharge Claude Code", designed to simplify the creation and use of custom skills and commands for Claude Code. The key action is using the linked website to easily configure various commands and skills to enhance your Claude Code workflows. While specific commands and settings aren't detailed, the service aims for a dead-simple setup process.
 
+## Keywords
+
+**Primary:** `create skills, commands` · dead simple, skills, commands, website, setup
+## Linked Resources
+
+- **[Supercharge Claude Code](https://superchargeclaudecode.com/)** · *product*
+  > Product page with minimal content available. Appears to be a service for enhancing Claude Code workflows.
+
 ## Replies
 
 > [!reply] @undefined · Sun Dec 28 21:13:10 +0000 2025
 > am i legitimately missing out on some major new productivity/power unlocks in claude code by ignoring all the extras (mcps, plugins, skills, agents) and just going vanilla with it?
 > *765 likes*
 
+
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 1 · **Replies:** 1 · **Reposts:** 0 · **Views:** 332
@@ -46,3 +63,13 @@ This tip showcases a web service, "Supercharge Claude Code", designed to simplif
 > **Source:** tips · **Quality:** 6/10
 > **Curated:** ✓ · **Reply:** ✓
 > **ID:** [2005588485475115252](https://x.com/ibekidkirsch/status/2005588485475115252)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ✅ (1/1 summarized)
+  media: ℹ️ none
+  thread: ✅ (1 replies scraped)
+  classification: ❌ not classified
+```

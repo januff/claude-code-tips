@@ -1,13 +1,20 @@
 ---
+tweet_id: "2007849823756575084"
 created: 2026-01-04
 author: "@nummanali"
 display_name: "Numman Ali"
+primary_keyword: "cc-mirror quick"
+llm_category: "tooling"
 tags:
   - type/thread
 likes: 220
 views: 22476
 engagement_score: 260
 url: "https://x.com/nummanali/status/2007849823756575084"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: true
 ---
 
 > [!tweet] @nummanali · Jan 04, 2026
@@ -39,6 +46,9 @@ url: "https://x.com/nummanali/status/2007849823756575084"
 
 This tip introduces 'mclaude', a Claude Code Agent built using CC Mirror for orchestrated code execution. It allows you to isolate code agent execution from your main Claude Code environment and run orchestrated skills. The demonstrated commands are `npx cc-mirror quick --provider mirror --name mclaude` to create the agent, and then simply `mclaude` to invoke it.
 
+## Keywords
+
+**Primary:** `cc-mirror quick` · CC Mirror, Agent Orchestration, mclaude
 ## Replies
 
 > [!reply] @nummanali · Sun Jan 04 10:58:53 +0000 2026
@@ -67,7 +77,7 @@ This tip introduces 'mclaude', a Claude Code Agent built using CC Mirror for orc
 > updating right away
 > *3 likes*
 
-> [!tip]+ ↩️ @nummanali · Sun Jan 04 16:27:35 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @nummanali · Sun Jan 04 16:27:35 +0000 2026
 
 > @stableAPY Quick installation skips team mode for glm, use the new variant options or update it after creation
 > 
@@ -85,7 +95,7 @@ This tip introduces 'mclaude', a Claude Code Agent built using CC Mirror for orc
 > @nummanali the skill only works when using the patched version right?
 > *1 likes*
 
-> [!tip]+ ↩️ @nummanali · Sun Jan 04 19:16:25 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @nummanali · Sun Jan 04 19:16:25 +0000 2026
 
 > @roderik Atm because the tools only enable in the patched version 
 > 
@@ -97,7 +107,7 @@ This tip introduces 'mclaude', a Claude Code Agent built using CC Mirror for orc
 > Regular claude code works fine.
 > *1 likes*
 
-> [!tip]+ ↩️ @nummanali · Sun Jan 04 18:34:35 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @nummanali · Sun Jan 04 18:34:35 +0000 2026
 
 > @mpela81 @Anthropic I don’t think it works on windows 
 > 
@@ -111,7 +121,7 @@ This tip introduces 'mclaude', a Claude Code Agent built using CC Mirror for orc
 > @nummanali pumped, going to test this now!
 > *1 likes*
 
-> [!tip]+ ↩️ @nummanali · Sun Jan 04 18:00:19 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @nummanali · Sun Jan 04 18:00:19 +0000 2026
 
 > @jacobferrari_ Let me know how it goes !
 
@@ -119,7 +129,7 @@ This tip introduces 'mclaude', a Claude Code Agent built using CC Mirror for orc
 > @nummanali Does this support --chrome
 > *1 likes*
 
-> [!tip]+ ↩️ @nummanali · Sun Jan 04 18:29:34 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @nummanali · Sun Jan 04 18:29:34 +0000 2026
 
 > @vivekdevops The Claude Mirror variant does 
 > 
@@ -129,7 +139,7 @@ This tip introduces 'mclaude', a Claude Code Agent built using CC Mirror for orc
 > @nummanali I've started trying Droid with claude. Is it better than Droid?
 > *1 likes*
 
-> [!tip]+ ↩️ @nummanali · Sun Jan 04 20:48:51 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @nummanali · Sun Jan 04 20:48:51 +0000 2026
 
 > @TalkwithAI IMO Claude Code is the best for Opus 4.5
 
@@ -137,18 +147,8 @@ This tip introduces 'mclaude', a Claude Code Agent built using CC Mirror for orc
 > @nummanali How is this better than the  orchestrator plugin from @0xSero ? Is it just different and for cc?
 > *1 likes*
 
-> [!reply] @codewithimanshu · Sun Jan 04 17:21:27 +0000 2026
-> @nummanali Exactly, this orchestration is simple yet powerful, and beats all others I've seen.
-> *1 likes*
 
-> [!reply] @YashasGunderia · Sun Jan 04 18:04:30 +0000 2026
-> @nummanali Is there conflict resolution between agents? And subagents?
-
-> [!reply] @YachtsmanCap · Sun Jan 04 18:47:58 +0000 2026
-> @nummanali Bro I was supposed to do errands and chores today! Now I'm stuck in my clawd cave trying this out!
-> 
-> Seriously impressive thank you
-
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 220 · **Replies:** 14 · **Reposts:** 20 · **Views:** 22,476
@@ -157,3 +157,13 @@ This tip introduces 'mclaude', a Claude Code Agent built using CC Mirror for orc
 > **Source:** tips · **Quality:** —/10
 > **Curated:** ✗ · **Reply:** ✗
 > **ID:** [2007849823756575084](https://x.com/nummanali/status/2007849823756575084)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ✅ (19 replies scraped)
+  classification: ❌ not classified
+```

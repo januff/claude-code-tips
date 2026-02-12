@@ -1,13 +1,21 @@
 ---
+tweet_id: "2009679078832378090"
 created: 2026-01-09
 author: "@TheZvi"
 display_name: "Zvi Mowshowitz"
+primary_keyword: "agent-swarms"
+llm_category: "subagents"
+classification: "ACT_NOW"
 tags:
   - type/thread
 likes: 606
 views: 217130
 engagement_score: 4077
 url: "https://x.com/TheZvi/status/2009679078832378090"
+enrichment_complete: false
+has_media: false
+has_links: true
+has_thread_context: true
 ---
 
 > [!tweet] @TheZvi · Jan 09, 2026
@@ -18,6 +26,17 @@ url: "https://x.com/TheZvi/status/2009679078832378090"
 ## Summary
 
 This Claude Code tip likely focuses on efficient coding techniques within the Claude environment (given the lack of specific content). It probably demonstrates a way to streamline workflows or utilize particular commands for better code generation or manipulation. Without direct access to the linked content, the specific commands, tools, or settings are unknown, but the value aims to improve coding efficiency within Claude.
+
+## Keywords
+
+**Primary:** `agent-swarms` · agent-swarms, subagents, collaboration, delegation
+## Classification
+
+**ACT_NOW** — High engagement (606 likes) + directly relevant to active workflow
+## Linked Resources
+
+- **[x.com/i/article/2009678819142008832](http://x.com/i/article/2009678819142008832)**
+  > :warning: Link not yet summarized
 
 ## Replies
 
@@ -44,7 +63,7 @@ This Claude Code tip likely focuses on efficient coding techniques within the Cl
 > I find the UX really annoying - in particular, it discourages clickthroughs as anytime you go back, it lands you back at the beginning of the article.
 > *9 likes*
 
-> [!tip]+ ↩️ @TheZvi · 2026-01-09T17:39:18+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @TheZvi · 2026-01-09T17:39:18+00:00
 
 > @xpasky Given Claude coded the extension to help with this the total marginal post time is ~2 minutes or something, and Twitter matters (esp to OpenAI) so I think it's a good habit to be in.
 > 
@@ -59,7 +78,7 @@ This Claude Code tip likely focuses on efficient coding techniques within the Cl
 > Not trying to interrogate you here; it's just genuinely hard see through the smoke.
 > *1 likes*
 
-> [!tip]+ ↩️ @TheZvi · 2026-01-09T18:30:00+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @TheZvi · 2026-01-09T18:30:00+00:00
 
 > @typebulbit I definitely DID NOT run a formal test of the two under the same conditions in terms of the underlying models there, but I did do a fair Antigravity/Gemini3Pro vs. ClaudeCode/Opus4.5.
 
@@ -86,6 +105,8 @@ This Claude Code tip likely focuses on efficient coding techniques within the Cl
 > @TheZvi "Claude Code for everything" is just how we live now.
 
 
+---
+
 > [!metrics]- Engagement & Metadata
 > **Likes:** 606 · **Replies:** 9 · **Reposts:** 37 · **Views:** 217,130
 > **Engagement Score:** 4,077
@@ -93,3 +114,13 @@ This Claude Code tip likely focuses on efficient coding techniques within the Cl
 > **Source:** tips · **Quality:** —/10
 > **Curated:** ✗ · **Reply:** ✗
 > **ID:** [2009679078832378090](https://x.com/TheZvi/status/2009679078832378090)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ⚠️ (0/1 summarized)
+  media: ℹ️ none
+  thread: ✅ (12 replies scraped)
+  classification: ✅ ACT_NOW
+```

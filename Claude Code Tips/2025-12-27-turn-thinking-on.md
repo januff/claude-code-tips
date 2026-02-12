@@ -1,13 +1,20 @@
 ---
+tweet_id: "2004721755517333870"
 created: 2025-12-27
 author: "@CTReimagined"
 display_name: "CleanTech Reimagined"
+primary_keyword: "turn-thinking-on"
 category: "other"
+llm_category: "prompting"
 tags:
 likes: 0
 views: 0
 engagement_score: 0
 url: "https://x.com/CTReimagined/status/2004721755517333870"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: false
 ---
 
 > [!tweet] @CTReimagined · Dec 27, 2025
@@ -19,6 +26,11 @@ url: "https://x.com/CTReimagined/status/2004721755517333870"
 
 This Claude tip emphasizes the importance of active, thoughtful engagement with code and problem-solving. The core idea is to consciously focus your mental effort on understanding the code's logic and purpose, rather than passively reading or executing it. It's a reminder to be intentional and deliberate in your coding process.
 
+## Keywords
+
+**Primary:** `turn-thinking-on` · cognition, reasoning, prompting, motivation
+
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 0 · **Replies:** 0 · **Reposts:** 0 · **Views:** 0
@@ -27,3 +39,13 @@ This Claude tip emphasizes the importance of active, thoughtful engagement with 
 > **Source:** tips · **Quality:** 5/10
 > **Curated:** ✗ · **Reply:** ✗
 > **ID:** [2004721755517333870](https://x.com/CTReimagined/status/2004721755517333870)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ℹ️ standalone
+  classification: ❌ not classified
+```

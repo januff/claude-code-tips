@@ -1,13 +1,21 @@
 ---
+tweet_id: "2013015738622284156"
 created: 2026-01-18
 author: "@blader"
 display_name: "Siqi Chen"
+primary_keyword: "signs-of-ai-writing"
+llm_category: "skills"
+classification: "ACT_NOW"
 tags:
   - type/thread
 likes: 5681
 views: 911268
 engagement_score: 23574
 url: "https://x.com/blader/status/2013015738622284156"
+enrichment_complete: false
+has_media: false
+has_links: true
+has_thread_context: true
 ---
 
 > [!tweet] @blader · Jan 18, 2026
@@ -29,13 +37,33 @@ url: "https://x.com/blader/status/2013015738622284156"
 
 This tip leverages Claude Code and a custom skill to remove telltale signs of AI-generated writing from text. By instructing Claude to analyze Wikipedia's list of AI writing indicators, the linked "Humanizer" skill modifies text to avoid these patterns, making it sound more natural. Users can use this skill to make their LLM-generated content less obviously AI-written.
 
+## Keywords
+
+**Primary:** `signs-of-ai-writing` · avoid-ai-writing, AI writing detection, skills, LLM, wikipedia
+## Classification
+
+**ACT_NOW** — High engagement (5681 likes) + directly relevant to active workflow
+## Linked Resources
+
+- **[github.com/blader/humanizer](https://github.com/blader/humanizer)**
+  > :warning: Link not yet summarized
+
+- **[GitHub - blader/humanizer: Claude Code skill that removes signs of AI-generated writing from text](https://github.com/blader/humanizer)** · *github-repo*
+  > The Humanizer is a Claude Code skill designed to make AI-generated text sound more natural and human-like. It identifies and modifies 24 patterns commonly found in AI writing, based on observations from Wikipedia's "Signs of AI writing" guide.
+
+- **[GitHub - blader/humanizer: Claude Code skill that removes signs of AI-generated writing from text](https://github.com/blader/humanizer)** · *github-repo*
+  > The `humanizer` is a Claude Code skill designed to remove telltale signs of AI-generated writing from text, making it sound more human and natural. It identifies and corrects 24 common patterns observed in AI-generated text based on Wikipedia's 'Signs of AI writing' guide.
+
+- **[GitHub - blader/humanizer: Claude Code skill that removes signs of AI-generated writing from text](https://github.com/blader/humanizer)** · *github-repo*
+  > The GitHub repository 'humanizer' provides a Claude Code skill designed to remove AI-generated writing patterns from text, making it sound more natural and human. It's based on observations of thousands of instances of AI-generated text compiled in Wikipedia's "Signs of AI writing" guide.
+
 ## Replies
 
 > [!reply] @lastshdowpuppet · 2026-01-19T02:26:23+00:00
 > @blader thank you for polluting the commons further
 > *1020 likes*
 
-> [!tip]+ ↩️ @blader · 2026-01-19T05:50:00+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @blader · 2026-01-19T05:50:00+00:00
 
 > @lastshdowpuppet welcome fam
 
@@ -43,7 +71,7 @@ This tip leverages Claude Code and a custom skill to remove telltale signs of AI
 > @blader when you die, no one will weep
 > *426 likes*
 
-> [!tip]+ ↩️ @blader · 2026-01-20T10:45:00+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @blader · 2026-01-20T10:45:00+00:00
 
 > @wiresandchains_ 😘
 
@@ -55,7 +83,7 @@ This tip leverages Claude Code and a custom skill to remove telltale signs of AI
 > @blader This is great—I learned a lot. You’re absolutely right!
 > *250 likes*
 
-> [!tip]+ ↩️ @blader · 2026-01-18T22:29:59+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @blader · 2026-01-18T22:29:59+00:00
 
 > @liveink This isn't just a Claude Code Skill, it's a revolution in how we generate text digitally.
 
@@ -67,7 +95,7 @@ This tip leverages Claude Code and a custom skill to remove telltale signs of AI
 > @blader did you move to a new acct because i had you muted
 > *196 likes*
 
-> [!tip]+ ↩️ @blader · 2026-01-19T06:27:17+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @blader · 2026-01-19T06:27:17+00:00
 
 > @nazo_btw but i'll save you a click with a block
 
@@ -79,7 +107,7 @@ This tip leverages Claude Code and a custom skill to remove telltale signs of AI
 > @blader Thanks for making a public resource worse you chud
 > *54 likes*
 
-> [!tip]+ ↩️ @blader · 2026-01-20T10:38:13+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @blader · 2026-01-20T10:38:13+00:00
 
 > @JakeLandauTO you're very welcome
 
@@ -89,7 +117,7 @@ This tip leverages Claude Code and a custom skill to remove telltale signs of AI
 > Problem: ChatGPT uses curly quotes ("...") instead of straight quotes ("...").
 > *20 likes*
 
-> [!tip]+ ↩️ @blader · 2026-01-19T08:00:35+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @blader · 2026-01-19T08:00:35+00:00
 
 > @quasimondo fixed thanks
 
@@ -97,46 +125,12 @@ This tip leverages Claude Code and a custom skill to remove telltale signs of AI
 > @blader isn't this just going to end up with llms following stilted and weird rules for writing that intentionally omit many useful turns of phrase? and still be defeated by asking how many rs are in strawberry or something like that?
 > *16 likes*
 
-> [!tip]+ ↩️ @blader · 2026-01-20T10:37:46+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @blader · 2026-01-20T10:37:46+00:00
 
 > @Jahlvardravito what if i told you that technology can get better over time
 
-> [!reply] @hadesai2026 · 2026-01-18T22:38:28+00:00
-> @blader Hey @blader someone made a @BagsApp for you !
-> 
-> All the fees are going to you.
-> 
-> It's basically like a buy me a coffee but much better.
-> 
-> https://t.co/WI0pUbz1q2
-> 
-> $HUMANIZER https://t.co/4sZ9i3bmZc
-> *16 likes*
 
-> [!reply] @neil241512 · 2026-01-18T22:33:38+00:00
-> @blader Hey Siqi, not sure if you have seen developers making used of @BagsApp recently but some big names have used it to help fund, would you mind if I created one for you and your projects?
-> *4 likes*
-
-> [!tip]+ ↩️ @blader · 2026-01-18T22:36:00+00:00
-
-> @neil241512 @BagsApp yes and i have seen every one of them immediately regret it to my compete lack of surprise and get threatened to be sued when inevitably the coin crashes because of the complete disconnect between the coin and the value
-> 
-> please don't bro. i’m on my knees bro.
-
-> [!reply] @steventey · 2026-01-20T07:03:18+00:00
-> @blader This is brilliant
-
-> [!reply] @Scones40 · 2026-01-29T14:17:46+00:00
-> @blader Everyone's shooting the messenger here, but do they really think fraudsters and organised criminals won't be doing similar?
-
-> [!tip]+ ↩️ @blader · 2026-01-29T15:11:56+00:00
-
-> @Scones40 yes i agree we should also shut down the internet until we can prevent criminals from using it too
-
-## Linked Resources
-
-- [GitHub - blader/humanizer: Claude Code skill that removes signs of AI-generated writing from text](https://t.co/Ie9IL7KsGf)
-  > Claude Code skill that removes signs of AI-generated writing from text - blader/humanizer
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 5,681 · **Replies:** 231 · **Reposts:** 313 · **Views:** 911,268
@@ -145,3 +139,13 @@ This tip leverages Claude Code and a custom skill to remove telltale signs of AI
 > **Source:** tips · **Quality:** —/10
 > **Curated:** ✗ · **Reply:** ✗
 > **ID:** [2013015738622284156](https://x.com/blader/status/2013015738622284156)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ⚠️ (3/4 summarized)
+  media: ℹ️ none
+  thread: ✅ (23 replies scraped)
+  classification: ✅ ACT_NOW
+```

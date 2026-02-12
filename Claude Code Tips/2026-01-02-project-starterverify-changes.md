@@ -1,13 +1,20 @@
 ---
+tweet_id: "2007232734637199762"
 created: 2026-01-02
 author: "@cloudxdev"
 display_name: "CloudAI-X"
+primary_keyword: "/project-starter:verify-changes"
+llm_category: "commands"
 tags:
   - type/thread
 likes: 835
 views: 58042
 engagement_score: 945
 url: "https://x.com/cloudxdev/status/2007232734637199762"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: true
 ---
 
 > [!tweet] @cloudxdev · Jan 02, 2026
@@ -49,6 +56,9 @@ url: "https://x.com/cloudxdev/status/2007232734637199762"
 
 This Claude Code tip introduces a major update to its workflow, incorporating 13 new slash commands inspired by @bcherny's approach. The update adds commands for inner-loop development (like `/project-starter:commit-push-pr`) and verification (including `/project-starter:verify-changes` which leverages multi-agent adversarial review). It also includes updated templates, README, and verb-based skill naming conventions, expanding the system to 7 agents, 17 commands, 6 skills, and 8 hooks.
 
+## Keywords
+
+**Primary:** `/project-starter:verify-changes` · multi-agent adversarial review, slash commands, project-starter, bcherny workflow, subagents, templates, permissions, Inner-loop commands, Verification commands, verb-based skills
 ## Replies
 
 > [!reply] @bcherny · Fri Jan 02 19:58:58 +0000 2026
@@ -70,7 +80,7 @@ This Claude Code tip introduces a major update to its workflow, incorporating 13
 > @cloudxdev @bcherny Super fast! Did you use CC to do it -:)
 > *1 likes*
 
-> [!tip]+ ↩️ @cloudxdev · Fri Jan 02 23:38:02 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @cloudxdev · Fri Jan 02 23:38:02 +0000 2026
 
 > @peteryxu @bcherny yes and also @xai api
 
@@ -110,42 +120,8 @@ This Claude Code tip introduces a major update to its workflow, incorporating 13
 > @cloudxdev @bcherny That verify-changes command sounds game-changing! Gonna speed up reviews for sure
 > *1 likes*
 
-> [!reply] @YashasGunderia · Sat Jan 03 06:33:53 +0000 2026
-> @cloudxdev @bcherny Did u add the specific sub agents he uses?
 
-> [!tip]+ ↩️ @cloudxdev · Sat Jan 03 15:25:47 +0000 2026
-
-> @YashasGunderia @bcherny Yes all in the repo
-
-> [!reply] @Apostroph3s · Sat Jan 03 06:53:08 +0000 2026
-> @cloudxdev @bcherny Do you think it is possible to select a different model for some commands ?? Like, commit with haiku, ...
-
-> [!tip]+ ↩️ @cloudxdev · Sat Jan 03 15:25:30 +0000 2026
-
-> @Apostroph3s @bcherny I think for this to happen, you must switch the model, than run command
-> 
-> I don’t have any knowledge of applying commands with a specific model, it always run with the inherited model
-
-> [!reply] @N3sOnline · Sat Jan 03 18:25:41 +0000 2026
-> @cloudxdev @bcherny Here's my workflow https://t.co/NaUVu0HWa8
-
-> [!reply] @codewithimanshu · Sat Jan 03 06:57:17 +0000 2026
-> @cloudxdev @bcherny CloudAI-X implemented thirteen new slash commands after analyzing the user's workflow patterns.
-
-> [!reply] @InkyPyrus_PubCo · Sat Jan 03 18:05:58 +0000 2026
-> @cloudxdev @bcherny @cloudxdev I made this as a team that runs on .claude
-> https://t.co/D7Zn6kNHgJ
-> any comments?
-
-> [!reply] @rog__007 · Sun Jan 04 13:53:47 +0000 2026
-> @cloudxdev @bcherny @threadreaderapp unroll
-
-> [!reply] @peteryxu · Sat Jan 03 21:12:24 +0000 2026
-> @cloudxdev @bcherny @cloudxdev  it seems commands, agents and skills become increasing similar in capabilities. What is your thought process to create an agent vs a skill for particular requirement?
-
-> [!reply] @Toolate28 · Sat Jan 03 17:01:19 +0000 2026
-> @cloudxdev @bcherny whatevr you rollout make sure you get @claudeai to optimise it for your own behaviour patterns, covering off natural blindspots ;)
-
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 835 · **Replies:** 17 · **Reposts:** 55 · **Views:** 58,042
@@ -154,3 +130,13 @@ This Claude Code tip introduces a major update to its workflow, incorporating 13
 > **Source:** tips · **Quality:** —/10
 > **Curated:** ✗ · **Reply:** ✗
 > **ID:** [2007232734637199762](https://x.com/cloudxdev/status/2007232734637199762)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ✅ (21 replies scraped)
+  classification: ❌ not classified
+```

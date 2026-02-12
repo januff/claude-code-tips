@@ -1,7 +1,11 @@
 ---
+tweet_id: "2021249358654558220"
 created: 2026-02-10
 author: "@david_perell"
 display_name: "David Perell"
+primary_keyword: "formulaic-youtube-titles"
+llm_category: "meta"
+classification: "ACT_NOW"
 tags:
   - type/screenshot
   - type/thread
@@ -9,6 +13,10 @@ likes: 3006
 views: 240029
 engagement_score: 6320
 url: "https://x.com/david_perell/status/2021249358654558220"
+enrichment_complete: false
+has_media: true
+has_links: false
+has_thread_context: true
 ---
 
 > [!tweet] @david_perell · Feb 10, 2026
@@ -28,23 +36,21 @@ url: "https://x.com/david_perell/status/2021249358654558220"
 
 The tip highlights a common challenge for online content creators: balancing quality with algorithmic optimization. The creator found that formulaic titles like "How to Write ________ Well," combined with a quote-based thumbnail, significantly increased click-through rates despite being less descriptive and personally unfulfilling. The insight is that succumbing to clickbait-style tactics, even if detrimental to quality and the creator's well-being, can be essential for visibility and growth on platforms like YouTube.
 
+## Keywords
+
+**Primary:** `formulaic-youtube-titles` · youtube, titles, clickthrough rate, algorithm, growth hacking, thumbnails
+## Classification
+
+**ACT_NOW** — Matches pending technique with 3006 likes
 ## Media
 
 ![Media](https://pbs.twimg.com/media/HAzrj6GXsAEjxTt.jpg)
 
-
-
-
-
-
+> :warning: Photo not yet analyzed
 
 ![Media](https://pbs.twimg.com/media/HAzq4g3XMAAMb3g.jpg)
 
-
-
-
-
-
+> :warning: Photo not yet analyzed
 
 ## Replies
 
@@ -56,7 +62,7 @@ The tip highlights a common challenge for online content creators: balancing qua
 > @david_perell I worry more about you running out of adverbs...
 > *187 likes*
 
-> [!tip]+ ↩️ @david_perell · 2026-02-10T16:24:27+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @david_perell · 2026-02-10T16:24:27+00:00
 
 > @ronhung We will invent new ones if the slop-algo demands it
 
@@ -64,7 +70,7 @@ The tip highlights a common challenge for online content creators: balancing qua
 > @david_perell Thanks for sharing DP. I will say “cinematically” goes kinda hard
 > *61 likes*
 
-> [!tip]+ ↩️ @david_perell · 2026-02-10T16:24:09+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @david_perell · 2026-02-10T16:24:09+00:00
 
 > @TrungTPhan hahahaha
 
@@ -74,7 +80,7 @@ The tip highlights a common challenge for online content creators: balancing qua
 > But i know it's hard to balance, and I'll still watch. But the titles feel like they're saying nothing since they are all the same
 > *43 likes*
 
-> [!tip]+ ↩️ @david_perell · 2026-02-10T16:01:08+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @david_perell · 2026-02-10T16:01:08+00:00
 
 > @ItsKieranDrew I know, I know, I know. Hence the post above! I'm in a pretzel for what to do here
 
@@ -110,85 +116,8 @@ The tip highlights a common challenge for online content creators: balancing qua
 > in the end it's good as more people will see your stuff but on the whole I think the emphasis on packaging is a bad trend for social media (which isn't even social anymore atp).
 > *6 likes*
 
-> [!reply] @DoubleEph · 2026-02-10T18:02:49+00:00
-> @david_perell May also be that you now have enough of a back catalogue now that the algorithm now "knows" you well enough. Though I admit your explanation is more likely the correct one
-> *5 likes*
 
-> [!reply] @AngusTPaterson · 2026-02-11T00:17:27+00:00
-> @david_perell Is this purely audience demand for this kind of content, or is it because the approach is prioritised in the algorithm?
-> 
-> I've seen so many YouTubers complain of a drastic plummet in engagement out of nowhere; online media has a very strange relationship with technology.
-> *2 likes*
-
-> [!reply] @circecreates · 2026-02-10T15:54:17+00:00
-> @david_perell This is what I call 'strategic unfaithfulness' in action - give platforms their SEO-friendly titles for discovery, save the interesting/honest/fun stuff for the channel you actually own.
-> *2 likes*
-
-> [!reply] @HWTriceratops · 2026-02-10T18:46:30+00:00
-> @david_perell "I can receive more benefit by doing something that doesn't feel good for my soul" is not a new conundrum
-> 
-> And I don't think "I'd be crazy not to do it" is at all a given. You'd find lots through history who would argue the opposite
-> *2 likes*
-
-> [!reply] @StanHazen · 2026-02-10T16:31:24+00:00
-> A thought: Maybe you can drop the adverb and just use a title something like, "How to Write Well – Fareed Zakaria Interview," keeping the same image style (headshot photo, dark background, short quote in large white font).
-> 
-> Did you maybe change your image style at the same time? Just wondering if it might be the image style that's capturing viewers more than the title. Or maybe momentum is building from consistency in content. 🤔
-> *2 likes*
-
-> [!reply] @willhj79 · 2026-02-10T18:02:20+00:00
-> @david_perell I can’t bring myself to do it.
-> *2 likes*
-
-> [!reply] @_vincentlange · 2026-02-10T17:20:05+00:00
-> @david_perell sad incentives.
-> thx for sharing!
-> *1 likes*
-
-> [!reply] @jasonxsigmon · 2026-02-11T01:54:23+00:00
-> @david_perell Step by step we get closer to dead internet theory.
-
-> [!reply] @AtSynct · 2026-02-11T02:40:35+00:00
-> @david_perell It is exactly this phenomenon that lead to me being unable to keep up my newsletter. I couldn't handle the soul-deadening that happened with articles that were read and gained many followers.
-
-> [!reply] @colemanm · 2026-02-11T00:27:12+00:00
-> It’s so frustrating how so many channels have to do the thumbnail / title dance just to get the click, then many of them (yours included!) the content within is nothing like that
-> 
-> I suppose if you only have to play the attention game at the top of the funnel, that’s an acceptable sacrifice 
-> 
-> But you still see many channels fall into the attention-hacking *in their content* too
-> 
-> Says something sad about all of us that our attention-regulating systems are so predictable
-
-> [!reply] @acurioushensman · 2026-02-10T18:12:25+00:00
-> @david_perell Standardized, homogenized, commodified, slopified, dumby-fied.
-
-> [!reply] @StevenKryger · 2026-02-10T18:24:05+00:00
-> @david_perell There’s gotta be a term for doing something to feed the algorithm that also feels uncomfortable.
-
-> [!reply] @RangerDave2001 · 2026-02-10T23:23:00+00:00
-> @david_perell How does a 0.5% - 1% increase in click-throughs result in explosive growth?
-
-> [!reply] @emperorjames · 2026-02-11T03:16:41+00:00
-> @david_perell A good way to examine this is ask yourself what would build your consciousness. 
-> 
-> What would make your consciousness/spirit stronger? Serving the algorithm or serving the human element of your work?
-
-> [!reply] @sammylazzz_ · 2026-02-10T20:23:17+00:00
-> @david_perell How has it affected average watch time &amp; retention?
-
-> [!reply] @CheapFloorsUSA · 2026-02-10T18:30:15+00:00
-> @david_perell Google SEO is like this now. Don't be different or bring an experienced yet counterintuitive view. Just give us what everyone is saying and say it how Gemini would write it.
-
-> [!reply] @MishaTurtleX · 2026-02-10T19:00:03+00:00
-> @david_perell The equivalent on X is adding questions to your posts in a way to encourage engagement.
-
-> [!reply] @dereko33x · 2026-02-10T18:20:02+00:00
-> @david_perell It’s always a shame when we must rely on cheap marketing tricks and ploys to gain attention but that’s just how the human mind works unfortunately
-
-> [!reply] @SPloskov89589 · 2026-02-10T18:47:55+00:00
-> @david_perell It has changed so much, now that there is so much content on the internet its much harder for users to decide. Its basically trial and error until something works and sticking with that until it doesn't
-
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 3,006 · **Replies:** 158 · **Reposts:** 122 · **Views:** 240,029
@@ -197,3 +126,13 @@ The tip highlights a common challenge for online content creators: balancing qua
 > **Source:** tips · **Quality:** —/10
 > **Curated:** ✗ · **Reply:** ✗
 > **ID:** [2021249358654558220](https://x.com/david_perell/status/2021249358654558220)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ⚠️ (0/2 analyzed — 2 photos, 0 videos)
+  thread: ✅ (32 replies scraped)
+  classification: ✅ ACT_NOW
+```

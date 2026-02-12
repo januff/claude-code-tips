@@ -1,14 +1,21 @@
 ---
+tweet_id: "2004578546648543402"
 created: 2025-12-26
 author: "@cheatyyyy"
 display_name: "cheaty"
+primary_keyword: "delegating-job"
 category: "automation"
+llm_category: "automation"
 tags:
   - category/automation
 likes: 0
 views: 0
 engagement_score: 0
 url: "https://x.com/cheatyyyy/status/2004578546648543402"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: false
 ---
 
 > [!tweet] @cheatyyyy · Dec 26, 2025
@@ -20,6 +27,11 @@ url: "https://x.com/cheatyyyy/status/2004578546648543402"
 
 This satirical "Claude code trick" jokes about over-relying on Claude to perform one's job entirely. The supposed insight is that by completely delegating tasks and becoming incompetent, one would be shielded from future layoffs due to lack of other skills. No actual commands, tools, or settings are demonstrated; it's a humorous (and not recommended) commentary.
 
+## Keywords
+
+**Primary:** `delegating-job` · job-automation, layoff, inept, incompetent, career-shambles, automation-risk
+
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 0 · **Replies:** 0 · **Reposts:** 0 · **Views:** 0
@@ -28,3 +40,13 @@ This satirical "Claude code trick" jokes about over-relying on Claude to perform
 > **Source:** tips · **Quality:** 6/10
 > **Curated:** ✓ · **Reply:** ✗
 > **ID:** [2004578546648543402](https://x.com/cheatyyyy/status/2004578546648543402)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ℹ️ standalone
+  classification: ❌ not classified
+```

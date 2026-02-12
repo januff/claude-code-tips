@@ -1,13 +1,20 @@
 ---
+tweet_id: "2007516621825552416"
 created: 2026-01-03
 author: "@housecor"
 display_name: "Cory House"
+primary_keyword: "Chrome DevTools MCP"
+llm_category: "tooling"
 tags:
   - type/thread
 likes: 424
 views: 48171
 engagement_score: 444
 url: "https://x.com/housecor/status/2007516621825552416"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: true
 ---
 
 > [!tweet] @housecor · Jan 03, 2026
@@ -27,6 +34,9 @@ url: "https://x.com/housecor/status/2007516621825552416"
 
 This tip provides three methods for interacting with Claude within the Chrome browser. It suggests using Playwright for cross-browser testing, Chrome DevTools for performance analysis and network debugging, and the official Claude Chrome extension for quick checks while logged in. By choosing the right tool based on the task, users can optimize their workflow when working with Claude and Chrome.
 
+## Keywords
+
+**Primary:** `Chrome DevTools MCP` · Playwright MCP, Claude Chrome extension, cross-browser testing, perf analysis, network debugging
 ## Replies
 
 > [!reply] @pk_iv · Mon Dec 29 17:35:07 +0000 2025
@@ -39,7 +49,7 @@ This tip provides three methods for interacting with Claude within the Chrome br
 > @housecor I'd recommend the dev-browser skill to replace the playwright MCP. Seems to work just as well without context bloat: https://t.co/44R8ajxUOb
 > *61 likes*
 
-> [!tip]+ ↩️ @housecor · Sat Jan 03 18:37:37 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @housecor · Sat Jan 03 18:37:37 +0000 2026
 
 > @smerchek Nice timing - Just found that repo an hour ago! Eager to try
 
@@ -47,7 +57,7 @@ This tip provides three methods for interacting with Claude within the Chrome br
 > @housecor Lock in to https://t.co/n4jDINxUkH
 > *14 likes*
 
-> [!tip]+ ↩️ @housecor · Sat Jan 03 21:19:33 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @housecor · Sat Jan 03 21:19:33 +0000 2026
 
 > @mattsichterman Yep, someone else mentioned too
 
@@ -55,7 +65,7 @@ This tip provides three methods for interacting with Claude within the Chrome br
 > @housecor Just found playwriter and it’s pretty cool.
 > *5 likes*
 
-> [!tip]+ ↩️ @housecor · Sat Jan 03 22:50:12 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @housecor · Sat Jan 03 22:50:12 +0000 2026
 
 > @davidfano yep multiple people mentioned. Eager to try
 
@@ -71,7 +81,7 @@ This tip provides three methods for interacting with Claude within the Chrome br
 > @housecor Do you spin these up as subagents to protect the main context window (since they eat tokens)?
 > *1 likes*
 
-> [!tip]+ ↩️ @housecor · Sat Jan 03 22:50:54 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @housecor · Sat Jan 03 22:50:54 +0000 2026
 
 > @TendiesOfWisdom Using a subagent still uses the same number of tokens, right? 
 > 
@@ -82,7 +92,7 @@ This tip provides three methods for interacting with Claude within the Chrome br
 > https://t.co/WoXSeawLyf
 > *1 likes*
 
-> [!tip]+ ↩️ @housecor · Sun Jan 04 13:58:54 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @housecor · Sun Jan 04 13:58:54 +0000 2026
 
 > @decruz Yep, many people suggested
 
@@ -97,83 +107,8 @@ This tip provides three methods for interacting with Claude within the Chrome br
 > @housecor playwriter is also an option (note: not playwright)
 > *1 likes*
 
-> [!reply] @AbdMuizAdeyemo · Sat Jan 03 20:10:32 +0000 2026
-> @housecor Clean breakdown.
-> 
-> Claude + Chrome isn’t one-size-fits-all.
-> 
-> Playwright for testing, DevTools for debugging, extension for quick checks.
-> 
-> Pick the tool to fit the task, not the other way around.
-> *1 likes*
 
-> [!reply] @ntkris · Sat Jan 03 19:59:27 +0000 2026
-> @housecor Have you found a way to have it test its own changes via one of these tools? Changes via claude code I mean
-
-> [!tip]+ ↩️ @housecor · Sat Jan 03 21:13:23 +0000 2026
-
-> @ntkris Yes I tell it to
-
-> [!reply] @mattarderne · Sun Jan 04 16:00:15 +0000 2026
-> @housecor What do you do when Plawright is getting locked out by cloudflare?
-
-> [!tip]+ ↩️ @housecor · Sun Jan 04 16:27:39 +0000 2026
-
-> @mattarderne Haven’t hit that
-
-> [!reply] @YakutKhon · Sat Jan 03 20:12:45 +0000 2026
-> @housecor Why do you rate Playwright higher than Claude Chrome extension? Isn't it harder to setup than to teach Claude Chrome? Granted it's a bit slow today, but so much easier to use and make changes
-
-> [!tip]+ ↩️ @housecor · Sat Jan 03 21:31:47 +0000 2026
-
-> @YakutKhon Playwright MCP works cross-browser, uses the accessibility tree, and has a headless mode. 
-> 
-> But both have their tradeoffs.
-> 
-> Details here: https://t.co/89hj3ft7kc
-
-> [!reply] @nnnnicholas · Sat Jan 03 21:55:58 +0000 2026
-> @housecor have you tried having claude extension do research using other ai tools? this is where i’m headed. no more copy pasting between 5 ai apps to get a pro research synthesis
-
-> [!reply] @ashleybchae · Sun Jan 04 08:36:39 +0000 2026
-> @housecor Yeah, “claude —chrome” is pretty good
-
-> [!reply] @EphraimDuncan_ · Sun Jan 04 18:22:32 +0000 2026
-> @housecor try playwriter, it’s very good and easy to setup and doesn’t use a lot of memory
-
-> [!reply] @bitdeep_ · Sun Jan 04 13:19:09 +0000 2026
-> (1) & (3) not usable.
-> (2) need to be isolated, headless and use chrome unstable: 
-> 
-> [mcp_servers.chrome-devtools]
-> command = "npx"
-> args = ["-y", "chrome-devtools-mcp@latest", "--headless", "--isolated", "--executablePath", "/usr/bin/google-chrome-unstable"]
-> 
-> or it get locked and mess  your profiles, this way, it can test for hours.
-
-> [!reply] @mtrajan · Sun Jan 04 13:48:11 +0000 2026
-> @housecor I had expected the chrome plugin to be the first option, not there yet.
-
-> [!reply] @Niyxuis · Sun Jan 04 08:37:28 +0000 2026
-> @housecor the "use each" part is the whole game - most posts just list options, but knowing when to reach for which one cuts the decision paralysis in half
-
-> [!reply] @jensenloke · Sun Jan 04 12:04:07 +0000 2026
-> @housecor I do the same. But I think Claude in chrome can do similar things to chrome dev tools. It’s not as customizable as playwright! 
-> 
-> I’m trying to default to Claude in chrome for most.
-
-> [!reply] @buildwithparas · Sat Jan 03 20:00:55 +0000 2026
-> @housecor been sleeping on 1 and 2 apparently. extension handles everything i throw at it so far
-
-> [!reply] @a_kmrx · Sun Jan 04 15:00:42 +0000 2026
-> @housecor Waiting for the day Claude asks Chrome for permission to debug itself.
-
-> [!reply] @yuanhao · Sat Jan 03 20:36:57 +0000 2026
-> @housecor Playwright MCP and Chrome DevTools MCP are very slow. The Claude Chrome extension has its limitations.
-
-> [!reply] @jonvolio · Sun Jan 04 00:50:31 +0000 2026
-> @housecor Got some issues with official one aswell, did you try it? Wich one is the best overall ?
-
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 424 · **Replies:** 39 · **Reposts:** 10 · **Views:** 48,171
@@ -182,3 +117,13 @@ This tip provides three methods for interacting with Claude within the Chrome br
 > **Source:** tips · **Quality:** —/10
 > **Curated:** ✗ · **Reply:** ✗
 > **ID:** [2007516621825552416](https://x.com/housecor/status/2007516621825552416)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ✅ (33 replies scraped)
+  classification: ❌ not classified
+```

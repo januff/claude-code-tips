@@ -1,8 +1,11 @@
 ---
+tweet_id: "2004579557459005809"
 created: 2025-12-26
 author: "@zeroxBigBoss"
 display_name: "Allen"
+primary_keyword: "handoff-skill"
 category: "context-management"
+llm_category: "subagents"
 tags:
   - category/context-management
   - type/thread
@@ -10,6 +13,10 @@ likes: 509
 views: 29804
 engagement_score: 0
 url: "https://x.com/zeroxBigBoss/status/2004579557459005809"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: true
 ---
 
 > [!tweet] @zeroxBigBoss · Dec 26, 2025
@@ -21,12 +28,17 @@ url: "https://x.com/zeroxBigBoss/status/2004579557459005809"
 
 Claude Code skill for generating handoff prompts between AI agents. Creates self-contained, actionable prompts for handing work to another agent (Codex, Claude Code) that has no context from current session. Supports continuation, investigation, review, or exploration follow-ups. Uses allowed-tools: Bash(git:*), Bash(pwd:*), Edit(:./claude/handoffs/*).
 
+## Keywords
+
+**Primary:** `handoff-skill`
 ## Replies
 
 > [!reply] @undefined · Fri Dec 26 15:30:03 +0000 2025
 > What's your most underrated Claude Code trick?
 > *1777 likes*
 
+
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 509 · **Replies:** 9 · **Reposts:** 5 · **Views:** 29,804
@@ -35,3 +47,13 @@ Claude Code skill for generating handoff prompts between AI agents. Creates self
 > **Source:** tips · **Quality:** 5/10
 > **Curated:** ✗ · **Reply:** ✗
 > **ID:** [2004579557459005809](https://x.com/zeroxBigBoss/status/2004579557459005809)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ✅ (1 replies scraped)
+  classification: ❌ not classified
+```

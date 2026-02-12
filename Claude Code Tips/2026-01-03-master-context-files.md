@@ -1,13 +1,20 @@
 ---
+tweet_id: "2007314364324364794"
 created: 2026-01-03
 author: "@internetvin"
 display_name: "internetVin"
+primary_keyword: "master-context-files"
+llm_category: "context-management"
 tags:
   - type/thread
 likes: 310
 views: 28035
 engagement_score: 322
 url: "https://x.com/internetvin/status/2007314364324364794"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: true
 ---
 
 > [!tweet] @internetvin · Jan 03, 2026
@@ -25,6 +32,9 @@ url: "https://x.com/internetvin/status/2007314364324364794"
 
 This tip details a workflow for leveraging Claude Code more efficiently using Obsidian. The key is to create and maintain master context files in Obsidian for each project, which are then fed into Claude Code to avoid repetitive explanations. A custom "cross-file-patterns" sub-agent helps analyze multiple files, identifying patterns based on search terms and file names copied from Obsidian.
 
+## Keywords
+
+**Primary:** `master-context-files` · obsidian, cross-file-patterns, sub agent, context management
 ## Replies
 
 > [!reply] @MKBHD · Sat Jan 03 20:17:30 +0000 2026
@@ -81,7 +91,7 @@ This tip details a workflow for leveraging Claude Code more efficiently using Ob
 > @internetvin damn can’t believe we reinvented the idea of documenting things
 > *3 likes*
 
-> [!tip]+ ↩️ @internetvin · Sat Jan 03 13:17:56 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @internetvin · Sat Jan 03 13:17:56 +0000 2026
 
 > @ElvinYung Not just documenting things. Was doing that already. It’s documenting them for an LLM that’s different.
 
@@ -89,54 +99,12 @@ This tip details a workflow for leveraging Claude Code more efficiently using Ob
 > @internetvin Thanks for sharing! I was curious about different non-coding use cases
 > *2 likes*
 
-> [!tip]+ ↩️ @internetvin · Sun Jan 04 03:49:39 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @internetvin · Sun Jan 04 03:49:39 +0000 2026
 
 > @techno0ptimist have many more thoughts and things i have not shared yet
 
-> [!reply] @shxshidev · Sat Jan 03 08:23:28 +0000 2026
-> @internetvin wondering how big those master context files get before they start degrading signal. do you prune or let them grow?
-> *2 likes*
 
-> [!reply] @MattDemers · Sat Jan 03 22:45:33 +0000 2026
-> @internetvin I basically have this process to turn Claude into a therapy supplement. Works pretty well.
-> *1 likes*
-
-> [!reply] @jphorism · Sat Jan 03 09:10:28 +0000 2026
-> @internetvin Do you find this to work better for projects than for docs about life or vice versa? with respect to ease of maintenance
-> *1 likes*
-
-> [!reply] @maltewagenbach · Sat Jan 03 20:32:29 +0000 2026
-> @internetvin Switching between my own DB setup and obsidian
-> *1 likes*
-
-> [!reply] @Lucasbfranco · Sat Jan 03 19:21:52 +0000 2026
-> @internetvin cross-file-patterns sounds genius
-> *1 likes*
-
-> [!reply] @anvanvan · Sat Jan 03 20:20:10 +0000 2026
-> @internetvin The models are getting so good, that our job is now „only“ to provide them the right contexts so they can do their job well.
-> *1 likes*
-
-> [!reply] @TrevorLongino · Sun Jan 04 04:56:30 +0000 2026
-> @internetvin This is basically my exact use, too. But also i have Claude code heavily document what is doing and why in Obsidian so I can recover from odd dead end routes it may take.
-
-> [!reply] @pranavsf · Sat Jan 03 23:13:33 +0000 2026
-> @internetvin hmmm
-
-> [!reply] @pasupol1x · Sat Jan 03 22:24:23 +0000 2026
-> @internetvin that sounds super efficient. how's the integration with Claude been?
-
-> [!reply] @rfo2000 · Sun Jan 04 00:22:05 +0000 2026
-> @internetvin Is there a difference between a n agent, command, or context file?
-
-> [!reply] @Killian_Kirk · Sun Jan 04 00:02:12 +0000 2026
-> @internetvin Same! I have a workflow where it cross references my projects and team and auto extracts useful context for me. Super impressed with the setup so far 
-> 
-> https://t.co/zqeT2nDWLc
-
-> [!reply] @saadnvd1 · Sun Jan 04 04:01:02 +0000 2026
-> @internetvin This is excellent! I’m thinking of building something similar for LumifyHub (it’s an Obsidian alternative), but I appreciate you sharing
-
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 310 · **Replies:** 15 · **Reposts:** 6 · **Views:** 28,035
@@ -145,3 +113,13 @@ This tip details a workflow for leveraging Claude Code more efficiently using Ob
 > **Source:** tips · **Quality:** —/10
 > **Curated:** ✗ · **Reply:** ✗
 > **ID:** [2007314364324364794](https://x.com/internetvin/status/2007314364324364794)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ✅ (24 replies scraped)
+  classification: ❌ not classified
+```

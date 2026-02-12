@@ -1,8 +1,11 @@
 ---
+tweet_id: "2004619084521165288"
 created: 2025-12-26
 author: "@paulgosnell"
 display_name: "Paul Gosnell"
+primary_keyword: "home-automation-control-centre"
 category: "automation"
+llm_category: "automation"
 tags:
   - category/automation
   - type/thread
@@ -10,6 +13,10 @@ likes: 16
 views: 7353
 engagement_score: 0
 url: "https://x.com/paulgosnell/status/2004619084521165288"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: true
 ---
 
 > [!tweet] @paulgosnell · Dec 26, 2025
@@ -21,12 +28,17 @@ url: "https://x.com/paulgosnell/status/2004619084521165288"
 
 This Claude Code tip explores using the AI to optimize MacBook performance and build a home automation control center. The user is leveraging Claude's ability to generate code and instructions for system tweaks and custom software solutions. The key action is prompting Claude with specific goals to receive tailored code or advice for improving system efficiency or creating control interfaces.
 
+## Keywords
+
+**Primary:** `home-automation-control-centre` · macbook, performance, automation, control
 ## Replies
 
 > [!reply] @undefined · Fri Dec 26 15:30:03 +0000 2025
 > What's your most underrated Claude Code trick?
 > *1777 likes*
 
+
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 16 · **Replies:** 3 · **Reposts:** 1 · **Views:** 7,353
@@ -35,3 +47,13 @@ This Claude Code tip explores using the AI to optimize MacBook performance and b
 > **Source:** tips · **Quality:** 6/10
 > **Curated:** ✓ · **Reply:** ✗
 > **ID:** [2004619084521165288](https://x.com/paulgosnell/status/2004619084521165288)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ✅ (1 replies scraped)
+  classification: ❌ not classified
+```

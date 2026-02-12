@@ -1,14 +1,21 @@
 ---
+tweet_id: "2004591241053569290"
 created: 2025-12-26
 author: "@m_bergvinson"
 display_name: "Matthew Bergvinson"
+primary_keyword: "date-awareness"
 category: "context-management"
+llm_category: "context-management"
 tags:
   - category/context-management
 likes: 0
 views: 0
 engagement_score: 0
 url: "https://x.com/m_bergvinson/status/2004591241053569290"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: false
 ---
 
 > [!tweet] @m_bergvinson · Dec 26, 2025
@@ -20,6 +27,11 @@ url: "https://x.com/m_bergvinson/status/2004591241053569290"
 
 This Claude Code tip highlights a method for improving accuracy when asking Claude to research or consult documentation. By explicitly instructing Claude within a Claude.md file to check the current date before proceeding, you can prevent it from searching for outdated information from the past. This ensures that Claude uses the most relevant and up-to-date resources in its responses.
 
+## Keywords
+
+**Primary:** `date-awareness` · today's date, research, documentation, context, temporal context
+
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 0 · **Replies:** 0 · **Reposts:** 0 · **Views:** 0
@@ -28,3 +40,13 @@ This Claude Code tip highlights a method for improving accuracy when asking Clau
 > **Source:** tips · **Quality:** 6/10
 > **Curated:** ✓ · **Reply:** ✗
 > **ID:** [2004591241053569290](https://x.com/m_bergvinson/status/2004591241053569290)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ℹ️ standalone
+  classification: ❌ not classified
+```

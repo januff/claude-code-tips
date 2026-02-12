@@ -1,8 +1,11 @@
 ---
+tweet_id: "2004600901693317601"
 created: 2025-12-26
 author: "@BenBlaiszik"
 display_name: "Ben Blaiszik"
+primary_keyword: "Steve-Jobs-persona"
 category: "planning"
+llm_category: "prompting"
 tags:
   - category/planning
   - type/thread
@@ -10,6 +13,10 @@ likes: 58
 views: 9038
 engagement_score: 0
 url: "https://x.com/BenBlaiszik/status/2004600901693317601"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: true
 ---
 
 > [!tweet] @BenBlaiszik · Dec 26, 2025
@@ -25,6 +32,9 @@ url: "https://x.com/BenBlaiszik/status/2004600901693317601"
 
 This tip highlights a creative prompt engineering technique: requesting Claude to adopt the persona of Steve Jobs when needing design or communication refinement. By imbuing the AI with this specific perspective, users can unlock novel and potentially unexpected design insights. This approach demonstrates the power of persona-based prompting for achieving differentiated results.
 
+## Keywords
+
+**Primary:** `Steve-Jobs-persona` · persona, distill, design, site, message
 ## Replies
 
 > [!reply] @undefined · Wed Dec 31 18:18:55 +0000 2025
@@ -44,6 +54,8 @@ This tip highlights a creative prompt engineering technique: requesting Claude t
 > *1777 likes*
 
 
+---
+
 > [!metrics]- Engagement & Metadata
 > **Likes:** 58 · **Replies:** 1 · **Reposts:** 0 · **Views:** 9,038
 > **Engagement Score:** 0
@@ -51,3 +63,13 @@ This tip highlights a creative prompt engineering technique: requesting Claude t
 > **Source:** tips · **Quality:** 5/10
 > **Curated:** ✓ · **Reply:** ✗
 > **ID:** [2004600901693317601](https://x.com/BenBlaiszik/status/2004600901693317601)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ✅ (2 replies scraped)
+  classification: ❌ not classified
+```

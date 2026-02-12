@@ -1,14 +1,21 @@
 ---
+tweet_id: "2005049097406087628"
 created: 2025-12-27
 author: "@iSaurabhArora"
 display_name: "Saurabh Arora"
+primary_keyword: "think-from-first-principles"
 category: "workflow"
+llm_category: "prompting"
 tags:
   - category/workflow
 likes: 0
 views: 0
 engagement_score: 0
 url: "https://x.com/iSaurabhArora/status/2005049097406087628"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: false
 ---
 
 > [!tweet] @iSaurabhArora · Dec 27, 2025
@@ -22,6 +29,11 @@ url: "https://x.com/iSaurabhArora/status/2005049097406087628"
 
 This tip suggests using the prompt "Take a step back and think from first principles" when Claude provides superficial solutions. This encourages the AI to analyze the underlying problem instead of just offering quick fixes. The prompt aims to foster deeper reasoning and more effective problem-solving by prompting Claude to consider fundamental aspects of the issue.
 
+## Keywords
+
+**Primary:** `think-from-first-principles` · root cause, bandaid fixes, prompting, problem-solving
+
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 0 · **Replies:** 0 · **Reposts:** 0 · **Views:** 0
@@ -30,3 +42,13 @@ This tip suggests using the prompt "Take a step back and think from first princi
 > **Source:** tips · **Quality:** 5/10
 > **Curated:** ✓ · **Reply:** ✗
 > **ID:** [2005049097406087628](https://x.com/iSaurabhArora/status/2005049097406087628)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ℹ️ standalone
+  classification: ❌ not classified
+```

@@ -1,8 +1,11 @@
 ---
+tweet_id: "2006458986422481383"
 created: unknown
 author: "@mckaywrigley"
 display_name: "@mckaywrigley"
+primary_keyword: "ComputerUseTool"
 category: "automation"
+llm_category: "tooling"
 tools: ["ComputerUseTool"]
 tags:
   - category/automation
@@ -13,6 +16,10 @@ likes: 481
 views: 0
 engagement_score: 481
 url: ""
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: true
 ---
 
 > [!tweet] @mckaywrigley · Unknown date
@@ -34,6 +41,9 @@ url: ""
 
 This tip highlights the upcoming ComputerUseTool in the agent SDK, suggesting it will significantly amplify the abilities of developers who have invested in mastering agent workflows.  The key takeaway is that early adopters of the agent SDK and this new tool will gain a significant advantage in controlling and leveraging digital intelligences. No specific commands or settings are detailed, but the focus is on the strategic importance of mastering the agent SDK ecosystem before the launch of the ComputerUseTool.
 
+## Keywords
+
+**Primary:** `ComputerUseTool` · agent sdk, high agency, digital intelligences
 ## Replies
 
 > [!reply] @undefined · Wed Dec 31 18:18:55 +0000 2025
@@ -49,6 +59,8 @@ This tip highlights the upcoming ComputerUseTool in the agent SDK, suggesting it
 > *3151 likes*
 
 
+---
+
 > [!metrics]- Engagement & Metadata
 > **Likes:** 481 · **Replies:** 0 · **Reposts:** 0 · **Views:** 0
 > **Engagement Score:** 481
@@ -56,3 +68,13 @@ This tip highlights the upcoming ComputerUseTool in the agent SDK, suggesting it
 > **Source:** tips · **Quality:** 8/10
 > **Curated:** ✓ · **Reply:** ✓
 > **ID:** [2006458986422481383]()
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ✅ (1 replies scraped)
+  classification: ❌ not classified
+```

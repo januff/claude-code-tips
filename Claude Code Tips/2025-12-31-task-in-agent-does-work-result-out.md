@@ -1,8 +1,11 @@
 ---
+tweet_id: "2006438699475808341"
 created: unknown
 author: "@mckaywrigley"
 display_name: "@mckaywrigley"
+primary_keyword: "task-in-agent-does-work-result-out"
 category: "other"
+llm_category: "meta"
 tools: ["task"]
 tags:
   - type/reply
@@ -12,6 +15,10 @@ likes: 44
 views: 0
 engagement_score: 44
 url: ""
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: true
 ---
 
 > [!tweet] @mckaywrigley · Unknown date
@@ -31,6 +38,9 @@ url: ""
 
 This Claude tip highlights a paradigm shift in computing where the user defines a task and receives a result without needing to manage the intermediate processing steps. It frames agent-based workflows as a new computing model where the complexities of implementation are abstracted away, simplifying the development process. The tip suggests a move towards simply providing input and receiving output, letting the agent handle the rest.
 
+## Keywords
+
+**Primary:** `task-in-agent-does-work-result-out` · agent, abstraction, computing
 ## Replies
 
 > [!reply] @undefined · Wed Dec 31 18:18:55 +0000 2025
@@ -46,6 +56,8 @@ This Claude tip highlights a paradigm shift in computing where the user defines 
 > *3151 likes*
 
 
+---
+
 > [!metrics]- Engagement & Metadata
 > **Likes:** 44 · **Replies:** 0 · **Reposts:** 0 · **Views:** 0
 > **Engagement Score:** 44
@@ -53,3 +65,13 @@ This Claude tip highlights a paradigm shift in computing where the user defines 
 > **Source:** tips · **Quality:** 6/10
 > **Curated:** ✓ · **Reply:** ✓
 > **ID:** [2006438699475808341]()
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ✅ (1 replies scraped)
+  classification: ❌ not classified
+```

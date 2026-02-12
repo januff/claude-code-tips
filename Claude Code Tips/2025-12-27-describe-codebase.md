@@ -1,14 +1,21 @@
 ---
+tweet_id: "2004778350628536767"
 created: 2025-12-27
 author: "@J3rryH0well"
 display_name: "Jerry Howell"
+primary_keyword: "describe-codebase"
 category: "context-management"
+llm_category: "context-management"
 tags:
   - category/context-management
 likes: 0
 views: 0
 engagement_score: 0
 url: "https://x.com/J3rryH0well/status/2004778350628536767"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: false
 ---
 
 > [!tweet] @J3rryH0well · Dec 27, 2025
@@ -20,6 +27,11 @@ url: "https://x.com/J3rryH0well/status/2004778350628536767"
 
 Instead of relying solely on existing documentation like markdown files, this tip suggests asking Claude to analyze and describe the codebase at the start of each new session. This helps Claude quickly understand the project's structure and logic, leading to more relevant and accurate responses. By prompting Claude for a codebase overview, you ensure it has a fresh and up-to-date understanding, improving its overall performance.
 
+## Keywords
+
+**Primary:** `describe-codebase` · md files, new session, codebase description, context
+
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 0 · **Replies:** 0 · **Reposts:** 0 · **Views:** 0
@@ -28,3 +40,13 @@ Instead of relying solely on existing documentation like markdown files, this ti
 > **Source:** tips · **Quality:** 5/10
 > **Curated:** ✓ · **Reply:** ✗
 > **ID:** [2004778350628536767](https://x.com/J3rryH0well/status/2004778350628536767)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ℹ️ standalone
+  classification: ❌ not classified
+```

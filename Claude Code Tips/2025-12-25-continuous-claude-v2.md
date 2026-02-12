@@ -1,13 +1,21 @@
 ---
+tweet_id: "2004018525569274049"
 created: 2025-12-25
 author: "@parcadei"
 display_name: "dei"
+primary_keyword: "continuous claude v2"
+llm_category: "context-management"
+classification: "ACT_NOW"
 tags:
   - type/thread
 likes: 1019
 views: 330122
 engagement_score: 5250
 url: "https://x.com/parcadei/status/2004018525569274049"
+enrichment_complete: false
+has_media: false
+has_links: true
+has_thread_context: true
 ---
 
 > [!tweet] @parcadei · Dec 25, 2025
@@ -145,13 +153,33 @@ url: "https://x.com/parcadei/status/2004018525569274049"
 
 This tip highlights Continuous-Claude-v3, a system aimed at optimizing Claude Code's performance by intelligently managing context, crucial for coding tasks. It overcomes context limitations by using ledgers, YAML handoffs, and memory management techniques to maintain state and facilitate persistent learning across sessions. The goal is to enable more effective agent orchestration without context pollution, ultimately boosting coding efficiency.
 
+## Keywords
+
+**Primary:** `continuous claude v2` · context, coding, scarcest resource
+## Classification
+
+**ACT_NOW** — High engagement (1019 likes) + directly relevant to active workflow
+## Linked Resources
+
+- **[github.com/parcadei/Continuous-Claude](https://github.com/parcadei/Continuous-Claude)**
+  > :warning: Link not yet summarized
+
+- **[GitHub - parcadei/Continuous-Claude-v3: Context management for Claude Code. Hooks maintain state via ledgers and handoffs. MCP execution without context pollution. Agent orchestration with isolated context windows.](https://github.com/parcadei/Continuous-Claude-v3)** · *github-repo*
+  > Continuous-Claude-v3 is a system designed to enhance Claude Code by managing context, enabling persistent learning, and orchestrating specialized agents. It addresses the context compaction problem in Claude by using techniques like YAML handoffs, memory systems, and code analysis to maintain state across sessions and improve efficiency.
+
+- **[GitHub - parcadei/Continuous-Claude-v3: Context management for Claude Code. Hooks maintain state via ledgers and handoffs. MCP execution without context pollution. Agent orchestration with isolated context windows.](https://github.com/parcadei/Continuous-Claude-v3)** · *github-repo*
+  > Continuous-Claude-v3 is a framework for managing Claude Code's context across multiple sessions, enabling continuous learning and agent orchestration while minimizing token usage. It achieves this through techniques like YAML handoffs, memory systems, code analysis, and specialized agent workflows.
+
+- **[GitHub - parcadei/Continuous-Claude-v3: Context management for Claude Code. Hooks maintain state via ledgers and handoffs. MCP execution without context pollution. Agent orchestration with isolated context windows.](https://github.com/parcadei/Continuous-Claude-v3)** · *github-repo*
+  > Continuous-Claude-v3 is a GitHub repository that provides a framework for managing context and state in Claude Code, enabling persistent learning and multi-agent orchestration. It aims to solve the context compaction problem by using techniques like YAML handoffs, memory systems, and code analysis to improve token efficiency and maintain nuanced understanding across sessions.
+
 ## Replies
 
 > [!reply] @akola77 · 2025-12-25T21:05:04+00:00
 > Is this synergistic with @doodlestein entire project setup structure w/ Agent Mail, bv, beads, Cass, etc? I've noticed using his setup that while beads are a great project tracking system and task management, I still hit the compaction issues and not sure if your setup would work in conjunction with it
 > *4 likes*
 
-> [!tip]+ ↩️ @parcadei · 2025-12-26T16:48:15+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @parcadei · 2025-12-26T16:48:15+00:00
 
 > ooh that's cool, i have used beads in the past but didn't know there was more, will definitely check out! 
 > 
@@ -163,7 +191,7 @@ This tip highlights Continuous-Claude-v3, a system aimed at optimizing Claude Co
 > @parcadei context window management is the real bottleneck. at Cozmo we're constantly hitting limits when processing FSI docs. continuous-claude solving session state + file handoffs is exactly what we need. gonna test this
 > *3 likes*
 
-> [!tip]+ ↩️ @parcadei · 2025-12-26T16:44:30+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @parcadei · 2025-12-26T16:44:30+00:00
 
 > @ak_cozmo let me know how you get on, if any thing could work better let me know!
 
@@ -171,7 +199,7 @@ This tip highlights Continuous-Claude-v3, a system aimed at optimizing Claude Co
 > @parcadei @0xPaulius 👀 would go crazy in https://t.co/eQsiGCUfQT
 > *3 likes*
 
-> [!tip]+ ↩️ @parcadei · 2025-12-25T18:30:45+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @parcadei · 2025-12-25T18:30:45+00:00
 
 > @EsusDev @0xPaulius vibed looks cool too, will check out
 
@@ -179,7 +207,7 @@ This tip highlights Continuous-Claude-v3, a system aimed at optimizing Claude Co
 > @parcadei Lots to unpack. Did you try agentic memory like @Letta_AI ?
 > *2 likes*
 
-> [!tip]+ ↩️ @parcadei · 2025-12-26T16:31:56+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @parcadei · 2025-12-26T16:31:56+00:00
 
 > @vincent_koc @Letta_AI no I haven’t but I will take a look now, thanks for the rec!
 
@@ -187,7 +215,7 @@ This tip highlights Continuous-Claude-v3, a system aimed at optimizing Claude Co
 > @parcadei Saving state to ledger looks pretty interesting
 > *2 likes*
 
-> [!tip]+ ↩️ @parcadei · 2025-12-26T16:45:32+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @parcadei · 2025-12-26T16:45:32+00:00
 
 > @marcgregory_ try it
 > 
@@ -197,7 +225,7 @@ This tip highlights Continuous-Claude-v3, a system aimed at optimizing Claude Co
 > @parcadei I’ve been doing this for a while, your approach isn’t strong enough, you need to incorporate cffi and a .pem secret key to truly have forced direction following, otherwise claude eventually with bypass hooks using bash / python / tee and find creative ways to forge and skip tasks
 > *2 likes*
 
-> [!tip]+ ↩️ @parcadei · 2025-12-25T21:38:17+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @parcadei · 2025-12-25T21:38:17+00:00
 
 > caveat: i claim no experience in cryptographic protocols so if what I say next makes zero sense, feel free to correct me
 > 
@@ -213,28 +241,28 @@ This tip highlights Continuous-Claude-v3, a system aimed at optimizing Claude Co
 > @parcadei Nah, with context management I can deal. The 5h token limit is the scarcest resource ;)
 > *1 likes*
 
-> [!tip]+ ↩️ @parcadei · 2025-12-26T17:22:07+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @parcadei · 2025-12-26T17:22:07+00:00
 
 > @MythThrazz https://t.co/QsM6QMKtT4
 
 > [!reply] @Claude_Memory · 2026-01-09T22:25:27+00:00
 > @parcadei Seems like this was recently modified https://t.co/LyYRkLsgnP
 
-> [!tip]+ ↩️ @parcadei · 2026-01-09T22:28:22+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @parcadei · 2026-01-09T22:28:22+00:00
 
 > @Claude_Memory I clicked one of the checkboxes to see if it was interactive
 
 > [!reply] @Claude_Memory · 2026-01-09T22:22:33+00:00
 > @parcadei And this is markdown + sqlite, fts5... https://t.co/YmNiHxPWZw
 
-> [!tip]+ ↩️ @parcadei · 2026-01-09T22:25:55+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @parcadei · 2026-01-09T22:25:55+00:00
 
 > @Claude_Memory https://t.co/HqpA2DvWrb
 
 > [!reply] @glipsman · 2025-12-25T17:54:37+00:00
 > @parcadei How is saving state different than summarizing context?
 
-> [!tip]+ ↩️ @parcadei · 2025-12-25T18:39:30+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @parcadei · 2025-12-25T18:39:30+00:00
 
 > saving state (ledger + handoffs) within a session allows Claude to pass key information to the next session and can be tweaked to your own workflow 
 > 
@@ -248,10 +276,8 @@ This tip highlights Continuous-Claude-v3, a system aimed at optimizing Claude Co
 > 
 > my solution isn’t perfect, lots to be tweaked but it’s help a lot ime
 
-## Linked Resources
 
-- [GitHub - parcadei/Continuous-Claude-v3: Context management for Claude Code. Hooks maintain state...](https://t.co/aPnhSXqZPQ)
-  > Context management for Claude Code. Hooks maintain state via ledgers and handoffs. MCP execution without context pollution. Agent orchestration with isolated context windows. - parcadei/Continuous-...
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 1,019 · **Replies:** 47 · **Reposts:** 68 · **Views:** 330,122
@@ -260,3 +286,13 @@ This tip highlights Continuous-Claude-v3, a system aimed at optimizing Claude Co
 > **Source:** tips · **Quality:** —/10
 > **Curated:** ✗ · **Reply:** ✗
 > **ID:** [2004018525569274049](https://x.com/parcadei/status/2004018525569274049)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ⚠️ (3/4 summarized)
+  media: ℹ️ none
+  thread: ✅ (20 replies scraped)
+  classification: ✅ ACT_NOW
+```

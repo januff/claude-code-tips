@@ -1,8 +1,11 @@
 ---
+tweet_id: "2004839220373082595"
 created: 2025-12-27
 author: "@ChidieKalu"
 display_name: "Chidiebere Kalu"
+primary_keyword: "Handoff prompt skill"
 category: "context-management"
+llm_category: "skills"
 tools: ["skill"]
 tags:
   - category/context-management
@@ -11,6 +14,10 @@ likes: 0
 views: 0
 engagement_score: 0
 url: "https://x.com/ChidieKalu/status/2004839220373082595"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: false
 ---
 
 > [!tweet] @ChidieKalu · Dec 27, 2025
@@ -25,6 +32,11 @@ url: "https://x.com/ChidieKalu/status/2004839220373082595"
 
 This tip outlines a structured approach to project setup using Claude, focusing on establishing coding standards, efficient handoffs, and comprehensive documentation. It leverages a `Claude.md` file to define standards and promotes creating end-to-end project documentation that is then transformed into actionable prompts and integration contracts, facilitating contextual builds and rapid development. The emphasis is on clear standards and actionable documentation to streamline workflows.
 
+## Keywords
+
+**Primary:** `Handoff prompt skill` · coding standards, E2E project documentation, slice prompts, integration contract, contextual builds
+
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 0 · **Replies:** 0 · **Reposts:** 0 · **Views:** 0
@@ -33,3 +45,13 @@ This tip outlines a structured approach to project setup using Claude, focusing 
 > **Source:** tips · **Quality:** 6/10
 > **Curated:** ✓ · **Reply:** ✗
 > **ID:** [2004839220373082595](https://x.com/ChidieKalu/status/2004839220373082595)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ℹ️ standalone
+  classification: ❌ not classified
+```

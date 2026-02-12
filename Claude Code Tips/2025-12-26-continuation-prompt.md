@@ -1,8 +1,11 @@
 ---
+tweet_id: "2004685775406071898"
 created: 2025-12-26
 author: "@Bruv2067"
 display_name: "₿lackLord"
+primary_keyword: "continuation-prompt"
 category: "context-management"
+llm_category: "context-management"
 tools: ["read"]
 tags:
   - category/context-management
@@ -11,6 +14,10 @@ likes: 0
 views: 0
 engagement_score: 0
 url: "https://x.com/Bruv2067/status/2004685775406071898"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: false
 ---
 
 > [!tweet] @Bruv2067 · Dec 26, 2025
@@ -22,6 +29,11 @@ url: "https://x.com/Bruv2067/status/2004685775406071898"
 
 This tip addresses how to handle Claude's context window limitations. When approaching context limits, proactively provide a continuation prompt along with specific, relevant files that Claude should read in the new session. This allows Claude to seamlessly pick up where it left off, avoiding information loss and ensuring continuity in larger projects despite context constraints.
 
+## Keywords
+
+**Primary:** `continuation-prompt` · context-management, new-session, relevant-files
+
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 0 · **Replies:** 0 · **Reposts:** 0 · **Views:** 0
@@ -30,3 +42,13 @@ This tip addresses how to handle Claude's context window limitations. When appro
 > **Source:** tips · **Quality:** 5/10
 > **Curated:** ✓ · **Reply:** ✗
 > **ID:** [2004685775406071898](https://x.com/Bruv2067/status/2004685775406071898)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ℹ️ standalone
+  classification: ❌ not classified
+```

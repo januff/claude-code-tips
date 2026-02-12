@@ -11,12 +11,14 @@
             "id": "60e0c19c55ad4d36",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.11.7"
+                "file": "2026-02-11-plan-mode.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.7"
+              "icon": "lucide-file",
+              "title": "2026-02-11-plan-mode"
             }
           }
         ]
@@ -183,6 +185,17 @@
   },
   "active": "60e0c19c55ad4d36",
   "lastOpenFiles": [
+    "2026-02-10-pre-auto-compact-hook.md",
+    "2026-02-11-claude-code-guide-agent.md",
+    "2026-02-11-local-plugins.md",
+    "2026-02-11-plan-mode.md",
+    "2026-02-10-firecrawl.md",
+    "2026-02-10-dangerously-skip-permissions.md",
+    "2026-02-11-openclaw-skill.md",
+    "2026-02-11-customizability.md",
+    "2026-02-05-agent-teams.md",
+    "2026-02-10-formulaic-youtube-titles.md",
+    "2026-02-10-obsidian-cli.md",
     "2025-12-26-protocols.md",
     "2025-12-28-terminal-ai-agents.md",
     "2025-12-26-telegram-notifications.md",
@@ -198,17 +211,6 @@
     "2025-12-26-research-codebase.md",
     "2025-12-27-turn-thinking-on.md",
     "2025-12-26-work-log.md",
-    "2025-12-26-opus-bleed-tokens.md",
-    "2025-12-26-implementation-plan.md",
-    "2025-12-27-mcp.md",
-    "2025-12-26-xml-format.md",
-    "2025-12-27-200-bucks-max-plan.md",
-    "2025-12-27-make-no-mistakes.md",
-    "2025-12-26-voice-dictated-prompts-metaprompt-file-tagging.md",
-    "2025-12-26-corecontextmd.md",
-    "2025-12-26-stateful-subagents.md",
-    "2025-12-26-not-using-anymore.md",
-    "2025-12-26-background-tasks.md",
     "Claude Dashboard/Session Logs",
     "Claude Dashboard/Reference",
     "Claude Dashboard/Outbox",

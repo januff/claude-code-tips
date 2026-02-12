@@ -1,14 +1,21 @@
 ---
+tweet_id: "2004617636051910920"
 created: 2025-12-26
 author: "@epi_afro"
 display_name: "Mo"
+primary_keyword: "Chrome plugin"
 category: "tooling"
+llm_category: "tooling"
 tags:
   - category/tooling
 likes: 0
 views: 0
 engagement_score: 0
 url: "https://x.com/epi_afro/status/2004617636051910920"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: false
 ---
 
 > [!tweet] @epi_afro · Dec 26, 2025
@@ -20,6 +27,11 @@ url: "https://x.com/epi_afro/status/2004617636051910920"
 
 This tip showcases a workflow leveraging Claude Code for website design analysis. It demonstrates how to identify and debug design flaws using the Chrome plugin, then implement those improvements programmatically using the Claude Code CLI. This allows for a more efficient and iterative design process by bridging visual debugging with code-based implementation.
 
+## Keywords
+
+**Primary:** `Chrome plugin` · website design issues, debug, CLI, output
+
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 0 · **Replies:** 0 · **Reposts:** 0 · **Views:** 0
@@ -28,3 +40,13 @@ This tip showcases a workflow leveraging Claude Code for website design analysis
 > **Source:** tips · **Quality:** 5/10
 > **Curated:** ✓ · **Reply:** ✗
 > **ID:** [2004617636051910920](https://x.com/epi_afro/status/2004617636051910920)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ℹ️ standalone
+  classification: ❌ not classified
+```

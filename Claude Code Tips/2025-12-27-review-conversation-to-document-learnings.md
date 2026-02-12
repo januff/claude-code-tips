@@ -1,8 +1,11 @@
 ---
+tweet_id: "2004886809818665149"
 created: 2025-12-27
 author: "@sultano"
 display_name: "Sul"
+primary_keyword: "review conversation to document learnings"
 category: "meta"
+llm_category: "meta"
 tools: ["task"]
 tags:
   - category/meta
@@ -11,6 +14,10 @@ likes: 0
 views: 0
 engagement_score: 0
 url: "https://x.com/sultano/status/2004886809818665149"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: false
 ---
 
 > [!tweet] @sultano · Dec 27, 2025
@@ -22,6 +29,11 @@ url: "https://x.com/sultano/status/2004886809818665149"
 
 This tip suggests using Claude to retrospectively analyze successful task conversations. After completing a task with Claude, prompt it to review the entire interaction and extract key learnings. This helps you identify effective strategies, avoid past mistakes, and improve future interactions with Claude for similar tasks.
 
+## Keywords
+
+**Primary:** `review conversation to document learnings` · document learnings, task review, conversation review, post-task review
+
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 0 · **Replies:** 0 · **Reposts:** 0 · **Views:** 0
@@ -30,3 +42,13 @@ This tip suggests using Claude to retrospectively analyze successful task conver
 > **Source:** tips · **Quality:** 5/10
 > **Curated:** ✓ · **Reply:** ✗
 > **ID:** [2004886809818665149](https://x.com/sultano/status/2004886809818665149)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ℹ️ standalone
+  classification: ❌ not classified
+```

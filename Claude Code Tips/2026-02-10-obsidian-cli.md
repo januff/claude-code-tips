@@ -1,13 +1,21 @@
 ---
+tweet_id: "2021251878521073847"
 created: 2026-02-10
 author: "@kepano"
 display_name: "kepano"
+primary_keyword: "Obsidian CLI"
+llm_category: "tooling"
+classification: "ACT_NOW"
 tags:
   - type/thread
 likes: 4155
 views: 312204
 engagement_score: 10693
 url: "https://x.com/kepano/status/2021251878521073847"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: true
 ---
 
 > [!tweet] @kepano · Feb 10, 2026
@@ -35,6 +43,12 @@ url: "https://x.com/kepano/status/2021251878521073847"
 
 This tip enables Obsidian integration with AI agents like Claude Code by leveraging Obsidian's command-line interface (CLI). By installing Obsidian 1.12 and enabling the CLI, agents can now interact with and utilize Obsidian for tasks. This allows for automated workflows and integration of your notes with external tools and processes.
 
+## Keywords
+
+**Primary:** `Obsidian CLI` · Obsidian, CLI, OpenClaw, OpenCode, agent
+## Classification
+
+**ACT_NOW** — High engagement (4155 likes) + directly relevant to active workflow
 ## Replies
 
 > [!reply] @obsdmd · 2026-02-10T15:14:33+00:00
@@ -50,7 +64,7 @@ This tip enables Obsidian integration with AI agents like Claude Code by leverag
 > im doing this since a while now.
 > *19 likes*
 
-> [!tip]+ ↩️ @kepano · 2026-02-10T16:39:28+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @kepano · 2026-02-10T16:39:28+00:00
 
 > @sadjikun indeed, you can already do a lot just by working with files directly
 > 
@@ -61,7 +75,7 @@ This tip enables Obsidian integration with AI agents like Claude Code by leverag
 > Very cool. I was already using Claude Code native tools to search and write to my Obsidian vaults but I like that this comes with native Obsidian functionality. I need to check out the features but any high level thoughts on the advantages of using this Obsidian CLI over direct access with the coding agent?
 > *16 likes*
 
-> [!tip]+ ↩️ @kepano · 2026-02-10T17:27:24+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @kepano · 2026-02-10T17:27:24+00:00
 
 > @omarsar0 the CLI commands are complementary to existing terminal commands, see the docs
 > 
@@ -75,7 +89,7 @@ This tip enables Obsidian integration with AI agents like Claude Code by leverag
 > `cd ~/your-vault &amp;&amp; opencode|codex|copilot|other`
 > *12 likes*
 
-> [!tip]+ ↩️ @kepano · 2026-02-10T16:41:11+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @kepano · 2026-02-10T16:41:11+00:00
 
 > @gldgab yes, except this lets you directly control the Obsidian UI, access devtools, do things like reload plugins, run base queries, etc
 > 
@@ -85,7 +99,7 @@ This tip enables Obsidian integration with AI agents like Claude Code by leverag
 > @kepano It would be nice to have a headless cli to use on a VPS, e.g. to trigger obsidian sync. Currently, you need to install the gui version to have access to the cli
 > *11 likes*
 
-> [!tip]+ ↩️ @kepano · 2026-02-10T16:45:12+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @kepano · 2026-02-10T16:45:12+00:00
 
 > @k_sharovarskyi yes
 
@@ -93,7 +107,7 @@ This tip enables Obsidian integration with AI agents like Claude Code by leverag
 > @kepano It’s not headless so I do think this change anything
 > *3 likes*
 
-> [!tip]+ ↩️ @kepano · 2026-02-10T16:42:55+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @kepano · 2026-02-10T16:42:55+00:00
 
 > @renasci_michael at minimum it radically improves plugin development because now you can do full round-tripping, including getting console logs, screenshots, run eval, etc
 
@@ -101,7 +115,7 @@ This tip enables Obsidian integration with AI agents like Claude Code by leverag
 > @kepano Any benefit over using Notion?
 > *3 likes*
 
-> [!tip]+ ↩️ @kepano · 2026-02-10T17:21:49+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @kepano · 2026-02-10T17:21:49+00:00
 
 > @Webhead24 - fast
 > - free for personal use
@@ -117,7 +131,7 @@ This tip enables Obsidian integration with AI agents like Claude Code by leverag
 > @kepano who would you want an agent to use obsidian?
 > *2 likes*
 
-> [!tip]+ ↩️ @kepano · 2026-02-10T17:46:23+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @kepano · 2026-02-10T17:46:23+00:00
 
 > @dvirtualshivam now you can much more easily make a personal Obsidian plugin
 
@@ -129,7 +143,7 @@ This tip enables Obsidian integration with AI agents like Claude Code by leverag
 > Maybe it would be better to add some workflow examples that are only achievable via CLI?
 > *1 likes*
 
-> [!tip]+ ↩️ @kepano · 2026-02-10T16:54:59+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @kepano · 2026-02-10T16:54:59+00:00
 
 > @shuvro you can find those here:
 > https://t.co/sc36GWM9oQ
@@ -139,44 +153,12 @@ This tip enables Obsidian integration with AI agents like Claude Code by leverag
 > Now all I need is a CLI dataview implementation which lets my agent see my notes as I see them
 > *1 likes*
 
-> [!tip]+ ↩️ @kepano · 2026-02-10T21:49:35+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @kepano · 2026-02-10T21:49:35+00:00
 
 > @shaped Obsidian CLI already supports bases and you can convert dataview queries to bases queries fairly easily
 
-> [!reply] @LegalPrimes · 2026-02-10T17:19:01+00:00
-> @kepano cool! i just started with obsidian because of openclaw. when is this coming to public?
-> *1 likes*
 
-> [!tip]+ ↩️ @kepano · 2026-02-10T17:23:09+00:00
-
-> @LegalPrimes same as usual, see changelog for the typical cadence
-> https://t.co/fwEv9zcveh
-
-> [!reply] @anaisbetts · 2026-02-10T21:57:37+00:00
-> @kepano Why does it need the desktop app though?
-> *1 likes*
-
-> [!tip]+ ↩️ @kepano · 2026-02-10T22:05:36+00:00
-
-> @anaisbetts well this first version of the CLI can control the UI itself, including accessing devtools, inspecting the DOM, taking screenshots, etc — everything you might need to create a plugin
-> 
-> in the future we could add a headless mode but it would have a much narrower subset of commands
-
-> [!reply] @HeathDingwell · 2026-02-10T17:14:06+00:00
-> @kepano Keeps giving me errors on install - hopefully Claude code can figure it out since I'm horrible at this stuff.
-
-> [!tip]+ ↩️ @kepano · 2026-02-10T17:25:54+00:00
-
-> @HeathDingwell see Troubleshooting
-> https://t.co/8RoTrI4oFV
-
-> [!reply] @aporia333 · 2026-02-10T17:43:01+00:00
-> @kepano bro my openclaw's been using Obsidian
-
-> [!tip]+ ↩️ @kepano · 2026-02-10T17:43:59+00:00
-
-> @aporia333 I think we have different definitions of "use"
-
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 4,155 · **Replies:** 138 · **Reposts:** 316 · **Views:** 312,204
@@ -185,3 +167,13 @@ This tip enables Obsidian integration with AI agents like Claude Code by leverag
 > **Source:** tips · **Quality:** —/10
 > **Curated:** ✗ · **Reply:** ✗
 > **ID:** [2021251878521073847](https://x.com/kepano/status/2021251878521073847)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ✅ (28 replies scraped)
+  classification: ✅ ACT_NOW
+```

@@ -1,14 +1,21 @@
 ---
+tweet_id: "2004612724509348206"
 created: 2025-12-26
 author: "@CliftonCrosland"
 display_name: "Cliff Crosland"
+primary_keyword: "conjecture-critique-loop"
 category: "workflow"
+llm_category: "meta"
 tags:
   - category/workflow
 likes: 0
 views: 0
 engagement_score: 0
 url: "https://x.com/CliftonCrosland/status/2004612724509348206"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: false
 ---
 
 > [!tweet] @CliftonCrosland · Dec 26, 2025
@@ -20,6 +27,11 @@ url: "https://x.com/CliftonCrosland/status/2004612724509348206"
 
 The tip highlights the 'conjecture-critique loop,' a problem-solving technique. It emphasizes the iterative process of making an initial guess or hypothesis (conjecture) and then rigorously testing and refining it (critique). By repeatedly cycling through these steps, one can arrive at a better solution. This is a valuable workflow for debugging, coding, and general problem-solving.
 
+## Keywords
+
+**Primary:** `conjecture-critique-loop` · loop, critique, conjecture
+
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 0 · **Replies:** 0 · **Reposts:** 0 · **Views:** 0
@@ -28,3 +40,13 @@ The tip highlights the 'conjecture-critique loop,' a problem-solving technique. 
 > **Source:** tips · **Quality:** 5/10
 > **Curated:** ✗ · **Reply:** ✗
 > **ID:** [2004612724509348206](https://x.com/CliftonCrosland/status/2004612724509348206)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ℹ️ standalone
+  classification: ❌ not classified
+```

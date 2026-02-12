@@ -1,14 +1,21 @@
 ---
+tweet_id: "2004784489348923731"
 created: 2025-12-27
 author: "@noborderhuman"
 display_name: "Mahid (c-eng)"
+primary_keyword: "statusline.sh"
 category: "skills"
+llm_category: "tooling"
 tags:
   - category/skills
 likes: 0
 views: 0
 engagement_score: 0
 url: "https://x.com/noborderhuman/status/2004784489348923731"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: false
 ---
 
 > [!tweet] @noborderhuman · Dec 27, 2025
@@ -22,6 +29,11 @@ url: "https://x.com/noborderhuman/status/2004784489348923731"
 
 This code tip showcases a `statusline.sh` script, likely used to create a customized status line in a shell environment like Bash or Zsh. The script's purpose, though not explicitly shown, is to display useful information such as the current directory, Git branch, or system status in an informative and visually appealing way. By analyzing the script, users can learn how to generate dynamic and customized status lines for their terminals, improving their workflow and information awareness.
 
+## Keywords
+
+**Primary:** `statusline.sh` · status line, shell script, github, skilled-intelligence-marketplace
+
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 0 · **Replies:** 0 · **Reposts:** 0 · **Views:** 0
@@ -30,3 +42,13 @@ This code tip showcases a `statusline.sh` script, likely used to create a custom
 > **Source:** tips · **Quality:** 7/10
 > **Curated:** ✓ · **Reply:** ✗
 > **ID:** [2004784489348923731](https://x.com/noborderhuman/status/2004784489348923731)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ℹ️ standalone
+  classification: ❌ not classified
+```

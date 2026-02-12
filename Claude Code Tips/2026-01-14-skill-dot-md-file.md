@@ -1,7 +1,11 @@
 ---
+tweet_id: "2011468541321744512"
 created: 2026-01-14
 author: "@doodlestein"
 display_name: "Jeffrey Emanuel"
+primary_keyword: "skill dot md file"
+llm_category: "skills"
+classification: "ACT_NOW"
 tags:
   - type/screenshot
   - type/thread
@@ -9,6 +13,10 @@ likes: 478
 views: 34861
 engagement_score: 2668
 url: "https://x.com/doodlestein/status/2011468541321744512"
+enrichment_complete: false
+has_media: true
+has_links: true
+has_thread_context: true
 ---
 
 > [!tweet] @doodlestein · Jan 14, 2026
@@ -52,15 +60,22 @@ url: "https://x.com/doodlestein/status/2011468541321744512"
 
 This tip highlights the power of Claude Code skills for automating repetitive tasks in agent workflows. Before generating a skill, it recommends providing Claude with a best practices guide (linked in the tweet) to improve the skill's quality. The core idea is to identify tasks you repeat across projects (like generating social media link previews or README files) and encapsulate them into reusable skills, potentially using additional reference files for improved token efficiency.
 
+## Keywords
+
+**Primary:** `skill dot md file` · skills, progressive disclosure, token efficiency, best practices guide
+## Classification
+
+**ACT_NOW** — Matches pending technique with 478 likes
+## Linked Resources
+
+- **[github.com/Dicklesworthstone/meta_skill/blob/main/BEST_PRACTICES_FOR_WRITING_AND_USING_SKILLS_MD_FILES.md](https://github.com/Dicklesworthstone/meta_skill/blob/main/BEST_PRACTICES_FOR_WRITING_AND_USING_SKILLS_MD_FILES.md)**
+  > :warning: Link not yet summarized
+
 ## Media
 
 ![Media](https://pbs.twimg.com/media/G-or-iiXIAE-pT0.jpg)
 
-
-
-
-
-
+> :warning: Photo not yet analyzed
 
 ## Replies
 
@@ -68,7 +83,7 @@ This tip highlights the power of Claude Code skills for automating repetitive ta
 > @doodlestein Thanks. I have been struggling to understand what skills are, and are good for. This unlocks it a bit (together with your other tweet about `xf`). Across projects seems to be the key?
 > *2 likes*
 
-> [!tip]+ ↩️ @doodlestein · 2026-01-15T08:30:23+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @doodlestein · 2026-01-15T08:30:23+00:00
 
 > @pappapez Yes, it's for repeatable process workflows.
 
@@ -78,7 +93,7 @@ This tip highlights the power of Claude Code skills for automating repetitive ta
 > I am in! You're the most high value account on this site.  Like I pay nothing and get gold coins everyday from you.
 > *2 likes*
 
-> [!tip]+ ↩️ @doodlestein · 2026-01-14T20:14:42+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @doodlestein · 2026-01-14T20:14:42+00:00
 
 > Hah, yeah, I was messing around a bit with that; I need to find something that makes sense and is worth it to people. My problem is that I also want to give everything away for free…
 > 
@@ -90,7 +105,7 @@ This tip highlights the power of Claude Code skills for automating repetitive ta
 > @doodlestein Curious why decided not to turn the guide into a skill-building Skill
 > *2 likes*
 
-> [!tip]+ ↩️ @doodlestein · 2026-01-15T04:46:55+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @doodlestein · 2026-01-15T04:46:55+00:00
 
 > @AaronNam That's coming, and much more:
 > 
@@ -105,7 +120,7 @@ This tip highlights the power of Claude Code skills for automating repetitive ta
 > @doodlestein Can you explain what meta skill does? I read the readme but still don’t get it.
 > *1 likes*
 
-> [!tip]+ ↩️ @doodlestein · 2026-01-15T09:23:19+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @doodlestein · 2026-01-15T09:23:19+00:00
 
 > @BooniXBT It does a lot of stuff, but the main thing is automating this process I described. It looks at your agent session history and looks for repeatable processes that could be usefully turned into skills. And it’s a system for managing and searching and sharing those skills.
 
@@ -113,7 +128,7 @@ This tip highlights the power of Claude Code skills for automating repetitive ta
 > @doodlestein Need to add better cm integration for harmful/hurtful, success/fail, agent bc validation instead of blindly creating skills yeah? Maybe im missing that but wouldn’t want a bunch of random or outdated skills
 > *1 likes*
 
-> [!tip]+ ↩️ @doodlestein · 2026-01-15T00:34:27+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @doodlestein · 2026-01-15T00:34:27+00:00
 
 > @iAmMikeRoth Yeah I’m building a tool for skills now, ms. Just started last night so it’s not done yet:
 > 
@@ -143,15 +158,8 @@ This tip highlights the power of Claude Code skills for automating repetitive ta
 > @doodlestein 🎤 ⬇️
 > *1 likes*
 
-> [!reply] @mysticaltech · 2026-01-15T00:37:11+00:00
-> @doodlestein Gold advice as always.
 
-> [!reply] @Dev__Vishwajeet · 2026-01-15T17:59:52+00:00
-> @doodlestein Thanks for sharing those examples! Using skills for sharing link previews and README files sounds like a real time-saver.
-
-> [!reply] @s_h_long · 2026-01-15T06:32:53+00:00
-> @doodlestein Chapter 4.2 is accidentally inside a code block.
-
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 478 · **Replies:** 16 · **Reposts:** 35 · **Views:** 34,861
@@ -160,3 +168,13 @@ This tip highlights the power of Claude Code skills for automating repetitive ta
 > **Source:** tips · **Quality:** —/10
 > **Curated:** ✗ · **Reply:** ✗
 > **ID:** [2011468541321744512](https://x.com/doodlestein/status/2011468541321744512)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ⚠️ (0/1 summarized)
+  media: ⚠️ (0/1 analyzed — 1 photo, 0 videos)
+  thread: ✅ (18 replies scraped)
+  classification: ✅ ACT_NOW
+```

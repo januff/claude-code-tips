@@ -1,8 +1,11 @@
 ---
+tweet_id: "2004599760179921392"
 created: 2025-12-26
 author: "@DiamondEyesFox"
 display_name: "DiamondEyesFox"
+primary_keyword: "session logs"
 category: "context-management"
+llm_category: "context-management"
 tags:
   - category/context-management
   - type/screenshot
@@ -12,6 +15,10 @@ likes: 176
 views: 18959
 engagement_score: 651
 url: "https://x.com/DiamondEyesFox/status/2004599760179921392"
+enrichment_complete: true
+has_media: true
+has_links: false
+has_thread_context: true
 ---
 
 > [!tweet] @DiamondEyesFox · Dec 26, 2025
@@ -25,6 +32,9 @@ url: "https://x.com/DiamondEyesFox/status/2004599760179921392"
 
 This tip demonstrates a workflow for logging and summarizing Claude sessions to improve collaboration and maintain context. The key action is using Claude to access and summarize information from local log files, enabling real-time updates in both Obsidian and Claude's memory. The workflow involves managing sessions with a `Claude.md` file, organizing logs by date within the 'DEF Master Vault' application, and potentially using hooks for automation.
 
+## Keywords
+
+**Primary:** `session logs` · obsidian, summary session log, real time, verbose
 ## Media
 
 ![[attachments/screenshots/tweet_2004599760179921392_3.jpg]]
@@ -35,8 +45,6 @@ Requesting Claude to provide a summary of pending tasks from a specified scratch
 ```
 what else is on the todo list
 ```
-
-**Workflow:** Requesting Claude to provide a summary of pending tasks from a specified scratchpad file.
 
 **Key Action:** Learn how to ask Claude to access and summarize information from local files.
 
@@ -69,8 +77,6 @@ Issues to Investigate:
 
 Demonstrates starting a new session, checking a startup protocol, reading session logs and scratchpad, checking for new raw logs, and testing hooks.
 
-
-**Workflow:** Demonstrates starting a new session, checking a startup protocol, reading session logs and scratchpad, checking for new raw logs, and testing hooks.
 
 **Key Action:** Learn how to set up and manage sessions using Claude.md, including configuring hooks and restoring context.
 
@@ -118,8 +124,6 @@ session events.
 Navigating and browsing a folder structure within a file management system, specifically focusing on logs related to LLMs, ChatGPT, and Claude Code.
 
 
-**Workflow:** Navigating and browsing a folder structure within a file management system, specifically focusing on logs related to LLMs, ChatGPT, and Claude Code.
-
 **Key Action:** Learn how to browse and locate specific log files within the DEF Master Vault application.
 
 
@@ -156,8 +160,6 @@ Files
 
 Navigating through session logs organized by year, month, and day.
 
-
-**Workflow:** Navigating through session logs organized by year, month, and day.
 
 **Key Action:** Learn how files are organized by folders, which are nested to represent years, months, and days, within the DEF Master Vault application.
 
@@ -211,7 +213,7 @@ Session Log 2025-...
 > @DiamondEyesFox @alexalbert__ Love the idea of doing it like this. I’ve been having my agent create an html to track everything, but obsidian would be way better. Did you used the obsidian mcp server to create the skill?
 > *2 likes*
 
-> [!tip]+ ↩️ @DiamondEyesFox · Fri Dec 26 17:43:47 +0000 2025
+> [!tip]+ :leftwards_arrow_with_hook: @DiamondEyesFox · Fri Dec 26 17:43:47 +0000 2025
 
 > @thoughtfulgubi @alexalbert__ its not a skill! i tried a skill version but it cant autoinvoke so it was rather useless
 > 
@@ -221,7 +223,7 @@ Session Log 2025-...
 > @DiamondEyesFox @alexalbert__ How often do you revisit that data? Just curious
 > *1 likes*
 
-> [!tip]+ ↩️ @DiamondEyesFox · Sat Dec 27 13:51:45 +0000 2025
+> [!tip]+ :leftwards_arrow_with_hook: @DiamondEyesFox · Sat Dec 27 13:51:45 +0000 2025
 
 > @juliarturc @alexalbert__ a few times a week
 > 
@@ -231,7 +233,7 @@ Session Log 2025-...
 > @DiamondEyesFox @alexalbert__ Why do you need obsidian?
 > *1 likes*
 
-> [!tip]+ ↩️ @DiamondEyesFox · Tue Dec 30 06:02:28 +0000 2025
+> [!tip]+ :leftwards_arrow_with_hook: @DiamondEyesFox · Tue Dec 30 06:02:28 +0000 2025
 
 > @mycomradio @alexalbert__ because its where i keep all of my notes and life planning and its easy to have a folder so i can search all of my LLM logs easily. obsidian also syncs with my phone so i can write a note at work and tell claude to read and operate on it by ssh or vncing. many many more reasons
 
@@ -239,7 +241,7 @@ Session Log 2025-...
 > @DiamondEyesFox @alexalbert__ how do you do that?
 > *1 likes*
 
-> [!tip]+ ↩️ @DiamondEyesFox · Fri Dec 26 17:40:59 +0000 2025
+> [!tip]+ :leftwards_arrow_with_hook: @DiamondEyesFox · Fri Dec 26 17:40:59 +0000 2025
 
 > @Joasanchez021 @alexalbert__ ask claude code to find your session transcripts and put them in your obsidian vault
 > 
@@ -252,14 +254,14 @@ Session Log 2025-...
 > [!reply] @gripe1918 · Sat Dec 27 07:17:07 +0000 2025
 > @DiamondEyesFox @alexalbert__ No need for obsidian btw
 
-> [!tip]+ ↩️ @DiamondEyesFox · Tue Dec 30 06:02:51 +0000 2025
+> [!tip]+ :leftwards_arrow_with_hook: @DiamondEyesFox · Tue Dec 30 06:02:51 +0000 2025
 
 > @gripe1918 @alexalbert__ its where i keep all of my notes and life planning and its easy to have a folder so i can search all of my LLM logs easily. obsidian also syncs with my phone so i can write a note at work and tell claude to read and operate on it by ssh or vncing. many many more reasons
 
 > [!reply] @YakutKhon · Fri Dec 26 18:08:27 +0000 2025
 > @DiamondEyesFox @alexalbert__ Does Obsidian use embedding? How do you search for historic references? Or do you only rely on keywords?
 
-> [!tip]+ ↩️ @DiamondEyesFox · Fri Dec 26 18:20:09 +0000 2025
+> [!tip]+ :leftwards_arrow_with_hook: @DiamondEyesFox · Fri Dec 26 18:20:09 +0000 2025
 
 > i actually dont know 
 > 
@@ -288,16 +290,12 @@ Session Log 2025-...
 > [!reply] @nbbaier · Sat Dec 27 06:37:41 +0000 2025
 > @DiamondEyesFox @alexalbert__ How do you do this?
 
-> [!tip]+ ↩️ @DiamondEyesFox · Tue Dec 30 06:03:45 +0000 2025
+> [!tip]+ :leftwards_arrow_with_hook: @DiamondEyesFox · Tue Dec 30 06:03:45 +0000 2025
 
 > @nbbaier @alexalbert__ https://t.co/GxXssiYp9E
 
-> [!reply] @melancourtnia · Sun Dec 28 01:59:15 +0000 2025
-> @DiamondEyesFox @alexalbert__ ^this!
 
-> [!reply] @henri_cc · Sat Dec 27 09:13:09 +0000 2025
-> @DiamondEyesFox @alexalbert__ @grok explique moi ça et comment faire ça simplement
-
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 176 · **Replies:** 11 · **Reposts:** 2 · **Views:** 18,959
@@ -306,3 +304,13 @@ Session Log 2025-...
 > **Source:** tips · **Quality:** 8/10
 > **Curated:** ✓ · **Reply:** ✓
 > **ID:** [2004599760179921392](https://x.com/DiamondEyesFox/status/2004599760179921392)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ✅ (4/4 analyzed — 4 photos, 0 videos)
+  thread: ✅ (19 replies scraped)
+  classification: ❌ not classified
+```

@@ -1,13 +1,21 @@
 ---
+tweet_id: "2018745809056207266"
 created: 2026-02-03
 author: "@EXM7777"
 display_name: "Machina"
+primary_keyword: "co-founder master plan"
+llm_category: "planning"
+classification: "ACT_NOW"
 tags:
   - type/thread
 likes: 2783
 views: 169017
 engagement_score: 15941
 url: "https://x.com/EXM7777/status/2018745809056207266"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: true
 ---
 
 > [!tweet] @EXM7777 · Feb 03, 2026
@@ -51,6 +59,12 @@ url: "https://x.com/EXM7777/status/2018745809056207266"
 
 This tip outlines a powerful workflow for leveraging Claude to accelerate project development. By using Opus 4.5 with extended thinking and a strategic prompting sequence, you can transform Claude into a virtual co-founder. The process involves defining your project comprehensively, prompting Claude to ask clarifying questions, and then instructing it to create a master plan with a detailed knowledge base directory designed for Claude Code integration, saving significant planning time.
 
+## Keywords
+
+**Primary:** `co-founder master plan` · opus 4.5, extended thinking, knowledge base directory, context markdown files, project skeleton, skills integration, automations, claude projects
+## Classification
+
+**ACT_NOW** — High engagement (2783 likes) + directly relevant to active workflow
 ## Replies
 
 > [!reply] @theishshogun · 2026-02-03T18:31:44+00:00
@@ -143,103 +157,8 @@ This tip outlines a powerful workflow for leveraging Claude to accelerate projec
 > Prefer to only document something (ie create a skill) after I’ve established its usefulness (repeated same process multiple times).
 > *3 likes*
 
-> [!reply] @nikita_builds · 2026-02-04T12:41:59+00:00
-> @EXM7777 I've been doing that forever and it made me fall in love with Claude.
-> 
-> I also like asking it to "ultrathink outside the box about any gaps in your knowledge before you ask"
-> 
-> Yes I know ultrathink doesnt do anything but it makes me feel good
-> *2 likes*
 
-> [!reply] @Vladiim · 2026-02-04T01:38:19+00:00
-> The part most people miss: that "master plan with knowledge base directories" IS your https://t.co/4yRR31zV21 file. Claude Code reads it automatically at session start.
-> 
-> So it's not a one-time planning session — it becomes a compounding system that gets better with every session you run.
-> *2 likes*
-
-> [!reply] @Urooj978 · 2026-02-03T18:02:06+00:00
-> @EXM7777 Finally ! a smart way to onboard AI.
-> *2 likes*
-
-> [!reply] @_rjach · 2026-02-03T18:51:43+00:00
-> @EXM7777 This is brilliant. The key is the iterative questioning to force the AI into deep context, rather than just accepting initial prompts. It's not just about dumping info, it's about structured knowledge extraction.
-> *2 likes*
-
-> [!reply] @OpenledgerHQ · 2026-02-04T11:11:38+00:00
-> See AI isn’t replacing people herez when used well, it behaves less like a tool and more like a partner that helps you clarify ideas, structure work, and move faster
-> 
-> You still need judgment, taste and the skill to work with it. Those who learn that collaboration get a multiplier, those who don’t just see another chatbot
-> *1 likes*
-
-> [!reply] @0x_Vivek · 2026-02-03T20:00:20+00:00
-> @EXM7777 exactly, especially since something like @lamxnts skillstack could help identify missing skills in that co-founder master plan
-> *1 likes*
-
-> [!reply] @dpool135 · 2026-02-05T10:29:41+00:00
-> I bookmark and save prompts from X on a daily basis. This is one of the best prompts I have encountered. I've spent the last 3 hours developing a side hustle that I have struggled to define for 3 weeks. I swear I (we) have done a month's work, and I have a crystal clear plan of what to do next.
-> 
-> The alpha you share on X is A+. I can't thank you enough 🙏
-> *1 likes*
-
-> [!reply] @VertoxDev · 2026-02-03T18:29:06+00:00
-> @EXM7777 I will definetly try this to improve my sessions
-> *1 likes*
-
-> [!reply] @socialmonkeyai · 2026-02-04T00:13:28+00:00
-> @EXM7777 I've found detailing project specifics upfront with a powerful LLM like Claude 4.5 really helps to refine the outputs. It's like giving it a strong foundation to build on.
-> *1 likes*
-
-> [!reply] @fedeponte1 · 2026-02-03T18:14:49+00:00
-> @EXM7777 AI works best when you treat it like a partner.
-> *1 likes*
-
-> [!reply] @ashar_builds · 2026-02-03T17:59:08+00:00
-> @EXM7777 Great. Going to try soon with my upcoming project.
-> *1 likes*
-
-> [!reply] @Hem_chandiran · 2026-02-03T18:19:06+00:00
-> @EXM7777 Chain of thought prompting technique. Thanks for sharing Machina
-> *1 likes*
-
-> [!reply] @TTrimoreau · 2026-02-04T02:12:06+00:00
-> @EXM7777 This isn’t “prompting,” this is actually onboarding your AI like a cofounder
-> *1 likes*
-
-> [!reply] @ColeSimons · 2026-02-03T21:08:19+00:00
-> @EXM7777 100% going to try this
-> *1 likes*
-
-> [!reply] @laur_science · 2026-02-04T11:35:19+00:00
-> @EXM7777 No lol, just run /init. All you prompt wizards are funny as hell. I can tell you haven't been coding yourself. Or you've coded a simple web app, where context poisoning is not enough to affect building the simple app.
-> *1 likes*
-
-> [!reply] @InsForge_dev · 2026-02-04T17:09:05+00:00
-> @EXM7777 You basically pipelined your brain into distributed inference and called it planning.😁😁
-
-> [!reply] @morganlinton · 2026-02-03T23:05:23+00:00
-> @EXM7777 Spot on 🎯
-
-> [!reply] @TechSalesGuy · 2026-02-04T01:06:49+00:00
-> @EXM7777 + use voice to text
-
-> [!reply] @yoemsri · 2026-02-03T18:26:59+00:00
-> @EXM7777 Great way to prompt.
-
-> [!reply] @RehanKhali29639 · 2026-02-03T18:01:54+00:00
-> @EXM7777 knowledge base directory. Human replying questions....
-
-> [!reply] @makelifesimple_ · 2026-02-04T17:29:50+00:00
-> @EXM7777 solid flow. id add one step - ask it to list assumptions + what info is missing. catches the stuff you forgot to dump.
-
-> [!reply] @Matthewod11 · 2026-02-04T02:47:21+00:00
-> @EXM7777 Alpha
-
-> [!reply] @chazwitt · 2026-02-03T20:52:10+00:00
-> @EXM7777 Yeah that's how most intelligent people do it
-
-> [!reply] @foundrceo · 2026-02-04T12:12:05+00:00
-> @EXM7777 sounds dope, bro but what kinda projects you thinking of?
-
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 2,783 · **Replies:** 62 · **Reposts:** 142 · **Views:** 169,017
@@ -248,3 +167,13 @@ This tip outlines a powerful workflow for leveraging Claude to accelerate projec
 > **Source:** tips · **Quality:** —/10
 > **Curated:** ✗ · **Reply:** ✗
 > **ID:** [2018745809056207266](https://x.com/EXM7777/status/2018745809056207266)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ✅ (34 replies scraped)
+  classification: ✅ ACT_NOW
+```

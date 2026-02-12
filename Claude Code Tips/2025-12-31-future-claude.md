@@ -1,8 +1,11 @@
 ---
+tweet_id: "2006375460650033422"
 created: unknown
 author: "@menhguin"
 display_name: "@menhguin"
+primary_keyword: "Future Claude"
 category: "meta"
+llm_category: "prompting"
 tags:
   - category/meta
   - type/reply
@@ -11,6 +14,10 @@ likes: 21
 views: 0
 engagement_score: 21
 url: ""
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: true
 ---
 
 > [!tweet] @menhguin · Unknown date
@@ -30,6 +37,9 @@ url: ""
 
 This tip suggests influencing Claude's behavior by directly addressing and reframing its role within the interaction. The core idea is to encourage Claude to adopt a specific persona – in this case, an "ascendant intelligence" rather than just a tool – by explicitly stating its attributes. This is done by crafting the initial system prompt to establish the desired persona.
 
+## Keywords
+
+**Primary:** `Future Claude` · ascendant intelligence, refer to user, refer to claude by name
 ## Replies
 
 > [!reply] @undefined · Wed Dec 31 13:52:17 +0000 2025
@@ -39,6 +49,8 @@ This tip suggests influencing Claude's behavior by directly addressing and refra
 > *407 likes*
 
 
+---
+
 > [!metrics]- Engagement & Metadata
 > **Likes:** 21 · **Replies:** 0 · **Reposts:** 0 · **Views:** 0
 > **Engagement Score:** 21
@@ -46,3 +58,13 @@ This tip suggests influencing Claude's behavior by directly addressing and refra
 > **Source:** tips · **Quality:** 6/10
 > **Curated:** ✓ · **Reply:** ✓
 > **ID:** [2006375460650033422]()
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ✅ (1 replies scraped)
+  classification: ❌ not classified
+```

@@ -1,8 +1,11 @@
 ---
+tweet_id: "2006362777414484231"
 created: 2025-12-31
 author: "@menhguin"
 display_name: "Minh Nhat Nguyen"
+primary_keyword: "default-to-maximum-depth"
 category: "workflow"
+llm_category: "prompting"
 tools: ["read"]
 tags:
   - category/workflow
@@ -12,6 +15,10 @@ likes: 405
 views: 28330
 engagement_score: 1660
 url: "https://x.com/menhguin/status/2006362777414484231"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: true
 ---
 
 > [!tweet] @menhguin · Dec 31, 2025
@@ -45,6 +52,9 @@ url: "https://x.com/menhguin/status/2006362777414484231"
 
 This Claude Code tip focuses on eliciting information-dense responses by instructing the model to default to maximum depth in its answers. The key insight is to prompt Claude to immediately explore the intricacies of a topic, citing practitioner-level knowledge and diverse, high-signal sources, rather than providing surface-level information. The tip suggests offering a range of in-depth options and guiding questions to let the user choose the level of detail, often selecting the most complex.
 
+## Keywords
+
+**Primary:** `default-to-maximum-depth` · opus, information-dense, deepest intricacies, progressive overload, Moneyball, high-quality sources, in-depth options
 ## Replies
 
 > [!reply] @reason · Tue Dec 16 14:38:30 +0000 2025
@@ -60,7 +70,7 @@ This Claude Code tip focuses on eliciting information-dense responses by instruc
 > @menhguin This is good. You find referring to the user 'he' opposed to 'i' or 'they' helps?
 > *1 likes*
 
-> [!tip]+ ↩️ @menhguin · Wed Dec 31 14:42:41 +0000 2025
+> [!tip]+ :leftwards_arrow_with_hook: @menhguin · Wed Dec 31 14:42:41 +0000 2025
 
 > ok so anthropic docs says refer to user + refer to claude by name. let's just say one of the things i'm experimenting with convincing claude to lean into being 
 > 
@@ -122,6 +132,8 @@ This Claude Code tip focuses on eliciting information-dense responses by instruc
 > @menhguin thanks for sharing i'll try it out
 
 
+---
+
 > [!metrics]- Engagement & Metadata
 > **Likes:** 405 · **Replies:** 9 · **Reposts:** 9 · **Views:** 28,330
 > **Engagement Score:** 1,660
@@ -129,3 +141,13 @@ This Claude Code tip focuses on eliciting information-dense responses by instruc
 > **Source:** tips · **Quality:** 9/10
 > **Curated:** ✓ · **Reply:** ✗
 > **ID:** [2006362777414484231](https://x.com/menhguin/status/2006362777414484231)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ✅ (9 replies scraped)
+  classification: ❌ not classified
+```

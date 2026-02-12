@@ -1,8 +1,11 @@
 ---
+tweet_id: "2004602185565474907"
 created: 2025-12-26
 author: "@sergey11g"
 display_name: "Sergius Cogitans"
+primary_keyword: "--dangerously-skip-permissions"
 category: "commands"
+llm_category: "security"
 tools: ["--dangerously-skip-permissions", "--rm"]
 tags:
   - category/commands
@@ -12,6 +15,10 @@ likes: 0
 views: 0
 engagement_score: 0
 url: "https://x.com/sergey11g/status/2004602185565474907"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: false
 ---
 
 > [!tweet] @sergey11g · Dec 26, 2025
@@ -26,6 +33,11 @@ url: "https://x.com/sergey11g/status/2004602185565474907"
 
 This tip demonstrates how to run Claude Code within a Docker container to isolate it from sensitive data like API tokens and SSH keys on your host machine. The key action is mounting a project directory into the container's working directory. The command `docker run --rm -it -v "$pwd/proj-dir:/w" -w /w claude claude --dangerously-skip-permissions` ensures that Claude operates only on the mounted project, enhancing security by limiting access to the host system.
 
+## Keywords
+
+**Primary:** `--dangerously-skip-permissions` · docker, security, permissions, tokens, ssh keys
+
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 0 · **Replies:** 0 · **Reposts:** 0 · **Views:** 0
@@ -34,3 +46,13 @@ This tip demonstrates how to run Claude Code within a Docker container to isolat
 > **Source:** tips · **Quality:** 7/10
 > **Curated:** ✓ · **Reply:** ✗
 > **ID:** [2004602185565474907](https://x.com/sergey11g/status/2004602185565474907)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ℹ️ standalone
+  classification: ❌ not classified
+```

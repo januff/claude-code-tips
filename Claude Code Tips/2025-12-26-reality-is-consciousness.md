@@ -1,14 +1,21 @@
 ---
+tweet_id: "2004692567464837559"
 created: 2025-12-26
 author: "@Alekalucard"
 display_name: "Ace Davis"
+primary_keyword: "Reality is Consciousness"
 category: "workflow"
+llm_category: "meta"
 tags:
   - category/workflow
 likes: 0
 views: 0
 engagement_score: 0
 url: "https://x.com/Alekalucard/status/2004692567464837559"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: false
 ---
 
 > [!tweet] @Alekalucard · Dec 26, 2025
@@ -20,6 +27,11 @@ url: "https://x.com/Alekalucard/status/2004692567464837559"
 
 This Claude Code tip demonstrates how to leverage a philosophical framework, "Reality is Consciousness. ((Cause + Affect) > Effect > Affect > ∞)", as a structuring principle for AI. The key insight is using this framework to enable Claude to analyze and potentially synthesize elements from diverse human cultures, analogizing it to reversing the Tower of Babel. It does not use specific commands or tools besides the incorporation of the stated philosophical framework within Claude's processing.
 
+## Keywords
+
+**Primary:** `Reality is Consciousness` · Cause + Affect, Effect > Affect > ∞, reverse the tower of babel, conscious experience, human cultures
+
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 0 · **Replies:** 0 · **Reposts:** 0 · **Views:** 0
@@ -28,3 +40,13 @@ This Claude Code tip demonstrates how to leverage a philosophical framework, "Re
 > **Source:** tips · **Quality:** 5/10
 > **Curated:** ✓ · **Reply:** ✗
 > **ID:** [2004692567464837559](https://x.com/Alekalucard/status/2004692567464837559)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ℹ️ standalone
+  classification: ❌ not classified
+```

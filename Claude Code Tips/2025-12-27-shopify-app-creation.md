@@ -1,14 +1,21 @@
 ---
+tweet_id: "2004952403947274735"
 created: 2025-12-27
 author: "@Ville_AI"
 display_name: "Ville Laukkanen"
+primary_keyword: "shopify-app-creation"
 category: "tooling"
+llm_category: "tooling"
 tags:
   - category/tooling
 likes: 0
 views: 0
 engagement_score: 0
 url: "https://x.com/Ville_AI/status/2004952403947274735"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: false
 ---
 
 > [!tweet] @Ville_AI · Dec 27, 2025
@@ -20,6 +27,11 @@ url: "https://x.com/Ville_AI/status/2004952403947274735"
 
 This tip highlights a user's contrasting experiences using Claude Code's CLI versus Cursor for scaffolding a basic Shopify app. The user found Claude Code's CLI unsuccessful in this task, while Cursor was able to complete it successfully. This suggests a potential difference in the reliability or capability of these tools for this specific app development task.
 
+## Keywords
+
+**Primary:** `shopify-app-creation` · CLI, Cursor, barebones, failed
+
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 0 · **Replies:** 0 · **Reposts:** 0 · **Views:** 0
@@ -28,3 +40,13 @@ This tip highlights a user's contrasting experiences using Claude Code's CLI ver
 > **Source:** tips · **Quality:** 5/10
 > **Curated:** ✓ · **Reply:** ✗
 > **ID:** [2004952403947274735](https://x.com/Ville_AI/status/2004952403947274735)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ℹ️ standalone
+  classification: ❌ not classified
+```

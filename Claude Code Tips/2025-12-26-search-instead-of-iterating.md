@@ -1,14 +1,21 @@
 ---
+tweet_id: "2004581757451198793"
 created: 2025-12-26
 author: "@RealJoshHoward"
 display_name: "Josh Howard"
+primary_keyword: "search-instead-of-iterating"
 category: "workflow"
+llm_category: "prompting"
 tags:
   - category/workflow
 likes: 0
 views: 0
 engagement_score: 0
 url: "https://x.com/RealJoshHoward/status/2004581757451198793"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: false
 ---
 
 > [!tweet] @RealJoshHoward · Dec 26, 2025
@@ -20,6 +27,11 @@ url: "https://x.com/RealJoshHoward/status/2004581757451198793"
 
 This Claude tip focuses on improving its problem-solving by instructing it to actively search for information when it encounters an obstacle, rather than endlessly attempting to iterate on existing knowledge. The key is to prompt Claude to use search functions or external resources as part of its problem-solving workflow. This encourages it to expand its knowledge base dynamically to overcome limitations.
 
+## Keywords
+
+**Primary:** `search-instead-of-iterating` · search, iterate, stuck
+
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 0 · **Replies:** 0 · **Reposts:** 0 · **Views:** 0
@@ -28,3 +40,13 @@ This Claude tip focuses on improving its problem-solving by instructing it to ac
 > **Source:** tips · **Quality:** 5/10
 > **Curated:** ✓ · **Reply:** ✗
 > **ID:** [2004581757451198793](https://x.com/RealJoshHoward/status/2004581757451198793)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ℹ️ standalone
+  classification: ❌ not classified
+```

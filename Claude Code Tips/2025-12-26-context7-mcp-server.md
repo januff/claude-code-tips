@@ -1,8 +1,11 @@
 ---
+tweet_id: "2004578779998593530"
 created: 2025-12-26
 author: "@adamthewilliam"
 display_name: "11"
+primary_keyword: "Context7 MCP server"
 category: "context-management"
+llm_category: "context-management"
 tools: ["MCP"]
 tags:
   - category/context-management
@@ -11,6 +14,10 @@ likes: 0
 views: 0
 engagement_score: 0
 url: "https://x.com/adamthewilliam/status/2004578779998593530"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: false
 ---
 
 > [!tweet] @adamthewilliam · Dec 26, 2025
@@ -22,6 +29,11 @@ url: "https://x.com/adamthewilliam/status/2004578779998593530"
 
 This Claude Code tip highlights the use of GitTrees and a Context7 MCP server for accessing current library information and documentation. The tip suggests leveraging these tools to maintain up-to-date knowledge of the latest libraries and their features within your development workflow. By utilizing these resources, developers can readily access context on new libraries without extensive manual searching or reading.
 
+## Keywords
+
+**Primary:** `Context7 MCP server` · GitTrees, context, libraries, documentation
+
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 0 · **Replies:** 0 · **Reposts:** 0 · **Views:** 0
@@ -30,3 +42,13 @@ This Claude Code tip highlights the use of GitTrees and a Context7 MCP server fo
 > **Source:** tips · **Quality:** 5/10
 > **Curated:** ✓ · **Reply:** ✗
 > **ID:** [2004578779998593530](https://x.com/adamthewilliam/status/2004578779998593530)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ℹ️ standalone
+  classification: ❌ not classified
+```

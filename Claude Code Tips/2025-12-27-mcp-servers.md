@@ -1,8 +1,11 @@
 ---
+tweet_id: "2004932720447914231"
 created: 2025-12-27
 author: "@ctrlswing"
 display_name: "Jackson"
+primary_keyword: "mcp-servers"
 category: "context-management"
+llm_category: "context-management"
 tools: ["mcp"]
 tags:
   - category/context-management
@@ -11,6 +14,10 @@ likes: 0
 views: 0
 engagement_score: 0
 url: "https://x.com/ctrlswing/status/2004932720447914231"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: false
 ---
 
 > [!tweet] @ctrlswing · Dec 27, 2025
@@ -22,6 +29,11 @@ url: "https://x.com/ctrlswing/status/2004932720447914231"
 
 This tip suggests leveraging custom-built Minimum Viable Product (MVP) servers with optimized, more potent tools instead of relying on numerous generic ones. By strategically reducing the number of tools and focusing on powerful, tailored solutions, you can significantly decrease the amount of context needed in the prompt window, allowing for more complex and efficient AI interactions. This can improve performance and reduce costs associated with large context windows.
 
+## Keywords
+
+**Primary:** `mcp-servers` · custom-built, context-window, space-saving, powerful-tools
+
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 0 · **Replies:** 0 · **Reposts:** 0 · **Views:** 0
@@ -30,3 +42,13 @@ This tip suggests leveraging custom-built Minimum Viable Product (MVP) servers w
 > **Source:** tips · **Quality:** 5/10
 > **Curated:** ✓ · **Reply:** ✗
 > **ID:** [2004932720447914231](https://x.com/ctrlswing/status/2004932720447914231)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ℹ️ standalone
+  classification: ❌ not classified
+```

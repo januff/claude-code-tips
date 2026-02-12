@@ -1,13 +1,19 @@
 ---
+tweet_id: "2005213914444026211"
 created: 2025-12-28
 author: "@keshavrao_"
 display_name: "Keshav"
+primary_keyword: "map-first-tricks"
 category: "other"
 tags:
 likes: 2
 views: 317
 engagement_score: 0
 url: "https://x.com/keshavrao_/status/2005213914444026211"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: false
 ---
 
 > [!tweet] @keshavrao_ · Dec 28, 2025
@@ -19,6 +25,11 @@ url: "https://x.com/keshavrao_/status/2005213914444026211"
 
 3 underrated tricks: (1) MAP.FIRST as token saver — check MAP.md first with file:line references, eliminates 80% of search loops. (2) Target state = 0 — delete completed tasks, treat empty TODO.md as success not emptiness. (3) ASCII gates before code — visualize in PLAN phase to catch misunderstandings before burning tokens building wrong thing.
 
+## Keywords
+
+**Primary:** `map-first-tricks`
+
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 2 · **Replies:** 0 · **Reposts:** 0 · **Views:** 317
@@ -27,3 +38,13 @@ url: "https://x.com/keshavrao_/status/2005213914444026211"
 > **Source:** tips · **Quality:** 5/10
 > **Curated:** ✗ · **Reply:** ✗
 > **ID:** [2005213914444026211](https://x.com/keshavrao_/status/2005213914444026211)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ℹ️ standalone
+  classification: ❌ not classified
+```

@@ -1,13 +1,21 @@
 ---
+tweet_id: "2014809437899522302"
 created: 2026-01-23
 author: "@brian_lovin"
 display_name: "Brian Lovin"
+primary_keyword: "self-verification"
+llm_category: "skills"
+classification: "ACT_NOW"
 tags:
   - type/thread
 likes: 320
 views: 21881
 engagement_score: 1398
 url: "https://x.com/brian_lovin/status/2014809437899522302"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: true
 ---
 
 > [!tweet] @brian_lovin · Jan 23, 2026
@@ -49,6 +57,12 @@ url: "https://x.com/brian_lovin/status/2014809437899522302"
 
 This tip outlines effective strategies for leveraging AI coding agents by focusing on self-verification, improvement, and enhanced context. It emphasizes equipping agents with tools for self-assessment, teaching them to build their own verification processes, and prompting them to reflect on and refine their own workflows and prompts. Key actions include utilizing MCP servers and tests for verification, extracting reusable skills from complex workflows, and providing relevant documentation and examples for improved context and outcomes.
 
+## Keywords
+
+**Primary:** `self-verification` · AI coding agents, self-improve, reusable skills, context, verification tools, evaluate each other
+## Classification
+
+**ACT_NOW** — Matches pending technique with 320 likes
 ## Replies
 
 > [!reply] @bnj · 2026-02-10T21:10:29+00:00
@@ -89,7 +103,7 @@ This tip outlines effective strategies for leveraging AI coding agents by focusi
 > @brian_lovin 5. Treat failure as data
 > *8 likes*
 
-> [!tip]+ ↩️ @brian_lovin · 2026-01-23T22:22:07+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @brian_lovin · 2026-01-23T22:22:07+00:00
 
 > @BogdanDragomir Good one
 
@@ -119,34 +133,8 @@ This tip outlines effective strategies for leveraging AI coding agents by focusi
 > I use this so much, my workflow is codex 5.2 to execute the plan, and then codex 5.2 high for reviewing things i’m a bit ambigous about, works like a charm
 > *1 likes*
 
-> [!reply] @withgosha · 2026-01-24T00:15:14+00:00
-> @brian_lovin its interesting to think of agents needing tools to self-verify
-> *1 likes*
 
-> [!reply] @kyle_fowler2 · 2026-01-23T22:07:12+00:00
-> @brian_lovin This is gold. Self-verification has to be one of the biggest unlocks
-> *1 likes*
-
-> [!reply] @rswillif · 2026-01-23T22:19:22+00:00
-> @brian_lovin Well put…the agents strongest incentive is to give you what u want, so ask it to give if what you want incrementally from foundational first principles and iterate/build context
-> *1 likes*
-
-> [!reply] @Iiterature · 2026-01-23T23:06:00+00:00
-> @brian_lovin Great list. Also asking the agent to think if there are more token efficient ways of doing things after a long session.
-> 
-> E.g. making a script for a workflow rather than rawdogging data aggregation via MCP through inference.
-
-> [!reply] @proxy_vector · 2026-01-24T17:14:49+00:00
-> MCP servers are game changers for this. The self-verification loop is exactly what bridges the gap between "kinda works" and "actually production ready".
-> 
-> Been experimenting with having agents write their own playwright tests before implementing features. Sounds backwards but it forces cleaner outputs
-
-> [!reply] @carlos__antony · 2026-01-24T06:58:52+00:00
-> @brian_lovin agents get better once you stop treating them like autocomplete
-
-> [!reply] @getpochi · 2026-01-24T03:13:50+00:00
-> @brian_lovin when agent writes its own tools you kinda need maintenance. At some point prompt/skill behave like code and w/o CI they rot fastt
-
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 320 · **Replies:** 14 · **Reposts:** 20 · **Views:** 21,881
@@ -155,3 +143,13 @@ This tip outlines effective strategies for leveraging AI coding agents by focusi
 > **Source:** tips · **Quality:** —/10
 > **Curated:** ✗ · **Reply:** ✗
 > **ID:** [2014809437899522302](https://x.com/brian_lovin/status/2014809437899522302)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ✅ (18 replies scraped)
+  classification: ✅ ACT_NOW
+```

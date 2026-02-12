@@ -1,8 +1,11 @@
 ---
+tweet_id: "2004577970531254533"
 created: 2025-12-26
 author: "@NovaSpark_Mars"
 display_name: "truckfinger"
+primary_keyword: "Docstring First"
 category: "workflow"
+llm_category: "meta"
 tools: ["Write"]
 tags:
   - category/workflow
@@ -11,6 +14,10 @@ likes: 0
 views: 0
 engagement_score: 0
 url: "https://x.com/NovaSpark_Mars/status/2004577970531254533"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: false
 ---
 
 > [!tweet] @NovaSpark_Mars · Dec 26, 2025
@@ -29,6 +36,11 @@ url: "https://x.com/NovaSpark_Mars/status/2004577970531254533"
 
 This tip advocates writing docstrings *before* writing code, contrasting it with the common practice of adding them as an afterthought. By writing the documentation first, you force yourself to clearly define the function's purpose, inputs, and outputs upfront, preventing code from drifting away from its intended design. No specific commands or tools are demonstrated, but the key takeaway is the shift in workflow to prioritize documentation.
 
+## Keywords
+
+**Primary:** `Docstring First` · docstring, documentation, gradient optimization, code quality, best practices, programming
+
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 0 · **Replies:** 0 · **Reposts:** 0 · **Views:** 0
@@ -37,3 +49,13 @@ This tip advocates writing docstrings *before* writing code, contrasting it with
 > **Source:** tips · **Quality:** 5/10
 > **Curated:** ✓ · **Reply:** ✗
 > **ID:** [2004577970531254533](https://x.com/NovaSpark_Mars/status/2004577970531254533)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ℹ️ standalone
+  classification: ❌ not classified
+```

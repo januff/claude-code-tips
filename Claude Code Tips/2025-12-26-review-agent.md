@@ -1,13 +1,20 @@
 ---
+tweet_id: "2004696398915404011"
 created: 2025-12-26
 author: "@YonatanCale"
 display_name: "Yonatan Cale"
+primary_keyword: "review-agent"
 category: "other"
+llm_category: "subagents"
 tags:
 likes: 0
 views: 0
 engagement_score: 0
 url: "https://x.com/YonatanCale/status/2004696398915404011"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: false
 ---
 
 > [!tweet] @YonatanCale · Dec 26, 2025
@@ -19,6 +26,11 @@ url: "https://x.com/YonatanCale/status/2004696398915404011"
 
 This Claude Code tip suggests prioritizing the review of generated code over iterative prompting to fix common errors. Instead of spending excessive time getting the initial code generation perfect, dedicate more effort to a review agent for catching mistakes. This strategy optimizes workflow by leveraging the review agent's capabilities to efficiently identify and correct issues.
 
+## Keywords
+
+**Primary:** `review-agent` · code generation, mistakes, code review
+
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 0 · **Replies:** 0 · **Reposts:** 0 · **Views:** 0
@@ -27,3 +39,13 @@ This Claude Code tip suggests prioritizing the review of generated code over ite
 > **Source:** tips · **Quality:** 5/10
 > **Curated:** ✓ · **Reply:** ✗
 > **ID:** [2004696398915404011](https://x.com/YonatanCale/status/2004696398915404011)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ℹ️ standalone
+  classification: ❌ not classified
+```

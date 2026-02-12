@@ -1,13 +1,20 @@
 ---
+tweet_id: "2007179832300581177"
 created: 2026-01-02
 author: "@bcherny"
 display_name: "Boris Cherny"
+primary_keyword: "vanilla-setup"
+llm_category: "meta"
 tags:
   - type/thread
 likes: 45567
 views: 6050468
 engagement_score: 56527
 url: "https://x.com/bcherny/status/2007179832300581177"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: true
 ---
 
 > [!tweet] @bcherny · Jan 02, 2026
@@ -95,13 +102,16 @@ url: "https://x.com/bcherny/status/2007179832300581177"
 
 Claude Code creator Boris shares his surprisingly simple, out-of-the-box setup as an example, emphasizing that there's no single "right" way to use the tool. The key takeaway is Claude Code's adaptability; it's designed to be customized and hacked to fit individual workflows, as demonstrated by the diverse usage within the Claude Code team itself. This highlights the flexibility and user-centric approach to Claude Code's design.
 
+## Keywords
+
+**Primary:** `vanilla-setup` · default configuration, out-of-the-box, customization, personal setup
 ## Replies
 
 > [!reply] @MikeKhristo · Fri Jan 02 22:00:09 +0000 2026
 > @bcherny dude i thought you could be trusted, but light mode in terminal?
 > *400 likes*
 
-> [!tip]+ ↩️ @bcherny · Fri Jan 02 22:08:57 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @bcherny · Fri Jan 02 22:08:57 +0000 2026
 
 > @MikeKhristo Engineers literally stop by my desk to make fun of me
 
@@ -109,7 +119,7 @@ Claude Code creator Boris shares his surprisingly simple, out-of-the-box setup a
 > @bcherny This is great! Would you consider recording a screen share (just the setup) for us visual learners?
 > *63 likes*
 
-> [!tip]+ ↩️ @bcherny · Fri Jan 02 22:24:06 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @bcherny · Fri Jan 02 22:24:06 +0000 2026
 
 > @muxin_li Cool idea!
 
@@ -117,7 +127,7 @@ Claude Code creator Boris shares his surprisingly simple, out-of-the-box setup a
 > no mention of skills? 👀 i wrote a collection of skills that seem useful but unclear if cc actually references or uses them. was hoping to be able to slim down my claude md in favor of skills but at same time my team uses many different coding agents so team relies on https://t.co/OZ66okpmzM
 > *42 likes*
 
-> [!tip]+ ↩️ @bcherny · Fri Jan 02 21:19:45 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @bcherny · Fri Jan 02 21:19:45 +0000 2026
 
 > @kadokaelan Skills = slash commands, I use them interchangeably
 
@@ -129,7 +139,7 @@ Claude Code creator Boris shares his surprisingly simple, out-of-the-box setup a
 > are they working in the same repo? or on different projects?
 > *41 likes*
 
-> [!tip]+ ↩️ @bcherny · Fri Jan 02 20:05:23 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @bcherny · Fri Jan 02 20:05:23 +0000 2026
 
 > @ianpatrickhines Usually the same repo, but sometimes different repos
 
@@ -139,7 +149,7 @@ Claude Code creator Boris shares his surprisingly simple, out-of-the-box setup a
 > How big is your Claude markdown file, and is it used for coding style, general coding principles, specific ways you work, commands, or other stuff?
 > *27 likes*
 
-> [!tip]+ ↩️ @bcherny · Fri Jan 02 22:08:14 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @bcherny · Fri Jan 02 22:08:14 +0000 2026
 
 > @DeeperThrill Our checked in https://t.co/v4FOLUBHz9 is 2.5k tokens. It covers:
 > 
@@ -153,7 +163,7 @@ Claude Code creator Boris shares his surprisingly simple, out-of-the-box setup a
 > @bcherny How would you share “skills” to your team while keeping some skills personal? What is the workflow
 > *20 likes*
 
-> [!tip]+ ↩️ @bcherny · Fri Jan 02 22:10:26 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @bcherny · Fri Jan 02 22:10:26 +0000 2026
 
 > @leozc There are four directories you can put skills in depending what you want. https://t.co/ZfbA7Yf5hN
 
@@ -171,7 +181,7 @@ Claude Code creator Boris shares his surprisingly simple, out-of-the-box setup a
 > @bcherny can we ever expect a claude code linear integration
 > *12 likes*
 
-> [!tip]+ ↩️ @bcherny · Fri Jan 02 22:11:52 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @bcherny · Fri Jan 02 22:11:52 +0000 2026
 
 > @iirfan This exists! https://t.co/eWDDFsNPnN
 
@@ -185,12 +195,14 @@ Claude Code creator Boris shares his surprisingly simple, out-of-the-box setup a
 > How are you getting https://t.co/02XJTsAjNR to work with Claude in chrome?
 > *5 likes*
 
-> [!tip]+ ↩️ @bcherny · Fri Jan 02 22:27:44 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @bcherny · Fri Jan 02 22:27:44 +0000 2026
 
 > @chansearrington - Terminal =&gt; web: use &amp; to teleport the session
 > - Native CLI tools: either bash or MCP works great, don't overthink it
 > - https://t.co/XJ8WxOxjo0 + Claude in chrome: you have to --teleport the session locally first, for now
 
+
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 45,567 · **Replies:** 1,065 · **Reposts:** 5,480 · **Views:** 6,050,468
@@ -199,3 +211,13 @@ Claude Code creator Boris shares his surprisingly simple, out-of-the-box setup a
 > **Source:** tips · **Quality:** —/10
 > **Curated:** ✗ · **Reply:** ✗
 > **ID:** [2007179832300581177](https://x.com/bcherny/status/2007179832300581177)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ✅ (17 replies scraped)
+  classification: ❌ not classified
+```

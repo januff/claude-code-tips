@@ -1,13 +1,20 @@
 ---
+tweet_id: "2007579355762045121"
 created: 2026-01-03
 author: "@jarrodwatts"
 display_name: "Jarrod Watts"
+primary_keyword: "Claude HUD"
+llm_category: "tooling"
 tags:
   - type/thread
 likes: 2427
 views: 187510
 engagement_score: 2735
 url: "https://x.com/jarrodwatts/status/2007579355762045121"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: true
 ---
 
 > [!tweet] @jarrodwatts · Jan 03, 2026
@@ -40,6 +47,9 @@ url: "https://x.com/jarrodwatts/status/2007579355762045121"
 
 This tip introduces Claude HUD, a plugin for Claude Code that provides real-time insights into Claude's operation. It visualizes session context, tool execution, subagent activity, and progress on to-do lists. This allows users to gain a deeper understanding of Claude's processes and resource usage within a coding session.
 
+## Keywords
+
+**Primary:** `Claude HUD` · context remaining, tool execution, subagents running, to-do list progress, plugin
 ## Replies
 
 > [!reply] @kotobukiyas · Wed Dec 24 09:03:46 +0000 2025
@@ -56,7 +66,7 @@ This tip introduces Claude HUD, a plugin for Claude Code that provides real-time
 > Kthxbai
 > *24 likes*
 
-> [!tip]+ ↩️ @jarrodwatts · Sat Jan 03 23:22:00 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @jarrodwatts · Sat Jan 03 23:22:00 +0000 2026
 
 > @bread_ I’m doing like 10 hrs a day on Claude code rn, too much stuff to post
 
@@ -64,7 +74,7 @@ This tip introduces Claude HUD, a plugin for Claude Code that provides real-time
 > @jarrodwatts Finally a HUD to tell if Claude’s actually working… or just staring into the void 😂
 > *17 likes*
 
-> [!tip]+ ↩️ @jarrodwatts · Sat Jan 03 23:57:41 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @jarrodwatts · Sat Jan 03 23:57:41 +0000 2026
 
 > @is_lu_is Exactly why I made it lmao 
 > 
@@ -74,7 +84,7 @@ This tip introduces Claude HUD, a plugin for Claude Code that provides real-time
 > @jarrodwatts Nicely done. https://t.co/5yiMYixPmC
 > *2 likes*
 
-> [!tip]+ ↩️ @jarrodwatts · Sun Jan 04 23:21:41 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @jarrodwatts · Sun Jan 04 23:21:41 +0000 2026
 
 > @DeeperThrill 🫶
 
@@ -82,7 +92,7 @@ This tip introduces Claude HUD, a plugin for Claude Code that provides real-time
 > @jarrodwatts Massive! Will try, thank you Jarrod!
 > *2 likes*
 
-> [!tip]+ ↩️ @jarrodwatts · Sat Jan 03 23:20:57 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @jarrodwatts · Sat Jan 03 23:20:57 +0000 2026
 
 > @VittoStack Let me know what you think 🤝
 
@@ -90,7 +100,7 @@ This tip introduces Claude HUD, a plugin for Claude Code that provides real-time
 > @jarrodwatts incredible release! thanks Jarrod
 > *2 likes*
 
-> [!tip]+ ↩️ @jarrodwatts · Sat Jan 03 23:20:19 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @jarrodwatts · Sat Jan 03 23:20:19 +0000 2026
 
 > @SuhailKakar 🫶 thank you king
 
@@ -98,7 +108,7 @@ This tip introduces Claude HUD, a plugin for Claude Code that provides real-time
 > @jarrodwatts This is dooope
 > *1 likes*
 
-> [!tip]+ ↩️ @jarrodwatts · Sun Jan 04 00:07:55 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @jarrodwatts · Sun Jan 04 00:07:55 +0000 2026
 
 > @Rahatcodes Appreciate it sir 🫡
 
@@ -106,14 +116,14 @@ This tip introduces Claude HUD, a plugin for Claude Code that provides real-time
 > @jarrodwatts works on windows?
 > *1 likes*
 
-> [!tip]+ ↩️ @jarrodwatts · Sun Jan 04 11:37:38 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @jarrodwatts · Sun Jan 04 11:37:38 +0000 2026
 
 > @trialsid Seems like there may be an issue on windows atm, will investigate https://t.co/GOieHbbKyt
 
 > [!reply] @draginol · Sun Jan 04 02:34:22 +0000 2026
 > @jarrodwatts This is so awesome!
 
-> [!tip]+ ↩️ @jarrodwatts · Sun Jan 04 03:07:46 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @jarrodwatts · Sun Jan 04 03:07:46 +0000 2026
 
 > @draginol Thanks!
 
@@ -121,7 +131,7 @@ This tip introduces Claude HUD, a plugin for Claude Code that provides real-time
 > @jarrodwatts ggwp.
 > would this have been easier in React?
 
-> [!tip]+ ↩️ @jarrodwatts · Sun Jan 04 00:05:46 +0000 2026
+> [!tip]+ :leftwards_arrow_with_hook: @jarrodwatts · Sun Jan 04 00:05:46 +0000 2026
 
 > @LeviTurk Initially I made it as a separate panel that used Ink / React
 > 
@@ -129,43 +139,8 @@ This tip introduces Claude HUD, a plugin for Claude Code that provides real-time
 > 
 > I kept the existing code on another branch if you want to see / use it
 
-> [!reply] @stackingamd · Sat Jan 03 23:32:05 +0000 2026
-> @jarrodwatts holy status line
 
-> [!tip]+ ↩️ @jarrodwatts · Sun Jan 04 00:08:52 +0000 2026
-
-> @stackingamd Randomly stumbled across /statusline two days ago and vibed this project out
-
-> [!reply] @r_aravindhan · Sun Jan 04 00:02:05 +0000 2026
-> @jarrodwatts Thank you. This was something I was hoping for which is already there in open code
-
-> [!tip]+ ↩️ @jarrodwatts · Sun Jan 04 00:07:12 +0000 2026
-
-> @r_aravindhan It’s inspired by opencode - I found there panel really helpful to see what’s happening behind the scenes and decided to build it as a Claude code plugin.
-> 
-> I’m glad it’s helpful to others!
-
-> [!reply] @aslammdoctor · Sun Jan 04 03:00:15 +0000 2026
-> @jarrodwatts That was quick. I just tried and I am seeing some differences. Thoughts? https://t.co/78eyYfLV6a
-
-> [!tip]+ ↩️ @jarrodwatts · Sun Jan 04 03:06:22 +0000 2026
-
-> @aslammdoctor The first image is your rate limits, whereas the claude-hud bar is measuring the current conversation's context window
-
-> [!reply] @one_draw_nick · Sun Jan 04 03:40:17 +0000 2026
-> @jarrodwatts It’s just a status bar
-
-> [!tip]+ ↩️ @jarrodwatts · Sun Jan 04 04:56:41 +0000 2026
-
-> @one_draw_nick it's simple - i wanted it to be useful but not distracting
-
-> [!reply] @sir4K_zen · Sun Jan 04 00:36:39 +0000 2026
-> @jarrodwatts Sick update! This is going to save a ton of time
-
-> [!tip]+ ↩️ @jarrodwatts · Sun Jan 04 00:38:27 +0000 2026
-
-> @sir4K_zen Appreciate it!
-
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 2,427 · **Replies:** 82 · **Reposts:** 154 · **Views:** 187,510
@@ -174,3 +149,13 @@ This tip introduces Claude HUD, a plugin for Claude Code that provides real-time
 > **Source:** tips · **Quality:** —/10
 > **Curated:** ✗ · **Reply:** ✗
 > **ID:** [2007579355762045121](https://x.com/jarrodwatts/status/2007579355762045121)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ✅ (29 replies scraped)
+  classification: ❌ not classified
+```

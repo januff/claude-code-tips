@@ -1,13 +1,20 @@
 ---
+tweet_id: "2004678013020168195"
 created: 2025-12-26
 author: "@tyhouch"
 display_name: "Tyler"
+primary_keyword: "simulate-focus-group"
 category: "other"
+llm_category: "prompting"
 tags:
 likes: 3
 views: 331
 engagement_score: 0
 url: "https://x.com/tyhouch/status/2004678013020168195"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: false
 ---
 
 > [!tweet] @tyhouch · Dec 26, 2025
@@ -21,6 +28,11 @@ url: "https://x.com/tyhouch/status/2004678013020168195"
 
 This Claude tip demonstrates a powerful technique for gathering user feedback on a project. By prompting Claude to simulate a focus group and then synthesize the results into a summary document, you can efficiently filter out noise and identify key insights. The core action is using Claude for simulated qualitative research and automated reporting.
 
+## Keywords
+
+**Primary:** `simulate-focus-group` · project-review, summary-doc, filtering-signal-noise
+
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 3 · **Replies:** 0 · **Reposts:** 0 · **Views:** 331
@@ -29,3 +41,13 @@ This Claude tip demonstrates a powerful technique for gathering user feedback on
 > **Source:** tips · **Quality:** 5/10
 > **Curated:** ✓ · **Reply:** ✗
 > **ID:** [2004678013020168195](https://x.com/tyhouch/status/2004678013020168195)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ℹ️ standalone
+  classification: ❌ not classified
+```

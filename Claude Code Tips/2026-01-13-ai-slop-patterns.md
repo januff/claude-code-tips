@@ -1,13 +1,21 @@
 ---
+tweet_id: "2010913846978924979"
 created: 2026-01-13
 author: "@alexhillman"
 display_name: "📙 Alex Hillman"
+primary_keyword: "AI Slop Patterns"
+llm_category: "prompting"
+classification: "ACT_NOW"
 tags:
   - type/thread
 likes: 120
 views: 10311
 engagement_score: 683
 url: "https://x.com/alexhillman/status/2010913846978924979"
+enrichment_complete: true
+has_media: false
+has_links: false
+has_thread_context: true
 ---
 
 > [!tweet] @alexhillman · Jan 13, 2026
@@ -39,6 +47,12 @@ url: "https://x.com/alexhillman/status/2010913846978924979"
 
 This Claude Code tip outlines preferences for a direct and professional communication style with the AI. It emphasizes clear execution over excessive commentary by avoiding enthusiasm inflation, unnecessary validation, and common AI conversational filler. The goal is to streamline interactions by using neutral confirmations and stating information directly, without performative narration or hedging.
 
+## Keywords
+
+**Primary:** `AI Slop Patterns` · communication style, neutral confirmations, hedging, validation language, enthusiasm inflation
+## Classification
+
+**ACT_NOW** — Matches pending technique with 120 likes
 ## Replies
 
 > [!reply] @obsdmd · 2026-02-10T15:14:33+00:00
@@ -87,7 +101,7 @@ This Claude Code tip outlines preferences for a direct and professional communic
 > @alexhillman Anthropic found that phrasing instructions in the positive rather than the negative worked better. My feedback is that this has too many “no’s”. The problem with this is you’re kind of doing a “don’t think about elephants” thing with the context window, poisoning it.
 > *3 likes*
 
-> [!tip]+ ↩️ @alexhillman · 2026-01-14T12:47:27+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @alexhillman · 2026-01-14T12:47:27+00:00
 
 > @nateberkopec Interesting! Everything except the slop specific section has been working flawlessly for ~3 months but I'm game to try that approach!
 
@@ -97,7 +111,7 @@ This Claude Code tip outlines preferences for a direct and professional communic
 > **NEVER say "done", "ready", "works", or "feature complete" without SHOWING that it works.**
 > *1 likes*
 
-> [!tip]+ ↩️ @alexhillman · 2026-01-14T03:07:14+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @alexhillman · 2026-01-14T03:07:14+00:00
 
 > @brianball It's so interesting-i see folks post this and things like it often and I'm trying to figure out what I do different that I basically never get a false "done" or "ready"
 > 
@@ -107,14 +121,14 @@ This Claude Code tip outlines preferences for a direct and professional communic
 > @alexhillman The ellipses rule is so underrated. Half the responses sound like the AI is trying to hint at something instead of just saying it.
 > *1 likes*
 
-> [!tip]+ ↩️ @alexhillman · 2026-01-13T13:10:20+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @alexhillman · 2026-01-13T13:10:20+00:00
 
 > @bygregorr Hahaha it's big boomer vibes
 
 > [!reply] @JamieBrock19060 · 2026-01-13T22:42:31+00:00
 > @alexhillman Sounds like Post ChatGPT Stress Disorder
 
-> [!tip]+ ↩️ @alexhillman · 2026-01-13T23:58:08+00:00
+> [!tip]+ :leftwards_arrow_with_hook: @alexhillman · 2026-01-13T23:58:08+00:00
 
 > @JamieBrock19060 😂
 
@@ -124,9 +138,8 @@ This Claude Code tip outlines preferences for a direct and professional communic
 > [!reply] @JoshuaPoddoku · 2026-01-13T18:21:17+00:00
 > @alexhillman Ellipses rule is underrated, keeps tone crisp
 
-> [!reply] @nbbaier · 2026-01-13T03:19:41+00:00
-> @alexhillman I really need to make a global one
 
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** 120 · **Replies:** 7 · **Reposts:** 4 · **Views:** 10,311
@@ -135,3 +148,13 @@ This Claude Code tip outlines preferences for a direct and professional communic
 > **Source:** tips · **Quality:** —/10
 > **Curated:** ✗ · **Reply:** ✗
 > **ID:** [2010913846978924979](https://x.com/alexhillman/status/2010913846978924979)
+
+```
+enrichment:
+  summary: ✅
+  keywords: ✅
+  links: ℹ️ none
+  media: ℹ️ none
+  thread: ✅ (15 replies scraped)
+  classification: ✅ ACT_NOW
+```
