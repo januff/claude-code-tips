@@ -44,8 +44,8 @@
     "llm_analysis_rewrite_complete": "2026-02-11"
   },
   "active_task": {
-    "handoff": "plans/active/HANDOFF_obsidian-enrichment-audit.md",
-    "description": "Obsidian export upgrade \u2014 enrichment diagnostics, depth audit, author index, empty-text fix",
-    "prerequisite": "Start with /task-plan. No Chrome needed. Push after every commit."
+    "plan": "plans/active/TASK_PLAN.md",
+    "description": "Obsidian enrichment audit + export upgrade — 9 tasks from handoff",
+    "current_phase": "Phase 1: Audit & Diagnosis"
   }
 }
