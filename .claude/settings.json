@@ -5,12 +5,6 @@
       "Bash(gh :*)"
     ]
   },
-  "mcpServers": {
-    "playwriter": {
-      "command": "npx",
-      "args": ["playwriter@latest"]
-    }
-  },
   "hooks": {
     "PreCompact": [
       {
