@@ -1,0 +1,255 @@
+[
+  {
+    "id": "2021517624803573928",
+    "text": "Most people bookmark tweets and never look at them again\n\nSo I built an openclaw skill that reads your bookmarks and tells your agent what to actually do with them\n\nIt categorizes everything, extracts actions, and proposes work it can start on right now\n\nhttps://t.co/RcR4YpfUgi https://t.co/oVXENzGEqj",
+    "author": {
+      "handle": "@sharbel",
+      "name": "Sharbel"
+    },
+    "created_at": "2026-02-11T09:32:14.000Z",
+    "url": "https://x.com/sharbel/status/2021517624803573928",
+    "metrics": {
+      "replies": 153,
+      "retweets": 132,
+      "likes": 1642,
+      "bookmarks": 2289,
+      "views": 63870,
+      "quotes": 18
+    },
+    "conversation_id": "2021517624803573928",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HA3ewupXAAA6Sjj.jpg",
+        "expanded_url": "https://x.com/sharbel/status/2021517624803573928/photo/1",
+        "alt_text": null,
+        "video_url": null
+      }
+    ],
+    "card": null,
+    "urls": [
+      {
+        "short": "https://t.co/RcR4YpfUgi",
+        "expanded": "http://github.com/sharbelxyz/x-bookmarks"
+      }
+    ]
+  },
+  {
+    "id": "2021266983086588238",
+    "text": "The Firecrawl plugin is now available through Anthropic's official marketplace \ud83d\udd0c\n\n1. Run /plugin\n2. Install Firecrawl\n3. Ask Claude to fetch the web data you need\n\nScrape and extract data from any website, directly inside Claude Code! https://t.co/hjGb9WSiRD",
+    "author": {
+      "handle": "@firecrawl",
+      "name": "Firecrawl"
+    },
+    "created_at": "2026-02-10T16:56:16.000Z",
+    "url": "https://x.com/firecrawl/status/2021266983086588238",
+    "metrics": {
+      "replies": 29,
+      "retweets": 84,
+      "likes": 974,
+      "bookmarks": 1231,
+      "views": 80851,
+      "quotes": 8
+    },
+    "conversation_id": "2021266983086588238",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2021266924555075586/img/CsWvB4MpzJ0ye0ew.jpg",
+        "expanded_url": "https://x.com/firecrawl/status/2021266983086588238/video/1",
+        "alt_text": null,
+        "video_url": "https://video.twimg.com/amplify_video/2021266924555075586/vid/avc1/478x270/GScqtTYuHxtzVCHH.mp4?tag=14"
+      }
+    ],
+    "card": null,
+    "urls": []
+  },
+  {
+    "id": "2021012074160324633",
+    "text": "Claude Code Desktop now supports --dangerously-skip-permissions!\n\nThis skips all permission prompts so Claude can operate fully autonomously. Great for workflows in a trusted environment where you want no interruptions, no approval prompts, just uninterrupted work.\n\nBut as the name suggests... use it with caution! \ud83d\ude4f",
+    "author": {
+      "handle": "@lydiahallie",
+      "name": "Lydia Hallie \u2728"
+    },
+    "created_at": "2026-02-10T00:03:21.000Z",
+    "url": "https://x.com/lydiahallie/status/2021012074160324633",
+    "metrics": {
+      "replies": 108,
+      "retweets": 113,
+      "likes": 1334,
+      "bookmarks": 660,
+      "views": 387304,
+      "quotes": 52
+    },
+    "conversation_id": "2021012074160324633",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2021010974942298117/img/C4ulhobB-nGin0w2.jpg",
+        "expanded_url": "https://x.com/lydiahallie/status/2021012074160324633/video/1",
+        "alt_text": null,
+        "video_url": null
+      }
+    ],
+    "card": null,
+    "urls": []
+  },
+  {
+    "id": "2021632916359655893",
+    "text": "We've added Plan Mode to Claude Code in Slack. \n\nWhen you give Claude a complex task it will ask you clarifying questions and show you an implementation plan before proceeding. https://t.co/qAugPBEnLm",
+    "author": {
+      "handle": "@trq212",
+      "name": "Thariq"
+    },
+    "created_at": "2026-02-11T17:10:22.000Z",
+    "url": "https://x.com/trq212/status/2021632916359655893",
+    "metrics": {
+      "replies": 46,
+      "retweets": 32,
+      "likes": 631,
+      "bookmarks": 230,
+      "views": 129204,
+      "quotes": 14
+    },
+    "conversation_id": "2021632916359655893",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2021632047123668992/img/ylhBhJXMD3tchUU2.jpg",
+        "expanded_url": "https://x.com/trq212/status/2021632916359655893/video/1",
+        "alt_text": null,
+        "video_url": "https://video.twimg.com/amplify_video/2021632047123668992/vid/avc1/480x270/AvZhnDrx8_KDpO8F.mp4?tag=21"
+      }
+    ],
+    "card": null,
+    "urls": []
+  },
+  {
+    "id": "2019469032844587505",
+    "text": "Claude Code now supports agent teams (in research preview)\n\nInstead of a single agent working through a task sequentially, a lead agent can delegate to multiple teammates that work in parallel to research, debug, and build while coordinating with each other.\n\nTry it out today by enabling agent teams in your settings.json!",
+    "author": {
+      "handle": "@lydiahallie",
+      "name": "Lydia Hallie \u2728"
+    },
+    "created_at": "2026-02-05T17:51:52.000Z",
+    "url": "https://x.com/lydiahallie/status/2019469032844587505",
+    "metrics": {
+      "replies": 209,
+      "retweets": 471,
+      "likes": 5022,
+      "bookmarks": 4132,
+      "views": 1379784,
+      "quotes": 202
+    },
+    "conversation_id": "2019469032844587505",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2019467383505924096/img/y8PJFj92TQdi95xR.jpg",
+        "expanded_url": "https://x.com/lydiahallie/status/2019469032844587505/video/1",
+        "alt_text": null,
+        "video_url": null
+      }
+    ],
+    "card": null,
+    "urls": []
+  },
+  {
+    "id": "2021699851499798911",
+    "text": "Reflecting on what engineers love about Claude Code, one thing that jumps out is its customizability: hooks, plugins, LSPs, MCPs, skills, effort, custom agents, status lines, output styles, etc.\n\nEvery engineer uses their tools differently. We built Claude Code from the ground up to not just have great defaults, but to also be incredibly customizable. This is a reason why developers fall in love with the product, and why Claude Code's growth continues to accelerate.  \n\nI wanted to share a few ways we're seeing people and teams customize their Claudes.",
+    "author": {
+      "handle": "@bcherny",
+      "name": "Boris Cherny"
+    },
+    "created_at": "2026-02-11T21:36:20.000Z",
+    "url": "https://x.com/bcherny/status/2021699851499798911",
+    "metrics": {
+      "replies": 82,
+      "retweets": 170,
+      "likes": 2061,
+      "bookmarks": 3076,
+      "views": 206879,
+      "quotes": 30
+    },
+    "conversation_id": "2021699851499798911",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [],
+    "card": null,
+    "urls": []
+  },
+  {
+    "id": "2021718924430389424",
+    "text": "Claude Code on desktop now supports local plugins\n\nInstall custom slash commands, skills, and MCP servers from the marketplace. They sync automatically across desktop and CLI! https://t.co/EErN7knKWC",
+    "author": {
+      "handle": "@lydiahallie",
+      "name": "Lydia Hallie \u2728"
+    },
+    "created_at": "2026-02-11T22:52:07.000Z",
+    "url": "https://x.com/lydiahallie/status/2021718924430389424",
+    "metrics": {
+      "replies": 41,
+      "retweets": 41,
+      "likes": 606,
+      "bookmarks": 278,
+      "views": 47854,
+      "quotes": 6
+    },
+    "conversation_id": "2021718924430389424",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2021718131740434432/img/G_RQzD36V9lKkIhl.jpg",
+        "expanded_url": "https://x.com/lydiahallie/status/2021718924430389424/video/1",
+        "alt_text": null,
+        "video_url": "https://video.twimg.com/amplify_video/2021718131740434432/vid/avc1/422x270/2HpAmvwkFaSt3prM.mp4?tag=21"
+      }
+    ],
+    "card": null,
+    "urls": []
+  },
+  {
+    "id": "2021650827233169662",
+    "text": "Want to set up a Claude Code customization, but don't want to read docs? \n\nMy favorite shortcut is to ask the claude code guide agent to set up the customization for me. I use this to create all of my slash commands and hooks. https://t.co/DRqXKUvvrX",
+    "author": {
+      "handle": "@_catwu",
+      "name": "cat"
+    },
+    "created_at": "2026-02-11T18:21:32.000Z",
+    "url": "https://x.com/_catwu/status/2021650827233169662",
+    "metrics": {
+      "replies": 25,
+      "retweets": 22,
+      "likes": 385,
+      "bookmarks": 280,
+      "views": 19180,
+      "quotes": 3
+    },
+    "conversation_id": "2021650827233169662",
+    "is_reply": false,
+    "in_reply_to": null,
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HA5YYyAbsAM8ldI.jpg",
+        "expanded_url": "https://x.com/_catwu/status/2021650827233169662/photo/1",
+        "alt_text": null,
+        "video_url": null
+      }
+    ],
+    "card": null,
+    "urls": []
+  }
+]

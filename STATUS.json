@@ -24,9 +24,7 @@
     "Phase 7: daily_monitor.py, analyze_new_tips.py, generate_briefing.py, setup_cron.sh",
     "Phase 6: enhance_vault.py — topic clusters, wiki-links, adoption tags (706 lines)",
     "Phase 5: /review and /review-plan commands with cross-model CLI support",
-    "Phase 4: /daily-summary, /weekly-review, /goals-audit commands",
-    "Phase 3: pre-compact + session-end hooks, settings.json config",
-    "Phase 2: /task-plan command, plan-aware wrap-up and start-session"
+    "Phase 4: /daily-summary, /weekly-review, /goals-audit commands"
   ],
   "known_issues": [
     "analyze_new_tips.py keyword matching is non-functional — LLM rewrite in progress",
@@ -44,6 +42,7 @@
     "autonomous_monitor_planned": "2026-02-11",
     "autonomous_monitor_complete": "2026-02-11",
     "first_pipeline_test": "2026-02-11",
-    "llm_analysis_rewrite_planned": "2026-02-11"
+    "llm_analysis_rewrite_planned": "2026-02-11",
+    "last_monitor_run": "2026-02-11"
   }
 }

@@ -1,74 +1,45 @@
 #!/usr/bin/env python3
 """
-Analyze new tips against existing knowledge base (LEARNINGS.md, PROGRESS.md).
+Analyze new tips against existing knowledge base using LLM classification.
 
-Cross-references new tweets against:
-- LEARNINGS.md — techniques we're watching or using
-- plans/PROGRESS.md — adoption status of techniques
-- Hall-of-fake STATUS.json — cross-project needs (if available)
+Sends each tweet to Gemini with project context for intelligent categorization.
+Cross-references against LEARNINGS.md, PROGRESS.md, and hall-of-fake needs.
 
 Categorizes each tip:
-- ACT_NOW     — high-signal, directly applicable to current work
-- EXPERIMENT  — interesting technique, worth a spike
+- ACT_NOW     — genuinely new, directly applicable to current work (should be rare)
+- EXPERIMENT  — interesting technique, worth investigating
 - NOTED       — good to know, no action needed
-- NOISE       — low-signal, skip
+- NOISE       — low-signal for our specific workflow
 
 Usage:
     python scripts/analyze_new_tips.py                      # Analyze since last run
     python scripts/analyze_new_tips.py --since 2026-02-10   # Analyze since specific date
     python scripts/analyze_new_tips.py --ids 123,456,789    # Analyze specific tweet IDs
-    python scripts/analyze_new_tips.py --dry-run             # Preview without writing output
+    python scripts/analyze_new_tips.py --dry-run             # Preview without producing output
+    python scripts/analyze_new_tips.py --no-llm              # Engagement-only heuristic (no API key needed)
 
 Output: JSON to stdout (or --output file) with structured analysis per tip.
 """
 
 import argparse
 import json
-import re
+import os
 import sqlite3
 import sys
+import time
 from datetime import datetime
 from pathlib import Path
 
+from dotenv import load_dotenv
 
 # Project root
 ROOT = Path(__file__).parent.parent
+
+# Load environment variables from .env file
+load_dotenv(ROOT / ".env")
 DB_PATH = ROOT / "data" / "claude_code_tips_v2.db"
-LEARNINGS_PATH = ROOT / "LEARNINGS.md"
-PROGRESS_PATH = ROOT / "plans" / "PROGRESS.md"
+PROJECT_CONTEXT_PATH = ROOT / ".claude" / "references" / "project-context-for-analysis.md"
 HOF_STATUS_PATH = ROOT / ".." / "Hall of Fake" / "STATUS.json"
-
-# Engagement thresholds for signal classification
-HIGH_ENGAGEMENT_LIKES = 500
-MEDIUM_ENGAGEMENT_LIKES = 100
-
-# Keywords and patterns that indicate high relevance to our workflow
-WORKFLOW_KEYWORDS = {
-    "act_now": [
-        # Things we actively use
-        "claude.md", "handoff", "delegation", "obsidian", "sqlite",
-        "playwriter", "mcp", "bookmark", "export", "vault",
-        # Things we're actively building
-        "cron", "monitor", "pipeline", "enrichment", "briefing",
-        "pre-compact", "hook", "wrap-up", "daily-summary",
-        # Active project needs
-        "skills", "slash command", "commands/",
-    ],
-    "experiment": [
-        # Things in PROGRESS.md as PENDING
-        "subagent", "parallel claude", "ralph wiggum", "compaction",
-        "posttooluseooks", "auto-accept", "permissions",
-        "teleport", "verify", "code-simplifier",
-        # Interesting techniques
-        "agent sdk", "codex", "cross-model", "review",
-        "gemini", "openrouter", "token budget",
-    ],
-    "watch": [
-        # Things in LEARNINGS.md "Watching" section
-        "beads", "agent mail", "agent swarm", "voice", "stt",
-        "lsp", "language server",
-    ],
-}
 
 
 def load_text_file(path: Path) -> str:
@@ -85,59 +56,6 @@ def load_json_file(path: Path) -> dict:
         return json.loads(path.read_text(encoding="utf-8"))
     except (FileNotFoundError, OSError, json.JSONDecodeError):
         return {}
-
-
-def extract_adopted_techniques(progress_text: str) -> set[str]:
-    """Extract technique names that are ADOPTED from PROGRESS.md."""
-    adopted = set()
-    for line in progress_text.splitlines():
-        if "ADOPTED" in line and "|" in line:
-            # Extract tip name from table row: | Tip Name | Status | ...
-            parts = [p.strip() for p in line.split("|")]
-            if len(parts) >= 2:
-                tip_name = parts[1].strip("* ").lower()
-                if tip_name and tip_name != "tip" and tip_name != "status":
-                    adopted.add(tip_name)
-    return adopted
-
-
-def extract_pending_techniques(progress_text: str) -> set[str]:
-    """Extract technique names that are PENDING from PROGRESS.md."""
-    pending = set()
-    for line in progress_text.splitlines():
-        if "PENDING" in line and "|" in line:
-            parts = [p.strip() for p in line.split("|")]
-            if len(parts) >= 2:
-                tip_name = parts[1].strip("* ").lower()
-                if tip_name and tip_name != "tip" and tip_name != "status":
-                    pending.add(tip_name)
-    return pending
-
-
-def extract_learnings_sections(learnings_text: str) -> dict[str, list[str]]:
-    """Parse LEARNINGS.md into sections with their technique keywords."""
-    sections = {
-        "daily": [],
-        "experimenting": [],
-        "try_next": [],
-        "watching": [],
-    }
-    current_section = None
-    for line in learnings_text.splitlines():
-        lower = line.lower().strip()
-        if "techniques we use daily" in lower:
-            current_section = "daily"
-        elif "experimenting with" in lower:
-            current_section = "experimenting"
-        elif "techniques to try next" in lower:
-            current_section = "try_next"
-        elif "watching" in lower and "not yet convinced" in lower:
-            current_section = "watching"
-        elif current_section and line.startswith("### "):
-            # Extract technique name from heading
-            technique = line.lstrip("# ").strip().lower()
-            sections[current_section].append(technique)
-    return sections
 
 
 def get_new_tweets(
@@ -190,180 +108,136 @@ def get_new_tweets(
     return tweets
 
 
-def classify_tip(
-    tweet: dict,
-    adopted: set[str],
-    pending: set[str],
-    learnings_sections: dict[str, list[str]],
-    hof_needs: list[str],
-) -> dict:
-    """Classify a single tip into ACT_NOW / EXPERIMENT / NOTED / NOISE.
+def classify_with_gemini(client, tweet: dict, project_context: str, hof_context: str) -> dict:
+    """Classify a single tip using Gemini LLM.
 
-    Returns a dict with:
-    - category: one of ACT_NOW, EXPERIMENT, NOTED, NOISE
-    - reason: why this classification was chosen
-    - relevance: list of matching context (technique names, project needs)
-    - proposed_action: what to do about it (if any)
+    Returns a dict with category, reason, relevance, proposed_action.
+    Falls back to NOTED with error reason on failure.
     """
-    text_lower = (tweet.get("text") or "").lower()
-    keyword = (tweet.get("primary_keyword") or "").lower()
-    summary = (tweet.get("holistic_summary") or "").lower()
-    likes = tweet.get("likes") or 0
-    keywords_json = tweet.get("keywords_json") or "[]"
+    handle = tweet.get("handle", "unknown")
+    display_name = tweet.get("display_name", "")
+    likes = tweet.get("likes", 0)
+    reposts = tweet.get("reposts", 0)
+    views = tweet.get("views", 0)
+    text = tweet.get("text", "")
+    summary = tweet.get("holistic_summary", "")
+    keywords = tweet.get("keywords_json", "[]")
+    card_url = tweet.get("card_url", "")
+
+    card_line = f"\nLinked URL: {card_url}" if card_url else ""
+
+    prompt = f"""You are classifying a Claude Code tip for a daily briefing.
+
+PROJECT CONTEXT:
+{project_context}
+{hof_context}
+TWEET TO CLASSIFY:
+Author: @{handle} ({display_name})
+Likes: {likes} | Reposts: {reposts} | Views: {views}
+Text: {text}
+Summary: {summary}
+Keywords: {keywords}{card_line}
+
+Classify this tip into exactly one category:
+- ACT_NOW: Genuinely new technique that's directly applicable to our active work. Should be rare.
+- EXPERIMENT: Interesting technique worth investigating, or relevant to something we're building.
+- NOTED: Good to know but no action needed. Includes updates on things we already use.
+- NOISE: Low signal for our specific workflow.
+
+Return JSON only (no markdown):
+{{"category": "ACT_NOW|EXPERIMENT|NOTED|NOISE", "reason": "1-2 sentence explanation", "relevance": ["specific connections to our project"], "proposed_action": "what to do, or null"}}"""
 
     try:
-        keywords = json.loads(keywords_json)
-    except (json.JSONDecodeError, TypeError):
-        keywords = []
+        response = client.models.generate_content(
+            model="gemini-2.0-flash",
+            contents=prompt,
+        )
 
-    all_text = f"{text_lower} {keyword} {summary} {' '.join(k.lower() for k in keywords)}"
+        text_resp = response.text.strip()
 
-    relevance = []
-    reasons = []
+        # Handle markdown-wrapped JSON
+        if text_resp.startswith("```"):
+            text_resp = text_resp.split("\n", 1)[1]
+            text_resp = text_resp.rsplit("```", 1)[0]
 
-    # Check against act_now keywords (things we actively use or build)
-    act_now_matches = [
-        kw for kw in WORKFLOW_KEYWORDS["act_now"] if kw in all_text
-    ]
-    if act_now_matches:
-        relevance.extend([f"workflow match: {m}" for m in act_now_matches])
+        parsed = json.loads(text_resp)
 
-    # Check against experiment keywords
-    experiment_matches = [
-        kw for kw in WORKFLOW_KEYWORDS["experiment"] if kw in all_text
-    ]
-    if experiment_matches:
-        relevance.extend([f"experiment match: {m}" for m in experiment_matches])
+        # Unwrap if API wrapped in list
+        if isinstance(parsed, list) and len(parsed) > 0:
+            parsed = parsed[0]
 
-    # Check against PROGRESS.md pending techniques
-    pending_matches = [
-        tech for tech in pending
-        if any(word in all_text for word in tech.split() if len(word) > 3)
-    ]
-    if pending_matches:
-        relevance.extend([f"pending in PROGRESS.md: {m}" for m in pending_matches])
-        reasons.append("matches pending technique")
+        # Validate category
+        valid_categories = {"ACT_NOW", "EXPERIMENT", "NOTED", "NOISE"}
+        if parsed.get("category") not in valid_categories:
+            parsed["category"] = "NOTED"
+            parsed["reason"] = f"Invalid category returned, defaulting to NOTED. Original: {parsed.get('reason', '')}"
 
-    # Check against adopted techniques (lower priority — we already use these)
-    adopted_matches = [
-        tech for tech in adopted
-        if any(word in all_text for word in tech.split() if len(word) > 3)
-    ]
-    if adopted_matches:
-        relevance.extend([f"already adopted: {m}" for m in adopted_matches])
+        # Ensure all fields exist
+        parsed.setdefault("reason", "")
+        parsed.setdefault("relevance", [])
+        parsed.setdefault("proposed_action", None)
 
-    # Check against LEARNINGS.md sections
-    for section, techniques in learnings_sections.items():
-        for tech in techniques:
-            tech_words = [w for w in tech.split() if len(w) > 3]
-            if any(w in all_text for w in tech_words):
-                relevance.extend([f"LEARNINGS/{section}: {tech}"])
+        return parsed
 
-    # Check against hall-of-fake needs
-    hof_matches = [need for need in hof_needs if need.lower() in all_text]
-    if hof_matches:
-        relevance.extend([f"hall-of-fake need: {m}" for m in hof_matches])
-        reasons.append("relevant to hall-of-fake")
-
-    # --- Classification logic ---
-
-    # ACT_NOW: high engagement + directly relevant to active work
-    if likes >= HIGH_ENGAGEMENT_LIKES and act_now_matches:
-        return {
-            "category": "ACT_NOW",
-            "reason": f"High engagement ({likes} likes) + directly relevant to active workflow",
-            "relevance": relevance,
-            "proposed_action": f"Review and consider integrating: {', '.join(act_now_matches[:3])}",
-        }
-
-    # ACT_NOW: matches pending technique in PROGRESS.md with decent engagement
-    if pending_matches and likes >= MEDIUM_ENGAGEMENT_LIKES:
-        return {
-            "category": "ACT_NOW",
-            "reason": f"Matches pending technique with {likes} likes",
-            "relevance": relevance,
-            "proposed_action": f"This may help with: {', '.join(pending_matches[:3])}",
-        }
-
-    # EXPERIMENT: interesting technique or moderate engagement with some relevance
-    if experiment_matches and likes >= MEDIUM_ENGAGEMENT_LIKES:
-        return {
-            "category": "EXPERIMENT",
-            "reason": f"Experiment-worthy technique with {likes} likes",
-            "relevance": relevance,
-            "proposed_action": f"Consider spiking: {', '.join(experiment_matches[:3])}",
-        }
-
-    if likes >= HIGH_ENGAGEMENT_LIKES and relevance:
-        return {
-            "category": "EXPERIMENT",
-            "reason": f"High engagement ({likes} likes) with some relevance",
-            "relevance": relevance,
-            "proposed_action": "Review for potential adoption",
-        }
-
-    # High engagement alone is worth noting even without keyword match
-    if likes >= HIGH_ENGAGEMENT_LIKES:
-        return {
-            "category": "EXPERIMENT",
-            "reason": f"Very high engagement ({likes} likes) — community signal",
-            "relevance": relevance or ["high community engagement"],
-            "proposed_action": "Read and evaluate — community strongly validates this",
-        }
-
-    # NOTED: some relevance but lower engagement, or adopted technique update
-    if relevance and likes >= 10:
+    except json.JSONDecodeError as e:
+        print(f"  JSON parse error for {tweet.get('id')}: {e}", file=sys.stderr)
+        # Try to extract category from raw text
+        text_upper = (text_resp or "").upper()
+        for cat in ["ACT_NOW", "EXPERIMENT", "NOTED", "NOISE"]:
+            if cat in text_upper:
+                return {
+                    "category": cat,
+                    "reason": f"Extracted from malformed response (JSON parse failed)",
+                    "relevance": [],
+                    "proposed_action": None,
+                }
         return {
             "category": "NOTED",
-            "reason": f"Some relevance ({likes} likes)",
-            "relevance": relevance,
+            "reason": "Classification failed — review manually",
+            "relevance": [],
+            "proposed_action": None,
+        }
+    except Exception as e:
+        print(f"  API error for {tweet.get('id')}: {e}", file=sys.stderr)
+        return {
+            "category": "NOTED",
+            "reason": f"Classification failed ({type(e).__name__}) — review manually",
+            "relevance": [],
             "proposed_action": None,
         }
 
-    if adopted_matches:
+
+def classify_engagement_only(tweet: dict) -> dict:
+    """Simple engagement-only heuristic for --no-llm mode."""
+    likes = tweet.get("likes", 0)
+
+    if likes >= 2000:
+        return {
+            "category": "EXPERIMENT",
+            "reason": f"Very high engagement ({likes} likes) — no LLM classification",
+            "relevance": ["high community engagement"],
+            "proposed_action": "Review manually — LLM classification was skipped",
+        }
+    elif likes >= 500:
         return {
             "category": "NOTED",
-            "reason": "Update on already-adopted technique",
-            "relevance": relevance,
+            "reason": f"Moderate engagement ({likes} likes) — no LLM classification",
+            "relevance": [],
+            "proposed_action": None,
+        }
+    else:
+        return {
+            "category": "NOISE",
+            "reason": f"Low engagement ({likes} likes) — no LLM classification",
+            "relevance": [],
             "proposed_action": None,
         }
 
-    # NOISE: low engagement, no relevance
-    return {
-        "category": "NOISE",
-        "reason": f"Low signal ({likes} likes, no keyword matches)",
-        "relevance": relevance or [],
-        "proposed_action": None,
-    }
 
+def analyze_tips(tweets: list[dict], classifier_fn) -> dict:
+    """Analyze a list of tweets using the provided classifier function.
 
-def analyze_tips(
-    tweets: list[dict],
-    adopted: set[str],
-    pending: set[str],
-    learnings_sections: dict[str, list[str]],
-    hof_needs: list[str],
-) -> dict:
-    """Analyze a list of tweets and return structured analysis.
-
-    Returns:
-    {
-        "analyzed_at": ISO timestamp,
-        "tweet_count": N,
-        "categories": {
-            "ACT_NOW": [...],
-            "EXPERIMENT": [...],
-            "NOTED": [...],
-            "NOISE": [...]
-        },
-        "summary": {
-            "act_now_count": N,
-            "experiment_count": N,
-            "noted_count": N,
-            "noise_count": N,
-            "top_engagement": {...}
-        }
-    }
+    Returns structured analysis with categories dict and summary.
     """
     categories = {
         "ACT_NOW": [],
@@ -372,10 +246,15 @@ def analyze_tips(
         "NOISE": [],
     }
 
-    for tweet in tweets:
-        classification = classify_tip(
-            tweet, adopted, pending, learnings_sections, hof_needs
+    for i, tweet in enumerate(tweets):
+        print(
+            f"  [{i + 1}/{len(tweets)}] @{tweet.get('handle', '?')} "
+            f"({tweet.get('likes', 0)} likes): "
+            f"{(tweet.get('text') or '')[:50]}...",
+            file=sys.stderr,
         )
+
+        classification = classifier_fn(tweet)
 
         entry = {
             "tweet_id": tweet["id"],
@@ -416,14 +295,16 @@ def analyze_tips(
                 "tweet_id": top_tweet["tweet_id"],
                 "likes": top_tweet["likes"],
                 "author": top_tweet["author"],
-            } if top_tweet else None,
+            }
+            if top_tweet
+            else None,
         },
     }
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Analyze new tips against LEARNINGS.md and PROGRESS.md"
+        description="Analyze new tips using Gemini LLM classification"
     )
     parser.add_argument(
         "--since",
@@ -442,7 +323,8 @@ def main():
         help="Path to tips database",
     )
     parser.add_argument(
-        "--output", "-o",
+        "--output",
+        "-o",
         type=Path,
         help="Write analysis JSON to file (default: stdout)",
     )
@@ -450,6 +332,11 @@ def main():
         "--dry-run",
         action="store_true",
         help="Show what would be analyzed without producing output",
+    )
+    parser.add_argument(
+        "--no-llm",
+        action="store_true",
+        help="Use engagement-only heuristic (no API key needed)",
     )
 
     args = parser.parse_args()
@@ -462,24 +349,6 @@ def main():
     tweet_ids = None
     if args.ids:
         tweet_ids = [tid.strip() for tid in args.ids.split(",") if tid.strip()]
-
-    # Load context files
-    learnings_text = load_text_file(LEARNINGS_PATH)
-    progress_text = load_text_file(PROGRESS_PATH)
-
-    adopted = extract_adopted_techniques(progress_text)
-    pending = extract_pending_techniques(progress_text)
-    learnings_sections = extract_learnings_sections(learnings_text)
-
-    # Load hall-of-fake needs (skip gracefully if not available)
-    hof_status = load_json_file(HOF_STATUS_PATH)
-    hof_needs = []
-    if hof_status:
-        # Extract any known_issues or active tasks as "needs"
-        hof_needs = hof_status.get("known_issues", [])
-        active = hof_status.get("active_task", {})
-        if isinstance(active, dict) and active.get("description"):
-            hof_needs.append(active["description"])
 
     # Fetch tweets
     tweets = get_new_tweets(args.db, since=args.since, tweet_ids=tweet_ids)
@@ -507,16 +376,67 @@ def main():
     if args.dry_run:
         print(f"Would analyze {len(tweets)} tweets:")
         for t in tweets[:20]:
-            print(f"  {t['id']} | {t.get('likes', 0)} likes | @{t.get('handle', '?')} | {(t.get('text') or '')[:60]}...")
-        print(f"\nContext loaded:")
-        print(f"  Adopted techniques: {len(adopted)}")
-        print(f"  Pending techniques: {len(pending)}")
-        print(f"  LEARNINGS sections: {sum(len(v) for v in learnings_sections.values())} techniques")
-        print(f"  Hall-of-fake needs: {len(hof_needs)}")
+            print(
+                f"  {t['id']} | {t.get('likes', 0)} likes | "
+                f"@{t.get('handle', '?')} | {(t.get('text') or '')[:60]}..."
+            )
+        if len(tweets) > 20:
+            print(f"  ... and {len(tweets) - 20} more")
+        print(f"\nMode: {'engagement-only (--no-llm)' if args.no_llm else 'Gemini LLM classification'}")
         return 0
 
+    # Set up classifier
+    if args.no_llm:
+        print("Using engagement-only heuristic (--no-llm)", file=sys.stderr)
+        classifier_fn = classify_engagement_only
+    else:
+        # Initialize Gemini client
+        api_key = os.environ.get("GOOGLE_API_KEY")
+        if not api_key:
+            print(
+                "Error: GOOGLE_API_KEY environment variable required. "
+                "Use --no-llm for engagement-only heuristic.",
+                file=sys.stderr,
+            )
+            return 1
+
+        from google import genai
+
+        client = genai.Client(api_key=api_key)
+
+        # Load project context
+        project_context = load_text_file(PROJECT_CONTEXT_PATH)
+        if not project_context:
+            print(
+                "Warning: project-context-for-analysis.md not found, "
+                "classification will lack project awareness",
+                file=sys.stderr,
+            )
+
+        # Load hall-of-fake context
+        hof_status = load_json_file(HOF_STATUS_PATH)
+        hof_context = ""
+        if hof_status:
+            hof_desc = ""
+            active = hof_status.get("active_task", {})
+            if isinstance(active, dict) and active.get("description"):
+                hof_desc = active["description"]
+            hof_issues = hof_status.get("known_issues", [])
+            if hof_desc or hof_issues:
+                hof_context = "\nCROSS-PROJECT (hall-of-fake sibling repo):\n"
+                if hof_desc:
+                    hof_context += f"Active task: {hof_desc}\n"
+                if hof_issues:
+                    hof_context += f"Known issues: {'; '.join(hof_issues[:3])}\n"
+
+        def classifier_fn(tweet):
+            result = classify_with_gemini(client, tweet, project_context, hof_context)
+            time.sleep(0.5)  # Rate limit — match enrichment scripts
+            return result
+
     # Run analysis
-    result = analyze_tips(tweets, adopted, pending, learnings_sections, hof_needs)
+    print(f"Analyzing {len(tweets)} tweets...", file=sys.stderr)
+    result = analyze_tips(tweets, classifier_fn)
 
     # Output
     output_json = json.dumps(result, indent=2, ensure_ascii=False)
