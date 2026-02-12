@@ -56,9 +56,14 @@ class Tweet:
     holistic_summary: Optional[str] = None
     one_liner: Optional[str] = None
 
+    # Analysis classification (from daily analysis JSON)
+    classification: Optional[str] = None  # ACT_NOW, EXPERIMENT, NOTED, NOISE
+    classification_reason: Optional[str] = None
+
     # Related data
     media: list['Media'] = field(default_factory=list)
     replies_list: list['Reply'] = field(default_factory=list)
+    links: list['Link'] = field(default_factory=list)
 
     @property
     def has_code(self) -> bool:
@@ -71,6 +76,54 @@ class Tweet:
     @property
     def has_external_link(self) -> bool:
         return self.card_url is not None
+
+    @property
+    def has_links(self) -> bool:
+        return len(self.links) > 0 or self.card_url is not None
+
+    @property
+    def has_thread_context(self) -> bool:
+        return len(self.replies_list) > 0 or self.is_reply
+
+    @property
+    def enrichment_complete(self) -> bool:
+        """True only if ALL applicable enrichment steps are done."""
+        if not self.holistic_summary:
+            return False
+        if not self.primary_keyword:
+            return False
+        # Check links are summarized
+        if self.links:
+            if not all(l.llm_summary for l in self.links):
+                return False
+        # Check media is analyzed
+        if self.media:
+            if not all(m.workflow_summary or m.vision_description for m in self.media):
+                return False
+        return True
+
+    @property
+    def enrichment_status(self) -> dict:
+        """Return enrichment status for diagnostic footer."""
+        photos = [m for m in self.media if m.media_type == 'photo']
+        videos = [m for m in self.media if m.media_type == 'video']
+        analyzed_media = [m for m in self.media if m.workflow_summary or m.vision_description]
+        links_summarized = [l for l in self.links if l.llm_summary]
+        thread_replies = [r for r in self.replies_list if not r.is_thread_continuation]
+
+        return {
+            'summary': bool(self.holistic_summary),
+            'keywords': bool(self.primary_keyword),
+            'links_total': len(self.links),
+            'links_summarized': len(links_summarized),
+            'media_total': len(self.media),
+            'media_analyzed': len(analyzed_media),
+            'photos': len(photos),
+            'videos': len(videos),
+            'thread_replies': len(thread_replies),
+            'is_reply': self.is_reply,
+            'has_classification': bool(self.classification),
+        }
 
     def get_tags(self) -> list[str]:
         """Generate tags based on content."""

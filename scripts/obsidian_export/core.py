@@ -163,27 +163,58 @@ class TipsExporter(VaultExporter):
             except Exception:
                 pass  # Ignore files we can't read
 
+    def _load_classifications(self) -> dict:
+        """Load tweet classifications from analysis JSON files."""
+        import json
+        classifications = {}
+        analysis_dir = self.db_path.parent.parent / "analysis" / "daily"
+        if analysis_dir.exists():
+            for json_file in sorted(analysis_dir.glob("*-analysis.json")):
+                try:
+                    with open(json_file) as f:
+                        data = json.load(f)
+                    for category, items in data.get('categories', {}).items():
+                        for item in items:
+                            tid = item.get('tweet_id')
+                            if tid and tid not in classifications:
+                                classifications[tid] = {
+                                    'category': category,
+                                    'reason': item.get('reason', ''),
+                                }
+                except Exception:
+                    pass
+        return classifications
+
     def load_tweets(self) -> list[Tweet]:
         """Load tweets from database with all related data."""
         conn = sqlite3.connect(self.db_path)
         conn.row_factory = sqlite3.Row
         cursor = conn.cursor()
 
-        # Pre-load all links into a lookup dict by short_url
+        # Load classifications from analysis files
+        classifications = self._load_classifications()
+
+        # Pre-load all links into lookup dicts
         cursor.execute("""
-            SELECT short_url, expanded_url, content_type, title, description, llm_summary
+            SELECT id, tweet_id, short_url, expanded_url, content_type, title, description,
+                   llm_summary, resource_type
             FROM links WHERE expanded_url IS NOT NULL
         """)
         links_by_short_url = {}
+        links_by_tweet_id: dict[str, list[Link]] = {}
         for l_row in cursor.fetchall():
-            links_by_short_url[l_row['short_url']] = Link(
+            link = Link(
                 short_url=l_row['short_url'],
                 expanded_url=l_row['expanded_url'],
-                content_type=l_row['content_type'],
+                content_type=l_row['content_type'] or l_row['resource_type'],
                 title=l_row['title'],
                 description=l_row['description'],
                 llm_summary=l_row['llm_summary'],
             )
+            links_by_short_url[l_row['short_url']] = link
+            tid = l_row['tweet_id']
+            if tid:
+                links_by_tweet_id.setdefault(tid, []).append(link)
 
         # Main query with tips join
         query = """
@@ -255,6 +286,15 @@ class TipsExporter(VaultExporter):
                 holistic_summary=row['holistic_summary'],
                 one_liner=row['one_liner'],
             )
+
+            # Load links for this tweet
+            tweet.links = links_by_tweet_id.get(tweet.id, [])
+
+            # Load classification
+            cls_data = classifications.get(tweet.id)
+            if cls_data:
+                tweet.classification = cls_data['category']
+                tweet.classification_reason = cls_data.get('reason', '')
 
             # Load media
             cursor.execute("""

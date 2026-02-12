@@ -3,8 +3,17 @@ tweet_id: "{{ tweet.id }}"
 created: {{ date }}
 author: "{{ tweet.handle }}"
 display_name: {{ display_name | tojson }}
+{% if tweet.primary_keyword %}
+primary_keyword: "{{ tweet.primary_keyword }}"
+{% endif %}
 {% if tweet.category %}
 category: "{{ tweet.category }}"
+{% endif %}
+{% if tweet.llm_category %}
+llm_category: "{{ tweet.llm_category }}"
+{% endif %}
+{% if tweet.classification %}
+classification: "{{ tweet.classification }}"
 {% endif %}
 {% if tweet.tools_mentioned %}
 tools: {{ tweet.tools_mentioned | tojson }}
@@ -17,6 +26,10 @@ likes: {{ tweet.likes }}
 views: {{ tweet.views }}
 engagement_score: {{ tweet.engagement_score }}
 url: "{{ tweet.url }}"
+enrichment_complete: {{ 'true' if tweet.enrichment_complete else 'false' }}
+has_media: {{ 'true' if tweet.media else 'false' }}
+has_links: {{ 'true' if tweet.has_links else 'false' }}
+has_thread_context: {{ 'true' if tweet.has_thread_context else 'false' }}
 ---
 
 > [!tweet] {{ tweet.handle }} · {{ date_display }}
@@ -41,6 +54,41 @@ url: "{{ tweet.url }}"
 {{ tweet.summary }}
 
 {% endif %}
+{% if tweet.primary_keyword or tweet.keywords %}
+## Keywords
+
+{% if tweet.primary_keyword %}**Primary:** `{{ tweet.primary_keyword }}`{% endif %}
+{% if tweet.keywords %} · {{ tweet.keywords | join(', ') }}{% endif %}
+
+{% endif %}
+{% if tweet.classification %}
+## Classification
+
+**{{ tweet.classification }}**{% if tweet.classification_reason %} — {{ tweet.classification_reason }}{% endif %}
+
+{% endif %}
+{% if tweet.links or tweet.card_url %}
+## Linked Resources
+
+{% for link in tweet.links %}
+- **[{{ link.title or link.display_path }}]({{ link.expanded_url }})**{% if link.content_type %} · *{{ link.content_type }}*{% endif %}
+
+{% if link.llm_summary %}
+  > {{ link.llm_summary }}
+{% else %}
+  > :warning: Link not yet summarized
+{% endif %}
+
+{% endfor %}
+{% if tweet.card_url and not tweet.links %}
+- [{{ tweet.card_title or tweet.card_url }}]({{ tweet.card_url }})
+{% if tweet.card_description %}
+  > {{ tweet.card_description }}
+{% else %}
+  > :warning: Link not yet summarized
+{% endif %}
+{% endif %}
+{% endif %}
 {% if tweet.media %}
 ## Media
 
@@ -55,8 +103,11 @@ url: "{{ tweet.url }}"
 ![Media]({{ m.url }})
 {% endif %}
 
+{% if m.workflow_summary or m.vision_description %}
 {% if m.workflow_summary %}
 {{ m.workflow_summary }}
+{% elif m.vision_description %}
+{{ m.vision_description }}
 {% endif %}
 
 {% if m.focus_text %}
@@ -64,10 +115,6 @@ url: "{{ tweet.url }}"
 ```
 {{ m.focus_text }}
 ```
-{% endif %}
-
-{% if m.workflow_summary and m.workflow_summary != m.key_action %}
-**Workflow:** {{ m.workflow_summary }}
 {% endif %}
 
 {% if m.key_action %}
@@ -86,6 +133,9 @@ url: "{{ tweet.url }}"
 </pre>
 </details>
 {% endif %}
+{% else %}
+> :warning: {{ m.media_type | capitalize }} not yet analyzed
+{% endif %}
 
 {% endfor %}
 {% endif %}
@@ -97,11 +147,20 @@ url: "{{ tweet.url }}"
 
 {% endfor %}
 {% endif %}
+{% if tweet.is_reply and tweet.in_reply_to_user %}
+## Thread Context
+
+**Replying to:** {{ tweet.in_reply_to_user }}
+{% if tweet.in_reply_to_id %}
+**Parent tweet:** [{{ tweet.in_reply_to_id }}](https://x.com/i/status/{{ tweet.in_reply_to_id }})
+{% endif %}
+
+{% endif %}
 {% set community_replies = tweet.replies_list | rejectattr('is_thread_continuation') | rejectattr('is_author_response') | list %}
 {% if community_replies %}
 ## Replies
 
-{% for reply in community_replies %}
+{% for reply in community_replies[:10] %}
 > [!reply] {{ reply.reply_author_handle or 'Unknown' }}{% if reply.reply_posted_at %} · {{ reply.reply_posted_at }}{% endif %}
 
 > {{ reply.reply_text | replace('\n', '\n> ') }}
@@ -110,30 +169,24 @@ url: "{{ tweet.url }}"
 {% endif %}
 {% for link in reply.links if link.llm_summary %}
 >
-> 📎 **[{{ link.display_path }}]({{ link.expanded_url }})** — {{ link.llm_summary }}
+> :paperclip: **[{{ link.display_path }}]({{ link.expanded_url }})** — {{ link.llm_summary }}
 {% endfor %}
 {% set author_response = tweet.replies_list | selectattr('response_to_reply_id', 'equalto', reply.reply_tweet_id) | first %}
 {% if author_response %}
 
-> [!tip]+ ↩️ {{ author_response.reply_author_handle }} · {{ author_response.reply_posted_at or '' }}
+> [!tip]+ :leftwards_arrow_with_hook: {{ author_response.reply_author_handle }} · {{ author_response.reply_posted_at or '' }}
 
 > {{ author_response.reply_text | replace('\n', '\n> ') }}
 {% for link in author_response.links if link.llm_summary %}
 >
-> 📎 **[{{ link.display_path }}]({{ link.expanded_url }})** — {{ link.llm_summary }}
+> :paperclip: **[{{ link.display_path }}]({{ link.expanded_url }})** — {{ link.llm_summary }}
 {% endfor %}
 {% endif %}
 
 {% endfor %}
 {% endif %}
-{% if tweet.card_url %}
-## Linked Resources
 
-- [{{ tweet.card_title or tweet.card_url }}]({{ tweet.card_url }})
-{% if tweet.card_description %}
-  > {{ tweet.card_description }}
-{% endif %}
-{% endif %}
+---
 
 > [!metrics]- Engagement & Metadata
 > **Likes:** {{ tweet.likes | format_number }} · **Replies:** {{ tweet.replies | format_number }} · **Reposts:** {{ tweet.reposts | format_number }} · **Views:** {{ tweet.views | format_number }}
@@ -142,3 +195,28 @@ url: "{{ tweet.url }}"
 > **Source:** tips · **Quality:** {{ tweet.quality_rating or '—' }}/10
 > **Curated:** {{ '✓' if tweet.is_curated else '✗' }} · **Reply:** {{ '✓' if tweet.is_reply else '✗' }}
 > **ID:** [{{ tweet.id }}]({{ tweet.url }})
+
+{% set es = tweet.enrichment_status %}
+```
+enrichment:
+  summary: {{ '✅' if es.summary else '❌' }}
+  keywords: {{ '✅' if es.keywords else '❌' }}
+{% if es.links_total > 0 %}
+  links: {{ '✅' if es.links_summarized == es.links_total else '⚠️' }} ({{ es.links_summarized }}/{{ es.links_total }} summarized)
+{% else %}
+  links: ℹ️ none
+{% endif %}
+{% if es.media_total > 0 %}
+  media: {{ '✅' if es.media_analyzed == es.media_total else '⚠️' }} ({{ es.media_analyzed }}/{{ es.media_total }} analyzed — {{ es.photos }} photo{{ 's' if es.photos != 1 else '' }}, {{ es.videos }} video{{ 's' if es.videos != 1 else '' }})
+{% else %}
+  media: ℹ️ none
+{% endif %}
+{% if es.thread_replies > 0 %}
+  thread: ✅ ({{ es.thread_replies }} replies scraped)
+{% elif es.is_reply %}
+  thread: ⚠️ (reply — parent not in DB)
+{% else %}
+  thread: ℹ️ standalone
+{% endif %}
+  classification: {{ '✅ ' + tweet.classification if es.has_classification else '❌ not classified' }}
+```
