@@ -1,0 +1,686 @@
+{
+  "analyzed_at": "2026-02-12T13:04:37.814742",
+  "tweet_count": 44,
+  "categories": {
+    "ACT_NOW": [
+      {
+        "tweet_id": "2019469032844587505",
+        "author": "lydiahallie",
+        "likes": 5022,
+        "text_preview": "Claude Code now supports agent teams (in research preview)\n\nInstead of a single agent working through a task sequentiall",
+        "primary_keyword": null,
+        "one_liner": null,
+        "category": "ACT_NOW",
+        "reason": "We actively delegate tasks to Claude Code but not as \"agent teams\" working in parallel. This feature could significantly change our execution workflows by allowing for parallel research, debugging, and building.",
+        "relevance": [
+          "Delegation pattern: Claude.ai for planning, Claude Code for execution",
+          "Cross-project coordination with hall-of-fake sibling repo (potential to speed up video analysis and bug fixes)"
+        ],
+        "proposed_action": "Enable agent teams in settings.json and experiment with parallelizing tasks in the hall-of-fake sibling repo, specifically video analysis and bug fixes."
+      },
+      {
+        "tweet_id": "2012741829683224584",
+        "author": "@PerceptualPeak",
+        "likes": 4632,
+        "text_preview": "holy shit it fucking WORKS. \n\nSMART FORKING. My mind is genuinely blown. I HIGHLY RECCOMEND every Claude Code user imple",
+        "primary_keyword": "/fork-detect",
+        "one_liner": "Smart forking allows Claude Code users to leverage context from past sessions for efficient feature implementation using `/fork-detect` and a vectorized RAG database.",
+        "category": "ACT_NOW",
+        "reason": "This introduces a novel approach (smart forking) to leverage past Claude Code sessions for more efficient feature implementation, which we haven't explored. The use of embedding models and a vectorized RAG database to retrieve relevant context could significantly improve our workflow.",
+        "relevance": [
+          "Directly addresses the problem of re-explaining context in new Claude Code sessions.",
+          "Aligns with our goal of improving efficiency in cross-instance communication and knowledge reuse."
+        ],
+        "proposed_action": "Investigate the feasibility and potential benefits of implementing smart forking in our workflow. Start by exploring the shared git repo if available."
+      },
+      {
+        "tweet_id": "2018221220160827828",
+        "author": "@anthonyriera",
+        "likes": 1941,
+        "text_preview": "I tested every Claude Code skills and one DESTROYED the rest: \"Planning with files\".\n\nThis skill is literally a cheat co",
+        "primary_keyword": "planning-with-files",
+        "one_liner": "The \"Planning with files\" Claude Code skill significantly improves project planning and execution by having Claude persistently reference markdown files containing task plans.",
+        "category": "ACT_NOW",
+        "reason": "This introduces a specific Claude Code skill ('Planning with files') that seems to offer significant improvement in plan execution and reduced 'drift,' directly addressing a pain point in complex task management. Although we use file-based planning, the 'constant reminder' aspect achieved via this skill could be a game changer.",
+        "relevance": [
+          "Addresses planning drift",
+          "Leverages existing file-based planning workflow",
+          "Uses Claude Code skills"
+        ],
+        "proposed_action": "Immediately test the skill on a representative task to assess its effectiveness in reducing planning drift and improving execution accuracy. Compare its performance against our current file-based planning methods."
+      },
+      {
+        "tweet_id": "2009475420282826781",
+        "author": "@AI_Skiller",
+        "likes": 700,
+        "text_preview": "Claud Code创始人@bcherny 一小时前开源了Anthropic 内部使用的 code-simplifier 插件 —— Claude Code 团队自己用的代码简化神器。\n\n它能做什么：\n→ 减少不必要的复杂性和嵌套\n→ 消除",
+        "primary_keyword": "code-simplifier",
+        "one_liner": "The Claude Code team released their `code-simplifier` plugin, powered by Opus, to automatically refactor and simplify code after it's written, accessible via command-line or in-session installation.",
+        "category": "ACT_NOW",
+        "reason": "This is a new plugin from the Claude Code team itself that simplifies code automatically using Opus. The ability to simplify code automatically and reduce complexity is a novel technique that could immediately improve our code quality and readability, especially before PR submissions.",
+        "relevance": [
+          "Directly addresses code quality and maintainability, which are always relevant to our projects.",
+          "Potentially integrates into our pre-compact and session-end hooks for automatic wrap-up."
+        ],
+        "proposed_action": "Install the plugin and test it on a complex piece of code from one of our projects (e.g., family_server.py in the hall-of-fake repo) to assess its effectiveness. Note the performance impact of automatic simplification on the Opus model."
+      },
+      {
+        "tweet_id": "2016515470543761805",
+        "author": "@RohunJauhar",
+        "likes": 640,
+        "text_preview": "tonight i did something wild\n\ni told my ai to watch a youtube video, learn how to become a better ai assistant, then upg",
+        "primary_keyword": "vibe orchestration",
+        "one_liner": "Turn your AI assistant into a proactive employee by giving it broad autonomy and a mandate to improve your workflow while you sleep.",
+        "category": "ACT_NOW",
+        "reason": "This demonstrates a workflow for AI self-improvement via online research and autonomous implementation, a technique we haven't explored. It showcases a higher level of autonomy and a specific instruction set for proactive daily improvements, going beyond our current delegation patterns.",
+        "relevance": [
+          "Autonomous daily bookmark monitor (analysis engine in progress)",
+          "LLM-based tip classification for morning briefings",
+          "Delegation pattern: Claude.ai for planning, Claude Code for execution"
+        ],
+        "proposed_action": "Test this \"vibe orchestration\" approach with Claude Code to see if it can autonomously identify and implement improvements within our existing workflow. Focus on a limited scope: having Claude Code analyze our existing skills and propose enhancements. Then automate the creation of a PR for review."
+      },
+      {
+        "tweet_id": "2013820793671536778",
+        "author": "@alexhillman",
+        "likes": 333,
+        "text_preview": "When I started building my assistant I figured this one out FAST. \n\nClaude Code doesn't know what time it is. Or what ti",
+        "primary_keyword": "date-time-context-injection",
+        "one_liner": "Solve Claude Code's timezone limitations by injecting current date and time information from a bash script using Claude Code hooks.",
+        "category": "ACT_NOW",
+        "reason": "This is a simple, immediately applicable solution to a real problem with Claude Code's time awareness, a problem we likely haven't explicitly addressed in our systems.  It leverages hooks, which we already use, making integration straightforward.",
+        "relevance": [
+          "calendar integration",
+          "date-time-operations",
+          "Claude Code hooks"
+        ],
+        "proposed_action": "Implement this date-time injection strategy using Claude Code hooks and bash script, test in a non-critical application."
+      },
+      {
+        "tweet_id": "2010913846978924979",
+        "author": "@alexhillman",
+        "likes": 120,
+        "text_preview": "Overdue addition to my claude dot md\n\n# Global Claude Code Preferences\n\n## Communication Style\n- Never end sentences wit",
+        "primary_keyword": "AI Slop Patterns",
+        "one_liner": "Optimize your Claude prompts for efficient, professional AI interactions by avoiding unnecessary affirmations, filler, and indirect language.",
+        "category": "ACT_NOW",
+        "reason": "This outlines a standardized communication style for Claude Code that directly addresses common LLM verbosity and unproductive patterns. Implementing these guidelines could significantly improve efficiency and focus in our interactions with Claude Code.",
+        "relevance": [
+          "Directly relevant to how we use Claude Code for task execution.",
+          "Addresses issues with LLM verbosity that we've observed."
+        ],
+        "proposed_action": "Review and incorporate these guidelines into our standard Claude Code prompts and skills. Consider adding to our /create-skill meta-command to automatically include these preferences in new skill generation."
+      }
+    ],
+    "EXPERIMENT": [
+      {
+        "tweet_id": "2013626968386765291",
+        "author": "@Remotion",
+        "likes": 18069,
+        "text_preview": "Remotion now has Agent Skills - make videos just with Claude Code!\n\n$ npx skills add remotion-dev/skills\n\nThis animation",
+        "primary_keyword": "remotion-dev/skills",
+        "one_liner": "Create videos with Claude Code in Remotion using Agent Skills by adding the `remotion-dev/skills` package with `npx skills add`.",
+        "category": "EXPERIMENT",
+        "reason": "Agent Skills are a new development. While we are not currently focused on video generation, the ability to generate videos from code via a skill is an interesting capability, especially if it can be integrated with Claude Code.",
+        "relevance": [
+          "skills",
+          "Claude Code"
+        ],
+        "proposed_action": "Investigate Remotion Agent Skills and their potential use cases, particularly if integration with Claude Code is seamless."
+      },
+      {
+        "tweet_id": "2013015738622284156",
+        "author": "@blader",
+        "likes": 5681,
+        "text_preview": "it's really handy that wikipedia went and collated a detailed list of \"signs of ai writing\".\n\nso much so that you can ju",
+        "primary_keyword": "signs-of-ai-writing",
+        "one_liner": "Use Claude Code and the \"Humanizer\" skill to remove common AI writing patterns, based on Wikipedia's list, for more natural-sounding text.",
+        "category": "EXPERIMENT",
+        "reason": "While we already use Claude Code and skills, the specific application of creating a 'humanizer' skill based on AI writing detection is a novel use case worth exploring, especially for refining the output of our LLM-based analysis engines and potentially improving the quality of our compounding summaries. The article also serves as an up-to-date heuristic checklist of AI output characteristics.",
+        "relevance": [
+          "Refining LLM output for bookmark monitor analysis",
+          "Improving the quality of compounding summaries"
+        ],
+        "proposed_action": "Test the skill and evaluate its effectiveness in reducing AI-like qualities in text generated by our systems."
+      },
+      {
+        "tweet_id": "2014760508834840932",
+        "author": "@levelsio",
+        "likes": 4821,
+        "text_preview": "claude -p \"come up with 1000 startup ideas from the top Reddit posts, build their landing page, reg domain names and add",
+        "primary_keyword": "--dangerously-skip-permissions",
+        "one_liner": "This tip demonstrates an ambitious AI-driven automated startup creation workflow from idea to deployment using Claude, Hetzner, and Stripe.",
+        "category": "EXPERIMENT",
+        "reason": "This showcases a full pipeline, including domain registration and server setup, which is beyond our current scope, but the idea generation and landing page build is relevant to our bookmark monitor/hall-of-fake sibling project. The `--dangerously-skip-permissions` flag is also something we should consider carefully.",
+        "relevance": [
+          "bookmark monitor",
+          "hall-of-fake sibling repo",
+          "permissions"
+        ],
+        "proposed_action": "Investigate the possibility of integrating similar idea generation and landing page creation workflows into our bookmark monitor pipeline."
+      },
+      {
+        "tweet_id": "2021251878521073847",
+        "author": "@kepano",
+        "likes": 4155,
+        "text_preview": "1. install Obsidian 1.12\n2. enable CLI\n3. now OpenClaw, OpenCode, Claude Code, Codex, or any other agent can use Obsidia",
+        "primary_keyword": "Obsidian CLI",
+        "one_liner": "Integrate Obsidian with AI agents by enabling its command-line interface after installing version 1.12.",
+        "category": "EXPERIMENT",
+        "reason": "We are already experimenting with Obsidian CLI integration for vault health checks. This expands the possibilities beyond health checks.",
+        "relevance": [
+          "Obsidian CLI integration",
+          "Claude Code interaction"
+        ],
+        "proposed_action": "Investigate potential use cases beyond vault health, such as automated note creation or modification via Claude Code."
+      },
+      {
+        "tweet_id": "2021249358654558220",
+        "author": "@david_perell",
+        "likes": 3006,
+        "text_preview": "The state of the Internet in a nutshell: For 2.5 years, whenever I published a video on YouTube, I'd come up with a besp",
+        "primary_keyword": "formulaic-youtube-titles",
+        "one_liner": "Clickbait-style titles can drastically improve online visibility, forcing creators to choose between quality content and algorithmic demands.",
+        "category": "EXPERIMENT",
+        "reason": "This is a potentially applicable insight into how to increase engagement with content, specifically video content. While seemingly simple, the idea of standardized title formats coupled with quote-based thumbnails could be explored to increase visibility for our cross-project coordination (hall-of-fake) where video analysis is occurring.",
+        "relevance": [
+          "hall-of-fake sibling repo, specifically video analysis results dissemination"
+        ],
+        "proposed_action": "Evaluate the effectiveness of similar title/thumbnail strategies on hall-of-fake video content (once the missing video analysis pipeline is fully functional). Consider A/B testing variations."
+      },
+      {
+        "tweet_id": "2018745809056207266",
+        "author": "@EXM7777",
+        "likes": 2783,
+        "text_preview": "this is hands-down the best way to work with Claude right now...\n\nwhenever you start a new project (startup, content, si",
+        "primary_keyword": "co-founder master plan",
+        "one_liner": "Use Claude Opus 4.5 to generate a comprehensive project plan and knowledge base directory for seamless integration with Claude Code, significantly accelerating development.",
+        "category": "EXPERIMENT",
+        "reason": "The technique of prompting Claude as a 'co-founder' to build a knowledge base specifically tailored for Claude Code integration is a novel approach to project planning, potentially enhancing our existing delegation pattern and file-based planning. It aligns with our ongoing efforts to optimize our workflow through enhanced prompting strategies.",
+        "relevance": [
+          "Delegation pattern: Claude.ai for planning, Claude Code for execution",
+          "File-based planning (task_plan.md, STATUS.json)",
+          "Skills (slash commands) with YAML frontmatter and progressive disclosure"
+        ],
+        "proposed_action": "Experiment with this co-founder prompting technique on a small project to evaluate its effectiveness in creating a usable knowledge base for Claude Code."
+      },
+      {
+        "tweet_id": "2010690881397940340",
+        "author": "@yanhua1010",
+        "likes": 2333,
+        "text_preview": "推荐一些我目前安装的Claude Skills:\n\n1. Anthropic官方Skills\nhttps://t.co/Xfgu1Thw69\n\n2. Superpowers\n1.6万Star的Skill精选，从脑暴、写需求文档、开发、测试全",
+        "primary_keyword": "Claude Skills",
+        "one_liner": "Enhance Claude's capabilities with these recommended Skills, covering areas like task management, content creation, and automation.",
+        "category": "EXPERIMENT",
+        "reason": "This tip highlights several Claude skills, some of which could be useful for our workflow. Specifically, the 'Planning-with-files' skill, which is inspired by Manus's agent method, aligns with our file-based planning and task management. The X-article-publisher-skill could provide inspiration for automating tasks on other platforms within our projects.",
+        "relevance": [
+          "file-based planning",
+          "task management",
+          "automation of other platforms"
+        ],
+        "proposed_action": "Explore the Planning-with-files and X-article-publisher-skill to assess their applicability to our workflows."
+      },
+      {
+        "tweet_id": "2010835704931369379",
+        "author": "@clairevo",
+        "likes": 2320,
+        "text_preview": "https://t.co/x84Z70ZXGf",
+        "primary_keyword": "AskUserQuestionTool",
+        "one_liner": "This Claude tip provides an unspecified technique, command, or workflow for optimization; check the link for details.",
+        "category": "EXPERIMENT",
+        "reason": "The tip is a potentially novel technique for Claude that would require experimentation to evaluate its value within our workflow. The summary mentions optimization of performance or output, making it relevant.",
+        "relevance": [
+          "Optimization techniques for Claude Code execution",
+          "Potential impact on daily briefing workflows"
+        ],
+        "proposed_action": "Review the tweet and associated links to determine the precise technique, commands, and settings utilized, and the value it brings."
+      },
+      {
+        "tweet_id": "2013467788422119473",
+        "author": "@bprintco",
+        "likes": 2179,
+        "text_preview": "This Ralph Wiggum tool for Claude is unbelievable btw. \n\nI’ve been wanting to make a post on it, but I think it’s so far",
+        "primary_keyword": "Ralph Wiggum tool",
+        "one_liner": "A technically advanced, potentially groundbreaking Claude tool exists, recommended for experts to explore despite its complexity.",
+        "category": "EXPERIMENT",
+        "reason": "We're already experimenting with Ralph Wiggum for long-running task recovery, making this directly relevant. The high engagement and author's strong endorsement also suggest it warrants a closer look.",
+        "relevance": [
+          "Ralph Wiggum for long-running task recovery"
+        ],
+        "proposed_action": "Read the linked article to understand the tool and evaluate potential improvements to our current Ralph Wiggum setup."
+      },
+      {
+        "tweet_id": "2010816722014437522",
+        "author": "@mert",
+        "likes": 1912,
+        "text_preview": "ok this is SICK\n\nonce you download this, you can finally have opus 4.5 get native OP browser capabilities without interf",
+        "primary_keyword": "opus 4.5 native OP browser",
+        "one_liner": "Enable native OP browser capabilities for Claude Opus 4.5 to enhance its web interaction independent of your regular browsing.",
+        "category": "EXPERIMENT",
+        "reason": "The tweet describes a way to give Claude Opus native browsing capabilities. While we already use web scraping via MCP, this potentially offers a different, possibly more efficient, browsing experience directly within Claude and seems directly applicable to our work and worth testing.",
+        "relevance": [
+          "Web scraping improvements",
+          "Enhanced Claude capabilities",
+          "Potential replacement for current web interaction methods"
+        ],
+        "proposed_action": "Investigate the linked resource and test the browsing capabilities within Claude Opus 4.5 to compare it with our existing MCP-based web scraping."
+      },
+      {
+        "tweet_id": "2009963629500870977",
+        "author": "@jarrodwatts",
+        "likes": 1897,
+        "text_preview": "Introducing Claude Delegator!\n\nA Claude Code plugin that lets you use GPT 5.2 powered subagents directly within Claude C",
+        "primary_keyword": "Claude Delegator",
+        "one_liner": "The Claude Delegator plugin integrates GPT 5.2 subagents into Claude Code for tasks like code architecture and security audits.",
+        "category": "EXPERIMENT",
+        "reason": "This introduces a new way to leverage Codex/GPT within Claude Code, which could be useful for cross-model review (one of our current experiments). The ability to delegate specific tasks like security audits to GPT from within Claude is also worth exploring.",
+        "relevance": [
+          "Cross-model review (Claude + Codex/Gemini for code critique)",
+          "Delegation pattern: Claude.ai for planning, Claude Code for execution"
+        ],
+        "proposed_action": "Evaluate the plugin and its capabilities for cross-model review and code auditing within Claude Code."
+      },
+      {
+        "tweet_id": "2021517624803573928",
+        "author": "sharbel",
+        "likes": 1642,
+        "text_preview": "Most people bookmark tweets and never look at them again\n\nSo I built an openclaw skill that reads your bookmarks and tel",
+        "primary_keyword": null,
+        "one_liner": null,
+        "category": "EXPERIMENT",
+        "reason": "This is directly relevant to our autonomous daily bookmark monitor, which is currently under development. The tweet describes a skill that automatically categorizes bookmarks, extracts actions, and proposes work, which aligns with the goals of our monitor.",
+        "relevance": [
+          "Autonomous daily bookmark monitor"
+        ],
+        "proposed_action": "Evaluate the openclaw skill for integration or inspiration for our bookmark monitor."
+      },
+      {
+        "tweet_id": "2010213382494798108",
+        "author": "@0xzak",
+        "likes": 1185,
+        "text_preview": "Just shipped adversarial-spec, a Claude Code plugin for writing better product specs.\n\nThe problem: You write a PRD or t",
+        "primary_keyword": "adversarial-spec",
+        "one_liner": "`adversarial-spec` is a Claude Code plugin that iteratively refines product specs by having multiple LLMs debate it until they all agree, leading to more robust and complete documentation.",
+        "category": "EXPERIMENT",
+        "reason": "This leverages cross-model review, which is something we're actively experimenting with (Claude + Codex/Gemini for code critique). It's a potentially valuable tool for improving our specifications and code quality.",
+        "relevance": [
+          "Cross-model review experiment",
+          "Improving code/spec quality in hall-of-fake and other projects"
+        ],
+        "proposed_action": "Add adversarial-spec to cross-model review experiments. Evaluate its effectiveness in uncovering issues in existing hall-of-fake components like family_server.py and family_qa.py."
+      },
+      {
+        "tweet_id": "2004018525569274049",
+        "author": "@parcadei",
+        "likes": 1019,
+        "text_preview": "https://t.co/aPnhSXqZPQ\n\ncontinuous claude  v2 is now up - a setup designed to tackle the scarcest resource in coding: c",
+        "primary_keyword": "continuous claude v2",
+        "one_liner": "Continuous-Claude-v3 enhances Claude Code by efficiently managing context via ledgers and handoffs, enabling persistent learning and improved agent orchestration.",
+        "category": "EXPERIMENT",
+        "reason": "The tip describes a system for managing Claude Code context, which addresses a core issue in autonomous agent workflows. While we use handoff documents, this approach seems more sophisticated and could be integrated with our existing system.",
+        "relevance": [
+          "context management",
+          "autonomous agent orchestration",
+          "persistent learning across sessions"
+        ],
+        "proposed_action": "Investigate the code and techniques used in Continuous-Claude-v3 to see if they can improve our current context management strategies."
+      },
+      {
+        "tweet_id": "2010905663753617560",
+        "author": "@jarrodwatts",
+        "likes": 866,
+        "text_preview": "A workflow I am using frequently lately is having Codex review Claude Code's work.\n\nClaude will complete work → ask Code",
+        "primary_keyword": "claude-delegator",
+        "one_liner": "Improve Claude Code's output by using Codex for code review with the help of the claude-delegator plugin for easy communication.",
+        "category": "EXPERIMENT",
+        "reason": "We are already experimenting with cross-model review (Claude + Codex/Gemini for code critique). This reinforces that strategy and provides a specific plugin to consider. The MCP mention is also relevant to our infrastructure.",
+        "relevance": [
+          "Cross-model review",
+          "MCP servers",
+          "Claude Code"
+        ],
+        "proposed_action": "Investigate the 'claude-delegator' plugin to see if it improves our cross-model review workflow."
+      },
+      {
+        "tweet_id": "2010385736986477018",
+        "author": "@d4m1n",
+        "likes": 816,
+        "text_preview": "the creator of Ralph Wiggum Loop just dropped his entire workflow:\nhttps://t.co/pTjarLWtQm\n\nand we all got it wrong \n\n❌ ",
+        "primary_keyword": "Ralph Wiggum Loop",
+        "one_liner": "Learn the creator's 'Ralph Wiggum Loop' workflow by mastering development fundamentals instead of relying on quick fixes like the Claude Code plugin.",
+        "category": "EXPERIMENT",
+        "reason": "We're already experimenting with Ralph Wiggum for long-running task recovery, and this offers insights into the creator's workflow. Understanding the intended use case beyond our initial assumptions could be valuable.",
+        "relevance": [
+          "Ralph Wiggum for long-running task recovery"
+        ],
+        "proposed_action": "Review the linked workflow to determine if it suggests improvements to our current implementation of Ralph Wiggum."
+      },
+      {
+        "tweet_id": "2009679078832378090",
+        "author": "@TheZvi",
+        "likes": 606,
+        "text_preview": "https://t.co/PsQRSN8RTH",
+        "primary_keyword": "agent-swarms",
+        "one_liner": "This Claude Code tip aims to improve coding efficiency within Claude via streamlined workflows or command usage.",
+        "category": "EXPERIMENT",
+        "reason": "The tweet, summarized as likely focusing on efficient coding techniques within Claude, potentially offers methods for streamlining workflows or optimizing code generation. The keywords \"agent-swarms\", \"subagents\", \"collaboration\", and \"delegation\" connect to our delegation pattern (Claude.ai for planning, Claude Code for execution) and cross-project coordination with the hall-of-fake sibling repo, justifying an experimental approach.",
+        "relevance": [
+          "Delegation pattern",
+          "Cross-project coordination"
+        ],
+        "proposed_action": "Investigate the linked content to assess its utility for optimizing Claude Code workflows and its potential application to our cross-project coordination efforts, particularly within the hall-of-fake sibling repo."
+      },
+      {
+        "tweet_id": "2021310724988166443",
+        "author": "@mikker",
+        "likes": 533,
+        "text_preview": "I use this CONSTANTLY. It's almost the only thing besides vanilla agents I use regularly. And it's so simple, it's just ",
+        "primary_keyword": "Codex-5.3-high",
+        "one_liner": "Use a code review prompt with Codex-5.3-high before committing code or when it gets messy to maintain quality.",
+        "category": "EXPERIMENT",
+        "reason": "We are experimenting with cross-model review (Claude + Codex/Gemini for code critique). This tip suggests using Codex for code review, which aligns with our current experiments. Although we may already have linting processes in place, exploring a prompt-based code review with Codex could be a useful addition to our cross-model review efforts.",
+        "relevance": [
+          "Cross-model review",
+          "Code quality",
+          "Pre-commit hooks"
+        ],
+        "proposed_action": "Add this tip to the cross-model review experiment documentation; Test prompt with Codex to see if it adds value compared to current linting process."
+      },
+      {
+        "tweet_id": "2014809437899522302",
+        "author": "@brian_lovin",
+        "likes": 320,
+        "text_preview": "The current tactics for using AI coding agents well are roughly:\n\n1. Give agents tools to self-verify\n\n• MCP servers (ag",
+        "primary_keyword": "self-verification",
+        "one_liner": "Maximize AI coding agent effectiveness by enabling self-verification, continuous improvement, and enriched contextual understanding for better results.",
+        "category": "EXPERIMENT",
+        "reason": "While we use many of these techniques, the explicit focus on teaching agents to *build their own* verification tools and self-improve through meta-skills is a novel emphasis that we should explore.",
+        "relevance": [
+          "Aligns with our goal of increasing agent autonomy and skill refinement.",
+          "Directly relevant to our ongoing efforts in building reusable skills and improving agent performance."
+        ],
+        "proposed_action": "Discuss the 'meta-skills' concept and agent-created verification tools during the next dev sync. Prototype a basic meta-skill for updating prompt instructions based on feedback from successful task completions."
+      },
+      {
+        "tweet_id": "2010692983142621530",
+        "author": "@nummanali",
+        "likes": 309,
+        "text_preview": "Decided to add a status line to Claude Code \n\nWanted it super minimal, a quick glance should give me what I need:\n- Curr",
+        "primary_keyword": "status-line",
+        "one_liner": "Customize Claude Code with a minimalist status line displaying directory, git info, model, session, context, and token usage for improved workflow efficiency.",
+        "category": "EXPERIMENT",
+        "reason": "Customizing the Claude Code interface for better monitoring of token usage and git status could be helpful. While we already use Claude Code Desktop, this specific customization could improve workflow visibility and is worth investigating.",
+        "relevance": [
+          "Claude Code Desktop",
+          "token usage monitoring",
+          "git workflow"
+        ],
+        "proposed_action": "Review the linked gist and evaluate the feasibility and benefits of implementing a similar status line in our Claude Code Desktop environment."
+      },
+      {
+        "tweet_id": "2010688647218298936",
+        "author": "@menhguin",
+        "likes": 256,
+        "text_preview": "My Beginner Tierlist of Agent Abstractions (for Claude):\n1. Subagents - Direct buff. Frequently very useful for preventi",
+        "primary_keyword": "agent abstractions",
+        "one_liner": "A ranked list of Claude agent abstraction techniques, from simple improvements like subagents to complex, high-skill setups like parallel multi-agent systems, based on ease of use and potential impact.",
+        "category": "EXPERIMENT",
+        "reason": "The tiered breakdown and specific discussion of subagents and metaprompting offers practical insights into structuring agentic workflows with Claude. While we use delegation, the specific framings here may yield improvements.",
+        "relevance": [
+          "delegation pattern with Claude, task planning, context management"
+        ],
+        "proposed_action": "Evaluate impact of subagent and metaprompting techniques on task completion in our daily workflow."
+      },
+      {
+        "tweet_id": "2011116478008103274",
+        "author": "@sawyerhood",
+        "likes": 59,
+        "text_preview": "Prompts really are all you need. I'm sharing 3 stupid simple skills that greatly improve how I use coding agents. https:",
+        "primary_keyword": "coding agents",
+        "one_liner": "Improve coding agent performance by mastering simple prompt engineering skills.",
+        "category": "EXPERIMENT",
+        "reason": "The tweet discusses prompt skills to improve coding agent usage, which is relevant to our Claude Code execution and skill development. We should evaluate these prompting techniques to see if they improve our agent performance.",
+        "relevance": [
+          "Claude Code execution",
+          "skill development",
+          "prompt engineering"
+        ],
+        "proposed_action": "Review Sawyer Hood's shared skills and evaluate if they can be incorporated into our existing prompting strategies or skill templates."
+      }
+    ],
+    "NOTED": [
+      {
+        "tweet_id": "2010809450844831752",
+        "author": "@bcherny",
+        "likes": 9245,
+        "text_preview": "Since we launched Claude Code, we saw people using it for all sorts of non-coding work: doing vacation research, buildin",
+        "primary_keyword": "Cowork",
+        "one_liner": "Anthropic launches Cowork, a research preview for Claude Max subscribers on macOS, to extend Claude's agent capabilities beyond coding with new UX and safety features.",
+        "category": "NOTED",
+        "reason": "We already decided to skip Cowork due to its underwhelming performance for dev-heavy workflows. This is an update about a tool we previously evaluated and rejected, directly from Anthropic.",
+        "relevance": [
+          "Cowork",
+          "decided to skip"
+        ],
+        "proposed_action": null
+      },
+      {
+        "tweet_id": "2021699851499798911",
+        "author": "bcherny",
+        "likes": 2061,
+        "text_preview": "Reflecting on what engineers love about Claude Code, one thing that jumps out is its customizability: hooks, plugins, LS",
+        "primary_keyword": null,
+        "one_liner": null,
+        "category": "NOTED",
+        "reason": "We actively use Claude Code and many of the customization features (hooks, plugins, MCPs, skills). This is an endorsement of existing capabilities from an Anthropic employee, not a new technique.",
+        "relevance": [
+          "Claude Code usage",
+          "Skills",
+          "MCP servers"
+        ],
+        "proposed_action": null
+      },
+      {
+        "tweet_id": "2021012074160324633",
+        "author": "lydiahallie",
+        "likes": 1334,
+        "text_preview": "Claude Code Desktop now supports --dangerously-skip-permissions!\n\nThis skips all permission prompts so Claude can operat",
+        "primary_keyword": null,
+        "one_liner": null,
+        "category": "NOTED",
+        "reason": "We already use Claude Code Desktop and have explicit policies around permissions (including `/permissions` for safe auto-accept). This is a simple update on a feature we already use.",
+        "relevance": [
+          "Claude Code Desktop"
+        ],
+        "proposed_action": null
+      },
+      {
+        "tweet_id": "2010042788566720955",
+        "author": "@nummanali",
+        "likes": 1164,
+        "text_preview": "Claude Code v2.1.3 has solved the compaction issue\n\nAuto compaction works very well if you start with Plan Mode and expl",
+        "primary_keyword": "compaction",
+        "one_liner": "Leverage 'Plan Mode' with a comprehensive To-Do list in Claude Code to resolve compaction issues and maintain plan persistence for efficient code generation.",
+        "category": "NOTED",
+        "reason": "We already use Claude Code, and compaction is part of its normal operation. While the specific technique of using 'Plan Mode' and a 'Comprehensive To Do list' might be slightly different, it's still an optimization within our existing usage, not a fundamentally new approach.",
+        "relevance": [
+          "Claude Code usage",
+          "task_plan.md"
+        ],
+        "proposed_action": null
+      },
+      {
+        "tweet_id": "2021266983086588238",
+        "author": "firecrawl",
+        "likes": 974,
+        "text_preview": "The Firecrawl plugin is now available through Anthropic's official marketplace 🔌\n\n1. Run /plugin\n2. Install Firecrawl\n3.",
+        "primary_keyword": null,
+        "one_liner": null,
+        "category": "NOTED",
+        "reason": "We already have Firecrawl-like capabilities available to us via MCP servers. The tweet is simply announcing its availability as an official plugin which doesn't change our workflow.",
+        "relevance": [
+          "Web scraping via MCP (Firecrawl-like capabilities already available)"
+        ],
+        "proposed_action": null
+      },
+      {
+        "tweet_id": "2010617350207451382",
+        "author": "@iannuttall",
+        "likes": 843,
+        "text_preview": "This is the best write up of the Ralph technique I’ve seen for non-technical users to understand \n\nCheck the example rep",
+        "primary_keyword": "Ralph technique",
+        "one_liner": "Use the Ralph technique for AI agent optimization by porting a cursor example instead of relying on the Anthropic Ralph plugin.",
+        "category": "NOTED",
+        "reason": "We are already experimenting with Ralph Wiggum for long-running task recovery, so any further information on the 'Ralph technique' falls into the NOTED category. While this refers to non-technical users, the implementation advice is still applicable to our existing experiment.",
+        "relevance": [
+          "Ralph Wiggum"
+        ],
+        "proposed_action": null
+      },
+      {
+        "tweet_id": "2021632916359655893",
+        "author": "trq212",
+        "likes": 631,
+        "text_preview": "We've added Plan Mode to Claude Code in Slack. \n\nWhen you give Claude a complex task it will ask you clarifying question",
+        "primary_keyword": null,
+        "one_liner": null,
+        "category": "NOTED",
+        "reason": "We actively use Claude Code for execution and this appears to be an update to a feature within Claude Code, which falls under our 'NOTED' rule for updates to existing tools.",
+        "relevance": [
+          "Claude Code usage"
+        ],
+        "proposed_action": null
+      },
+      {
+        "tweet_id": "2021718924430389424",
+        "author": "lydiahallie",
+        "likes": 606,
+        "text_preview": "Claude Code on desktop now supports local plugins\n\nInstall custom slash commands, skills, and MCP servers from the marke",
+        "primary_keyword": null,
+        "one_liner": null,
+        "category": "NOTED",
+        "reason": "We already use Claude Code Desktop and MCP servers. This is an update on existing functionality (local plugins support).",
+        "relevance": [
+          "Claude Code Desktop is our primary interface.",
+          "MCP servers for tool access."
+        ],
+        "proposed_action": null
+      },
+      {
+        "tweet_id": "2011468541321744512",
+        "author": "@doodlestein",
+        "likes": 478,
+        "text_preview": "Agent coding life hack:\n\nBefore having Claude Code create a skill dot md file for you (which you should probably be doin",
+        "primary_keyword": "skill dot md file",
+        "one_liner": "Automate repetitive agent tasks by creating Claude Code skills, first guiding Claude with a best practices resource for higher quality and token efficiency.",
+        "category": "NOTED",
+        "reason": "We already heavily use Claude Code skills and the tip essentially reinforces that practice, even though it suggests pre-training Claude with a best practices guide. Reinforcing an existing process does not qualify as ACT_NOW.",
+        "relevance": [
+          "Reinforces our use of /create-skill and skills with YAML frontmatter.",
+          "Suggests a best practice to improve skill creation."
+        ],
+        "proposed_action": null
+      },
+      {
+        "tweet_id": "2010324670529024474",
+        "author": "@meta_alchemist",
+        "likes": 477,
+        "text_preview": "https://t.co/XsE2CNkRqF",
+        "primary_keyword": "AskUserQuestionTool",
+        "one_liner": "Learn how to use Claude to summarize code effectively for faster understanding and improved documentation.",
+        "category": "NOTED",
+        "reason": "We already use Claude Code for summarizing code and documentation. This tip describes that process, which falls under established usage.",
+        "relevance": [
+          "Claude Code for execution",
+          "Compounding summaries"
+        ],
+        "proposed_action": null
+      },
+      {
+        "tweet_id": "2021650827233169662",
+        "author": "_catwu",
+        "likes": 385,
+        "text_preview": "Want to set up a Claude Code customization, but don't want to read docs? \n\nMy favorite shortcut is to ask the claude cod",
+        "primary_keyword": null,
+        "one_liner": null,
+        "category": "NOTED",
+        "reason": "We already use Claude Code and /create-skill for creating slash commands. This is a confirmation of our existing workflow, even if it's a slightly different approach (asking the code guide agent directly).",
+        "relevance": [
+          "Claude Code",
+          "slash commands"
+        ],
+        "proposed_action": null
+      },
+      {
+        "tweet_id": "2010837519957705204",
+        "author": "@jarrodwatts",
+        "likes": 235,
+        "text_preview": "I was very excited to try Cowork - I thought this would be a big moment for non-devs to start adopting Claude.\n\nBut, it'",
+        "primary_keyword": "Cowork",
+        "one_liner": "The author expresses disappointment with the Cowork application, finding its practical use cases for non-developers unclear despite the appeal of Claude in Chrome.",
+        "category": "NOTED",
+        "reason": "We've already decided to skip Cowork due to it being underwhelming for our dev-heavy workflows. This tip confirms that assessment, so there's no need to reconsider.",
+        "relevance": [
+          "Cowork"
+        ],
+        "proposed_action": null
+      },
+      {
+        "tweet_id": "2020931408588570833",
+        "author": "@TaylorPearsonMe",
+        "likes": 225,
+        "text_preview": "The most interesting thing about Claude Code is the extensibility — small things can easily compound into bigger things ",
+        "primary_keyword": "/wrap",
+        "one_liner": "Leverage Claude Code's extensibility to create a compounding personal productivity system by starting with simple automations and iteratively building upon them.",
+        "category": "NOTED",
+        "reason": "We are already using /create-skill to create skills, and pre- and post-session hooks. This is just one example of using it to create daily, weekly and monthly summaries and goal audits, which we are already doing with compounding summaries. It is a good reminder of the value of this approach.",
+        "relevance": [
+          "compound summaries"
+        ],
+        "proposed_action": null
+      },
+      {
+        "tweet_id": "2009620498573873379",
+        "author": "@dani_avila7",
+        "likes": 207,
+        "text_preview": "Another interesting feature in Claude Code 2.1\n\nSkills are visible by default using / (just like commands).\n\nYes, this c",
+        "primary_keyword": "user-invocable",
+        "one_liner": "Control Claude Code 2.1 Skill visibility using `user-invocable` and `disable-model-invocation` settings in the skill frontmatter.",
+        "category": "NOTED",
+        "reason": "We already use Skills with YAML frontmatter and progressive disclosure in Claude Code. This tip clarifies the `user-invocable` and `disable-model-invocation` settings, but doesn't fundamentally change how we manage them.",
+        "relevance": [
+          "Skills",
+          "frontmatter",
+          "Claude Code"
+        ],
+        "proposed_action": null
+      },
+      {
+        "tweet_id": "2021022280135184695",
+        "author": "@pauloportella_",
+        "likes": 105,
+        "text_preview": "@zarazhangrui turn this into a pre auto compact hook and it will do it automatically",
+        "primary_keyword": "pre-auto-compact-hook",
+        "one_liner": "Automate processes by turning them into \"pre auto compact hooks\" for customized behavior.",
+        "category": "NOTED",
+        "reason": "We already use pre-compact hooks for automatic wrap-up, so this is a suggestion related to an existing practice. The specific implementation is not substantially different from what we currently do.",
+        "relevance": [
+          "Pre-compact and session-end hooks for automatic wrap-up"
+        ],
+        "proposed_action": null
+      }
+    ],
+    "NOISE": []
+  },
+  "summary": {
+    "act_now_count": 7,
+    "experiment_count": 22,
+    "noted_count": 15,
+    "noise_count": 0,
+    "top_engagement": {
+      "tweet_id": "2013626968386765291",
+      "likes": 18069,
+      "author": "@Remotion"
+    }
+  }
+}
