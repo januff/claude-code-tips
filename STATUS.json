@@ -1,10 +1,9 @@
 {
-  "updated_at": "2026-02-12T23:19:37.715856+00:00",
-  "updated_by": "claude-code",
+  "updated_at": "2026-02-13T02:26:00+00:00",
+  "updated_by": "claude-ai",
   "last_commit": {
-    "sha": "140a4e9",
-    "message": "chore: wrap-up \u2014 3-line status line implemented per spec",
-    "date": "2026-02-12T15:10:41-08:00"
+    "sha": "1526cb6",
+    "message": "docs: bootstrap for code-tab-as-orchestrator migration"
   },
   "stats": {
     "tweets": 468,
@@ -13,24 +12,32 @@
     "thread_replies_in_db": 27,
     "links_resolved": 99
   },
+  "active_task": {
+    "handoff": "plans/active/BOOTSTRAP_code-tab-orchestrator.md",
+    "description": "Migration experiment: move central orchestration from chat tab to code tab",
+    "prerequisite": "New code-tab instance reads bootstrap doc first, then audits the migration before doing pipeline work"
+  },
   "recent_changes": [
-    "Status line: 3-line display \u2014 project pulse, session mechanics, rotating quote from DB",
-    "Enrichment audit: 468 tweets audited, 4 empty-text diagnosed, 8 unenriched gap-filled",
-    "Export upgrade: models.py + core.py + tweet.md.j2 \u2014 enrichment sections, thread context, diagnostic footer",
-    "Full vault re-export: 458 notes with new format (classification, linked resources, enrichment status)",
-    "Author index: 406 authors, 8 Anthropic team flagged, top 10 hold 62.5% of likes",
+    "BOOTSTRAP: code-tab-as-orchestrator migration doc written by outgoing chat instance",
+    "Status line spec committed to .claude/references/statusline-spec.md",
+    "Status line: 3-line display — project pulse, session mechanics, rotating quote from DB",
+    "Enrichment audit COMPLETE: 468 tweets audited, 4 empty-text are genuinely attachment-only",
+    "Export upgrade COMPLETE: enrichment sections, thread context, diagnostic footer",
+    "Full vault re-export: 458 notes with new format",
+    "Author index: 406 authors, 8 Anthropic team flagged",
     "Obsidian CLI test: v1.11.7 needs 1.12+ for CLI, URI scheme works now"
   ],
   "known_issues": [
-    "Chrome extension mutual exclusion \u2014 Claude.ai app and Claude Code cannot share browser",
+    "Chrome extension mutual exclusion — Claude.ai app and Claude Code cannot share browser",
     "PROGRESS.md stale (last updated Jan 5)",
-    "4 tweets have empty text \u2014 genuinely attachment-only replies, not a parsing bug",
+    "4 tweets have empty text — genuinely attachment-only replies, not a parsing bug",
     "Quote tweets not captured in schema or extraction (only quote_count stored)",
-    "52 links (57%) still lack LLM summaries \u2014 many are t.co/media URLs",
-    "17 media items (59%) lack vision analysis \u2014 limited by missing local_path",
-    "Obsidian v1.11.7 installed \u2014 needs update to 1.12+ for CLI support",
-    "/wrap-up command does not include git push \u2014 causes invisible work",
-    "Briefing generator produces double @@ in author handles"
+    "52 links (57%) still lack LLM summaries — many are t.co/media URLs",
+    "17 media items (59%) lack vision analysis — limited by missing local_path",
+    "Obsidian v1.11.7 installed — needs update to 1.12+ for CLI support",
+    "/wrap-up command does not include git push — causes invisible work",
+    "Briefing generator produces double @@ in author handles",
+    "Pre-compact hook may not capture enough structured context (only STATUS.json)"
   ],
   "key_dates": {
     "last_bookmark_fetch": "2026-02-11",
@@ -39,6 +46,7 @@
     "last_enrichment_audit": "2026-02-12",
     "chrome_consolidation_complete": "2026-02-12",
     "obsidian_audit_complete": "2026-02-12",
+    "code_tab_migration_started": "2026-02-12",
     "project_reactivated": "2026-02-10",
     "autonomous_monitor_complete": "2026-02-11",
     "llm_analysis_rewrite_complete": "2026-02-11"
