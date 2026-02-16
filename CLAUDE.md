@@ -1,11 +1,12 @@
 # Claude Code Tips Repository
 
-## 🎯 First: Check CURRENT_FOCUS.md
+## 🎯 First: Check STATUS.json
 
-**Before doing anything else**, read `CURRENT_FOCUS.md` in this repo. It tells you:
-- Which project is currently active (may be the sibling repo)
-- Where the handoff docs are
-- What happened last session
+**Before doing anything else**, read `STATUS.json` in this repo. It tells you:
+- Current stats (tweet count, vault notes, etc.)
+- What happened last session (recent_changes)
+- What's known to be broken (known_issues)
+- Active task, if any
 
 This is a cross-project workspace. Work may bounce between `claude-code-tips` and `hall-of-fake`.
 
@@ -14,8 +15,8 @@ This is a cross-project workspace. Work may bounce between `claude-code-tips` an
 ## Project Purpose
 
 This repository is a learning resource and reference for Claude Code best practices. It contains:
-- A curated collection of 397 tips from the Claude Code community
-- 94 quality-filtered Obsidian notes with full enrichment
+- A curated collection of 468 tips from the Claude Code community
+- 457 quality-filtered Obsidian notes with full enrichment
 - Analysis and commentary from Claude instances
 - Personal progress tracking for technique adoption
 
@@ -23,32 +24,28 @@ The goal is to synthesize community wisdom into actionable configurations.
 
 ## Current Date Awareness
 
-**IMPORTANT**: Before researching, searching documentation, or looking up any information, always verify the current date. The current date context should be early January 2026. Do not default to 2024 dates or assume outdated information is current.
+**IMPORTANT**: Before researching, searching documentation, or looking up any information, always verify the current date. The current date context should be February 2026. Do not default to 2024 dates or assume outdated information is current.
 
 ---
 
-## 🔄 Claude.ai ↔ Claude Code Delegation Pattern
+## 🔄 Working Model: Code Tab as Orchestrator
 
-**CRITICAL for complex tasks:** This project uses a delegation pattern between Claude.ai Projects and Claude Code CLI.
+**The Claude Code tab is the central orchestrator.** It handles planning, strategy, execution, and review in a single context. No delegation docs needed.
 
-| Claude.ai Project | Claude Code CLI |
-|-------------------|-----------------|
-| Planning, decisions | Execution |
-| Strategy discussion | API calls, file I/O |
-| Writing HANDOFF.md | Database operations |
-| Reviewing results | Git commits |
+**Capabilities:**
+- Plan mode (Shift+Tab) for strategic thinking before execution
+- Direct DB access, git operations, script execution
+- Claude-in-Chrome for browser automation (no contention)
+- Subagents via Task tool for parallel work
+- Skills/commands (`/task-plan`, `/wrap-up`, `/fetch-bookmarks`)
+- Pre-compact hook auto-preserves STATUS.json
 
-**Why:** Avoids context window bloat from large JSON/API responses. Prevents compaction loss of conversational context in Claude.ai.
+**Session boundaries:**
+- Read `STATUS.json` on cold start
+- Commit incrementally during work
+- Run `/wrap-up` + `git push` at session end
 
-**Flow:**
-1. Claude.ai writes tasks to `HANDOFF.md`
-2. User runs `claude` → "Read HANDOFF.md and execute"
-3. Claude Code commits incrementally
-4. Claude.ai reviews via GitHub MCP
-
-**MCP Best Practice:** Only enable MCPs needed for current task.
-
-**Key file:** `HANDOFF.md` — Check this for current tasks and completed work.
+**Historical note:** This project previously used a chat-tab/code-tab delegation pattern where Claude.ai wrote HANDOFF docs and Claude Code executed them. That pattern was retired Feb 2026 — see Decision 13 in PROJECT_DECISIONS.md.
 
 ---
 
@@ -101,7 +98,7 @@ Browser automation uses **Claude-in-Chrome** (native `/chrome` integration). No 
 - `mcp__claude-in-chrome__navigate` — page navigation
 - `mcp__claude-in-chrome__computer` — screenshots, clicks
 
-**Chrome contention:** Only one Claude instance can hold the Chrome extension connection at a time. Claude Code should hold it during execution sessions. If the Claude.ai app is also connected, run `/chrome` → Reconnect to claim it.
+**Chrome contention:** Only one Claude instance can hold the Chrome extension connection at a time. With the code-tab-as-orchestrator model, this is no longer an issue — the code tab holds the connection exclusively.
 
 ---
 
@@ -129,56 +126,55 @@ WHERE likes > 0 OR holistic_summary IS NOT NULL
 ```
 /
 ├── CLAUDE.md                    # This file
-├── HANDOFF.md                   # Current tasks for Claude Code
-├── PROGRESS.md                  # Personal adoption tracker
+├── STATUS.json                  # Machine-readable project state (check first)
+├── PROJECT_DECISIONS.md         # Architectural decisions log
 ├── LEARNINGS.md                 # Techniques catalog for fresh instances
+├── PROGRESS.md                  # Personal adoption tracker
 ├── README.md                    # Public-facing documentation
 ├── data/
 │   ├── claude_code_tips_v2.db  # SQLite database with FTS5
-│   └── threads/                # Scraped thread JSON files (70 threads)
-├── Claude Code Tips/            # Obsidian vault (94 quality notes)
-│   ├── Claude Dashboard/
-│   │   └── Session Logs/       # Detailed session summaries
+│   └── threads/                # Scraped thread JSON files
+├── Claude Code Tips/            # Obsidian vault (457 quality notes)
+│   ├── _dashboards/            # Dataview queries
 │   └── attachments/            # Media files
 ├── scripts/
-│   ├── obsidian_export/        # Export library
+│   ├── obsidian_export/        # Export library (serves both projects)
 │   ├── whats_new.py            # What's New reporting
 │   └── ...
+├── .claude/
+│   ├── settings.json           # Permissions, hooks, agent teams flag
+│   ├── hooks/                  # Pre-compact + session-end hooks
+│   ├── references/             # Specs, analysis context docs
+│   └── commands/               # Skills / slash commands
 ├── plans/
-│   ├── archive/                # Completed handoffs
-│   └── (active handoffs)
+│   ├── active/                 # Current task plans
+│   └── archive/                # Completed work
+├── analysis/                   # Audit reports, reviews
 └── assets/                     # Images for README
 ```
 
 ## Key Files
 
 | File | Purpose |
-|------|---------||
-| `HANDOFF.md` | **Check first** — Current tasks from Claude.ai |
-| `PROGRESS.md` | Personal tracking of technique adoption |
+|------|---------|
+| `STATUS.json` | **Check first** — Machine-readable project state |
+| `PROJECT_DECISIONS.md` | Why things are built the way they are |
 | `LEARNINGS.md` | Techniques catalog (what's available vs. what we use) |
 | `data/claude_code_tips_v2.db` | SQLite: tweets, replies, links, media |
-| `Claude Code Tips/` | Obsidian vault (94 quality-filtered notes) |
+| `Claude Code Tips/` | Obsidian vault (457 quality-filtered notes) |
 
-## Data State (January 5, 2026)
+## Data State
 
-| Metric | Value |
-|--------|-------|
-| Tweets in DB | 397 |
-| Quality vault notes | 94 |
-| Threads scraped | 70 |
-| Total replies | 928 |
-| Links resolved | 64 |
-| Links with summaries | 24 |
+**Live stats are in STATUS.json.** The `/wrap-up` command and pre-compact hook keep it current.
 
 ---
 
 ## Your Task
 
-You are a Claude instance being handed off this project. Your job depends on context:
+You are a Claude instance in the code tab. Your job depends on context:
 
-1. **If HANDOFF.md has tasks:** Execute them in order, commit incrementally
-2. **If continuing analysis:** Check `PROGRESS.md` for current adoption status
+1. **If STATUS.json has an active_task:** Read its handoff doc and execute
+2. **If the user gives direct instructions:** Plan (Shift+Tab) then execute
 3. **If exploring techniques:** Read `LEARNINGS.md` for what's available
 4. **If adding tips:** Use the SQLite database, not markdown files
 
@@ -218,7 +214,7 @@ python scripts/whats_new.py --days 7
 | `claude-code-tips` | This repo — tip collection | Active |
 | `hall-of-fake` | Sora video archive | Active |
 
-Both projects share the Claude.ai ↔ Claude Code delegation pattern.
+Both projects use the code-tab-as-orchestrator model.
 
 ---
 
@@ -227,7 +223,7 @@ Both projects share the Claude.ai ↔ Claude Code delegation pattern.
 ```
 I'm continuing work on claude-code-tips (Twitter bookmark knowledge base).
 
-Read CLAUDE.md from Project Knowledge. For current tasks, check HANDOFF.md.
+Read STATUS.json for current state. Read CLAUDE.md for project conventions.
 
 CURRENT FOCUS: [your focus]
 ```
@@ -240,4 +236,4 @@ To confirm you've read these instructions, include "context-first" in your first
 
 ---
 
-*Last updated: February 12, 2026*
+*Last updated: February 16, 2026*

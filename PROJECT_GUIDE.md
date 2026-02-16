@@ -1,25 +1,23 @@
 # PROJECT_GUIDE.md — Claude Code Tips
 
-> **This is the bootstrap file for Claude.ai Project instances.**
+> **Reference guide for any Claude instance working on this project.**
 > It tells you where to find everything. It does NOT duplicate live data.
 
 ---
 
 ## What This Project Is
 
-**Claude Code Tips** is a knowledge base of community tips about Claude Code, scraped from Twitter/X. Started with Alex Albert's viral thread ("What's your most underrated Claude Code trick?"), expanded to include reply threads, linked resources, and engagement tracking. ~400 tweets in a SQLite database, ~130 quality-filtered Obsidian notes.
+**Claude Code Tips** is a knowledge base of community tips about Claude Code, scraped from Twitter/X. Started with Alex Albert's viral thread ("What's your most underrated Claude Code trick?"), expanded to include reply threads, linked resources, and engagement tracking. 468 tweets in a SQLite database, 457 quality-filtered Obsidian notes.
 
 **Sibling project:** `hall-of-fake` — Sora AI video archive and curation pipeline.
 
-Both repos live at `~/Development/` and are coordinated from their respective Claude.ai Projects. Cross-repo access is via GitHub MCP (`januff/hall-of-fake`, `januff/claude-code-tips`).
+Both repos live at `~/Development/`. Cross-repo access is via GitHub MCP (`januff/hall-of-fake`, `januff/claude-code-tips`).
 
 ---
 
 ## How to Orient Yourself
 
 ### Step 1: Get current state (do this FIRST)
-
-Use **GitHub MCP** or **filesystem MCP** to read these files from the `claude-code-tips` repo:
 
 | File | What It Tells You |
 |------|-------------------|
@@ -44,46 +42,29 @@ Use **GitHub MCP** or **filesystem MCP** to read these files from the `claude-co
 
 ---
 
-## Session Boundaries: Claude.ai Protocol
-
-Claude Code has `/start-session` and `/wrap-up` commands. Claude.ai instances in this Project must follow equivalent discipline manually.
+## Session Boundaries
 
 ### On session start
 
-Read `STATUS.json` via GitHub MCP before doing substantive work. This tells you what the last session did, current stats, and what's known to be broken.
+Read `STATUS.json` before doing substantive work. This tells you what the last session did, current stats, and what's known to be broken.
 
-### After making commits
+### During work
 
-**Any Claude.ai commit via GitHub MCP must be followed by a STATUS.json update.** Update these fields:
-
-- `updated_at` — current ISO timestamp
-- `updated_by` — `"claude-ai"`
-- `last_commit` — sha and message of the commit just made
-- `recent_changes` — prepend a description of what changed
-
-Leave `stats` alone (requires live DB query — only Claude Code can populate it).
+Commit incrementally. The pre-compact hook auto-updates STATUS.json before compaction, but explicit commits are better.
 
 ### On session end
 
-If you made any commits during the conversation, ensure STATUS.json reflects them before the conversation ends.
+Run `/wrap-up` then `git push`. The wrap-up command updates STATUS.json with live DB stats. Push ensures the work is visible.
 
 ---
 
-## Delegation Pattern
+## Working Model
 
-| Claude.ai Project (you are here) | Claude Code CLI |
-|---|---|
-| Planning, strategy, decisions | Execution, file I/O, DB operations |
-| Writing HANDOFF docs | Reading and executing HANDOFFs |
-| Reviewing results via GitHub MCP | Git commits, running scripts |
-| Creative direction, analysis | Data processing, scraping, enrichment |
+**The Claude Code tab is the central orchestrator** — planning, strategy, and execution happen in the same context. Use plan mode (Shift+Tab) for strategic thinking before execution.
 
-**Flow:**
-1. Claude.ai writes a `HANDOFF_*.md` file to the repo
-2. User runs `claude` in terminal → "Read HANDOFF_*.md and execute"
-3. Claude Code commits incrementally
-4. Claude Code runs `/wrap-up` to update STATUS.json
-5. Claude.ai reviews via GitHub MCP
+For complex multi-step work, use `/task-plan` to create a structured plan in `plans/active/`. For parallel tasks, use the Task tool to spawn subagents.
+
+**Historical note:** This project previously used a chat-tab/code-tab delegation pattern (Jan–Feb 2026). That model was retired — see Decision 13 in PROJECT_DECISIONS.md.
 
 ---
 
@@ -140,7 +121,7 @@ claude-code-tips/
 │   ├── claude_code_tips_v2.db  ← SQLite database with FTS5
 │   ├── threads/                ← Scraped thread JSON files
 │   └── media/                  ← Downloaded media files
-├── Claude Code Tips/        ← Obsidian vault
+├── Claude Code Tips/        ← Obsidian vault (457 notes)
 │   ├── *.md                    ← Quality-filtered notes
 │   ├── _dashboards/            ← Dataview queries
 │   └── attachments/            ← Media files
@@ -148,12 +129,14 @@ claude-code-tips/
 │   ├── obsidian_export/        ← Export library (serves both projects)
 │   └── (pipeline scripts)
 ├── .claude/
-│   └── commands/
-│       └── start-session.md
+│   ├── settings.json           ← Permissions, hooks, agent teams
+│   ├── hooks/                  ← Pre-compact + session-end
+│   ├── references/             ← Specs, analysis context docs
+│   └── commands/               ← Skills / slash commands
 ├── plans/
-│   └── archive/                ← Completed handoffs
-├── analysis/                   ← Commentary and analysis
-├── tips/                       ← Original markdown (legacy, pre-SQLite)
+│   ├── active/                 ← Current task plans
+│   └── archive/                ← Completed work
+├── analysis/                   ← Audit reports, reviews
 └── assets/                     ← Images for README
 ```
 
@@ -163,8 +146,7 @@ claude-code-tips/
 
 - **Obsidian export for hall-of-fake** runs from THIS repo: `scripts/export_hof.py`
 - **Hall of Fake status** is accessible via GitHub MCP: read `januff/hall-of-fake/STATUS.json`
-- Both projects follow the same delegation pattern and session boundary protocol
-- The `hall-of-fake` project has a more mature doc structure (STATUS.json, /wrap-up, edit logging) — this repo should converge toward the same patterns
+- Both projects use code-tab-as-orchestrator model with STATUS.json + `/wrap-up` session boundaries
 
 ---
 
@@ -175,37 +157,37 @@ claude-code-tips/
 | `PROJECT_GUIDE.md` | This file — structural router | Rarely (only when architecture changes) |
 | `LEARNINGS.md` | Techniques catalog — stable reference for Claude Code patterns | After major technique adoption changes |
 
-**Everything else lives in the repo** and is accessed live via MCP tools.
+**Everything else lives in the repo** and is accessed directly (code tab) or via MCP tools (if reviewing remotely).
 
 ---
 
-## Common Tasks from This Interface
+## Common Tasks
 
 ### "What's the current state?"
-→ Read `STATUS.json` via GitHub MCP
+→ Read `STATUS.json`
 
 ### "Refresh bookmarks from Twitter"
-→ Write a HANDOFF doc for Chrome auth wrapper extraction, or direct Claude Code: "Use bookmark_folder_extractor.js pattern to fetch new bookmarks"
+→ Use `/fetch-bookmarks` skill or run `bookmark_folder_extractor.js` via Claude-in-Chrome
 
 ### "What tips are trending?"
-→ Have Claude Code run `python scripts/whats_new.py --days 30`
+→ Run `python scripts/whats_new.py --days 30`
 
 ### "Update the Obsidian vault"
-→ Have Claude Code run `python scripts/export_tips.py`
+→ Run `python scripts/export_tips.py`
 
 ### "What's happening in the sibling project?"
 → Read `januff/hall-of-fake/STATUS.json` via GitHub MCP
 
 ---
 
-## Known Gaps (as of Feb 2026)
+## Known Gaps
 
-This repo hasn't been actively worked since Jan 19. A fresh instance should:
+See `known_issues` in STATUS.json for the current list. Key structural gaps as of Feb 2026:
 
-1. **Check for a STATUS.json** — if it doesn't exist yet, the doc audit hasn't happened
-2. **Clean up duplicate files** at root (HANDOFF.md + HANDOFF_updated.md, PROJECT_DECISIONS.md + PROJECT_DECISIONS_updated.md)
-3. **Run a bookmark refresh** — the thread has likely grown since Jan 8
-4. **Consider adding `/wrap-up` command** — hall-of-fake has this, claude-code-tips doesn't yet
+1. **PROGRESS.md stale** — last updated Jan 5. Analysis engine depends on it for classification context.
+2. **Quote tweets not captured** — only `quote_count` stored, no quoted content
+3. **Vision analysis incomplete** — 17 media items (59%) lack analysis due to missing local_path
+4. **Link summaries thin** — 52 links (57%) still lack LLM summaries
 
 ---
 
@@ -217,4 +199,5 @@ This repo hasn't been actively worked since Jan 19. A fresh instance should:
 
 ---
 
-*This file is structural and stable. For current project state, always read STATUS.json from the repo.*
+*This file is structural and stable. For current project state, always read STATUS.json.*
+*Last updated: February 16, 2026*

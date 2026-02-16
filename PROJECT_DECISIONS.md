@@ -101,7 +101,7 @@ Key tips: CLAUDE.md ~2.5k tokens, skills = slash commands, plan mode first (shif
 
 ## Decision 10: MCP Infrastructure (2026-01-02)
 
-**Active servers:** GitHub MCP (repo management), Filesystem MCP (local file ops), Playwriter MCP (Chrome auth wrapper — uses logged-in session, ~90% less context than Playwright).
+**Active servers:** GitHub MCP (repo management), Filesystem MCP (local file ops), Claude-in-Chrome (browser automation — native integration, replaced Playwriter MCP which was removed as dead config Feb 2026).
 
 ---
 
@@ -130,6 +130,36 @@ Key tips: CLAUDE.md ~2.5k tokens, skills = slash commands, plan mode first (shif
 - PROJECT_GUIDE.md added as bootstrap router for Claude.ai instances
 
 **Target root files:** CLAUDE.md, PROJECT_GUIDE.md, PROJECT_DECISIONS.md, LEARNINGS.md, README.md, STATUS.json
+
+---
+
+## Decision 13: Code Tab as Central Orchestrator (2026-02-16)
+
+**Decision:** Move central orchestration from the Claude.ai chat tab to the Claude Code tab. The code tab handles planning, strategy, and execution in a single context.
+
+**Context:** The three-instance model (chat tab for planning, code CLI for execution, oversight for review) introduced significant friction: manual handoff documents for every delegation, Chrome extension contention (only one instance can hold the browser), no shared memory between instances, commit-but-no-push gaps, and context management consuming as much effort as the actual work.
+
+**What changed:**
+- Retired the HANDOFF.md delegation workflow
+- Code tab uses plan mode (Shift+Tab) for strategic thinking
+- Code tab uses subagents (Task tool) for parallel work
+- User instructs Claude Code directly instead of writing handoff docs
+- STATUS.json + `/wrap-up` + pre-compact hook handle session boundaries
+
+**What we gained:**
+- Decision-to-execution latency dropped from minutes to seconds
+- No context transfer loss between tabs
+- Chrome extension contention eliminated (single instance)
+- Fewer stale coordination docs
+
+**What we gave up:**
+- Clean separation between thinking and doing (mitigated by plan mode)
+- Async GitHub MCP review from chat tab (unused in practice)
+- Claude.ai's long-context conversational memory (mitigated by compaction hooks)
+
+**Updated files:** CLAUDE.md, PROJECT_GUIDE.md, LEARNINGS.md, PROJECT_DECISIONS.md (this entry). Bootstrap doc archived to `plans/archive/`.
+
+**Status:** Experimental. If the code tab's UX creates different problems (context bloat from execution output, less room for strategic thinking), we pivot.
 
 ---
 

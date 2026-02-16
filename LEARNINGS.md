@@ -3,28 +3,30 @@
 > A quick-reference catalog of Claude Code techniques, organized by adoption status.
 > For fresh Claude instances to understand what's available vs. what we're already using.
 
-**Last Updated:** January 5, 2026
+**Last Updated:** February 16, 2026
 
 ---
 
 ## ✅ Techniques We Use Daily
 
-### Delegation Pattern
-- **Claude.ai Projects** → Planning, decisions, coordination
-- **Claude Code CLI** → Execution, API calls, file I/O, database operations
-- **Why:** Avoids context window bloat from large JSON/API responses
+### Code-Tab-as-Orchestrator
+- Single Claude Code instance handles planning + execution
+- Plan mode (Shift+Tab) for strategic thinking before execution
+- Subagents (Task tool) for parallel work
+- **Replaced:** Former chat/code delegation pattern (Jan–Feb 2026)
 
-### Handoff Documents
-- `HANDOFF.md` — Current tasks from Claude.ai to Claude Code
-- `SESSION_LOGS/` — Detailed session summaries in Obsidian
-- Makes fresh sessions cheap — context is in the docs
+### Session Boundaries (STATUS.json + /wrap-up)
+- `STATUS.json` — machine-readable project state, read on cold start
+- `/wrap-up` command — auto-populates stats from live DB
+- Pre-compact hook — auto-stages STATUS.json before compaction
+- Session context files — for complex multi-session cold starts
 
 ### MCP Servers
 | Server | Purpose | Notes |
 |--------|---------|-------|
 | GitHub MCP | Repo management, file access | Cross-repo coordination |
 | Filesystem MCP | Local file operations | Read/write/search |
-| Playwriter MCP | Browser automation | Uses logged-in Chrome session |
+| Claude-in-Chrome | Browser automation | Native, no third-party extensions |
 
 ### Quality-Filtered Export
 Only export content that's been fully processed:
@@ -60,31 +62,28 @@ Tweets/videos with just an image are high-signal — the author is pointing you 
 ### Opus 4.5 with Thinking
 Boris (Claude Code creator): "Slower but less steering = faster overall"
 
+### Slash Commands (Skills)
+Location: `.claude/commands/`
+Active commands: `/task-plan`, `/wrap-up`, `/fetch-bookmarks`, `/start-session`
+Boris uses `/commit-push-pr` dozens of times daily. Inner-loop automation.
+
+### Hooks
+- **PreCompact** — Auto-updates STATUS.json before compaction (active)
+- **SessionEnd** — Safety net if wrap-up wasn't called (active)
+- **PostToolUse** — Auto-format code (not yet implemented)
+
+### Permissions (settings.json)
+Pre-allow safe bash commands: `git`, `gh` pre-allowed. Avoids `--dangerously-skip-permissions`.
+
+### Agent Teams
+`CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS: true` in settings.json. Not yet tested for pipeline work.
+
 ---
 
 ## 📋 Techniques to Try Next
 
-### Slash Commands (Skills)
-Location: `.claude/commands/`
-
-Boris uses `/commit-push-pr` dozens of times daily. Inner-loop automation.
-
-**Candidates for us:**
-- `/refresh-bookmarks` — Fetch new from Twitter folder
-- `/commit-push` — Standard git workflow
-- `/verify-export` — Check vault quality
-
-### Subagents
-Spawn specialized agents for parallel work:
-- `code-simplifier` — Simplify code after Claude is done
-- `verify-app` — Test Claude Code end-to-end
-
-### Hooks
-- **PostToolUse** — Auto-format code (handles last 10%)
-- **Stop hook** — Verify work when done
-
-### `/permissions`
-Pre-allow safe bash commands in `.claude/settings.json`. Avoids `--dangerously-skip-permissions` while reducing prompts.
+### Subagents for Pipeline Work
+Task tool can spawn Explore/Bash/general-purpose agents. Untested for parallel enrichment runs.
 
 ### Teleport (`&`)
 Hand off terminal session to web: `claude &`
@@ -151,12 +150,12 @@ From his January 2, 2026 thread (45,567 likes):
 
 | File | Purpose |
 |------|---------|
+| `STATUS.json` | Current project state (check first) |
 | `CLAUDE.md` | Project context for any Claude instance |
-| `PROGRESS.md` | Personal adoption tracker |
-| `HANDOFF.md` | Current tasks from Claude.ai |
 | `PROJECT_DECISIONS.md` | Architectural decisions |
-| `vault/Claude Dashboard/Session Logs/` | Detailed session summaries |
+| `PROGRESS.md` | Personal adoption tracker |
+| `plans/active/` | Current task plans |
 
 ---
 
-*For a fresh instance: Start with CLAUDE.md, check HANDOFF.md for current tasks, reference this file for technique options.*
+*For a fresh instance: Read STATUS.json, then CLAUDE.md. Reference this file for technique options.*
