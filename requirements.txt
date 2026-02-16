@@ -1,0 +1,7 @@
+# Claude Code Tips — Python dependencies
+# Install: pip install -r requirements.txt
+
+google-genai           # Gemini API client (enrichment scripts)
+python-dotenv          # .env file loading
+requests               # HTTP requests (link enrichment)
+beautifulsoup4         # HTML parsing (link content extraction)
