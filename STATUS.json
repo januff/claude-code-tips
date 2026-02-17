@@ -1,44 +1,45 @@
 {
-  "updated_at": "2026-02-16T12:00:00+00:00",
+  "updated_at": "2026-02-17T21:09:00+00:00",
   "updated_by": "claude-code",
   "last_commit": {
     "sha": "pending",
-    "message": "docs: complete code-tab-as-orchestrator migration — update all project docs"
+    "message": "fix: deterministic dedup in fetch-bookmarks — Python import script replaces shell pipes"
   },
   "stats": {
-    "tweets": 468,
-    "vault_notes": 457,
+    "tweets": 480,
+    "vault_notes": 470,
     "threads_scraped": 101,
     "thread_replies_in_db": 27,
-    "links_resolved": 99
+    "links_resolved": 107,
+    "links_with_summaries": 55
   },
   "active_task": null,
   "recent_changes": [
-    "Migration COMPLETE: code-tab-as-orchestrator — updated CLAUDE.md, PROJECT_GUIDE.md, LEARNINGS.md, PROJECT_DECISIONS.md",
-    "Decision 13 added: code tab as central orchestrator (experimental)",
-    "Bootstrap doc archived to plans/archive/",
-    "BOOTSTRAP: code-tab-as-orchestrator migration doc written by outgoing chat instance",
-    "Status line: 3-line display — project pulse, session mechanics, rotating quote from DB",
-    "Enrichment audit COMPLETE: 468 tweets audited, 4 empty-text are genuinely attachment-only",
-    "Export upgrade COMPLETE: enrichment sections, thread context, diagnostic footer",
-    "Full vault re-export: 458 notes with new format"
+    "FIXED: fetch-bookmarks dedup bug — created scripts/import_bookmarks.py with Python-set dedup (no shell pipes)",
+    "Rewrote /fetch-bookmarks skill as deterministic, prescriptive skill with exact tool calls per phase",
+    "Added data/fetch_logs/ for structured import logging",
+    "Decision 14: documented dedup bug root cause and architectural fix",
+    "Bookmark fetch: 12 NEW tweets imported (SSH support, Obsidian CLI, Excalidraw+MCP, Seedance 2.0, Cowork update, terminal line height, Haiku model remap, self-improve setup, etc.)",
+    "Migration COMPLETE: code-tab-as-orchestrator — updated CLAUDE.md, PROJECT_GUIDE.md, LEARNINGS.md, PROJECT_DECISIONS.md"
   ],
   "known_issues": [
     "PROGRESS.md stale (last updated Jan 5)",
     "4 tweets have empty text — genuinely attachment-only replies, not a parsing bug",
     "Quote tweets not captured in schema or extraction (only quote_count stored)",
-    "52 links (57%) still lack LLM summaries — many are t.co/media URLs",
-    "17 media items (59%) lack vision analysis — limited by missing local_path",
+    "44 links (41%) still lack LLM summaries — 19 are media URLs (unfetchable), 25 are x.com/tweet links",
+    "17+ media items lack vision analysis — limited by missing local_path",
     "Obsidian v1.11.7 installed — needs update to 1.12+ for CLI support",
     "/wrap-up command does not include git push — causes invisible work",
     "Briefing generator produces double @@ in author handles",
     "Pre-compact hook may not capture enough structured context (only STATUS.json)"
   ],
   "key_dates": {
-    "last_bookmark_fetch": "2026-02-11",
-    "last_vault_export": "2026-02-12",
+    "last_bookmark_fetch": "2026-02-16",
+    "last_vault_export": "2026-02-16",
+    "last_enrichment_run": "2026-02-16",
     "last_analysis_run": "2026-02-12",
     "last_enrichment_audit": "2026-02-12",
+    "last_skill_rewrite": "2026-02-17",
     "chrome_consolidation_complete": "2026-02-12",
     "obsidian_audit_complete": "2026-02-12",
     "code_tab_migration_complete": "2026-02-16",

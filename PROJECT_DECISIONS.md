@@ -163,4 +163,21 @@ Key tips: CLAUDE.md ~2.5k tokens, skills = slash commands, plan mode first (shif
 
 ---
 
+## Decision 14: Deterministic Dedup in Fetch-Bookmarks (2026-02-17)
+
+**Decision:** Move dedup logic from the `/fetch-bookmarks` skill (browser-side, improvised) into a standalone Python import script (`scripts/import_bookmarks.py`), eliminating all shell-pipe serialization.
+
+**Context (Feb 16 bug):** The `/fetch-bookmarks` skill successfully extracted 120 bookmarks but reported 0 new tweets. The instance improvised a dedup step using a shell pipeline (`sqlite3 | tr | sed`) to build an ID set in browser JS. The pipeline silently corrupted the output — phantom IDs appeared in the set, causing all 120 tweets to match as "existing." 12 were actually new. The bug was caught by the user and manually fixed using a file-based `comm` comparison.
+
+**Root cause:** The skill said "deduplicate against existing tweet IDs" but didn't prescribe HOW. The instance improvised a fragile shell pipeline. This is a degrees-of-freedom problem — the skill left a critical step ambiguous, and the improvisation broke silently.
+
+**Fix:**
+- Created `scripts/import_bookmarks.py` — loads JSON, queries `SELECT id FROM tweets` into a Python `set`, partitions new vs existing, inserts new tweets. Zero serialization, zero shell pipes.
+- Rewrote `/fetch-bookmarks` skill to prescribe exact tool calls for every phase. Phase 5 (Import) now says: run `python scripts/import_bookmarks.py <file> --dry-run` then actual import. No browser-side dedup. No shell pipes.
+- Added `data/fetch_logs/` — every import writes a structured JSON log for future instances to verify.
+
+**Principle:** When a skill delegates a critical step to instance improvisation, the step will eventually be improvised incorrectly. Prescribe the exact command.
+
+---
+
 *This log is updated as significant decisions are made.*

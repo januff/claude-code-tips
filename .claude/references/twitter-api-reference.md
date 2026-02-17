@@ -185,6 +185,50 @@ The `count` parameter causes a 400 error. Twitter controls the page size (~20 tw
 
 ---
 
+## Fetch Log Format
+
+Every run of `scripts/import_bookmarks.py` writes a JSON log to `data/fetch_logs/`.
+
+**Filename pattern:** `fetch_YYYY-MM-DD_HHMMSS.json`
+
+**Schema:**
+
+```json
+{
+  "fetch_id": "fetch_2026-02-17_143022",
+  "completed_at": "2026-02-17T14:30:22.000000+00:00",
+  "source_file": "data/new_bookmarks_2026-02-17.json",
+  "dry_run": false,
+  "import": {
+    "total_in_file": 120,
+    "new": 12,
+    "existing": 108,
+    "errors": []
+  },
+  "new_tweets": [
+    {
+      "id": "2022890287841054999",
+      "author": "@marckohlbrugge",
+      "text_preview": "Gave this link to Claude Code and it did...",
+      "likes": 500
+    }
+  ]
+}
+```
+
+**Fields:**
+- `fetch_id` — Unique identifier based on timestamp
+- `dry_run` — `true` if `--dry-run` was used (no DB changes)
+- `import.total_in_file` — Total tweets in the source JSON
+- `import.new` — Tweets that were not in the DB (inserted or would-be-inserted)
+- `import.existing` — Tweets already in the DB (skipped)
+- `import.errors` — Array of `{id, error}` for any failed inserts
+- `new_tweets` — Summary of each new tweet for quick review
+
+**Console output:** The script also prints `IMPORT_RESULT:{json}` on its final line for programmatic consumption by the `/fetch-bookmarks` skill.
+
+---
+
 ## Cross-Repo Note
 
 The Chrome auth wrapper pattern is shared with hall-of-fake (Sora video fetching). Same principle: browser provides auth, API does extraction.
