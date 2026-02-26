@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-02-17T21:36:42.653281+00:00",
+  "updated_at": "2026-02-26T22:09:59.641349+00:00",
   "updated_by": "claude-code",
   "last_commit": {
-    "sha": "27b4231",
-    "message": "fix: deterministic dedup in fetch-bookmarks \u2014 Python import script replaces shell pipes",
-    "date": "2026-02-17T13:35:57-08:00"
+    "sha": "8b6175f",
+    "message": "chore: wrap-up \u2014 update STATUS.json (481 tweets, fetch/enrichment dates)",
+    "date": "2026-02-17T13:36:57-08:00"
   },
   "stats": {
     "tweets": 481,
