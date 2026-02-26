@@ -30,11 +30,12 @@ If `plans/active/TASK_PLAN.md` exists:
 python .claude/references/wrap-up-script.py
 ```
 
-Then stage and commit:
+Then stage, commit, and push:
 
 ```bash
 git add STATUS.json
 git commit -m "chore: wrap-up — update STATUS.json"
+git push origin main
 ```
 
 ## When to Update `recent_changes`
