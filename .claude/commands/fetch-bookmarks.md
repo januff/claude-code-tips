@@ -98,48 +98,74 @@ Wait for it to complete. It returns the total count.
 
 ---
 
-## Phase 5: Extract Results from Browser
+## Phase 5: Extract Results via Browser Download
 
-Results are in `window._fetchedBookmarks`. Extract in batches of **2 tweets per call** due to `javascript_tool` output size limits.
+Results are in `window._fetchedBookmarks`.
 
-### Step 5a: Get total count
+> **WORKAROUND (Feb 2026):** The `javascript_tool` output truncates at ~1500 chars,
+> which is smaller than a single tweet (~800 chars). Batch extraction (the old
+> approach) would require 67+ sequential calls for a typical folder. Instead, we
+> trigger a Blob download from the browser and copy the file over.
+>
+> **If a future Claude-in-Chrome update lifts the output limit or adds a direct
+> file-write capability, replace this phase with direct extraction.** Check the
+> `javascript_tool` changelog or test with `JSON.stringify(array).length` to see
+> if the limit has changed.
+
+### Step 5a: Verify count
 
 **Tool:** `mcp__claude-in-chrome__javascript_tool`
 ```javascript
 window._fetchedBookmarks.length
 ```
 
-### Step 5b: Extract in batches
-
-Loop from `START=0` to total, incrementing by 2:
+### Step 5b: Trigger browser download
 
 **Tool:** `mcp__claude-in-chrome__javascript_tool`
 ```javascript
-JSON.stringify(window._fetchedBookmarks.slice(START, START+2))
+const blob = new Blob([JSON.stringify(window._fetchedBookmarks, null, 2)], {type: 'application/json'});
+const url = URL.createObjectURL(blob);
+const a = document.createElement('a');
+a.href = url;
+a.download = 'new_bookmarks_YYYY-MM-DD.json';
+document.body.appendChild(a);
+a.click();
+document.body.removeChild(a);
+URL.revokeObjectURL(url);
+'Download triggered'
 ```
 
-Collect all batches into a single JSON array in your context.
+Replace `YYYY-MM-DD` with today's date.
+
+### Step 5c: Wait, then copy to project
+
+**Tool:** `mcp__claude-in-chrome__computer`
+```
+action: wait
+duration: 2
+```
+
+**Tool:** `Bash`
+```bash
+cp ~/Downloads/new_bookmarks_YYYY-MM-DD.json data/new_bookmarks_YYYY-MM-DD.json
+```
+
+### Step 5d: Validate the file
+
+**Tool:** `Bash`
+```bash
+python3 -c "import json; d=json.load(open('data/new_bookmarks_YYYY-MM-DD.json')); print(f'{len(d)} tweets')"
+```
+
+Confirm the count matches Step 5a.
 
 ---
 
-## Phase 6: Save JSON File
-
-**Tool:** `Write`
-
-Write the collected array to:
-```
-data/new_bookmarks_YYYY-MM-DD.json
-```
-
-Use today's date. Format as a JSON array with 2-space indent.
-
----
-
-## Phase 7: Import to Database
+## Phase 6: Import to Database
 
 > **CRITICAL: No browser-side dedup. No shell pipes. The Python script handles everything.**
 
-### Step 7a: Dry run first
+### Step 6a: Dry run first
 
 **Tool:** `Bash`
 ```bash
@@ -149,7 +175,7 @@ python3 scripts/import_bookmarks.py data/new_bookmarks_YYYY-MM-DD.json --dry-run
 Review the output. Confirm the new/existing counts look reasonable.
 Report the dry-run results to the user before proceeding.
 
-### Step 7b: Actual import
+### Step 6b: Actual import
 
 **Tool:** `Bash`
 ```bash
@@ -160,33 +186,33 @@ Parse the `IMPORT_RESULT:{...}` line from the output to get the structured resul
 
 ---
 
-## Phase 8: Enrichment Pipeline
+## Phase 7: Enrichment Pipeline
 
 Run these scripts **in order**. Each depends on the previous step's output.
 
-### Step 8a: Keyword extraction
+### Step 7a: Keyword extraction
 ```bash
 python3 scripts/enrich_keywords.py
 ```
 
-### Step 8b: Summary generation
+### Step 7b: Summary generation
 ```bash
 python3 scripts/enrich_summaries.py
 ```
 
-### Step 8c: Link enrichment
+### Step 7c: Link enrichment
 ```bash
 python3 scripts/enrich_links.py
 ```
 
-### Step 8d: Obsidian vault export
+### Step 7d: Obsidian vault export
 ```bash
 python3 scripts/export_tips.py
 ```
 
 ---
 
-## Phase 9: Report and Wrap Up
+## Phase 8: Report and Wrap Up
 
 1. Report to the user:
    - Total tweets fetched
@@ -209,6 +235,8 @@ python3 scripts/export_tips.py
 | Empty results | No bookmarks in folder or wrong folder ID | Check folder in browser |
 | `import_bookmarks.py` reports 0 new | All tweets already in DB | Normal if re-running same day |
 | Import validation error | Malformed JSON from extraction | Check batch extraction output for truncation |
+| Download not appearing in ~/Downloads | Browser download blocked or different path | Check Chrome download settings; try screenshot to confirm dialog |
+| `javascript_tool` output limit increased | Claude-in-Chrome update | Test with `JSON.stringify(array).length`; if >100k works, switch back to direct extraction |
 
 ## Reference
 
