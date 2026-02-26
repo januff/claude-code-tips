@@ -1,0 +1,20 @@
+{
+  "fetch_id": "fetch_2026-02-17_213214",
+  "completed_at": "2026-02-17T21:32:14.797302+00:00",
+  "source_file": "/Users/joeyanuff-m2/Development/claude-code-tips/data/new_bookmarks_2026-02-17.json",
+  "dry_run": true,
+  "import": {
+    "total_in_file": 121,
+    "new": 1,
+    "existing": 120,
+    "errors": []
+  },
+  "new_tweets": [
+    {
+      "id": "2023834863858769975",
+      "author": "@alexalbert__",
+      "text_preview": "Underrated dev upgrade from today's launch:\n\nClaude's web search and fetch tools now write and execu",
+      "likes": 678
+    }
+  ]
+}

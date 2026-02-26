@@ -84,6 +84,15 @@ The Claude Code plugin `adversarial-spec` enhances product specifications by hav
 - **[GitHub - zscole/adversarial-spec: A Claude Code plugin that iteratively refines product specifications by debating between multiple LLMs until all models reach consensus.](https://github.com/zscole/adversarial-spec)** · *github-repo*
   > The `adversarial-spec` is a Claude Code plugin that uses multiple LLMs in a debate format to iteratively refine product specifications until all models reach a consensus. This process helps to catch gaps, challenge assumptions, and surface edge cases in the specification that a single LLM might miss.
 
+- **[GitHub - zscole/adversarial-spec: A Claude Code plugin that iteratively refines product specifications by debating between multiple LLMs until all models reach consensus.](https://github.com/zscole/adversarial-spec)** · *github-repo*
+  > The `adversarial-spec` Claude Code plugin iteratively refines product specifications by having multiple LLMs debate and critique a spec until they all reach a consensus. This helps catch gaps and edge cases that a single LLM review might miss, resulting in a more robust and well-vetted document.
+
+- **[GitHub - zscole/adversarial-spec: A Claude Code plugin that iteratively refines product specifications by debating between multiple LLMs until all models reach consensus.](https://github.com/zscole/adversarial-spec)** · *github-repo*
+  > The `adversarial-spec` Claude Code plugin refines product specifications iteratively. It uses multiple LLMs to debate a specification, catching gaps and challenging assumptions until all models and Claude itself reach a consensus, resulting in a more robust and well-vetted document.
+
+- **[GitHub - zscole/adversarial-spec: A Claude Code plugin that iteratively refines product specifications by debating between multiple LLMs until all models reach consensus.](https://github.com/zscole/adversarial-spec)** · *github-repo*
+  > The `adversarial-spec` is a Claude Code plugin that iteratively refines product specifications by having multiple LLMs debate a document until they all reach a consensus. It leverages the principle that multiple LLMs working together can identify gaps and edge cases that a single LLM would miss, resulting in a more robust spec.
+
 ## Replies
 
 > [!reply] @Corpetty · 2026-01-12T14:48:49+00:00
@@ -169,7 +178,7 @@ The Claude Code plugin `adversarial-spec` enhances product specifications by hav
 enrichment:
   summary: ✅
   keywords: ✅
-  links: ⚠️ (3/4 summarized)
+  links: ⚠️ (6/7 summarized)
   media: ℹ️ none
   thread: ✅ (27 replies scraped)
   classification: ✅ ACT_NOW

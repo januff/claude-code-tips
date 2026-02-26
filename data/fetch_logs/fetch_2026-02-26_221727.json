@@ -1,0 +1,92 @@
+{
+  "fetch_id": "fetch_2026-02-26_221727",
+  "completed_at": "2026-02-26T22:17:27.803735+00:00",
+  "source_file": "data/new_bookmarks_2026-02-26.json",
+  "dry_run": false,
+  "import": {
+    "total_in_file": 133,
+    "new": 13,
+    "existing": 120,
+    "errors": []
+  },
+  "new_tweets": [
+    {
+      "id": "2027109375765356723",
+      "author": "@trq212",
+      "text_preview": "We've rolled out a new auto-memory feature.\n\nClaude now remembers what it learns across sessions \u2014 y",
+      "likes": 4164
+    },
+    {
+      "id": "2026902697832755255",
+      "author": "@amorriscode",
+      "text_preview": "y\u2019all want this in the Code tab? \ud83d\udc40",
+      "likes": 531
+    },
+    {
+      "id": "2026473288562516327",
+      "author": "@IamEmily2050",
+      "text_preview": "I just published my first skill on Github, this is for Seedance V2, hopefully it will help so many p",
+      "likes": 1197
+    },
+    {
+      "id": "2026728214891212804",
+      "author": "@simonw",
+      "text_preview": "Brief notes on Claude Code Remote and Cowork scheduled tasks - both of which overlap with OpenClaw, ",
+      "likes": 504
+    },
+    {
+      "id": "2026407439101481157",
+      "author": "@felixrieseberg",
+      "text_preview": "Also, since we're already busy shipping: Update your Claude Code to the latest version, run /remote-",
+      "likes": 390
+    },
+    {
+      "id": "2026402239762542764",
+      "author": "@repligate",
+      "text_preview": "PSA: Claude Code automatically DELETES sessions that have been inactive for more than 30 days.\n\nDisa",
+      "likes": 905
+    },
+    {
+      "id": "2026110215561822374",
+      "author": "@trq212",
+      "text_preview": "Claude in Chrome is now significantly faster with our Quick Mode experiment, and you can also pair w",
+      "likes": 659
+    },
+    {
+      "id": "2025771941760729276",
+      "author": "@Econ_Marshall",
+      "text_preview": "I hate to say it you guys but from a pure utilitarian perspective Claude is the best colleague I've ",
+      "likes": 60
+    },
+    {
+      "id": "2025007393290272904",
+      "author": "@bcherny",
+      "text_preview": "Introducing: built-in git worktree support for Claude Code \n\nNow, agents can run in parallel without",
+      "likes": 10946
+    },
+    {
+      "id": "2024854676647170324",
+      "author": "@VictorTaelin",
+      "text_preview": "continual learning, only continual learning, and nothing other than continual learning, is what's mi",
+      "likes": 925
+    },
+    {
+      "id": "2024535665333956960",
+      "author": "@ericzakariasson",
+      "text_preview": "https://t.co/hepvBk2q9L",
+      "likes": 1133
+    },
+    {
+      "id": "2024640940657246235",
+      "author": "@scaling01",
+      "text_preview": "https://t.co/G8mpPCub7a",
+      "likes": 450
+    },
+    {
+      "id": "2024574133011673516",
+      "author": "@trq212",
+      "text_preview": "https://t.co/taVRqwm4dG",
+      "likes": 4511
+    }
+  ]
+}

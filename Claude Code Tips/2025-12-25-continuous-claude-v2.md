@@ -173,6 +173,15 @@ This tip highlights Continuous-Claude-v3, a system aimed at optimizing Claude Co
 - **[GitHub - parcadei/Continuous-Claude-v3: Context management for Claude Code. Hooks maintain state via ledgers and handoffs. MCP execution without context pollution. Agent orchestration with isolated context windows.](https://github.com/parcadei/Continuous-Claude-v3)** · *github-repo*
   > Continuous-Claude-v3 is a GitHub repository that provides a framework for managing context and state in Claude Code, enabling persistent learning and multi-agent orchestration. It aims to solve the context compaction problem by using techniques like YAML handoffs, memory systems, and code analysis to improve token efficiency and maintain nuanced understanding across sessions.
 
+- **[GitHub - parcadei/Continuous-Claude-v3: Context management for Claude Code. Hooks maintain state via ledgers and handoffs. MCP execution without context pollution. Agent orchestration with isolated context windows.](https://github.com/parcadei/Continuous-Claude-v3)** · *github-repo*
+  > Continuous-Claude-v3 is a GitHub repository focused on improving Claude Code's context management for persistent and learning multi-agent development environments. It uses hooks, ledgers, and handoffs to maintain state, enabling execution without context pollution and agent orchestration with isolated context windows, addressing the 'compaction problem' in Claude Code.
+
+- **[GitHub - parcadei/Continuous-Claude-v3: Context management for Claude Code. Hooks maintain state via ledgers and handoffs. MCP execution without context pollution. Agent orchestration with isolated context windows.](https://github.com/parcadei/Continuous-Claude-v3)** · *github-repo*
+  > Continuous-Claude-v3 is a framework for managing context in Claude Code, enabling persistent learning and multi-agent orchestration. It addresses the 'compaction problem' in Claude by using techniques like YAML handoffs, memory systems, and TLDR code analysis to maintain state across sessions and optimize token usage.
+
+- **[GitHub - parcadei/Continuous-Claude-v3: Context management for Claude Code. Hooks maintain state via ledgers and handoffs. MCP execution without context pollution. Agent orchestration with isolated context windows.](https://github.com/parcadei/Continuous-Claude-v3)** · *github-repo*
+  > Continuous-Claude-v3 is a framework designed to enhance Claude Code's capabilities by addressing context management issues, such as context loss during compaction. It introduces features like YAML handoffs, a memory system for recalling information, code analysis to reduce token usage, and meta-skills for agent orchestration, aiming to create a continuously learning development environment.
+
 ## Replies
 
 > [!reply] @akola77 · 2025-12-25T21:05:04+00:00
@@ -291,7 +300,7 @@ This tip highlights Continuous-Claude-v3, a system aimed at optimizing Claude Co
 enrichment:
   summary: ✅
   keywords: ✅
-  links: ⚠️ (3/4 summarized)
+  links: ⚠️ (6/7 summarized)
   media: ℹ️ none
   thread: ✅ (20 replies scraped)
   classification: ✅ ACT_NOW

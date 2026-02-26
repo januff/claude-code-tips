@@ -57,6 +57,12 @@ This tip leverages Claude Code and a custom skill to remove telltale signs of AI
 - **[GitHub - blader/humanizer: Claude Code skill that removes signs of AI-generated writing from text](https://github.com/blader/humanizer)** · *github-repo*
   > The GitHub repository 'humanizer' provides a Claude Code skill designed to remove AI-generated writing patterns from text, making it sound more natural and human. It's based on observations of thousands of instances of AI-generated text compiled in Wikipedia's "Signs of AI writing" guide.
 
+- **[GitHub - blader/humanizer: Claude Code skill that removes signs of AI-generated writing from text](https://github.com/blader/humanizer)** · *github-repo*
+  > The GitHub repository 'humanizer' provides a Claude Code skill designed to remove signs of AI-generated writing from text, making it sound more natural and human. It identifies and corrects 24 common patterns found in AI-generated text based on observations from Wikipedia's 'Signs of AI writing' guide.
+
+- **[GitHub - blader/humanizer: Claude Code skill that removes signs of AI-generated writing from text](https://github.com/blader/humanizer)** · *github-repo*
+  > The Humanizer is a Claude Code skill designed to remove signs of AI-generated writing, making the text sound more natural and human. It's based on a Wikipedia guide that identifies common patterns found in AI-generated text and provides examples of how to rewrite them to sound more human.
+
 ## Replies
 
 > [!reply] @lastshdowpuppet · 2026-01-19T02:26:23+00:00
@@ -144,7 +150,7 @@ This tip leverages Claude Code and a custom skill to remove telltale signs of AI
 enrichment:
   summary: ✅
   keywords: ✅
-  links: ⚠️ (3/4 summarized)
+  links: ⚠️ (5/6 summarized)
   media: ℹ️ none
   thread: ✅ (23 replies scraped)
   classification: ✅ ACT_NOW

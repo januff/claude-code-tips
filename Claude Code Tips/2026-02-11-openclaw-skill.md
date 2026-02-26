@@ -46,6 +46,15 @@ This tip introduces the `x-bookmarks` OpenClaw skill, a tool that transforms pas
 - **[GitHub - sharbelxyz/x-bookmarks: OpenClaw skill: turn your X bookmarks into agent actions. Stop hoarding. Start applying.](https://github.com/sharbelxyz/x-bookmarks)** · *github-repo*
   > The x-bookmarks GitHub repository provides an OpenClaw skill that transforms your X (Twitter) bookmarks into actionable tasks for an AI agent. It helps you stop passively saving bookmarks and start leveraging them by enabling your agent to fetch, categorize, and propose actions based on your saved links.
 
+- **[GitHub - sharbelxyz/x-bookmarks: OpenClaw skill: turn your X bookmarks into agent actions. Stop hoarding. Start applying.](https://github.com/sharbelxyz/x-bookmarks)** · *github-repo*
+  > x-bookmarks is an OpenClaw skill that transforms your X (Twitter) bookmarks into actionable tasks for an AI agent. It automatically fetches, categorizes, and suggests actions based on your bookmarks, helping you move from passively saving links to actively using them.
+
+- **[GitHub - sharbelxyz/x-bookmarks: OpenClaw skill: turn your X bookmarks into agent actions. Stop hoarding. Start applying.](https://github.com/sharbelxyz/x-bookmarks)** · *github-repo*
+  > The `x-bookmarks` GitHub repository provides an OpenClaw skill to transform Twitter/X bookmarks into actionable tasks for AI agents. It automates fetching, categorizing, and proposing actions based on bookmarked links, helping users move from hoarding bookmarks to actively utilizing them.
+
+- **[GitHub - sharbelxyz/x-bookmarks: OpenClaw skill: turn your X bookmarks into agent actions. Stop hoarding. Start applying.](https://github.com/sharbelxyz/x-bookmarks)** · *github-repo*
+  > The x-bookmarks GitHub repository provides an OpenClaw skill that transforms your Twitter/X bookmarks into actionable tasks for an AI agent. Instead of just hoarding links, the skill allows the agent to fetch, categorize, and propose actions based on the content of your bookmarks, like testing a code repo or comparing trading strategies.
+
 
 ---
 
@@ -61,7 +70,7 @@ This tip introduces the `x-bookmarks` OpenClaw skill, a tool that transforms pas
 enrichment:
   summary: ✅
   keywords: ✅
-  links: ✅ (2/2 summarized)
+  links: ✅ (5/5 summarized)
   media: ℹ️ none
   thread: ℹ️ standalone
   classification: ✅ EXPERIMENT

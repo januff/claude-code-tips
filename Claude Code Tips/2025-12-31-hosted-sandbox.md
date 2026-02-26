@@ -59,6 +59,15 @@ The Claude Agent SDK empowers developers to create sophisticated agents equipped
 - **[Hosting the Agent SDK - Claude API Docs](https://platform.claude.com/docs/en/agent-sdk/hosting)** · *documentation*
   > The Claude Agent SDK requires a different hosting approach than stateless LLM APIs, focusing on persistent conversational state and command execution within a secure environment. This documentation outlines the hosting requirements, architecture considerations, and security best practices for deploying Claude Agent SDK-based agents in production.
 
+- **[Hosting the Agent SDK - Claude API Docs](https://platform.claude.com/docs/en/agent-sdk/hosting)** · *documentation*
+  > This documentation outlines how to host the Claude Agent SDK for production use, emphasizing security through container-based sandboxing and specifying system requirements. It details the architectural differences between the Agent SDK and stateless APIs, highlighting its persistent state management and command execution capabilities.
+
+- **[Hosting the Agent SDK - Claude API Docs](https://platform.claude.com/docs/en/agent-sdk/hosting)** · *documentation*
+  > This documentation covers how to host the Claude Agent SDK, which differs from typical LLM APIs by maintaining conversational state and executing commands in a persistent environment. It outlines hosting requirements, including container-based sandboxing, system requirements (like runtime dependencies and resource allocation), and a basic understanding of the SDK's architecture as a long-running process.
+
+- **[Hosting the Agent SDK - Claude API Docs](https://platform.claude.com/docs/en/agent-sdk/hosting)** · *documentation*
+  > This document provides guidance on hosting the Claude Agent SDK in a production environment. It emphasizes the importance of container-based sandboxing for security and outlines the system requirements and architectural considerations for deploying long-running SDK processes.
+
 ## Replies
 
 > [!reply] @stnkvcs · Wed Dec 31 14:29:21 +0000 2025
@@ -183,7 +192,7 @@ The Claude Agent SDK empowers developers to create sophisticated agents equipped
 enrichment:
   summary: ✅
   keywords: ✅
-  links: ✅ (5/5 summarized)
+  links: ✅ (8/8 summarized)
   media: ℹ️ none
   thread: ✅ (18 replies scraped)
   classification: ❌ not classified

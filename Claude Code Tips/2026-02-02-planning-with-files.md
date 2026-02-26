@@ -66,6 +66,15 @@ This tip highlights the "Planning with files" Claude Code skill, enabling more e
 - **[GitHub - OthmanAdi/planning-with-files: Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition.](https://github.com/othmanadi/planning-with-files)** · *github-repo*
   > This GitHub repository provides a Claude Code skill that implements a persistent markdown planning workflow, inspired by the methods used at Manus (the AI agent company acquired by Meta). The skill allows users to plan and track tasks using markdown files, enabling persistent planning and session recovery across different IDEs.
 
+- **[GitHub - OthmanAdi/planning-with-files: Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition.](https://github.com/othmanadi/planning-with-files)** · *github-repo*
+  > This GitHub repository contains a Claude Code skill that implements a persistent markdown planning workflow, inspired by the methodology used at Manus (the AI agent company acquired by Meta). It allows users to create and manage plans using markdown files, enabling a structured and persistent approach to task management within Claude.
+
+- **[GitHub - OthmanAdi/planning-with-files: Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition.](https://github.com/othmanadi/planning-with-files)** · *github-repo*
+  > This GitHub repository provides a Claude Code skill that implements a persistent markdown planning workflow, inspired by the methodology used at Manus (the AI agent company acquired by Meta). The skill enables users to plan and organize tasks within markdown files, promoting a structured and persistent approach to project management within the Claude Code environment.
+
+- **[GitHub - OthmanAdi/planning-with-files: Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition.](https://github.com/othmanadi/planning-with-files)** · *github-repo*
+  > This GitHub repository provides a Claude Code skill implementing a "Manus-style" persistent markdown planning system. This workflow pattern is inspired by the AI agent company Manus, which was acquired by Meta. It allows Claude Code to manage and maintain long-term plans using markdown files.
+
 ## Replies
 
 > [!reply] @piotrkulpinski · 2026-02-02T07:45:45+00:00
@@ -167,7 +176,7 @@ This tip highlights the "Planning with files" Claude Code skill, enabling more e
 enrichment:
   summary: ✅
   keywords: ✅
-  links: ⚠️ (3/4 summarized)
+  links: ⚠️ (6/7 summarized)
   media: ℹ️ none
   thread: ✅ (30 replies scraped)
   classification: ✅ ACT_NOW

@@ -63,6 +63,15 @@ This Claude Code tip highlights several upcoming features planned for 2026, show
 - **[GitHub - Piebald-AI/claude-code-system-prompts: All parts of Claude Code's system prompt, 18 builtin tool descriptions, sub agent prompts (Plan/Explore/Task), utility prompts (CLAUDE.md, compact,  statusline, magic docs, WebFetch, Bash cmd, security review, agent creation).  Updated for each Claude Code version.](https://github.com/Piebald-AI/claude-code-system-prompts)** · *github-repo*
   > This GitHub repository, Piebald-AI/claude-code-system-prompts, contains all known system prompts, tool descriptions, sub-agent prompts, and utility prompts used by Claude Code. It's updated frequently to reflect the latest Claude Code releases, allowing users to understand and even customize the underlying instructions driving Claude Code's behavior.
 
+- **[GitHub - Piebald-AI/claude-code-system-prompts: All parts of Claude Code's system prompt, 18 builtin tool descriptions, sub agent prompts (Plan/Explore/Task), utility prompts (CLAUDE.md, compact,  statusline, magic docs, WebFetch, Bash cmd, security review, agent creation).  Updated for each Claude Code version.](https://github.com/Piebald-AI/claude-code-system-prompts)** · *github-repo*
+  > This GitHub repository contains a comprehensive collection of Claude Code's system prompts, tool descriptions, and sub-agent prompts. It is updated for each Claude Code version, providing insights into the inner workings and customization options of the tool.
+
+- **[GitHub - Piebald-AI/claude-code-system-prompts: All parts of Claude Code's system prompt, 18 builtin tool descriptions, sub agent prompts (Plan/Explore/Task), utility prompts (CLAUDE.md, compact,  statusline, magic docs, WebFetch, Bash cmd, security review, agent creation).  Updated for each Claude Code version.](https://github.com/Piebald-AI/claude-code-system-prompts)** · *github-repo*
+  > This GitHub repository, maintained by Piebald-AI, provides a comprehensive collection of system prompts used by Claude Code, including tool descriptions, sub-agent prompts, and utility prompts. It is updated frequently to reflect the changes in each new version of Claude Code, allowing users to understand and potentially modify Claude Code's behavior.
+
+- **[GitHub - Piebald-AI/claude-code-system-prompts: All parts of Claude Code's system prompt, 18 builtin tool descriptions, sub agent prompts (Plan/Explore/Task), utility prompts (CLAUDE.md, compact,  statusline, magic docs, WebFetch, Bash cmd, security review, agent creation).  Updated for each Claude Code version.](https://github.com/Piebald-AI/claude-code-system-prompts)** · *github-repo*
+  > This GitHub repository, maintained by Piebald-AI, provides a comprehensive collection of system prompts, tool descriptions, and utility prompts used within Claude Code. It's updated regularly to reflect changes in each Claude Code version, offering insights into the inner workings and customization options of the AI coding assistant.
+
 ## Replies
 
 > [!reply] @ro · Tue Dec 30 16:07:00 +0000 2025
@@ -178,7 +187,7 @@ This Claude Code tip highlights several upcoming features planned for 2026, show
 enrichment:
   summary: ✅
   keywords: ✅
-  links: ✅ (3/3 summarized)
+  links: ✅ (6/6 summarized)
   media: ℹ️ none
   thread: ✅ (23 replies scraped)
   classification: ❌ not classified
