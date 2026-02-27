@@ -147,6 +147,83 @@ def summarize_link(client, url: str, title: str, content: str) -> dict | None:
         return None
 
 
+def browser_import(args):
+    """Import browser-extracted x.com content and summarize with Gemini."""
+    if not args.browser_import.exists():
+        print(f"Error: File not found: {args.browser_import}")
+        return 1
+
+    api_key = os.environ.get('GOOGLE_API_KEY')
+    if not api_key:
+        print("Error: GOOGLE_API_KEY environment variable required")
+        return 1
+
+    client = genai.Client(api_key=api_key)
+
+    with open(args.browser_import) as f:
+        items = json.load(f)
+
+    conn = sqlite3.connect(args.db)
+    conn.row_factory = sqlite3.Row
+    cursor = conn.cursor()
+
+    processed = 0
+    failed = 0
+    skipped = 0
+
+    for item in items:
+        link_id = item['link_id']
+        url = item['url']
+        content = item.get('content', '')
+        title = item.get('title', '')
+
+        if len(content) < 30:
+            print(f"  Skip link_id={link_id}: too short ({len(content)} chars)")
+            skipped += 1
+            continue
+
+        print(f"Processing link_id={link_id}: {title[:50] or url[:50]}...")
+
+        result = summarize_link(client, url, title, content)
+        if not result:
+            failed += 1
+            continue
+
+        cursor.execute("SELECT id FROM links WHERE id = ?", (link_id,))
+        if not cursor.fetchone():
+            print(f"  Warning: link_id={link_id} not in DB, skipping")
+            failed += 1
+            continue
+
+        cursor.execute("""
+            UPDATE links SET
+                title = COALESCE(NULLIF(?, ''), title),
+                llm_summary = ?,
+                key_points_json = ?,
+                resource_type = ?,
+                relevance = ?,
+                commands_mentioned = ?,
+                fetched_at = datetime('now')
+            WHERE id = ?
+        """, (
+            title,
+            result.get('summary'),
+            json.dumps(result.get('key_points', [])),
+            result.get('resource_type'),
+            result.get('relevance_to_claude_code'),
+            json.dumps(result.get('commands_or_tools_mentioned', [])),
+            link_id
+        ))
+        conn.commit()
+        print(f"  -> {result.get('resource_type')}: {result.get('summary', '')[:60]}...")
+        processed += 1
+        time.sleep(1)
+
+    conn.close()
+    print(f"\nComplete: {processed} enriched, {failed} failed, {skipped} skipped")
+    return 0 if failed == 0 else 1
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Enrich links with Gemini summarization"
@@ -172,8 +249,18 @@ def main():
         action="store_true",
         help="Show what would be processed without making API calls"
     )
+    parser.add_argument(
+        "--browser-import",
+        type=Path,
+        help="Import browser-extracted x.com content JSON and summarize with Gemini"
+    )
 
     args = parser.parse_args()
+
+    # Handle --browser-import mode: process pre-extracted x.com content
+    if args.browser_import:
+        return browser_import(args)
+
 
     api_key = os.environ.get('GOOGLE_API_KEY')
     if not api_key and not args.dry_run:
@@ -271,6 +358,7 @@ def main():
     processed = 0
     failed = 0
     skipped_xcom = 0
+    xcom_pending = []
 
     for link in all_links:
         url = link['url']
@@ -285,8 +373,8 @@ def main():
         # Resolve t.co URL
         resolved_url = resolve_url(url)
 
-        # Handle x.com URLs: record the resolved URL but skip content fetch
-        # (x.com requires JavaScript; use --browser-enrich for these)
+        # Handle x.com URLs: record the resolved URL, collect for browser extraction
+        # x.com requires authenticated GraphQL (TweetDetail API) via browser
         if is_xcom_url(resolved_url):
             print(f"  x.com URL detected: {resolved_url}")
             # Update the link row with the resolved URL even if we can't fetch content
@@ -295,8 +383,13 @@ def main():
                     UPDATE links SET expanded_url = ?, url = ? WHERE id = ?
                 """, (resolved_url, resolved_url, link_id))
                 conn.commit()
-            print(f"  Skipped content fetch (x.com requires JavaScript)")
-            print(f"  Use browser-based enrichment for this URL")
+            # Collect for browser-based TweetDetail extraction
+            xcom_pending.append({
+                'link_id': link_id,
+                'tweet_id': tweet_id,
+                'url': resolved_url,
+                'source': source
+            })
             skipped_xcom += 1
             continue
 
@@ -368,8 +461,18 @@ def main():
 
     summary = f"\nComplete: {processed} enriched, {failed} failed"
     if skipped_xcom:
-        summary += f", {skipped_xcom} skipped (x.com — needs browser)"
+        summary += f", {skipped_xcom} x.com URLs need browser extraction"
     print(summary)
+
+    # Export pending x.com URLs for browser-based TweetDetail extraction
+    if xcom_pending:
+        export_path = args.db.parent / "xcom_pending.json"
+        with open(export_path, 'w') as f:
+            json.dump(xcom_pending, f, indent=2)
+        print(f"\nExported {len(xcom_pending)} x.com URLs to {export_path}")
+        print("Next: use browser TweetDetail extraction, then run:")
+        print(f"  python {__file__} --browser-import <extracted.json>")
+
     return 0 if failed == 0 else 1
 
 

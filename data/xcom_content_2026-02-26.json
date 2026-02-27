@@ -1,0 +1,145 @@
+[
+  {
+    "link_id": 71,
+    "url": "http://x.com/i/article/2010826317634420736",
+    "tweetId": "2010835704931369379",
+    "author": "",
+    "contentType": "article",
+    "title": "I've been playing with Cowork today, and I have thoughts.",
+    "content": "I've been playing with Cowork today, and I have thoughts.\nFirst: what is Cowork?\nPitched as \"Claude Code\" for non-technical tasks or knowledge work. \n \nIt's basically local Claude Code with a Mac OS app wrapper focused on a few core primitives:\nConnectors / MCPs - external services Cowork has access to\nFilesystem - runs locally so will create/read things on your file system\nTODOs/Steps - discrete trackable steps cowork will take to execute your tasks\nArtifacts - files generated in the process of doing your task\nContext - files / sources / connectors used when doing your task\nSkills - preloaded with a few key skills, esp. file type creation ones like DOCX, PPT, etc. Claude generally has access to these, so not new. \nEvery chat is now a task (focused on doing-a-thing) and steps, artifacts, and context get first class treatment in the UI. \n \nHow does it work?\nYou ask Cowork to do a variety of tasks for you and it take a very Claude Code approach to executing your ask. The \"starter\" tasks in the UI give you a sense of the kinds of things you can do with Cowork:\nCreate a file\nAnalyze data\nMake a prototype\nPrep for the day with Calendar analysis\nWrite a message for social, email, or my co-workers\nThe UI for starter tasks takes a \"mad lib\" fill-in-the-prompt approach, but the prompts feel pretty thin and not much better than a basic user would get asking chat directly. \n \nIf you're familiar with Claude Code, you'll notice some familiar patterns. Questions get asked, scripts get written, skills get called.\nSpeaking of skills, Cowork seemingly comes bundled with a few key ones around document creation (you can find them in your file system.)\n \nWhat did I try?\nI tried a few tasks on Cowork, and I'd say the outputs were OK.\nTask 1: Prep me for my day\nThis was a starter prompt in Cowork so I was convinced this would be a win. I didn't touch the prompt it suggested.\n \nI didn't have the Google Calendar connector set up at the time, but no big deal right? There's a connector button right there!\nUnfortunately, Cowork couldn't recognize my Google Calendar connector once auth'd (and refreshed, and restarted...) and so it tried to use Claude Chrome plugin to open my browser and view my calendar.\nNo thanks!\nI banged my head against this problem a few times, but ultimately gave up on this task. Cowork seemed to know it could call tools (called 'list calendar') but for some reason couldn't connect. Womp womp.\nTask 2: Make a competitive research brief\nThis one went a little better. I asked Cowork to make a competitive research brief for @chatprd. It asked some clarifying questions that were high level but I think fairly good.\nAfter clarifying my needs, it made a basic plan to do some web research and use the DOCX skill to make a doc. It took probably 5 minutes to run the whole thing.\nThe research was fine and the doc was fine, my bigger question came from how Cowork exposed the work being done.\nIn my artifacts I expected to see a DOCX, which I did. But I also saw a create-brief.js that showed me the code that created this doc. If I'm a non-technical user, do I want to see this? Do I know what it means? Why expose this as an artifact when all I asked for was a doc? It's listed in a working docs section but honestly should be hidden by default for non-technical users.\nTask 3: Make a presentation from a doc\nThis task was similar to the competitive brief one. I asked Cowork to create a PPTX from my doc content.\nI thought the output was nice (anything to avoid being in powerpoint!), but again, the UI suffered from showing me too much how the sausage was made.",
+    "contentLength": 6533,
+    "likes": 2320
+  },
+  {
+    "link_id": 74,
+    "url": "http://x.com/i/article/2010264422841729024",
+    "tweetId": "2010324670529024474",
+    "author": "",
+    "contentType": "article",
+    "title": "A couple of days ago, I was outside and had an itch to vibe code.",
+    "content": "A couple of days ago, I was outside and had an itch to vibe code. \n\nAnd then this question dawned on me:\n\n\"Can I actually vibe code here with my iPhone?\"\nThat question led me down a rabbit hole. And the answer was yes. You can vibe code from anywhere using just your smartphone.\nHere's the full breakdown\nWhat We're Actually Doing Here\nThis guide is about building apps and projects while you're on the go. Commuting. Traveling. Waiting somewhere. Sitting in a taxi.\nWe're using the Code section inside the Claude mobile app. Not the regular chat. \nNot Claude Code terminal on desktop. \nThe Code tab right there in your phone app.\nMost people don't even know this exists.\nWhy This Changes Everything\nThink about how much dead time you have each day.\nOn the train/metro. Waiting for food. In an Uber.\nThat's the time most people spend scrolling. But you could be vibe coding your next project instead.\nThe vibe coders who figure out mobile workflows will compound their output significantly. Building happens in the gaps between everything else.\nThe Setup: What You Need\nBefore we get into the steps, here's your stack:\nClaude mobile app installed (iOS or Android)\nA GitHub account\nA plan on your Claude account\nYour phone\nInternet connection\nThat's it. No laptop. No terminal. No emulators.\n7 Steps to Vibe Coding From Your Phone\n1: Download and Open the Claude Mobile App\nIf you don't have it yet, grab it from the App Store or Google Play.\nOpen the app and sign in to your account.\n2: Find the Code Section\nThis is the part most people miss.\nLook at your tab navigation in the Claude app. There's a section called \"Code\" in the navigation bar.\n3: Create a GitHub Repo for Your Project\nOpen GitHub in your phone browser or the GitHub mobile app.\nCreate a new GitHub repository named after your project.\n4: Connect Claude Code to Your Repo\nIn your Claude Code session, tell Claude which repo to work with.\nClaude will authenticate and link to your repository. All code gets pushed directly there since your phone doesn't have local file storage.\n5: Choose Your Stack\nFor web apps and mobile-responsive apps, I recommend Svelte or SvelteKit.\n6: Generate a PRD, with Tech Stack/Architecture, and Tasks md files\nDo these in the Chat section, after describing your project.\n7: Keep Building Incrementally Wherever You Are\nBreak your project into small chunks that fit mobile sessions.\nNext time you have 15 minutes, open Claude Code and keep going.",
+    "contentLength": 4777,
+    "likes": 475
+  },
+  {
+    "link_id": 75,
+    "url": "http://x.com/i/article/2009678819142008832",
+    "tweetId": "2009679078832378090",
+    "author": "",
+    "contentType": "article",
+    "title": "Claude Code with Opus 4.5 is so hot right now. The cool kids use it for everything.",
+    "content": "Claude Code with Opus 4.5 is so hot right now. The cool kids use it for everything.\nThey definitely use it for coding, often letting it write all of their code.\nThey also increasingly use it for everything else one can do with a computer.\nVas suggests using Claude Code as you would a mini-you/employee that lives in your computer and can do literally anything.\nThere's this thread of people saying Claude Code with Opus 4.5 is AGI in various senses. I centrally don't agree, but they definitely have a point.\nIf you'd like, you can use local Claude Code via Claude Desktop, documentation here. It's a bit friendlier than the terminal and some people like it a lot more. Here is a more extensive basic discussion of setup options. The problem is the web interface still lacks some power user functions, even after some config work Daniel San misses branch management, create new repository directory via 'new' and import plugins from marketplaces.\nIf you haven't checked Claude Code out, you need to check it out.\nTable of Contents\nHype!\nMy Own Experiences.\nNow With More Recursive Self Improvement.\nA Market Of One.\nSome Examples Of People Using Claude Code Recently.\nDealing With Context Limits.\nThe Basic Claude Code Setup.\nRandom Claude Code Extension Examples I've Seen Recently.\nSkilling Up.\nReasons Not To Get Overexcited.\nHype!\nI note that the hype has been almost entirely Claude Code in particular, skipping over OpenAI's Codex or Google's Jules. Claude Code with Opus 4.5 is, for now, special.\nReports of productivity with Claude Code and Opus 4.5 are off the charts.\nI didn't think it was possible to have a better experience with coding agents beyond AI-powered IDEs, then came Claude Code CLI. Now it's about the UIs and orchestration capabilities, and turning your computer into a 24-hour building machine. Just scratching the surface.\nClaude Code built in an hour what took a Google team a year.\nThat part isn't shocking. What is shocking is that Google allows their engineers to use Claude Code instead of forcing Gemini, Gemini CLI, or Antigravity.\nIf you are skeptical of coding agents, try it on a domain you are already an expert of. Build something complex from scratch where you can be the judge of the artifacts.",
+    "contentLength": 32571,
+    "likes": 604
+  },
+  {
+    "link_id": 20,
+    "url": "https://x.com/fabianstelzer/status/2004635476960182766",
+    "tweetId": "2004635476960182766",
+    "author": "",
+    "contentType": "tweet",
+    "title": "",
+    "content": "I got an mbot2 robot for my 7yo \n\nhooked it up with Claude Code and it's very much enjoying its newfound Christmas bodily form \ud83d\ude02\n\nThis is all real time control by CC!\n\nMerry Claudemas https://t.co/L7cDMdcOD9",
+    "contentLength": 208,
+    "likes": 395
+  },
+  {
+    "link_id": 25,
+    "url": "https://x.com/menhguin/status/1996514515345932442/",
+    "tweetId": "1996514515345932442",
+    "author": "",
+    "contentType": "tweet",
+    "title": "",
+    "content": "just used claude 4.5 sonnet to customise my Claude Personal Preferences. https://t.co/P2vPG4zd2Y",
+    "contentLength": 96,
+    "likes": 62
+  },
+  {
+    "link_id": 27,
+    "url": "https://x.com/robzolkos/status/2005379466886005243",
+    "tweetId": "2005379466886005243",
+    "author": "",
+    "contentType": "tweet",
+    "title": "",
+    "content": "Added this as a /interview command https://t.co/TO6PRDtdLw \n\nI tried it on a simple 1-line plan document \"I want to add a chat interface so employees can chat with each other.\" - it then asked me 75 !!! questions and came up with a excellent and thorough 400 line plan.",
+    "contentLength": 269,
+    "likes": 891
+  },
+  {
+    "link_id": 28,
+    "url": "https://x.com/jeffzwang/status/2004000323028111698",
+    "tweetId": "2004000323028111698",
+    "author": "",
+    "contentType": "tweet",
+    "title": "",
+    "content": "Using Claude in Chrome and tired of the \"debug\" banner popup?\n\nClaude Code figured out how to get rid of it for me, instructions below! https://t.co/xY19Q2fSrk",
+    "contentLength": 159,
+    "likes": 12
+  },
+  {
+    "link_id": 35,
+    "url": "https://x.com/giuseppegurgone/status/2001596744962891955",
+    "tweetId": "2001596744962891955",
+    "author": "",
+    "contentType": "tweet",
+    "title": "",
+    "content": "https://t.co/LF02UhUrTL https://t.co/YHYOgfxD72",
+    "contentLength": 47,
+    "likes": 10
+  },
+  {
+    "link_id": 45,
+    "url": "https://x.com/giuseppegurgone/status/2001596743012544571",
+    "tweetId": "2001596743012544571",
+    "author": "",
+    "contentType": "tweet",
+    "title": "",
+    "content": "Good boy Claude, is stealing the very same technique I use on him... haha! \n\nInstead of adding placeholder comments, it added actionable @implement directives (details in next tweet) that can execute later. https://t.co/ngQHK67nIW",
+    "contentLength": 231,
+    "likes": 6
+  },
+  {
+    "link_id": 50,
+    "url": "https://x.com/flightcomms/status/1961570618039832916",
+    "tweetId": "1961570618039832916",
+    "author": "",
+    "contentType": "tweet",
+    "title": "",
+    "content": "You said you want to change your life. https://t.co/oO6oW6cow2",
+    "contentLength": 62,
+    "likes": 0
+  },
+  {
+    "link_id": 59,
+    "url": "https://x.com/DiamondEyesFox/status/2004608394423144756",
+    "tweetId": "2004608394423144756",
+    "author": "",
+    "contentType": "tweet",
+    "title": "",
+    "content": "@Joasanchez021 @alexalbert__ ask claude code to find your session transcripts and put them in your obsidian vault\n\nthen ask it to make condensed logs at the start of every session in claude md and append after every exchange!",
+    "contentLength": 225,
+    "likes": 6
+  },
+  {
+    "link_id": 61,
+    "url": "https://x.com/realdavidleen/status/2005234179391553728",
+    "tweetId": "2005234179391553728",
+    "author": "",
+    "contentType": "tweet",
+    "title": "",
+    "content": "Anyone got any pointers on a sandboxed/containerized Claude Code (local?) setup. Definitely hitting a wall with permission approval fatigue but for obvious reasons don't want to go full yolo mode either. Want to hear about setups that are seamless",
+    "contentLength": 247,
+    "likes": 6
+  },
+  {
+    "link_id": 65,
+    "url": "https://x.com/anvanvan/status/2005834284565664173",
+    "tweetId": "2005834284565664173",
+    "author": "",
+    "contentType": "tweet",
+    "title": "",
+    "content": "We spent decades optimizing human collab for async (PRs, docs, specs, ...) \n\nThen coding agents arrived and we're back micromanaging AI in real-time \ud83e\udd26\ud83c\udffb\u200d\u2642\ufe0f \n\nWhat if we could collab async with coding agents too? \n\nHear me out \ud83d\udc47\ud83c\udffb",
+    "contentLength": 231,
+    "likes": 1
+  }
+]

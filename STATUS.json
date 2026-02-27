@@ -1,31 +1,32 @@
 {
-  "updated_at": "2026-02-27T03:45:28.066787+00:00",
+  "updated_at": "2026-02-27T05:44:18.097928+00:00",
   "updated_by": "claude-code",
   "last_commit": {
-    "sha": "f0b1ed8",
-    "message": "fix: resolve t.co URLs in tweet text, not just card_url",
-    "date": "2026-02-26T19:45:06-08:00"
+    "sha": "94716da",
+    "message": "chore: wrap-up \u2014 update STATUS.json (494 tweets, link resolution fixes, analysis improvements)",
+    "date": "2026-02-26T19:45:32-08:00"
   },
   "stats": {
     "tweets": 494,
     "vault_notes": 483,
     "threads_scraped": 101,
     "thread_replies_in_db": 27,
-    "links_resolved": 127
+    "links_resolved": 128,
+    "links_summarized": 93
   },
   "recent_changes": [
-    "Bookmark fetch 2026-02-26: 13 NEW tweets, enrichment, analysis, vault export (494 tweets, 484 notes)",
-    "Analysis engine: wired link+media enrichment into classifier prompt (analyze_new_tips.py)",
-    "Link enrichment: fixed t.co resolution (HEAD->GET fallback), now processes links table not just card_url",
-    "Browser-assisted enrichment: 3 x.com articles resolved via Chrome (prompt caching, self-learning agents, ARC-AGI-3)",
-    "Analysis re-run: ACT_NOW 1->2 (prompt caching article upgraded), EXPERIMENT 6->7, NOTED 6->4",
-    "Skills: fetch-bookmarks Blob download workaround, /wrap-up now includes git push"
+    "TweetDetail API: browser-based GraphQL extraction for x.com articles/tweets (13 links enriched, 3 articles + 10 tweets)",
+    "enrich_links.py: --browser-import flag for x.com content, exports xcom_pending.json for browser extraction",
+    "New script: xcom_tweetdetail_extractor.js — reusable TweetDetail + article Draft.js parser",
+    "Data bridge: get_page_text workaround for extracting large JSON from browser (CSP blocks blob/fetch to localhost)",
+    "Analysis re-run with x.com enrichment: ACT_NOW 2->3, EXPERIMENT 7->5 (better classification with linked content)",
+    "Bookmark fetch 2026-02-26: 13 NEW tweets, enrichment, analysis, vault export (494 tweets, 484 notes)"
   ],
   "known_issues": [
     "PROGRESS.md stale (last updated Jan 5)",
     "4 tweets have empty text \u2014 genuinely attachment-only replies, not a parsing bug",
     "Quote tweets not captured in schema or extraction (only quote_count stored)",
-    "x.com article/tweet URLs require browser-based enrichment (enrich_links.py skips them, logs for manual follow-up)",
+    "x.com photo/video URLs (20 remaining) need vision analysis, not text enrichment",
     "17+ media items lack vision analysis \u2014 limited by missing local_path",
     "Obsidian v1.11.7 installed \u2014 needs update to 1.12+ for CLI support",
     "Briefing generator produces double @@ in author handles",
