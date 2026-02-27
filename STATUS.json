@@ -1,23 +1,22 @@
 {
-  "updated_at": "2026-02-27T05:44:18.097928+00:00",
+  "updated_at": "2026-02-27T07:14:38.610861+00:00",
   "updated_by": "claude-code",
   "last_commit": {
-    "sha": "94716da",
-    "message": "chore: wrap-up \u2014 update STATUS.json (494 tweets, link resolution fixes, analysis improvements)",
-    "date": "2026-02-26T19:45:32-08:00"
+    "sha": "1de09db",
+    "message": "feat: TweetDetail API for x.com content extraction \u2014 13 links enriched",
+    "date": "2026-02-26T21:56:53-08:00"
   },
   "stats": {
     "tweets": 494,
     "vault_notes": 483,
     "threads_scraped": 101,
     "thread_replies_in_db": 27,
-    "links_resolved": 128,
-    "links_summarized": 93
+    "links_resolved": 127
   },
   "recent_changes": [
     "TweetDetail API: browser-based GraphQL extraction for x.com articles/tweets (13 links enriched, 3 articles + 10 tweets)",
     "enrich_links.py: --browser-import flag for x.com content, exports xcom_pending.json for browser extraction",
-    "New script: xcom_tweetdetail_extractor.js — reusable TweetDetail + article Draft.js parser",
+    "New script: xcom_tweetdetail_extractor.js \u2014 reusable TweetDetail + article Draft.js parser",
     "Data bridge: get_page_text workaround for extracting large JSON from browser (CSP blocks blob/fetch to localhost)",
     "Analysis re-run with x.com enrichment: ACT_NOW 2->3, EXPERIMENT 7->5 (better classification with linked content)",
     "Bookmark fetch 2026-02-26: 13 NEW tweets, enrichment, analysis, vault export (494 tweets, 484 notes)"
