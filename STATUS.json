@@ -1,31 +1,31 @@
 {
-  "updated_at": "2026-02-26T22:47:40.668675+00:00",
+  "updated_at": "2026-02-27T03:45:28.066787+00:00",
   "updated_by": "claude-code",
   "last_commit": {
-    "sha": "fa92814",
-    "message": "fix: replace batch extraction with browser download in fetch-bookmarks skill",
-    "date": "2026-02-26T14:24:56-08:00"
+    "sha": "f0b1ed8",
+    "message": "fix: resolve t.co URLs in tweet text, not just card_url",
+    "date": "2026-02-26T19:45:06-08:00"
   },
   "stats": {
     "tweets": 494,
     "vault_notes": 483,
     "threads_scraped": 101,
     "thread_replies_in_db": 27,
-    "links_resolved": 122
+    "links_resolved": 127
   },
   "recent_changes": [
-    "Bookmark fetch 2026-02-26: 13 NEW tweets imported (auto-memory, git worktree support, Claude-in-Chrome Quick Mode, remote-control, session deletion PSA, Seedance V2 skill, continual learning, etc.)",
-    "Enrichment: 13/13 keywords, 13/13 summaries, 8/9 links resolved. Vault export: 484 notes (up from 470)",
-    "Analysis: 13 tweets classified \u2014 1 ACT_NOW (cleanupPeriodDays), 6 EXPERIMENT, 6 NOTED, 0 NOISE",
-    "Applied ACT_NOW: set cleanupPeriodDays=99999 in ~/.claude/settings.json",
-    "Skill update: fetch-bookmarks Phase 5 now uses Blob download workaround (javascript_tool output limit ~1500 chars)",
-    "Skill update: /wrap-up now includes git push as final step (fixed known issue)"
+    "Bookmark fetch 2026-02-26: 13 NEW tweets, enrichment, analysis, vault export (494 tweets, 484 notes)",
+    "Analysis engine: wired link+media enrichment into classifier prompt (analyze_new_tips.py)",
+    "Link enrichment: fixed t.co resolution (HEAD->GET fallback), now processes links table not just card_url",
+    "Browser-assisted enrichment: 3 x.com articles resolved via Chrome (prompt caching, self-learning agents, ARC-AGI-3)",
+    "Analysis re-run: ACT_NOW 1->2 (prompt caching article upgraded), EXPERIMENT 6->7, NOTED 6->4",
+    "Skills: fetch-bookmarks Blob download workaround, /wrap-up now includes git push"
   ],
   "known_issues": [
     "PROGRESS.md stale (last updated Jan 5)",
     "4 tweets have empty text \u2014 genuinely attachment-only replies, not a parsing bug",
     "Quote tweets not captured in schema or extraction (only quote_count stored)",
-    "44 links (41%) still lack LLM summaries \u2014 19 are media URLs (unfetchable), 25 are x.com/tweet links",
+    "x.com article/tweet URLs require browser-based enrichment (enrich_links.py skips them, logs for manual follow-up)",
     "17+ media items lack vision analysis \u2014 limited by missing local_path",
     "Obsidian v1.11.7 installed \u2014 needs update to 1.12+ for CLI support",
     "Briefing generator produces double @@ in author handles",
