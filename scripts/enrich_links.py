@@ -46,12 +46,38 @@ Return JSON only (no markdown):
 
 
 def resolve_url(short_url: str) -> str:
-    """Resolve t.co URLs to their final destination."""
+    """Resolve t.co URLs to their final destination.
+
+    Uses HEAD first (fast), falls back to GET if HEAD fails or returns
+    a non-200 status. Logs the resolution chain for debugging.
+    """
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
+    }
     try:
-        response = requests.head(short_url, allow_redirects=True, timeout=10)
+        response = requests.head(short_url, allow_redirects=True, timeout=10, headers=headers)
+        if response.status_code == 200:
+            if response.url != short_url:
+                print(f"  Resolved (HEAD): {short_url} -> {response.url}")
+            return response.url
+        # HEAD returned non-200 (e.g. 403 for x.com articles) — try GET
+        print(f"  HEAD returned {response.status_code} for {response.url}, trying GET...")
+    except Exception as e:
+        print(f"  HEAD failed for {short_url}: {e}, trying GET...")
+
+    try:
+        response = requests.get(short_url, allow_redirects=True, timeout=10, headers=headers)
+        if response.url != short_url:
+            print(f"  Resolved (GET): {short_url} -> {response.url}")
         return response.url
-    except Exception:
+    except Exception as e:
+        print(f"  GET also failed for {short_url}: {e}")
         return short_url
+
+
+def is_xcom_url(url: str) -> bool:
+    """Check if a URL points to x.com/twitter.com content."""
+    return any(domain in url for domain in ['x.com/', 'twitter.com/'])
 
 
 def fetch_page_content(url: str) -> tuple[str, str]:
@@ -168,96 +194,160 @@ def main():
     conn.row_factory = sqlite3.Row
     cursor = conn.cursor()
 
-    # Find tweets with card_url that need enrichment
-    # First check if there's existing data in links table
+    # --- Source 1: tweets with card_url (existing behavior) ---
     if args.force:
-        query = """
-            SELECT t.id as tweet_id, t.card_url, t.card_title, l.id as link_id, l.llm_summary
+        card_query = """
+            SELECT t.id as tweet_id, t.card_url as url, t.card_title as title,
+                   l.id as link_id, l.llm_summary, 'card_url' as source
             FROM tweets t
-            LEFT JOIN links l ON t.card_url = l.url
+            LEFT JOIN links l ON t.card_url IN (l.url, l.short_url)
             WHERE t.card_url IS NOT NULL
             ORDER BY t.likes DESC
         """
     else:
-        query = """
-            SELECT t.id as tweet_id, t.card_url, t.card_title, l.id as link_id, l.llm_summary
+        card_query = """
+            SELECT t.id as tweet_id, t.card_url as url, t.card_title as title,
+                   l.id as link_id, l.llm_summary, 'card_url' as source
             FROM tweets t
-            LEFT JOIN links l ON t.card_url = l.url
+            LEFT JOIN links l ON t.card_url IN (l.url, l.short_url)
             WHERE t.card_url IS NOT NULL
             AND (l.llm_summary IS NULL OR l.id IS NULL)
             ORDER BY t.likes DESC
         """
+
+    # --- Source 2: links table entries with unresolved t.co URLs ---
+    if args.force:
+        text_query = """
+            SELECT l.tweet_id, l.short_url as url, '' as title,
+                   l.id as link_id, l.llm_summary, 'text_url' as source
+            FROM links l
+            JOIN tweets t ON l.tweet_id = t.id
+            WHERE l.short_url LIKE 'https://t.co/%'
+            ORDER BY t.likes DESC
+        """
+    else:
+        text_query = """
+            SELECT l.tweet_id, l.short_url as url, '' as title,
+                   l.id as link_id, l.llm_summary, 'text_url' as source
+            FROM links l
+            JOIN tweets t ON l.tweet_id = t.id
+            WHERE l.short_url LIKE 'https://t.co/%'
+            AND l.llm_summary IS NULL
+            AND (l.expanded_url IS NULL OR l.expanded_url = '')
+            ORDER BY t.likes DESC
+        """
+
     if args.limit:
-        query += f" LIMIT {args.limit}"
+        card_query += f" LIMIT {args.limit}"
+        text_query += f" LIMIT {args.limit}"
 
-    cursor.execute(query)
-    links = cursor.fetchall()
+    cursor.execute(card_query)
+    card_links = cursor.fetchall()
+    cursor.execute(text_query)
+    text_links = cursor.fetchall()
 
-    print(f"Found {len(links)} links to enrich")
+    # Deduplicate by (tweet_id, url) — card_url entries take priority
+    seen = set()
+    all_links = []
+    for link in card_links:
+        key = (link['tweet_id'], link['url'])
+        if key not in seen:
+            seen.add(key)
+            all_links.append(dict(link))
+    for link in text_links:
+        key = (link['tweet_id'], link['url'])
+        if key not in seen:
+            seen.add(key)
+            all_links.append(dict(link))
+
+    print(f"Found {len(all_links)} links to enrich "
+          f"({len(card_links)} from card_url, {len(text_links)} from text)")
 
     if args.dry_run:
-        for link in links:
-            print(f"  Would process: {link['card_url']} - {link['card_title']}")
+        for link in all_links:
+            print(f"  [{link['source']}] {link['url']} (tweet {link['tweet_id']})")
         return 0
 
     processed = 0
     failed = 0
+    skipped_xcom = 0
 
-    for link in links:
-        card_url = link['card_url']
-        card_title = link['card_title'] or ""
+    for link in all_links:
+        url = link['url']
+        title = link['title'] or ""
         tweet_id = link['tweet_id']
         link_id = link['link_id']
+        source = link['source']
 
-        print(f"Processing: {card_title[:50]}...")
-        print(f"  URL: {card_url}")
+        print(f"Processing: {title[:50] or url[:50]}...")
+        print(f"  URL: {url}")
 
         # Resolve t.co URL
-        resolved_url = resolve_url(card_url)
-        print(f"  Resolved: {resolved_url}")
+        resolved_url = resolve_url(url)
+
+        # Handle x.com URLs: record the resolved URL but skip content fetch
+        # (x.com requires JavaScript; use --browser-enrich for these)
+        if is_xcom_url(resolved_url):
+            print(f"  x.com URL detected: {resolved_url}")
+            # Update the link row with the resolved URL even if we can't fetch content
+            if link_id:
+                cursor.execute("""
+                    UPDATE links SET expanded_url = ?, url = ? WHERE id = ?
+                """, (resolved_url, resolved_url, link_id))
+                conn.commit()
+            print(f"  Skipped content fetch (x.com requires JavaScript)")
+            print(f"  Use browser-based enrichment for this URL")
+            skipped_xcom += 1
+            continue
 
         # Fetch content
-        title, content = fetch_page_content(resolved_url)
+        title_fetched, content = fetch_page_content(resolved_url)
         if not content or content.startswith("Error"):
             print(f"  Failed to fetch content: {content[:100]}")
             failed += 1
             continue
 
         # Summarize
-        result = summarize_link(client, resolved_url, title or card_title, content)
+        result = summarize_link(client, resolved_url, title_fetched or title, content)
 
         if result:
             # Insert or update links table
             if link_id:
                 cursor.execute("""
                     UPDATE links SET
+                        expanded_url = ?,
+                        url = ?,
+                        title = COALESCE(NULLIF(?, ''), title),
                         llm_summary = ?,
                         key_points_json = ?,
                         resource_type = ?,
                         relevance = ?,
                         commands_mentioned = ?,
-                        url = ?,
                         fetched_at = datetime('now')
                     WHERE id = ?
                 """, (
+                    resolved_url,
+                    resolved_url,
+                    title_fetched or title,
                     result.get('summary'),
                     json.dumps(result.get('key_points', [])),
                     result.get('resource_type'),
                     result.get('relevance_to_claude_code'),
                     json.dumps(result.get('commands_or_tools_mentioned', [])),
-                    resolved_url,
                     link_id
                 ))
             else:
                 cursor.execute("""
-                    INSERT INTO links (tweet_id, short_url, expanded_url, url, title, llm_summary, key_points_json, resource_type, relevance, commands_mentioned, fetched_at)
+                    INSERT INTO links (tweet_id, short_url, expanded_url, url, title,
+                        llm_summary, key_points_json, resource_type, relevance,
+                        commands_mentioned, fetched_at)
                     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, datetime('now'))
                 """, (
                     tweet_id,
-                    card_url,
+                    url,
                     resolved_url,
                     resolved_url,
-                    title or card_title,
+                    title_fetched or title,
                     result.get('summary'),
                     json.dumps(result.get('key_points', [])),
                     result.get('resource_type'),
@@ -276,7 +366,10 @@ def main():
 
     conn.close()
 
-    print(f"\nComplete: {processed} enriched, {failed} failed")
+    summary = f"\nComplete: {processed} enriched, {failed} failed"
+    if skipped_xcom:
+        summary += f", {skipped_xcom} skipped (x.com — needs browser)"
+    print(summary)
     return 0 if failed == 0 else 1
 
 
