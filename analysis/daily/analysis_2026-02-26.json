@@ -1,0 +1,218 @@
+{
+  "analyzed_at": "2026-02-26T19:26:51.701721",
+  "tweet_count": 13,
+  "categories": {
+    "ACT_NOW": [
+      {
+        "tweet_id": "2026402239762542764",
+        "author": "repligate",
+        "likes": 905,
+        "text_preview": "PSA: Claude Code automatically DELETES sessions that have been inactive for more than 30 days.\n\nDisable this by setting ",
+        "primary_keyword": "cleanupPeriodDays",
+        "one_liner": "Prevent automatic deletion of Claude Code sessions inactive for 30 days by setting `cleanupPeriodDays` to a large number in `~/.claude/settings.json`.",
+        "category": "ACT_NOW",
+        "reason": "This is a critical setting change in Claude Code that prevents session deletion.  Loss of session data would be highly disruptive to our workflow and the tip provides a simple fix.",
+        "relevance": [
+          "Prevents data loss in Claude Code Desktop, which we use heavily.",
+          "Directly addresses potential disruptions to our workflow."
+        ],
+        "proposed_action": "Immediately implement this setting change in all Claude Code Desktop installations."
+      }
+    ],
+    "EXPERIMENT": [
+      {
+        "tweet_id": "2024574133011673516",
+        "author": "trq212",
+        "likes": 4511,
+        "text_preview": "https://t.co/taVRqwm4dG",
+        "primary_keyword": "AskUserQuestionTool",
+        "one_liner": "A Claude coding tip promises to improve developer efficiency by demonstrating a specific action or insight but needs link or media analysis for details.",
+        "category": "EXPERIMENT",
+        "reason": "The tweet promises a Claude coding technique, which may offer improvements to our code generation or manipulation workflows. Because we delegate code tasks to Claude Code, it's worth experimenting with, but we don't have enough information to act immediately.",
+        "relevance": [
+          "Claude Code workflow",
+          "Developer efficiency"
+        ],
+        "proposed_action": "Inspect the linked content and evaluate the technique's applicability to our workflow."
+      },
+      {
+        "tweet_id": "2026473288562516327",
+        "author": "IamEmily2050",
+        "likes": 1197,
+        "text_preview": "I just published my first skill on Github, this is for Seedance V2, hopefully it will help so many people to write good ",
+        "primary_keyword": "Seedance V2",
+        "one_liner": "New Seedance V2 skill released on Github aims to improve video prompt engineering workflows by providing example prompts.",
+        "category": "EXPERIMENT",
+        "reason": "This is a new skill shared on Github that could potentially improve our prompt engineering for video creation. We are building tools for automated video content and prompt optimization would enhance the generated videos.",
+        "relevance": [
+          "prompt engineering",
+          "video creation",
+          "github skills"
+        ],
+        "proposed_action": "Review the skill and consider incorporating relevant prompt engineering techniques into our video creation pipeline."
+      },
+      {
+        "tweet_id": "2024535665333956960",
+        "author": "ericzakariasson",
+        "likes": 1133,
+        "text_preview": "https://t.co/hepvBk2q9L",
+        "primary_keyword": "code-generation",
+        "one_liner": "This Claude code tip promises to enhance coding workflows within the Claude environment.",
+        "category": "EXPERIMENT",
+        "reason": "The tweet suggests a tip for improving code writing/understanding within Claude, which aligns with our cross-model code review experiments (Claude + Codex/Gemini). We should investigate if this provides a new perspective on improving code quality.",
+        "relevance": [
+          "Cross-model review",
+          "Code quality"
+        ],
+        "proposed_action": "Review the linked content to determine if the code tip offers novel insights for our cross-model code review process."
+      },
+      {
+        "tweet_id": "2024854676647170324",
+        "author": "VictorTaelin",
+        "likes": 925,
+        "text_preview": "continual learning, only continual learning, and nothing other than continual learning, is what's missing right now\n\nI c",
+        "primary_keyword": "continual learning",
+        "one_liner": "AI development should prioritize continual learning over benchmark performance to build models that retain knowledge and improve productivity across sessions.",
+        "category": "EXPERIMENT",
+        "reason": "The tweet highlights the importance of continual learning, which is an area we could explore to improve long-term memory and reduce the need for frequent context resetting in our autonomous workflows. While we aren't directly tackling this *right now*, the problem described is highly relevant to the limitations we see, and it's worth monitoring and potentially experimenting with techniques as they emerge.",
+        "relevance": [
+          "Improving long-term memory in autonomous agents",
+          "Reducing the 'fresh intern' effect in daily workflows",
+          "Addressing context window limitations"
+        ],
+        "proposed_action": "Add 'continual learning techniques' to the 'experimenting with' backlog and allocate some time to research potential approaches in the coming weeks."
+      },
+      {
+        "tweet_id": "2026902697832755255",
+        "author": "amorriscode",
+        "likes": 531,
+        "text_preview": "y’all want this in the Code tab? 👀",
+        "primary_keyword": "Code tab",
+        "one_liner": "Claude hints at a new Code tab feature, prompting user feedback on a possible tool integration.",
+        "category": "EXPERIMENT",
+        "reason": "A new feature in the Claude Code tab is directly relevant to our workflow as it's our primary interface. It's worth investigating to see if it impacts our coding practices or introduces useful capabilities.",
+        "relevance": [
+          "Claude Code Desktop",
+          "coding workflow"
+        ],
+        "proposed_action": "Monitor Anthony Morris's future tweets and related documentation to understand the specific new feature and evaluate its potential impact. If promising, allocate time for experimentation."
+      },
+      {
+        "tweet_id": "2026728214891212804",
+        "author": "simonw",
+        "likes": 504,
+        "text_preview": "Brief notes on Claude Code Remote and Cowork scheduled tasks - both of which overlap with OpenClaw, and both of which re",
+        "primary_keyword": "Remote and Cowork scheduled tasks",
+        "one_liner": "Learn about Claude Code's Remote and Cowork task scheduling features, similar to OpenClaw, which require a powered-on remote machine for code execution.",
+        "category": "EXPERIMENT",
+        "reason": "While we've decided to skip Cowork, the \"remote control\" aspect of Claude Code is new and potentially useful for offloading tasks from local resources. Its integration with Claude Code Desktop makes it more relevant than standalone agent frameworks.",
+        "relevance": [
+          "Potentially relevant to offloading daily bookmark monitor analysis.",
+          "Similar functionality to OpenClaw, which we considered."
+        ],
+        "proposed_action": "Evaluate the \"remote control\" feature for the bookmark monitor pipeline."
+      },
+      {
+        "tweet_id": "2024640940657246235",
+        "author": "scaling01",
+        "likes": 450,
+        "text_preview": "https://t.co/G8mpPCub7a",
+        "primary_keyword": "TaskTool",
+        "one_liner": "This Claude tip probably showcases a code optimization or workflow enhancement technique using specific commands/tools that can be found by clicking the link.",
+        "category": "EXPERIMENT",
+        "reason": "The tweet promises a technique or workflow enhancement for Claude. Since we use Claude Code for task execution, this is potentially relevant, but we need to evaluate the actual tip before deciding if it's genuinely new or just an incremental improvement.",
+        "relevance": [
+          "Claude Code usage",
+          "prompt engineering",
+          "task-execution"
+        ],
+        "proposed_action": "Follow the link and summarize the technique. If it's new or particularly effective, incorporate it into our documentation or skills. Otherwise, mark it as NOTED."
+      }
+    ],
+    "NOTED": [
+      {
+        "tweet_id": "2025007393290272904",
+        "author": "bcherny",
+        "likes": 10946,
+        "text_preview": "Introducing: built-in git worktree support for Claude Code \n\nNow, agents can run in parallel without interfering with on",
+        "primary_keyword": "git worktree",
+        "one_liner": "Claude Code adds git worktree support to its CLI, enabling parallel and independent agent execution.",
+        "category": "NOTED",
+        "reason": "We already use Claude Code Desktop as our primary interface, and the tweet specifically mentions that the desktop app already had this functionality. This is an extension of an existing feature, not a new workflow.",
+        "relevance": [
+          "Claude Code Desktop",
+          "parallel agents"
+        ],
+        "proposed_action": null
+      },
+      {
+        "tweet_id": "2027109375765356723",
+        "author": "trq212",
+        "likes": 4164,
+        "text_preview": "We've rolled out a new auto-memory feature.\n\nClaude now remembers what it learns across sessions — your project context,",
+        "primary_keyword": "auto-memory",
+        "one_liner": "Claude's new auto-memory feature allows it to learn and remember information across sessions for improved assistance.",
+        "category": "NOTED",
+        "reason": "We are already using Claude for planning and Claude Code for execution, making this an update to a tool we actively use. The classification rules specify that updates to existing tools are always NOTED.",
+        "relevance": [
+          "Directly relevant to our use of Claude/Claude Code."
+        ],
+        "proposed_action": null
+      },
+      {
+        "tweet_id": "2026110215561822374",
+        "author": "trq212",
+        "likes": 659,
+        "text_preview": "Claude in Chrome is now significantly faster with our Quick Mode experiment, and you can also pair with Opus 4.6 fast to",
+        "primary_keyword": "Quick Mode",
+        "one_liner": "Boost Claude's speed in Chrome by enabling Quick Mode and using the Opus 4.6 model.",
+        "category": "NOTED",
+        "reason": "We already use Claude in Chrome and the tip is about an update to Claude that is now faster. Per classification rules, any update to something we already use falls under NOTED.",
+        "relevance": [
+          "Claude.ai for planning, Claude Code for execution",
+          "Claude Code Desktop (already our primary interface)"
+        ],
+        "proposed_action": null
+      },
+      {
+        "tweet_id": "2026407439101481157",
+        "author": "felixrieseberg",
+        "likes": 390,
+        "text_preview": "Also, since we're already busy shipping: Update your Claude Code to the latest version, run /remote-control, and then ju",
+        "primary_keyword": "/remote-control",
+        "one_liner": "Control Claude Code remotely from your phone after running `/remote-control`, allowing you to code from anywhere.",
+        "category": "NOTED",
+        "reason": "We already use Claude Code Desktop as our primary interface, and this is an update about a feature within that existing tool. Updates to existing tools fall under NOTED.",
+        "relevance": [
+          "Claude Code Desktop",
+          "/remote-control"
+        ],
+        "proposed_action": null
+      },
+      {
+        "tweet_id": "2025771941760729276",
+        "author": "Econ_Marshall",
+        "likes": 60,
+        "text_preview": "I hate to say it you guys but from a pure utilitarian perspective Claude is the best colleague I've ever had.",
+        "primary_keyword": "utilitarian-perspective",
+        "one_liner": "Claude offers exceptional utility as a collaborative AI tool, making it a highly effective 'colleague'.",
+        "category": "NOTED",
+        "reason": "We actively use Claude.ai for planning and Claude Code for execution, and this tip is just a general sentiment about Claude's usefulness as a colleague. Author reputation does not override the NOTED classification when we already use the tool.",
+        "relevance": [],
+        "proposed_action": null
+      }
+    ],
+    "NOISE": []
+  },
+  "summary": {
+    "act_now_count": 1,
+    "experiment_count": 7,
+    "noted_count": 5,
+    "noise_count": 0,
+    "top_engagement": {
+      "tweet_id": "2025007393290272904",
+      "likes": 10946,
+      "author": "bcherny"
+    }
+  }
+}

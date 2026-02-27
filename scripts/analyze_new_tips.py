@@ -38,6 +38,7 @@ ROOT = Path(__file__).parent.parent
 # Load environment variables from .env file
 load_dotenv(ROOT / ".env")
 DB_PATH = ROOT / "data" / "claude_code_tips_v2.db"
+ANALYSIS_DIR = ROOT / "analysis" / "daily"
 PROJECT_CONTEXT_PATH = ROOT / ".claude" / "references" / "project-context-for-analysis.md"
 HOF_STATUS_PATH = ROOT / ".." / "Hall of Fake" / "STATUS.json"
 
@@ -63,44 +64,67 @@ def get_new_tweets(
     since: str | None = None,
     tweet_ids: list[str] | None = None,
 ) -> list[dict]:
-    """Fetch new tweets from the database.
+    """Fetch new tweets from the database with enriched link and media data.
 
-    If tweet_ids is provided, fetch those specific tweets.
-    If since is provided, fetch tweets extracted after that date.
-    Otherwise, use the last 24 hours.
+    JOINs against links (best match: prefers rows with llm_summary) and media
+    to pull in enrichment context for the classifier.
     """
     conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
 
+    # Subquery picks the best link per tweet: prefer one with an llm_summary,
+    # then by longest summary, then by id.  This avoids duplicating tweets
+    # that have multiple link rows.
+    base_select = """
+        SELECT
+            t.id, t.text, t.handle, t.display_name, t.likes, t.views,
+            t.reposts, t.replies, t.posted_at, t.extracted_at,
+            t.card_url, t.card_title, t.card_description,
+            tp.primary_keyword, tp.holistic_summary, tp.one_liner,
+            tp.llm_category, tp.keywords_json,
+            bl.llm_summary   AS link_summary,
+            bl.key_points_json AS link_key_points,
+            bl.resource_type AS link_resource_type,
+            bl.relevance     AS link_relevance,
+            bm.vision_description AS media_vision,
+            bm.workflow_summary   AS media_workflow,
+            bm.focus_text         AS media_focus
+        FROM tweets t
+        LEFT JOIN tips tp ON t.id = tp.tweet_id
+        LEFT JOIN (
+            SELECT l1.*
+            FROM links l1
+            INNER JOIN (
+                SELECT tweet_id, MAX(
+                    CASE WHEN llm_summary IS NOT NULL THEN 1 ELSE 0 END
+                ) AS has_summary,
+                MIN(id) AS min_id
+                FROM links
+                GROUP BY tweet_id
+            ) l2 ON l1.tweet_id = l2.tweet_id
+                AND (l1.llm_summary IS NOT NULL OR l2.has_summary = 0)
+                AND l1.id = (
+                    SELECT MIN(id) FROM links
+                    WHERE tweet_id = l1.tweet_id
+                    AND (llm_summary IS NOT NULL OR l2.has_summary = 0)
+                )
+        ) bl ON t.id = bl.tweet_id
+        LEFT JOIN (
+            SELECT m1.*
+            FROM media m1
+            INNER JOIN (
+                SELECT tweet_id, MIN(id) AS min_id FROM media GROUP BY tweet_id
+            ) m2 ON m1.id = m2.min_id
+        ) bm ON t.id = bm.tweet_id
+    """
+
     if tweet_ids:
         placeholders = ",".join("?" for _ in tweet_ids)
-        query = f"""
-            SELECT
-                t.id, t.text, t.handle, t.display_name, t.likes, t.views,
-                t.reposts, t.replies, t.posted_at, t.extracted_at,
-                t.card_url, t.card_title,
-                tp.primary_keyword, tp.holistic_summary, tp.one_liner,
-                tp.llm_category, tp.keywords_json
-            FROM tweets t
-            LEFT JOIN tips tp ON t.id = tp.tweet_id
-            WHERE t.id IN ({placeholders})
-            ORDER BY t.likes DESC
-        """
+        query = f"{base_select} WHERE t.id IN ({placeholders}) ORDER BY t.likes DESC"
         rows = conn.execute(query, tweet_ids).fetchall()
     else:
         since_clause = since or datetime.now().strftime("%Y-%m-%d")
-        query = """
-            SELECT
-                t.id, t.text, t.handle, t.display_name, t.likes, t.views,
-                t.reposts, t.replies, t.posted_at, t.extracted_at,
-                t.card_url, t.card_title,
-                tp.primary_keyword, tp.holistic_summary, tp.one_liner,
-                tp.llm_category, tp.keywords_json
-            FROM tweets t
-            LEFT JOIN tips tp ON t.id = tp.tweet_id
-            WHERE t.extracted_at >= ?
-            ORDER BY t.likes DESC
-        """
+        query = f"{base_select} WHERE t.extracted_at >= ? ORDER BY t.likes DESC"
         rows = conn.execute(query, (since_clause,)).fetchall()
 
     tweets = [dict(row) for row in rows]
@@ -123,8 +147,51 @@ def classify_with_gemini(client, tweet: dict, project_context: str, hof_context:
     summary = tweet.get("holistic_summary", "")
     keywords = tweet.get("keywords_json", "[]")
     card_url = tweet.get("card_url", "")
+    card_title = tweet.get("card_title", "")
+    card_description = tweet.get("card_description", "")
 
-    card_line = f"\nLinked URL: {card_url}" if card_url else ""
+    # Build enriched context block from links and media
+    enrichment_lines = []
+    link_summary = tweet.get("link_summary", "")
+    link_key_points = tweet.get("link_key_points", "")
+    link_resource_type = tweet.get("link_resource_type", "")
+    link_relevance = tweet.get("link_relevance", "")
+    media_vision = tweet.get("media_vision", "")
+    media_workflow = tweet.get("media_workflow", "")
+    media_focus = tweet.get("media_focus", "")
+
+    if card_url:
+        enrichment_lines.append(f"Linked URL: {card_url}")
+    if card_title:
+        enrichment_lines.append(f"Link Title: {card_title}")
+    if card_description:
+        enrichment_lines.append(f"Link Description: {card_description}")
+    if link_summary:
+        enrichment_lines.append(f"Link Summary: {link_summary}")
+    if link_key_points:
+        enrichment_lines.append(f"Key Points: {link_key_points}")
+    if link_resource_type:
+        enrichment_lines.append(f"Resource Type: {link_resource_type}")
+    if link_relevance:
+        enrichment_lines.append(f"Link Relevance: {link_relevance}")
+
+    # Media context
+    media_desc = media_vision or media_workflow or media_focus
+    if media_desc:
+        enrichment_lines.append(f"Media Description: {media_desc}")
+
+    enrichment_block = ""
+    if enrichment_lines:
+        enrichment_block = "\n\nENRICHED CONTEXT:\n" + "\n".join(enrichment_lines)
+
+    # Data completeness note for the classifier
+    completeness_note = ""
+    if card_url and not link_summary:
+        completeness_note = (
+            "\n\nNOTE: This tweet links to a URL but no link summary is available. "
+            "Classification is based on tweet text and card metadata only — "
+            "the linked content may contain important details not reflected here."
+        )
 
     prompt = f"""You are classifying a Claude Code tip for a daily briefing.
 
@@ -136,7 +203,7 @@ Author: @{handle} ({display_name})
 Likes: {likes} | Reposts: {reposts} | Views: {views}
 Text: {text}
 Summary: {summary}
-Keywords: {keywords}{card_line}
+Keywords: {keywords}{enrichment_block}{completeness_note}
 
 Classify this tip into exactly one category:
 - ACT_NOW: Genuinely new technique that's directly applicable to our active work. Should be rare.
@@ -246,6 +313,23 @@ def analyze_tips(tweets: list[dict], classifier_fn) -> dict:
         "NOISE": [],
     }
 
+    # Pre-flight: warn about tweets with links but no enrichment
+    incomplete = [
+        t for t in tweets
+        if t.get("card_url") and not t.get("link_summary")
+    ]
+    if incomplete:
+        print(
+            f"  Warning: {len(incomplete)} tweet(s) have card_url but no link summary "
+            f"(classification will lack linked content):",
+            file=sys.stderr,
+        )
+        for t in incomplete:
+            print(
+                f"    {t['id']} @{t.get('handle', '?')} — {t.get('card_url', '')}",
+                file=sys.stderr,
+            )
+
     for i, tweet in enumerate(tweets):
         print(
             f"  [{i + 1}/{len(tweets)}] @{tweet.get('handle', '?')} "
@@ -326,7 +410,7 @@ def main():
         "--output",
         "-o",
         type=Path,
-        help="Write analysis JSON to file (default: stdout)",
+        help="Write analysis JSON to file (default: analysis/daily/analysis_YYYY-MM-DD.json)",
     )
     parser.add_argument(
         "--dry-run",
@@ -367,10 +451,13 @@ def main():
                 "top_engagement": None,
             },
         }
-        if args.output:
-            args.output.write_text(json.dumps(result, indent=2))
-        else:
-            print(json.dumps(result, indent=2))
+        output_path = args.output
+        if not output_path:
+            today = datetime.now().strftime("%Y-%m-%d")
+            output_path = ANALYSIS_DIR / f"analysis_{today}.json"
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        output_path.write_text(json.dumps(result, indent=2))
+        print(f"Analysis written to {output_path}", file=sys.stderr)
         return 0
 
     if args.dry_run:
@@ -438,15 +525,16 @@ def main():
     print(f"Analyzing {len(tweets)} tweets...", file=sys.stderr)
     result = analyze_tips(tweets, classifier_fn)
 
-    # Output
+    # Output — default to analysis/daily/analysis_YYYY-MM-DD.json
     output_json = json.dumps(result, indent=2, ensure_ascii=False)
+    output_path = args.output
+    if not output_path:
+        today = datetime.now().strftime("%Y-%m-%d")
+        output_path = ANALYSIS_DIR / f"analysis_{today}.json"
 
-    if args.output:
-        args.output.parent.mkdir(parents=True, exist_ok=True)
-        args.output.write_text(output_json)
-        print(f"Analysis written to {args.output}", file=sys.stderr)
-    else:
-        print(output_json)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(output_json)
+    print(f"Analysis written to {output_path}", file=sys.stderr)
 
     # Print summary to stderr
     s = result["summary"]
