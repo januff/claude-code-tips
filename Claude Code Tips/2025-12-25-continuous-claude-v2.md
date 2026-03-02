@@ -12,7 +12,7 @@ likes: 1019
 views: 330122
 engagement_score: 5250
 url: "https://x.com/parcadei/status/2004018525569274049"
-enrichment_complete: false
+enrichment_complete: true
 has_media: false
 has_links: true
 has_thread_context: true
@@ -161,8 +161,8 @@ This tip highlights Continuous-Claude-v3, a system aimed at optimizing Claude Co
 **ACT_NOW** — High engagement (1019 likes) + directly relevant to active workflow
 ## Linked Resources
 
-- **[github.com/parcadei/Continuous-Claude](https://github.com/parcadei/Continuous-Claude)**
-  > :warning: Link not yet summarized
+- **[GitHub - parcadei/Continuous-Claude-v3: Context management for Claude Code. Hooks maintain state via ledgers and handoffs. MCP execution without context pollution. Agent orchestration with isolated context windows.](https://github.com/parcadei/Continuous-Claude-v3)** · *github-repo*
+  > Continuous-Claude-v3 is a system for managing context in Claude Code, preventing token waste and context loss during compaction. It uses hooks, ledgers, and handoffs to maintain state, allows isolated context windows for agent orchestration, and employs a memory system for continuous learning.
 
 - **[GitHub - parcadei/Continuous-Claude-v3: Context management for Claude Code. Hooks maintain state via ledgers and handoffs. MCP execution without context pollution. Agent orchestration with isolated context windows.](https://github.com/parcadei/Continuous-Claude-v3)** · *github-repo*
   > Continuous-Claude-v3 is a system designed to enhance Claude Code by managing context, enabling persistent learning, and orchestrating specialized agents. It addresses the context compaction problem in Claude by using techniques like YAML handoffs, memory systems, and code analysis to maintain state across sessions and improve efficiency.
@@ -300,7 +300,7 @@ This tip highlights Continuous-Claude-v3, a system aimed at optimizing Claude Co
 enrichment:
   summary: ✅
   keywords: ✅
-  links: ⚠️ (6/7 summarized)
+  links: ✅ (7/7 summarized)
   media: ℹ️ none
   thread: ✅ (20 replies scraped)
   classification: ✅ ACT_NOW

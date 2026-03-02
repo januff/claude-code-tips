@@ -12,7 +12,7 @@ likes: 1941
 views: 152337
 engagement_score: 11763
 url: "https://x.com/anthonyriera/status/2018221220160827828"
-enrichment_complete: false
+enrichment_complete: true
 has_media: false
 has_links: true
 has_thread_context: true
@@ -54,8 +54,8 @@ This tip highlights the "Planning with files" Claude Code skill, enabling more e
 **ACT_NOW** — High engagement (1941 likes) + directly relevant to active workflow
 ## Linked Resources
 
-- **[github.com/othmanadi/planning-with-files](https://github.com/othmanadi/planning-with-files)**
-  > :warning: Link not yet summarized
+- **[GitHub - OthmanAdi/planning-with-files: Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition.](https://github.com/othmanadi/planning-with-files)** · *github-repo*
+  > The GitHub repository `planning-with-files` provides a Claude Code skill that implements a persistent markdown planning workflow, inspired by the approach used at Manus, an AI agent company acquired by Meta. This skill enables AI agents to maintain and update plans in markdown files, allowing for a more structured and persistent approach to task management and project execution.
 
 - **[GitHub - OthmanAdi/planning-with-files: Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition.](https://github.com/othmanadi/planning-with-files)** · *github-repo*
   > This GitHub repository contains a Claude Code skill that enables Manus-style persistent markdown planning, a workflow pattern reportedly used by the AI agent company acquired by Meta for $2 billion. The skill facilitates task management and project planning directly within Claude by leveraging markdown files for persistent storage and easy organization.
@@ -176,7 +176,7 @@ This tip highlights the "Planning with files" Claude Code skill, enabling more e
 enrichment:
   summary: ✅
   keywords: ✅
-  links: ⚠️ (6/7 summarized)
+  links: ✅ (7/7 summarized)
   media: ℹ️ none
   thread: ✅ (30 replies scraped)
   classification: ✅ ACT_NOW

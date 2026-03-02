@@ -12,7 +12,7 @@ engagement_score: 4530
 url: "https://x.com/ericzakariasson/status/2024535665333956960"
 enrichment_complete: true
 has_media: false
-has_links: false
+has_links: true
 has_thread_context: false
 ---
 
@@ -28,6 +28,11 @@ This Claude code tip likely focuses on improving code writing or understanding w
 ## Keywords
 
 **Primary:** `code-generation` · javascript, react, typescript, nodejs
+## Linked Resources
+
+- **[Towards self-learning coding agents](https://x.com/ericzakariasson/article/2024535665333956960)** · *blog-post*
+  > Eric Zakariasson details Cursor's approach to building self-learning coding agents. They're tackling the problem of agents not remembering feedback across sessions with a new Cursor plugin that uses dynamic context discovery via chat transcript search to learn continually.
+
 
 ---
 
@@ -43,7 +48,7 @@ This Claude code tip likely focuses on improving code writing or understanding w
 enrichment:
   summary: ✅
   keywords: ✅
-  links: ℹ️ none
+  links: ✅ (1/1 summarized)
   media: ℹ️ none
   thread: ℹ️ standalone
   classification: ❌ not classified

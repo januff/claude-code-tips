@@ -13,7 +13,7 @@ engagement_score: 28436
 url: "https://x.com/bcherny/status/2025007393290272904"
 enrichment_complete: false
 has_media: true
-has_links: false
+has_links: true
 has_thread_context: false
 ---
 
@@ -35,6 +35,11 @@ Claude Code now supports built-in git worktrees, enabling parallel agent executi
 ## Keywords
 
 **Primary:** `git worktree` · parallel agents, CLI, desktop app
+## Linked Resources
+
+- **[Git - git-worktree Documentation](https://git-scm.com/docs/git-worktree)** · *documentation*
+  > The `git-worktree` command allows you to manage multiple working trees attached to a single Git repository, enabling you to check out multiple branches concurrently. This documentation page details how to use `git worktree` to add, list, lock, move, prune, remove, repair, and unlock worktrees.
+
 ## Media
 
 ![Media](https://pbs.twimg.com/media/HBpEqFFaUAA26OK.png)
@@ -56,7 +61,7 @@ Claude Code now supports built-in git worktrees, enabling parallel agent executi
 enrichment:
   summary: ✅
   keywords: ✅
-  links: ℹ️ none
+  links: ✅ (1/1 summarized)
   media: ⚠️ (0/1 analyzed — 1 photo, 0 videos)
   thread: ℹ️ standalone
   classification: ❌ not classified

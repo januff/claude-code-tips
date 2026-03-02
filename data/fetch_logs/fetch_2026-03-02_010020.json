@@ -1,0 +1,62 @@
+{
+  "fetch_id": "fetch_2026-03-02_010020",
+  "completed_at": "2026-03-02T01:00:20.356906+00:00",
+  "source_file": "data/new_bookmarks_2026-03-01.json",
+  "dry_run": true,
+  "import": {
+    "total_in_file": 142,
+    "new": 8,
+    "existing": 134,
+    "errors": []
+  },
+  "new_tweets": [
+    {
+      "id": "2027851432641069153",
+      "author": "@remilouf",
+      "text_preview": "Update: I removed all orchestration.\n\nThe only thing that\u2019s left is a cron job that prompts Claude c",
+      "likes": 157
+    },
+    {
+      "id": "2016047512478507444",
+      "author": "@remilouf",
+      "text_preview": "It is fairly simple. I go on walks every morning and usually record my rambling. It\u2019s synced with my",
+      "likes": 375
+    },
+    {
+      "id": "2027904566696788225",
+      "author": "@GregFeingold",
+      "text_preview": "Ready to make the switch?\n\nhttps://t.co/foaJ4CKJmG https://t.co/rB9k7BeAWR",
+      "likes": 10967
+    },
+    {
+      "id": "2027543858289250472",
+      "author": "@trq212",
+      "text_preview": "a few Friday afternoon ships to end the week:\n\nthe AskUserQuestion tool can now show markdown snippe",
+      "likes": 4507
+    },
+    {
+      "id": "2027857861796348062",
+      "author": "@blader",
+      "text_preview": "this has been a game changer for keeping long running agent sessions on track: \n\n1. plans are high l",
+      "likes": 385
+    },
+    {
+      "id": "2027534984534544489",
+      "author": "@bcherny",
+      "text_preview": "In the next version of Claude Code..\n\nWe're introducing two new Skills: /simplify and /batch. I have",
+      "likes": 11976
+    },
+    {
+      "id": "2027463795355095314",
+      "author": "@trq212",
+      "text_preview": "https://t.co/nKTDfC7zMm",
+      "likes": 9163
+    },
+    {
+      "id": "2027377489903755502",
+      "author": "@0xSero",
+      "text_preview": "I have to admit, I was tool-maxing, gas-town adjacent because I wanted to just make more happen, fas",
+      "likes": 573
+    }
+  ]
+}

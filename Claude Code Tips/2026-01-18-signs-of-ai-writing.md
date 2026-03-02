@@ -12,7 +12,7 @@ likes: 5681
 views: 911268
 engagement_score: 23574
 url: "https://x.com/blader/status/2013015738622284156"
-enrichment_complete: false
+enrichment_complete: true
 has_media: false
 has_links: true
 has_thread_context: true
@@ -45,8 +45,8 @@ This tip leverages Claude Code and a custom skill to remove telltale signs of AI
 **ACT_NOW** — High engagement (5681 likes) + directly relevant to active workflow
 ## Linked Resources
 
-- **[github.com/blader/humanizer](https://github.com/blader/humanizer)**
-  > :warning: Link not yet summarized
+- **[GitHub - blader/humanizer: Claude Code skill that removes signs of AI-generated writing from text](https://github.com/blader/humanizer)** · *github-repo*
+  > Humanizer is a Claude Code skill that removes AI-generated writing patterns from text, making it sound more natural and human. It's based on a guide from Wikipedia's WikiProject AI Cleanup, identifying 24 common patterns in AI writing.
 
 - **[GitHub - blader/humanizer: Claude Code skill that removes signs of AI-generated writing from text](https://github.com/blader/humanizer)** · *github-repo*
   > The Humanizer is a Claude Code skill designed to make AI-generated text sound more natural and human-like. It identifies and modifies 24 patterns commonly found in AI writing, based on observations from Wikipedia's "Signs of AI writing" guide.
@@ -150,7 +150,7 @@ This tip leverages Claude Code and a custom skill to remove telltale signs of AI
 enrichment:
   summary: ✅
   keywords: ✅
-  links: ⚠️ (5/6 summarized)
+  links: ✅ (6/6 summarized)
   media: ℹ️ none
   thread: ✅ (23 replies scraped)
   classification: ✅ ACT_NOW

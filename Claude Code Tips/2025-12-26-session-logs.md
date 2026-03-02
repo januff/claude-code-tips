@@ -293,6 +293,8 @@ Session Log 2025-...
 > [!tip]+ :leftwards_arrow_with_hook: @DiamondEyesFox · Tue Dec 30 06:03:45 +0000 2025
 
 > @nbbaier @alexalbert__ https://t.co/GxXssiYp9E
+>
+> :paperclip: **[x.com/DiamondEyesFox/status/2004608394423144756](https://x.com/DiamondEyesFox/status/2004608394423144756?s=20)** — This tweet suggests using Claude Code to find session transcripts and import them into an Obsidian vault. It further suggests having Claude Code create condensed logs at the beginning of each session and append them after every interaction within the Claude Markdown format.
 
 
 ---

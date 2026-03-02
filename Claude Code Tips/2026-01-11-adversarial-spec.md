@@ -12,7 +12,7 @@ likes: 1185
 views: 81534
 engagement_score: 5325
 url: "https://x.com/0xzak/status/2010213382494798108"
-enrichment_complete: false
+enrichment_complete: true
 has_media: false
 has_links: true
 has_thread_context: true
@@ -72,8 +72,8 @@ The Claude Code plugin `adversarial-spec` enhances product specifications by hav
 **ACT_NOW** — Matches pending technique with 1185 likes
 ## Linked Resources
 
-- **[github.com/zscole/adversarial-spec](https://github.com/zscole/adversarial-spec)**
-  > :warning: Link not yet summarized
+- **[GitHub - zscole/adversarial-spec: A Claude Code plugin that iteratively refines product specifications by debating between multiple LLMs until all models reach consensus.](https://github.com/zscole/adversarial-spec)** · *github-repo*
+  > Adversarial-spec is a Claude Code plugin that iteratively refines product specifications by having multiple LLMs debate the spec until they all reach a consensus. This process aims to catch gaps, challenge assumptions, and surface edge cases that a single LLM review might miss, resulting in a more robust document.
 
 - **[GitHub - zscole/adversarial-spec: A Claude Code plugin that iteratively refines product specifications by debating between multiple LLMs until all models reach consensus.](https://github.com/zscole/adversarial-spec)** · *github-repo*
   > The `adversarial-spec` Claude Code plugin iteratively refines product specifications by having multiple LLMs debate a spec until all models, including Claude, reach a consensus. This helps catch gaps, challenge assumptions, and surface edge cases that a single model might miss, resulting in a more robust and well-vetted document.
@@ -178,7 +178,7 @@ The Claude Code plugin `adversarial-spec` enhances product specifications by hav
 enrichment:
   summary: ✅
   keywords: ✅
-  links: ⚠️ (6/7 summarized)
+  links: ✅ (7/7 summarized)
   media: ℹ️ none
   thread: ✅ (27 replies scraped)
   classification: ✅ ACT_NOW

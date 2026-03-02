@@ -12,7 +12,7 @@ engagement_score: 29572
 url: "https://x.com/trq212/status/2024574133011673516"
 enrichment_complete: true
 has_media: false
-has_links: false
+has_links: true
 has_thread_context: false
 ---
 
@@ -28,6 +28,11 @@ This tip likely covers a Claude coding technique, command, or workflow that can 
 ## Keywords
 
 **Primary:** `AskUserQuestionTool` · tool, retrieval, prompting, tool-usage
+## Linked Resources
+
+- **[Lessons from Building Claude Code: Prompt Caching Is Everything](https://x.com/trq212/article/2024574133011673516)** · *blog-post*
+  > This article details the importance of prompt caching for Claude Code's performance, outlining strategies employed to maximize cache hit rates. It focuses on maintaining consistency in system prompts and tools to avoid cache invalidation and improve efficiency.
+
 
 ---
 
@@ -43,7 +48,7 @@ This tip likely covers a Claude coding technique, command, or workflow that can 
 enrichment:
   summary: ✅
   keywords: ✅
-  links: ℹ️ none
+  links: ✅ (1/1 summarized)
   media: ℹ️ none
   thread: ℹ️ standalone
   classification: ❌ not classified

@@ -12,7 +12,7 @@ likes: 2320
 views: 1336527
 engagement_score: 12469
 url: "https://x.com/clairevo/status/2010835704931369379"
-enrichment_complete: false
+enrichment_complete: true
 has_media: false
 has_links: true
 has_thread_context: true
@@ -35,8 +35,8 @@ This Claude tip likely focuses on a technique, command, or workflow to optimize 
 **ACT_NOW** — Matches pending technique with 2320 likes
 ## Linked Resources
 
-- **[x.com/i/article/2010826317634420736](http://x.com/i/article/2010826317634420736)**
-  > :warning: Link not yet summarized
+- **[I've been playing with Cowork today, and I have thoughts.](http://x.com/i/article/2010826317634420736)** · *blog-post*
+  > The author explores Cowork, a local Mac OS app built around Claude Code, designed for non-technical tasks. Cowork aims to streamline knowledge work by providing a UI with first-class treatment of steps, artifacts, and context, but the author finds its 'mad lib' prompts basic and its UI cluttered with technical details unnecessary for non-technical users.
 
 ## Replies
 
@@ -123,7 +123,7 @@ This Claude tip likely focuses on a technique, command, or workflow to optimize 
 enrichment:
   summary: ✅
   keywords: ✅
-  links: ⚠️ (0/1 summarized)
+  links: ✅ (1/1 summarized)
   media: ℹ️ none
   thread: ✅ (32 replies scraped)
   classification: ✅ ACT_NOW

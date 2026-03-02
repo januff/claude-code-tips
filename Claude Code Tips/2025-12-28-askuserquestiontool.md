@@ -100,6 +100,8 @@ This Claude code tip demonstrates a prompting technique for thorough spec review
 > [!reply] @giuseppegurgone · Sun Dec 28 17:03:20 +0000 2025
 > @trq212 @spec combine it with this https://t.co/rrr11Dn5ck
 > *1 likes*
+>
+> :paperclip: **[x.com/giuseppegurgone/status/2001596743012544571](https://x.com/giuseppegurgone/status/2001596743012544571)** — The tweet highlights how Claude, an AI assistant, is mimicking a technique used by the tweet author. This technique involves using actionable `@implement` directives instead of placeholder comments in code, allowing for later execution.
 
 > [!reply] @ramonclaudio · Sun Dec 28 20:49:19 +0000 2025
 > @trq212 @spec Are you adding frontmatter to the SPEC[dot]md file?
