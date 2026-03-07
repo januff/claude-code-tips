@@ -1,0 +1,206 @@
+{
+  "fetch_id": "fetch_2026-03-07_225720",
+  "completed_at": "2026-03-07T22:57:20.654402+00:00",
+  "source_file": "data/new_bookmarks_2026-03-07.json",
+  "dry_run": false,
+  "import": {
+    "total_in_file": 174,
+    "new": 32,
+    "existing": 142,
+    "errors": []
+  },
+  "new_tweets": [
+    {
+      "id": "2030380485009199119",
+      "author": "@GithubProjects",
+      "text_preview": "Someone just open-sourced Siftly.\n\nIt\u2019s a self-hosted AI knowledge base built for your X bookmarks.\n",
+      "likes": 162
+    },
+    {
+      "id": "2030156251821392096",
+      "author": "@rohanpaul_ai",
+      "text_preview": "Claude seems to be fixing a super annoying developer problem.\n\nAnthropic announced a research previe",
+      "likes": 610
+    },
+    {
+      "id": "2030015356383691121",
+      "author": "@AnishA_Moonka",
+      "text_preview": "Boris Cherny (Head of Claude Code, Anthropic) just dropped ~90 mins on Lenny's Podcast about what ha",
+      "likes": 2002
+    },
+    {
+      "id": "2030281500298743819",
+      "author": "@RoundtableSpace",
+      "text_preview": "Anthropic shipped all of these in two weeks:\n\n- claude code security\n- voice mode in claude code\n- f",
+      "likes": 1121
+    },
+    {
+      "id": "2030253594708967785",
+      "author": "@gregisenberg",
+      "text_preview": "This is smart. You can also try /insights",
+      "likes": 1344
+    },
+    {
+      "id": "2030176199478288831",
+      "author": "@JeremyNguyenPhD",
+      "text_preview": "this is great: get claude code to audit what you've been using it for, and improve your workflow:\n\n\"",
+      "likes": 26
+    },
+    {
+      "id": "2029988814924722559",
+      "author": "@adocomplete",
+      "text_preview": "Claude Code Tip of the Day: Prompt Stashing\n\nLong prompt, short detour? Control + S stashes your dra",
+      "likes": 2209
+    },
+    {
+      "id": "2030011259610177904",
+      "author": "@DataChaz",
+      "text_preview": "Anthropic just dropped a massive cheat code for ambitious AI builders.\n\nThey just launched the \u2018Clau",
+      "likes": 279
+    },
+    {
+      "id": "2030193932404150413",
+      "author": "@bcherny",
+      "text_preview": "Released today: /loop\n\n/loop is a powerful new way to schedule recurring tasks, for up to 3 days at ",
+      "likes": 10342
+    },
+    {
+      "id": "2030089465679728763",
+      "author": "@chintanturakhia",
+      "text_preview": "Run this prompt frequently.\n\nYou're welcome. https://t.co/8WafOU4a5S",
+      "likes": 5151
+    },
+    {
+      "id": "2029672685530497080",
+      "author": "@_PaperMoose_",
+      "text_preview": "i love cmux. if you're running ai coding agents you need this terminal.\n\ncmux is a ghostty-based mac",
+      "likes": 59
+    },
+    {
+      "id": "2028330693659332615",
+      "author": "@ArtemXTech",
+      "text_preview": "https://t.co/mVw8YUoslZ",
+      "likes": 2703
+    },
+    {
+      "id": "2029919688713719809",
+      "author": "@tomcrawshaw01",
+      "text_preview": "You can now give Claude Code persistent memory.\n\nThree tools:\n- QMD makes sessions searchable in und",
+      "likes": 548
+    },
+    {
+      "id": "2029899328400109732",
+      "author": "@thejayden",
+      "text_preview": "I often don\u2019t share this kind of thing because it\u2019s usually AI slop.\n\nBut this article about buildin",
+      "likes": 6342
+    },
+    {
+      "id": "2029726886230684130",
+      "author": "@gavinpurcell",
+      "text_preview": "really great write up on using claude code to create an insanely useful assistant right now\u2026\n\nno cla",
+      "likes": 1284
+    },
+    {
+      "id": "2029433369776542120",
+      "author": "@RhysSullivan",
+      "text_preview": "easily the best ai coding tip i have is to know good repos and tell your agent to clone them into /t",
+      "likes": 1021
+    },
+    {
+      "id": "2028480198912667840",
+      "author": "@DataChaz",
+      "text_preview": "This guy literally shared the anatomy of the perfect prompt in Claude 4.6 \ud83e\uddf5 \u2193 https://t.co/V10gEBOOv",
+      "likes": 6259
+    },
+    {
+      "id": "2024498005848760478",
+      "author": "@_0xaryan",
+      "text_preview": "you can now make subagents inside claude code, which use codex\nhttps://t.co/SuIorR4jHc",
+      "likes": 96
+    },
+    {
+      "id": "2024496425774756204",
+      "author": "@_0xaryan",
+      "text_preview": "add codex to your claude code\n\nclaude mcp add --scope user --transport stdio codex -- codex mcp-serv",
+      "likes": 1352
+    },
+    {
+      "id": "2029478582352003150",
+      "author": "@JackCulpan",
+      "text_preview": "Here's the prompt:\n\n## Workflow Orchestration\n\n### 1. Plan Mode Default\n- Enter plan mode for ANY no",
+      "likes": 1321
+    },
+    {
+      "id": "2029334353894162720",
+      "author": "@pbakaus",
+      "text_preview": "Impeccable v1.1 is out. Design fluency for every AI harness.\n\nNew:\n- all commands are now agent skil",
+      "likes": 1558
+    },
+    {
+      "id": "2029447158823588114",
+      "author": "@RayFernando1337",
+      "text_preview": "Anthropic just dropped a massive update to the skill-creator skill for Claude Code / OpenClaw. One p",
+      "likes": 2465
+    },
+    {
+      "id": "2029171055407849823",
+      "author": "@heyrobinai",
+      "text_preview": "https://t.co/s0zN5odkeF",
+      "likes": 520
+    },
+    {
+      "id": "2029235808235078095",
+      "author": "@dickson_tsai",
+      "text_preview": "In Claude Code, we\u2019ve recently launched HTTP hooks, easier to use and more secure than existing comm",
+      "likes": 2262
+    },
+    {
+      "id": "2028934523115765811",
+      "author": "@weswinder",
+      "text_preview": "stop building web apps\n\nstart building desktop apps\n\ntrust me",
+      "likes": 8041
+    },
+    {
+      "id": "2028948852473209228",
+      "author": "@nityeshaga",
+      "text_preview": "Just noticed something new in Claude Code's /compact command. Now in the compacted summary, the summ",
+      "likes": 212
+    },
+    {
+      "id": "2028901056818930171",
+      "author": "@RLanceMartin",
+      "text_preview": "check out the updated skill-creator. i esp like built-in support for test generation (e.g., to measu",
+      "likes": 1701
+    },
+    {
+      "id": "2028841178381090941",
+      "author": "@Hesamation",
+      "text_preview": "this is such a well written article on how to squeeze most out of Claude Code or Codex:\n> keep your ",
+      "likes": 2207
+    },
+    {
+      "id": "2023495040258261460",
+      "author": "@nicopreme",
+      "text_preview": "Created an agent skill called \u201cVisual Explainer\u201d + set of complementary slash commands aimed to redu",
+      "likes": 5311
+    },
+    {
+      "id": "2028221316793356472",
+      "author": "@DimitrisPapail",
+      "text_preview": "I had two Claude Codes find a way to communicate with each other  and just do something interesting.",
+      "likes": 504
+    },
+    {
+      "id": "2027910368316821916",
+      "author": "@ShrivuShankar",
+      "text_preview": "ok decompiling things with opus is actually very addicting\n\nhere's apparently how netflix and slack ",
+      "likes": 2113
+    },
+    {
+      "id": "2028222347270906076",
+      "author": "@DimitrisPapail",
+      "text_preview": "launched 2 Claude Codes in separate terminals and told both: \"find each other and build something to",
+      "likes": 521
+    }
+  ]
+}

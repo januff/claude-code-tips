@@ -34,8 +34,9 @@ This tip suggests that focusing on a deeper, more thoughtful approach is ultimat
 **Primary:** `tool-maxing` · productivity, efficiency, mindset
 ## Linked Resources
 
-- [Just Talk To It - the no-bs Way of Agentic Engineering | Peter Steinberger](https://t.co/hbdzFPxtGF)
-  > A practical guide to working with AI coding agents without the hype.
+- **[Just Talk To It - the no-bs Way of Agentic Engineering | Peter Steinberger](https://steipete.me/posts/just-talk-to-it)** · *blog-post*
+  > Peter Steinberger discusses his current workflow for agentic engineering, where AI agents write nearly all of his code. He emphasizes a 'no-bs' approach, favoring the Codex CLI over Claude Code, and using parallel agents for efficiency.
+
 
 ---
 
@@ -51,7 +52,7 @@ This tip suggests that focusing on a deeper, more thoughtful approach is ultimat
 enrichment:
   summary: ✅
   keywords: ✅
-  links: ℹ️ none
+  links: ✅ (1/1 summarized)
   media: ℹ️ none
   thread: ℹ️ standalone
   classification: ❌ not classified

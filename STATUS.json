@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-03-02T01:05:00.000000+00:00",
+  "updated_at": "2026-03-07T23:09:32.544967+00:00",
   "updated_by": "claude-code",
   "last_commit": {
-    "sha": "2b065ae",
-    "message": "feat: bookmark fetch 2026-03-01 — 8 new tweets, enrichment, vault export (502 tweets, 492 notes)",
-    "date": "2026-03-01T17:05:00-08:00"
+    "sha": "675b6a3",
+    "message": "chore: update STATUS.json with analysis date",
+    "date": "2026-03-01T18:08:10-08:00"
   },
   "stats": {
-    "tweets": 502,
-    "vault_notes": 492,
+    "tweets": 534,
+    "vault_notes": 523,
     "threads_scraped": 101,
-    "thread_replies_in_db": 27,
-    "links_resolved": 132
+    "thread_replies_in_db": 28,
+    "links_resolved": 148
   },
   "recent_changes": [
-    "Bookmark fetch 2026-03-01: 8 NEW tweets (502 total), full enrichment pipeline, vault export (492 notes)",
-    "New tweets from @bcherny (/simplify, /batch skills), @trq212 (AskUserQuestion markdown), @blader (theorist skill), @remilouf (cron-job prompting), @GregFeingold (import-memory), @0xSero (tool-maxing)",
-    "Link enrichment: 2 new links enriched (github.com/blader/theorist, claude.com/import-memory), 3 x.com URLs pending browser extraction",
-    "Reinstalled Python deps (python-dotenv, google-genai, beautifulsoup4, jinja2) after environment reset"
+    "Bookmark fetch 2026-03-07: 32 NEW tweets (534 total), full enrichment pipeline, vault export (524 notes)",
+    "Notable new: @bcherny /loop (10.3k likes), @weswinder desktop apps (8k), @thejayden Chief of Staff (6.3k), @DataChaz perfect prompt (6.3k), @nicopreme Visual Explainer (5.3k)",
+    "Also: @chintanturakhia frequently-run-prompt, @dickson_tsai HTTP hooks, @RayFernando1337 skill-creator update, @RhysSullivan clone-repos, @adocomplete prompt-stashing",
+    "Link enrichment: 9 enriched, 7 x.com URLs pending browser extraction, 1 failed (trailing comma in URL)"
   ],
   "known_issues": [
     "PROGRESS.md stale (last updated Jan 5)",
-    "4 tweets have empty text — genuinely attachment-only replies, not a parsing bug",
+    "4 tweets have empty text \u2014 genuinely attachment-only replies, not a parsing bug",
     "Quote tweets not captured in schema or extraction (only quote_count stored)",
     "x.com photo/video URLs (23 remaining) need vision analysis, not text enrichment",
-    "17+ media items lack vision analysis — limited by missing local_path",
-    "Obsidian v1.11.7 installed — needs update to 1.12+ for CLI support",
+    "17+ media items lack vision analysis \u2014 limited by missing local_path",
+    "Obsidian v1.11.7 installed \u2014 needs update to 1.12+ for CLI support",
     "Briefing generator produces double @@ in author handles",
     "Pre-compact hook may not capture enough structured context (only STATUS.json)",
     "enrich_links.py: steipete.me JSON parse error (1 link failed)"
   ],
   "key_dates": {
-    "last_bookmark_fetch": "2026-03-01",
-    "last_vault_export": "2026-03-01",
-    "last_enrichment_run": "2026-03-01",
+    "last_bookmark_fetch": "2026-03-07",
+    "last_vault_export": "2026-03-07",
+    "last_enrichment_run": "2026-03-07",
     "last_analysis_run": "2026-03-01",
     "last_enrichment_audit": "2026-02-12",
     "last_skill_rewrite": "2026-02-17",
