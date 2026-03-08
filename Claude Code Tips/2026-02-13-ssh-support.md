@@ -10,7 +10,7 @@ likes: 4395
 views: 1579493
 engagement_score: 12276
 url: "https://x.com/amorriscode/status/2022442179789300064"
-enrichment_complete: false
+enrichment_complete: true
 has_media: true
 has_links: false
 has_thread_context: false
@@ -25,16 +25,25 @@ has_thread_context: false
 
 ## Summary
 
-Claude Code now supports SSH connections on desktop, allowing you to leverage its coding assistance to work directly on remote servers. This means you can code, debug, and deploy directly within the Claude Code environment, even if your project's codebase is located on a different machine. By connecting via SSH, you can harness Claude's capabilities for remote development workflows, and optionally utilize TMUX for session management.
+Claude Code now supports SSH connections to remote machines, enabling you to analyze and modify codebases hosted elsewhere directly within the Claude environment. The key action is selecting the remote codebase (using SSH) as the source for Claude's analysis, as demonstrated by choosing a different option than 'Local' in the video. This allows you to leverage Claude's capabilities on remote projects without needing to copy files locally, as demonstrated in the video where the user searches for a small TODO.
 
 ## Keywords
 
 **Primary:** `SSH support` · remote machines, desktop, TMUX
 ## Media
 
-![Media](https://pbs.twimg.com/amplify_video_thumb/2022441961194737664/img/DQe5w_I7S8J9xpYc.jpg)
+![[attachments/videos/tweet_2022442179789300064_32.jpg]]
 
-> :warning: Video not yet analyzed
+First, the user has typed in the request to find a small TODO. Then, the user is interacting with the dropdown next to "Local", presumably to change the source of the codebase.
+
+**Focus Text:**
+```
+Find a small todo in the codebase and do it
+```
+
+**Key Action:** The user should learn how to specify a local codebase for Claude to analyze.
+
+
 
 
 ---
@@ -52,7 +61,7 @@ enrichment:
   summary: ✅
   keywords: ✅
   links: ℹ️ none
-  media: ⚠️ (0/1 analyzed — 0 photos, 1 video)
+  media: ✅ (1/1 analyzed — 0 photos, 1 video)
   thread: ℹ️ standalone
   classification: ❌ not classified
 ```

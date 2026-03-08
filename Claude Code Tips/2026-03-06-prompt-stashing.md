@@ -27,7 +27,7 @@ has_thread_context: false
 
 ## Summary
 
-This Claude Code tip introduces 'Prompt Stashing,' a useful technique for managing interruptions during complex prompt construction. By pressing Control + S, you can temporarily save your current draft, ask a quick follow-up question, and then automatically restore your original prompt after submission. This allows for a smoother, less disruptive workflow when interacting with Claude.
+The Claude Code tip introduces 'Prompt Stashing,' a technique activated by Control+S, allowing users to temporarily save a long prompt, ask a quick question, and then automatically restore their original draft after submitting the interruption. This is especially useful for complex tasks requiring detailed instructions, as demonstrated by the example of refactoring API endpoint usage. The workflow involves using commands like 'sup claude' to submit the request and the terminal command '? for shortcuts' to view available commands.
 
 ## Keywords
 
@@ -39,9 +39,21 @@ This Claude Code tip introduces 'Prompt Stashing,' a useful technique for managi
 
 ## Media
 
-![Media](https://pbs.twimg.com/amplify_video_thumb/2029987999770103808/img/ceu3Rj3zpQSEjVFj.jpg)
+![[attachments/videos/tweet_2029988814924722559_46.mp4]]
 
-> :warning: Video not yet analyzed
+First, the user enters '? for shortcuts' in the terminal. Then, the user types a detailed request to Claude Code to refactor API endpoint usage. Finally, the user types 'sup claude' to submit the request, and the terminal indicates that Claude is loading.
+
+**Focus Text:**
+```
+I need you to update API endpoint usage across my codebase carefully and systematically.
+
+Your job is to refactor all relevant code so it uses the new API endpoints, request shapes, response shapes, naming conventions, and auth requirements without breaking existing functionality. This is not a quick search and replace task. I want you to inspect the codebase thorou...
+```
+
+**Key Action:** Learn to provide detailed instructions to Claude Code for complex tasks like refactoring API endpoints.
+
+**Commands:** ? for shortcuts, sup claude
+
 
 
 ---
@@ -59,7 +71,7 @@ enrichment:
   summary: ✅
   keywords: ✅
   links: ⚠️ (0/1 summarized)
-  media: ⚠️ (0/1 analyzed — 0 photos, 1 video)
+  media: ✅ (1/1 analyzed — 0 photos, 1 video)
   thread: ℹ️ standalone
   classification: ❌ not classified
 ```

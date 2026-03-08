@@ -26,7 +26,7 @@ has_thread_context: false
 
 ## Summary
 
-This tip emphasizes the importance of running a specific (but unidentified) prompt frequently within Claude. The implicit insight is that consistent use of this prompt unlocks greater value or efficiency within the AI model's workflow. While the tweet and associated media/links don't reveal the actual prompt, the core takeaway is to integrate regular prompting as a key technique for optimal use.
+This Claude Code tip focuses on analyzing your Claude sessions to identify opportunities for skill, plugin, and agent development. It suggests using a 'scrape' command to extract data from your sessions. By analyzing your activity, you can discover repetitive tasks or workflows that could be automated or enhanced with custom Claude capabilities, ultimately improving efficiency.
 
 ## Keywords
 
@@ -38,9 +38,31 @@ This tip emphasizes the importance of running a specific (but unidentified) prom
 
 ## Media
 
-![Media](https://pbs.twimg.com/media/HCxTiTyaUAILTCN.png)
+![[attachments/screenshots/tweet_2030089465679728763_48.png]]
 
-> :warning: Photo not yet analyzed
+Analyzing Claude sessions to identify potential skills, plugins, and agents.
+
+**Focus Text:**
+```
+> scrape all of my claude sessions on this
+computer. give me a breakdown of all the
+things i do, things that are worth making into
+skills vs plugins vs agents vs claude.md
+```
+
+**Key Action:** Learn how to use a command to scrape and analyze Claude sessions for potential skill development.
+
+**Commands:** scrape
+
+<details>
+<summary>Full OCR Text</summary>
+<pre>
+> scrape all of my claude sessions on this
+computer. give me a breakdown of all the
+things i do, things that are worth making into
+skills vs plugins vs agents vs claude.md
+</pre>
+</details>
 
 
 ---
@@ -58,7 +80,7 @@ enrichment:
   summary: ✅
   keywords: ✅
   links: ⚠️ (0/1 summarized)
-  media: ⚠️ (0/1 analyzed — 1 photo, 0 videos)
+  media: ✅ (1/1 analyzed — 1 photo, 0 videos)
   thread: ℹ️ standalone
   classification: ❌ not classified
 ```

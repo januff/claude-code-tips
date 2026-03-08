@@ -28,7 +28,7 @@ has_thread_context: true
 
 ## Summary
 
-Claude CLI shell aliases for faster workflow: alias claude="claude --dangerously-skip-permissions" (skip permission prompts), alias cc="claude" (short form), alias ccc="claude --continue" (continue last session), alias ccr="claude --resume" (resume session), alias c="claude" (minimal).
+This tip showcases how to define aliases in your terminal for common Claude CLI commands, improving workflow efficiency. By creating shortcuts like `cc` for `claude` or `ccc` for `claude --continue`, you can avoid typing the full command each time. The example demonstrates aliases for commands such as `claude`, `claude --continue`, and `claude --resume`.
 
 ## Keywords
 

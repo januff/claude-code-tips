@@ -58,7 +58,7 @@ has_thread_context: true
 
 ## Summary
 
-This tip highlights the power of Claude Code skills for automating repetitive tasks in agent workflows. Before generating a skill, it recommends providing Claude with a best practices guide (linked in the tweet) to improve the skill's quality. The core idea is to identify tasks you repeat across projects (like generating social media link previews or README files) and encapsulate them into reusable skills, potentially using additional reference files for improved token efficiency.
+This tip focuses on improving Claude Code agent skills by first instructing Claude to read a best practices guide before generating skill `.md` files. The key insight is to automate repetitive tasks across projects by creating skills, using examples like generating social media link previews and writing README files. These skills can be further enhanced by including additional reference files in the same directory for better token efficiency.
 
 ## Keywords
 
@@ -73,9 +73,43 @@ This tip highlights the power of Claude Code skills for automating repetitive ta
 
 ## Media
 
-![Media](https://pbs.twimg.com/media/G-or-iiXIAE-pT0.jpg)
+![[attachments/screenshots/tweet_2011468541321744512_20.jpg]]
 
-> :warning: Photo not yet analyzed
+Demonstration of skills related to image sharing and README creation
+
+
+**Key Action:** Learn best practices for sharing images and crafting README files.
+
+
+<details>
+<summary>Full OCR Text</summary>
+<pre>
+A
+SITT WENET FACACT
+
+SHARE IMAGE
+SKILL
+
+
+
+
+
+Best Practices
+SKILL.md
+X
+2
+M
+
+CRAFT
+README
+README.md
+
+README.
+md
+
+8 59%
+</pre>
+</details>
 
 ## Replies
 
@@ -174,7 +208,7 @@ enrichment:
   summary: ✅
   keywords: ✅
   links: ⚠️ (0/1 summarized)
-  media: ⚠️ (0/1 analyzed — 1 photo, 0 videos)
+  media: ✅ (1/1 analyzed — 1 photo, 0 videos)
   thread: ✅ (18 replies scraped)
   classification: ✅ ACT_NOW
 ```

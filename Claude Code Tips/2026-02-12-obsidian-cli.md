@@ -11,7 +11,7 @@ likes: 1103
 views: 87053
 engagement_score: 2845
 url: "https://x.com/kepano/status/2021999824472879510"
-enrichment_complete: false
+enrichment_complete: true
 has_media: true
 has_links: false
 has_thread_context: false
@@ -33,16 +33,52 @@ has_thread_context: false
 
 ## Summary
 
-This tip highlights a workflow for using Claude Code to autonomously develop Obsidian plugins by leveraging the Obsidian CLI. The key is enabling a closed-loop system where Claude Code can write plugin code, reload the plugin within Obsidian, check for errors, and verify the results through automated checks and visual inspection of styling. This iteration loop allows for continuous development, and Claude Code can now run for extended periods, facilitating more complex plugin creation.
+This Claude Code tip highlights a workflow for autonomous Obsidian plugin development using the Obsidian CLI. By leveraging the CLI, developers can automate tasks such as writing code, reloading plugins, checking for errors, and inspecting the results, effectively closing the feedback loop. The demonstrated commands streamline the development process, enabling autonomous agents to build and test plugins more efficiently.
 
 ## Keywords
 
 **Primary:** `Obsidian CLI` · Obsidian, plugin, autonomous agent, code, reload plugin, errors, styling
 ## Media
 
-![Media](https://pbs.twimg.com/media/HA-Vmr6bsAE2l2V.png)
+![[attachments/screenshots/tweet_2021999824472879510_36.png]]
 
-> :warning: Photo not yet analyzed
+Demonstrating the usage of Obsidian CLI commands for developers.
+
+
+**Key Action:** Learn the various commands available in the Obsidian CLI and their corresponding functions for development purposes.
+
+**Commands:** CLI, commands, visible
+
+<details>
+<summary>Full OCR Text</summary>
+<pre>
+Obsidian CLI for devs
+Command
+Description
+dev:css
+Inspect CSS with source locations
+dev:dom
+Query DOM elements
+dev:errors
+Show captured errors
+dev:console
+Show captured console messages
+dev: mobile
+Toggle mobile emulation
+dev:cdp
+Run a Chrome DevTools Protocol command
+dev:screenshot
+Take a screenshot
+eval
+plugin: reload
+Execute JavaScript and return result
+Reload a plugin
+restart
+reload
+Restart the app
+Reload the app
+</pre>
+</details>
 
 
 ---
@@ -60,7 +96,7 @@ enrichment:
   summary: ✅
   keywords: ✅
   links: ℹ️ none
-  media: ⚠️ (0/1 analyzed — 1 photo, 0 videos)
+  media: ✅ (1/1 analyzed — 1 photo, 0 videos)
   thread: ℹ️ standalone
   classification: ❌ not classified
 ```

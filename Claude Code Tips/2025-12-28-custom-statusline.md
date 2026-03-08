@@ -26,7 +26,7 @@ has_thread_context: false
 
 ## Summary
 
-This tip showcases a custom statusline implementation for Claude Code, enhancing the user interface. The statusline displays key information such as the current model, usage against a weekly limit, time until the limit resets, compaction metrics, session log update time, and cost. By visualizing these parameters, users gain better control and awareness of their Claude Code usage and spending.
+This tip showcases a custom statusline setup for the Claude Code CLI to monitor usage statistics. It provides insights into model, usage limits (5hr/weekly), reset time, compaction, log update time, and cost. By implementing this, users can gain real-time visibility into their Claude Code usage and optimize their workflow.
 
 ## Keywords
 

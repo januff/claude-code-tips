@@ -25,7 +25,7 @@ has_thread_context: false
 
 ## Summary
 
-This Claude tip introduces an enhancement to the AskUserQuestion tool, now allowing it to render markdown snippets. This enables the display of formatted content like diagrams and code examples directly within the user interaction flow. By leveraging markdown rendering, developers can present richer and more informative prompts to users through the AskUserQuestion tool.
+The Claude coding tip introduces the 'AskUserQuestion' tool's ability to display markdown snippets, enabling clearer presentation of diagrams and code examples within the user interface. The accompanying video demonstrates how to configure the layout of the Claude config panel using the 'Compact', 'Spacious', and 'Sidebar' settings, allowing for customized viewing preferences. This improvement allows developers to better structure information conveyed to users, enhancing clarity and comprehension during interactions with the model.
 
 ## Keywords
 
@@ -37,9 +37,14 @@ This Claude tip introduces an enhancement to the AskUserQuestion tool, now allow
 
 ## Media
 
-![Media](https://pbs.twimg.com/amplify_video_thumb/2027542757548691457/img/uqiE29rcGhj0Rh4P.jpg)
+![[attachments/videos/tweet_2027543858289250472_41.mp4]]
 
-> :warning: Video not yet analyzed
+First, the "Compact" layout is selected. Then, the "Spacious" layout is selected. Finally, the "Sidebar" layout is selected to change the display of settings.
+
+
+**Key Action:** Users can configure the layout of the Claude config panel to "Compact", "Spacious", or "Sidebar".
+
+
 
 
 ---
@@ -57,7 +62,7 @@ enrichment:
   summary: ✅
   keywords: ✅
   links: ⚠️ (0/1 summarized)
-  media: ⚠️ (0/1 analyzed — 0 photos, 1 video)
+  media: ✅ (1/1 analyzed — 0 photos, 1 video)
   thread: ℹ️ standalone
   classification: ❌ not classified
 ```

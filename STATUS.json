@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-03-07T23:09:32.544967+00:00",
+  "updated_at": "2026-03-08T00:15:08.369475+00:00",
   "updated_by": "claude-code",
   "last_commit": {
-    "sha": "675b6a3",
-    "message": "chore: update STATUS.json with analysis date",
-    "date": "2026-03-01T18:08:10-08:00"
+    "sha": "c244d50",
+    "message": "feat: bookmark fetch 2026-03-07 \u2014 32 new tweets, enrichment, vault export (534 tweets, 524 notes)",
+    "date": "2026-03-07T15:09:43-08:00"
   },
   "stats": {
     "tweets": 534,
@@ -17,18 +17,19 @@
     "Bookmark fetch 2026-03-07: 32 NEW tweets (534 total), full enrichment pipeline, vault export (524 notes)",
     "Notable new: @bcherny /loop (10.3k likes), @weswinder desktop apps (8k), @thejayden Chief of Staff (6.3k), @DataChaz perfect prompt (6.3k), @nicopreme Visual Explainer (5.3k)",
     "Also: @chintanturakhia frequently-run-prompt, @dickson_tsai HTTP hooks, @RayFernando1337 skill-creator update, @RhysSullivan clone-repos, @adocomplete prompt-stashing",
-    "Link enrichment: 9 enriched, 7 x.com URLs pending browser extraction, 1 failed (trailing comma in URL)"
+    "Link enrichment: 9 enriched, 7 x.com URLs pending browser extraction, 1 failed (trailing comma in URL)",
+    "Media backfill: downloaded 46 media files, analyzed 45 with Gemini Vision (1 JSON parse error), regenerated 49 summaries with media context",
+    "Fixed /fetch-bookmarks skill: added missing download_media.py and enrich_media.py steps to Phase 7"
   ],
   "known_issues": [
     "PROGRESS.md stale (last updated Jan 5)",
     "4 tweets have empty text \u2014 genuinely attachment-only replies, not a parsing bug",
     "Quote tweets not captured in schema or extraction (only quote_count stored)",
-    "x.com photo/video URLs (23 remaining) need vision analysis, not text enrichment",
-    "17+ media items lack vision analysis \u2014 limited by missing local_path",
+    "x.com photo/video URLs (30 remaining) need browser-based enrichment",
     "Obsidian v1.11.7 installed \u2014 needs update to 1.12+ for CLI support",
     "Briefing generator produces double @@ in author handles",
     "Pre-compact hook may not capture enough structured context (only STATUS.json)",
-    "enrich_links.py: steipete.me JSON parse error (1 link failed)"
+    "enrich_media.py: 1 media item failed JSON parse (tweet_2012741829683224584_17.png)"
   ],
   "key_dates": {
     "last_bookmark_fetch": "2026-03-07",

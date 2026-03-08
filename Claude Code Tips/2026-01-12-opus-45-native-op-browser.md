@@ -13,7 +13,7 @@ likes: 1912
 views: 204381
 engagement_score: 4414
 url: "https://x.com/mert/status/2010816722014437522"
-enrichment_complete: false
+enrichment_complete: true
 has_media: true
 has_links: false
 has_thread_context: true
@@ -32,7 +32,7 @@ has_thread_context: true
 
 ## Summary
 
-This tip highlights a method to give the Claude Opus 4.5 model native browsing capabilities within the OP browser, isolating it from your regular browsing activity. By downloading the linked resource, you can enable this functionality, potentially replacing tools like Cursor. This allows Claude to access and interact with web content directly for enhanced performance and task completion.
+This tip showcases how to use a local development server to isolate Claude Opus 4.5's browsing capabilities, preventing it from interfering with your regular browsing activity. The key action is setting up the project to run on `localhost:8888` for isolated testing. This method provides a dedicated, native browser environment for Claude Opus, potentially improving performance and avoiding conflicts, even rendering some tools like Cursor obsolete.
 
 ## Keywords
 
@@ -42,9 +42,44 @@ This tip highlights a method to give the Claude Opus 4.5 model native browsing c
 **EXPERIMENT** — High engagement (1912 likes) with some relevance
 ## Media
 
-![Media](https://pbs.twimg.com/media/G-fbB5ebUAA78Nj.jpg)
+![[attachments/screenshots/tweet_2010816722014437522_24.jpg]]
 
-> :warning: Photo not yet analyzed
+Setting up a local development server for a cryptocurrency price tracking application and opening the project in the browser.
+
+**Focus Text:**
+```
+open up this project on localhost:8888, it should already be running
+```
+
+**Key Action:** Learn how to set up a local development server and check if a project is running on localhost:8888.
+
+**Commands:** null
+
+<details>
+<summary>Full OCR Text</summary>
+<pre>
+Set up local development server ✓
+~/.../checkprice/gi
+
+open up this project on localhost:8888, it should already be running
+
+• I'll check the browser tabs and navigate to localhost:8888.
+
+• Claude in Chrome: Tabs Context
+
+Claude in Chrome: Tabs Create
+
+• Claude in Chrome: Navigate http://localhost:8888
+
+• Claude in Chrome: Computer
+
+• The project is now open at localhost:8888. It's a cryptocurrency price tracking application called
+"checkprice" showing a list of cryptocurrencies with their prices, market caps, 24h volume, and 7-
+day charts. The app displays Bitcoin at $91,417.99, Ethereum at $3,101.45, and various other
+cryptocurrencies. There are also navigation options for Prices, Predictions, and Watchlist in the
+header.
+</pre>
+</details>
 
 ## Replies
 
@@ -164,7 +199,7 @@ enrichment:
   summary: ✅
   keywords: ✅
   links: ℹ️ none
-  media: ⚠️ (0/1 analyzed — 1 photo, 0 videos)
+  media: ✅ (1/1 analyzed — 1 photo, 0 videos)
   thread: ✅ (39 replies scraped)
   classification: ✅ EXPERIMENT
 ```

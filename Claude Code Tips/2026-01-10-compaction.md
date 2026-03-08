@@ -13,7 +13,7 @@ likes: 1164
 views: 101576
 engagement_score: 3219
 url: "https://x.com/nummanali/status/2010042788566720955"
-enrichment_complete: false
+enrichment_complete: true
 has_media: true
 has_links: false
 has_thread_context: true
@@ -38,7 +38,7 @@ has_thread_context: true
 
 ## Summary
 
-This Claude Code tip highlights a strategy to effectively manage compaction issues by starting with 'Plan Mode' and requesting a 'Comprehensive To Do list'. This ensures that your plans and To-Dos persist even after compaction, leading to efficient code generation as demonstrated by a reported runtime of approximately 53 minutes. This method allows for well-structured code output due to the prior comprehensive planning stage.
+This Claude Code tip highlights a strategy to avoid compaction issues in v2.1.3 by first using Plan Mode to create a comprehensive To Do list. The demonstrated workflow uses the agent orchestrator CLI to manage tasks and flow types, ensuring plans and to-dos persist across compaction; commands like `npx tsx packages/agent-orchestrator/src/cli.ts` with options for task ID, flow type, and instruction are shown.
 
 ## Keywords
 
@@ -48,9 +48,69 @@ This Claude Code tip highlights a strategy to effectively manage compaction issu
 **ACT_NOW** — Matches pending technique with 1164 likes
 ## Media
 
-![Media](https://pbs.twimg.com/media/G-UaIfeWgAAgAFJ.jpg)
+![[attachments/screenshots/tweet_2010042788566720955_27.jpg]]
 
-> :warning: Photo not yet analyzed
+Demonstrating how to use the CLI tool with enhanced mode and individual options.
+
+**Focus Text:**
+```
+npx tsx packages/agent-orchestrator/src/cli.ts \
+--task-id "task-123" \
+--flow-type "feature" \
+--instruction "Implement the feature" \
+--enhanced
+```
+
+**Key Action:** Learn how to use the agent orchestrator CLI with various features and options to manage tasks, flow types, and instructions.
+
+**Commands:** CLI
+
+<details>
+<summary>Full OCR Text</summary>
+<pre>
+Key Features Added:
+Feature
+Module
+Description
+CLI Adapters
+src/cli-adapters/ | Type-safe command builders for 9 AI CLIS
+Git Operations
+src/git/
+GitManager, ReadonlyGuard with fingerprinting
+BD Integration
+src/bd/
+BDStateManager for state persistence
+Artifacts
+src/artifacts/
+ArtifactManager for output storage
+PR Creation
+src/pr/
+PRCreator with template system
+Enhanced Runner
+src/runner.ts
+Timeout handling, parallel execution
+Enhanced CLI
+src/cli.ts
+--enhanced mode with all features
+
+Usage:
+# Enhanced mode (all features enabled)
+npx tsx packages/agent-orchestrator/src/cli.ts \
+--task-id "task-123" \
+--flow-type "feature" \
+--instruction "Implement the feature" \
+--enhanced
+
+# Individual options
+--persist-state # Save state to BD notes
+--save-artifacts # Store outputs to .agent/
+--create-pr # Create PR on completion
+
+The branch chore/orchestration-alignment is ready with 10 commits ahead of origin.
+
+* Cooked for 52m 54s
+</pre>
+</details>
 
 ## Replies
 
@@ -184,7 +244,7 @@ enrichment:
   summary: ✅
   keywords: ✅
   links: ℹ️ none
-  media: ⚠️ (0/1 analyzed — 1 photo, 0 videos)
+  media: ✅ (1/1 analyzed — 1 photo, 0 videos)
   thread: ✅ (30 replies scraped)
   classification: ✅ ACT_NOW
 ```

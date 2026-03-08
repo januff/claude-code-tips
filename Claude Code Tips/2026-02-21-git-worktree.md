@@ -11,7 +11,7 @@ likes: 10946
 views: 1250135
 engagement_score: 28436
 url: "https://x.com/bcherny/status/2025007393290272904"
-enrichment_complete: false
+enrichment_complete: true
 has_media: true
 has_links: true
 has_thread_context: false
@@ -30,7 +30,7 @@ has_thread_context: false
 
 ## Summary
 
-Claude Code now supports built-in git worktrees, enabling parallel agent execution without conflicts. This feature, previously available in the desktop app, extends to the CLI, allowing each agent to operate independently within its own worktree. This means you can have multiple agents working on different branches or features simultaneously without interference. Learn more about leveraging git worktrees to streamline your Claude Code workflows.
+Claude Code now supports Git worktrees in its CLI, mirroring existing functionality in the desktop app. This allows multiple agents to operate in parallel within separate worktrees of the same Git repository, preventing interference. The key action is using the `--worktree` flag with the `claude` command, as demonstrated in the attached image, to manage these isolated workspaces.
 
 ## Keywords
 
@@ -42,9 +42,27 @@ Claude Code now supports built-in git worktrees, enabling parallel agent executi
 
 ## Media
 
-![Media](https://pbs.twimg.com/media/HBpEqFFaUAA26OK.png)
+![[attachments/screenshots/tweet_2025007393290272904_39.png]]
 
-> :warning: Photo not yet analyzed
+Demonstrates the use of the `--worktree` flag in Claude CLI.
+
+**Focus Text:**
+```
+$ claude --worktree
+
+```
+
+**Key Action:** Learn how to use the `--worktree` flag with the claude command.
+
+**Commands:** claude --worktree
+
+<details>
+<summary>Full OCR Text</summary>
+<pre>
+$ claude --worktree
+
+</pre>
+</details>
 
 
 ---
@@ -62,7 +80,7 @@ enrichment:
   summary: ✅
   keywords: ✅
   links: ✅ (1/1 summarized)
-  media: ⚠️ (0/1 analyzed — 1 photo, 0 videos)
+  media: ✅ (1/1 analyzed — 1 photo, 0 videos)
   thread: ℹ️ standalone
   classification: ❌ not classified
 ```

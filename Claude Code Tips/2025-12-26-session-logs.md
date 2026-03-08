@@ -30,7 +30,7 @@ has_thread_context: true
 
 ## Summary
 
-This tip demonstrates a workflow for logging and summarizing Claude sessions to improve collaboration and maintain context. The key action is using Claude to access and summarize information from local log files, enabling real-time updates in both Obsidian and Claude's memory. The workflow involves managing sessions with a `Claude.md` file, organizing logs by date within the 'DEF Master Vault' application, and potentially using hooks for automation.
+This Claude code tip showcases a workflow for enhanced session tracking and knowledge sharing between you and Claude. By exporting raw logs and generating real-time summaries directly into Obsidian, you can maintain a comprehensive record of interactions. The key action involves using Claude to summarize local files (like a scratchpad) and structuring logs by year, month, and day for easy browsing and context restoration, leveraging custom scripts and potentially tools like the "DEF Master Vault" application.
 
 ## Keywords
 

@@ -26,7 +26,7 @@ has_thread_context: false
 
 ## Summary
 
-This Claude Code tip likely focuses on migrating from one development environment or platform to another. The provided link probably details a streamlined process or tools to facilitate a smoother transition. Check the link to discover the recommended strategy and possibly specific commands or scripts for a quick and efficient switch.
+This Claude tip details a workflow for transitioning from other AI platforms by importing your existing conversational context. Instead of starting fresh, you can copy-paste your past interactions into Claude, allowing it to quickly learn your preferences and communication style. This ensures a more familiar and seamless experience when switching to Claude.
 
 ## Keywords
 
@@ -41,9 +41,32 @@ This Claude Code tip likely focuses on migrating from one development environmen
 
 ## Media
 
-![Media](https://pbs.twimg.com/media/HCSQdNeaoAA0gY2.jpg)
+![[attachments/screenshots/tweet_2027904566696788225_40.jpg]]
 
-> :warning: Photo not yet analyzed
+Describes how to switch to Claude from other AI providers by importing memory.
+
+
+**Key Action:** Learn how to import your context from other AI providers into Claude to continue conversations without starting over.
+
+
+<details>
+<summary>Full OCR Text</summary>
+<pre>
+Claude
+Import Memory
+Explore here v
+Switch to
+Claude without
+starting over
+Bring your preferences and context
+from other Al providers to Claude.
+With one copy-paste, Claude
+updates its memory and picks up
+right where you left off. Memory
+is available on all paid plans.
+Get started
+</pre>
+</details>
 
 
 ---
@@ -61,7 +84,7 @@ enrichment:
   summary: ✅
   keywords: ✅
   links: ⚠️ (1/2 summarized)
-  media: ⚠️ (0/1 analyzed — 1 photo, 0 videos)
+  media: ✅ (1/1 analyzed — 1 photo, 0 videos)
   thread: ℹ️ standalone
   classification: ❌ not classified
 ```

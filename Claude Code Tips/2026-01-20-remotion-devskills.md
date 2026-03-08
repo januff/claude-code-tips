@@ -12,7 +12,7 @@ likes: 18069
 views: 14675189
 engagement_score: 84781
 url: "https://x.com/Remotion/status/2013626968386765291"
-enrichment_complete: false
+enrichment_complete: true
 has_media: true
 has_links: false
 has_thread_context: true
@@ -35,7 +35,7 @@ has_thread_context: true
 
 ## Summary
 
-This Claude Code tip introduces Agent Skills for Remotion, enabling video creation directly from code prompts. The key action is adding the Remotion-specific skills package using the command `npx skills add remotion-dev/skills`. This allows you to generate animations and videos procedurally by leveraging AI to interpret your prompts within the Remotion framework, simplifying video creation.
+This tip introduces Agent Skills for Remotion, enabling video creation using Claude Code. The key action is adding the `remotion-dev/skills` package using the command `npx skills add remotion-dev/skills`, which then makes Agent Skills available within Remotion. This allows users to generate animations and videos solely through prompting and code.
 
 ## Keywords
 
@@ -45,9 +45,19 @@ This Claude Code tip introduces Agent Skills for Remotion, enabling video creati
 **ACT_NOW** — High engagement (18069 likes) + directly relevant to active workflow
 ## Media
 
-![Media](https://pbs.twimg.com/amplify_video_thumb/2013626156570877952/img/b4adUEB8w0C1nIX4.jpg)
+![[attachments/videos/tweet_2013626968386765291_16.mp4]]
 
-> :warning: Video not yet analyzed
+First, the command `npx skills add` is typed into the terminal. Then, the full command `npx skills add remotion-dev/skills` is shown being typed. Finally, the screen displays the message "Agent Skills now available" along with a Remotion logo combined with an Open Code logo.
+
+**Focus Text:**
+```
+npx skills add remotion-dev/skills
+```
+
+**Key Action:** The user should learn how to add agent skills using the `npx skills add` command with the appropriate package name.
+
+**Commands:** npx skills add, npx skills add remotion-dev/skills
+
 
 ## Replies
 
@@ -129,7 +139,7 @@ enrichment:
   summary: ✅
   keywords: ✅
   links: ℹ️ none
-  media: ⚠️ (0/1 analyzed — 0 photos, 1 video)
+  media: ✅ (1/1 analyzed — 0 photos, 1 video)
   thread: ✅ (40 replies scraped)
   classification: ✅ ACT_NOW
 ```

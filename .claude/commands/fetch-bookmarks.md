@@ -205,7 +205,37 @@ python3 scripts/enrich_summaries.py
 python3 scripts/enrich_links.py
 ```
 
-### Step 7d: Obsidian vault export
+### Step 7d: Media download
+```bash
+python3 scripts/download_media.py
+```
+
+### Step 7e: Media analysis (Gemini Vision)
+```bash
+python3 scripts/enrich_media.py
+```
+
+### Step 7f: Re-generate summaries (now with media context)
+
+The summary script only processes tweets with `holistic_summary IS NULL`.
+Tweets with media that was never downloaded will already have NULL summaries
+(they were skipped or generated with "Media present but not analyzed").
+
+If `enrich_media.py` analyzed new media, check whether those tweets already
+have summaries. If so, clear them first:
+
+```sql
+UPDATE tips SET holistic_summary = NULL
+WHERE tweet_id IN (SELECT DISTINCT tweet_id FROM media WHERE downloaded_at > 'YYYY-MM-DD');
+```
+
+Then re-run:
+
+```bash
+python3 scripts/enrich_summaries.py
+```
+
+### Step 7g: Obsidian vault export
 ```bash
 python3 scripts/export_tips.py
 ```

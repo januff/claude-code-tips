@@ -54,7 +54,7 @@ has_thread_context: true
 
 ## Summary
 
-This tip introduces "smart forking," a technique for reusing context from past Claude Code sessions to efficiently implement new features in existing projects. It leverages the `/fork-detect` tool, which uses embedding models and a vectorized RAG database to identify the most relevant previous chat sessions. By forking from these sessions, users can avoid re-explaining project details and streamline feature development.
+This tip introduces "smart forking," a technique that leverages your past Claude Code sessions to streamline feature implementation. By using the `/fork-detect` tool, the system identifies and ranks your most relevant past sessions using embeddings and a vectorized RAG database. You can then fork the most suitable session using the `/fork` command with the session ID and JSON file path to quickly reuse existing context and accelerate your workflow.
 
 ## Keywords
 
@@ -64,17 +64,63 @@ This tip introduces "smart forking," a technique for reusing context from past C
 **ACT_NOW** — Matches pending technique with 4632 likes
 ## Media
 
-![Media](https://pbs.twimg.com/media/G-6tTiBXsAAatzC.png)
+![[attachments/screenshots/tweet_2012741829683224584_17.png]]
 
 > :warning: Photo not yet analyzed
 
-![Media](https://pbs.twimg.com/media/G-6xCE0WYAAQOfG.png)
+![[attachments/screenshots/tweet_2012741829683224584_18.png]]
 
-> :warning: Photo not yet analyzed
+Forking a session to add real-time token usage cards to a dashboard.
 
-![Media](https://pbs.twimg.com/media/G-6xV9EWMAAUdKQ.png)
 
-> :warning: Photo not yet analyzed
+**Key Action:** Learn how to select a session to fork to add real-time token usage cards to your dashboard.
+
+
+<details>
+<summary>Full OCR Text</summary>
+<pre>
+Fork Session
+Which session would you like to fork for adding real-time token usage cards to your dashboard?
+> 1. #1: 8402b1ed (Recommended)
+Real-time token usage dashboard updates best semantic match (81%)
+2. #2: 3a850835
+Token usage field registration issues (74%)
+3. #3: e6b158a2
+Live stats implementation 17 stories completed (67%)
+4. None start fresh
+Don't fork any session, start with no prior context
+5. Type something.
+Chat about this
+Enter to select ↑/↓ to navigate Esc to cancel
+> CHAT
+</pre>
+</details>
+
+![[attachments/screenshots/tweet_2012741829683224584_19.png]]
+
+Resuming or forking a Claude session via CLI commands.
+
+**Focus Text:**
+```
+/fork 8402b1ed-99dc-417d-86a9-36a1478036dc C:/Users/cookm/.claude/projects/C--Users-cookm-Desktop-CLAUDE-CODE-Mortgage-Coach-project/8402b1ed-99dc-417d-86a9-36a1478036dc.jsonl
+```
+
+**Key Action:** Learn how to resume or fork a Claude session using the `/fork` command in the terminal, including specifying the session ID and associated JSON file.
+
+**Commands:** /fork, claude --resume
+
+<details>
+<summary>Full OCR Text</summary>
+<pre>
+---
+Fork Command (not copied):
+claude --resume 8402b1ed-99dc-417d-86a9-36a1478036dc --fork-session
+
+Or use /fork in this session:
+/fork 8402b1ed-99dc-417d-86a9-36a1478036dc C:/Users/cookm/.claude/projects/C--Users-cookm-Desktop-CLAUDE-CODE-Mortgage-Coach-project/8402b1ed-99dc-417d-86a9-36a1478036dc.jsonl
+*Worked for 1m 13s
+</pre>
+</details>
 
 ## Replies
 
@@ -200,7 +246,7 @@ enrichment:
   summary: ✅
   keywords: ✅
   links: ℹ️ none
-  media: ⚠️ (0/3 analyzed — 3 photos, 0 videos)
+  media: ⚠️ (2/3 analyzed — 3 photos, 0 videos)
   thread: ✅ (29 replies scraped)
   classification: ✅ ACT_NOW
 ```

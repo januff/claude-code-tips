@@ -13,7 +13,7 @@ likes: 309
 views: 31761
 engagement_score: 1452
 url: "https://x.com/nummanali/status/2010692983142621530"
-enrichment_complete: false
+enrichment_complete: true
 has_media: true
 has_links: false
 has_thread_context: true
@@ -45,7 +45,7 @@ has_thread_context: true
 
 ## Summary
 
-This tip describes how to add a minimalist status line to the Claude Code IDE. The status line provides a quick overview of key information like current working directory, git branch, diff count, selected model, session time, context, and token usage. By adding this customized status line, users can monitor important development details at a glance, improving workflow efficiency.
+This tip showcases how to add a minimal status line to Claude Code that displays crucial information at a glance. The status line includes the current working directory, branch, diff count, selected model, session time, context left, and token usage. This allows for quickly monitoring key coding session metrics and project status without interrupting the workflow.
 
 ## Keywords
 
@@ -55,9 +55,21 @@ This tip describes how to add a minimalist status line to the Claude Code IDE. T
 **ACT_NOW** — Matches pending technique with 309 likes
 ## Media
 
-![Media](https://pbs.twimg.com/media/G-dpTjnWkAAxrl2.jpg)
+![[attachments/screenshots/tweet_2010692983142621530_25.jpg]]
 
-> :warning: Photo not yet analyzed
+Demonstrating changes in a code repository, potentially showing the output of a command related to code review or contribution.
+
+
+**Key Action:** Interpreting the output of a command that summarizes changes, such as added lines, removed lines, and data transfer.
+
+
+<details>
+<summary>Full OCR Text</summary>
+<pre>
+retail-book-platform | fix/multiline-instruction-handling | +920 -189
+Opus 4.5 | 2h 6m | 67% | ↓20.7k in / ↑67.8k out
+</pre>
+</details>
 
 ## Replies
 
@@ -179,7 +191,7 @@ enrichment:
   summary: ✅
   keywords: ✅
   links: ℹ️ none
-  media: ⚠️ (0/1 analyzed — 1 photo, 0 videos)
+  media: ✅ (1/1 analyzed — 1 photo, 0 videos)
   thread: ✅ (32 replies scraped)
   classification: ✅ ACT_NOW
 ```

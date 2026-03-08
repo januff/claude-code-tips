@@ -10,7 +10,7 @@ likes: 1701
 views: 331389
 engagement_score: 6444
 url: "https://x.com/RLanceMartin/status/2028901056818930171"
-enrichment_complete: false
+enrichment_complete: true
 has_media: true
 has_links: false
 has_thread_context: false
@@ -23,16 +23,26 @@ has_thread_context: false
 
 ## Summary
 
-The Claude Code tip highlights the updated skill-creator tool, emphasizing its built-in test generation capabilities. This feature allows users to effectively measure and optimize crucial skill performance metrics like trigger rate directly within Claude Code (as a plugin) and Cowork. By automating test creation, developers can more easily refine and improve the reliability and effectiveness of their Claude-based skills.
+This tip introduces the 'skill-creator' tool within Claude Code and Cowork, enabling users to easily generate custom skills for their projects. The key action demonstrated is describing the desired skill functionality to Claude, who then creates the skill, including test generation for optimization.  As showcased in the video, a user prompts the 'skill-creator' command to create a skill for their deployment process.
 
 ## Keywords
 
 **Primary:** `skill-creator` · test generation, skill trigger rate, plugin, skills
 ## Media
 
-![Media](https://pbs.twimg.com/amplify_video_thumb/2028896308388610051/img/NwO_tPvc-FeZDb6u.jpg)
+![[attachments/videos/tweet_2028901056818930171_52.mp4]]
 
-> :warning: Video not yet analyzed
+First, the user initiates the 'skill-creator' command. Then, Claude prompts the user to describe the skill they want to create or improve. Finally, the user inputs 'I want a skill for my deployment process'.
+
+**Focus Text:**
+```
+I want a skill for my deployment process
+```
+
+**Key Action:** Use the skill-creator tool to generate skills for your projects by describing what you want the skill to do.
+
+**Commands:** skill-creator
+
 
 
 ---
@@ -50,7 +60,7 @@ enrichment:
   summary: ✅
   keywords: ✅
   links: ℹ️ none
-  media: ⚠️ (0/1 analyzed — 0 photos, 1 video)
+  media: ✅ (1/1 analyzed — 0 photos, 1 video)
   thread: ℹ️ standalone
   classification: ❌ not classified
 ```

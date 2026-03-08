@@ -13,7 +13,7 @@ likes: 59
 views: 15196
 engagement_score: 414
 url: "https://x.com/sawyerhood/status/2011116478008103274"
-enrichment_complete: false
+enrichment_complete: true
 has_media: true
 has_links: false
 has_thread_context: true
@@ -42,7 +42,7 @@ has_thread_context: true
 
 ## Summary
 
-This tip focuses on improving coding agent usage through better prompting techniques. The key insight is that mastering a few simple prompt skills can significantly enhance agent performance. While specific commands or tools aren't mentioned, the emphasis is on refining the user's ability to effectively instruct coding agents via prompts.
+This Claude Code tip highlights the importance of effective prompting when using coding agents. The key takeaway is that mastering a few simple prompting skills can dramatically improve results. While no specific commands or tools are explicitly shown, the visual hints at leveraging retro design elements, implying a focus on style and aesthetic within the code output or application design itself.
 
 ## Keywords
 
@@ -52,9 +52,20 @@ This tip focuses on improving coding agent usage through better prompting techni
 **NOTED** — Some relevance (59 likes)
 ## Media
 
-![Media](https://pbs.twimg.com/media/G-hj7WLbQAAz_Ry.jpg)
+![[attachments/screenshots/tweet_2011116478008103274_21.jpg]]
 
-> :warning: Photo not yet analyzed
+Illustrative banner art
+
+
+**Key Action:** Recognize a retro-style design element
+
+
+<details>
+<summary>Full OCR Text</summary>
+<pre>
+SAWYER MART
+</pre>
+</details>
 
 ## Replies
 
@@ -128,7 +139,7 @@ enrichment:
   summary: ✅
   keywords: ✅
   links: ℹ️ none
-  media: ⚠️ (0/1 analyzed — 1 photo, 0 videos)
+  media: ✅ (1/1 analyzed — 1 photo, 0 videos)
   thread: ✅ (11 replies scraped)
   classification: ✅ NOTED
 ```

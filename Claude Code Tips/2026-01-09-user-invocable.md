@@ -13,7 +13,7 @@ likes: 207
 views: 71122
 engagement_score: 666
 url: "https://x.com/dani_avila7/status/2009620498573873379"
-enrichment_complete: false
+enrichment_complete: true
 has_media: true
 has_links: false
 has_thread_context: true
@@ -44,7 +44,7 @@ has_thread_context: true
 
 ## Summary
 
-This Claude Code 2.1 tip explains how to manage Skill visibility. Skills are now visible by default using the `/` command, but can be hidden from users by setting `user-invocable: false` in the skill's frontmatter. You can also control whether Claude itself can programmatically invoke the Skill using `disable-model-invocation: true`.
+This tip highlights how to manage Skill visibility and invocation within Claude Code using the `user-invocable` property in the SKILL.md file. By setting `user-invocable: false`, you can prevent users from directly invoking a skill, allowing Claude to use it programmatically. The tip also mentions `disable-model-invocation: true`, which allows user invocation but prevents Claude's programmatic use, and notes that subagents can invoke Skills.
 
 ## Keywords
 
@@ -54,9 +54,45 @@ This Claude Code 2.1 tip explains how to manage Skill visibility. Skills are now
 **ACT_NOW** — Matches pending technique with 207 likes
 ## Media
 
-![Media](https://pbs.twimg.com/media/G-Oa5xiWQAAEkFq.jpg)
+![[attachments/screenshots/tweet_2009620498573873379_29.jpg]]
 
-> :warning: Photo not yet analyzed
+Configuring a skill within Claude Code by setting the `user-invocable` property in the SKILL.md file.
+
+**Focus Text:**
+```
+user-invocable: false
+```
+
+**Key Action:** Learn how to configure the `user-invocable` setting in the SKILL.md file to control whether a skill can be directly invoked by the user.
+
+
+<details>
+<summary>Full OCR Text</summary>
+<pre>
+✔docusaurus-expert.md {} settings.local.json D 	SKILL.md .../webapp-testing U <>
+.claude > skills > webapp-testing > SKILL.md > ...
+1
+2 name: webapp-testing
+3 description: Toolkit for interacting with and testing local web applications using
+4 frontend functionality, debugging UI behavior, capturing browser screenshots, and
+5 license: Complete terms in LICENSE.txt
+6 user-invocable: false
+7 ---
+
+PROBLEMS OUTPUT TERMINAL PORTS GITLENS DEBUG CONSOLE
+
+Claude Code v2.1.2
+Sonnet 4.5 · Claude Pro
+~/Proyectos/Github/claude-code-templates
+
+> /web
+
+/webapp-testing Toolkit for interacting with and testing local web applications
+using Playwright. Supports verifying frontend functionality,
+debugging UI behavior, capturing browser screenshots, and viewing
+browser logs. (project)
+</pre>
+</details>
 
 ## Replies
 
@@ -133,7 +169,7 @@ enrichment:
   summary: ✅
   keywords: ✅
   links: ℹ️ none
-  media: ⚠️ (0/1 analyzed — 1 photo, 0 videos)
+  media: ✅ (1/1 analyzed — 1 photo, 0 videos)
   thread: ✅ (23 replies scraped)
   classification: ✅ ACT_NOW
 ```

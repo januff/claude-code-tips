@@ -35,7 +35,7 @@ has_thread_context: true
 
 ## Summary
 
-This tip shows a workflow for creating human-sounding content with Claude that can bypass AI detectors. By defining a custom writing style with specific instructions, you can guide Claude to produce more authentic and conversational text. The key is to instruct Claude to use contractions, vary sentence length, add natural pauses, and incorporate relatable metaphors and casual observations.
+This tip demonstrates a workflow for humanizing Claude's writing style to bypass AI detection. By providing custom instructions focused on conversational elements like contractions, varied sentence length, natural pauses, and occasional tangents, you can create more authentic content. The settings emphasize relatable metaphors, minor imperfections, and demonstrating understanding of the reader.
 
 ## Keywords
 

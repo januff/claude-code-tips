@@ -11,7 +11,7 @@ likes: 279
 views: 42391
 engagement_score: 919
 url: "https://x.com/DataChaz/status/2030011259610177904"
-enrichment_complete: false
+enrichment_complete: true
 has_media: true
 has_links: false
 has_thread_context: false
@@ -42,16 +42,28 @@ has_thread_context: false
 
 ## Summary
 
-Anthropic has launched the 'Claude Community Ambassadors' program designed to empower AI leaders in local communities. This program provides extensive resources like free API credits, early access to features, and direct influence on Anthropic's product roadmap. By becoming an ambassador, individuals gain a VIP pass to Anthropic's ecosystem, receiving funding, swag, and direct access to Anthropic engineers.
+This tip highlights Anthropic's new 'Claude Community Ambassadors' program, a strategic initiative designed to foster AI leadership at the local level. The key action is to apply for the program to unlock exclusive benefits like free API credits, early access to features, and direct engagement with Anthropic's team, enabling you to build and showcase Claude-powered solutions in your city. It's a VIP program aimed at empowering developers within the Anthropic ecosystem.
 
 ## Keywords
 
 **Primary:** `Claude Community Ambassadors` · API credits, Anthropic, AI leader, builders council, event funding, private slack
 ## Media
 
-![Media](https://pbs.twimg.com/media/HCwMe7faUAICZvz.png)
+![[attachments/screenshots/tweet_2030011259610177904_47.png]]
 
-> :warning: Photo not yet analyzed
+Promoting the Claude Ambassador Program
+
+
+**Key Action:** Become a Claude Ambassador
+
+
+<details>
+<summary>Full OCR Text</summary>
+<pre>
+* Claude
+Ambassador
+</pre>
+</details>
 
 
 ---
@@ -69,7 +81,7 @@ enrichment:
   summary: ✅
   keywords: ✅
   links: ℹ️ none
-  media: ⚠️ (0/1 analyzed — 1 photo, 0 videos)
+  media: ✅ (1/1 analyzed — 1 photo, 0 videos)
   thread: ℹ️ standalone
   classification: ❌ not classified
 ```

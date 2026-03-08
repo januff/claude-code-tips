@@ -32,10 +32,6 @@ has_thread_context: true
 >
 > Likes: 3,006 · Replies: 158 · Reposts: 122
 
-## Summary
-
-The tip highlights a common challenge for online content creators: balancing quality with algorithmic optimization. The creator found that formulaic titles like "How to Write ________ Well," combined with a quote-based thumbnail, significantly increased click-through rates despite being less descriptive and personally unfulfilling. The insight is that succumbing to clickbait-style tactics, even if detrimental to quality and the creator's well-being, can be essential for visibility and growth on platforms like YouTube.
-
 ## Keywords
 
 **Primary:** `formulaic-youtube-titles` · youtube, titles, clickthrough rate, algorithm, growth hacking, thumbnails
@@ -44,13 +40,113 @@ The tip highlights a common challenge for online content creators: balancing qua
 **ACT_NOW** — Matches pending technique with 3006 likes
 ## Media
 
-![Media](https://pbs.twimg.com/media/HAzrj6GXsAEjxTt.jpg)
+![[attachments/screenshots/tweet_2021249358654558220_14.jpg]]
 
-> :warning: Photo not yet analyzed
+Analyzing watch time data on YouTube
 
-![Media](https://pbs.twimg.com/media/HAzq4g3XMAAMb3g.jpg)
 
-> :warning: Photo not yet analyzed
+**Key Action:** Understand how to interpret watch time analytics on YouTube, including total watch time and percentage increase compared to the previous year.
+
+
+<details>
+<summary>Full OCR Text</summary>
+<pre>
+< Watch time (hours)
+
+7D
+28D 90D
+365D
+Feb
+Jan
+
+10.8K
+
+7.2K
+
+3.6K
+
+0.0
+Feb 10
+Aug 11
+Feb 9
+• Watch time (hours)
+248% more than previous 365 days
+1,090,921.8
+</pre>
+</details>
+
+![[attachments/screenshots/tweet_2021249358654558220_15.jpg]]
+
+Browsing a YouTube channel to find videos about writing.
+
+
+**Key Action:** Discover content related to writing advice and tutorials on a YouTube channel.
+
+
+<details>
+<summary>Full OCR Text</summary>
+<pre>
+David Perell
+@DavidPerellChannel 223K subscribers 542 videos
+Hey! I'm a writer, teacher, and podcaster. People call me "The Writing Guy." That's because...more
+perell.com and 2 more links
+Customize channel
+Manage videos
+Home Videos Shorts Podcasts Playlists Posts Store
+Latest Popular Oldest
+"Start in the
+middle"
+Stop
+Writing
+Dialogue
+1:03:05
+1:15:44
+How to Write Strikingly Well - Lee
+Child
+65K views 5 days ago
+:
+How to Write Cinematically Well -
+Clint Bentley and Greg Kwedar
+5.3K views 12 days ago
+:
+"You can't
+outsource
+thinking"
+1:09:58
+How to Write Consistently Well -
+Fareed Zakaria
+16K views 2 weeks ago
+:
+"Writing is
+engineering"
+52:03
+How to Write Structurally Well - Daniel:
+Pink
+74K views 3 weeks ago
+"I have
+so many
+ELDER
+RACE
+tricks"
+1:09:27
+How to Write Unapologetically Well :
+Tom Junod
+18K views 1 month ago
+RVICE
+M
+ADRIAN
+CHAIKOVSKY
+HARDS
+ARTH
+CHILDREN
+OF TIME
+1:05:02
+How to Write Absurdly Well - Adrian
+Tchaikovsky
+203K views 1 month ago
+:
+</pre>
+</details>
 
 ## Replies
 
@@ -129,10 +225,10 @@ The tip highlights a common challenge for online content creators: balancing qua
 
 ```
 enrichment:
-  summary: ✅
+  summary: ❌
   keywords: ✅
   links: ℹ️ none
-  media: ⚠️ (0/2 analyzed — 2 photos, 0 videos)
+  media: ✅ (2/2 analyzed — 2 photos, 0 videos)
   thread: ✅ (32 replies scraped)
   classification: ✅ ACT_NOW
 ```

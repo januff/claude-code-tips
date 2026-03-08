@@ -25,7 +25,7 @@ has_thread_context: false
 
 ## Summary
 
-Claude now has an auto-memory feature, allowing it to remember information across different sessions. This includes project context, debugging strategies, and preferred coding styles, effectively learning from past interactions without requiring explicit manual storage. By retaining this context, Claude can provide more personalized and efficient assistance over time.
+Claude Code now features automatic memory across sessions, enabling it to recall project context and user preferences for more efficient coding assistance. By building upon past instructions and conversations (e.g., `add rate limiting to the`), users can leverage this feature to guide Claude's coding suggestions without repeatedly providing the same information. This allows for a more fluid and personalized coding workflow.
 
 ## Keywords
 
@@ -37,9 +37,19 @@ Claude now has an auto-memory feature, allowing it to remember information acros
 
 ## Media
 
-![Media](https://pbs.twimg.com/amplify_video_thumb/2027109158986870784/img/GF-CcuF6JUdnJBT9.jpg)
+![[attachments/videos/tweet_2027109375765356723_37.mp4]]
 
-> :warning: Video not yet analyzed
+First, the user types a prompt related to rate limiting. Then, Claude recalls past instructions and contextual information. Finally, Claude provides a specific suggestion based on its memory.
+
+**Focus Text:**
+```
+add rate limiting to the
+```
+
+**Key Action:** Users can learn to leverage Claude Code's memory feature by building on past conversations and instructions to guide its coding assistance.
+
+**Commands:** add rate limiting to the
+
 
 
 ---
@@ -57,7 +67,7 @@ enrichment:
   summary: ✅
   keywords: ✅
   links: ⚠️ (0/1 summarized)
-  media: ⚠️ (0/1 analyzed — 0 photos, 1 video)
+  media: ✅ (1/1 analyzed — 0 photos, 1 video)
   thread: ℹ️ standalone
   classification: ❌ not classified
 ```

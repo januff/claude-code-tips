@@ -52,7 +52,7 @@ has_thread_context: true
 
 ## Summary
 
-This tip highlights helpful Claude Skills to enhance functionality, showcasing options for various use cases. It recommends exploring Anthropic's official skills, the highly-rated Superpowers for diverse tasks, Planning-with-files for complex workflows, X-article-publisher-skill for automation, and NotebookLM skill for automated content processing. The tip suggests exploring these extensions to improve Claude's capabilities for content creation, task management, and more.
+This tip showcases a selection of Claude Skills to enhance its capabilities for various tasks. It highlights curated skills like 'Superpowers' for comprehensive development workflows and 'Planning-with-files' for multi-step task management. The post also features skills for automating content publishing and integrating with NotebookLM, demonstrating how to customize Claude for specific needs.
 
 ## Keywords
 
@@ -70,9 +70,36 @@ This tip highlights helpful Claude Skills to enhance functionality, showcasing o
 
 ## Media
 
-![Media](https://pbs.twimg.com/media/G-doUt8akAAZMC-.png)
+![[attachments/screenshots/tweet_2010690881397940340_23.png]]
 
-> :warning: Photo not yet analyzed
+Listing and categorizing skills
+
+
+**Key Action:** Understanding the skills available and their categorization.
+
+
+<details>
+<summary>Full OCR Text</summary>
+<pre>
+当前所有 Skills 统计:
+
+总计:22个 skills
+
+分类:
+- 内容创作(4): wechat-article-creator, x-tweet-creator, x-content-optimizer,
+x-thread-expander
+- 开发工作流 (14): test-driven-development, systematic-debugging,
+verification-before-completion, brainstorming, writing-plans, executing-plans,
+dispatching-parallel-agents, requesting-code-review, receiving-code-review,
+using-git-worktrees, finishing-a-development-branch, subagent-driven-development,
+writing-skills, using-superpowers
+- Skill 创建 (1): skill-creator
+- 研究和发布 (3): notebooklm-skill, x-article-publisher, planning-with-files
+
+你现在拥有一个非常强大的 skills
+库,涵盖了内容创作、软件开发、项目规划、研究和发布等多个领域!
+</pre>
+</details>
 
 ## Replies
 
@@ -176,7 +203,7 @@ enrichment:
   summary: ✅
   keywords: ✅
   links: ⚠️ (0/2 summarized)
-  media: ⚠️ (0/1 analyzed — 1 photo, 0 videos)
+  media: ✅ (1/1 analyzed — 1 photo, 0 videos)
   thread: ✅ (33 replies scraped)
   classification: ✅ ACT_NOW
 ```
