@@ -13,7 +13,7 @@ likes: 3006
 views: 240029
 engagement_score: 6320
 url: "https://x.com/david_perell/status/2021249358654558220"
-enrichment_complete: false
+enrichment_complete: true
 has_media: true
 has_links: false
 has_thread_context: true
@@ -31,6 +31,10 @@ has_thread_context: true
 > This isn't just a story about YouTube. So much of the Internet works like this now.
 >
 > Likes: 3,006 · Replies: 158 · Reposts: 122
+
+## Summary
+
+This tip highlights how algorithm optimization on platforms like YouTube can incentivize creators to prioritize clickbait titles over descriptive ones. The creator found that using the formula "How to Write [Adverb] Well" with a quote thumbnail significantly boosted views, despite feeling it was worse for viewers and soul-deadening. Understanding and reacting to watch time analytics data is key to growth, even if it means sacrificing content integrity.
 
 ## Keywords
 
@@ -225,7 +229,7 @@ Tchaikovsky
 
 ```
 enrichment:
-  summary: ❌
+  summary: ✅
   keywords: ✅
   links: ℹ️ none
   media: ✅ (2/2 analyzed — 2 photos, 0 videos)

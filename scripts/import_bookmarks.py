@@ -158,6 +158,35 @@ def import_tweet(conn, tweet):
                     INSERT INTO links (tweet_id, short_url, url) VALUES (?, ?, ?)
                 """, (tweet["id"], url_str, url_str))
 
+    # Insert links from quoted tweet (captures article URLs from quote tweets)
+    qt = tweet.get("quoted_tweet")
+    if qt:
+        qt_url = qt.get("url", "")
+        # Add the quoted tweet's URL as a link
+        if qt_url:
+            existing = conn.execute(
+                "SELECT id FROM links WHERE tweet_id = ? AND (short_url = ? OR expanded_url = ? OR url = ?)",
+                (tweet["id"], qt_url, qt_url, qt_url)
+            ).fetchone()
+            if not existing:
+                conn.execute("""
+                    INSERT INTO links (tweet_id, short_url, url, title)
+                    VALUES (?, ?, ?, ?)
+                """, (tweet["id"], qt_url, qt_url,
+                      f"Quoted: @{qt.get('author', {}).get('handle', '').lstrip('@')}"))
+        # Also add any URLs from the quoted tweet's text
+        for url_obj in qt.get("urls", []):
+            url_str = url_obj if isinstance(url_obj, str) else url_obj.get("expanded", url_obj.get("url", ""))
+            if url_str:
+                existing = conn.execute(
+                    "SELECT id FROM links WHERE tweet_id = ? AND (short_url = ? OR expanded_url = ? OR url = ?)",
+                    (tweet["id"], url_str, url_str, url_str)
+                ).fetchone()
+                if not existing:
+                    conn.execute("""
+                        INSERT INTO links (tweet_id, short_url, url) VALUES (?, ?, ?)
+                    """, (tweet["id"], url_str, url_str))
+
 
 def write_fetch_log(new_tweets, existing_count, total_count, input_file, dry_run):
     """Write a structured fetch log JSON file."""

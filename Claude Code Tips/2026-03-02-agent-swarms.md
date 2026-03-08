@@ -10,7 +10,7 @@ likes: 2703
 views: 962481
 engagement_score: 21708
 url: "https://x.com/ArtemXTech/status/2028330693659332615"
-enrichment_complete: false
+enrichment_complete: true
 has_media: false
 has_links: true
 has_thread_context: false
@@ -23,15 +23,15 @@ has_thread_context: false
 
 ## Summary
 
-This Claude code tip likely focuses on a helpful coding technique. The tweet provides a link to external content where the insight is demonstrated, and commands or settings are explained. By exploring the link, users can learn a practical coding approach.
+This Claude Code tip details a method for creating persistent memory using a local search engine (QMD) and a custom `/recall` skill, enabling Claude to remember past interactions. By indexing terminal sessions using session hooks and storing them in an Obsidian vault, the `/recall` skill allows Claude to surface relevant information based on temporal, topical, or graph-based relationships, effectively replacing `grep` with more advanced search strategies like BM25 and semantic search. This allows for more contextually aware code generation and debugging.
 
 ## Keywords
 
 **Primary:** `agent-swarms` · agent, swarms
 ## Linked Resources
 
-- **[x.com/i/article/2028328572272742401](https://x.com/i/article/2028328572272742401)**
-  > :warning: Link not yet summarized
+- **[Grep Is Dead: How I Made Claude Code Actually Remember Things](https://x.com/i/article/2028328572272742401)** · *x-article*
+  > Comprehensive guide to building persistent memory for Claude Code using QMD (local search engine by Shopify CEO) and a /recall skill. Compares grep vs BM25 vs semantic search with benchmarks. The /recall skill has temporal, topic, and graph modes. Sessions auto-index via hook on terminal close. Key tools: QMD, /recall, Obsidian vault, session hooks.
 
 
 ---
@@ -48,7 +48,7 @@ This Claude code tip likely focuses on a helpful coding technique. The tweet pro
 enrichment:
   summary: ✅
   keywords: ✅
-  links: ⚠️ (0/1 summarized)
+  links: ✅ (1/1 summarized)
   media: ℹ️ none
   thread: ℹ️ standalone
   classification: ❌ not classified

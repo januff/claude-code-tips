@@ -10,7 +10,7 @@ likes: 9163
 views: 3266402
 engagement_score: 62756
 url: "https://x.com/trq212/status/2027463795355095314"
-enrichment_complete: false
+enrichment_complete: true
 has_media: false
 has_links: true
 has_thread_context: false
@@ -23,15 +23,15 @@ has_thread_context: false
 
 ## Summary
 
-This Claude Code tip focuses on improving prompt engineering by using a persona technique. It demonstrates how adopting a specific persona, like that of an expert in a particular field, while crafting your prompt can elicit more detailed and relevant responses from Claude. By framing requests through a defined expertise, you can guide the model to access and synthesize information more effectively. This leads to more insightful and targeted outputs.
+This Claude Code tip highlights lessons learned in designing effective agent tools, emphasizing the importance of aligning tool design with model capabilities. It details the evolution of tools like AskUserQuestion, the shift from TodoWrite to Tasks for improved subagent coordination, and the transition from RAG to Grep for context retrieval. The key insight is to continuously revisit assumptions about model abilities as they improve, utilizing techniques like progressive disclosure to add functionality without creating entirely new tools.
 
 ## Keywords
 
 **Primary:** `AskUserQuestionTool` · tool, clarification, input
 ## Linked Resources
 
-- **[x.com/i/article/2027446899310313472](https://x.com/i/article/2027446899310313472)**
-  > :warning: Link not yet summarized
+- **[Lessons from Building Claude Code: Seeing like an Agent](https://x.com/i/article/2027446899310313472)** · *x-article*
+  > Authoritative guide from Claude Code team member on designing agent tools. Covers the evolution of AskUserQuestion (3 attempts), replacing TodoWrite with Tasks for subagent coordination, moving from RAG to Grep for context-building, and using progressive disclosure to add capabilities without new tools. Key principle: tools should match model abilities, and assumptions must be revisited as models improve.
 
 
 ---
@@ -48,7 +48,7 @@ This Claude Code tip focuses on improving prompt engineering by using a persona 
 enrichment:
   summary: ✅
   keywords: ✅
-  links: ⚠️ (0/1 summarized)
+  links: ✅ (1/1 summarized)
   media: ℹ️ none
   thread: ℹ️ standalone
   classification: ❌ not classified

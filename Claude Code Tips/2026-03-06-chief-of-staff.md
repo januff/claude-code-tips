@@ -12,7 +12,7 @@ engagement_score: 41082
 url: "https://x.com/thejayden/status/2029899328400109732"
 enrichment_complete: true
 has_media: false
-has_links: false
+has_links: true
 has_thread_context: false
 ---
 
@@ -25,11 +25,16 @@ has_thread_context: false
 
 ## Summary
 
-This Claude Code tip highlights a practical application of agentic systems by showcasing an article on building a Chief of Staff. The key insight is demonstrating how Claude Code can be used to create an AI-powered agent capable of performing complex tasks, making it a compelling example of real-world AI utility. While specific commands or settings aren't detailed in the tweet itself, the value lies in its recommendation of a resource that provides a best-in-class example.
+This tip highlights a real-world example of an agentic system built with Claude Code to function as a 'Chief of Staff'. The author details how they used Claude Code to automate tasks like email triage, task classification (green/yellow/red/gray), and schedule optimization, significantly reducing cognitive load and saving time. The key insight is strategically deciding what tasks should remain human-driven within the system using the 'dispatch/prep/yours/skip' framework.
 
 ## Keywords
 
 **Primary:** `Chief of Staff` · agentic systems, real examples, building, agent
+## Linked Resources
+
+- **[My chief of staff, Claude Code](https://x.com/jimprosser/article/2029699731539255640)** · *x-article*
+  > Non-programmer builds a Claude Code 'chief of staff' system in 36 hours. Overnight automations triage email and calculate drive times. Morning 'AM Sweep' classifies tasks (green/yellow/red/gray) and dispatches 6 parallel subagents for email drafting, client notes, scheduling, and research. 'Time Block' creates a geographically-optimized schedule. Key design principle: be deliberate about what stays human — dispatch/prep/yours/skip framework. Saves 130-195 hours annually, but the bigger win is cognitive load reduction.
+
 
 ---
 
@@ -45,7 +50,7 @@ This Claude Code tip highlights a practical application of agentic systems by sh
 enrichment:
   summary: ✅
   keywords: ✅
-  links: ℹ️ none
+  links: ✅ (1/1 summarized)
   media: ℹ️ none
   thread: ℹ️ standalone
   classification: ❌ not classified

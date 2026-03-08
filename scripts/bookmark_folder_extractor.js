@@ -163,6 +163,27 @@ function parseTweet(entry) {
       card = { url: get('card_url'), title: get('title'), description: get('description') };
     }
 
+    // Extract quoted tweet if present
+    let quoted_tweet = null;
+    const qtResult = tweet.quoted_status_result?.result;
+    if (qtResult) {
+      const qt = qtResult.__typename === 'TweetWithVisibilityResults' ? qtResult.tweet : qtResult;
+      if (qt && qt.__typename === 'Tweet') {
+        const qtLegacy = qt.legacy;
+        const qtUser = qt.core?.user_results?.result;
+        const qtScreenName = qtUser?.core?.screen_name || qtUser?.legacy?.screen_name || 'unknown';
+        const qtText = qt.note_tweet?.note_tweet_results?.result?.text || qtLegacy?.full_text;
+        const qtUrls = (qtLegacy?.entities?.urls || []).map(u => ({ short: u.url, expanded: u.expanded_url }));
+        quoted_tweet = {
+          id: qt.rest_id,
+          text: qtText,
+          author: { handle: '@' + qtScreenName, name: qtUser?.core?.name || '' },
+          url: `https://x.com/${qtScreenName}/status/${qt.rest_id}`,
+          urls: qtUrls
+        };
+      }
+    }
+
     return {
       id: tweet.rest_id,
       text: fullText,
@@ -184,6 +205,7 @@ function parseTweet(entry) {
       in_reply_to: legacy.in_reply_to_status_id_str || null,
       media: media,
       card: card,
+      quoted_tweet: quoted_tweet,
       urls: (legacy.entities?.urls || []).map(u => ({ short: u.url, expanded: u.expanded_url }))
     };
   } catch (e) {

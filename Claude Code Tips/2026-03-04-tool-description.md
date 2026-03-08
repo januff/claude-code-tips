@@ -10,7 +10,7 @@ likes: 520
 views: 52305
 engagement_score: 3138
 url: "https://x.com/heyrobinai/status/2029171055407849823"
-enrichment_complete: false
+enrichment_complete: true
 has_media: false
 has_links: true
 has_thread_context: false
@@ -23,15 +23,15 @@ has_thread_context: false
 
 ## Summary
 
-This tip likely showcases a specific coding technique or workflow relevant to Claude, an AI assistant. It likely highlights a particular action or insight related to using Claude effectively, possibly within a coding context. Due to missing content, the exact commands, tools, or settings used are unknown, but the tip is geared toward boosting Claude's performance in coding tasks.
+This Claude tip uses a forensic style analysis prompt to 'steal' any writing style by quantifying its unique characteristics. The 'Style DNA' approach measures elements like sentence length and comma density to create a measurable profile of the target style. By matching these metrics, the AI can generate text that closely mimics the original, replacing subjective descriptions with an objective and repeatable process.
 
 ## Keywords
 
 **Primary:** `tool-description` · concise, tool description, self-description, system prompt
 ## Linked Resources
 
-- **[x.com/i/article/2028397828570030080](https://x.com/i/article/2028397828570030080)**
-  > :warning: Link not yet summarized
+- **[Steal Any Writing Style with AI in 3 Steps](https://x.com/i/article/2028397828570030080)** · *x-article*
+  > A forensic style analysis prompt that quantitatively clones any writing voice by measuring sentence length, comma density, vocabulary complexity, tone markers, and verbal tics. The 'Style DNA' approach replaces qualitative descriptions with measurable metrics, then generates text matching those exact metrics with side-by-side accuracy comparison.
 
 
 ---
@@ -48,7 +48,7 @@ This tip likely showcases a specific coding technique or workflow relevant to Cl
 enrichment:
   summary: ✅
   keywords: ✅
-  links: ⚠️ (0/1 summarized)
+  links: ✅ (1/1 summarized)
   media: ℹ️ none
   thread: ℹ️ standalone
   classification: ❌ not classified
