@@ -1,19 +1,20 @@
 {
-  "updated_at": "2026-03-08T00:15:08.369475+00:00",
+  "updated_at": "2026-03-09T23:39:38.359382+00:00",
   "updated_by": "claude-code",
   "last_commit": {
-    "sha": "c244d50",
-    "message": "feat: bookmark fetch 2026-03-07 \u2014 32 new tweets, enrichment, vault export (534 tweets, 524 notes)",
-    "date": "2026-03-07T15:09:43-08:00"
+    "sha": "de86f83",
+    "message": "feat: enrich X articles via browser, add quote tweet support to extractor",
+    "date": "2026-03-07T22:25:32-08:00"
   },
   "stats": {
     "tweets": 534,
     "vault_notes": 523,
     "threads_scraped": 101,
     "thread_replies_in_db": 28,
-    "links_resolved": 148
+    "links_resolved": 150
   },
   "recent_changes": [
+    "Scheduled fetch 2026-03-09: skipped — Chrome not connected (too many windows open; restart not safe)",
     "Bookmark fetch 2026-03-07: 32 NEW tweets (534 total), full enrichment pipeline, vault export (524 notes)",
     "Notable new: @bcherny /loop (10.3k likes), @weswinder desktop apps (8k), @thejayden Chief of Staff (6.3k), @DataChaz perfect prompt (6.3k), @nicopreme Visual Explainer (5.3k)",
     "Also: @chintanturakhia frequently-run-prompt, @dickson_tsai HTTP hooks, @RayFernando1337 skill-creator update, @RhysSullivan clone-repos, @adocomplete prompt-stashing",
