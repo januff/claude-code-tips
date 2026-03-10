@@ -1,0 +1,38 @@
+{
+  "fetch_id": "fetch_2026-03-10_181052",
+  "completed_at": "2026-03-10T18:10:52.000625+00:00",
+  "source_file": "data/new_bookmarks_2026-03-10.json",
+  "dry_run": false,
+  "import": {
+    "total_in_file": 180,
+    "new": 4,
+    "existing": 176,
+    "errors": []
+  },
+  "new_tweets": [
+    {
+      "id": "2031183133895250292",
+      "author": "@toddsaunders",
+      "text_preview": "Now I see why claude loves the https://t.co/jSi7U4mASr MCP https://t.co/V2js19wmhM",
+      "likes": 456
+    },
+    {
+      "id": "2031314968675758452",
+      "author": "@JeremyNguyenPhD",
+      "text_preview": "Claude Code skills for Academic Research:\n\nEdward Wu shares a suite of skills, complete with a 12-ag",
+      "likes": 260
+    },
+    {
+      "id": "2031187198557737446",
+      "author": "@AaronCQL",
+      "text_preview": "Spent an hour with https://t.co/sVKe9EoZdf and I'm sold. If you're an engineer who has strong design",
+      "likes": 1036
+    },
+    {
+      "id": "2031163311656677569",
+      "author": "@pbakaus",
+      "text_preview": "One of the most insane 10x unlocks for Claude Code, like literally a \"I can't believe I haven't trie",
+      "likes": 260
+    }
+  ]
+}

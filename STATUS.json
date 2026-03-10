@@ -1,28 +1,27 @@
 {
-  "updated_at": "2026-03-10T00:32:19.650993+00:00",
+  "updated_at": "2026-03-10T18:13:52.435142+00:00",
   "updated_by": "claude-code",
   "last_commit": {
-    "sha": "d8a3764",
-    "message": "chore: update scheduled fetch note \u2014 Chrome extension connection bug",
-    "date": "2026-03-09T17:11:14-07:00"
+    "sha": "52d4cee",
+    "message": "feat: bookmark fetch 2026-03-09 \u2014 2 new tweets, Chrome extension fix",
+    "date": "2026-03-09T17:32:38-07:00"
   },
   "stats": {
     "tweets": 536,
-    "vault_notes": 525,
+    "vault_notes": 529,
     "threads_scraped": 101,
     "thread_replies_in_db": 28,
-    "links_resolved": 152
+    "links_resolved": 155
   },
   "recent_changes": [
-    "Bookmark fetch 2026-03-09: 2 NEW tweets (536 total), full enrichment pipeline, vault export (526 notes)",
-    "New: @kamrify statusline (1387 likes), @koylanai hooks ideas (89 likes) \u2014 both EXPERIMENT tier",
-    "Fixed Chrome extension: disabled Desktop native host conflict, set tengu_copper_bridge=false, fixed hardcoded version path in native host wrapper",
-    "Diagnosed Chrome extension connection bug: 40+ open issues on anthropics/claude-code, drafted bug report (analysis/chrome-extension-bug-report.md)",
-    "Scheduled task workflow: first run \u2014 initial connection failed, fixed mid-session, completed fetch successfully"
+    "Bookmark fetch 2026-03-10: 4 NEW tweets (536 total), full enrichment pipeline, vault export (529 notes)",
+    "New ACT_NOW: @toddsaunders MCP tool inspection (456 likes), @pbakaus javascript_tool live-prototyping (260 likes)",
+    "New EXPERIMENT: @AaronCQL pencil.dev design tool (1036 likes), @JeremyNguyenPhD academic research skills (260 likes)",
+    "Bookmark fetch 2026-03-09: 2 NEW tweets, @kamrify statusline (1387 likes) + @koylanai hooks ideas (89 likes)",
+    "Fixed Chrome extension: disabled Desktop native host conflict, set tengu_copper_bridge=false, stable native host path"
   ],
   "known_issues": [
     "PROGRESS.md stale (last updated Jan 5)",
-    "4 tweets have empty text \u2014 genuinely attachment-only replies, not a parsing bug",
     "Quote tweets not captured in schema or extraction (only quote_count stored)",
     "x.com photo/video URLs (30 remaining) need browser-based enrichment",
     "Obsidian v1.11.7 installed \u2014 needs update to 1.12+ for CLI support",
@@ -33,10 +32,10 @@
     "tengu_copper_bridge in ~/.claude.json may be reset to true by server-side GrowthBook sync \u2014 re-check if connections degrade"
   ],
   "key_dates": {
-    "last_bookmark_fetch": "2026-03-09",
-    "last_vault_export": "2026-03-09",
-    "last_enrichment_run": "2026-03-09",
-    "last_analysis_run": "2026-03-09",
+    "last_bookmark_fetch": "2026-03-10",
+    "last_vault_export": "2026-03-10",
+    "last_enrichment_run": "2026-03-10",
+    "last_analysis_run": "2026-03-10",
     "last_enrichment_audit": "2026-02-12",
     "last_skill_rewrite": "2026-02-17",
     "chrome_consolidation_complete": "2026-02-12",
