@@ -14,7 +14,7 @@
     "links_resolved": 150
   },
   "recent_changes": [
-    "Scheduled fetch 2026-03-09: skipped — Chrome not connected (too many windows open; restart not safe)",
+    "Scheduled fetch 2026-03-09: skipped — Chrome extension bug (3 restarts, connected but tabs_context stuck in retry loop)",
     "Bookmark fetch 2026-03-07: 32 NEW tweets (534 total), full enrichment pipeline, vault export (524 notes)",
     "Notable new: @bcherny /loop (10.3k likes), @weswinder desktop apps (8k), @thejayden Chief of Staff (6.3k), @DataChaz perfect prompt (6.3k), @nicopreme Visual Explainer (5.3k)",
     "Also: @chintanturakhia frequently-run-prompt, @dickson_tsai HTTP hooks, @RayFernando1337 skill-creator update, @RhysSullivan clone-repos, @adocomplete prompt-stashing",
@@ -30,7 +30,8 @@
     "Obsidian v1.11.7 installed \u2014 needs update to 1.12+ for CLI support",
     "Briefing generator produces double @@ in author handles",
     "Pre-compact hook may not capture enough structured context (only STATUS.json)",
-    "enrich_media.py: 1 media item failed JSON parse (tweet_2012741829683224584_17.png)"
+    "enrich_media.py: 1 media item failed JSON parse (tweet_2012741829683224584_17.png)",
+    "Claude-in-Chrome extension (v1.0.52) has connection reliability issues — stale locks, account mismatch dialogs, and 'connected but no tabs' loop after multiple sessions"
   ],
   "key_dates": {
     "last_bookmark_fetch": "2026-03-07",
