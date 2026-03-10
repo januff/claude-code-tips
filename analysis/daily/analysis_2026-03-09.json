@@ -1,0 +1,51 @@
+{
+  "analyzed_at": "2026-03-09T17:31:42.035567",
+  "tweet_count": 2,
+  "categories": {
+    "ACT_NOW": [],
+    "EXPERIMENT": [
+      {
+        "tweet_id": "2030695115589640489",
+        "author": "kamrify",
+        "likes": 1387,
+        "text_preview": "published my claude code statusline https://t.co/8Vgt9QN2ZP",
+        "primary_keyword": "statusline",
+        "one_liner": "Customize your Claude Code statusline with relevant info by installing and configuring `claude-statusline` using `npx @kamranahmedse/claude-statusline`.",
+        "category": "EXPERIMENT",
+        "reason": "While we use Claude Code, a customizable statusline is a new addition that could enhance our workflow. It's worth experimenting with to see if it improves productivity.",
+        "relevance": [
+          "Enhances Claude Code which we actively use as our primary interface."
+        ],
+        "proposed_action": "Try installing and configuring `claude-statusline` to see if it adds value to our current workflow."
+      },
+      {
+        "tweet_id": "2031121107164467659",
+        "author": "koylanai",
+        "likes": 89,
+        "text_preview": "I've realized I don't use Hooks in Claude Code as often as I should. \n\nI put together a table of 18 practical hook ideas",
+        "primary_keyword": "hooks",
+        "one_liner": "Discover 18 practical Claude Code hook ideas for automating tasks and enhancing context management to improve Claude's performance.",
+        "category": "EXPERIMENT",
+        "reason": "We use pre-compact and session-end hooks for automatic wrap-up but this tweet suggests new hook use-cases (auto-formatting, quality gates). It's worth exploring these new uses.",
+        "relevance": [
+          "Potentially improved use of existing pre-compact/session-end hooks.",
+          "Addresses issues of early stopping which we have seen."
+        ],
+        "proposed_action": "Review the 18 hook ideas and identify potential improvements to our current workflow."
+      }
+    ],
+    "NOTED": [],
+    "NOISE": []
+  },
+  "summary": {
+    "act_now_count": 0,
+    "experiment_count": 2,
+    "noted_count": 0,
+    "noise_count": 0,
+    "top_engagement": {
+      "tweet_id": "2030695115589640489",
+      "likes": 1387,
+      "author": "kamrify"
+    }
+  }
+}

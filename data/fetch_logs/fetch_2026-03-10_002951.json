@@ -1,0 +1,26 @@
+{
+  "fetch_id": "fetch_2026-03-10_002951",
+  "completed_at": "2026-03-10T00:29:51.781080+00:00",
+  "source_file": "data/new_bookmarks_2026-03-09.json",
+  "dry_run": true,
+  "import": {
+    "total_in_file": 252,
+    "new": 2,
+    "existing": 250,
+    "errors": []
+  },
+  "new_tweets": [
+    {
+      "id": "2031121107164467659",
+      "author": "@koylanai",
+      "text_preview": "I've realized I don't use Hooks in Claude Code as often as I should. \n\nI put together a table of 18 ",
+      "likes": 89
+    },
+    {
+      "id": "2030695115589640489",
+      "author": "@kamrify",
+      "text_preview": "published my claude code statusline https://t.co/8Vgt9QN2ZP",
+      "likes": 1387
+    }
+  ]
+}

@@ -1,26 +1,24 @@
 {
-  "updated_at": "2026-03-09T23:39:38.359382+00:00",
+  "updated_at": "2026-03-10T00:32:19.650993+00:00",
   "updated_by": "claude-code",
   "last_commit": {
-    "sha": "de86f83",
-    "message": "feat: enrich X articles via browser, add quote tweet support to extractor",
-    "date": "2026-03-07T22:25:32-08:00"
+    "sha": "d8a3764",
+    "message": "chore: update scheduled fetch note \u2014 Chrome extension connection bug",
+    "date": "2026-03-09T17:11:14-07:00"
   },
   "stats": {
-    "tweets": 534,
-    "vault_notes": 523,
+    "tweets": 536,
+    "vault_notes": 525,
     "threads_scraped": 101,
     "thread_replies_in_db": 28,
-    "links_resolved": 150
+    "links_resolved": 152
   },
   "recent_changes": [
-    "Scheduled fetch 2026-03-09: skipped — Chrome extension bug (3 restarts, connected but tabs_context stuck in retry loop)",
-    "Bookmark fetch 2026-03-07: 32 NEW tweets (534 total), full enrichment pipeline, vault export (524 notes)",
-    "Notable new: @bcherny /loop (10.3k likes), @weswinder desktop apps (8k), @thejayden Chief of Staff (6.3k), @DataChaz perfect prompt (6.3k), @nicopreme Visual Explainer (5.3k)",
-    "Also: @chintanturakhia frequently-run-prompt, @dickson_tsai HTTP hooks, @RayFernando1337 skill-creator update, @RhysSullivan clone-repos, @adocomplete prompt-stashing",
-    "Link enrichment: 9 enriched, 7 x.com URLs pending browser extraction, 1 failed (trailing comma in URL)",
-    "Media backfill: downloaded 46 media files, analyzed 45 with Gemini Vision (1 JSON parse error), regenerated 49 summaries with media context",
-    "Fixed /fetch-bookmarks skill: added missing download_media.py and enrich_media.py steps to Phase 7"
+    "Bookmark fetch 2026-03-09: 2 NEW tweets (536 total), full enrichment pipeline, vault export (526 notes)",
+    "New: @kamrify statusline (1387 likes), @koylanai hooks ideas (89 likes) \u2014 both EXPERIMENT tier",
+    "Fixed Chrome extension: disabled Desktop native host conflict, set tengu_copper_bridge=false, fixed hardcoded version path in native host wrapper",
+    "Diagnosed Chrome extension connection bug: 40+ open issues on anthropics/claude-code, drafted bug report (analysis/chrome-extension-bug-report.md)",
+    "Scheduled task workflow: first run \u2014 initial connection failed, fixed mid-session, completed fetch successfully"
   ],
   "known_issues": [
     "PROGRESS.md stale (last updated Jan 5)",
@@ -31,13 +29,14 @@
     "Briefing generator produces double @@ in author handles",
     "Pre-compact hook may not capture enough structured context (only STATUS.json)",
     "enrich_media.py: 1 media item failed JSON parse (tweet_2012741829683224584_17.png)",
-    "Claude-in-Chrome extension (v1.0.52) has connection reliability issues — stale locks, account mismatch dialogs, and 'connected but no tabs' loop after multiple sessions"
+    "Claude-in-Chrome extension (v1.0.52): connection reliability issues documented (40+ GitHub issues). Fixed locally via Desktop config rename + tengu_copper_bridge=false + stable native host path. May revert on updates.",
+    "tengu_copper_bridge in ~/.claude.json may be reset to true by server-side GrowthBook sync \u2014 re-check if connections degrade"
   ],
   "key_dates": {
-    "last_bookmark_fetch": "2026-03-07",
-    "last_vault_export": "2026-03-07",
-    "last_enrichment_run": "2026-03-07",
-    "last_analysis_run": "2026-03-01",
+    "last_bookmark_fetch": "2026-03-09",
+    "last_vault_export": "2026-03-09",
+    "last_enrichment_run": "2026-03-09",
+    "last_analysis_run": "2026-03-09",
     "last_enrichment_audit": "2026-02-12",
     "last_skill_rewrite": "2026-02-17",
     "chrome_consolidation_complete": "2026-02-12",
