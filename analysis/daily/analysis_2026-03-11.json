@@ -1,0 +1,36 @@
+{
+  "analyzed_at": "2026-03-11T16:43:37.474600",
+  "tweet_count": 1,
+  "categories": {
+    "ACT_NOW": [],
+    "EXPERIMENT": [],
+    "NOTED": [
+      {
+        "tweet_id": "2031506296697131352",
+        "author": "trq212",
+        "likes": 24025,
+        "text_preview": "We just added /btw to Claude Code! \n\nUse it to have side chain conversations while Claude is working. https://t.co/hjO3Y",
+        "primary_keyword": "/btw",
+        "one_liner": "Use the `/btw` command in Claude Code to have in-editor conversations about your code logic with Claude.",
+        "category": "NOTED",
+        "reason": "We are already using Claude Code for execution. This is an update/feature to a tool we actively use.",
+        "relevance": [
+          "Claude Code Desktop (already our primary interface)"
+        ],
+        "proposed_action": null
+      }
+    ],
+    "NOISE": []
+  },
+  "summary": {
+    "act_now_count": 0,
+    "experiment_count": 0,
+    "noted_count": 1,
+    "noise_count": 0,
+    "top_engagement": {
+      "tweet_id": "2031506296697131352",
+      "likes": 24025,
+      "author": "trq212"
+    }
+  }
+}
