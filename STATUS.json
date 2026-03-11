@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-03-10T18:13:52.435142+00:00",
+  "updated_at": "2026-03-11T18:17:15.770239+00:00",
   "updated_by": "claude-code",
   "last_commit": {
-    "sha": "52d4cee",
-    "message": "feat: bookmark fetch 2026-03-09 \u2014 2 new tweets, Chrome extension fix",
-    "date": "2026-03-09T17:32:38-07:00"
+    "sha": "a5fa057",
+    "message": "feat: bookmark fetch 2026-03-10 \u2014 4 new tweets, full enrichment pipeline",
+    "date": "2026-03-10T11:14:25-07:00"
   },
   "stats": {
     "tweets": 536,
@@ -14,11 +14,11 @@
     "links_resolved": 155
   },
   "recent_changes": [
+    "Scheduled fetch 2026-03-11: skipped — Chrome not connected (known recurring issue)",
     "Bookmark fetch 2026-03-10: 4 NEW tweets (536 total), full enrichment pipeline, vault export (529 notes)",
     "New ACT_NOW: @toddsaunders MCP tool inspection (456 likes), @pbakaus javascript_tool live-prototyping (260 likes)",
     "New EXPERIMENT: @AaronCQL pencil.dev design tool (1036 likes), @JeremyNguyenPhD academic research skills (260 likes)",
-    "Bookmark fetch 2026-03-09: 2 NEW tweets, @kamrify statusline (1387 likes) + @koylanai hooks ideas (89 likes)",
-    "Fixed Chrome extension: disabled Desktop native host conflict, set tengu_copper_bridge=false, stable native host path"
+    "Bookmark fetch 2026-03-09: 2 NEW tweets, @kamrify statusline (1387 likes) + @koylanai hooks ideas (89 likes)"
   ],
   "known_issues": [
     "PROGRESS.md stale (last updated Jan 5)",
