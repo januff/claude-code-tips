@@ -1,0 +1,20 @@
+{
+  "fetch_id": "fetch_2026-03-12_183256",
+  "completed_at": "2026-03-12T18:32:56.693117+00:00",
+  "source_file": "data/new_bookmarks_2026-03-12.json",
+  "dry_run": false,
+  "import": {
+    "total_in_file": 264,
+    "new": 1,
+    "existing": 263,
+    "errors": []
+  },
+  "new_tweets": [
+    {
+      "id": "2031282913422225567",
+      "author": "@aiwithjainam",
+      "text_preview": "BREAKING: Claude can now research like a Stanford PhD student.\n\nHere are 9 insane Claude prompts tha",
+      "likes": 9687
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "analyzed_at": "2026-03-12T11:33:51.878127",
+  "tweet_count": 1,
+  "categories": {
+    "ACT_NOW": [],
+    "EXPERIMENT": [
+      {
+        "tweet_id": "2031282913422225567",
+        "author": "aiwithjainam",
+        "likes": 9687,
+        "text_preview": "BREAKING: Claude can now research like a Stanford PhD student.\n\nHere are 9 insane Claude prompts that turn 40+ research ",
+        "primary_keyword": "research prompts",
+        "one_liner": "Claude can be used to generate literature reviews and knowledge maps from numerous research papers via advanced prompting, offering a faster alternative to traditional research methods.",
+        "category": "EXPERIMENT",
+        "reason": "While we use Claude for planning, the prompt-based literature review and knowledge map generation is a novel application. This aligns with our active build of an autonomous daily bookmark monitor and complements our cross-model review experiments by providing structured data for downstream analysis.",
+        "relevance": [
+          "Autonomous daily bookmark monitor (analysis engine)",
+          "Cross-model review (structured data input)"
+        ],
+        "proposed_action": "Test the prompts on a focused set of our archived data (e.g., a specific project in the hall-of-fake repo) to assess the quality of generated literature reviews and knowledge maps."
+      }
+    ],
+    "NOTED": [],
+    "NOISE": []
+  },
+  "summary": {
+    "act_now_count": 0,
+    "experiment_count": 1,
+    "noted_count": 0,
+    "noise_count": 0,
+    "top_engagement": {
+      "tweet_id": "2031282913422225567",
+      "likes": 9687,
+      "author": "aiwithjainam"
+    }
+  }
+}

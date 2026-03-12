@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-03-11T23:03:43.162012+00:00",
+  "updated_at": "2026-03-12T18:34:07.704637+00:00",
   "updated_by": "claude-code",
   "last_commit": {
-    "sha": "d3a5d3c",
-    "message": "chore: scheduled fetch 2026-03-11 — skipped (Chrome not connected)",
-    "date": "2026-03-11T11:17:29-07:00"
+    "sha": "601b16d",
+    "message": "feat: bookmark fetch 2026-03-11 \u2014 1 new tweet, full enrichment pipeline",
+    "date": "2026-03-11T16:44:12-07:00"
   },
   "stats": {
-    "tweets": 537,
-    "vault_notes": 527,
+    "tweets": 538,
+    "vault_notes": 531,
     "threads_scraped": 101,
     "thread_replies_in_db": 28,
-    "links_resolved": 155
+    "links_resolved": 157
   },
   "recent_changes": [
+    "Bookmark fetch 2026-03-12: 1 NEW tweet (538 total), full enrichment pipeline, vault export (528 notes)",
+    "New EXPERIMENT: @aiwithjainam Claude research prompts / literature review (9687 likes)",
     "Bookmark fetch 2026-03-11: 1 NEW tweet (537 total), full enrichment pipeline, vault export (527 notes)",
     "New NOTED: @trq212 /btw side conversations in Claude Code (24025 likes)",
-    "Chrome PreToolUse hook (chrome-cleanup.sh) fixed initial connection; long-running JS still drops mid-fetch",
-    "Bookmark fetch 2026-03-10: 4 NEW tweets (536 total), full enrichment pipeline, vault export (529 notes)",
-    "New ACT_NOW: @toddsaunders MCP tool inspection (456 likes), @pbakaus javascript_tool live-prototyping (260 likes)"
+    "Chrome PreToolUse hook (chrome-cleanup.sh) fixed initial connection; long-running JS still drops mid-fetch"
   ],
   "known_issues": [
     "PROGRESS.md stale (last updated Jan 5)",
     "Quote tweets not captured in schema or extraction (only quote_count stored)",
     "x.com photo/video URLs (30 remaining) need browser-based enrichment",
-    "Obsidian v1.11.7 installed — needs update to 1.12+ for CLI support",
+    "Obsidian v1.11.7 installed \u2014 needs update to 1.12+ for CLI support",
     "Briefing generator produces double @@ in author handles",
     "Pre-compact hook may not capture enough structured context (only STATUS.json)",
     "Claude-in-Chrome extension (v1.0.52): connection reliability issues documented (40+ GitHub issues). Fixed locally via Desktop config rename + tengu_copper_bridge=false + stable native host path. May revert on updates.",
-    "tengu_copper_bridge in ~/.claude.json may be reset to true by server-side GrowthBook sync — re-check if connections degrade"
+    "tengu_copper_bridge in ~/.claude.json may be reset to true by server-side GrowthBook sync \u2014 re-check if connections degrade"
   ],
   "key_dates": {
-    "last_bookmark_fetch": "2026-03-11",
-    "last_vault_export": "2026-03-11",
-    "last_enrichment_run": "2026-03-11",
-    "last_analysis_run": "2026-03-11",
+    "last_bookmark_fetch": "2026-03-12",
+    "last_vault_export": "2026-03-12",
+    "last_enrichment_run": "2026-03-12",
+    "last_analysis_run": "2026-03-12",
     "last_enrichment_audit": "2026-02-12",
     "last_skill_rewrite": "2026-02-17",
     "chrome_consolidation_complete": "2026-02-12",

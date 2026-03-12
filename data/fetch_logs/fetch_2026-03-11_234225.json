@@ -1,0 +1,20 @@
+{
+  "fetch_id": "fetch_2026-03-11_234225",
+  "completed_at": "2026-03-11T23:42:25.668675+00:00",
+  "source_file": "data/new_bookmarks_2026-03-11.json",
+  "dry_run": true,
+  "import": {
+    "total_in_file": 181,
+    "new": 1,
+    "existing": 180,
+    "errors": []
+  },
+  "new_tweets": [
+    {
+      "id": "2031506296697131352",
+      "author": "@trq212",
+      "text_preview": "We just added /btw to Claude Code! \n\nUse it to have side chain conversations while Claude is working",
+      "likes": 24025
+    }
+  ]
+}
