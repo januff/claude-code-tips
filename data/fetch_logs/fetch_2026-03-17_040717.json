@@ -1,0 +1,122 @@
+{
+  "fetch_id": "fetch_2026-03-17_040717",
+  "completed_at": "2026-03-17T04:07:17.978893+00:00",
+  "source_file": "data/new_bookmarks_2026-03-16.json",
+  "dry_run": false,
+  "import": {
+    "total_in_file": 200,
+    "new": 18,
+    "existing": 182,
+    "errors": []
+  },
+  "new_tweets": [
+    {
+      "id": "2033603164398883042",
+      "author": "@lydiahallie",
+      "text_preview": "Btw you can add `context: fork` to run a skill in an isolated subagent. The main context only sees t",
+      "likes": 588
+    },
+    {
+      "id": "2033443097666019566",
+      "author": "@trq212",
+      "text_preview": "I was just playing around to make something in @instance_11's style btw, they're the GOAT\n\ngave Clau",
+      "likes": 223
+    },
+    {
+      "id": "2033476608850346052",
+      "author": "@RileyRalmuto",
+      "text_preview": "here's a claude code prompt series that can change your life:\n\n\"hey friend, will you spin up 3 to 5 ",
+      "likes": 324
+    },
+    {
+      "id": "2033244721427140890",
+      "author": "@DanielleFong",
+      "text_preview": "in case you are all up in vibecoding like i am, i can recommend:\n\n- browser automation with chrome n",
+      "likes": 636
+    },
+    {
+      "id": "2032922838751928407",
+      "author": "@bcherny",
+      "text_preview": "We doubled Claude usage on weekends, and outside 5\u201311am PT on weekdays for the next 2 weeks.",
+      "likes": 7317
+    },
+    {
+      "id": "2032519515817599047",
+      "author": "@AnishA_Moonka",
+      "text_preview": "GPT-5.4 loses 54% of its retrieval accuracy going from 256K to 1M tokens. Opus 4.6 loses 15%.\n\nEvery",
+      "likes": 1861
+    },
+    {
+      "id": "2032631373974864188",
+      "author": "@ClaudeCodeLog",
+      "text_preview": "Claude Code 2.1.76 has been released.\n\n35 CLI changes\n\nHighlights:\n\u2022 MCP servers can request structu",
+      "likes": 253
+    },
+    {
+      "id": "2032364056972325096",
+      "author": "@andrewjiang",
+      "text_preview": "You can just drop in the autoresearch github into Claude Code, and your agent will apply the core pr",
+      "likes": 629
+    },
+    {
+      "id": "2032574688149328103",
+      "author": "@SearchForRyan",
+      "text_preview": "okay why did nobody tell me about state.md for claude code?\n\ni've been stuck wondering why a project",
+      "likes": 2202
+    },
+    {
+      "id": "2032578674231489005",
+      "author": "@NickADobos",
+      "text_preview": "One big yet subtle ways you know someone knows what they are doing with agents is if \n\n1. Docs says ",
+      "likes": 205
+    },
+    {
+      "id": "2032252486145253865",
+      "author": "@xpasky",
+      "text_preview": "It took another two months but Chrome 146 is out since yesterday! And *that* means: with a single to",
+      "likes": 3041
+    },
+    {
+      "id": "2032578639276159438",
+      "author": "@bcherny",
+      "text_preview": "\ud83e\udd2f You can now launch Claude Code sessions on your laptop *from your phone*\n\nThis blew my mind the fi",
+      "likes": 4628
+    },
+    {
+      "id": "2032518422580572541",
+      "author": "@trq212",
+      "text_preview": "Claude Opus 4.6 with 1M context is now included in Max, Team, and Enterprise subscriptions.\n\nSelect ",
+      "likes": 2389
+    },
+    {
+      "id": "2032510338336436647",
+      "author": "@RLanceMartin",
+      "text_preview": "https://t.co/VvrpF0Pou7",
+      "likes": 709
+    },
+    {
+      "id": "2032212463735701803",
+      "author": "@bentossell",
+      "text_preview": "i turned this into a skill https://t.co/uE16N2Xpkl",
+      "likes": 1257
+    },
+    {
+      "id": "2032020679827341603",
+      "author": "@thisdudelikesAI",
+      "text_preview": "\ud83d\udea8BREAKING: Someone just open-sourced a headless browser that runs 11x faster than Chrome and uses 9x",
+      "likes": 8239
+    },
+    {
+      "id": "2032436777630540182",
+      "author": "@toddsaunders",
+      "text_preview": "I rewrite my CLAUDE.md from scratch every few weeks.\n\nIt's the single greatest hack I've learned sin",
+      "likes": 423
+    },
+    {
+      "id": "2032102248642138596",
+      "author": "@kelp_feeder",
+      "text_preview": "I got tired of checking my Claude token usage so I vibecoded a burn monitor on an ESP32-based M5Stic",
+      "likes": 2826
+    }
+  ]
+}

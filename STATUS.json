@@ -1,24 +1,24 @@
 {
-  "updated_at": "2026-03-14T02:29:27.454730+00:00",
+  "updated_at": "2026-03-17T04:16:31.393138+00:00",
   "updated_by": "claude-code",
   "last_commit": {
-    "sha": "a931b94",
-    "message": "chore: scheduled fetch 2026-03-13 \u2014 skipped (x.com not logged in)",
-    "date": "2026-03-13T18:51:31-07:00"
+    "sha": "0e533b1",
+    "message": "chore: scheduled fetch 2026-03-13 \u2014 53 new Sora likes (metadata only)",
+    "date": "2026-03-13T19:29:33-07:00"
   },
   "stats": {
-    "tweets": 538,
-    "vault_notes": 531,
+    "tweets": 556,
+    "vault_notes": 549,
     "threads_scraped": 101,
-    "thread_replies_in_db": 28,
-    "links_resolved": 157
+    "thread_replies_in_db": 29,
+    "links_resolved": 164
   },
   "recent_changes": [
+    "Bookmark fetch 2026-03-16: 18 NEW tweets (556 total), full enrichment pipeline, vault export (546 notes)",
+    "Notable new: @bcherny weekend usage doubling (7317), launch from phone (4628); @thisdudelikesAI Lightpanda (8239); @trq212 Opus 4.6 1M (2389); @SearchForRyan state.md (2202)",
     "Bookmark fetch 2026-03-12: 1 NEW tweet (538 total), full enrichment pipeline, vault export (528 notes)",
     "New EXPERIMENT: @aiwithjainam Claude research prompts / literature review (9687 likes)",
-    "Bookmark fetch 2026-03-11: 1 NEW tweet (537 total), full enrichment pipeline, vault export (527 notes)",
-    "New NOTED: @trq212 /btw side conversations in Claude Code (24025 likes)",
-    "Chrome PreToolUse hook (chrome-cleanup.sh) fixed initial connection; long-running JS still drops mid-fetch"
+    "Bookmark fetch 2026-03-11: 1 NEW tweet (537 total), full enrichment pipeline, vault export (527 notes)"
   ],
   "known_issues": [
     "PROGRESS.md stale (last updated Jan 5)",
@@ -31,9 +31,9 @@
     "tengu_copper_bridge in ~/.claude.json may be reset to true by server-side GrowthBook sync \u2014 re-check if connections degrade"
   ],
   "key_dates": {
-    "last_bookmark_fetch": "2026-03-12",
-    "last_vault_export": "2026-03-12",
-    "last_enrichment_run": "2026-03-12",
+    "last_bookmark_fetch": "2026-03-16",
+    "last_vault_export": "2026-03-16",
+    "last_enrichment_run": "2026-03-16",
     "last_analysis_run": "2026-03-12",
     "last_enrichment_audit": "2026-02-12",
     "last_skill_rewrite": "2026-02-17",
