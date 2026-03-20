@@ -1,24 +1,24 @@
 {
-  "updated_at": "2026-03-17T04:16:31.393138+00:00",
+  "updated_at": "2026-03-20T03:25:59.944460+00:00",
   "updated_by": "claude-code",
   "last_commit": {
-    "sha": "0e533b1",
-    "message": "chore: scheduled fetch 2026-03-13 \u2014 53 new Sora likes (metadata only)",
-    "date": "2026-03-13T19:29:33-07:00"
+    "sha": "f171f75",
+    "message": "feat: bookmark fetch 2026-03-16 \u2014 18 new tweets, full enrichment pipeline",
+    "date": "2026-03-16T21:17:03-07:00"
   },
   "stats": {
-    "tweets": 556,
-    "vault_notes": 549,
+    "tweets": 562,
+    "vault_notes": 555,
     "threads_scraped": 101,
     "thread_replies_in_db": 29,
-    "links_resolved": 164
+    "links_resolved": 166
   },
   "recent_changes": [
+    "Bookmark fetch 2026-03-19: 6 NEW tweets (562 total), full enrichment pipeline, vault export (552 notes)",
+    "Notable new: @felixrieseberg Cowork Dispatch (17270), @trq212 prompt trick (15011), @oliviscusAI PDF-to-markdown (7861), @PawelHuryn DESIGN.md (2522)",
     "Bookmark fetch 2026-03-16: 18 NEW tweets (556 total), full enrichment pipeline, vault export (546 notes)",
     "Notable new: @bcherny weekend usage doubling (7317), launch from phone (4628); @thisdudelikesAI Lightpanda (8239); @trq212 Opus 4.6 1M (2389); @SearchForRyan state.md (2202)",
-    "Bookmark fetch 2026-03-12: 1 NEW tweet (538 total), full enrichment pipeline, vault export (528 notes)",
-    "New EXPERIMENT: @aiwithjainam Claude research prompts / literature review (9687 likes)",
-    "Bookmark fetch 2026-03-11: 1 NEW tweet (537 total), full enrichment pipeline, vault export (527 notes)"
+    "Bookmark fetch 2026-03-12: 1 NEW tweet (538 total), full enrichment pipeline, vault export (528 notes)"
   ],
   "known_issues": [
     "PROGRESS.md stale (last updated Jan 5)",
@@ -31,9 +31,9 @@
     "tengu_copper_bridge in ~/.claude.json may be reset to true by server-side GrowthBook sync \u2014 re-check if connections degrade"
   ],
   "key_dates": {
-    "last_bookmark_fetch": "2026-03-16",
-    "last_vault_export": "2026-03-16",
-    "last_enrichment_run": "2026-03-16",
+    "last_bookmark_fetch": "2026-03-19",
+    "last_vault_export": "2026-03-19",
+    "last_enrichment_run": "2026-03-19",
     "last_analysis_run": "2026-03-12",
     "last_enrichment_audit": "2026-02-12",
     "last_skill_rewrite": "2026-02-17",

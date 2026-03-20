@@ -1,9 +1,9 @@
 ---
 name: fetch-bookmarks
 description: >
-  Fetch new bookmarks from Twitter/X using Claude-in-Chrome browser integration.
-  Requires `/chrome` connection. Use when the user wants to import new bookmarks
-  from their Twitter Claude folder into the SQLite database.
+  Fetch new bookmarks from Twitter/X using browser integration (Chrome DevTools
+  MCP preferred, Claude-in-Chrome fallback). Use when the user wants to import
+  new bookmarks from their Twitter Claude folder into the SQLite database.
 argument-hint: twitter
 disable-model-invocation: true
 ---
@@ -16,48 +16,56 @@ disable-model-invocation: true
 
 ## Prerequisites
 
-- Chrome connected: run `/chrome` and verify connection
+- Chrome 146+ with remote debugging enabled (`chrome://inspect/#remote-debugging`)
 - Chrome logged into x.com
 - Bookmark folder URL: `https://x.com/i/bookmarks/2004623846088040770`
 
-> **Chrome contention:** If Claude.ai app is open, run `/chrome` → Reconnect
-> to claim the browser connection. Only one instance can hold it at a time.
+## Browser Integration: Choose Your Backend
+
+This skill supports two browser MCP backends. **Try Chrome DevTools MCP first.**
+
+| Task | Chrome DevTools MCP (preferred) | Claude-in-Chrome (fallback) |
+|------|--------------------------------|----------------------------|
+| Connect/verify | `list_pages` | `mcp__claude-in-chrome__tabs_context_mcp` |
+| Navigate | `navigate_page` | `mcp__claude-in-chrome__navigate` |
+| Run JS | `evaluate_script` | `mcp__claude-in-chrome__javascript_tool` |
+| Network | `list_network_requests` | `mcp__claude-in-chrome__read_network_requests` |
+| Screenshot | `take_screenshot` | `mcp__claude-in-chrome__computer` (screenshot) |
+| Wait | `sleep 3` (bash) | `mcp__claude-in-chrome__computer` (wait) |
+
+**When to fall back:** If Chrome DevTools MCP is not available (not installed, Chrome
+<146, remote debugging not enabled), use Claude-in-Chrome tools instead. The phases
+below show both tool names where they differ.
 
 ---
 
 ## Phase 1: Verify Chrome Connection
 
-**Tool:** `mcp__claude-in-chrome__tabs_context_mcp`
+**DevTools MCP:** `list_pages` — confirm you can see browser tabs.
+**Claude-in-Chrome:** `mcp__claude-in-chrome__tabs_context_mcp`
 
-Confirm you can see browser tabs. If not, ask the user to run `/chrome` → Reconnect.
+If neither works, ask the user to check their Chrome setup.
 
 ---
 
 ## Phase 2: Navigate to Bookmarks Folder
 
-**Tool:** `mcp__claude-in-chrome__navigate`
+**DevTools MCP:** `navigate_page`
+**Claude-in-Chrome:** `mcp__claude-in-chrome__navigate`
 ```
 url: https://x.com/i/bookmarks/2004623846088040770
 ```
 
-Then wait 3 seconds:
-
-**Tool:** `mcp__claude-in-chrome__computer`
-```
-action: wait
-duration: 3
-```
+Then wait 3 seconds for page load (bash `sleep 3` or Chrome wait tool).
 
 ---
 
 ## Phase 3: Capture Live API Parameters (Self-Healing Hash)
 
-**Tool:** `mcp__claude-in-chrome__read_network_requests`
-```
-urlPattern: BookmarkFolderTimeline
-```
+**DevTools MCP:** `list_network_requests`
+**Claude-in-Chrome:** `mcp__claude-in-chrome__read_network_requests`
 
-From the captured request URL:
+Filter for `BookmarkFolderTimeline`. From the captured request URL:
 1. Parse the hash from the URL path: `/graphql/{HASH}/BookmarkFolderTimeline`
 2. Parse the features from the `features=` query parameter (URL-decode, then parse JSON)
 
@@ -78,13 +86,15 @@ file_path: scripts/bookmark_folder_extractor.js
 
 ### Step 4b: Inject the entire script into page context
 
-**Tool:** `mcp__claude-in-chrome__javascript_tool`
+**DevTools MCP:** `evaluate_script`
+**Claude-in-Chrome:** `mcp__claude-in-chrome__javascript_tool`
 
-Inject the **entire contents** of `scripts/bookmark_folder_extractor.js` as a single `javascript_tool` call. Do NOT use data URIs, script tags, or chunking — paste the full script text directly.
+Inject the **entire contents** of `scripts/bookmark_folder_extractor.js` as a single
+call. Do NOT use data URIs, script tags, or chunking — paste the full script text directly.
 
 ### Step 4c: Execute the extractor
 
-**Tool:** `mcp__claude-in-chrome__javascript_tool`
+**JS eval tool** (same as 4b):
 ```javascript
 await fetchBookmarkFolder("2004623846088040770", {
   hash: "CAPTURED_HASH_FROM_PHASE_3",
@@ -102,26 +112,33 @@ Wait for it to complete. It returns the total count.
 
 Results are in `window._fetchedBookmarks`.
 
-> **WORKAROUND (Feb 2026):** The `javascript_tool` output truncates at ~1500 chars,
-> which is smaller than a single tweet (~800 chars). Batch extraction (the old
-> approach) would require 67+ sequential calls for a typical folder. Instead, we
-> trigger a Blob download from the browser and copy the file over.
+> **WORKAROUND (Feb 2026):** The Claude-in-Chrome `javascript_tool` output truncates
+> at ~1500 chars. Chrome DevTools MCP's `evaluate_script` may have a higher limit —
+> test with `JSON.stringify(window._fetchedBookmarks).length` first. If the full
+> result can be returned directly, skip the blob download workaround.
 >
-> **If a future Claude-in-Chrome update lifts the output limit or adds a direct
-> file-write capability, replace this phase with direct extraction.** Check the
-> `javascript_tool` changelog or test with `JSON.stringify(array).length` to see
-> if the limit has changed.
+> If the output is too large for direct return, use the blob download approach below.
 
 ### Step 5a: Verify count
 
-**Tool:** `mcp__claude-in-chrome__javascript_tool`
+**JS eval tool:**
 ```javascript
 window._fetchedBookmarks.length
 ```
 
-### Step 5b: Trigger browser download
+### Step 5b: Try direct extraction (DevTools MCP only)
 
-**Tool:** `mcp__claude-in-chrome__javascript_tool`
+**DevTools MCP:** Try `evaluate_script` with:
+```javascript
+JSON.stringify(window._fetchedBookmarks)
+```
+
+If the full JSON is returned, write it directly to `data/new_bookmarks_YYYY-MM-DD.json`
+and skip to Step 5d.
+
+### Step 5c: Blob download fallback (Claude-in-Chrome, or if 5b truncated)
+
+**JS eval tool:**
 ```javascript
 const blob = new Blob([JSON.stringify(window._fetchedBookmarks, null, 2)], {type: 'application/json'});
 const url = URL.createObjectURL(blob);
@@ -137,22 +154,13 @@ URL.revokeObjectURL(url);
 
 Replace `YYYY-MM-DD` with today's date.
 
-### Step 5c: Wait, then copy to project
-
-**Tool:** `mcp__claude-in-chrome__computer`
-```
-action: wait
-duration: 2
-```
-
-**Tool:** `Bash`
+Wait 2 seconds, then copy:
 ```bash
 cp ~/Downloads/new_bookmarks_YYYY-MM-DD.json data/new_bookmarks_YYYY-MM-DD.json
 ```
 
 ### Step 5d: Validate the file
 
-**Tool:** `Bash`
 ```bash
 python3 -c "import json; d=json.load(open('data/new_bookmarks_YYYY-MM-DD.json')); print(f'{len(d)} tweets')"
 ```
@@ -261,14 +269,19 @@ python3 scripts/export_tips.py
 | Problem | Cause | Fix |
 |---------|-------|-----|
 | HTTP 400 from extractor | Stale GraphQL hash | Reload bookmarks page, re-capture from network requests (Phase 3) |
-| "Extension not connected" | Another instance holds Chrome | Run `/chrome` → Reconnect |
+| "Extension not connected" | Another instance holds Chrome | Run `/chrome` → Reconnect, or switch to DevTools MCP |
+| DevTools MCP "no pages found" | Remote debugging not enabled | Go to `chrome://inspect/#remote-debugging` and enable the toggle |
+| DevTools MCP permission denied | Chrome blocked the connection | Approve the permission dialog in Chrome; check for "controlled by automation" banner |
 | Empty results | No bookmarks in folder or wrong folder ID | Check folder in browser |
 | `import_bookmarks.py` reports 0 new | All tweets already in DB | Normal if re-running same day |
-| Import validation error | Malformed JSON from extraction | Check batch extraction output for truncation |
-| Download not appearing in ~/Downloads | Browser download blocked or different path | Check Chrome download settings; try screenshot to confirm dialog |
-| `javascript_tool` output limit increased | Claude-in-Chrome update | Test with `JSON.stringify(array).length`; if >100k works, switch back to direct extraction |
+| Import validation error | Malformed JSON from extraction | Check extraction output for truncation |
+| Download not appearing in ~/Downloads | Browser download blocked | Check Chrome download settings; try screenshot to confirm dialog |
+| `evaluate_script` returns full JSON | DevTools MCP has higher output limit | Great — skip blob download, write JSON directly to file |
 
 ## Reference
 
 For API endpoint details, auth patterns, and the full features object, see:
 **`.claude/references/twitter-api-reference.md`**
+
+For browser integration details, see:
+**`FETCH_PROMPT.md`** (root of repo) — tool mapping table, connection policy, pipeline reference

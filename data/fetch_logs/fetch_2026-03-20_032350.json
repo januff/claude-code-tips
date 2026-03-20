@@ -1,0 +1,50 @@
+{
+  "fetch_id": "fetch_2026-03-20_032350",
+  "completed_at": "2026-03-20T03:23:50.106805+00:00",
+  "source_file": "data/new_bookmarks_2026-03-19.json",
+  "dry_run": false,
+  "import": {
+    "total_in_file": 206,
+    "new": 6,
+    "existing": 200,
+    "errors": []
+  },
+  "new_tweets": [
+    {
+      "id": "2034731159385776320",
+      "author": "@reem_a",
+      "text_preview": "I'm hiring someone to join my team at Anthropic to lead Claude Code comms.\n\nThis is not a role for s",
+      "likes": 1907
+    },
+    {
+      "id": "2034583837351526763",
+      "author": "@PawelHuryn",
+      "text_preview": "Google just shipped DESIGN.md \u2014 a portable, agent-readable design system file. That's the real annou",
+      "likes": 2522
+    },
+    {
+      "id": "2034424894394392786",
+      "author": "@Austen",
+      "text_preview": "Pro tip to make agents not suck at doing everything in Chrome:\n\nView -&gt; Developer -&gt; Allow Jav",
+      "likes": 558
+    },
+    {
+      "id": "2034005731457044577",
+      "author": "@felixrieseberg",
+      "text_preview": "We're shipping a new feature in Claude Cowork as a research preview that I'm excited about: Dispatch",
+      "likes": 17270
+    },
+    {
+      "id": "2033949937936085378",
+      "author": "@trq212",
+      "text_preview": "https://t.co/45C3gKydTK",
+      "likes": 15011
+    },
+    {
+      "id": "2033860465760030923",
+      "author": "@oliviscusAI",
+      "text_preview": "someone just open-sourced a tool that converts pdfs to markdown at 100 pages per second.\n\n100% free.",
+      "likes": 7861
+    }
+  ]
+}
