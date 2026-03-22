@@ -45,5 +45,9 @@
     "autonomous_monitor_complete": "2026-02-11",
     "llm_analysis_rewrite_complete": "2026-02-11"
   },
-  "active_task": null
+  "active_task": {
+    "plan": "plans/active/TASK_PLAN.md",
+    "description": "Public launch — README rewrite, community map, weekly rhythms, repo audit",
+    "current_phase": "Phase 1: Research & Inventory"
+  }
 }

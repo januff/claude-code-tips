@@ -25,3 +25,9 @@
 __pycache__/
 tmp/
 Claude Code Tips/.obsidian/workspace.json
+
+# Claude.ai conversation export (contains ALL conversations, not just this project)
+data-2026-*/
+
+# LinkedIn drafts and job application materials
+linkedin-updates-*.md
