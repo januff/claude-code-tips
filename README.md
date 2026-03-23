@@ -26,14 +26,18 @@ Twitter bookmarks → Browser extraction → SQLite + FTS5
 
 ### Quick Stats
 
-| Metric | Count |
-|--------|-------|
-| Tweets tracked | 562 |
-| Unique authors | 471 |
-| Obsidian vault notes | 555 |
-| Links resolved | 166 |
-| Threads scraped | 101 |
-| Date range | Dec 2025 – Mar 2026 |
+| Metric | Count | Notes |
+|--------|------:|-------|
+| Bookmarked tips | 206 | Curated — every one personally bookmarked and liked |
+| Thread replies | 356 | Scraped for context — 288 have zero likes, many unreviewed |
+| Total in database | 562 | |
+| Obsidian vault notes | 555 | Quality-filtered: likes > 0 or LLM summary available |
+| Unique authors | 471 | |
+| Links resolved | 166 | |
+| Threads scraped | 101 | |
+| Date range | | Dec 2025 – Mar 2026 |
+
+The distinction matters: bookmarked tips are curated signal. Thread replies are harvested context — some contain genuine hidden gems (community patterns that predate official features), but most haven't been individually reviewed yet. A dedicated review pass is planned.
 
 ---
 
