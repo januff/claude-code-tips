@@ -39,7 +39,7 @@
 ### Additional context
 - Four other Claude Code terminal sessions had been running earlier (all closed before troubleshooting)
 - Colored tab group borders from previous sessions persisted in Chrome (cosmetic only)
-- The extension Options page shows correct account (joeyanuff@gmail.com) with approved sites (x.com, sora.chatgpt.com)
+- The extension Options page shows correct account ([redacted]) with approved sites (x.com, sora.chatgpt.com)
 - This pattern recurs across sessions — not a one-time failure
 
 ## Impact
