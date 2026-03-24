@@ -1,0 +1,38 @@
+{
+  "title": "Claude Code Tips: A Living Knowledge Base",
+  "stats": {
+    "bookmarked_tips": 206,
+    "thread_replies_archived": 356,
+    "obsidian_vault_notes": 552,
+    "unique_authors_tracked": 140,
+    "team_members_tracked": 5,
+    "community_voices": 135,
+    "categories": 14,
+    "project_age_days": 87,
+    "avg_bookmarks_per_week": 16.6
+  },
+  "four_principles": [
+    {
+      "name": "Watch, then adopt",
+      "description": "Don't implement every trending technique immediately. Observe the trend, wait for stability, then adopt when ready."
+    },
+    {
+      "name": "Freshness is the central data point",
+      "description": "Timestamps matter more than coverage. A stale best-practice is worse than no documentation."
+    },
+    {
+      "name": "Review and decision conferences",
+      "description": "Periodic stepping back to evaluate what recent changes mean for the big picture before making calls."
+    },
+    {
+      "name": "Don't reinvent the wheel",
+      "description": "Search our own database before building. The community has probably solved it already."
+    }
+  ],
+  "automation_status": {
+    "bookmark_fetching": "Manual (~2x/week). Scheduled tasks tried March 9-13, disabled due to reliability issues.",
+    "enrichment_pipeline": "Working. Keywords, summaries, link resolution, Gemini analysis.",
+    "obsidian_export": "Working. Quality-filtered, semantic filenames.",
+    "weekly_digest": "Aspirational. Not yet automated."
+  }
+}

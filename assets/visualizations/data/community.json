@@ -1,0 +1,251 @@
+{
+  "title": "Who's Shaping Claude Code",
+  "subtitle": "Voices tracked in this knowledge base",
+  "team": {
+    "trq212": {
+      "bookmarks": 11,
+      "total_likes": 66195,
+      "is_team": true,
+      "sample_topics": [
+        "AskUserQuestionTool",
+        "Plan Mode",
+        "auto-memory",
+        "Quick Mode",
+        "/btw"
+      ]
+    },
+    "bcherny": {
+      "bookmarks": 9,
+      "total_likes": 111660,
+      "is_team": true,
+      "sample_topics": [
+        "vanilla-setup",
+        "Shift+enter for newlines",
+        "Cowork",
+        "customizability",
+        "git worktree"
+      ]
+    },
+    "lydiahallie": {
+      "bookmarks": 4,
+      "total_likes": 7550,
+      "is_team": true,
+      "sample_topics": [
+        "--dangerously-skip-permissions",
+        "agent teams",
+        "local plugins",
+        "context: fork"
+      ]
+    },
+    "felixrieseberg": {
+      "bookmarks": 3,
+      "total_likes": 17908,
+      "is_team": true,
+      "sample_topics": [
+        "Cowork",
+        "/remote-control",
+        "Dispatch"
+      ]
+    },
+    "alexalbert__": {
+      "bookmarks": 2,
+      "total_likes": 2454,
+      "is_team": true,
+      "sample_topics": [
+        "underrated-trick",
+        "BrowseComp"
+      ]
+    }
+  },
+  "community_top20": {
+    "nummanali": {
+      "bookmarks": 6,
+      "total_likes": 3630,
+      "is_team": false,
+      "sample_topics": [
+        "agent-swarms",
+        "cc-mirror quick",
+        "status-line",
+        "compaction",
+        "ANTHROPIC_DEFAULT_HAIKU_MODEL"
+      ]
+    },
+    "jarrodwatts": {
+      "bookmarks": 6,
+      "total_likes": 7590,
+      "is_team": false,
+      "sample_topics": [
+        "Claude HUD",
+        "Bash",
+        "comments[.]md",
+        "claude-delegator",
+        "Cowork"
+      ]
+    },
+    "kepano": {
+      "bookmarks": 3,
+      "total_likes": 9346,
+      "is_team": false,
+      "sample_topics": [
+        "Obsidian",
+        "Obsidian CLI"
+      ]
+    },
+    "ericbuess": {
+      "bookmarks": 3,
+      "total_likes": 1262,
+      "is_team": false,
+      "sample_topics": [
+        "frictionless context management",
+        "ralph-wiggum-loops",
+        "native install method"
+      ]
+    },
+    "alexhillman": {
+      "bookmarks": 3,
+      "total_likes": 1567,
+      "is_team": false,
+      "sample_topics": [
+        "Smaug",
+        "date-time-context-injection",
+        "AI Slop Patterns"
+      ]
+    },
+    "adocomplete": {
+      "bookmarks": 3,
+      "total_likes": 4344,
+      "is_team": false,
+      "sample_topics": [
+        "/sandbox",
+        "allow-ask-deny",
+        "prompt-stashing"
+      ]
+    },
+    "vista8": {
+      "bookmarks": 2,
+      "total_likes": 859,
+      "is_team": false,
+      "sample_topics": [
+        "Claudian",
+        "Obsidian Skill"
+      ]
+    },
+    "toddsaunders": {
+      "bookmarks": 2,
+      "total_likes": 879,
+      "is_team": false,
+      "sample_topics": [
+        "MCP",
+        "CLAUDE.md half life"
+      ]
+    },
+    "rlancemartin": {
+      "bookmarks": 2,
+      "total_likes": 2410,
+      "is_team": false,
+      "sample_topics": [
+        "skill-creator",
+        "agent-swarms"
+      ]
+    },
+    "remilouf": {
+      "bookmarks": 2,
+      "total_likes": 532,
+      "is_team": false,
+      "sample_topics": [
+        "cron-job-prompting",
+        "voice-note-processing"
+      ]
+    },
+    "pbakaus": {
+      "bookmarks": 2,
+      "total_likes": 1818,
+      "is_team": false,
+      "sample_topics": [
+        "Impeccable v1.1",
+        "javascript_tool"
+      ]
+    },
+    "menhguin": {
+      "bookmarks": 2,
+      "total_likes": 661,
+      "is_team": false,
+      "sample_topics": [
+        "default-to-maximum-depth",
+        "agent abstractions"
+      ]
+    },
+    "mckaywrigley": {
+      "bookmarks": 2,
+      "total_likes": 3437,
+      "is_team": false,
+      "sample_topics": [
+        "agent sdk",
+        "hosted sandbox"
+      ]
+    },
+    "mattpocockuk": {
+      "bookmarks": 2,
+      "total_likes": 4451,
+      "is_team": false,
+      "sample_topics": [
+        "docker sandbox",
+        "keep-it-simple-stupid"
+      ]
+    },
+    "jeremynguyenphd": {
+      "bookmarks": 2,
+      "total_likes": 286,
+      "is_team": false,
+      "sample_topics": [
+        "scrape claude sessions",
+        "agent-swarms"
+      ]
+    },
+    "housecor": {
+      "bookmarks": 2,
+      "total_likes": 1027,
+      "is_team": false,
+      "sample_topics": [
+        "Chrome DevTools MCP",
+        "desktop/laptop session via phone"
+      ]
+    },
+    "frankdegods": {
+      "bookmarks": 2,
+      "total_likes": 6352,
+      "is_team": false,
+      "sample_topics": [
+        "automatic subscription cancellation",
+        "agent-sdk"
+      ]
+    },
+    "exm7777": {
+      "bookmarks": 2,
+      "total_likes": 4167,
+      "is_team": false,
+      "sample_topics": [
+        "bypass-ai-detectors",
+        "co-founder master plan"
+      ]
+    },
+    "doodlestein": {
+      "bookmarks": 2,
+      "total_likes": 1126,
+      "is_team": false,
+      "sample_topics": [
+        "beads",
+        "skill dot md file"
+      ]
+    },
+    "dimitrispapail": {
+      "bookmarks": 2,
+      "total_likes": 1025,
+      "is_team": false,
+      "sample_topics": [
+        "battleship-verification",
+        "Duo programming language"
+      ]
+    }
+  }
+}

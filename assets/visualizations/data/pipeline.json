@@ -1,0 +1,52 @@
+{
+  "title": "Tips-to-Tool Pipeline",
+  "subtitle": "How community hacks become native Claude Code features",
+  "description": "Tracks the velocity from community discovery to official implementation. ~4-6 week average.",
+  "events": [
+    {
+      "name": "Memory / Context Persistence",
+      "community_date": "2025-12-28",
+      "community_signal": "Claude-Mem plugin (3,222 likes), Ralph Wiggum auto-restore pattern (3,607 likes)",
+      "ship_date": "2026-02-10",
+      "ship_signal": "Auto-memory feature ships (@trq212, 4,164 likes)",
+      "gap_weeks": 6,
+      "notes": "Community built multiple solutions (Claude-Mem, Continuous Claude, QMD). Anthropic shipped a native auto-memory that subsumes most of them."
+    },
+    {
+      "name": "Git Worktrees for Parallel Work",
+      "community_date": "2026-01-15",
+      "community_signal": "Users sharing manual worktree setups for running parallel Claude instances",
+      "ship_date": "2026-02-25",
+      "ship_signal": "Native worktree support in Claude Code",
+      "gap_weeks": 6,
+      "notes": "Community was manually managing git worktrees. Anthropic built it in with automatic branch management."
+    },
+    {
+      "name": "Auto-Restore (Ralph Wiggum)",
+      "community_date": "2025-12-25",
+      "community_signal": "Geoffrey Huntley's keep-it-simple loop pattern (3,607 likes), community plugin",
+      "ship_date": "2026-02-10",
+      "ship_signal": "Native hooks-based implementation with pre-auto-compact",
+      "gap_weeks": 7,
+      "notes": "The community version was a plugin/prompt pattern. The native version uses hooks. The core insight (persist state across compaction) is the same but the mechanism is different."
+    },
+    {
+      "name": "Skills / Slash Commands",
+      "community_date": "2025-12-26",
+      "community_signal": "Boris's original thread documenting .claude/commands/ (45,567 likes)",
+      "ship_date": "2026-02-01",
+      "ship_signal": "Enhanced skills with frontmatter, context:fork, agent teams",
+      "gap_weeks": 5,
+      "notes": "Skills existed from launch but were basic. Community usage patterns drove the frontmatter system, fork isolation, and hook integration."
+    },
+    {
+      "name": "Design-to-Code (DESIGN.md)",
+      "community_date": "2026-03-04",
+      "community_signal": "Community experiments with design system files for Claude",
+      "ship_date": "2026-02-28",
+      "ship_signal": "Google ships DESIGN.md as portable design system spec (2,522 likes)",
+      "gap_weeks": -1,
+      "notes": "Parallel evolution. Google and community converged on the same idea independently. Not a community-to-tool pipeline but a convergence."
+    }
+  ]
+}

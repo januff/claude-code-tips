@@ -1,0 +1,242 @@
+{
+  "title": "What 206 Claude Code Tips Actually Cover",
+  "subtitle": "Curated bookmarks classified by LLM analysis",
+  "categories": {
+    "tooling": {
+      "count": 71,
+      "total_likes": 156258,
+      "top_keywords": [
+        "Dispatch",
+        "git worktree",
+        "Shift+enter for newlines",
+        "AskUserQuestionTool",
+        "Lightpanda",
+        "desktop-apps",
+        "pdf-to-markdown",
+        "CallMe plugin"
+      ],
+      "sample_tips": [
+        "Dispatch in Claude Cowork enables persistent conversations across devices for quick document analysis and insights.",
+        "Claude Code CLI now supports Git worktrees using the `--worktree` flag, enabling parallel agent execution without confli",
+        "Claude Code 2.1.0 streamlines agent and skill development with improved newline handling, frontmatter hooks, enhanced sk"
+      ]
+    },
+    "meta": {
+      "count": 29,
+      "total_likes": 90680,
+      "top_keywords": [
+        "vanilla-setup",
+        "make-the-switch",
+        "claude code 2.0",
+        "doubled-usage",
+        "upskill",
+        "formulaic-youtube-titles",
+        "Lenny's Podcast",
+        "Claude Code comms lead"
+      ],
+      "sample_tips": [
+        "Claude Code's creator reveals his simple setup, emphasizing the tool's adaptability and encouraging users to customize i",
+        "Switch to Claude seamlessly by importing your previous AI conversations to maintain context and personalized interaction",
+        "Explore Claude Code 2.0 with this guide, focusing on context engineering commands and specialized sub-agents for optimiz"
+      ]
+    },
+    "context-management": {
+      "count": 21,
+      "total_likes": 63784,
+      "top_keywords": [
+        "/btw",
+        "underrated-trick",
+        "/fork-detect",
+        "auto-memory",
+        "Claude-Mem",
+        "state.md",
+        "context rot",
+        "compaction"
+      ],
+      "sample_tips": [
+        "Use the `/btw` command in Claude Code to have in-editor conversations about your code logic with Claude.",
+        "Learn how to refine your Claude prompts by iteratively analyzing responses and adjusting instructions for more accurate ",
+        "Smart forking in Claude Code uses past sessions to provide context for new features via `/fork-detect` and `/fork` comma"
+      ]
+    },
+    "skills": {
+      "count": 21,
+      "total_likes": 56452,
+      "top_keywords": [
+        "remotion-dev/skills",
+        "/simplify and /batch",
+        "signs-of-ai-writing",
+        "Visual Explainer",
+        "skill-creator skill",
+        "Claude Skills",
+        "skill-creator",
+        "openclaw skill"
+      ],
+      "sample_tips": [
+        "Remotion now supports Agent Skills, allowing you to create videos just using Claude Code by adding the `remotion-dev/ski",
+        "Claude Code's new `/simplify` and `/batch` skills automate code improvements and parallel migrations, saving time and ef",
+        "Use Claude Code and the \"Humanizer\" skill to remove common AI writing patterns, based on Wikipedia's list, for more natu"
+      ]
+    },
+    "prompting": {
+      "count": 20,
+      "total_likes": 35069,
+      "top_keywords": [
+        "research prompts",
+        "perfect-prompt-anatomy",
+        "frequently-run-prompt",
+        "keep-it-simple-stupid",
+        "prompt-stashing",
+        "underrated-trick",
+        "bypass-ai-detectors",
+        "comments[.]md"
+      ],
+      "sample_tips": [
+        "Claude can be used to generate literature reviews and knowledge maps from numerous research papers via advanced promptin",
+        "Learn a structured prompt engineering workflow for Claude 4.6 that ensures alignment, context awareness, and desired out",
+        "Analyze your Claude sessions with a 'scrape' command to discover opportunities for custom skills, plugins, and agents."
+      ]
+    },
+    "subagents": {
+      "count": 17,
+      "total_likes": 25152,
+      "top_keywords": [
+        "Chief of Staff",
+        "agent teams",
+        "agent-swarms",
+        "refine agents by using other agents",
+        "Claude Delegator",
+        "Bash",
+        "task subagents",
+        "ANTHROPIC_DEFAULT_HAIKU_MODEL"
+      ],
+      "sample_tips": [
+        "Learn how to build an AI 'Chief of Staff' with Claude Code for email triage, task management, and schedule optimization,",
+        "Claude Code's new agent teams feature enables parallel processing of tasks by multiple agents for faster development and",
+        "Build a persistent memory for Claude Code using QMD and a `/recall` skill with temporal, topic, and graph search modes, "
+      ]
+    },
+    "automation": {
+      "count": 16,
+      "total_likes": 33824,
+      "top_keywords": [
+        "/loop",
+        "Cowork",
+        "automatic subscription cancellation",
+        "MCP",
+        "claude --chrome",
+        "shortcut",
+        "vibe orchestration",
+        "Allow JavaScript from Apple Events"
+      ],
+      "sample_tips": [
+        "Claude's `/loop` command schedules recurring tasks for up to 3 days, automating workflows like PR management and informa",
+        "Anthropic launches Cowork, a research preview for Claude Max subscribers on macOS, to extend Claude's agent capabilities",
+        "This tip presents a Claude skill that automates subscription cancellation by reading statements, confirming cancellation"
+      ]
+    },
+    "security": {
+      "count": 7,
+      "total_likes": 10380,
+      "top_keywords": [
+        "--dangerously-skip-permissions",
+        "/sandbox",
+        "allow-ask-deny",
+        "docker sandbox",
+        "--enable-auto-mode"
+      ],
+      "sample_tips": [
+        "This tip demonstrates an ambitious AI-driven automated startup creation workflow from idea to deployment using Claude, H",
+        "Claude Code Desktop introduces `--dangerously-skip-permissions` for fully autonomous operation, but use with caution in ",
+        "Learn how to use Claude Code's sandbox mode to securely execute bash commands and manage your project by predefining all"
+      ]
+    },
+    "workflow": {
+      "count": 6,
+      "total_likes": 7156,
+      "top_keywords": [
+        "Obsidian",
+        "Workflow Orchestration",
+        "Ralph Wiggum Loop",
+        "beads",
+        "worktree-first workflow",
+        "bigdawg"
+      ],
+      "sample_tips": [
+        "Share your Obsidian and Claude Code workflow to help others learn and improve.",
+        "Improve Claude's coding workflow using structured planning, subagents, self-improvement loops, rigorous verification, an",
+        "Learn the foundational principles, not just the Claude Code plugin, for mastering the 'Ralph Wiggum Loop' technique."
+      ]
+    },
+    "hooks": {
+      "count": 5,
+      "total_likes": 3113,
+      "top_keywords": [
+        "HTTP hooks",
+        "ralph-wiggum-loops",
+        "pre-auto-compact-hook",
+        "hooks",
+        "PreToolUse"
+      ],
+      "sample_tips": [
+        "Claude Code introduces HTTP hooks for improved security and flexibility in managing application progress and permissions",
+        "Enhance your Claude coding with LSP, hooks, subagents, validations, and voice loops for a 10x productivity boost.",
+        "Automate processes by turning them into \"pre auto compact hooks\" for customized behavior."
+      ]
+    },
+    "commands": {
+      "count": 4,
+      "total_likes": 4780,
+      "top_keywords": [
+        "/model",
+        "/insights",
+        "/project-starter:verify-changes",
+        "/compact"
+      ],
+      "sample_tips": [
+        "Claude Opus 4.6 with 1M context is live for paid tiers; use `/model` and it counts towards your normal plan limits.",
+        "Use the `/insights` command in Claude for potentially deeper understanding.",
+        "Claude Code workflow updated with 13 new slash commands, including multi-agent verification, plus improved templates and"
+      ]
+    },
+    "planning": {
+      "count": 4,
+      "total_likes": 5368,
+      "top_keywords": [
+        "co-founder master plan",
+        "planning-with-files",
+        "Plan Mode",
+        "project-manager-agent"
+      ],
+      "sample_tips": [
+        "Use Claude Opus 4.5 to generate a comprehensive project plan and knowledge base directory for seamless integration with ",
+        "The \"Planning with files\" Claude Code skill significantly improves project planning and execution by having Claude persi",
+        "Claude Code in Slack introduces 'Plan Mode' to discuss and plan complex tasks before execution for improved accuracy."
+      ]
+    },
+    "mcp": {
+      "count": 3,
+      "total_likes": 2061,
+      "top_keywords": [
+        "claude mcp add",
+        "MCP",
+        "MCP servers interactive dialogs"
+      ],
+      "sample_tips": [
+        "Integrate 'codex' into your Claude coding setup using `claude mcp add` for potential code understanding improvements.",
+        "Learn to inspect Claude's loaded MCP tools and their token usage within the CLI for optimized resource management and ef",
+        "Claude Code 2.1.76 introduces interactive dialogs, transcript persistence control, and improved auto-compaction."
+      ]
+    },
+    "plugins": {
+      "count": 1,
+      "total_likes": 606,
+      "top_keywords": [
+        "local plugins"
+      ],
+      "sample_tips": [
+        "Claude Code desktop now supports local plugins like custom slash commands that sync with CLI for a more personalized cod"
+      ]
+    }
+  }
+}
