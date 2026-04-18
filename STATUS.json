@@ -1,24 +1,24 @@
 {
-  "updated_at": "2026-03-20T03:25:59.944460+00:00",
+  "updated_at": "2026-04-18T17:39:12.853637+00:00",
   "updated_by": "claude-code",
   "last_commit": {
-    "sha": "f171f75",
-    "message": "feat: bookmark fetch 2026-03-16 \u2014 18 new tweets, full enrichment pipeline",
-    "date": "2026-03-16T21:17:03-07:00"
+    "sha": "70af973",
+    "message": "feat: data packages and infographic prompts for visualization experiments",
+    "date": "2026-03-23T18:34:21-07:00"
   },
   "stats": {
-    "tweets": 562,
-    "vault_notes": 555,
+    "tweets": 600,
+    "vault_notes": 592,
     "threads_scraped": 101,
-    "thread_replies_in_db": 29,
-    "links_resolved": 166
+    "thread_replies_in_db": 31,
+    "links_resolved": 189
   },
   "recent_changes": [
+    "Bookmark fetch 2026-04-18: 38 NEW tweets (600 total), full enrichment pipeline, vault export (590 notes)",
+    "Notable new: @claudeai Managed Agents (56979), auto mode (39185); @karpathy LLM KBs (56369); @trq212 Claude Code channels (25659), /ultraplan (10349); @bcherny hidden CLI thread (23135); @noahzweben /schedule (4352), Routines (3646)",
     "Bookmark fetch 2026-03-19: 6 NEW tweets (562 total), full enrichment pipeline, vault export (552 notes)",
     "Notable new: @felixrieseberg Cowork Dispatch (17270), @trq212 prompt trick (15011), @oliviscusAI PDF-to-markdown (7861), @PawelHuryn DESIGN.md (2522)",
-    "Bookmark fetch 2026-03-16: 18 NEW tweets (556 total), full enrichment pipeline, vault export (546 notes)",
-    "Notable new: @bcherny weekend usage doubling (7317), launch from phone (4628); @thisdudelikesAI Lightpanda (8239); @trq212 Opus 4.6 1M (2389); @SearchForRyan state.md (2202)",
-    "Bookmark fetch 2026-03-12: 1 NEW tweet (538 total), full enrichment pipeline, vault export (528 notes)"
+    "Bookmark fetch 2026-03-16: 18 NEW tweets (556 total), full enrichment pipeline, vault export (546 notes)"
   ],
   "known_issues": [
     "PROGRESS.md stale (last updated Jan 5)",
@@ -31,9 +31,9 @@
     "tengu_copper_bridge in ~/.claude.json may be reset to true by server-side GrowthBook sync \u2014 re-check if connections degrade"
   ],
   "key_dates": {
-    "last_bookmark_fetch": "2026-03-19",
-    "last_vault_export": "2026-03-19",
-    "last_enrichment_run": "2026-03-19",
+    "last_bookmark_fetch": "2026-04-18",
+    "last_vault_export": "2026-04-18",
+    "last_enrichment_run": "2026-04-18",
     "last_analysis_run": "2026-03-12",
     "last_enrichment_audit": "2026-02-12",
     "last_skill_rewrite": "2026-02-17",
@@ -47,7 +47,7 @@
   },
   "active_task": {
     "plan": "plans/active/TASK_PLAN.md",
-    "description": "Public launch — README rewrite, community map, weekly rhythms, repo audit",
+    "description": "Public launch \u2014 README rewrite, community map, weekly rhythms, repo audit",
     "current_phase": "Phase 1: Research & Inventory"
   }
 }
