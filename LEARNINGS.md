@@ -3,7 +3,7 @@
 > A quick-reference catalog of Claude Code techniques, organized by adoption status.
 > For fresh Claude instances to understand what's available vs. what we're already using.
 
-**Last Updated:** March 8, 2026
+**Last Updated:** March 16, 2026
 
 ---
 
@@ -26,17 +26,18 @@
 |--------|---------|-------|
 | GitHub MCP | Repo management, file access | Cross-repo coordination |
 | Filesystem MCP | Local file operations | Read/write/search |
-| Claude-in-Chrome | Browser automation | Native, no third-party extensions |
+| Chrome DevTools MCP | Browser automation (preferred) | Chrome 146+, CDP-based, no extension needed, 26 tools |
+| Claude-in-Chrome | Browser automation (fallback) | Extension-based, one connection at a time |
 | Codex MCP | OpenAI GPT integration | `claude mcp add --scope user --transport stdio codex -- codex mcp-server` |
-| Scheduled Tasks | Desktop recurring tasks | Cron-based, survives restarts |
+| Scheduled Tasks | Desktop recurring tasks | **Disabled** — unreliable (see below) |
 
-### Scheduled Tasks (Desktop)
-Three daily fetches configured (11am local):
-- `fetch-claude-code-tips` — X bookmarks + enrichment + analysis + vault export
-- `fetch-hall-of-fake` — Sora likes + video processing + clustering + vault export
-- `fetch-book-queue` — X bookmarks + Libby reading list + cross-reference + enrichment
+### Scheduled Tasks (Desktop) — DISABLED
+Three daily fetches were configured but **disabled March 16, 2026** due to reliability issues:
+- Tasks don't auto-execute (GitHub #32207, #30092)
+- Permission mode reverts to manual approval
+- Chrome connection contention unsolvable in unattended context
 
-Managed via `mcp__scheduled-tasks__*` tools. Task definitions at `~/.claude/scheduled-tasks/`.
+Task definitions remain at `~/.claude/scheduled-tasks/` for reference. Current approach: **manual terminal fetches** using prompts documented in `FETCH_PROMPT.md`. Future: evaluate `launchd` + `claude -p` with `--allowedTools`.
 
 ### Quality-Filtered Export
 Only export content that's been fully processed:
@@ -96,6 +97,25 @@ Boris uses `/commit-push-pr` dozens of times daily. Inner-loop automation.
 - Auto-restores after submission. Single-slot, session-scoped.
 - `Ctrl+G` opens prompt in external editor for longer edits
 - `Ctrl+R` reverse history search
+
+### Chrome DevTools MCP (Browser Automation)
+Official Google project (`ChromeDevTools/chrome-devtools-mcp`). Replaces Claude-in-Chrome as primary browser integration.
+- **Setup**: Chrome 146+ → `chrome://inspect/#remote-debugging` → enable toggle
+- **MCP config**: `npx -y chrome-devtools-mcp@latest --autoConnect` (already in `~/.claude.json`)
+- **26 tools**: input (click, fill, drag), navigation (navigate, list/select pages), debugging (evaluate_script, screenshot, snapshot), network (list/get requests), performance, emulation
+- **Slim mode**: 3 tools only (navigate, script, screenshot) to reduce token overhead (~18k tokens for full toolset)
+- **Key advantage**: No extension contention — connects via CDP to real browser with real cookies/auth. Multiple tabs independently addressable.
+- **Limitation**: CDP supports one debugger per tab (not per browser). Permission dialog per session.
+- Also see: `pasky/chrome-cdp-skill` — lightweight CLI alternative (12 commands, no Puppeteer dependency)
+
+### context: fork (Isolated Skill Execution)
+Skills can declare `context: fork` in frontmatter to run in an isolated subagent.
+- Parent only sees final summary, not intermediate tool calls
+- Gets fresh context with CLAUDE.md + SKILL.md (NOT a copy of parent conversation)
+- `agent` field sets subagent type: `Explore` (haiku, read-only), `Plan` (read-only), `general-purpose` (all tools)
+- **Gotcha**: Name is misleading — it's `spawn()` semantics, not `fork()`. No conversation history carries over.
+- Subagents cannot spawn other subagents.
+- Potential use: `/fetch-bookmarks` as a forked skill for isolation during long pipeline runs.
 
 ### Permissions (settings.json)
 Pre-allow safe bash commands: `git`, `gh` pre-allowed. Avoids `--dangerously-skip-permissions`.
@@ -209,7 +229,8 @@ From Lenny's Podcast (March 6, 2026, ~90 min):
 
 | Author | Likes | Topic |
 |--------|-------|-------|
-| @bcherny | 45,567 / 10,342 | Claude Code creator's vanilla setup / /loop |
+| @bcherny | 45,567 / 10,342 / 7,317 / 4,628 | Vanilla setup / /loop / Weekend doubling / Phone launch |
+| @thisdudelikesAI | 8,239 | Lightpanda headless browser |
 | @DejaVuCoder | 8,700 | Claude Code 2.0 guide |
 | @weswinder | 8,041 | Desktop apps over web apps |
 | @thejayden | 6,342 | Chief of Staff article (Jim Prosser) |
@@ -217,11 +238,15 @@ From Lenny's Podcast (March 6, 2026, ~90 min):
 | @nicopreme | 5,311 | Visual Explainer agent skill |
 | @chintanturakhia | 5,151 | Frequently-run prompt |
 | @mckaywrigley | 3,141 | Agent SDK / personal AGI |
+| @xpasky | 3,041 | Chrome 146 native MCP (CDP) |
+| @kelp_feeder | 2,826 | ESP32 token usage monitor |
 | @ArtemXTech | 2,703 | Grep Is Dead / QMD + /recall |
 | @RayFernando1337 | 2,465 | Skill-creator update |
+| @trq212 | 2,389 | Opus 4.6 1M in subscriptions |
 | @dickson_tsai | 2,262 | HTTP hooks (Anthropic engineer) |
+| @SearchForRyan | 2,202 | state.md for context scoping |
 | @adocomplete | 2,209 | Prompt stashing (Ctrl+S) |
-| @AnishA_Moonka | 2,002 | Boris on Lenny's Podcast notes |
+| @AnishA_Moonka | 2,002 / 1,861 | Lenny's Podcast notes / Context rot benchmark |
 
 ---
 

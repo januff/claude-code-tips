@@ -1,0 +1,242 @@
+{
+  "fetch_id": "fetch_2026-04-18_172933",
+  "completed_at": "2026-04-18T17:29:33.344593+00:00",
+  "source_file": "data/new_bookmarks_2026-04-18.json",
+  "dry_run": true,
+  "import": {
+    "total_in_file": 243,
+    "new": 38,
+    "existing": 205,
+    "errors": []
+  },
+  "new_tweets": [
+    {
+      "id": "2044920611215233397",
+      "author": "@felixrieseberg",
+      "text_preview": "Hi! I'm here with *another launch*, it just happens to be extremely niche, nerdy, and probably only ",
+      "likes": 1586
+    },
+    {
+      "id": "2044847848035156457",
+      "author": "@bcherny",
+      "text_preview": "Dogfooding Opus 4.7 the last few weeks, I've been feeling incredibly productive. Sharing a few tips ",
+      "likes": 11564
+    },
+    {
+      "id": "2044093913376706655",
+      "author": "@noahzweben",
+      "text_preview": "Claude Code Routines are here! In addition to a schedule, you can now trigger templated agents via G",
+      "likes": 3646
+    },
+    {
+      "id": "2043198982558830978",
+      "author": "@abhijitwt",
+      "text_preview": "If you're using Claude Code, start adding this line to your .md file:\n\n\u201cCodex will review your outpu",
+      "likes": 9504
+    },
+    {
+      "id": "2042671370186973589",
+      "author": "@trq212",
+      "text_preview": "New in Claude Code: /ultraplan\n\nClaude builds an implementation plan for you on the web. You can rea",
+      "likes": 10349
+    },
+    {
+      "id": "2042914348859867218",
+      "author": "@sharbel",
+      "text_preview": "\ud83d\udea8 Andrej Karpathy documented the exact ways LLMs fail at coding. Someone turned those observations i",
+      "likes": 4693
+    },
+    {
+      "id": "2042279712991355105",
+      "author": "@alliekmiller",
+      "text_preview": "Give me one minute, and I\u2019ll improve your Claude Code experience immediately. \n\nThis is the first sk",
+      "likes": 1092
+    },
+    {
+      "id": "2041927687460024721",
+      "author": "@claudeai",
+      "text_preview": "Introducing Claude Managed Agents: everything you need to build and deploy agents at scale.\n\nIt pair",
+      "likes": 56979
+    },
+    {
+      "id": "2040786022070644772",
+      "author": "@cmd_alt_ecs",
+      "text_preview": "Most YouTube tools for AI can read what was SAID in a video.\n\nI built one that can see what was SHOW",
+      "likes": 129
+    },
+    {
+      "id": "2039805659525644595",
+      "author": "@karpathy",
+      "text_preview": "LLM Knowledge Bases\n\nSomething I'm finding very useful recently: using LLMs to build personal knowle",
+      "likes": 56369
+    },
+    {
+      "id": "2038965567269249484",
+      "author": "@iamfakeguru",
+      "text_preview": "I reverse-engineered Claude Code's leaked source against billions of tokens of my own agent logs.\n\nT",
+      "likes": 9191
+    },
+    {
+      "id": "2038918662489510273",
+      "author": "@mal_shaik",
+      "text_preview": "https://t.co/PKHTg8RhvF",
+      "likes": 2246
+    },
+    {
+      "id": "2038661433626333649",
+      "author": "@itsolelehmann",
+      "text_preview": "https://t.co/LPpbf2ZJny",
+      "likes": 1991
+    },
+    {
+      "id": "2038758029940654507",
+      "author": "@Hesamation",
+      "text_preview": "this guy is on fire with the skills he\u2019s making. he turned Karpathy\u2019s LLM council into a Claude skil",
+      "likes": 876
+    },
+    {
+      "id": "2038670332094230851",
+      "author": "@dkundel",
+      "text_preview": "We love an open ecosystem!\n\nThe Codex plugin is built on top of the Codex app server so it uses the ",
+      "likes": 162
+    },
+    {
+      "id": "2038670330257109461",
+      "author": "@dkundel",
+      "text_preview": "I built a new plugin! You can now trigger Codex from Claude Code!\n\nUse the Codex plugin for Claude C",
+      "likes": 3441
+    },
+    {
+      "id": "2038670509768839458",
+      "author": "@reach_vb",
+      "text_preview": "https://t.co/II9ILcpPUX",
+      "likes": 1533
+    },
+    {
+      "id": "2038454357088457168",
+      "author": "@bcherny",
+      "text_preview": "12/ Use --bare to speed up SDK startup by up to 10x\n\nBy default, when you run claude -p (or the Type",
+      "likes": 544
+    },
+    {
+      "id": "2038454336355999749",
+      "author": "@bcherny",
+      "text_preview": "I wanted to share a bunch of my favorite hidden and under-utilized features in Claude Code. I'll foc",
+      "likes": 23135
+    },
+    {
+      "id": "2037915114322669698",
+      "author": "@daniel_mac8",
+      "text_preview": "This is amazing. Do this. https://t.co/wIgXv8WXHB",
+      "likes": 15660
+    },
+    {
+      "id": "2037299677599838490",
+      "author": "@mckaywrigley",
+      "text_preview": "anthropic\u2019s taste continues to be unmatched.\n\n- something cool comes out\n- nobody does anything with",
+      "likes": 483
+    },
+    {
+      "id": "2037267798905545216",
+      "author": "@amorriscode",
+      "text_preview": "I was looking into worktree usage for claude code desktop. A surprising amount of you folks don't us",
+      "likes": 264
+    },
+    {
+      "id": "2036503582166393240",
+      "author": "@claudeai",
+      "text_preview": "New in Claude Code: auto mode.\n\nInstead of approving every file write and bash command, or skipping ",
+      "likes": 39185
+    },
+    {
+      "id": "2036235321780621738",
+      "author": "@kr0der",
+      "text_preview": "just found out Claude Code has a new (unreleased?) feature called \"Auto-dream\" under /memory\n\naccord",
+      "likes": 2673
+    },
+    {
+      "id": "2036065138147471665",
+      "author": "@itsolelehmann",
+      "text_preview": "i deleted half my Claude setup last week and every output got BETTER\n\nsounds backwards, but anthropi",
+      "likes": 1695
+    },
+    {
+      "id": "2036162175325065281",
+      "author": "@JesusFerna7026",
+      "text_preview": "Is AI the biggest change in education since the printing press? Yes.\n\nThis weekend, I decided to lea",
+      "likes": 691
+    },
+    {
+      "id": "2036129220959805859",
+      "author": "@noahzweben",
+      "text_preview": "Use /schedule to create recurring cloud-based jobs for Claude, directly from the terminal. \n\nWe use ",
+      "likes": 4352
+    },
+    {
+      "id": "2035857346602340637",
+      "author": "@mvanhorn",
+      "text_preview": "https://t.co/AwabaZTtdp",
+      "likes": 2238
+    },
+    {
+      "id": "2035799806640115806",
+      "author": "@trq212",
+      "text_preview": "we're testing a new version of /init based on your feedback- it should interview you and help setup ",
+      "likes": 4072
+    },
+    {
+      "id": "2035521016814854441",
+      "author": "@joseph_h_garvin",
+      "text_preview": "Claude code rarely runs for longer than 15m without stopping and asking for input from me. How do al",
+      "likes": 5780
+    },
+    {
+      "id": "2035312729427480840",
+      "author": "@hasantoxr",
+      "text_preview": "Best GitHub repos for Claude code that will 10x your next project:\n\n1. Superpowers\nhttps://t.co/U5Y4",
+      "likes": 5594
+    },
+    {
+      "id": "2035214150545092845",
+      "author": "@louisvarge",
+      "text_preview": "i made a thing where now any Claude Code can send messages to any other Claude Code on my machine\n\nt",
+      "likes": 3946
+    },
+    {
+      "id": "2035372716820218141",
+      "author": "@trq212",
+      "text_preview": "I put a lot of heart into my technical writing, I hope it's useful to you all. \n\n\ud83d\udccc Here's a pinned t",
+      "likes": 7450
+    },
+    {
+      "id": "2035341800739877091",
+      "author": "@akshay_pachaar",
+      "text_preview": "https://t.co/SSSIK3BX4z",
+      "likes": 11272
+    },
+    {
+      "id": "2035093825509892565",
+      "author": "@chris__sev",
+      "text_preview": "Claude Code remote control always disconnects\n\nClaude Cowork Dispatch asks for permissions on every ",
+      "likes": 744
+    },
+    {
+      "id": "2035082303932694773",
+      "author": "@emollick",
+      "text_preview": "Skill.md issue is great and I am stealing it.",
+      "likes": 728
+    },
+    {
+      "id": "2035088515332284651",
+      "author": "@lydiahallie",
+      "text_preview": "Claude Code on desktop lets you select DOM elements directly, much easier than describing which comp",
+      "likes": 4665
+    },
+    {
+      "id": "2034761016320696565",
+      "author": "@trq212",
+      "text_preview": "We just released Claude Code channels, which allows you to control your Claude Code session through ",
+      "likes": 25659
+    }
+  ]
+}

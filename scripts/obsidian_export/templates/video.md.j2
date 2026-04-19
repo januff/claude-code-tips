@@ -27,6 +27,7 @@ tags:
 > [!video] @{{ video.creator }} · {{ video.duration or '?' }}s · {{ date_display }}
 > **Prompt:** {{ (video.prompt or 'No prompt available') | replace('\n', ' ') }}
 > **Likes:** {{ likes_fmt }} · **Views:** {{ views_fmt }} · **Remixes:** {{ video.remixes }}
+> [Sora](https://sora.chatgpt.com/p/s_{{ video.video_id }})
 
 ## Video
 
