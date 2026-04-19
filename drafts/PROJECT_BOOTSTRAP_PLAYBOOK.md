@@ -1,7 +1,10 @@
 # Project Bootstrap Playbook
 
-> A template for turning scattered AI-assisted work into a coherent, team-shareable, Claude-ready project.
-> Draft v0.1 — April 2026
+> A template for turning scattered AI-assisted work into a coherent, team-shareable, LLM-ready project.
+>
+> **Version:** v0.2 — April 2026
+> **Changes from v0.1:** Reorganized around Karpathy's `raw/` vs. `wiki/` separation as the core architecture. LLM-compiled wiki is now the default, with human editing positioned as correction-not-origination. Obsidian replaces GitHub web view as the recommended frontend for non-technical teams. Audit-your-setup ritual incorporated into Phase 5 after experimental validation. Distributed enrichment / token budget coordination promoted to its own section.
+>
 > Maintained in: [claude-code-tips](https://github.com/januff/claude-code-tips)
 
 ---
@@ -30,64 +33,83 @@ This playbook is a way to get there without a 10-day engineering project.
 
 ## Core Principles
 
-**1. The institutional memory is the product.**
-Before there's a product, before there's code, before there's a team process — there's *what this project knows*. Capture that well and everything else becomes cheaper.
+### 1. Raw vs. wiki — the foundational split
 
-**2. Four layers, not one document.**
-Don't try to write one big doc. Write four small ones that work together:
+Borrowed from Andrej Karpathy's April 2026 observation on LLM Knowledge Bases:
 
-| Layer | Purpose | Who reads it |
-|-------|---------|--------------|
-| **Inventory** | What sources exist, where they live | Humans + AI, on bootstrap |
-| **Summary** | The "read this first" orientation (5 min) | Any new instance |
-| **Depth** | Full chat archives, documents, specs | On-demand, when relevant |
-| **Living** | STATUS, active tasks, decisions log | Every session, automatically |
+> "I index source documents (articles, papers, repos, datasets, images, etc.) into a raw/ directory, then I use an LLM to incrementally 'compile' a wiki, which is just a collection of .md files in a directory structure."
 
-**3. Privacy-first filtering.**
-Never move data until you've indexed it. Never commit data until you've seen what's in it. Gitignore the archive folder *before* populating it.
+This single architectural move is the most important decision in the playbook. Two directories, different jobs:
 
-**4. Non-technical teammates are first-class.**
-The pattern has to work for someone who doesn't use GitHub directly or the terminal. That means: their Claude is their valet for git/GitHub operations. They never touch a commit command themselves.
+- **`raw/`** — everything unprocessed. Chat exports. PDFs. Screenshots. Email archives. Meeting transcripts. Spreadsheet dumps. Downloaded web pages. Never manually edited after capture.
+- **`wiki/`** — concept articles that synthesize across raw sources. Maintained by the LLM, reviewed by humans. Every article backlinks to its raw sources.
 
-**5. Distribute the enrichment.**
-Each team member's Claude contributes indexing and summaries of the slice they own. No single Claude instance has to read everything.
+**Why this matters:** source material grows continuously (new chats, new meetings, new docs). Synthesis happens in compilation passes, not in the moment of ingestion. Without this split, you end up editing raw material in place — which breaks provenance — or writing synthesis notes that can't cite their sources.
+
+### 2. The LLM writes the wiki; humans correct it
+
+Again from Karpathy:
+
+> "the LLM writes and maintains all of the data of the wiki, I rarely touch it directly."
+
+This inverts how most teams think about knowledge bases. You don't sit down to write a concept article; you point the LLM at the raw material and review what it produces. Your job is to:
+
+- Decide what concepts the wiki should cover
+- Review and correct LLM-produced articles
+- Add editorial voice and judgment the LLM can't supply
+- Flag gaps for the next compilation pass
+
+This is especially important for teams with mixed technical comfort — non-technical teammates can critique an LLM-drafted article without having to draft one.
+
+### 3. Obsidian is the default frontend
+
+Obsidian renders Markdown natively, supports `[[wiki links]]` and backlinks, offers a graph view, and works without internet access. It's free and doesn't require GitHub literacy. For non-technical team members, "install Obsidian, open the project folder" is meaningfully easier than "clone the repo and use GitHub web view."
+
+GitHub remains the collaboration and version control surface. Obsidian is the *reading* and *thinking* surface. Both can coexist on the same folder.
+
+### 4. Privacy-first filtering
+
+Never move data until you've indexed it. Never commit data until you've seen what's in it. `.gitignore` the archive folder *before* populating it.
+
+### 5. Distributed enrichment — coordinate token budgets
+
+On a team, no single Claude instance should have to read everything. Each team member's Claude enriches the slice they own:
+
+- Will (founder) compiles concept articles on strategy and partnership
+- Josh (technical lead) compiles concept articles on data model and architecture
+- John (systems) compiles concept articles on integrations and deployment
+- Helen (operations) compiles concept articles on customer and workflow
+
+Coordination happens through the wiki itself — article ownership, last-edited-by metadata, and a shared understanding of who compiles what. This is how you keep the combined enrichment cost manageable even at team scale.
 
 ---
 
 ## Phase 0: Assess Your Starting Condition
 
-Before you bootstrap, figure out which entry point you're starting from. These are ranked by cleanliness of starting data.
+Before bootstrapping, figure out your entry point. Ranked by cleanliness:
 
 ### Entry Point A: Claude Desktop Project Folders (cleanest)
 
 **You have:** Multiple named projects in the Claude.ai sidebar, each containing related conversations.
 
-**Why this is easy:** The categorization work is already done. A "Partnership Outreach" project already contains only partnership outreach conversations.
+**Why this is easy:** Categorization is done. A "Partnership Outreach" project contains only partnership outreach conversations.
 
-**How to extract:** Claude.ai → Settings → Privacy → Export Data → zip arrives by email.
+**How to extract:** Claude.ai → Settings → Privacy → Export Data.
 
 ### Entry Point B: Flat Claude History (moderately clean)
 
-**You have:** A long list of conversations, not organized into projects.
-
-**How to extract:** Same as A — the export includes both.
-
-**Extra work:** Filtering step needs to be topic-based (keywords, dates) rather than project-based.
+Filtering is topic-based (keywords, dates) rather than project-based.
 
 ### Entry Point C: ChatGPT / Gemini / Other Platform (messier)
 
-**You have:** History in another AI platform.
-
-**How to extract:**
-- ChatGPT: Settings → Data Controls → Export data (zip, includes `conversations.json`)
+- ChatGPT: Settings → Data Controls → Export data (different JSON schema than Claude's)
 - Gemini: Google Takeout → Gemini Apps activity
-- Both formats differ from Claude's. Plan for a format adapter step.
+
+Plan for a format adapter step.
 
 ### Entry Point D: No Usable AI History (starting fresh)
 
-**You have:** Only documents, emails, decks, and institutional knowledge in your head.
-
-**How to proceed:** Skip to Phase 2 and seed the Summary layer via interview prompts with Claude. The Depth layer builds from documents instead of chats.
+Only documents, emails, decks, and institutional knowledge. Skip directly to Phase 2 and seed the wiki via interview prompts. The raw layer builds from documents; no chat export step.
 
 ---
 
@@ -95,46 +117,28 @@ Before you bootstrap, figure out which entry point you're starting from. These a
 
 This phase happens on the project owner's machine only. Nothing gets shared, committed, or sent anywhere external.
 
-### 1a. Request the data export
+### 1a. Gitignore first, unzip second
 
-Use the relevant platform's export mechanism. Wait for the email (usually minutes, sometimes hours).
-
-### 1b. Gitignore first, unzip second
-
-Before unzipping the export into your repo folder:
-
-```bash
-cd ~/Development/YOUR_PROJECT
-echo "project-memory/chat-archive/" >> .gitignore
-echo "*.export.zip" >> .gitignore
-git add .gitignore && git commit -m "chore: gitignore chat archive (private)"
-```
-
-Or, if you're non-technical, paste this into your Claude Code terminal session:
+Before unzipping any export into your repo folder, add `raw/` subpaths that contain private material to `.gitignore`. Have your Claude do this for you:
 
 ```
-Please add these lines to the .gitignore in my project folder, then commit with message "chore: gitignore chat archive (private)":
+Please add these lines to .gitignore, then commit with message
+"chore: gitignore raw chat archive (private)":
 
-project-memory/chat-archive/
+raw/chat-archive/
+raw/email-archive/
 *.export.zip
 ```
 
-### 1c. Index before extracting content
+### 1b. Index before extracting content
 
-Have Claude Code read `projects.json` (or equivalent) and list every project/conversation with metadata only:
+Have Claude read `projects.json` (or equivalent) and list every project/conversation with metadata only. No content yet.
 
-- Project/conversation name
-- Date range
-- Message count
-- One-sentence summary (from the `summary` field if present)
+Save the output to `raw/chat-archive-inventory.md`. This file can be committed — it's just metadata.
 
-**Do not write message content yet.** The goal at this step is to produce a *map* so you can decide what to keep.
+### 1c. Human review pass
 
-Save the output to `project-memory/chat-archive-inventory.md`. This file can be committed — it's just metadata.
-
-### 1d. Human review pass
-
-Read the inventory. Flag anything that shouldn't be in the team-shared memory:
+Read the inventory. Flag anything that shouldn't be in the team-shared wiki:
 
 - Investor conversations (privileged)
 - NDA'd discussions
@@ -142,56 +146,67 @@ Read the inventory. Flag anything that shouldn't be in the team-shared memory:
 - Personal / unrelated content
 - Legal matters
 
-Maintain a `project-memory/EXCLUDED.md` file with dates and titles only (no content) of anything you're affirmatively excluding. This gives you an auditable record of your filtering decisions.
+Maintain `raw/EXCLUDED.md` with dates and titles only of anything you're excluding. Auditable record of filtering decisions.
 
-### 1e. Extract content for the approved slice
+### 1d. Extract content for the approved slice
 
-Now Claude Code writes the actual chat content into `project-memory/chat-archive/` — but only for the projects/conversations that passed review.
+Now Claude writes the actual chat content into `raw/chat-archive/` — but only for the projects/conversations that passed review.
 
-Format: one subfolder per project, with a `00_index.md` (conversation list) and one file per conversation with the message transcript + metadata.
+Format: one subfolder per project, with `00_index.md` (conversation list) and one file per conversation with full transcript + metadata.
 
 ---
 
-## Phase 2: Build the Summary Layer
+## Phase 2: Compile the Wiki (LLM-Driven)
 
-This is the "read this first" layer. Four short files, each under 500 words:
+This is where the Karpathy pattern kicks in. The wiki is the synthesis layer. You don't write it — you point the LLM at the raw material and have it compile.
 
-### `project-memory/WHO.md`
+### 2a. Decide on the concept taxonomy
 
-Team roster. For each person:
+Before any compilation, decide what concepts the wiki should cover. Start with 5-10, not 50. Categories that usually earn articles:
 
-- Name, role, contact (email / Slack handle)
-- Technical comfort level (scale: "comfortable with terminal + git" / "can edit files, struggles with git" / "needs Claude as valet for everything")
-- What they own
-- Their AI platform of choice (for distributed enrichment coordination)
+- Core product/service concepts (your domain-specific ideas)
+- Methodology / approach (how you think about the problem)
+- Key personas (team, partners, customers)
+- Pivotal events (launches, pivots, milestone meetings)
+- Open questions (things that are explicitly unresolved)
 
-### `project-memory/WHAT.md`
+For a startup, good concept candidates include: the product thesis, the target customer, the technical architecture, the competitive landscape, the go-to-market approach, the founding story.
 
-Product vision in one page. Sections:
+### 2b. LLM compilation prompt
 
-- The product in one sentence
-- The core insight that makes it different
-- Current state (what exists, what works, what's broken)
-- Open strategic questions (the things that are *not* settled)
+For each concept, ask Claude:
 
-### `project-memory/WHY.md`
+```
+Compile a concept article on [TOPIC] from the raw/ directory.
 
-Founder principles. What this project will and won't do. Strategic non-negotiables. The kinds of partnerships to pursue vs. decline. Basically: what you'd tell someone you just hired on day one that's hard to infer from the codebase.
+Structure:
+1. A 2-3 sentence synthesis paragraph at the top
+2. ## Key points — bulleted summary of the substantive content
+3. ## Sources — backlinks to every raw/ file that informed the article,
+   in [[wiki-link]] format, with 1-sentence context for each
+4. ## Related concepts — stubbed [[wiki-links]] to other articles that
+   should exist
+5. ## Open questions — genuine disagreements or unresolved points
+6. A last-updated timestamp
 
-### `project-memory/DECISIONS.md`
+Do not include information that isn't in the raw sources. If something
+should probably be said but isn't substantiated by the sources, put it
+in Open questions instead.
+```
 
-Architectural decisions log. For each significant decision:
+### 2c. Human review
 
-- Date
-- Decision
-- Alternatives considered
-- Why we chose this
+Read each article. Correct factual errors. Add editorial voice. Flag gaps. The LLM's job was synthesis; yours is judgment.
 
-This is the file that prevents re-litigating settled questions across sessions and team members.
+### 2d. Fill in the spine files
 
-### `project-memory/GLOSSARY.md` (optional but highly recommended)
+In addition to concept articles, the wiki has spine files that are human-written (because they encode team-level decisions that can't be compiled):
 
-Every domain-specific term, acronym, or internal shorthand. For HAND/H&D, that's "CBN signal," "archetype," "registry window," "pre-registration stub." For your project, it's whatever insiders know that outsiders don't.
+- `wiki/_index.md` — auto-regenerated list of all concept articles
+- `wiki/CLAUDE.md` — bootstrap instructions for new Claude instances in the wiki
+- `wiki/WHO.md` — team roster with roles, contact, technical comfort level, wiki ownership
+- `wiki/DECISIONS.md` — architectural decisions log
+- `wiki/GLOSSARY.md` — domain-specific terms and acronyms
 
 ---
 
@@ -199,55 +214,53 @@ Every domain-specific term, acronym, or internal shorthand. For HAND/H&D, that's
 
 ### `CLAUDE.md`
 
-The bootstrap instructions any Claude instance reads on cold start. Should point at `STATUS.json`, `project-memory/`, and any active plans. Model it after a good onboarding doc — not comprehensive, but sufficient.
+Bootstrap instructions any Claude instance reads on cold start. Points at `STATUS.json`, `wiki/_index.md`, and any active plans. Keep it small — a tested, audited CLAUDE.md for a mature project is ~100 lines. See [Experiment 2 audit](https://github.com/januff/claude-code-tips/blob/main/analysis/audits/2026-04-18-claude-md-audit.md) for what to cut.
 
 ### `STATUS.json`
 
-Machine-readable project state. Updated by hooks, readable by any instance. Typical fields: active task, recent changes, known issues, key dates, stats.
+Machine-readable project state. Fields: active_task, recent_changes, known_issues, key_dates, stats. Updated by hooks, readable by any instance.
 
 ### `plans/active/` and `plans/archive/`
 
-Task plans for multi-step work. Active plans live in `active/`. When done, move to `archive/YYYY-MM-DD-task-name.md`. This gives any new instance a history of what's been attempted and what's in flight.
+Task plans for multi-step work. Active plans live in `active/`; archive completed ones as `archive/YYYY-MM-DD-task-name.md`.
 
 ### `.claude/hooks/`
 
-At minimum: a pre-compact hook that persists STATUS.json, and a session-end hook that updates it. This is what makes the system self-maintaining.
+At minimum: pre-compact hook that persists STATUS.json, session-end hook that updates it. This is what makes the system self-maintaining.
 
-### `.claude/skills/`
+### `.claude/commands/`
 
-Project-specific skills. For a team project, consider:
+Project-specific skills. Consider:
 
+- `wiki-compile` — re-run compilation for a named concept article
+- `wiki-lint` — find orphan raw files, stale concept articles, broken backlinks
 - `onboard` — walks a new team member through the repo
-- `brief` — generates a status briefing for a specific team member role
-- `handoff` — produces a self-contained prompt for handing work to another instance
 
 ---
 
 ## Phase 4: Team Enrollment
 
-The hardest part is not the technical setup. It's getting the rest of the team to adopt the pattern.
-
 ### For technical team members
 
-Give them read access to the repo. They'll figure it out. Consider a brief readme that says "clone this, open a Claude Code session in the folder, ask it what's going on."
+Clone the repo. Install Obsidian and point it at the folder. Open a Claude Code session. Done.
 
 ### For non-technical team members
 
-Three options, in order of ergonomic cost:
+Three adoption tiers:
 
-1. **Browser-based** — they read `project-memory/` files on GitHub.com (renders Markdown natively) and participate in discussions via Claude.ai.
-2. **Claude Desktop app with project folder** — they create a Claude project in the Desktop app and upload the `project-memory/` files. Their Claude has project context but can't commit to the repo.
-3. **Claude Code terminal session with Remote Control** — fullest capability. One-time setup required. Their Claude can read, write, and commit on their behalf.
-
-Option 3 is the most powerful but requires the most onboarding. Start with option 1 and upgrade if they're interested.
+1. **Obsidian-only** — they install Obsidian, open the project folder, read the wiki with native Markdown rendering, backlinks, and graph view. No terminal, no GitHub.
+2. **Obsidian + Claude.ai for questions** — they use Obsidian to read and Claude.ai to ask questions about the wiki (copy-paste relevant articles into a Claude.ai project).
+3. **Obsidian + Claude Code with Remote Control** — fullest capability. Their Claude can read the wiki, answer questions, and commit updates on their behalf. Requires one-time terminal setup, then everything works from phone or desktop app.
 
 ### Token budget coordination
 
-If the team shares subscription limits or is worried about API costs, coordinate who does what:
+On a team, each member's Claude enriches the slice they own. Track ownership in `wiki/WHO.md` — who compiles which concept articles. Periodic coordination ensures nobody is redundantly compiling the same concept from overlapping sources.
 
-- Owner does the heavy initial indexing (Phase 1)
-- Each team member's Claude enriches only the slice they own
-- A "digest" session on a shared machine (or with lowest-rate-limit concern) produces the weekly summaries
+For projects with team-subscription limits or API cost concerns:
+
+- Owner does the initial heavy indexing in Phase 1
+- Each team member's Claude compiles only their assigned slice
+- A single "digest" session on a shared machine produces the weekly summaries
 
 ---
 
@@ -255,32 +268,63 @@ If the team shares subscription limits or is worried about API costs, coordinate
 
 The bootstrap is not a one-time event.
 
-- **Re-run the filter step monthly.** Your chat history keeps growing. So should the archive.
-- **Review `project-memory/` files weekly.** They go stale fast.
-- **Archive old plans.** `plans/active/` should have at most 3–5 items. More than that means work is accumulating without closing.
-- **Rewrite CLAUDE.md quarterly.** It accumulates corrections and workarounds. Rewriting from scratch is faster than patching.
+### Audit-your-setup ritual (from [@itsolelehmann](https://x.com/itsolelehmann/status/2036065138147471665), validated in this project's [Experiment 2](https://github.com/januff/claude-code-tips/blob/main/analysis/audits/2026-04-19-ab-test-findings.md))
+
+Every ~30 days, ask Claude to audit its own setup against these five questions:
+
+1. Is this something Claude already does by default?
+2. Does this contradict or conflict with another rule?
+3. Does this repeat something already covered elsewhere?
+4. Does this read like a one-off fix for one bad output rather than a general improvement?
+5. Is this so vague that it would be interpreted differently every time?
+
+Apply cuts only after A/B testing against 2-3 common tasks. Validated result from this project's own run: ~60% of a long-lived CLAUDE.md was bloat.
+
+### Wiki maintenance
+
+- **Re-run raw ingestion monthly.** Your chat history keeps growing.
+- **Recompile concept articles when raw sources change.** Track this via LLM linting passes.
+- **Archive stale open questions.** Move resolved questions into the article body with resolution notes.
+- **Rewrite CLAUDE.md quarterly.** It accumulates corrections and workarounds.
 
 ---
 
-## Appendix A: Entry Point Specifics
+## Appendix A: Directory Layout
 
-### Claude.ai Data Export Format
-
-The zip contains:
-- `conversations.json` — all chat history
-- `projects.json` — Claude.ai projects + uploaded files
-- `memories.json` — auto-memory entries
-- `users.json` — account metadata
-
-`projects.json` has a `uuid` you can cross-reference against `conversations.json[].project_uuid` to filter conversations by project.
-
-### ChatGPT Data Export Format
-
-The zip contains `conversations.json` (different schema than Claude's — uses `mapping` nested structure) plus various other JSON files. A format adapter is needed to normalize to the Claude structure if you want the same tooling to work.
-
-### Gemini Data Export Format
-
-Via Google Takeout. Includes HTML-rendered conversation views. Less structured than either Claude or ChatGPT exports. Expect to do more manual filtering.
+```
+YOUR_PROJECT/
+├── CLAUDE.md                       # Bootstrap instructions for any Claude instance
+├── STATUS.json                     # Machine-readable project state
+├── README.md                       # Public-facing
+│
+├── raw/                            # Source material, unprocessed
+│   ├── chat-archive/               # Chat exports (gitignored if private)
+│   ├── documents/                  # PDFs, decks, emails, screenshots
+│   ├── meeting-transcripts/
+│   ├── chat-archive-inventory.md   # Metadata-only index, committable
+│   └── EXCLUDED.md                 # Audit trail of excluded content
+│
+├── wiki/                           # LLM-compiled synthesis layer (Obsidian vault)
+│   ├── _index.md                   # Auto-maintained
+│   ├── CLAUDE.md                   # Wiki-specific bootstrap
+│   ├── WHO.md                      # Team roster
+│   ├── DECISIONS.md                # Architectural decisions log
+│   ├── GLOSSARY.md                 # Domain terms
+│   ├── concepts/                   # Concept articles
+│   ├── people/                     # Individual-focused articles
+│   └── events/                     # Pivotal moments
+│
+├── plans/
+│   ├── active/
+│   └── archive/
+│
+├── .claude/
+│   ├── hooks/
+│   ├── commands/
+│   └── settings.json
+│
+└── [product code, if any]          # e.g., src/, app/, lib/
+```
 
 ---
 
@@ -288,21 +332,48 @@ Via Google Takeout. Includes HTML-rendered conversation views. Less structured t
 
 | Task | Best tool |
 |------|-----------|
-| First index of chat history | Claude Code terminal session in the project folder |
-| Reading Markdown | GitHub.com web view, or paste into Claude.ai |
-| Writing to the repo from a phone | Claude Code terminal session with `--remote-control` |
-| Team review of `project-memory/` | GitHub.com browser view |
-| Syncing from Atlassian (Jira/Confluence) | Claude Code session with MCP or API calls |
-| Collaborative planning | Shared markdown file in the repo, not Google Docs |
+| First index of chat history | Claude Code terminal in project folder |
+| Reading the wiki | Obsidian (primary) or GitHub web view (fallback) |
+| Writing to the repo from a phone | Claude Code terminal with `--remote-control` |
+| Team review of concept articles | Obsidian with `Graph View` and `Backlinks` panes |
+| Syncing from Atlassian / Jira | Claude Code session with MCP or API calls |
+| Collaborative planning | Shared Markdown file in the repo |
 
 ---
 
-## Appendix C: What This Playbook Doesn't Do
+## Appendix C: Export Format References
 
-- **Doesn't replace direct human conversation.** Alignment still happens in meetings and calls. The playbook just reduces the cost of the context-transfer work that happens around those conversations.
-- **Doesn't solve the "too many projects" problem.** If you're running 10 projects, bootstrapping each one is still a commitment. Start with the most active.
-- **Doesn't guarantee adoption.** A team that doesn't want to use AI-assisted tooling won't start because you built them a nice directory structure. This works when the will is already there.
+### Claude.ai Data Export
+
+The zip contains: `conversations.json`, `projects.json`, `memories.json`, `users.json`.
+
+### ChatGPT Data Export
+
+Contains `conversations.json` with different schema (nested `mapping` structure). A format adapter is needed.
+
+### Gemini Data Export
+
+Via Google Takeout, HTML-rendered conversation views. Less structured; expect more manual filtering.
 
 ---
 
-*This playbook is itself a living document. See [claude-code-tips](https://github.com/januff/claude-code-tips) for updates. Issues and pull requests welcome.*
+## Appendix D: Cited Sources
+
+This playbook synthesizes community best practices. Key sources:
+
+- **Andrej Karpathy** ([@karpathy](https://x.com/karpathy/status/2039805659525644595), April 2, 2026, 56k likes) — LLM Knowledge Bases pattern; origin of the raw/wiki split and LLM-maintained-wiki principle.
+- **itsolelehmann** ([@itsolelehmann](https://x.com/itsolelehmann/status/2036065138147471665), March 23, 2026, 1.7k likes) — Audit-your-setup ritual.
+- **Forrest Chang** via Sharbel ([@sharbel](https://x.com/sharbel/status/2042914348859867218), April 11, 2026) — `andrej-karpathy-skills` repo; validates Boris Cherny's CLAUDE.md minimalism guidance.
+- **Boris Cherny** (Claude Code creator, various threads) — CLAUDE.md ~2.5k token budget.
+
+---
+
+## Appendix E: What This Playbook Doesn't Do
+
+- **Doesn't replace direct human conversation.** Alignment happens in meetings. The playbook reduces context-transfer cost around those conversations.
+- **Doesn't solve the "too many projects" problem.** Start with the most active one.
+- **Doesn't guarantee adoption.** Teams that don't want AI-assisted tooling won't start because you built them a nice directory structure. This works when the will is already there.
+
+---
+
+*This playbook is a living document. Updates welcome via issues or PRs in the [claude-code-tips repo](https://github.com/januff/claude-code-tips).*
