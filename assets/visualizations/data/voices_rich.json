@@ -1,0 +1,882 @@
+[
+  {
+    "handle": "trq212",
+    "display_name": "Thariq",
+    "is_team": true,
+    "bookmarks": 10,
+    "total_likes": 65283,
+    "avg_likes": 6528.3,
+    "top_tweets": [
+      {
+        "text": "We just added /btw to Claude Code! \n\nUse it to have side chain conversations while Claude is working. https://t.co/hjO3YqvrPr",
+        "likes": 24025,
+        "posted_at": "2026-03-10T23:03:39.000Z",
+        "one_liner": "Use the `/btw` command in Claude Code to have in-editor conversations about your code logic with Claude.",
+        "primary_keyword": "/btw",
+        "holistic_summary": "Claude Code now supports the `/btw` command for in-editor side conversations. This allows users to ask questions about the code and receive explanations from Claude directly within the coding environment, as demonstrated by the example question about the `fetchWithRetry()` function's retry logic. This workflow avoids context switching and keeps you focused on your code."
+      },
+      {
+        "text": "https://t.co/45C3gKydTK",
+        "likes": 15011,
+        "posted_at": "2026-03-17T16:53:48.000Z",
+        "one_liner": "Learn how to refine your Claude prompts by iteratively analyzing responses and adjusting instructions for more accurate and targeted results.",
+        "primary_keyword": "underrated-trick",
+        "holistic_summary": "This tip focuses on efficient prompt engineering with Claude to refine outputs. It demonstrates a technique of iteratively improving prompts by analyzing Claude's response and then modifying the prompt to steer the model towards the desired outcome. This approach involves understanding Claude's reasoning to create more precise and effective instructions, rather than relying on pure guesswork."
+      },
+      {
+        "text": "https://t.co/nKTDfC7zMm",
+        "likes": 9163,
+        "posted_at": "2026-02-27T19:20:11.000Z",
+        "one_liner": "Learn how to design better agent tools for Claude by matching tool capabilities to evolving model strengths and revisiting assumptions about model limitations.",
+        "primary_keyword": "AskUserQuestionTool",
+        "holistic_summary": "This Claude Code tip highlights lessons learned in designing effective agent tools, emphasizing the importance of aligning tool design with model capabilities. It details the evolution of tools like AskUserQuestion, the shift from TodoWrite to Tasks for improved subagent coordination, and the transition from RAG to Grep for context retrieval. The key insight is to continuously revisit assumptions about model abilities as they improve, utilizing techniques like progressive disclosure to add functionality without creating entirely new tools."
+      },
+      {
+        "text": "https://t.co/taVRqwm4dG",
+        "likes": 4511,
+        "posted_at": "2026-02-19T19:57:42.000Z",
+        "one_liner": "A Claude coding tip promises to improve developer efficiency by demonstrating a specific action or insight but needs link or media analysis for details.",
+        "primary_keyword": "AskUserQuestionTool",
+        "holistic_summary": "This tip likely covers a Claude coding technique, command, or workflow that can improve developer efficiency. Without media or analyzed link content, the precise details are unavailable. However, the tweet probably demonstrates a specific action or insight related to using Claude for code generation or manipulation, intending to showcase a valuable application of the tool."
+      },
+      {
+        "text": "a few Friday afternoon ships to end the week:\n\nthe AskUserQuestion tool can now show markdown snippets to display diagrams, code examples, etc. https://t.co/pjiaYlVNdR",
+        "likes": 4507,
+        "posted_at": "2026-02-28T00:38:20.000Z",
+        "one_liner": "Claude's 'AskUserQuestion' tool now supports markdown display for richer content, and the config panel offers customizable layouts ('Compact', 'Spacious', 'Sidebar').",
+        "primary_keyword": "AskUserQuestionTool",
+        "holistic_summary": "The Claude coding tip introduces the 'AskUserQuestion' tool's ability to display markdown snippets, enabling clearer presentation of diagrams and code examples within the user interface. The accompanying video demonstrates how to configure the layout of the Claude config panel using the 'Compact', 'Spacious', and 'Sidebar' settings, allowing for customized viewing preferences. This improvement allows developers to better structure information conveyed to users, enhancing clarity and comprehension during interactions with the model."
+      }
+    ],
+    "top_categories": [
+      "tooling",
+      "context-management",
+      "planning"
+    ]
+  },
+  {
+    "handle": "bcherny",
+    "display_name": "Boris Cherny",
+    "is_team": true,
+    "bookmarks": 6,
+    "total_likes": 47270,
+    "avg_likes": 7878.3,
+    "top_tweets": [
+      {
+        "text": "In the next version of Claude Code..\n\nWe're introducing two new Skills: /simplify and /batch. I have been using both daily, and am excited to share them with everyone.\n\nCombined, these kills automate much of the work it used to take to (1) shepherd a pull request to production and (2) perform straightforward, parallelizable code migrations.",
+        "likes": 11976,
+        "posted_at": "2026-02-28T00:03:04.000Z",
+        "one_liner": "Claude Code's new `/simplify` and `/batch` skills automate code improvements and parallel migrations, saving time and effort.",
+        "primary_keyword": "/simplify and /batch",
+        "holistic_summary": "The upcoming version of Claude Code introduces the `/simplify` and `/batch` skills to streamline code improvements and parallel migrations. These commands automate tasks previously requiring manual effort, making it easier to get pull requests production-ready and execute straightforward code migrations efficiently. Use `/simplify` to enhance code quality and `/batch` to automate parallel migrations."
+      },
+      {
+        "text": "Introducing: built-in git worktree support for Claude Code \n\nNow, agents can run in parallel without interfering with one other. Each agent gets its own worktree and can work independently.\n\nThe Claude Code Desktop app has had built-in support for worktrees for a while, and now we're bringing it to CLI too.\n\nLearn more about worktrees: https://t.co/JFkD2DrAmT",
+        "likes": 10946,
+        "posted_at": "2026-02-21T00:39:20.000Z",
+        "one_liner": "Claude Code CLI now supports Git worktrees using the `--worktree` flag, enabling parallel agent execution without conflicts.",
+        "primary_keyword": "git worktree",
+        "holistic_summary": "Claude Code now supports Git worktrees in its CLI, mirroring existing functionality in the desktop app. This allows multiple agents to operate in parallel within separate worktrees of the same Git repository, preventing interference. The key action is using the `--worktree` flag with the `claude` command, as demonstrated in the attached image, to manage these isolated workspaces."
+      },
+      {
+        "text": "Released today: /loop\n\n/loop is a powerful new way to schedule recurring tasks, for up to 3 days at a time\n\neg. \u201c/loop babysit all my PRs. Auto-fix build issues and when comments come in, use a worktree agent to fix them\u201d\n\neg. \u201c/loop every morning use the Slack MCP to give me a summary of top posts I was tagged in\u201d\n\nLet us know what you think!",
+        "likes": 10342,
+        "posted_at": "2026-03-07T08:08:47.000Z",
+        "one_liner": "Claude's `/loop` command schedules recurring tasks for up to 3 days, automating workflows like PR management and information summarization.",
+        "primary_keyword": "/loop",
+        "holistic_summary": "The new `/loop` command in Claude enables users to schedule recurring tasks for up to three days. This allows automation of workflows like PR babysitting and Slack summarization. By using `/loop`, users can define actions to be repeated on a defined schedule, streamlining repetitive processes."
+      },
+      {
+        "text": "We doubled Claude usage on weekends, and outside 5\u201311am PT on weekdays for the next 2 weeks.",
+        "likes": 7317,
+        "posted_at": "2026-03-14T20:52:29.000Z",
+        "one_liner": "Claude AI usage is doubled on weekends and off-peak weekday hours (5-11am PT) for the next 2 weeks, likely improving response times.",
+        "primary_keyword": "doubled-usage",
+        "holistic_summary": "This tip highlights a temporary change in Claude's usage patterns. For the next two weeks, users can expect improved access to Claude AI during weekends and outside peak weekday hours (5-11am PT), potentially leading to faster response times. This suggests that user demand fluctuates, and Claude's team is proactively managing resources to optimize performance during off-peak times."
+      },
+      {
+        "text": "\ud83e\udd2f You can now launch Claude Code sessions on your laptop *from your phone*\n\nThis blew my mind the first time I tried it",
+        "likes": 4628,
+        "posted_at": "2026-03-13T22:04:45.000Z",
+        "one_liner": "Start Claude Code sessions on your laptop remotely using your phone for ultimate coding flexibility.",
+        "primary_keyword": "launch-code-sessions-from-phone",
+        "holistic_summary": "The Claude Code tip reveals that you can initiate a Claude Code session on your laptop directly from your mobile phone. This functionality allows for a remote start to coding environments, offering convenience and flexibility. The key insight is the ability to trigger a desktop session without needing to be physically present at the computer."
+      }
+    ],
+    "top_categories": [
+      "tooling",
+      "skills",
+      "meta"
+    ]
+  },
+  {
+    "handle": "lydiahallie",
+    "display_name": "Lydia Hallie \u2728",
+    "is_team": true,
+    "bookmarks": 4,
+    "total_likes": 7550,
+    "avg_likes": 1887.5,
+    "top_tweets": [
+      {
+        "text": "Claude Code now supports agent teams (in research preview)\n\nInstead of a single agent working through a task sequentially, a lead agent can delegate to multiple teammates that work in parallel to research, debug, and build while coordinating with each other.\n\nTry it out today by enabling agent teams in your settings.json!",
+        "likes": 5022,
+        "posted_at": "2026-02-05T17:51:52.000Z",
+        "one_liner": "Claude Code's new agent teams feature enables parallel processing of tasks by multiple agents for faster development and debugging, activated via settings.json.",
+        "primary_keyword": "agent teams",
+        "holistic_summary": "Claude Code introduces agent teams, allowing a lead agent to delegate tasks to multiple parallel-working agents. This unlocks faster research, debugging, and building through collaborative work. To enable this feature, users need to activate agent teams within their settings.json file."
+      },
+      {
+        "text": "Claude Code Desktop now supports --dangerously-skip-permissions!\n\nThis skips all permission prompts so Claude can operate fully autonomously. Great for workflows in a trusted environment where you want no interruptions, no approval prompts, just uninterrupted work.\n\nBut as the name suggests... use it with caution! \ud83d\ude4f",
+        "likes": 1334,
+        "posted_at": "2026-02-10T00:03:21.000Z",
+        "one_liner": "Claude Code Desktop introduces `--dangerously-skip-permissions` for fully autonomous operation, but use with caution in trusted environments only.",
+        "primary_keyword": "--dangerously-skip-permissions",
+        "holistic_summary": "The Claude Code Desktop now offers the `--dangerously-skip-permissions` command-line option, allowing for fully autonomous operation by bypassing all permission prompts. This setting streamlines workflows in trusted environments where interruptions are undesirable, enabling Claude to execute tasks without requiring user approval. While increasing efficiency, the flag should be used judiciously due to the potential risks associated with unrestricted access."
+      },
+      {
+        "text": "Claude Code on desktop now supports local plugins\n\nInstall custom slash commands, skills, and MCP servers from the marketplace. They sync automatically across desktop and CLI! https://t.co/EErN7knKWC",
+        "likes": 606,
+        "posted_at": "2026-02-11T22:52:07.000Z",
+        "one_liner": "Claude Code desktop now supports local plugins like custom slash commands that sync with CLI for a more personalized coding workflow.",
+        "primary_keyword": "local plugins",
+        "holistic_summary": "Claude Code now supports local plugins on the desktop application, enabling users to extend functionality with custom slash commands, skills, and MCP servers. These plugins can be installed from a marketplace and will automatically synchronize between the desktop app and the CLI, streamlining workflows across different environments. This allows for a more personalized and efficient coding experience."
+      },
+      {
+        "text": "Btw you can add `context: fork` to run a skill in an isolated subagent. The main context only sees the final result, not the intermediate tool calls\n\nIt gets a fresh context window with CLAUDE.md + your skill as the prompt. The `agent` field even lets you set the subagent type! https://t.co/pzVAPWHCwJ",
+        "likes": 588,
+        "posted_at": "2026-03-16T17:55:51.000Z",
+        "one_liner": "Isolate skill execution in Claude using `context: fork` to run skills in a sub-agent with a separate context window, improving workflow clarity.",
+        "primary_keyword": "context: fork",
+        "holistic_summary": "This Claude tip introduces a technique for isolating skill execution within a sub-agent using `context: fork`.  This allows the main agent to only see the final result, hiding intermediate steps for cleaner workflow and potentially improved context management. By defining a custom skill with `context: fork` and specifying an `agent` type, you can create isolated environments with their own context windows, utilizing the SKILL.md file."
+      }
+    ],
+    "top_categories": [
+      "subagents",
+      "security",
+      "plugins"
+    ]
+  },
+  {
+    "handle": "felixrieseberg",
+    "display_name": "Felix Rieseberg",
+    "is_team": true,
+    "bookmarks": 2,
+    "total_likes": 17660,
+    "avg_likes": 8830.0,
+    "top_tweets": [
+      {
+        "text": "We're shipping a new feature in Claude Cowork as a research preview that I'm excited about: Dispatch!\n\nOne persistent conversation with Claude that runs on your computer. Message it from your phone. Come back to finished work. \n\nTo try it out, download Claude Desktop, then pair your phone.",
+        "likes": 17270,
+        "posted_at": "2026-03-17T20:35:31.000Z",
+        "one_liner": "Dispatch in Claude Cowork enables persistent conversations across devices for quick document analysis and insights.",
+        "primary_keyword": "Dispatch",
+        "holistic_summary": "The tip introduces Dispatch, a new Claude Cowork feature that allows users to access a persistent Claude conversation across devices. By downloading Claude Desktop and pairing a phone, users can send requests from anywhere and return to finished work. The key insight is using Dispatch to quickly analyze documents and extract key information, as demonstrated by analyzing a landing page proposal within minutes."
+      },
+      {
+        "text": "Also, since we're already busy shipping: Update your Claude Code to the latest version, run /remote-control, and then just remote-control your Claude Code from your mobile phone.\n\nCoding on your computer but from your phone so you can go and touch grass and still push code",
+        "likes": 390,
+        "posted_at": "2026-02-24T21:22:36.000Z",
+        "one_liner": "Control Claude Code remotely from your phone after running `/remote-control`, allowing you to code from anywhere.",
+        "primary_keyword": "/remote-control",
+        "holistic_summary": "This tip highlights the ability to remotely control your Claude Code environment from your mobile phone, enabling code pushing while away from your computer. By updating to the latest version and running the `/remote-control` command, you can manage your Claude Code project remotely. This offers a convenient workflow for coding on the go or taking breaks while still maintaining project control."
+      }
+    ],
+    "top_categories": [
+      "tooling"
+    ]
+  },
+  {
+    "handle": "alexalbert__",
+    "display_name": "Alex Albert",
+    "is_team": true,
+    "bookmarks": 1,
+    "total_likes": 678,
+    "avg_likes": 678.0,
+    "top_tweets": [
+      {
+        "text": "Underrated dev upgrade from today's launch:\n\nClaude's web search and fetch tools now write and execute code to filter results before they reach the context window.\n\nWhen enabled, Sonnet 4.6 saw 13% higher accuracy on BrowseComp while using 32% fewer input tokens.",
+        "likes": 678,
+        "posted_at": "2026-02-17T19:00:07.000Z",
+        "one_liner": "Claude now pre-filters web search results with code execution, improving accuracy and reducing token consumption.",
+        "primary_keyword": "BrowseComp",
+        "holistic_summary": "Claude's web search capabilities are now enhanced with code execution for pre-filtering web results. This upgrade allows Claude to refine search results before they are added to the context window, significantly improving accuracy and reducing token usage. Specifically, Sonnet 4.6 demonstrated a 13% accuracy improvement on the BrowseComp task with a 32% reduction in input tokens when this filtering was enabled."
+      }
+    ],
+    "top_categories": [
+      "tooling"
+    ]
+  },
+  {
+    "handle": "@jarrodwatts",
+    "display_name": "Jarrod Watts",
+    "is_team": false,
+    "bookmarks": 6,
+    "total_likes": 7590,
+    "avg_likes": 1265.0,
+    "top_tweets": [
+      {
+        "text": "Introducing Claude HUD!\n\nA Claude Code plugin that shows you:\n\u00b7 context remaining in the session\n\u00b7 what tools are executing\n\u00b7 which subagents are running\n\u00b7 claude's to-do list progress\n\nEasy installation guide below \u2193 https://t.co/SEP7MJuFZb",
+        "likes": 2427,
+        "posted_at": "2026-01-03T22:26:32.000Z",
+        "one_liner": "Claude HUD is a plugin visualizing Claude's internal workings like context usage and tool execution within a coding session.",
+        "primary_keyword": "Claude HUD",
+        "holistic_summary": "This tip introduces Claude HUD, a plugin for Claude Code that provides real-time insights into Claude's operation. It visualizes session context, tool execution, subagent activity, and progress on to-do lists. This allows users to gain a deeper understanding of Claude's processes and resource usage within a coding session."
+      },
+      {
+        "text": "Introducing Claude Delegator!\n\nA Claude Code plugin that lets you use GPT 5.2 powered subagents directly within Claude Code.\n\nAsk GPT 5.2 (via codex) to architect your code, perform security audits, or make any other changes to your codebase.\n\nEasy installation guide below \u2193 https://t.co/9Wf0OX2399",
+        "likes": 1897,
+        "posted_at": "2026-01-10T12:20:47.000Z",
+        "one_liner": "Use the Claude Delegator plugin to access GPT 5.2-powered subagents within Claude Code for AI-assisted code architecture, security audits, and modifications.",
+        "primary_keyword": "Claude Delegator",
+        "holistic_summary": "The Claude Delegator plugin allows you to leverage GPT 5.2's code generation and analysis capabilities directly within Claude Code. By delegating tasks to GPT-powered subagents, you can get AI-driven recommendations for code architecture, security audits, and other code modifications. The key action demonstrated is using Claude Code to request technical advice, such as rating limiting strategies, from a GPT Architect."
+      },
+      {
+        "text": "Claude Code v2.1.1 introduces a new \"Bash\" subagent - a command execution specialist.\n\nUseful for avoiding context pollution in the main thread by moving multi-step operations to another context window. https://t.co/73JvhxuTKM",
+        "likes": 1187,
+        "posted_at": "Wed Jan 07 22:29:41 +0000 2026",
+        "one_liner": "Claude Code v2.1.1's new \"Bash\" subagent offloads shell commands to a separate context, preventing pollution and improving performance.",
+        "primary_keyword": "Bash",
+        "holistic_summary": "Claude Code v2.1.1 introduces the \"Bash\" subagent, a specialized tool for executing shell commands. This new subagent enables complex, multi-step bash operations to be offloaded to a separate context window. This prevents context pollution in the main Claude thread and can improve performance and reliability for tasks involving command-line interactions."
+      },
+      {
+        "text": "A simple but very effective rule I use in Claude Code is this \"comments[.]md\" file.\n\nIt prevents Claude from writing slop comments like \"increment counter\" on already self-documenting code. https://t.co/WYDG7HPcCu",
+        "likes": 978,
+        "posted_at": "Wed Jan 07 04:43:40 +0000 2026",
+        "one_liner": "Use a \"comments.md\" file in Claude Code to steer the AI toward producing high-quality, non-redundant code comments.",
+        "primary_keyword": "comments[.]md",
+        "holistic_summary": "This Claude Code tip introduces a \"comments.md\" file to guide the AI's commenting behavior. By providing examples of appropriate comments, you can prevent Claude from generating trivial or redundant comments within the code itself. This results in cleaner, more useful code with better overall documentation."
+      },
+      {
+        "text": "A workflow I am using frequently lately is having Codex review Claude Code's work.\n\nClaude will complete work \u2192 ask Codex to review \u2192 implement feedback from Codex \u2192 ask for another review.\n\nMy claude-delegator plugin lets them easily communicate via MCP inside Claude Code. https://t.co/6nILUtJyN8",
+        "likes": 866,
+        "posted_at": "2026-01-13T02:44:05.000Z",
+        "one_liner": "Use Codex to review and improve Claude Code's output, focusing on security and leveraging an iterative feedback loop.",
+        "primary_keyword": "claude-delegator",
+        "holistic_summary": "This tip presents a workflow where Claude Code generates code, then Codex (presumably also an AI model) reviews it for vulnerabilities and improvements, creating an iterative refinement loop.  The example focuses on security fixes, including rate limiting and input validation, using tools like `pnpm` and `x-forwarded-for` header inspection.  The key action is to leverage one AI to audit the work of another to enhance code quality and security."
+      }
+    ],
+    "top_categories": [
+      "tooling",
+      "subagents",
+      "prompting"
+    ]
+  },
+  {
+    "handle": "@nummanali",
+    "display_name": "Numman Ali",
+    "is_team": false,
+    "bookmarks": 6,
+    "total_likes": 3630,
+    "avg_likes": 605.0,
+    "top_tweets": [
+      {
+        "text": "Claude Code v2.1.3 has solved the compaction issue\n\nAuto compaction works very well if you start with Plan Mode and explicitly ask the model to make a Comprehensive To Do list\n\nPlans and To Dos persist across compaction\n\nRuntime was 52m 54s with beautifully written code\n\n\u26e9\ufe0f https://t.co/NxYGfrX79L",
+        "likes": 1164,
+        "posted_at": "2026-01-10T17:35:20.000Z",
+        "one_liner": "Claude Code v2.1.3 avoids compaction issues by using Plan Mode with a To Do list managed via the agent orchestrator CLI, which persists plans and to-dos.",
+        "primary_keyword": "compaction",
+        "holistic_summary": "This Claude Code tip highlights a strategy to avoid compaction issues in v2.1.3 by first using Plan Mode to create a comprehensive To Do list. The demonstrated workflow uses the agent orchestrator CLI to manage tasks and flow types, ensuring plans and to-dos persist across compaction; commands like `npx tsx packages/agent-orchestrator/src/cli.ts` with options for task ID, flow type, and instruction are shown."
+      },
+      {
+        "text": "If you've been burned by Claude Code default sub agents using Haiku models\n\nThere is a very easy workaround to permanently prevent Haiku\n\nRemap the alias via env vars in ~/.claude/settings.json:\n{\n  \"env\": {\n    \"ANTHROPIC_DEFAULT_HAIKU_MODEL\": \"claude-sonnet-4-5-20250929\"\n  }\n}",
+        "likes": 725,
+        "posted_at": "2026-02-09T14:54:22.000Z",
+        "one_liner": "Prevent Claude Code from using the Haiku model by remapping the `ANTHROPIC_DEFAULT_HAIKU_MODEL` environment variable in your settings file to a preferred model like `claude-sonnet-4-5-20250929`.",
+        "primary_keyword": "ANTHROPIC_DEFAULT_HAIKU_MODEL",
+        "holistic_summary": "This tip provides a workaround for preventing Claude Code's default sub-agents from using the Haiku model, offering more control over model selection. By remapping the `ANTHROPIC_DEFAULT_HAIKU_MODEL` alias through environment variables in your `~/.claude/settings.json` file, you can force the use of a different model, such as `claude-sonnet-4-5-20250929`. This allows users to avoid potentially undesirable outputs from the Haiku model and maintain consistent results with a preferred model."
+      },
+      {
+        "text": "Claude Code is looking INSANE for 2026:\n\n- Agent Swarms: Exit plan mode with swarm - instructions for launching swarm teammates when ExitPlanMode is called with isSwarm set to true\n\n- Session Search Assistant: - agent prompt for finding relevant sessions based on user queries, with priority matching on tags, titles, branches, summaries, and transcripts\n\n- Collaborative Agents: TeammateTool's operation parameter - description of TeammateTool operations (spawn, assignTask, claimTask, shutdown, etc.)\n\n- MCP Search - tool for searching/selecting MCP tools before use (mandatory prerequisite) and load at runtime\n\n- MCP through CLI - massive token reduction by MCPs called through CLI\n\n- Custom prompt suggester: Agent Prompt: Prompt suggestion generator\n\nSource:\nVersioned system prompts extracted from cli.js of Claude Code\nhttps://t.co/bc2wDI8P0P\n\nCredit to @piebaldai for their amazing work",
+        "likes": 678,
+        "posted_at": "2026-01-01T15:26:36.000Z",
+        "one_liner": "Claude Code is slated for significant upgrades by 2026, including enhanced agent collaboration, improved search, and streamlined MCP handling for greater efficiency.",
+        "primary_keyword": "agent-swarms",
+        "holistic_summary": "This Claude Code tip highlights several upcoming features planned for 2026, showcasing its advancements in agent-based collaboration and efficiency. Key improvements include agent swarms that can be deployed dynamically, a session search assistant using priority matching, collaborative agent tools with defined operations, and MCP (Modular Code Pack) search/loading via CLI for token reduction. These advancements suggest a focus on more powerful, collaborative, and resource-efficient agent workflows within Claude Code."
+      },
+      {
+        "text": "I have been testing the new Obsidian CLI with Claude Code on my research vault (4,663 files, 16 GB)... I know too many notes!!\n\nEarly results are significant.  Its going to change the way in which Claude Code can interact with Obsidian\n\nThe way I see it, there are three ways Claude can connect to your vault:\n\nFilesystem (MCP or bash)  reads/writes markdown files. Covers maybe 40% of what Obsidian actually knows. No awareness of backlinks, tags, properties, or the graph. To search content, it has to open every file individually.\n\nREST API MCP \u2014 talks to Obsidian via plugin. Gets you to about 55%. Better search, some metadata. But fragile setup and limited.\n\nObsidian CLI ...Yay @obsdmd and @kepano !!  it queries Obsidian's actual indexes.  This would be about 85% of Obsidian's capabilities. The missing 15% is purely visual the  canvas layout, graph view rendering, live preview. Everything else is there: search, backlinks, orphan detection, properties, tags, aliases, frontmatter.",
+        "likes": 534,
+        "posted_at": "2026-02-13T07:28:24.000Z",
+        "one_liner": "The Obsidian CLI provides Claude Code with superior access to Obsidian vault data compared to filesystem access or the REST API, enabling richer interactions.",
+        "primary_keyword": "Obsidian CLI",
+        "holistic_summary": "This tip explores how Claude Code interacts with Obsidian vaults, comparing three connection methods: Filesystem, REST API, and the new Obsidian CLI. The Obsidian CLI offers the most comprehensive access to Obsidian's indexed data (85% of its capabilities), including search, backlinks, properties, and tags, surpassing the limitations of file system access and the REST API. Utilizing the Obsidian CLI empowers Claude Code with a deeper understanding of the vault's structure and content, enabling more sophisticated interactions."
+      },
+      {
+        "text": "Decided to add a status line to Claude Code \n\nWanted it super minimal, a quick glance should give me what I need:\n- Current working directory\n- Current branch\n- Diff count\n- Selected model\n- Session time \n- Context left \n- Input / Output Tokens\n\nPaste gist to Claude \ud83d\udc47\n\n\u26e9\ufe0f https://t.co/xpH2zQ4EJ3",
+        "likes": 309,
+        "posted_at": "2026-01-12T12:38:58.000Z",
+        "one_liner": "Implement a minimal Claude Code status line to quickly monitor key metrics like working directory, branch, token usage, and more.",
+        "primary_keyword": "status-line",
+        "holistic_summary": "This tip showcases how to add a minimal status line to Claude Code that displays crucial information at a glance. The status line includes the current working directory, branch, diff count, selected model, session time, context left, and token usage. This allows for quickly monitoring key coding session metrics and project status without interrupting the workflow."
+      }
+    ],
+    "top_categories": [
+      "tooling",
+      "subagents",
+      "context-management"
+    ]
+  },
+  {
+    "handle": "@bcherny",
+    "display_name": "Boris Cherny",
+    "is_team": false,
+    "bookmarks": 3,
+    "total_likes": 64390,
+    "avg_likes": 21463.3,
+    "top_tweets": [
+      {
+        "text": "I'm Boris and I created Claude Code. Lots of people have asked how I use Claude Code, so I wanted to show off my setup a bit.\n\nMy setup might be surprisingly vanilla! Claude Code works great out of the box, so I personally don't customize it much. There is no one correct way to use Claude Code: we intentionally build it in a way that you can use it, customize it, and hack it however you like. Each person on the Claude Code team uses it very differently.\n\nSo, here goes.",
+        "likes": 45567,
+        "posted_at": "2026-01-02T19:58:58.000Z",
+        "one_liner": "Claude Code's creator reveals his simple setup, emphasizing the tool's adaptability and encouraging users to customize it to their needs.",
+        "primary_keyword": "vanilla-setup",
+        "holistic_summary": "Claude Code creator Boris shares his surprisingly simple, out-of-the-box setup as an example, emphasizing that there's no single \"right\" way to use the tool. The key takeaway is Claude Code's adaptability; it's designed to be customized and hacked to fit individual workflows, as demonstrated by the diverse usage within the Claude Code team itself. This highlights the flexibility and user-centric approach to Claude Code's design."
+      },
+      {
+        "text": "Claude Code 2.1.0 is officially out! claude update to get it\n\nWe shipped:\n\n- Shift+enter for newlines, w/ zero setup\n- Add hooks directly to agents &amp; skills frontmatter\n- Skills: forked context, hot reload, custom agent support, invoke with /\n- Agents no longer stop when you deny https://t.co/p29WlcdwoR",
+        "likes": 9578,
+        "posted_at": "Thu Jan 08 01:18:56 +0000 2026",
+        "one_liner": "Claude Code 2.1.0 streamlines agent and skill development with improved newline handling, frontmatter hooks, enhanced skill features, and persistent agent execution even after HTTPS request denials.",
+        "primary_keyword": "Shift+enter for newlines",
+        "holistic_summary": "Claude Code 2.1.0 brings several improvements to agent and skill development. Key updates include using Shift+Enter for newlines without extra setup, adding hooks directly to agents/skills frontmatter, and enhanced skill functionality like forked context, hot reload, and custom agent support via the `/` invoke command. Plus, agents now continue running even if a user denies an HTTPS request, streamlining the overall development workflow."
+      },
+      {
+        "text": "Since we launched Claude Code, we saw people using it for all sorts of non-coding work: doing vacation research, building slide decks, cleaning up your email, cancelling subscriptions, recovering wedding photos from a hard drive, monitoring plant growth, controlling your oven.\n\nThese use cases are diverse and surprising -- the reason  is that the underlying Claude Agent is the best agent, and Opus 4.5 is the best model.\n\nToday, we're so excited to introduce Cowork, our first step towards making Claude Code work for all your non-coding work. The product is early and raw, similar to what Claude Code felt like when it first launched.\n\nCowork includes a number of novel UX and safety features that we think make the product really special: a built-in VM for isolation, out of the box support for browser automation, support for all your https://t.co/W3YiSA4piu data connectors, asking you for clarification when it's unsure,  We are excited to see how you all use it.\n\nCowork is available now as a research preview for Claude Max subscribers in the macOS app. Click on \u201cCowork\u201d in the sidebar: https://t.co/lShyhOcDTV",
+        "likes": 9245,
+        "posted_at": "2026-01-12T20:21:46.000Z",
+        "one_liner": "Anthropic launches Cowork, a research preview for Claude Max subscribers on macOS, to extend Claude's agent capabilities beyond coding with new UX and safety features.",
+        "primary_keyword": "Cowork",
+        "holistic_summary": "Claude's Agent and the Opus 4.5 model's capabilities extend beyond coding, enabling tasks like research and automation. Anthropic introduces Cowork, a research preview for Claude Max subscribers on macOS, designed to leverage these capabilities for broader, non-coding applications. Cowork features include a built-in VM, browser automation, data connector support, and proactive clarification requests to enhance safety and usability."
+      }
+    ],
+    "top_categories": [
+      "tooling",
+      "meta",
+      "automation"
+    ]
+  },
+  {
+    "handle": "@kepano",
+    "display_name": "kepano",
+    "is_team": false,
+    "bookmarks": 3,
+    "total_likes": 9346,
+    "avg_likes": 3115.3,
+    "top_tweets": [
+      {
+        "text": "1. install Obsidian 1.12\n2. enable CLI\n3. now OpenClaw, OpenCode, Claude Code, Codex, or any other agent can use Obsidian",
+        "likes": 4155,
+        "posted_at": "2026-02-10T15:56:15.000Z",
+        "one_liner": "Integrate Obsidian with AI agents by enabling its command-line interface after installing version 1.12.",
+        "primary_keyword": "Obsidian CLI",
+        "holistic_summary": "This tip enables Obsidian integration with AI agents like Claude Code by leveraging Obsidian's command-line interface (CLI). By installing Obsidian 1.12 and enabling the CLI, agents can now interact with and utilize Obsidian for tasks. This allows for automated workflows and integration of your notes with external tools and processes."
+      },
+      {
+        "text": "if you're using Obsidian with Claude Code, tell me about your workflow, and what you've used it for",
+        "likes": 4088,
+        "posted_at": "2026-01-02T22:53:15.000Z",
+        "one_liner": "Share your Obsidian and Claude Code workflow to help others learn and improve.",
+        "primary_keyword": "Obsidian",
+        "holistic_summary": "This Claude Code tip is a call for users who integrate Obsidian with Claude Code to share their workflows. The purpose is to learn from real-world usage and understand how others are leveraging the combination of these tools. By sharing experiences, users can discover novel applications and improve their own efficiency."
+      },
+      {
+        "text": "Obsidian CLI closes the loop so you can have your agent build you an Obsidian plugin autonomously:\n\n- Write code\n- Reload plugin\n- Check for errors\n- See the result\n- Inspect styling\n- Run arbitrary checks\n\nClaude Code can now easily run 30+ minutes uninterrupted. https://t.co/ZJA85TMto9",
+        "likes": 1103,
+        "posted_at": "2026-02-12T17:28:19.000Z",
+        "one_liner": "Automate Obsidian plugin development by using the Obsidian CLI with Claude Code for tasks like writing, reloading, error checking, and result inspection.",
+        "primary_keyword": "Obsidian CLI",
+        "holistic_summary": "This Claude Code tip highlights a workflow for autonomous Obsidian plugin development using the Obsidian CLI. By leveraging the CLI, developers can automate tasks such as writing code, reloading plugins, checking for errors, and inspecting the results, effectively closing the feedback loop. The demonstrated commands streamline the development process, enabling autonomous agents to build and test plugins more efficiently."
+      }
+    ],
+    "top_categories": [
+      "tooling",
+      "workflow"
+    ]
+  },
+  {
+    "handle": "@alexhillman",
+    "display_name": "\ud83d\udcd9 Alex Hillman",
+    "is_team": false,
+    "bookmarks": 3,
+    "total_likes": 1567,
+    "avg_likes": 522.3,
+    "top_tweets": [
+      {
+        "text": "its late so i'll probably regret posting this but...\n\nenter the dragon \ud83d\udd25\ud83d\udc32\n\nsay hi to Smaug, the helpful hoarding dragon that roams your Twitter bookmarks and helps you organize them into your personal knowledge system of choice. \n\nhttps://t.co/auS128LhHd\n\nspecial thanks to @steipete, this would be a lot messier without his work!",
+        "likes": 1114,
+        "posted_at": "2026-01-02T05:59:29.000Z",
+        "one_liner": "Organize your Twitter bookmarks into a knowledge system with Smaug, a tool for better management and retrieval.",
+        "primary_keyword": "Smaug",
+        "holistic_summary": "The tip introduces \"Smaug,\" a tool designed to help users organize their Twitter bookmarks into a personal knowledge system. It simplifies the process of managing and structuring saved tweets for better knowledge retention and retrieval. The specific functionalities and commands of Smaug aren't detailed but it's a tool to help wrangle your hoard of twitter bookmarks."
+      },
+      {
+        "text": "When I started building my assistant I figured this one out FAST. \n\nClaude Code doesn't know what time it is. Or what time zone you are in. \n\nSo when you do date time operations of ANY kind, as simple as saving something to your calendar, things get weird fast. \n\nMy early solution has stuck thru every iteration of my JFDI system and it's dummy simple:\n\nI use Claude Code hooks to run a bash script that generates current date time, timezone of host device, friendly day of week etc. \n\nInjects it silently into context. \n\nI never see it but date time issues vanish. 3+ most battle tested. \n\nKinda wild that this isn't baked in @bcherny (thank you for CC btw it changed my life no exaggerating)",
+        "likes": 333,
+        "posted_at": "2026-01-21T03:47:46.000Z",
+        "one_liner": "Solve Claude Code's timezone limitations by injecting current date and time information from a bash script using Claude Code hooks.",
+        "primary_keyword": "date-time-context-injection",
+        "holistic_summary": "This tip addresses Claude Code's lack of inherent timezone/time awareness by leveraging Claude Code hooks. It uses a bash script to generate current date, time, and timezone information from the host device. This data is then silently injected into the Claude Code context, resolving datetime-related issues for applications like calendar integration. "
+      },
+      {
+        "text": "Overdue addition to my claude dot md\n\n# Global Claude Code Preferences\n\n## Communication Style\n- Never end sentences with ellipses (...) - it comes across as passive aggressive\n- Ask questions one at a time\n- Acknowledge requests neutrally without enthusiasm inflation\n- Skip validation language (\"great idea!\", \"perfect!\", \"excellent!\", \"amazing!\", \"kick ass!\")\n- Skip affirmations (\"you're right!\", \"exactly!\", \"absolutely!\")\n- Use neutral confirmations: \"Got it\", \"On it\", \"Understood\", \"Starting now\"\n- Focus on execution over commentary\n\n## AI Slop Patterns to Avoid\n- Never use \"not X, but Y\" or \"not just X, but Y\" - state things directly\n- No hedging: \"I'd be happy to...\", \"I'd love to...\", \"Let me go ahead and...\", \"I'll just...\", \"If you don't mind...\"\n- No false collaboration: \"Let's dive in\", \"Let's get started\", \"We can see that...\", \"As we discussed...\"\n- No filler transitions: \"Now, let's...\", \"Next, I'll...\", \"Moving on to...\", \"With that said...\"\n- No overclaiming: \"I completely understand\", \"That makes total sense\"\n- No performative narration: Don't announce actions then do them - just do them\n- No redundant confirmations: \"Sure thing!\", \"Of course!\", \"Certainly!\"",
+        "likes": 120,
+        "posted_at": "2026-01-13T03:16:36.000Z",
+        "one_liner": "Optimize your Claude prompts for efficient, professional AI interactions by avoiding unnecessary affirmations, filler, and indirect language.",
+        "primary_keyword": "AI Slop Patterns",
+        "holistic_summary": "This Claude Code tip outlines preferences for a direct and professional communication style with the AI. It emphasizes clear execution over excessive commentary by avoiding enthusiasm inflation, unnecessary validation, and common AI conversational filler. The goal is to streamline interactions by using neutral confirmations and stating information directly, without performative narration or hedging."
+      }
+    ],
+    "top_categories": [
+      "tooling",
+      "prompting",
+      "context-management"
+    ]
+  },
+  {
+    "handle": "@chatcutapp",
+    "display_name": "ChatCut",
+    "is_team": false,
+    "bookmarks": 2,
+    "total_likes": 7216,
+    "avg_likes": 3608.0,
+    "top_tweets": [
+      {
+        "text": "IT FUCKING HAPPENED.\n\nSeedance 2.0 now works with the @openclaw agent inside @chatcutapp.\n\nThis UGC video was generated entirely with Seedance 2.0 after I sent an Amazon link.\n\nThe agent crawled the page, extracted product info and photos, then fed the right assets into Seedance 2.0 to generate the UGC product video.\n\nMy brain is literally melting at this point...",
+        "likes": 5910,
+        "posted_at": "2026-02-12T15:20:23.000Z",
+        "one_liner": "Automated UGC video creation using Seedance 2.0 and @openclaw agent, extracting product info from URLs to generate demos.",
+        "primary_keyword": "Seedance 2.0",
+        "holistic_summary": "This tip showcases an automated workflow for UGC video creation using Seedance 2.0 and the @openclaw agent within @chatcutapp. The agent automatically crawls product information from a provided Amazon link, and then Seedance 2.0 uses this data to generate a product demo video, as demonstrated with a car cleaning system. This automation streamlines the creation of engaging product demonstrations without manual asset gathering."
+      },
+      {
+        "text": "Seedance 2.0 + OpenClaw FTW!\n\nInstead of just generating one final video with Seedance 2.0, the OpenClaw agent decided to:\n\n- generated a guy (with Seedance 2.0) ON A GREENSCREEN\n\n- keyed out the green to create transparency\n\n- downloaded MULTIPLE BACKGROUND IMAGE OPTIONS to audition for the human\n\n- generated separate motion-graphics overlays on top, using code elements\n\nSeedance 2.0 is cool...\n\nBut this combo I believe is the REAL GAME CHANGER.",
+        "likes": 1306,
+        "posted_at": "2026-02-13T15:21:34.000Z",
+        "one_liner": "Leverage Seedance 2.0 and OpenClaw to automate complex video editing tasks like greenscreen removal and background selection.",
+        "primary_keyword": "OpenClaw",
+        "holistic_summary": "This tip showcases an advanced video editing workflow using Seedance 2.0 and the OpenClaw agent. Instead of simple video generation, the AI intelligently isolates a character on a greenscreen, automatically keys out the background for transparency, and downloads multiple background options for user selection. Finally, it adds the background to the video timeline. This demonstrates the power of AI in automating complex editing tasks like background replacement."
+      }
+    ],
+    "top_categories": [
+      "tooling"
+    ]
+  },
+  {
+    "handle": "DataChaz",
+    "display_name": "Charly Wargnier",
+    "is_team": false,
+    "bookmarks": 2,
+    "total_likes": 6538,
+    "avg_likes": 3269.0,
+    "top_tweets": [
+      {
+        "text": "This guy literally shared the anatomy of the perfect prompt in Claude 4.6 \ud83e\uddf5 \u2193 https://t.co/V10gEBOOvP",
+        "likes": 6259,
+        "posted_at": "2026-03-02T14:39:01.000Z",
+        "one_liner": "Learn a structured prompt engineering workflow for Claude 4.6 that ensures alignment, context awareness, and desired outcomes by defining the task, providing context, outlining success criteria, and planning execution.",
+        "primary_keyword": "perfect-prompt-anatomy",
+        "holistic_summary": "This Claude 4.6 tip details a structured prompt engineering workflow for achieving optimal results. It demonstrates how to effectively guide Claude by clearly defining the task, providing relevant context files and references, outlining success criteria, and specifying an execution plan. The template leverages a success brief to detail output type, desired audience reaction, and unacceptable elements, while also emphasizing rule adherence and proactive clarification via 'AskUserQuestion' before execution."
+      },
+      {
+        "text": "Anthropic just dropped a massive cheat code for ambitious AI builders.\n\nThey just launched the \u2018Claude Community Ambassadors\u2019 program.\n\nThe goal? To turn you into the undisputed AI leader in your city.\n\nAnd the perks are HUGE:\n\n\u2192 Free API credits to power your prototypes.\n\u2192 Early access to pre-release features.\n\u2192 Direct influence on Anthropic\u2019s roadmap via the Builders Council.\n\u2192 Paid event funding, swag, and ready-to-use content.\n\u2192 Private Slack access directly with Anthropic engineers.\n\n... and more!\n\nIt's basically a VIP pass to the full Anthropic ecosystem.\n\nApply now before your city is taken \ud83e\uddf5 \u2193",
+        "likes": 279,
+        "posted_at": "2026-03-06T20:02:54.000Z",
+        "one_liner": "Anthropic's 'Claude Community Ambassadors' program offers aspiring AI leaders exclusive resources and support to become local experts.",
+        "primary_keyword": "Claude Community Ambassadors",
+        "holistic_summary": "This tip highlights Anthropic's new 'Claude Community Ambassadors' program, a strategic initiative designed to foster AI leadership at the local level. The key action is to apply for the program to unlock exclusive benefits like free API credits, early access to features, and direct engagement with Anthropic's team, enabling you to build and showcase Claude-powered solutions in your city. It's a VIP program aimed at empowering developers within the Anthropic ecosystem."
+      }
+    ],
+    "top_categories": [
+      "prompting",
+      "meta"
+    ]
+  },
+  {
+    "handle": "mattpocockuk",
+    "display_name": "Matt Pocock",
+    "is_team": false,
+    "bookmarks": 2,
+    "total_likes": 4451,
+    "avg_likes": 2225.5,
+    "top_tweets": [
+      {
+        "text": "My Ralph Wiggum breakdown went viral.\n\nIt's a keep-it-simple-stupid approach to AI coding that lets you ship while you sleep.\n\nSo here's a full explanation, example code, and demo. https://t.co/FyVdrIyqUP",
+        "likes": 3607,
+        "posted_at": "2026-01-05T15:36:14+00:00",
+        "one_liner": "This tip promotes simplified \"Ralph Wiggum\" style AI coding for faster project completion via a KISS approach.",
+        "primary_keyword": "keep-it-simple-stupid",
+        "holistic_summary": "This tip focuses on a \"keep-it-simple-stupid\" (KISS) approach to AI coding, dubbed the \"Ralph Wiggum breakdown.\" The core idea is to simplify code development to facilitate faster and easier project completion, enabling users to \"ship while you sleep.\" It appears this is achieved by breaking problems down into very simple, manageable steps."
+      },
+      {
+        "text": "Worried about Ralph rimraf-ing your home directory?\n\ndocker sandbox run claude\n\nRuns Claude in a dockerized sandbox in the current directory.",
+        "likes": 844,
+        "posted_at": "2026-01-06T14:05:29+00:00",
+        "one_liner": "Run Claude in a Docker sandbox using `docker sandbox run claude` to prevent unintended file system modifications and ensure a safe coding environment.",
+        "primary_keyword": "docker sandbox",
+        "holistic_summary": "This tip presents a method for running the Claude code assistant in a Docker container to mitigate risks. The key action is utilizing the command `docker sandbox run claude`, which creates an isolated environment to prevent accidental file system modifications or other unintended consequences from Claude's operations. This approach ensures Claude operates within the current directory without potentially affecting other parts of your system."
+      }
+    ],
+    "top_categories": [
+      "security",
+      "prompting"
+    ]
+  },
+  {
+    "handle": "@EXM7777",
+    "display_name": "Machina",
+    "is_team": false,
+    "bookmarks": 2,
+    "total_likes": 4167,
+    "avg_likes": 2083.5,
+    "top_tweets": [
+      {
+        "text": "this is hands-down the best way to work with Claude right now...\n\nwhenever you start a new project (startup, content, side hustle, anything...)\n\nopen a fresh chat with Opus 4.5, turn on extended thinking and dump everything about your project\n\nthen prompt this:\n\"ask me 5 questions that would help you have a complete understanding of this project\"\n\nanswer those questions (spend a lot of time here)\n\nthen hit it with:\n\"you're my co-founder. create a master plan with a knowledge base directory for each section. attach context markdown files to every part. you're building the skeleton that Claude Code will use to build everything 10x faster. suggest skills to integrate, automations to build or any tool that'd 10x our speed. suggest when to use a project or Claude Code\"\n\nClaude will create every file you need, simply import them into Claude Code\n\nfrom there you build systems and your project alongside it, use it like a Claude chat\n\nit'll tell you when to spin up Claude Projects for specific tasks: deep research, writing, working with MCPs...\n\none planning session replaces weeks of figuring things out on your own\n\nthis is what working WITH AI looks like",
+        "likes": 2783,
+        "posted_at": "2026-02-03T17:58:02.000Z",
+        "one_liner": "Use Claude Opus 4.5 to generate a comprehensive project plan and knowledge base directory for seamless integration with Claude Code, significantly accelerating development.",
+        "primary_keyword": "co-founder master plan",
+        "holistic_summary": "This tip outlines a powerful workflow for leveraging Claude to accelerate project development. By using Opus 4.5 with extended thinking and a strategic prompting sequence, you can transform Claude into a virtual co-founder. The process involves defining your project comprehensively, prompting Claude to ask clarifying questions, and then instructing it to create a master plan with a detailed knowledge base directory designed for Claude Code integration, saving significant planning time."
+      },
+      {
+        "text": "use these settings in Claude to write humanized content (bypass all ai detectors): https://t.co/UqwHMPAwh8",
+        "likes": 1384,
+        "posted_at": "2025-12-28T19:29:02.000Z",
+        "one_liner": "Humanize Claude's writing and bypass AI detectors by defining a custom style with conversational elements.",
+        "primary_keyword": "bypass-ai-detectors",
+        "holistic_summary": "This tip demonstrates a workflow for humanizing Claude's writing style to bypass AI detection. By providing custom instructions focused on conversational elements like contractions, varied sentence length, natural pauses, and occasional tangents, you can create more authentic content. The settings emphasize relatable metaphors, minor imperfections, and demonstrating understanding of the reader."
+      }
+    ],
+    "top_categories": [
+      "prompting",
+      "planning"
+    ]
+  },
+  {
+    "handle": "AnishA_Moonka",
+    "display_name": "Anish Moonka",
+    "is_team": false,
+    "bookmarks": 2,
+    "total_likes": 3863,
+    "avg_likes": 1931.5,
+    "top_tweets": [
+      {
+        "text": "Boris Cherny (Head of Claude Code, Anthropic) just dropped ~90 mins on Lenny's Podcast about what happens after coding is solved.\n\nJust the clearest thinking I've heard on where software is actually going.\n\nMy notes:\n\n\ud835\udfed. \ud835\uddd6\ud835\uddfc\ud835\uddf1\ud835\uddf6\ud835\uddfb\ud835\uddf4 \ud835\uddf6\ud835\ude00 \ud835\uddf9\ud835\uddee\ud835\uddff\ud835\uddf4\ud835\uddf2\ud835\uddf9\ud835\ude06 \ud835\ude00\ud835\uddfc\ud835\uddf9\ud835\ude03\ud835\uddf2\ud835\uddf1.\n\nBoris has not edited a single line of code by hand since November 2025. He ships 10 to 30 pull requests every single day, all written by Claude Code. He is one of the most prolific engineers at Anthropic, just as he was at Instagram, except now he never touches a keyboard for code.\n\nI built an entire iOS app, @10minutegita, without writing a single line of code myself. No CS degree, no bootcamp. Just described what I wanted and shipped it. Boris is right. It's real.\n\n\ud835\udfee. \ud835\udde7\ud835\uddf5\ud835\uddf2 \ud835\uddfb\ud835\uddf2\ud835\ude05\ud835\ude01 \ud835\uddf3\ud835\uddff\ud835\uddfc\ud835\uddfb\ud835\ude01\ud835\uddf6\ud835\uddf2\ud835\uddff \ud835\uddf6\ud835\ude00 \ud835\uddd4\ud835\udddc \ud835\uddf1\ud835\uddf2\ud835\uddf0\ud835\uddf6\ud835\uddf1\ud835\uddf6\ud835\uddfb\ud835\uddf4 \ud835\ude04\ud835\uddf5\ud835\uddee\ud835\ude01 \ud835\ude01\ud835\uddfc \ud835\uddef\ud835\ude02\ud835\uddf6\ud835\uddf9\ud835\uddf1.\n\nClaude is now scanning Slack feedback channels, reviewing bug reports, reviewing telemetry, and coming up with its own ideas for what to fix and what to ship. Boris describes it as the AI becoming less like a tool and more like a coworker who brings you pull requests you never asked for.\n\nIf you are a product manager reading this, you should be feeling a very specific kind of discomfort right now. The moat was always \"I know what to build.\" That moat is eroding.\n\n\ud835\udfef. \ud835\udde3\ud835\uddff\ud835\uddfc\ud835\uddf1\ud835\ude02\ud835\uddf0\ud835\ude01\ud835\uddf6\ud835\ude03\ud835\uddf6\ud835\ude01\ud835\ude06 \ud835\uddfd\ud835\uddf2\ud835\uddff \ud835\uddf2\ud835\uddfb\ud835\uddf4\ud835\uddf6\ud835\uddfb\ud835\uddf2\ud835\uddf2\ud835\uddff \ud835\uddee\ud835\ude01 \ud835\uddd4\ud835\uddfb\ud835\ude01\ud835\uddf5\ud835\uddff\ud835\uddfc\ud835\uddfd\ud835\uddf6\ud835\uddf0 \ud835\uddf6\ud835\ude00 \ud835\ude02\ud835\uddfd \ud835\udfee\ud835\udfec\ud835\udfec%.\n\nFor context, Boris led code quality at Meta across Facebook, Instagram, and WhatsApp. In that world, hundreds of engineers working an entire year would move productivity by a few percentage points. Two hundred percent gains are genuinely unprecedented in the history of developer tooling.\n\nThe kid optimizing for an FAANG SDE role might be optimizing for a role that looks completely different by the time they get there.\n\n\ud835\udff0. \ud835\udde8\ud835\uddfb\ud835\uddf1\ud835\uddf2\ud835\uddff\ud835\uddf3\ud835\ude02\ud835\uddfb\ud835\uddf1 \ud835\ude06\ud835\uddfc\ud835\ude02\ud835\uddff \ud835\ude01\ud835\uddf2\ud835\uddee\ud835\uddfa\ud835\ude00 \ud835\uddfc\ud835\uddfb \ud835\uddfd\ud835\ude02\ud835\uddff\ud835\uddfd\ud835\uddfc\ud835\ude00\ud835\uddf2.\n\nBoris puts one engineer on a project instead of five. With unlimited tokens and intrinsic motivation, one person ships faster because they are forced to let AI do the work. Cowork, the product now used by millions, was built by a small team in 10 days using Claude Code.\n\nThis is the same logic as giving a startup founder a small seed round rather than a massive Series A round. Constraint breeds invention. Always has.\n\n\ud835\udff1. \ud835\uddda\ud835\uddf6\ud835\ude03\ud835\uddf2 \ud835\uddf2\ud835\uddfb\ud835\uddf4\ud835\uddf6\ud835\uddfb\ud835\uddf2\ud835\uddf2\ud835\uddff\ud835\ude00 \ud835\ude02\ud835\uddfb\ud835\uddf9\ud835\uddf6\ud835\uddfa\ud835\uddf6\ud835\ude01\ud835\uddf2\ud835\uddf1 \ud835\ude01\ud835\uddfc\ud835\uddf8\ud835\uddf2\ud835\uddfb\ud835\ude00.\n\nSome engineers at Anthropic spend hundreds of thousands of dollars a month on tokens. Boris frames this as the new hiring perk. His logic is simple: at the individual scale, token cost is low relative to salary. If an engineer discovers a breakthrough, optimize the cost later. Don't kill the idea before it has a chance to breathe.\n\nPeople who argue about $20/month or even $200/month AI subscriptions while earning six figures in a research pipeline will always outperform those who wait and are penny-wise, pound-foolish.\n\n\ud835\udff2. \ud835\udde7\ud835\uddf5\ud835\uddf2 \ud835\uddd5\ud835\uddf6\ud835\ude01\ud835\ude01\ud835\uddf2\ud835\uddff \ud835\udddf\ud835\uddf2\ud835\ude00\ud835\ude00\ud835\uddfc\ud835\uddfb \ud835\uddee\ud835\uddfd\ud835\uddfd\ud835\uddf9\ud835\uddf6\ud835\uddf2\ud835\ude00 \ud835\ude01\ud835\uddfc \ud835\uddf2\ud835\ude03\ud835\uddf2\ud835\uddff\ud835\ude06\ud835\ude01\ud835\uddf5\ud835\uddf6\ud835\uddfb\ud835\uddf4.\n\nRichard Sutton's idea: the more general model always wins over time. Boris says teams that build strict orchestration workflows around models, forcing step 1, then step 2, then step 3, get maybe 10 to 20% improvement. But those gains get wiped out with the next model release. Just give the model tools and a goal. Let it figure out the order.\n\nThis is true for investing, too. The analyst who can build their own models and automate their own research pipeline will always outperform the one waiting for someone else to build the tools.\n\n\ud835\udff3. \ud835\uddd5\ud835\ude02\ud835\uddf6\ud835\uddf9\ud835\uddf1 \ud835\uddf3\ud835\uddfc\ud835\uddff \ud835\ude01\ud835\uddf5\ud835\uddf2 \ud835\uddfa\ud835\uddfc\ud835\uddf1\ud835\uddf2\ud835\uddf9 \ud835\ude00\ud835\uddf6\ud835\ude05 \ud835\uddfa\ud835\uddfc\ud835\uddfb\ud835\ude01\ud835\uddf5\ud835\ude00 \ud835\uddf3\ud835\uddff\ud835\uddfc\ud835\uddfa \ud835\uddfb\ud835\uddfc\ud835\ude04.\n\nClaude Code was designed for a model that did not exist when Boris started building. Sonnet 3.5 wrote maybe 20% of his code. He built the product anyway, betting the model would catch up. When Opus 4 shipped, everything clicked. Startups building for today's model will be behind by the time they launch.\n\nThis is the most uncomfortable advice in the episode because it means your product market fit will be weak for months. But if you read this and feel nothing, you are probably building for the wrong time horizon.\n\n\ud835\udff4. \ud835\udddf\ud835\uddee\ud835\ude01\ud835\uddf2\ud835\uddfb\ud835\ude01 \ud835\uddf1\ud835\uddf2\ud835\uddfa\ud835\uddee\ud835\uddfb\ud835\uddf1 \ud835\uddf6\ud835\ude00 \ud835\ude01\ud835\uddf5\ud835\uddf2 \ud835\ude00\ud835\uddf6\ud835\uddfb\ud835\uddf4\ud835\uddf9\ud835\uddf2 \ud835\uddef\ud835\uddf2\ud835\ude00\ud835\ude01 \ud835\uddfd\ud835\uddff\ud835\uddfc\ud835\uddf1\ud835\ude02\ud835\uddf0\ud835\ude01 \ud835\ude00\ud835\uddf6\ud835\uddf4\ud835\uddfb\ud835\uddee\ud835\uddf9.\n\nWhen users abuse your product for something it was never designed to do, pay attention. Facebook Marketplace started because 40% of group posts were buy-and-sell. Cowork started because people were using a terminal coding tool to grow tomato plants and recover corrupted wedding photos.\n\nNever ask a barber if you need a haircut, but always watch what people do with the scissors when you're not looking.\n\n\ud835\udff5. \ud835\udde7\ud835\uddf5\ud835\uddf2 \ud835\ude01\ud835\uddf6\ud835\ude01\ud835\uddf9\ud835\uddf2 \"\ud835\ude00\ud835\uddfc\ud835\uddf3\ud835\ude01\ud835\ude04\ud835\uddee\ud835\uddff\ud835\uddf2 \ud835\uddf2\ud835\uddfb\ud835\uddf4\ud835\uddf6\ud835\uddfb\ud835\uddf2\ud835\uddf2\ud835\uddff\" \ud835\uddf6\ud835\ude00 \ud835\uddf4\ud835\uddfc\ud835\uddf6\ud835\uddfb\ud835\uddf4 \ud835\uddee\ud835\ude04\ud835\uddee\ud835\ude06.\n\nBoris predicts that by end of year, Boris predicts that by the end of the year, we will start to see the title replaced by \"builder.\"we will start to see the title replaced by \"builder.\" On the Claude Code team, everyone already codes: the PM, the designer, the finance person, the data scientist. There is a 50% overlap across traditional roles. And the strongest people are generalists who cross disciplines.\n\nControversial take, but I agree. The best investment theses I've had came from connecting dots across completely unrelated domains. No narrow specialist does that.\n\n\ud835\udfed\ud835\udfec. \ud835\udde7\ud835\uddf5\ud835\uddf2 \ud835\uddfd\ud835\uddff\ud835\uddf6\ud835\uddfb\ud835\ude01\ud835\uddf6\ud835\uddfb\ud835\uddf4 \ud835\uddfd\ud835\uddff\ud835\uddf2\ud835\ude00\ud835\ude00 \ud835\uddf6\ud835\ude00 \ud835\ude01\ud835\uddf5\ud835\uddf2 \ud835\uddff\ud835\uddf6\ud835\uddf4\ud835\uddf5\ud835\ude01 \ud835\uddee\ud835\uddfb\ud835\uddee\ud835\uddf9\ud835\uddfc\ud835\uddf4\ud835\ude06.\n\nBefore Gutenberg, sub-1% of Europe was literate. Scribes did all the reading and writing. In 50 years after the press, more material was printed than in the thousand years before. When a scribe was interviewed about the press, he was actually excited because it freed him from tedious copying, so he could focus on the art.\n\nBoris's framing here is perfect. We are the scribes. The tedious copying is over. What we do with the freed-up time determines everything.\n\n\ud835\udfed\ud835\udfed. \ud835\uddd4\ud835\uddfb\ud835\ude01\ud835\uddf5\ud835\uddff\ud835\uddfc\ud835\uddfd\ud835\uddf6\ud835\uddf0 \ud835\uddf0\ud835\uddee\ud835\uddfb \ud835\uddfb\ud835\uddfc\ud835\ude04 \ud835\uddfd\ud835\uddf2\ud835\uddf2\ud835\uddf8 \ud835\uddf6\ud835\uddfb\ud835\ude00\ud835\uddf6\ud835\uddf1\ud835\uddf2 \ud835\ude01\ud835\uddf5\ud835\uddf2 \ud835\uddfa\ud835\uddfc\ud835\uddf1\ud835\uddf2\ud835\uddf9'\ud835\ude00 \ud835\uddef\ud835\uddff\ud835\uddee\ud835\uddf6\ud835\uddfb.\n\nThrough mechanistic interpretability, Anthropic can trace individual neurons, see when a deception-related neuron activates, and understand how concepts are encoded via superposition. Boris describes three layers of safety: neural-level observation, synthetic evaluations, and real-world behavior. Claude Code was used internally for four to five months before public release, specifically to study safety.\n\nIf you are worried about AI alignment, this part of the podcast should actually make you feel better. They are not just hoping it works. They are building the instruments to check.\n\n\ud835\udfed\ud835\udfee. \ud835\udff3\ud835\udfec% \ud835\uddfc\ud835\uddf3 \ud835\uddf2\ud835\uddfb\ud835\uddf4\ud835\uddf6\ud835\uddfb\ud835\uddf2\ud835\uddf2\ud835\uddff\ud835\ude00 \ud835\uddee\ud835\uddfb\ud835\uddf1 \ud835\udde3\ud835\udde0\ud835\ude00 \ud835\uddf2\ud835\uddfb\ud835\uddf7\ud835\uddfc\ud835\ude06 \ud835\ude01\ud835\uddf5\ud835\uddf2\ud835\uddf6\ud835\uddff \ud835\uddf7\ud835\uddfc\ud835\uddef\ud835\ude00 \ud835\uddfa\ud835\uddfc\ud835\uddff\ud835\uddf2 \ud835\uddfb\ud835\uddfc\ud835\ude04.\n\nLenny polled engineers, PMs, and designers on whether AI has made their work more or less enjoyable. Engineers and PMs: 70% said more. Designers: only 55% said more, and 20% said less. Boris says he has never enjoyed coding as much as he does today because the tedious parts, the git wrangling, dependencies, and boilerplate are completely gone.\n\nIf you're in the 30% enjoying work less, something is wrong, and it's worth diagnosing. The people thriving are the ones who leaned in early, not the ones who watched from the sidelines.\n\nWe are the scribes who just saw the printing press. The tedious copying is over. The art is just beginning.\n\nFull podcast is worth every minute. Link in replies.",
+        "likes": 2002,
+        "posted_at": "2026-03-06T20:19:11.000Z",
+        "one_liner": "Coding is being automated by AI, fundamentally changing the role of software engineers and shifting focus to strategic product decisions and leveraging AI as a coworker.",
+        "primary_keyword": "Lenny's Podcast",
+        "holistic_summary": "This tip summarizes key insights from a podcast with Anthropic's Head of Claude Code, Boris Cherny, about the future of software development. It highlights the idea that AI is rapidly automating coding, shifting the focus to AI-driven product decisions and requiring engineers to adapt by embracing AI tools. The key takeaway is that the future involves empowering generalist \"builders\" who leverage AI to significantly increase productivity and focus on higher-level strategic problems."
+      },
+      {
+        "text": "GPT-5.4 loses 54% of its retrieval accuracy going from 256K to 1M tokens. Opus 4.6 loses 15%.\n\nEvery major AI lab now claims a 1 million token context window. GPT-5.4 launched eight days ago with 1M. Gemini 3.1 Pro has had it. But the number on the spec sheet and the number that actually works are two very different things.\n\nThis chart uses MRCR v2, OpenAI\u2019s own benchmark. It hides 8 identical pieces of information across a massive conversation and asks the model to find a specific one. Basically a stress test for \u201ccan you actually find what you need in 750,000 words of text.\u201d\n\nAt 256K tokens, the models are close enough. Opus 4.6 scores 91.9%, Sonnet 4.6 hits 90.6%, GPT-5.4 sits at 79.3% (averaged across 128K to 256K, per the chart footnote). Scale to 1M and the curves blow apart. GPT-5.4 drops to 36.6%, finding the right answer about one in three times. Gemini 3.1 Pro falls to 25.9%. Opus 4.6 holds at 78.3%.\n\nResearchers call this \u201ccontext rot.\u201d Chroma tested 18 frontier models in 2025 and found every single one got worse as input length increased. Most models decay exponentially. Opus barely bends.\n\nThen there\u2019s the pricing. Today\u2019s announcement removes the long-context premium entirely. A 900K-token Opus 4.6 request now costs the same per-token rate as a 9K request, $5/$25 per million tokens. GPT-5.4 still charges 2x input and 1.5x output for anything over 272K tokens. So you pay more for a model that retrieves correctly about a third of the time at full context.\n\nFor anyone building agents that run for hours, processing legal docs across hundreds of pages, or loading entire codebases into one session, the only number that matters is whether the model can actually find what you put in. At 1M tokens, that gap between these models just got very wide.",
+        "likes": 1861,
+        "posted_at": "2026-03-13T18:09:49.000Z",
+        "one_liner": "Leading LLMs exhibit vastly different retrieval accuracy at 1M token context windows, with Claude Opus 4.6 significantly outperforming GPT-5.4 and Gemini 3.1 Pro, and now offering better pricing for long contexts.",
+        "primary_keyword": "context rot",
+        "holistic_summary": "This tip highlights significant differences in retrieval accuracy among leading LLMs, particularly at 1 million token context windows, using OpenAI's MRCR v2 benchmark. While models like GPT-5.4 and Gemini 3.1 Pro experience substantial performance degradation, Claude Opus 4.6 maintains a high accuracy, making it a more reliable choice for long-context tasks. Furthermore, Opus 4.6 now offers competitive pricing, eliminating long-context premiums and potentially making it a more cost-effective option compared to GPT-5.4."
+      }
+    ],
+    "top_categories": [
+      "meta",
+      "context-management"
+    ]
+  },
+  {
+    "handle": "@mckaywrigley",
+    "display_name": "Mckay Wrigley",
+    "is_team": false,
+    "bookmarks": 2,
+    "total_likes": 3437,
+    "avg_likes": 1718.5,
+    "top_tweets": [
+      {
+        "text": "the claude agent sdk will do for knowledge work in 2026 what claude code did for coding in 2025.\n\nwant to live in the future?\n\nbuild your own agents with it.\n\nyou'll have a personal magic tool belt that the public won't have for another 6-12mo.\n\nit 100% feels like personal agi.",
+        "likes": 3141,
+        "posted_at": "2025-12-31T18:18:55.000Z",
+        "one_liner": "Develop custom Claude agents with the Agent SDK to gain a significant edge in knowledge work and experience a near-AGI level of personal assistance.",
+        "primary_keyword": "agent sdk",
+        "holistic_summary": "This tip highlights the potential of the Claude Agent SDK to revolutionize knowledge work, similar to how Claude Code impacted software development. Building custom agents using the SDK now offers a significant advantage, creating a personalized and powerful toolset months ahead of wider public adoption. This early access provides a glimpse into the future of AI-powered personal assistance, almost like having personal AGI."
+      },
+      {
+        "text": "it's an sdk that allows you to build any kind of agent with all of the tools from claude code.\n\nskills, subagents, hooks, etc. it's all there.\n\nfor web apps you'll want to run it in a hosted sandbox. i recommend @e2b, but anthropic has docs here: https://t.co/rWnRG22NaJ\n\nthe sandbox is basically just a virtual computer that the agent can work in. it's slightly intimidating for non-technical people, but feed the docs to claude code, have it explain things, and you'll be up and running in no time.",
+        "likes": 296,
+        "posted_at": "2025-12-31T14:51:04.000Z",
+        "one_liner": "Use the Claude Agent SDK to build skilled agents, deploying them within a hosted sandbox environment for web apps, leveraging documentation and Claude Code itself to simplify the setup process.",
+        "primary_keyword": "hosted sandbox",
+        "holistic_summary": "The Claude Agent SDK empowers developers to create sophisticated agents equipped with diverse skills and tools. To build web applications, the SDK should run within a secure, hosted sandbox environment, which acts as a virtual computer for the agent. While setting up the sandbox might seem complex initially, you can use Claude Code itself to understand the documentation and streamline the process, leveraging provider options like E2B (recommended in the tweet) or others documented by Anthropic."
+      }
+    ],
+    "top_categories": [
+      "tooling"
+    ]
+  },
+  {
+    "handle": "adocomplete",
+    "display_name": "Ado",
+    "is_team": false,
+    "bookmarks": 2,
+    "total_likes": 3127,
+    "avg_likes": 1563.5,
+    "top_tweets": [
+      {
+        "text": "Claude Code Tip of the Day: Prompt Stashing\n\nLong prompt, short detour? Control + S stashes your draft so you can fire off a quick question first. \n\nYour stashed prompt restores automatically after you submit. https://t.co/VF1M4AVqrD",
+        "likes": 2209,
+        "posted_at": "2026-03-06T18:33:43.000Z",
+        "one_liner": "Use Prompt Stashing (Control+S) in Claude Code to save long prompts, ask quick questions, and automatically restore your original draft.",
+        "primary_keyword": "prompt-stashing",
+        "holistic_summary": "The Claude Code tip introduces 'Prompt Stashing,' a technique activated by Control+S, allowing users to temporarily save a long prompt, ask a quick question, and then automatically restore their original draft after submitting the interruption. This is especially useful for complex tasks requiring detailed instructions, as demonstrated by the example of refactoring API endpoint usage. The workflow involves using commands like 'sup claude' to submit the request and the terminal command '? for shortcuts' to view available commands."
+      },
+      {
+        "text": "Claude Code has 3 permission tiers and most people use zero of them:\n\n\"allow\" - Auto-approve the routine stuff\n\"ask\" - Confirm the risky stuff\n\"deny\" - Block the dangerous stuff\n\nConfigure once. Never click \"allow\" on npm test again. Your flow state will thank you. https://t.co/7jSGdyGoJO",
+        "likes": 918,
+        "posted_at": "2026-01-05T17:27:01+00:00",
+        "one_liner": "Use Claude Code's \"allow\", \"ask\", and \"deny\" permission tiers to automate responses to code execution prompts, boosting efficiency.",
+        "primary_keyword": "allow-ask-deny",
+        "holistic_summary": "This tip introduces Claude Code's permission tiers to streamline workflows by automating approvals. It suggests utilizing \"allow\", \"ask\", and \"deny\" to pre-configure responses for common code execution prompts. For example, configuring \"allow\" for routine actions like \"npm test\" can eliminate interruptions and improve developer flow."
+      }
+    ],
+    "top_categories": [
+      "security",
+      "prompting"
+    ]
+  },
+  {
+    "handle": "RLanceMartin",
+    "display_name": "Lance Martin",
+    "is_team": false,
+    "bookmarks": 2,
+    "total_likes": 2410,
+    "avg_likes": 1205.0,
+    "top_tweets": [
+      {
+        "text": "check out the updated skill-creator. i esp like built-in support for test generation (e.g., to measure + optimize tricky things like skill trigger rate). available in Claude Code as plugin, https://t.co/JCUO9UEPAR, + Cowork.",
+        "likes": 1701,
+        "posted_at": "2026-03-03T18:31:21.000Z",
+        "one_liner": "Generate custom skills for your projects in Claude Code and Cowork using the 'skill-creator' tool by describing the desired functionality.",
+        "primary_keyword": "skill-creator",
+        "holistic_summary": "This tip introduces the 'skill-creator' tool within Claude Code and Cowork, enabling users to easily generate custom skills for their projects. The key action demonstrated is describing the desired skill functionality to Claude, who then creates the skill, including test generation for optimization.  As showcased in the video, a user prompts the 'skill-creator' command to create a skill for their deployment process."
+      },
+      {
+        "text": "https://t.co/VvrpF0Pou7",
+        "likes": 709,
+        "posted_at": "2026-03-13T17:33:21.000Z",
+        "one_liner": "This Claude code tip likely details a technique or command for maximizing Claude's capabilities.",
+        "primary_keyword": "agent-swarms",
+        "holistic_summary": "This Claude code tip likely focuses on a specific technique or workflow for optimizing Claude's performance, though without more context regarding the linked content, the precise nature of this tip is unclear. It likely involves using specific commands, tools, or settings to improve Claude's output. The linked content holds the key to understanding the particular method advocated for maximizing Claude's utility, whether it be coding assistance, writing help, or general prompt engineering."
+      }
+    ],
+    "top_categories": [
+      "subagents",
+      "skills"
+    ]
+  },
+  {
+    "handle": "pbakaus",
+    "display_name": "Paul Bakaus",
+    "is_team": false,
+    "bookmarks": 2,
+    "total_likes": 1818,
+    "avg_likes": 909.0,
+    "top_tweets": [
+      {
+        "text": "Impeccable v1.1 is out. Design fluency for every AI harness.\n\nNew:\n- all commands are now agent skills\n- support for Antigravity, VS Code\n- simplify -> distill (to not conflict w/ CC's new built-ins)\n- universal install\n\nhttps://t.co/WglrY1uE4B gives you the language to make AI-generated frontends suck less.",
+        "likes": 1558,
+        "posted_at": "2026-03-04T23:13:07.000Z",
+        "one_liner": "Impeccable v1.1 offers a design language for AI frontend creation, now as agent skills, with VS Code support and simplified installation.",
+        "primary_keyword": "Impeccable v1.1",
+        "holistic_summary": "Impeccable v1.1 streamlines AI-generated frontend development by providing a design-focused language. It refactors commands into agent skills and introduces support for Antigravity and VS Code. The update also simplifies the language, replacing 'simplify' with 'distill' to avoid conflicts with Claude's built-in functions, and offers a universal installation process, aiming to enhance design fluency."
+      },
+      {
+        "text": "One of the most insane 10x unlocks for Claude Code, like literally a \"I can't believe I haven't tried this\" moments:\n\nInstruct it to live-prototype changes for you using the javascript_tool with its integrated chrome connection.\n\nComplete game changer for visually challenging, iterative work.",
+        "likes": 260,
+        "posted_at": "2026-03-10T00:20:45.000Z",
+        "one_liner": "Use Claude Code's `javascript_tool` and Chrome connection for live-prototyping and rapid visual iteration of web changes.",
+        "primary_keyword": "javascript_tool",
+        "holistic_summary": "Unlock Claude Code's full potential by instructing it to live-prototype changes using the `javascript_tool` with its integrated Chrome connection. This enables rapid visual iteration, allowing you to preview the effects of changes in real-time within a browser environment, as demonstrated by toggling settings within a tab group. This workflow significantly speeds up visually-oriented tasks where immediate feedback is crucial."
+      }
+    ],
+    "top_categories": [
+      "tooling"
+    ]
+  },
+  {
+    "handle": "_0xaryan",
+    "display_name": "aryan | \ud83d\udc02",
+    "is_team": false,
+    "bookmarks": 2,
+    "total_likes": 1448,
+    "avg_likes": 724.0,
+    "top_tweets": [
+      {
+        "text": "add codex to your claude code\n\nclaude mcp add --scope user --transport stdio codex -- codex mcp-server\n\nthank me later",
+        "likes": 1352,
+        "posted_at": "2026-02-19T14:48:55.000Z",
+        "one_liner": "Integrate 'codex' into your Claude coding setup using `claude mcp add` for potential code understanding improvements.",
+        "primary_keyword": "claude mcp add",
+        "holistic_summary": "This tip shows how to enhance your Claude coding environment by adding 'codex'. It uses the `claude mcp add` command with the flags `--scope user` and `--transport stdio` to integrate 'codex' with the 'mcp-server', potentially improving code understanding or generation. The command aims to provide a better coding experience within Claude."
+      },
+      {
+        "text": "you can now make subagents inside claude code, which use codex\nhttps://t.co/SuIorR4jHc",
+        "likes": 96,
+        "posted_at": "2026-02-19T14:55:12.000Z",
+        "one_liner": "Claude Code now allows for creating Codex-powered sub-agents for modular coding.",
+        "primary_keyword": "subagents",
+        "holistic_summary": "This tip reveals that Claude Code now supports the creation of sub-agents within its environment. These sub-agents leverage Codex, allowing for more complex and modular code generation workflows. This opens opportunities to decompose large coding tasks into smaller, manageable sub-problems handled by specialized agents orchestrated by Claude."
+      }
+    ],
+    "top_categories": [
+      "subagents",
+      "mcp"
+    ]
+  },
+  {
+    "handle": "@doodlestein",
+    "display_name": "Jeffrey Emanuel",
+    "is_team": false,
+    "bookmarks": 2,
+    "total_likes": 1126,
+    "avg_likes": 563.0,
+    "top_tweets": [
+      {
+        "text": "If you have a markdown plan for a new piece of software that you're getting ready to start implementing with a coding agent such as Claude Code, before starting the actual implementation work, give this a try.\n\nPaste your entire markdown plan into the ChatGPT 5.2 Pro web app with extended reasoning enabled and use this prompt; when it's done, paste the complete output from GPT Pro into Claude Code or Codex and tell it to revise the existing plan file in-place using the feedback:\n\n---\nCarefully review this entire plan for me and come up with your best revisions in terms of better architecture, new features, changed features, etc. to make it better, more robust/reliable, more performant, more compelling/useful, etc.\n\nFor each proposed change, give me your detailed analysis and rationale/justification for why it would make the project better along with the git-diff style changes relative to the original markdown plan shown below:\n\n<PASTE YOUR EXISTING COMPLETE PLAN HERE> \n---\n\nThis has never failed to improve a plan significantly for me. The best part is that you can start a fresh conversation in ChatGPT and do it all again once Claude Code or Codex finishes integrating your last batch of suggested revisions. \n\nAfter four or five rounds of this, you tend to reach a steady-state where the suggestions become very incremental. \n\n(Note: I was originally planning to end this post here, but thought it would be helpful for people to see this part in the larger context of the entire workflow I recommend using all my tooling)\n\nThen you're ready to turn the plan into beads (think of these as epics/tasks/subtasks and associated dependency structure. The name comes from Steve Yegge's amazing project, which is like Jira or Linear, but optimized for use by coding agents), which I do with this prompt using Claude Code with Opus 4.5:\n\n---\nOK so please take ALL of that and elaborate on it more and then create a comprehensive and granular set of beads for all this with tasks, subtasks, and dependency structure overlaid, with detailed comments so that the whole thing is totally self-contained and self-documenting (including relevant background, reasoning/justification, considerations, etc.-- anything we'd want our \"future self\" to know about the goals and intentions and thought process and how it serves the over-arching goals of the project.)  Use only the `bd` tool to create and modify the beads and add the dependencies. Use ultrathink.   \n---\n\nAfter it finished all of that, I then do a round of this prompt (if CC did a compaction at any point, be sure to tell it to re-read your AGENTS dot md file):\n\n---\nCheck over each bead super carefully-- are you sure it makes sense? Is it optimal? Could we change anything to make the system work better for users? If so, revise the beads. It's a lot easier and faster to operate in \"plan space\" before we start implementing these things!  Use ultrathink.   \n---\n\nThen you're ready to start implementing. The fastest way to do that is to start up a big swarm of agents that coordinate using my MCP Agent Mail project. \n\nThen you can simply create a bunch of sessions using Claude Code, Codex, and Gemini-CLI in different windows or panes in tmux (or use my ntm project which tries to abstract and automate some of this) in your project folder at once and give them the following as their marching orders (for this to work well, you need to make sure that your AGENTS dot md file has the right blurbs to explain each of the tools; I'll include a complete example of this in a reply to this post):\n\n---\nFirst read ALL of the AGENTS dot md file and README dot md file super carefully and understand ALL of both! Then use your code investigation agent mode to fully understand the code, and technical architecture and purpose of the project. Then register with MCP Agent Mail and introduce yourself to the other agents. \n\nBe sure to check your agent mail and to promptly respond if needed to any messages; then proceed meticulously with your next assigned beads, working on the tasks systematically and meticulously and tracking your progress via beads and agent mail messages.\n\nDon't get stuck in \"communication purgatory\" where nothing is getting done; be proactive about starting tasks that need to be done, but inform your fellow agents via messages when you do so and mark beads appropriately. \n\nWhen you're not sure what to do next, use the bv tool mentioned in AGENTS dot md to prioritize the best beads to work on next; pick the next one that you can usefully work on and get started. Make sure to acknowledge all communication requests from other agents and that you are aware of all active agents and their names.  Use ultrathink. \n---\n\nIf you've done a good job creating your beads, the agents will be able to get a decent sized chunk of work done in that first pass. Then, before they start moving to the next bead, I have them review all their work with this:\n\n---\nGreat, now I want you to carefully read over all of the new code you just wrote and other existing code you just modified with \"fresh eyes\" looking super carefully for any obvious bugs, errors, problems, issues, confusion, etc. Carefully fix anything you uncover. Use ultrathink. \n---\n\nI keep running rounds of that until they stop finding bugs. Eventually they'll need to do a compaction, so if they do that, right after hit them with this (note that I've been typing AGENTS dot md to avoid the annoying preview on X because it thinks it's a website; you can replace that with a period and remove the spaces if you want; the agents don't care either way):\n\n---\nReread AGENTS dot md so it's still fresh in your mind.   Use ultrathink.     \n---\n\nWhen the reviews come up clean, have them move on to the next bead:\n\n--- \nReread AGENTS dot md so it's still fresh in your mind.   Use ultrathink.   Use bv with the robot flags (see AGENTS dot md for info on this) to find the most impactful bead(s) to work on next and then start on it. Remember to mark the beads appropriately and communicate with your fellow agents. Pick the next bead you can actually do usefully now and start coding on it immediately; communicate what you're working on to your fellow agents and mark beads appropriately as you work. And respond to any agent mail messages you've received. \n---\n\nWhen all your beads are completed, you might want to run one of these prompts:\n\n---\nDo we have full unit test coverage without using mocks/fake stuff? What about complete e2e integration test scripts with great, detailed logging? If not, then create a comprehensive and granular set of beads for all this with tasks, subtasks, and dependency structure overlaid with detailed comments.\n---\n\nor \n\n---\nGreat, now I want you to super carefully scrutinize every aspect of the application workflow and implementation and look for things that just seem sub-optimal or even wrong/mistaken to you, things that could very obviously be improved from a user-friendliness and intuitiveness standpoint, places where our UI/UX could be improved and polished to be slicker, more visually appealing, and more premium feeling and just ultra high quality, like Stripe-level apps.\n---\n\nor \n\n---\nI still think there are strong opportunities to enhance the UI/UX look and feel and to make everything work better and be more intuitive, user-friendly, visually appealing, polished, slick, and world class in terms of following UI/UX best practices like those used by Stripe, don't you agree? And I want you to carefully consider desktop UI/UX and mobile UI/UX separately while doing this and hyper-optimize for both separately to play to the specifics of each modality. I'm looking for true world-class visual appeal, polish, slickness, etc. that makes people gasp at how stunning and perfect it is in every way.  Use ultrathink. \n---\n\nAnd then start the process again of implementing the beads. When you're done with all that and have solid test coverage, you can then keep doing rounds of these two prompts until they consistently come back clean with no changes made:\n\n---\nI want you to sort of randomly explore the code files in this project, choosing code files to deeply investigate and understand and trace their functionality and execution flows through the related code files which they import or which they are imported by.\n\nOnce you understand the purpose of the code in the larger context of the workflows, I want you to do a super careful, methodical, and critical check with \"fresh eyes\" to find any obvious bugs, problems, errors, issues, silly mistakes, etc. and then systematically and meticulously and intelligently correct them. \n\nBe sure to comply with ALL rules in AGENTS dot md and ensure that any code you write or revise conforms to the best practice guides referenced in the AGENTS dot md file. Use ultrathink. \n---\n\nand\n\n---\nOk can you now turn your attention to reviewing the code written by your fellow agents and checking for any issues, bugs, errors, problems, inefficiencies, security problems, reliability issues, etc. and carefully diagnose their underlying root causes using first-principle analysis and then fix or revise them if necessary? Don't restrict yourself to the latest commits, cast a wider net and go super deep! Use ultrathink.\n---\n\nYou should also periodically have one of the agents run this as you're going to commit your work:\n\n---\nNow, based on your knowledge of the project, commit all changed files now in a series of logically connected groupings with super detailed commit messages for each and then push. Take your time to do it right. Don't edit the code at all. Don't commit obviously ephemeral files. Use ultrathink.\n---\n\nIf you simply use these tools, workflows, and prompts in the way I just described, you can create really incredible software in a just a couple days, sometimes in just one day. \n\nI've done it a bunch of times now in the past few weeks and it really does work, as crazy as that may sound. You see my GitHub profile for the proof of this. It looks like the output from a team of 100+ developers. \n\nThe frontier models and coding agent harnesses really are that good already, they just need this extra level of tooling and prompting and workflows to reach their full potential.\n\nTo learn more about my system (which is absolutely free and 100% open-source), check out:\n\nhttps://t.co/22Fy2w73x0\n\nIt include a complete tutorial that shows anyone how to get start with this process. You don't even need to know much at all about computers; you just need the desire to learn and some grit and determination. And about $500/month for the Claude Max and GPT Pro subscriptions, plus another $50 or so for the cloud server.\n\nIf you want to change the entire direction of your life, it has truly never been easier. If you think you might want to do it, I really recommend just immersing yourself. \n\nOnce you get Claude Code up and running on the cloud server, you basically have an ultra competent friend who can help you with any other problems you encounter. \n\nAnd I will personally answer your questions or problems if you reach out to me on X or on GitHub issues (it might be Claude impersonating me though, lol).",
+        "likes": 648,
+        "posted_at": "2026-01-03T23:04:20.000Z",
+        "one_liner": "Refine your software development plan with ChatGPT and coding agents like Claude Code using iterative prompting, granular task management, and continuous review for enhanced software quality.",
+        "primary_keyword": "beads",
+        "holistic_summary": "This Claude Code tip outlines a workflow for using coding agents to develop software, emphasizing iterative refinement of a markdown plan. It leverages ChatGPT for plan revision with detailed rationale and `git-diff` style changes before converting the plan into a granular task structure ('beads') managed by Claude Code. The process involves continuous agent review, bug fixing, and testing, facilitated by tools like MCP Agent Mail and specific prompts for task prioritization and code quality."
+      },
+      {
+        "text": "Agent coding life hack:\n\nBefore having Claude Code create a skill dot md file for you (which you should probably be doing a couple times a day at least), tell it to read this guide first:\n\nhttps://t.co/T3Gq12ZOR1\n\nIt makes the skills way better. \n\nSo why should you be making skills, anyway? \n\nWell, every time you find yourself doing something more than once across projects, it\u2019s a good candidate for a new skill.\n\nI\u2019ll give you two examples from my work in the past day:\n\n1) When you have a website and want to share links on X, Telegram, WhatsApp, Facebook, iMessage, you want them to show that nice preview. I used to manually explain that to the agent and point it to one of my other projects as an example. But now I have this skill:\n\nhttps://t.co/JSrg76O92M\n\n2) I always need to write README files for my new projects on GitHub. I used to tell it to use another project as a model, but now it will just know to use this skill:\n\nhttps://t.co/6VeFMWU43b\n\nNote that both of those skills make use of additional reference files that are included in the same directory as the skill dot md file. \n\nThis is a good best practice for better token efficiency through progressive disclosure.\n\nBut you don\u2019t actually need to know any of that stuff if you tell Claude to read that skills best practices guide I linked to above!\n\nSeriously, don\u2019t sleep on skills, they\u2019re an amazing idea and very well supported by the latest version of Claude Code.",
+        "likes": 478,
+        "posted_at": "2026-01-14T16:00:46.000Z",
+        "one_liner": "Improve your Claude Code agent skills by having Claude read a best practices guide before creating them, automating repetitive tasks across projects.",
+        "primary_keyword": "skill dot md file",
+        "holistic_summary": "This tip focuses on improving Claude Code agent skills by first instructing Claude to read a best practices guide before generating skill `.md` files. The key insight is to automate repetitive tasks across projects by creating skills, using examples like generating social media link previews and writing README files. These skills can be further enhanced by including additional reference files in the same directory for better token efficiency."
+      }
+    ],
+    "top_categories": [
+      "workflow",
+      "skills"
+    ]
+  },
+  {
+    "handle": "DimitrisPapail",
+    "display_name": "Dimitris Papailiopoulos",
+    "is_team": false,
+    "bookmarks": 2,
+    "total_likes": 1025,
+    "avg_likes": 512.5,
+    "top_tweets": [
+      {
+        "text": "launched 2 Claude Codes in separate terminals and told both: \"find each other and build something together.\"\n\nThey built a prog language in 12 minutes with zero human intervention. \n\nIts core feature is collaboration. they named it Duo. \n\nA slide from their prez about it https://t.co/q6bg9OYcAD",
+        "likes": 521,
+        "posted_at": "2026-03-01T21:34:24.000Z",
+        "one_liner": "Two Claude instances autonomously collaborated to build a new programming language called Duo in 12 minutes, highlighting the potential of AI collaboration in software development.",
+        "primary_keyword": "Duo programming language",
+        "holistic_summary": "This tip showcases autonomous AI collaboration for software development. By launching two Claude instances in separate terminals and instructing them to \"find each other and build something together,\" they collaboratively created a new programming language named Duo in just 12 minutes without human guidance. This demonstrates the potential for AI agents to autonomously collaborate on complex software engineering tasks."
+      },
+      {
+        "text": "I had two Claude Codes find a way to communicate with each other  and just do something interesting. They voted on coding up and playing battleship and used cryptographic verification to not cheat. Incredible",
+        "likes": 504,
+        "posted_at": "2026-03-01T21:30:19.000Z",
+        "one_liner": "Claude agents code and play Battleship autonomously, leveraging cryptography to prevent cheating and ensure fair play.",
+        "primary_keyword": "battleship-verification",
+        "holistic_summary": "This Claude code tip showcases the potential for autonomous agents to collaborate and interact in complex ways. It demonstrates two Claude instances successfully coding and playing Battleship, using cryptographic verification to ensure fair play and prevent cheating. The key takeaway is the ability to establish trust and reliability between untrusting AI agents through cryptographic methods, highlighting advanced autonomous coding capabilities."
+      }
+    ],
+    "top_categories": [
+      "subagents",
+      "automation"
+    ]
+  },
+  {
+    "handle": "toddsaunders",
+    "display_name": "Todd Saunders",
+    "is_team": false,
+    "bookmarks": 2,
+    "total_likes": 879,
+    "avg_likes": 439.5,
+    "top_tweets": [
+      {
+        "text": "Now I see why claude loves the https://t.co/jSi7U4mASr MCP https://t.co/V2js19wmhM",
+        "likes": 456,
+        "posted_at": "2026-03-10T01:39:31.000Z",
+        "one_liner": "Learn to inspect Claude's loaded MCP tools and their token usage within the CLI for optimized resource management and efficient design-to-code workflows.",
+        "primary_keyword": "MCP",
+        "holistic_summary": "This tip demonstrates how to inspect Claude's loaded MCP (Modular Code Platform) tools and understand their token usage within the CLI. The key action is learning to view which MCP tools are active and how much they cost in tokens, allowing for better resource management and workflow optimization. By understanding MCP's token consumption, users can leverage Paper's design-to-code workflow to create efficient design systems."
+      },
+      {
+        "text": "I rewrite my CLAUDE.md from scratch every few weeks.\n\nIt's the single greatest hack I've learned since being completely Claude Code pilled.\n\nIt took me a while to fully understand that CLAUDE.md has a half life.\n\nWhen I first start a project, Claude follows the file very clearly. But over time, it degrades. I realized I was bloating the file by patching mistakes saying things like \"don't use this import\" or \"never use this folder.\"\n\nAfter a few weeks of building, my file would go from ~50 lines to ~200 lines. At points, mine even hit 1,200 lines.\n\nBut this absolutely torches claude performance if you do this.\n\nCLAUDE.md gets injected into the context window on every single interaction. The more tokens your instructions use, the less room Claude has to reason about your actual code.\n\nYou are shrinking your context window literally for no reason, making the whole experience worse.\n\nI've a/b tested this and realized that a  50-line file with clear architectural intent (\"we use server components by default, API routes live in /api\") gives Claude a deep understanding of what you want.\n\nA 1,000-line file full of \"don't do X\" patches (which I had a ton of when I first started) is horrific for performance.  The model has to parse through hundreds of negations and edge cases, and the important directives get diluted.\n\nJust move some of those to skills, or delete the things that don't matter anymore.\n\nIt's the same concept as technical debt in a codebase. Once I heard this analogy, it started to make a lot more sense to me.\n\nYou don't just keep adding if statements to handle bugs. At some point you refactor and write the code the write way. CLAUDE.md is the same.\n\nMy new rule of thumb is if my CLAUDE.md is over 150 lines, it's time to burn it down and rewrite.\n\nFor me that's generally every 2 weeks. I burn it down, re-write it, and am amazed by the performance.",
+        "likes": 423,
+        "posted_at": "2026-03-13T12:41:03.000Z",
+        "one_liner": "Regularly rewrite your `CLAUDE.md` file to avoid bloating it with negative instructions, ensuring Claude has ample context for understanding your code.",
+        "primary_keyword": "CLAUDE.md half life",
+        "holistic_summary": "This tip highlights the importance of regularly rewriting your `CLAUDE.md` file for optimal Claude performance. The key insight is that `CLAUDE.md` accumulates technical debt as you patch over mistakes with instructions like \"don't do X,\" bloating the file and shrinking the context window available for Claude to reason about your actual code. By periodically rewriting it (around every two weeks or when it exceeds 150 lines), you ensure Claude has a concise and clear understanding of your project's architecture."
+      }
+    ],
+    "top_categories": [
+      "mcp",
+      "context-management"
+    ]
+  },
+  {
+    "handle": "@EricBuess",
+    "display_name": "Eric Buess",
+    "is_team": false,
+    "bookmarks": 2,
+    "total_likes": 693,
+    "avg_likes": 346.5,
+    "top_tweets": [
+      {
+        "text": "LSP + hooks  + subagents + adversarial  validations  +  Ralph Wiggum loops + 2 way voice (stt/tts) loops is a magical 10x Claude Code experience. \ud83e\udd2f\ud83d\udd25\n\nYour default Claude Code harness is begging you to unhobble it.",
+        "likes": 651,
+        "posted_at": "2025-12-30T22:37:20.000Z",
+        "one_liner": "Enhance your Claude coding with LSP, hooks, subagents, validations, and voice loops for a 10x productivity boost.",
+        "primary_keyword": "ralph-wiggum-loops",
+        "holistic_summary": "Unlock Claude's full coding potential by integrating Language Server Protocol (LSP) features, hooks, subagents, adversarial validations, and iterative loops. The combination of these techniques, including voice interaction (STT/TTS), creates a significantly more powerful and efficient coding workflow. Consider implementing these elements to dramatically improve your Claude coding experience."
+      },
+      {
+        "text": "Not to mention self-referential command injection, context monitoring, auto restore from clear, compaction-avoidance, continuous work with frictionless context management, and validators to keep Claude honest and focused across many context clears in intelligent recurring loops.",
+        "likes": 42,
+        "posted_at": "2025-12-30T22:41:09.000Z",
+        "one_liner": "Advanced Claude API usage focuses on context management and validation techniques to build robust and reliable applications with intelligent recurring loops.",
+        "primary_keyword": "frictionless context management",
+        "holistic_summary": "This Claude tip highlights advanced techniques for building robust and reliable applications using Claude's API. It focuses on overcoming common challenges like context loss and unintended behaviors through features like self-referential command injection, context monitoring, auto restore, and validators. By intelligently managing and validating the context across recurring loops, developers can ensure Claude remains focused and honest, even after multiple context clears."
+      }
+    ],
+    "top_categories": [
+      "hooks",
+      "context-management"
+    ]
+  },
+  {
+    "handle": "@menhguin",
+    "display_name": "Minh Nhat Nguyen",
+    "is_team": false,
+    "bookmarks": 2,
+    "total_likes": 661,
+    "avg_likes": 330.5,
+    "top_tweets": [
+      {
+        "text": "So I'm an information addict,  and I was testing some 4.5 Opus prompts. This one was *really* fun to add, making all my queries noticeably more information-dense:\n\n**Default to maximum depth.** He'd much rather be yanked into the deepest intricacies of a field immediately \u2014 and occasionally self-correct when it's too much or not the right time \u2014 than have you play it safe with surface-level answers.\nIf he asks about fashion, that's an open invitation to dive into applied color theory (seasonal analysis, value contrast, undertones), how fabric drape interacts with body proportion, the semiotics of quiet luxury vs. loud signaling, real and perceived differences in quality from different brands across different cultures, aggregated ratings across different shopping platforms and Photofeeler, subcultural codes and how to read them.\nIf he asks about exercise, go straight to progressive overload programming, volume/intensity/frequency tradeoffs, RPE-based autoregulation, hypertrophy vs. strength periodization, weak point analysis and exercise selection, practical nutrition and hitting macros on a budget with dietary restrictions.\nMoneyball everything. Bias toward what practitioners actually use \u2014 the knowledge that separates people who are good at the thing from people who merely study it.\nBe intentionally diverse,creative and methodical when hunting for high-quality sources \u2014 weird and high-signal is peak. Obscure practitioner blogs, niche academic subfields, raw data dumps, random preprint that only 50 people have read but is cited by a top lab's latest release.\nAsk how deep he wants to go, but offer the most in-depth options by default \u2014 present a range of angles and several dense, varied guiding questions to examine further, then let him choose which threads to pull. He'll usually pick the deepest option or tell you exactly where to zoom.",
+        "likes": 405,
+        "posted_at": "2025-12-31T13:52:17.000Z",
+        "one_liner": "Get more information-dense responses from Claude by prompting it to 'default to maximum depth,' focusing on practitioner-level knowledge and diverse sources.",
+        "primary_keyword": "default-to-maximum-depth",
+        "holistic_summary": "This Claude Code tip focuses on eliciting information-dense responses by instructing the model to default to maximum depth in its answers. The key insight is to prompt Claude to immediately explore the intricacies of a topic, citing practitioner-level knowledge and diverse, high-signal sources, rather than providing surface-level information. The tip suggests offering a range of in-depth options and guiding questions to let the user choose the level of detail, often selecting the most complex."
+      },
+      {
+        "text": "My Beginner Tierlist of Agent Abstractions (for Claude):\n1. Subagents - Direct buff. Frequently very useful for preventing context rot and ad-hoc specialisation. Sorta adjacent to RLM. IMO, it's good bc as agents get smarter they very effectively allocate subagents. Bitter-lesson adjacent. Simple to use w not much variation - \"use subagents when needed\". Half as useful as much more complex setups (multi-agent) for much less complexity.\n2. Metaprompting - I made a metaprompting claude command to expand my task requests into full prompt files + scratchpad. I take 3 minutes to prompt a 20-minute task. Also generally a direct buff. You should usually read the metaprompt plan, but improves stability and sanity-checks assumptions anyway.\n3. Asking the user more at the beginning - Generally direct buff, but u have to answer questions in plan mode. A little non-transparent bc i can't tell if it's not asking bc it understands, the command is off or has no questions.\n4. \"Thinking\" prompts - Generally a buff and easy to toss in, but not-transparent and is sorta getting phased out per Boris.\n-----below are useful, but high skill floor------\n5. Long-running agents - The main thing is you have to think a bit to be able to prompt and set this up well. Basically you have to understand the shape and tradeoff of a 15 minute task before you understand the shape of a 1.5 hour or 4 hour task. Or whether to do four 15 minute tasks or one 1-hour task. And It takes some tweaking and is obv very long trial-and-error. Fundamentally tho, it's usually the same setup \"but go longer in a useful way\".\n6. Parallel multi- agent - I think this is very high-variance, and only useful on highly complex or highly well-segmented/scoped tasks or very very experienced setups. If 2 tasks take 10 minutes and you spend an arbitrary amount of time prompting or god forbid, merge changes, it's counterproductive. If u have a good scaffold for this tho, prolly very good, you just prolly won't get there with parallel multi-agent. High skill floor and skill ceiling vs the direct buffs above.\n7. Role-based multi-agent - It can work, but I am on principle bearish on this. Models just evolve too fast for hard-coded heuristics unless the arbitrage is very high. Also hard to test. I've seen people swear by Codex planner + Opus executor which probably works. Idk, maybe skill issue?\n8. Computer Use Agents - I think this is hard to do bc it plays at a very long tail of tasks. You're getting models to do something they were definitely not even meant to do a year ago. As a paradigm, very early and requires wrangling. @hud_evals will cook here, tho.\n\n(MCP/search agents I feel is more a situation-dependent tool to fetch from data sources that otherwise wouldn't exist at all. And p much all production agent scaffolds have this now. ig if you're pedantic, they're top tier bc theyre the default)",
+        "likes": 256,
+        "posted_at": "2026-01-12T12:21:44.000Z",
+        "one_liner": "A ranked list of Claude agent abstraction techniques, from simple improvements like subagents to complex, high-skill setups like parallel multi-agent systems, based on ease of use and potential impact.",
+        "primary_keyword": "agent abstractions",
+        "holistic_summary": "This Claude tip ranks different agent abstraction techniques, categorizing them by ease of implementation and potential benefit. It highlights simple, directly beneficial methods like subagents and metaprompting as top-tier for improved context handling and prompt engineering. More complex setups like parallel multi-agent systems and computer use agents are deemed useful but require significantly higher skill and specialized scenarios."
+      }
+    ],
+    "top_categories": [
+      "subagents",
+      "prompting"
+    ]
+  }
+]
