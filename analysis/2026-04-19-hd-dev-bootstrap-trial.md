@@ -53,12 +53,31 @@ See `scripts/playbook/README.md` for usage notes and known limitations.
 
 ## Numbers
 
-- **Source documents processed:** 9 (1 email, 1 tool README, 1 top-level README, 3 HTML files, 3 PDFs)
-- **Wiki artifacts produced:** 30 files
-- **Total internal links generated:** 294
-- **Broken-stub links (intentional):** 21
-- **Pass-count:** 4 on the documents alone (no chat archive yet)
-- **Compilation time:** ~6 hours end-to-end
+- **Source documents processed:** 10 (1 email, 1 tool README, 1 top-level README, 3 HTML files, 3 PDFs + 1 LinkedIn newsletter added Pass 5)
+- **Wiki artifacts produced:** 33 files (+3 in Pass 5: licensed-human-likeness, tkachuk-plum cases, resolution-newsletter-launch)
+- **Pass-count:** 5 on documents (Passes 1-4 on 2026-04-19, Pass 5 on 2026-04-20)
+- **Compilation time:** ~6 hours for initial bootstrap + ~30 min per subsequent pass
 - **Questions asked of Will:** 0
 
 That last number is the one that matters most.
+
+## Pass 5 addendum — Resolution newsletter processing (2026-04-20)
+
+Will sent his newly-published LinkedIn newsletter *"The Resolution — Issue 001"* as a raw document. Pass 5 processed it:
+
+- **Method:** Spawned research subagent for deep-read (1.7MB HTML — LinkedIn's export bloat); applied amendments and drafted new articles from the structured findings.
+- **New content produced:** 1 concept article (Licensed Human Likeness), 2 event articles (Tkachuk/Plum AI cases, Resolution newsletter launch), amendments to 6 spine/concept files, 5 new glossary terms, 2 new people (EIDR leadership).
+- **Patent-disclosure soft flag surfaced:** LHL framing as *"authoritative record against which any AI-generated content can be measured"* is adjacent to patent Claim 2 territory. Marketing phrasing, not method disclosure, but flagged for counsel.
+- **Pass 5 validated the skill extraction.** The workflow was clean enough that formalizing it as `/wiki-compile` became obvious. Skill drafted concurrently with the execution.
+
+**Key pattern confirmation:** the summary doc we sent Will was never opened. Instead of going through the summary's 6-step walkthrough, Will engaged the wiki by simply *sending more raw material* and trusting us to compile it. This is actually the cleanest possible collaboration pattern — we stay in "compile" mode on our side, he stays in "gather" mode on his side, and the wiki grows without requiring him to do any GitHub mechanics.
+
+**For playbook v0.3:** document this pattern explicitly. The summary doc is useful as an option, not a requirement. The *real* loop is: raw material flows in (via email, Drive, or direct commit), wiki grows, human reviews when ready. Steps 4-7 of the summary doc are aspirational; Step 5a (upload a document) is the actual load-bearing interaction.
+
+## Skill extracted (Pass 5)
+
+- `.claude/commands/wiki-compile.md` — reusable skill formalizing the compilation workflow
+  - HD-Dev version: domain-specialized (mentions patent guardrails, HAND terminology, prior passes)
+  - claude-code-tips version: project-agnostic, documents adaptation points, references this trial as pattern origin
+
+The skill appears automatically in Claude Code's skills list once committed, so `/wiki-compile` becomes a one-command interface for future passes.
