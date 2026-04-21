@@ -2,8 +2,10 @@
 
 > A template for turning scattered AI-assisted work into a coherent, team-shareable, LLM-ready project.
 >
-> **Version:** v0.2 — April 2026
-> **Changes from v0.1:** Reorganized around Karpathy's `raw/` vs. `wiki/` separation as the core architecture. LLM-compiled wiki is now the default, with human editing positioned as correction-not-origination. Obsidian replaces GitHub web view as the recommended frontend for non-technical teams. Audit-your-setup ritual incorporated into Phase 5 after experimental validation. Distributed enrichment / token budget coordination promoted to its own section.
+> **Version:** v0.3 — April 2026
+> **Changes from v0.2:** Added two new Core Principles — Visual enrichment as first-class raw (Gemini-vision sidecar `.md` convention for photos, floorplans, diagrams) and Voice memos as first-class raw input (the main team-member interaction mode going forward). Added `SOURCES.md` and `ASKS.md` as spine files (inventory + human-only-asks ledger, the inverses of existing wiki files). Commit-by-default privacy convention documented explicitly. `/wiki-compile` skill formalized. Directory layout expanded with `raw/photos/`, `raw/voice-memos/`, and sidecar convention. Prerequisites now mention `.env` + Gemini API key as a standard bootstrap artifact.
+>
+> **Changes from v0.1:** Reorganized around Karpathy's `raw/` vs. `wiki/` separation as the core architecture. LLM-compiled wiki is now the default. Obsidian as recommended frontend for non-technical teams. Audit-your-setup ritual incorporated into Phase 5. Distributed enrichment / token budget coordination.
 >
 > Maintained in: [claude-code-tips](https://github.com/januff/claude-code-tips)
 
@@ -81,6 +83,69 @@ On a team, no single Claude instance should have to read everything. Each team m
 - Helen (operations) compiles concept articles on customer and workflow
 
 Coordination happens through the wiki itself — article ownership, last-edited-by metadata, and a shared understanding of who compiles what. This is how you keep the combined enrichment cost manageable even at team scale.
+
+### 6. Visual content is first-class raw material
+
+Photos, floorplans, diagrams, screenshots, decks, whiteboards — every image dropped into the raw layer is analyzed on ingestion and gets a machine-readable **sidecar `.md`** that lives next to it. The image itself is the artifact; the sidecar is what the wiki reads and cites. This makes the whole image corpus queryable without re-running vision calls during every compilation pass.
+
+**Convention:**
+
+```
+raw/photos/2026-05-kitchen-south-facing.jpg
+raw/photos/2026-05-kitchen-south-facing.jpg.md    ← sidecar description
+```
+
+**What the sidecar contains** (produced by Gemini vision or equivalent):
+
+- Rich verbal description (rooms, objects, orientation, lighting, estimated dimensions)
+- Identified text/labels in the image
+- Spatial relationships (for floorplans: which rooms adjoin which; for bird's-eye shots: compass orientation and property boundaries)
+- State annotation (*"current staged condition"* vs. *"empty room"* vs. *"floorplan drawing"* vs. *"pre-renovation"*)
+- Cross-references to other images that depict the same space from a different angle
+
+**Why this matters:**
+
+- **Concept articles can describe layouts without re-processing images** — they read the sidecar text
+- **Queries like "what's facing south?" or "what's adjacent to the kitchen?" become answerable** from the compiled sidecars
+- **Multiple views of the same space reconcile** — three photos of the same room from different angles produce three sidecars that cross-reference each other
+- **Downstream tools (3D planning, visualization prompts, decor suggestions) can be fed structured descriptions** instead of raw pixels, so they work deterministically
+
+**Setup requirement:** bootstrap the project with a `.env` file containing a `GEMINI_API_KEY` (or equivalent vision-model credential). Add `.env` to `.gitignore`. Add an `enrich_visuals.py` script (or `/enrich-visuals` skill) that processes new images into sidecars on every compilation pass.
+
+**Projects where this matters most:** real estate / home projects (floorplans, staging photos), anything with diagrams or architectural drawings, decks and PowerPoints with substantive visuals, whiteboard photos from meetings, screenshots that encode UI or data.
+
+### 7. Voice memos are first-class raw input
+
+For team members working under cognitive or time constraints — founders in transit, patients between appointments, anyone with less bandwidth for typed prose — **voice memos become the primary interaction mode with the project**. The playbook assumes this from day one rather than retrofitting it later.
+
+**The expected workflow:**
+
+1. Team member opens their Claude Code session (terminal or desktop-app Code tab, scoped to the project folder)
+2. They speak — about anything relevant to the project: an observation, a to-do, a question, a placeholder, a cross-team ask
+3. Claude saves the transcription to `raw/voice-memos/YYYY-MM-DD-[speaker]-[topic].md` with frontmatter (date, speaker, project context)
+4. The memo gets compiled into the wiki on the next `/wiki-compile` pass — same as any other raw source
+
+**Voice memos typically contain:**
+
+- Multiple topics in one utterance (cross-cutting)
+- Placeholders (*"need to check with Sarah about this"*)
+- Asks directed at specific team members
+- To-do items
+- Factual observations
+- Opinions, reactions, half-formed ideas
+
+The compilation skill should handle all of these — some feeding into concept articles, some into [`ASKS.md`](#the-wiki-spine) (human-only items), some into [`DECISIONS.md`](#the-wiki-spine), some as standalone notes that backlink into whichever articles they touch.
+
+**Transcription options, ranked by friction:**
+
+1. **Claude Code's built-in voice mode** (when available in the session) — zero setup, works on desktop-app Code tab
+2. **Native OS dictation** — paste transcribed text into the session
+3. **MacWhisper / Whisper-via-API** — highest quality for long memos, requires install
+4. **Mobile voice notes → shared drive → raw/voice-memos/** — a fallback for situations where opening a terminal is impractical
+
+**The underlying principle** (credit: Karpathy's vibe-coding pattern): humans shouldn't have to linearize their own thinking before handing it to an LLM. Frontier models reorder, categorize, and synthesize speech-style input fluently. Make the act of *speaking* into the project as light a cognitive lift as possible, and let the compilation layer do the structure.
+
+**Projects where this matters most:** team members with limited typing energy (illness, injury, chemotherapy), founders who do a lot of driving or transit, situations where the project touches locations the team member physically visits (a new home, a construction site, a property walkthrough, a medical appointment about a client's health).
 
 ---
 
@@ -296,19 +361,31 @@ YOUR_PROJECT/
 ├── CLAUDE.md                       # Bootstrap instructions for any Claude instance
 ├── STATUS.json                     # Machine-readable project state
 ├── README.md                       # Public-facing
+├── .env                            # GEMINI_API_KEY etc.  ← gitignored
+├── .gitignore
 │
 ├── raw/                            # Source material, unprocessed
+│   ├── README.md                   # Conventions (commit-by-default etc.)
 │   ├── chat-archive/               # Chat exports (gitignored if private)
-│   ├── documents/                  # PDFs, decks, emails, screenshots
+│   ├── documents/                  # PDFs, decks, emails, downloaded web pages
+│   ├── photos/                     # Images + Gemini-vision sidecar .md files
+│   │   ├── 2026-05-kitchen.jpg
+│   │   └── 2026-05-kitchen.jpg.md  # ← sidecar description, committable
+│   ├── voice-memos/                # Transcribed voice notes with frontmatter
+│   │   └── 2026-05-12-joey-garage-slope.md
 │   ├── meeting-transcripts/
 │   ├── chat-archive-inventory.md   # Metadata-only index, committable
-│   └── EXCLUDED.md                 # Audit trail of excluded content
+│   ├── EXCLUDED.md                 # Audit trail of excluded content
+│   └── PRIVATE.md                  # Files deliberately gitignored (if any)
 │
 ├── wiki/                           # LLM-compiled synthesis layer (Obsidian vault)
-│   ├── _index.md                   # Auto-maintained
-│   ├── CLAUDE.md                   # Wiki-specific bootstrap
+│   ├── _index.md                   # Auto-maintained TOC
+│   ├── _SUMMARY_FOR_[CLIENT].md    # Review entry point (optional, client projects)
+│   ├── SOURCES.md                  # Inventory of raw/ with hashes + citation counts
 │   ├── WHO.md                      # Team roster
-│   ├── DECISIONS.md                # Architectural decisions log
+│   ├── DECISIONS.md                # Settled-or-pending decisions log
+│   ├── ASKS.md                     # Pending human-only asks (inverse of DECISIONS)
+│   ├── TIMELINE.md                 # Full chronology
 │   ├── GLOSSARY.md                 # Domain terms
 │   ├── concepts/                   # Concept articles
 │   ├── people/                     # Individual-focused articles
@@ -320,8 +397,11 @@ YOUR_PROJECT/
 │
 ├── .claude/
 │   ├── hooks/
-│   ├── commands/
+│   ├── commands/                   # /wiki-compile, /enrich-visuals, etc.
 │   └── settings.json
+│
+├── scripts/
+│   └── enrich_visuals.py           # Gemini-vision sidecar generator (optional)
 │
 └── [product code, if any]          # e.g., src/, app/, lib/
 ```
