@@ -48,6 +48,18 @@ Before touching the wiki:
 - Confirm expected engagement level: **light amendment pass**, **new article**, or **both**
 - Remind the user that any changes are on the current branch and will appear in the next push / PR update
 
+### Step 1.5 — Dedup check via SOURCES.md
+
+Before reading the source:
+
+1. Compute SHA-256 hash of the source file (first 12 hex chars)
+2. Check `wiki/SOURCES.md` for that hash
+3. **Same content, any filename:** either a no-op (same filename) or just add the alternate filename to the entry (different filename); skip re-processing
+4. **Different content, same filename:** treat as supersede; propose version-suffixing or date-suffixing the old file
+5. **Otherwise:** proceed
+
+If the project doesn't have a `SOURCES.md` yet, create one as part of this pass.
+
 ### Step 2 — Deep-read (via research subagent if source is substantial)
 
 For any source over ~10KB of text content, spawn a research subagent with this prompt shape:
@@ -85,6 +97,7 @@ For each new concept/people/event article:
 ### Step 5 — Update spine files
 
 - **`_index.md`** — add the new articles, update wiki-health counts, add a compilation-passes entry
+- **`SOURCES.md`** — inventory of raw documents with hash, privacy flag, citation count. Add a row for the new source; recount citations after processing.
 - **`TIMELINE.md`** — add any new dated events with cross-links
 - **`WHO.md`** — add any new people (as inline profiles unless they warrant standalone articles)
 - **`GLOSSARY.md`** — add any new domain terms with sources
