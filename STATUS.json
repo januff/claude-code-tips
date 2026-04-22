@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-04-18T17:39:12.853637+00:00",
-  "updated_by": "claude-code",
+  "updated_at": "2026-04-21T00:00:00+00:00",
+  "updated_by": "claude-desktop (Pass 6 HD-Dev checkpoint)",
   "last_commit": {
-    "sha": "70af973",
-    "message": "feat: data packages and infographic prompts for visualization experiments",
-    "date": "2026-03-23T18:34:21-07:00"
+    "sha": "ffbf36b",
+    "message": "feat: PROJECT_BOOTSTRAP_PLAYBOOK v0.3 — visual enrichment + voice memos as first-class raw",
+    "date": "2026-04-21"
   },
   "stats": {
     "tweets": 600,
@@ -14,11 +14,12 @@
     "links_resolved": 189
   },
   "recent_changes": [
+    "2026-04-21: Playbook v0.3 published — added Core Principles 6 (Visual enrichment: Gemini-vision sidecar .md convention) and 7 (Voice memos as first-class raw input). Directory layout expanded with raw/photos/, raw/voice-memos/, wiki/SOURCES.md, wiki/ASKS.md. Prerequisites now include .env with GEMINI_API_KEY.",
+    "2026-04-20: /wiki-compile skill added at .claude/commands/wiki-compile.md. Reference implementation from HD-Dev passes 2-6. Auto-registers in any Claude Code session.",
+    "2026-04-19 to 04-21: HD-Dev bootstrap trial (6 passes, PR #1 merged). Validated full playbook flow with Will Kreth / Human & Digital. Trial writeup at analysis/2026-04-19-hd-dev-bootstrap-trial.md. Session checkpoint at analysis/2026-04-21-session-checkpoint.md.",
+    "2026-04-21 (in flight): Skyline bootstrap trial launched — second live application of playbook v0.3, co-run with brother Ed. Terminal-first, Gemini-enrichment-from-day-one. Separate repo at ~/Development/Skyline, to be pushed to januff/Skyline.",
     "Bookmark fetch 2026-04-18: 38 NEW tweets (600 total), full enrichment pipeline, vault export (590 notes)",
-    "Notable new: @claudeai Managed Agents (56979), auto mode (39185); @karpathy LLM KBs (56369); @trq212 Claude Code channels (25659), /ultraplan (10349); @bcherny hidden CLI thread (23135); @noahzweben /schedule (4352), Routines (3646)",
-    "Bookmark fetch 2026-03-19: 6 NEW tweets (562 total), full enrichment pipeline, vault export (552 notes)",
-    "Notable new: @felixrieseberg Cowork Dispatch (17270), @trq212 prompt trick (15011), @oliviscusAI PDF-to-markdown (7861), @PawelHuryn DESIGN.md (2522)",
-    "Bookmark fetch 2026-03-16: 18 NEW tweets (556 total), full enrichment pipeline, vault export (546 notes)"
+    "Notable new (04-18): @claudeai Managed Agents (56979), auto mode (39185); @karpathy LLM KBs (56369); @trq212 Claude Code channels (25659), /ultraplan (10349); @bcherny hidden CLI thread (23135); @noahzweben /schedule (4352), Routines (3646)"
   ],
   "known_issues": [
     "PROGRESS.md stale (last updated Jan 5)",
@@ -47,7 +48,27 @@
   },
   "active_task": {
     "plan": "plans/active/TASK_PLAN.md",
-    "description": "Public launch \u2014 README rewrite, community map, weekly rhythms, repo audit",
-    "current_phase": "Phase 1: Research & Inventory"
-  }
+    "description": "Public launch — README rewrite, community map, weekly rhythms, repo audit",
+    "current_phase": "Phase 1: Research & Inventory",
+    "note": "Deprioritized during 2026-04-19..21 HD-Dev bootstrap trial. Resume when Skyline bootstrap stabilizes."
+  },
+  "parallel_projects": {
+    "hd-dev-trial": {
+      "repo": "humandigital-tech/HD-Dev",
+      "status": "PR #1 merged 2026-04-20, 6 passes complete, awaiting Will's chat archive / MDM 2.0 doc",
+      "local": "~/Development/HD-Dev",
+      "writeup": "analysis/2026-04-19-hd-dev-bootstrap-trial.md"
+    },
+    "skyline-trial": {
+      "repo": "januff/Skyline (pending push)",
+      "status": "bootstrap Pass 1 in flight as of 2026-04-21; first test of playbook v0.3 with visual enrichment",
+      "local": "~/Development/Skyline"
+    }
+  },
+  "pending_followups": [
+    "Add ASKS.md as a spine file in HD-Dev Pass 7 (human-only asks ledger, inverse of DECISIONS.md). Playbook v0.3 documents the pattern.",
+    "Draft next Will prompt: pings-between-terminals architecture once ASKS.md exists.",
+    "Reconcile claude-code-tips active_task — either retire the stale 'Public launch' plan or resume it after trials.",
+    "HD-Dev `documents/` folder fully deprecated; all sources in raw/documents/. No further action needed there."
+  ]
 }

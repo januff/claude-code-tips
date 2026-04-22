@@ -212,3 +212,27 @@ Worth capturing because they'll inform how future sessions shape their work:
 ---
 
 *This checkpoint exists because Joey explicitly asked for it near 76% context. Its existence is itself an instance of the pattern: substantiate-through-documents rather than substantiate-through-memory. When in doubt about what to write, write it down.*
+
+---
+
+## Post-checkpoint additions (continued same-day, 2026-04-21)
+
+The session kept going after the checkpoint was saved. Four more things landed, all small but worth preserving:
+
+### Playbook v0.3 shipped
+Two new Core Principles added before the Skyline trial so they're foundational rather than retrofitted:
+
+- **Core Principle 6 — Visual enrichment as first-class raw.** Gemini-vision sidecar `.md` convention: every image gets `foo.jpg` + `foo.jpg.md` living side by side. Sidecar carries rich description, spatial relationships, state annotation (staged/empty/floorplan), cross-references to other views of the same space. The wiki reads the sidecar, not the pixels — vision calls happen once at ingestion, never re-run. Bootstrap now requires `.env` with `GEMINI_API_KEY`.
+- **Core Principle 7 — Voice memos as first-class raw input.** Team members with limited typing energy (illness, transit, appointments) interact with the project by speaking into their Claude Code session. Transcription saves to `raw/voice-memos/YYYY-MM-DD-speaker-topic.md`. Compilation handles multi-topic utterances, placeholders, asks. Karpathy-vibe-coding principle generalized to the team-loop layer.
+
+Directory layout expanded to include `raw/photos/`, `raw/voice-memos/`, `wiki/SOURCES.md`, `wiki/ASKS.md`, `scripts/enrich_visuals.py`. Committed in claude-code-tips as `ffbf36b`.
+
+### Skyline bootstrap launched
+Second live application of the playbook — terminal-first, Gemini-enrichment-from-day-one, co-run with Ed (Claude-fluent, direct push access). Local path `~/Development/Skyline`, to be pushed to `januff/Skyline`. Bootstrap Pass 1 currently in flight as this addendum was written; first opportunity to validate playbook v0.3 on a greenfield project.
+
+### STATUS.json sync in both repos
+Both `claude-code-tips/STATUS.json` and `HD-Dev/STATUS.json` updated to reflect reality (they were drifting). claude-code-tips now tracks parallel projects (HD-Dev trial, Skyline trial) and pending follow-ups explicitly. HD-Dev STATUS.json last_commit.sha corrected from Pass 5 to Pass 6.
+
+### Pending: next Will prompt
+Once ASKS.md is scaffolded (Pass 7), the next Will-facing action is a paste-this prompt that sets up regular Claude-to-Claude pings between his terminal session and ours. Draft captured in the main chat for the next session to pick up; key idea is his Claude periodically pulls main, reads ASKS.md for items tagged for his side, does what it can without bothering Will, commits back.
+
